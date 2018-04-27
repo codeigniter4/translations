@@ -3,9 +3,10 @@
 return [
 	// Core Messages
 	'noRuleSets'            => 'Nenhum conjunto de regras especificado na configuração de Validação.',
-	'ruleNotFound'          => '{rule} não é uma regra válida.',
-	'groupNotFound'         => '%s não é um grupo de regras de validação.',
-	'groupNotArray'         => 'O grupo de regras %s deve ser um array.',
+	'ruleNotFound'          => '{0} não é uma regra válida.',
+	'groupNotFound'         => '{0} não é um grupo de regras de validação.',
+	'groupNotArray'         => 'O grupo de regras {0} deve ser um array.',
+	'invalidTemplate'       => '{0} não é um template de Validation válido.',
 
 	// Rule Messages
 	'alpha'                 => 'O campo {field} pode conter apenas caracteres alfabéticos.',

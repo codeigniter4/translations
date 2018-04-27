@@ -20,5 +20,4 @@ return [
 	'saveFailed'             => 'Não é possível salvar a imagem. Por favor, certifique-se de que a imagem e o diretório de arquivos são graváveis.',
 	'invalidDirection'       => 'A direção da giro pode ser somente `vertical` ou `horizontal`.',
 	'exifNotSupported'       => 'A leitura de dados EXIF não é suportada por esta instalação do PHP.',
-	'pageNotFound'           => 'Página Não Encontrada',
 ];
