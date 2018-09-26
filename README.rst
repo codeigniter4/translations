@@ -6,7 +6,7 @@ This project contains translations for CodeIgniter 4
 localization, eg. **system/Language/en**.
 
 Copy the folder(s) for the locales you are interested in,
-from inside the **language** folder of this project to your
+from inside the **Language** folder of this project to your
 **application/Language** folder.
 
 You may then use the CodeIgniter Language class to reference the translations
