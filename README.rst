@@ -1,6 +1,6 @@
-##########################@@##################
+##############################################
 Translations for CodeIgniter 4 System Messages
-#######################@@#####################
+##############################################
 
 This project contains translations for CodeIgniter 4
 localization, eg. **system/Language/en**.
