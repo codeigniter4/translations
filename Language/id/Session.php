@@ -14,9 +14,9 @@
  * @codeCoverageIgnore
  */
 return [
-	'missingDatabaseTable'   => '`sessionSavePath` must have the table name for the Database Session Handler to work.',
-	'invalidSavePath'        => "Session: Configured save path '{0}' is not a directory, doesn't exist or cannot be created.",
-	'writeProtectedSavePath' => "Session: Configured save path '{0}' is not writable by the PHP process.",
-	'emptySavePath'          => 'Session: No save path configured.',
-	'invalidSavePathFormat'  => 'Session: Invalid Redis save path format: {0}',
+	'missingDatabaseTable'   => '`sessionSavePath` harus memiliki nama tabel untuk Handler Sesi Basis Data untuk bekerja.',
+	'invalidSavePath'        => "Sesi: Jalur penyimpanan terkonfigurasi '{0}' bukan sebuah direktori, tidak ada atau tidak dapat dibuat.",
+	'writeProtectedSavePath' => "Sesi: Jalur penyimpanan terkonfigurasi '{0}' tidak dapat ditulis oleh proses PHP.",
+	'emptySavePath'          => 'Sesi: Tidak ada jalur penyimpanan yang dikonfigurasi.',
+	'invalidSavePathFormat'  => 'Sesi: Format jalur penyimpanan Redis tidak valid: {0}',
 ];

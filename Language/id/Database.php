@@ -14,8 +14,8 @@
  * @codeCoverageIgnore
  */
 return [
-	'invalidEvent'         => '{0} is not a valid Model Event callback.',
-	'invalidArgument'      => 'You must provide a valid {0}.',
-	'invalidAllowedFields' => 'Allowed fields must be specified for model: {0}',
-	'emptyDataset'         => 'There is no data to {0}.',
+	'invalidEvent'         => '{0} bukan sebuah panggilan balik Model Event yang valid.',
+	'invalidArgument'      => 'Anda harus memberikan sebuah {0} yang valid.',
+	'invalidAllowedFields' => 'Bidang yang diizinkan harus ditentukan untuk model: {0}',
+	'emptyDataset'         => 'Tidak ada data untuk {0}.',
 ];

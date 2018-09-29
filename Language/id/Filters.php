@@ -14,6 +14,6 @@
  * @codeCoverageIgnore
  */
 return [
-	'noFilter'           => '\'{0}\' filter must have a matching alias defined.',
-	'incorrectInterface' => '{0} must implement CodeIgniter\Filters\FilterInterface.',
+	'noFilter'           => 'Filter \'{0}\' harus memiliki sebuah alias sesuai yang ditentukan.',
+	'incorrectInterface' => '{0} harus menerapkan CodeIgniter\Filters\FilterInterface.',
 ];

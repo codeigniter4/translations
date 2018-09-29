@@ -13,10 +13,10 @@
  * @codeCoverageIgnore
  */
 return [
-	'invalidCellMethod'     => '{class}::{method} is not a valid method."',
-	'missingCellParameters' => '{class}::{method} has no params.',
-	'invalidCellParameter'  => '{0} is not a valid param name.',
-	'noCellClass'           => 'No view cell class provided.',
-	'invalidCellClass'      => 'Unable to locate view cell class: {0}.',
-	'tagSyntaxError'        => 'You have a syntax error in your Parser tags: {0}',
+	'invalidCellMethod'     => '{class}::{method} bukan sebuah metode yang valid."',
+	'missingCellParameters' => '{class}::{method} tidak memiliki parameter.',
+	'invalidCellParameter'  => '{0} bukan sebuah nama parameter yang valid.',
+	'noCellClass'           => 'Tidak ada kelas view cell yang disediakan.',
+	'invalidCellClass'      => 'Tidak dapat menemukan kelas view cell: {0}.',
+	'tagSyntaxError'        => 'Anda memiliki sebuah kesalahan sintaks di tag Parser anda: {0}',
 ];

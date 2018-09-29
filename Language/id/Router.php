@@ -14,6 +14,6 @@
  * @codeCoverageIgnore
  */
 return [
-	'invalidParameter'    => 'A parameter does not match the expected type.',
-	'missingDefaultRoute' => 'Unable to determine what should be displayed. A default route has not been specified in the routing file.',
+	'invalidParameter'    => 'Sebuah parameter tidak cocok dengan tipe yang diharapkan.',
+	'missingDefaultRoute' => 'Tidak dapat menentukan apa yang harus ditampilkan. Sebuah rute default belum ditentukan dalam berkas routing.',
 ];

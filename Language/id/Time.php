@@ -14,12 +14,12 @@
  * @codeCoverageIgnore
  */
 return [
-	'invalidMonth'   => 'Months must be between 1 and 12. Given: {0}',
-       'invalidDay'     => 'Days must be between 1 and 31. Given: {0}',
-       'invalidOverDay' => 'Days must be between 1 and {0}. Given: {1}',
-	'invalidHours'   => 'Hours must be between 0 and 23. Given: {0}',
-	'invalidMinutes' => 'Minutes must be between 0 and 59. Given: {0}',
-	'invalidSeconds' => 'Seconds must be between 0 and 59. Given: {0}',
+	'invalidMonth'   => 'Bulan harus antara 1 dan 12. Diberikan: {0}',
+    'invalidDay'     => 'Hari harus antara 1 dan 31. Diberikan: {0}',
+    'invalidOverDay' => 'Hari harus antara 1 dan {0}. Diberikan: {1}',
+	'invalidHours'   => 'Jam harus antara 0 dan 23. Diberikan: {0}',
+	'invalidMinutes' => 'Menit harus di antara 0 dan 59. Diberikan: {0}',
+	'invalidSeconds' => 'Detik harus antara 0 dan 59. Diberikan: {0}',
 	'years'          => '{0, plural, =1{# year} other{# years}}',
 	'months'         => '{0, plural, =1{# month} other{# months}}',
 	'weeks'          => '{0, plural, =1{# week} other{# weeks}}',
@@ -27,9 +27,9 @@ return [
 	'hours'          => '{0, plural, =1{# hour} other{# hours}}',
 	'minutes'        => '{0, plural, =1{# minute} other{# minutes}}',
 	'seconds'        => '{0, plural, =1{# second} other{# seconds}}',
-	'ago'            => '{0} ago',
-	'inFuture'       => 'in {0}',
-	'yesterday'      => 'Yesterday',
-	'tomorrow'       => 'Tomorrow',
-	'now'            => 'Just now',
+	'ago'            => '{0} lalu',
+	'inFuture'       => 'di {0}',
+	'yesterday'      => 'Kemarin',
+	'tomorrow'       => 'Besok',
+	'now'            => 'Baru saja',
 ];

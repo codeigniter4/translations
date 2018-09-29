@@ -13,8 +13,8 @@
  * @codeCoverageIgnore
  */
 return [
-	'fileNotFound'		 => 'File not found: {0}',
-	'cannotMove'		 => 'Could not move file {0} to {1} ({2})',
-	'invalidFilename'	 => 'Target filename missing or invalid: {0}',
-	'cannotCopy'		 => 'Could not copy to {0} - make sure the folder is writeable',
+	'fileNotFound'		 => 'Berkas tidak ditemukan: {0}',
+	'cannotMove'		 => 'Tidak dapat memindahkan berkas {0} ke {1} ({2})',
+	'invalidFilename'	 => 'Nama berkas target tidak ada atau tidak valid: {0}',
+	'cannotCopy'		 => 'Tidak dapat menyalin ke {0} - pastikan folder bisa ditulis',
 ];

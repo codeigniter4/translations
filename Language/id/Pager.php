@@ -14,13 +14,13 @@
  * @codeCoverageIgnore
  */
 return [
-	'pageNavigation'         => 'Page navigation',
-	'first'                  => 'First',
-	'previous'               => 'Previous',
-	'next'                   => 'Next',
-	'last'                   => 'Last',
-	'older'                  => 'Older',
-	'newer'                  => 'Newer',
-	'invalidTemplate'        => '{0} is not a valid Pager template.',
-	'invalidPaginationGroup' => '{0} is not a valid Pagination group.',
+	'pageNavigation'         => 'Navigasi halaman',
+	'first'                  => 'Pertama',
+	'previous'               => 'Sebelumnya',
+	'next'                   => 'Berikutnya',
+	'last'                   => 'Terakhir',
+	'older'                  => 'Lebih tua',
+	'newer'                  => 'Lebih baru',
+	'invalidTemplate'        => '{0} bukan sebuah template Pager yang valid.',
+	'invalidPaginationGroup' => '{0} bukan sebuah grup Pagination yang valid.',
 ];

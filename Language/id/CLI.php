@@ -14,9 +14,9 @@
  * @codeCoverageIgnore
  */
 return [
-	'helpUsage'       => 'Usage:',
-	'helpDescription' => 'Description:',
-	'helpOptions'     => 'Options:',
-	'helpArguments'   => 'Arguments:',
-	'invalidColor'    => 'Invalid {0} color: {1}.',
+	'helpUsage'       => 'Pemakaian:',
+	'helpDescription' => 'Deskripsi:',
+	'helpOptions'     => 'Pilihan:',
+	'helpArguments'   => 'Argumen:',
+	'invalidColor'    => 'Warna {0} tidak valid: {1}.',
 ];

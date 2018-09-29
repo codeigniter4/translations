@@ -15,45 +15,45 @@
  */
 return [
 	// CurlRequest
-	'missingCurl'                => 'CURL must be enabled to use the CURLRequest class.',
-	'invalidSSLKey'              => 'Cannot set SSL Key. {0} is not a valid file.',
-	'sslCertNotFound'            => 'SSL certificate not found at: {0}',
+	'missingCurl'                => 'CURL harus diaktifkan untuk menggunakan kelas CURLRequest.',
+	'invalidSSLKey'              => 'Tidak dapat mengatur Kunci SSL. {0} bukan sebuah berkas yang valid.',
+	'sslCertNotFound'            => 'Sertifikat SSL tidak ditemukan di: {0}',
 	'curlError'                  => '{0} : {1}',
 
 	// IncomingRequest
-	'invalidNegotiationType'     => '{0} is not a valid negotiation type. Must be one of: media, charset, encoding, language.',
+	'invalidNegotiationType'     => '{0} bukan sebuah jenis negosiasi yang valid. Harus salah satu: media, charset, encoding, language.',
 
 	// Message
-	'invalidHTTPProtocol'        => 'Invalid HTTP Protocol Version. Must be one of: {0}',
+	'invalidHTTPProtocol'        => 'Versi Protokol HTTP Tidak Valid. Harus salah satu: {0}',
 
 	// Negotiate
-	'emptySupportedNegotiations' => 'You must provide an array of supported values to all Negotiations.',
+	'emptySupportedNegotiations' => 'Anda harus memberikan sebuah array dari nilai yang didukung untuk semua Negosiasi.',
 
 	// RedirectResponse
-	'invalidRoute'               => '{0, string} is not a valid route.',
+	'invalidRoute'               => '{0, string} bukan sebuah rute yang valid.',
 
 	// Response
-	'missingResponseStatus'      => 'HTTP Response is missing a status code',
-	'invalidStatusCode'          => '{0, string} is not a valid HTTP return status code',
-	'unknownStatusCode'          => 'Unknown HTTP status code provided with no message: {0}',
+	'missingResponseStatus'      => 'Tanggapan HTTP kehilangan sebuah kode status',
+	'invalidStatusCode'          => '{0, string} bukan sebuah kode status pengembalian HTTP yang valid',
+	'unknownStatusCode'          => 'Kode status HTTP tidak dikenal diberikan tanpa pesan: {0}',
 
 	// URI
-	'cannotParseURI'             => 'Unable to parse URI: {0}',
-	'segmentOutOfRange'          => 'Request URI segment is our of range: {0}',
-	'invalidPort'                => 'Ports must be between 0 and 65535. Given: {0}',
-	'malformedQueryString'       => 'Query strings may not include URI fragments.',
+	'cannotParseURI'             => 'Tidak dapat mengurai URI: {0}',
+	'segmentOutOfRange'          => 'Permintaan segmen URI berada di luar jangkauan: {0}',
+	'invalidPort'                => 'Port harus antara 0 dan 65535. Diberikan: {0}',
+	'malformedQueryString'       => 'String kueri tidak boleh menyertakan fragmen URI.',
 
 	// Page Not Found
-	'pageNotFound'               => 'Page Not Found',
-	'emptyController'            => 'No Controller specified.',
-	'controllerNotFound'         => 'Controller or its method is not found: {0}::{1}',
-	'methodNotFound'             => 'Controller method is not found: {0}',
+	'pageNotFound'               => 'Halaman Tidak Ditemukan',
+	'emptyController'            => 'Tidak ada Kontroler yang ditentukan.',
+	'controllerNotFound'         => 'Kontroler atau metodenya tidak ditemukan: {0}::{1}',
+	'methodNotFound'             => 'Metode kontroller tidak ditemukan: {0}',
 
 	// CSRF
-	'disallowedAction'           => 'The action you requested is not allowed.',
+	'disallowedAction'           => 'Tindakan yang anda minta tidak diizinkan.',
 	
 	// Uploaded file moving
-	'alreadyMoved'				 => 'The uploaded file has already been moved.',
-	'invalidFile'				 => 'The original file is not a valid file.',
-	'moveFailed'				 => 'Could not move file {0} to {1} ({2})',
+	'alreadyMoved'				 => 'Berkas yang diunggah telah dipindahkan.',
+	'invalidFile'				 => 'Berkas asli tersebut bukan berkas yang valid.',
+	'moveFailed'				 => 'Tidak dapat memindahkan berkas {0} ke {1} ({2})',
 ];
