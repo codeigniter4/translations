@@ -14,7 +14,7 @@
  * @codeCoverageIgnore
  */
 return [
-	'invalidHandlers' => 'Konfigurasi cache harus memiliki array dari $validHandlers.',
+	'invalidHandlers' => 'Konfigurasi cache harus memiliki sebuah array dari $validHandlers.',
 	'noBackup'        => 'Konfigurasi cache harus memiliki sebuah set handler dan backupHandler.',
 	'handlerNotFound' => 'Konfigurasi cache memiliki sebuah handler tidak valid atau handler cadangan yang ditentukan.',
 ];
