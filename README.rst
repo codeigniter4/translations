@@ -21,8 +21,9 @@ Repository Information
 Each language is maintained by a community member, per the table below:
 
 ========  ===============  ===========  =================  =========================
-Locale    Language         Status       User               Maintainer
+Locale    Language         As of        User               Maintainer
 ========  ===============  ===========  =================  =========================
+ar        Arabic           4.0.0        daif               Daif Alotaibi
 en        English          4.0.0        n/a                CI team
 id        Indonesian       4.0.0        ridho1991          Mutasim Ridlo
 ========  ===============  ===========  =================  =========================
