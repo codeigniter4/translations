@@ -13,6 +13,7 @@ Initial "official" release, with settings consistent with CodeIgniter 4.0.0
 
     - ar (Arabic)
     - id (Indonesian)
+    - pl (Polish)
 
 -   Updated Translations
     
