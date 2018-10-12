@@ -31,7 +31,6 @@ lt        Lithuanian            dgvirtual          Donatas Glodenis
 ko        Korean                KwonLatte          HyeongJoo Kwon ???
 no        Norwegian             yhoiseth           Yngve Hoiseth
 fa        Persian               MSDehghan          Mohammad Sadegh
-pl        Polish                michalsn           Michał Śniatała
 pt        Portuguese            j38600             Júlio Sebastião
 pt-BR     Portuguese-brazilian  mateusfbi          Mateus Brandão
 ro        Romanian              CodefishRo         Cristian Robert Chiribuc
