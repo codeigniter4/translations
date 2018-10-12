@@ -13,15 +13,22 @@ You may then use the CodeIgniter Language class to reference the translations
 directly ... see the `User Guide <https://bcit-ci.github.io/CodeIgniter4/outgoing/localization.html>`_.
 
 Localization in CodeIgniter 4 follows the `ISO 639-1 conventions <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_.
+Each translation set would go inside a folder named following the two-letter language code from here.
+
+Localization variants are provided for, as folders named with the two-letter ISO 639-1 language code in lowercase, followed by the two-letter `ISO 3166 country code <https://en.wikipedia.org/wiki/ISO_3166-1>`_ capitalized, and with the two parts separated by a hyphen. An example would be "en" for English, and "en-US" for the variations appropriate to the United States.
 
 **********************
 Repository Information
 **********************
 
-Each language is maintained by a community member, per the table below:
+Each language is maintained by a community member, per the table below.
+The role of maintainers is to provide a single authority for vetting
+translations for a given language, since the framework team claims no
+expertise beyond English.
+
 
 ========  ===============  ===========  =================  =========================
-Locale    Language         As of        User               Maintainer
+Locale    Language         As of        Github User        Maintainer
 ========  ===============  ===========  =================  =========================
 ar        Arabic           4.0.0        daif               Daif Alotaibi
 en        English          4.0.0        n/a                CI team
@@ -59,7 +66,8 @@ commits here, but please remember to "sign" your commits.
 Pull requests to the repository will only be considered if they come from
 the maintainer for any translations in the request, or if the maintainer
 adds a comment indicating they approve of any changes.
-If a maintainer is unresponsive
+If a maintainer is unresponsive, or we have a contribution for a new
+language, we can add the contributor as a maintainer for that language.
 
 PR conversations should be conducted in English, thanks.
 
