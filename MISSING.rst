@@ -31,7 +31,6 @@ lt        Lithuanian            dgvirtual          Donatas Glodenis
 ko        Korean                KwonLatte          HyeongJoo Kwon ???
 no        Norwegian             yhoiseth           Yngve Hoiseth
 fa        Persian               MSDehghan          Mohammad Sadegh
-pt        Portuguese            j38600             Júlio Sebastião
 pt-BR     Portuguese-brazilian  mateusfbi          Mateus Brandão
 ro        Romanian              CodefishRo         Cristian Robert Chiribuc
 ru        Russian               vadimyer           Vadim Yermolin
@@ -39,7 +38,6 @@ sr        Serbian               novakurosevic      Novak Urosevic ???
 zh?       Simplified-chinese    denghongcai        Deng HongCai ... See note below
 sk        Slovak                gadelat            Gabriel Potkány
 sl        Slovenian             andrejflorjancic   Andrej Florjančič
-es        Spanish               Razican            Iban Eguia
 sv        Swedish               peterdenk          Peter Denk
 ta        Tamil                 karthik-code       Karthikeyan
 th        Thai                  ?                  ?
