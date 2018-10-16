@@ -12,8 +12,10 @@ Initial "official" release, with settings consistent with CodeIgniter 4.0.0
 -   New Translations
 
     - ar (Arabic)
+    - es (Spanish)
     - id (Indonesian)
     - pl (Polish)
+    - pt (Portugese)
 
 -   Updated Translations
     
