@@ -36,6 +36,7 @@ id        Indonesian       4.0.0        ridho1991          Mutasim Ridlo
 pl        Polish           4.0.0        DEVELPL            Maciej Jasiewicz             
 pt        Portugese        4.0.0        rbm0407            Rodrigo Borges
 es        Spanish          4.0.0        NandyJoshu         Fernán Castro Asensio
+tr        Turkish          4.0.0        obozdag            obozdag
 ========  ===============  ===========  =================  =========================
 
 ************
