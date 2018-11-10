@@ -31,7 +31,6 @@ lt        Lithuanian            dgvirtual          Donatas Glodenis
 ko        Korean                KwonLatte          HyeongJoo Kwon ???
 no        Norwegian             yhoiseth           Yngve Hoiseth
 fa        Persian               MSDehghan          Mohammad Sadegh
-pt-BR     Portuguese-brazilian  mateusfbi          Mateus Brandão
 ro        Romanian              CodefishRo         Cristian Robert Chiribuc
 ru        Russian               vadimyer           Vadim Yermolin
 sr        Serbian               novakurosevic      Novak Urosevic ???
