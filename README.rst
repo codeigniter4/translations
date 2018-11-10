@@ -35,6 +35,7 @@ en        English          4.0.0        n/a                CI team
 id        Indonesian       4.0.0        ridho1991          Mutasim Ridlo
 pl        Polish           4.0.0        DEVELPL            Maciej Jasiewicz             
 pt        Portugese        4.0.0        rbm0407            Rodrigo Borges
+pt-BR     Brazilian        4.0.0        natanfelles        Natan Felles
 es        Spanish          4.0.0        NandyJoshu         Fernán Castro Asensio
 tr        Turkish          4.0.0        obozdag            obozdag
 ========  ===============  ===========  =================  =========================
