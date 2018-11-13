@@ -15,9 +15,9 @@
  */
 
 return [
-   'helpUsage'       => 'Usage:',
-   'helpDescription' => 'Description:',
-   'helpOptions'     => 'Options:',
-   'helpArguments'   => 'Arguments:',
-   'invalidColor'    => 'Invalid {0} color: {1}.',
+   'helpUsage'       => 'Utilisation :',
+   'helpDescription' => 'Description :',
+   'helpOptions'     => 'Options :',
+   'helpArguments'   => 'Arguments :',
+   'invalidColor'    => 'Couleur {1} invalide : {0}.',
 ];
