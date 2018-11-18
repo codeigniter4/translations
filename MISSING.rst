@@ -18,7 +18,6 @@ da        Danish                janhansson*        Jan Hansson
 nl        dutch                 pkrul              Pieter Krul
 fil       filipino              dzerium            Edzer Josh V. Padilla ... See note below
 fr        French                includebeer        Alain Rivest
-de        German                Rufnex             Johannes Gamperl 
 el        Greek                 xargr              Grigoris Charamidis
 gu        Gujarati              sajid19991         Sajid Mathupotra
 hi        Hindi                 shindesushilkumar  Sushilkumar Shinde
