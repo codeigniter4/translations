@@ -33,7 +33,9 @@ Locale    Language         As of        Github User        Maintainer
 ar        Arabic           4.0.0        daif               Daif Alotaibi
 en        English          4.0.0        n/a                CI team
 de        German           4.0.0        sba                Stefan Bauer
+fr        French           4.0.0*       amuratet           Amuratet?
 id        Indonesian       4.0.0        ridho1991          Mutasim Ridlo
+it        Italian          4.0.0*       luk3b8             Luca Rasia
 pl        Polish           4.0.0        DEVELPL            Maciej Jasiewicz             
 pt        Portugese        4.0.0        rbm0407            Rodrigo Borges
 pt-BR     Brazilian        4.0.0        natanfelles        Natan Felles
