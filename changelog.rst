@@ -2,8 +2,20 @@
 Change Log
 ##########
 
-Version 4.0.0
-=============
+Version 4.0-dev
+===============
+
+Release Date: Unreleased
+
+-   New Translations
+
+    - fr (French)
+    - it (Italian)
+
+-   Updated Translations
+    
+Version 4.0.0-alpha.3
+=====================
 
 Release Date: Unreleased
 
