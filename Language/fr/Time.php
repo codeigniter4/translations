@@ -8,29 +8,29 @@
  * @copyright  2014-2018 British Columbia Institute of Technology (https://bcit.ca/)
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
- * @since      Version 3.0.0
+ * @since      Version 4.0.0
  * @filesource
  *
  * @codeCoverageIgnore
  */
 
 return [
-   'invalidMonth'   => 'Months must be between 1 and 12. Given: {0}',
-   'invalidDay'     => 'Days must be between 1 and 31. Given: {0}',
-   'invalidOverDay' => 'Days must be between 1 and {0}. Given: {1}',
-   'invalidHours'   => 'Hours must be between 0 and 23. Given: {0}',
-   'invalidMinutes' => 'Minutes must be between 0 and 59. Given: {0}',
-   'invalidSeconds' => 'Seconds must be between 0 and 59. Given: {0}',
-   'years'          => '{0, plural, =1{# year} other{# years}}',
-   'months'         => '{0, plural, =1{# month} other{# months}}',
-   'weeks'          => '{0, plural, =1{# week} other{# weeks}}',
-   'days'           => '{0, plural, =1{# day} other{# days}}',
-   'hours'          => '{0, plural, =1{# hour} other{# hours}}',
+   'invalidMonth'   => 'Les mois doivent être entre 1 et 12. Déclaré : {0}',
+   'invalidDay'     => 'Les jours doivent être entre 1 et 31. Déclaré : {0}',
+   'invalidOverDay' => 'Les jours doivent être entre 1 et {0}. Déclaré : {1}',
+   'invalidHours'   => 'Les heures doivent être entre 0 et 23. Déclaré : {0}',
+   'invalidMinutes' => 'Les minutes doivent être entre 0 et 59. Déclaré : {0}',
+   'invalidSeconds' => 'Les secondes doivent être entre 0 et 59. Déclaré : {0}',
+   'years'          => '{0, plural, =1{# année} other{# années}}',
+   'months'         => '{0, plural, =1{# mois} other{# mois}}',
+   'weeks'          => '{0, plural, =1{# semaine} other{# semaines}}',
+   'days'           => '{0, plural, =1{# jour} other{# jours}}',
+   'hours'          => '{0, plural, =1{# heure} other{# heures}}',
    'minutes'        => '{0, plural, =1{# minute} other{# minutes}}',
-   'seconds'        => '{0, plural, =1{# second} other{# seconds}}',
-   'ago'            => '{0} ago',
-   'inFuture'       => 'in {0}',
-   'yesterday'      => 'Yesterday',
-   'tomorrow'       => 'Tomorrow',
-   'now'            => 'Just now',
+   'seconds'        => '{0, plural, =1{# seconde} other{# secondes}}',
+   'ago'            => 'depuis {0}',
+   'inFuture'       => 'dans {0}',
+   'yesterday'      => 'Hier',
+   'tomorrow'       => 'Demain',
+   'now'            => 'En ce moment',
 ];
