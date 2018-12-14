@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "CodeIgniter\\": "system/"
+            "Translations\\": "Language/"
         }
     },
     "support": {
