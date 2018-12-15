@@ -9,10 +9,17 @@ Release Date: Unreleased
 
 -   New Translations
 
+-   Updated Translations
+    
+Version 4.0-0-alpha.4
+=====================
+
+Release Date: Dec 15, 2018
+
+-   New Translations
+
     - fr (French)
     - it (Italian)
-
--   Updated Translations
     
 Version 4.0.0-alpha.3
 =====================
