@@ -10,6 +10,8 @@ Release Date: Unreleased
 -   New Translations
 
 -   Updated Translations
+    - it (Italian)
+    - es (Spanish)
     
 Version 4.0-0-alpha.4
 =====================
