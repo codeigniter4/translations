@@ -18,5 +18,5 @@ return [
 	'helpDescription' => 'Descrizione:',
 	'helpOptions'     => 'Opzioni:',
 	'helpArguments'   => 'Argomenti:',
-	'invalidColor'    => 'Non valido {0} colore: {1}.',
+	'invalidColor'    => 'Colore {0} non valido: {1}.',
 ];
