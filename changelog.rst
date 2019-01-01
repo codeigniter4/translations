@@ -10,6 +10,7 @@ Release Date: Unreleased
 -   New Translations
 
 -   Updated Translations
+
     - it (Italian)
     - es (Spanish)
     
