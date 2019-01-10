@@ -50,6 +50,7 @@ return [
 	'required_without'      => 'Pole {field} jest wymagane, gdy nie ma parametru {param}.',
 	'timezone'              => 'Pole {field} musi być prawidłową strefą czasową.',
 	'valid_base64'          => 'Pole {field} musi być poprawnym łańcuchem base64.',
+	'valid_json'            => 'Pole {field} musi być w formacie JSON.',
 	'valid_email'           => 'Pole {field} musi zawierać poprawny adres e-mail.',
 	'valid_emails'          => 'Pole {field} musi zawierać wszystkie prawidłowe adresy e-mail.',
 	'valid_ip'              => 'Pole {field} musi zawierać poprawny adres IP.',
