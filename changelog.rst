@@ -11,6 +11,17 @@ Release Date: Unreleased
 
 -   Updated Translations
 
+    - de (German)
+    
+Version 4.0-alpha.5
+===============
+
+Release Date: Jan 30, 2019
+
+-   New Translations
+
+-   Updated Translations
+
     - it (Italian)
     - es (Spanish)
     
