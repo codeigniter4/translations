@@ -17,7 +17,7 @@
 return [
    'invalidEvent'          => '{0} ist kein gültiger Model Event Callback.',
    'invalidArgument'       => 'Ungültiges Argument: {0}.',
-   'invalidAllowedFields'  => 'Es sind keine zulässigen Felder angegeben für fas Model: {0}',
+   'invalidAllowedFields'  => 'Es sind keine zulässigen Felder angegeben für das Model: {0}',
    'emptyDataset'          => 'Keine Daten gefunden für: {0}.',
    'failGetFieldData'      => 'Es konnten keine Felddaten aus der Datenbank abgerufen werden.',
    'failGetIndexData'      => 'Es konnten keine Indexdaten aus der Datenbank abgerufen werden.',
