@@ -16,7 +16,7 @@ return [
 	// Migration Runner
 	'missingTable'    => 'Debe establecer la tabla de migrado.',
 	'invalidType'     => 'Numeración de tipo de migrado inválida: {0}',
-	'disabled'        => 'Las migracines se han cargado pero están deshabilitadas o configuradas incorrectamente.',
+	'disabled'        => 'Las migraciones se han cargado pero están deshabilitadas o configuradas incorrectamente.',
 	'notFound'        => 'Archivo de migración no encontrado: ',
 	'empty'           => 'No se han encontrado archivos de migración',
 	'gap'             => 'Hay un hueco en la secuencia de migración cerca del número de versión: ',
