@@ -36,7 +36,7 @@ de        German           4.0.0*       sba                Stefan Bauer
 fr        French           4.0.0        amuratet           Amuratet?
 id        Indonesian       4.0.0        ridho1991          Mutasim Ridlo
 it        Italian          4.0.0        luk3b8             Luca Rasia
-pl        Polish           4.0.0        DEVELPL            Maciej Jasiewicz
+pl        Polish           4.0.0*       DEVELPL            Maciej Jasiewicz
 pt        Portugese        4.0.0        rbm0407            Rodrigo Borges
 pt-BR     Brazilian        4.0.0        natanfelles        Natan Felles
 es        Spanish          4.0.0        NandyJoshu         Fernán Castro Asensio
