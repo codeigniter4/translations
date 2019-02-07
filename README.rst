@@ -10,7 +10,7 @@ from inside the **Language** folder of this project to your
 **application/Language** folder.
 
 You may then use the CodeIgniter Language class to reference the translations
-directly ... see the `User Guide <https://bcit-ci.github.io/CodeIgniter4/outgoing/localization.html>`_.
+directly ... see the `User Guide <https://codeigniter4.github.io/CodeIgniter4/outgoing/localization.html>`_.
 
 Localization in CodeIgniter 4 follows the `ISO 639-1 conventions <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_.
 Each translation set would go inside a folder named following the two-letter language code from here.
@@ -36,7 +36,7 @@ de        German           4.0.0*       sba                Stefan Bauer
 fr        French           4.0.0        amuratet           Amuratet?
 id        Indonesian       4.0.0        ridho1991          Mutasim Ridlo
 it        Italian          4.0.0        luk3b8             Luca Rasia
-pl        Polish           4.0.0        DEVELPL            Maciej Jasiewicz             
+pl        Polish           4.0.0        DEVELPL            Maciej Jasiewicz
 pt        Portugese        4.0.0        rbm0407            Rodrigo Borges
 pt-BR     Brazilian        4.0.0        natanfelles        Natan Felles
 es        Spanish          4.0.0        NandyJoshu         Fernán Castro Asensio
@@ -63,11 +63,11 @@ If you have a translation or correction, please fork the repository, clone it
 locally, and then create a new branch (from master)
 for each set of related changes or for
 a complete language pack. Once your branch is complete, *then* create a pull
-request to merge it into the main repository. 
+request to merge it into the main repository.
 
 If you are contributing a variant of a main locale (e.g. "en-CA"), you
 only need to provide those translations that differ from it.
- 
+
 Unlike the framework repository, we are not insisting on GPG-signed
 commits here, but please remember to "sign" your commits.
 
