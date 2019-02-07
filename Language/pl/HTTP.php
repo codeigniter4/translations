@@ -44,7 +44,7 @@ return [
 	'malformedQueryString'       => 'Łańcuchy zapytań mogą nie zawierać fragmentów URI.',
 
 	// Page Not Found
-	'pageNotFound'               => 'Strona nie znaleziona',
+	'pageNotFound'               => 'Strona nie została znaleziona',
 	'emptyController'            => 'Nie określono kontrolera.',
 	'controllerNotFound'         => 'Nie znaleziono kontrolera lub jego metody: {0}::{1}',
 	'methodNotFound'             => 'Nie znaleziono metody kontrolera: {0}',
@@ -56,4 +56,13 @@ return [
 	'alreadyMoved'				 => 'Przesłany plik został już przeniesiony.',
 	'invalidFile'				 => 'Oryginalny plik nie jest prawidłowym plikiem.',
 	'moveFailed'				 => 'Nie można przenieść pliku {0} do {1} ({2})',
+	'uploadErrOk'				=> 'Plik został prawidłowo wysłany.', 
+	'uploadErrIniSize'			=> 'Wielkość pliku "%s" przekracza wielkość określoną przez upload_max_filesize',
+	'uploadErrFormSize'			=> 'Wielkość pliku "%s" przekracza wielkość określoną w formularzu.',
+	'uploadErrPartial'			=> 'Plik "%s" został wysłany częściowo.',
+	'uploadErrNoFile'			=> 'Plik nie został wysłany',
+	'uploadErrCantWrite'			=> 'Plik "%s" nie może być zapisany na dysku.',
+	'uploadErrNoTmpDir'			=> 'Plik nie może zostać wysłany. Brak katalogu tymczasowego.',
+	'uploadErrExtension'			=> 'Wysyłka pliku została zablokowana przez PHP.',
+	'uploadErrUnknown'			=> 'Plik "%s" nie został wysłany z nieznanego powodu.'
 ];
