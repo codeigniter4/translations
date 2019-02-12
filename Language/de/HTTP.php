@@ -5,7 +5,7 @@
  *
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
- * @copyright  2014-2018 British Columbia Institute of Technology (https://bcit.ca/)
+ * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
  * @since      Version 3.0.0
@@ -64,4 +64,15 @@ return [
    'alreadyMoved'               => 'Die hochgeladene Datei wurde bereits verschoben.',
    'invalidFile'                => 'Die Originaldatei ist keine gültige Datei.',
    'moveFailed'                 => 'Die Datei konnte nicht von {0} nach {1} verschoben werden ({2})',
+
+   'uploadErrOk'                => 'Die Datei wurde erfolgreich hochgeladen.',
+   'uploadErrIniSize'           => 'Die Datei "%s" überschreitet die upload_max_filesize ini Direktive.',
+   'uploadErrFormSize'          => 'Die Datei "%s" exceeds the upload limit defined in your form.',
+   'uploadErrFormSize'          => 'Die Datei "%s" ist grösser als die im Formular definierte Limite',
+   'uploadErrPartial'           => 'Die Datei "%s" wurde nur teilweise hochgeladen.',
+   'uploadErrNoFile'            => 'Es wurde keine Datei hochgeladen',
+   'uploadErrCantWrite'         => 'Die Datei "%s" konnte nicht gespeichert werden.',
+   'uploadErrNoTmpDir'          => 'Fehler beim Hochladen: Temporäres Verzeichnis fehlt.',
+   'uploadErrExtension'         => 'Der Datei-Upload wurde von einer PHP-extension gestoppt.',
+   'uploadErrUnknown'           => 'Die Datei "%s" konnte wegen eines unbekannten Fehlers nicht hochgeladen werden.',
 ];
