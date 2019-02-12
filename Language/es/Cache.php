@@ -15,5 +15,5 @@
 return [
 	'invalidHandlers' => 'La configuración de Cache debe tener un array de $validHandlers.',
 	'noBackup'        => 'La configuración de Cache debe tener un manejador y un manejador de respaldo.',
-	'handlerNotFound' => 'La configuración de Cache tiene un manejador o manejador de de respaldo inválido.',
+	'handlerNotFound' => 'La configuración de Cache tiene un manejador o manejador de respaldo inválido.',
 ];
