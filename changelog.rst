@@ -12,6 +12,7 @@ Release Date: Unreleased
 -   Updated Translations
 
     - de (German)
+    - es (Spanish)
     - pl (Polish)
     
 Version 4.0-alpha.5
