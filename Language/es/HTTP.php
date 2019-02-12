@@ -16,14 +16,14 @@ return [
 	// CurlRequest
 	'missingCurl'                => 'Debe habilitar CURL para usar la clase CURLRequest.',
 	'invalidSSLKey'              => 'No se puede establecer la clave SSL. {0} no es un archivo válido.',
-	'sslCertNotFound'            => 'No se ha encontrata el certificado SSL en: {0}',
+	'sslCertNotFound'            => 'No se ha encontrado el certificado SSL en: {0}',
 	'curlError'                  => '{0} : {1}',
 
 	// IncomingRequest
-	'invalidNegotiationType'     => '{0} no es un tipo válido de negaciación. Debe ser uno de los siguientes: media, charset, encoding, language.',
+	'invalidNegotiationType'     => '{0} no es un tipo válido de negociación. Debe ser uno de los siguientes: media, charset, encoding, language.',
 
 	// Message
-	'invalidHTTPProtocol'        => 'Versión de Protocolo HTNL inválida. Debe ser una de las siguientes: {0}',
+	'invalidHTTPProtocol'        => 'Versión de Protocolo HTTP inválida. Debe ser una de las siguientes: {0}',
 
 	// Negotiate
 	'emptySupportedNegotiations' => 'Debe proporcionar un array de valores soportados por todas las negociaciones.',
@@ -44,7 +44,7 @@ return [
 	'unknownStatusCode'          => 'Código de estado HTTP desconocido sin mensaje: {0}',
 
 	// URI
-	'cannotParseURI'             => 'Incapazar de parsear URI: {0}',
+	'cannotParseURI'             => 'Incapaz de parsear URI: {0}',
 	'segmentOutOfRange'          => 'Segmento de petición URI fuera del rango: {0}',
 	'invalidPort'                => 'Los puertos deben estar entre 0 y 65535. Establecido: {0}',
 	'malformedQueryString'       => 'Las cadenas de consulta no deben incluir fragmentos URI.',
@@ -56,7 +56,7 @@ return [
 	'methodNotFound'             => 'No se ha encontrado el método del Controlador: {0}',
 
 	// CSRF
-	'disallowedAction'           => 'La acción solicitado no está permitida.',
+	'disallowedAction'           => 'La acción solicitada no está permitida.',
 
 	// Uploaded file moving
 	'alreadyMoved'				 => 'El archivo subido ya ha sido movido.',
