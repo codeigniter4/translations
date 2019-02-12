@@ -14,7 +14,7 @@
  */
 return [
 	'invalidEvent'         => '{0} no es una llamada válida a un Evento de Modelo.',
-	'invalidArgument'      => 'Debe promorcionar una correcta {0}.',
+	'invalidArgument'      => 'Debe proporcionar una correcta {0}.',
 	'invalidAllowedFields' => 'Los campos permitidos deben especificarse por modelo: {0}',
 	'emptyDataset'         => 'No hay datos de {0}.',
 ];
