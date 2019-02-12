@@ -16,6 +16,4 @@
 return [
    'fileNotFound'    => 'Datei nicht gefunden: {0}',
    'cannotMove'      => 'Datei konnte nicht von {0} nach {1} verschoben werden ({2})',
-   'invalidFilename' => 'Zieldateiname fehlt oder ist ungültig: {0}',
-   'cannotCopy'      => 'Die Datei konnte nicht nach {0} kopiert werden - bitte sicherstellen, dass der Ordner beschreibbar ist.',
 ];
