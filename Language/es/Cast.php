@@ -13,7 +13,7 @@
  */
 
 return [
-	'jsonErrorDepth' 		=> 'Se ha excedido el nivel máxiom de profundidad',
+	'jsonErrorDepth' 		=> 'Se ha excedido el nivel máximo de profundidad',
 	'jsonErrorStateMismatch'	=> 'Desbordamiento o desajuste de modo',
 	'jsonErrorCtrlChar'	=> 'Se ha encontrado un caracter de control inesperado',
 	'jsonErrorSyntax'		=> 'Error de sintaxis, JSON mal formado',
