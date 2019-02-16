@@ -9,6 +9,8 @@ Release Date: Unreleased
 
 -   New Translations
 
+    - zh-CN (Simplified Chinese)
+    
 -   Updated Translations
 
     - de (German)
