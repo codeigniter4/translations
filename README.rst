@@ -41,6 +41,7 @@ pl        Polish           4.0.0*       DEVELPL            Maciej Jasiewicz
 pt        Portugese        4.0.0        rbm0407            Rodrigo Borges
 pt-BR     Brazilian        4.0.0        natanfelles        Natan Felles
 tr        Turkish          4.0.0        obozdag            obozdag
+zh-CN     Simple Chinese   4.0.0*       bangbangda         bangbangda
 ========  ===============  ===========  =================  =========================
 
 ************
