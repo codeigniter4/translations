@@ -23,43 +23,43 @@ return [
 	// Message
    'invalidHTTPProtocol'        => 'نسخه HTTP Protocol معتبر نیست. گزینه‌های معتبر: {0}',
 	// Negotiate
-   'emptySupportedNegotiations' => 'You must provide an array of supported values to all Negotiations.',
+   'emptySupportedNegotiations' => 'برای انجام Negotiations شما باید آرایه‌ای از مقادیر مجاز را وارد کنید.',
 	// RedirectResponse
-   'invalidRoute'               => '{0, string} route cannot be found while reverse-routing.',
+   'invalidRoute'               => 'مسیر {0, string} در هنگام مسیریابی وارونه (reverse-routing) پیدا نشد.',
 	// DownloadResponse
-   'cannotSetBinary'            => 'When setting filepath can not set binary.',
-   'cannotSetFilepath'          => 'When setting binary can not set filepath: {0}',
-   'notFoundDownloadSource'     => 'Not found download body source.',
-   'cannotSetCache'             => 'It does not supported caching for downloading.',
-   'cannotSetStatusCode'        => 'It does not supported chnage status code for downloading. code: {0}, reason: {1}',
+   'cannotSetBinary'            => 'وقتی که مسیر فایل را تنظیم می‌کنید، نمی‌توانید یک کقدار باینری وارد کنید.',
+   'cannotSetFilepath'          => 'وقتی که باینری را انتخاب می‌کید، نمی‌توانید مسیر فایل ارسال کنید: {0}',
+   'notFoundDownloadSource'     => 'منبع دانلود پیدا نشد.',
+   'cannotSetCache'             => 'سیستم Caching برای دانلود پشتیبانی نمی‌شود.',
+   'cannotSetStatusCode'        => 'تغییر status code برای دانلود پشتیبانی نمی‌شود. کد: {0}, دلیل: {1}',
 	// Response
-   'missingResponseStatus'      => 'HTTP Response is missing a status code',
-   'invalidStatusCode'          => '{0, string} is not a valid HTTP return status code',
-   'unknownStatusCode'          => 'Unknown HTTP status code provided with no message: {0}',
+   'missingResponseStatus'      => 'Status code در پاسخ HTTP وجود ندارد',
+   'invalidStatusCode'          => '{0, string} یک Status Code صحیح نیست.',
+   'unknownStatusCode'          => 'Status Code نامعلوم با هیچ پیامی مرتبط نیست: {0}',
 	// URI
-   'cannotParseURI'             => 'Unable to parse URI: {0}',
-   'segmentOutOfRange'          => 'Request URI segment is our of range: {0}',
-   'invalidPort'                => 'Ports must be between 0 and 65535. Given: {0}',
-   'malformedQueryString'       => 'Query strings may not include URI fragments.',
+   'cannotParseURI'             => 'پارس کردن و فهمیدم URI ممکن نیست: {0}',
+   'segmentOutOfRange'          => 'بخش Request URI خارج از محدوده است: {0}',
+   'invalidPort'                => 'پورت باید بین 0 و 65535 باشد. مقدار ورودی: {0}',
+   'malformedQueryString'       => 'Query string نمی‌تواند شامل قسمت‌های URI باشد.',
 	// Page Not Found
-   'pageNotFound'               => 'Page Not Found',
+   'pageNotFound'               => 'صفحه پیدا نشد',
    'emptyController'            => 'No Controller specified.',
    'controllerNotFound'         => 'Controller or its method is not found: {0}::{1}',
    'methodNotFound'             => 'Controller method is not found: {0}',
 	// CSRF
-   'disallowedAction'           => 'The action you requested is not allowed.',
+   'disallowedAction'           => 'Action درخواستی شما مجاز نیست.',
 	// Uploaded file moving
-   'alreadyMoved'               => 'The uploaded file has already been moved.',
-   'invalidFile'                => 'The original file is not a valid file.',
-   'moveFailed'                 => 'Could not move file {0} to {1} ({2})',
+   'alreadyMoved'               => 'فایل آپلود شده در حال حاضر جابجا شده است.',
+   'invalidFile'                => 'فایل اصلی معتبر نیست.',
+   'moveFailed'                 => 'امکان انتقال فایل از {0} به {1} وجود ندارد. ({2})',
 	
-   'uploadErrOk'				=> 'The file uploaded with success.',
-   'uploadErrIniSize'			=> 'The file "%s" exceeds your upload_max_filesize ini directive.',
-   'uploadErrFormSize'			=> 'The file "%s" exceeds the upload limit defined in your form.',
-   'uploadErrPartial'			=> 'The file "%s" was only partially uploaded.',
-   'uploadErrNoFile'			=> 'No file was uploaded.',
-   'uploadErrCantWrite'			=> 'The file "%s" could not be written on disk.',
-   'uploadErrNoTmpDir'			=> 'File could not be uploaded: missing temporary directory.',
-   'uploadErrExtension' 		=> 'File upload was stopped by a PHP extension.',
-   'uploadErrUnknown'			=> 'The file "%s" was not uploaded due to an unknown error.'
+   'uploadErrOk'				=> 'فایل با موفقیت آپلود شد.',
+   'uploadErrIniSize'			=> 'فایل "%s" از upload_max_filesize در فایل ini بیشتر است..',
+   'uploadErrFormSize'			=> 'فایل "%s" از محدوده آپلود تعریف شده در فرم شما بیشتر است.',
+   'uploadErrPartial'			=> 'فایل "%s" فقط به صورت ناقص آپلود شده است.',
+   'uploadErrNoFile'			=> 'هیچ فایلی آپلود نشد.',
+   'uploadErrCantWrite'			=> 'فایل "%s" نمی‌تواند در دیسک نوشته (ذخیره) شود.',
+   'uploadErrNoTmpDir'			=> 'فایل آپلود نشد: دایرکتوری موقت پیدا نشد.',
+   'uploadErrExtension' 		=> 'فایل توسط یک افزونه‌ی PHP متوقف شد.',
+   'uploadErrUnknown'			=> 'فایل "%s" was not uploaded due to an unknown error.'
 ];
