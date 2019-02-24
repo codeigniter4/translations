@@ -14,9 +14,9 @@
  */
 
 return [
-   'invalidCellMethod'     => '{class}::{method} is not a valid method.',
-   'missingCellParameters' => '{class}::{method} has no params.',
-   'invalidCellParameter'  => '{0} is not a valid param name.',
+   'invalidCellMethod'     => '{class}::{method} تابع معتبری نیست.',
+   'missingCellParameters' => '{class}::{method} پارامتری ندارد.',
+   'invalidCellParameter'  => '{0} نام پارامتر معتبری نیست.',
    'noCellClass'           => 'No view cell class provided.',
    'invalidCellClass'      => 'Unable to locate view cell class: {0}.',
    'tagSyntaxError'        => 'You have a syntax error in your Parser tags: {0}',

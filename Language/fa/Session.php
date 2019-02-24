@@ -19,5 +19,5 @@ return [
    'invalidSavePath'        => "Session: مسیر ذخیره سازی سشن: '{0}' یک فولدر معتبر نیست یا نمی تواند ایجاد شود.",
    'writeProtectedSavePath' => "Session: مسیر ذخیره سازی سشن: '{0}' قابل نوشتن نیست.",
    'emptySavePath'          => 'Session: مسیری برای سشن مشخص نشده است.',
-   'invalidSavePathFormat'  => 'Session: Invalid Redis save path format: {0}',
+   'invalidSavePathFormat'  => 'Session: فرمت مسیر ذخیره سازی ردیس نامعتبر است: {0}',
 ];
