@@ -9,6 +9,7 @@ Release Date: Unreleased
 
 -   New Translations
 
+    - fa (Farsi)
     - zh-CN (Simplified Chinese)
     
 -   Updated Translations
@@ -18,7 +19,7 @@ Release Date: Unreleased
     - pl (Polish)
     
 Version 4.0-alpha.5
-===============
+===================
 
 Release Date: Jan 30, 2019
 
