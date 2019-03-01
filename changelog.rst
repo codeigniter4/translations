@@ -3,9 +3,18 @@ Change Log
 ##########
 
 Version 4.0-dev
-===============
+==============================
 
 Release Date: Unreleased
+
+-   New Translations
+
+-   Updated Translations
+   
+Version 4.0-beta.1
+==============================
+
+Release Date: Mar 1, 2019
 
 -   New Translations
 
@@ -19,7 +28,7 @@ Release Date: Unreleased
     - pl (Polish)
     
 Version 4.0-alpha.5
-===================
+==================================
 
 Release Date: Jan 30, 2019
 
@@ -31,7 +40,7 @@ Release Date: Jan 30, 2019
     - es (Spanish)
     
 Version 4.0-0-alpha.4
-=====================
+====================================
 
 Release Date: Dec 15, 2018
 
@@ -41,9 +50,9 @@ Release Date: Dec 15, 2018
     - it (Italian)
     
 Version 4.0.0-alpha.3
-=====================
+====================================
 
-Release Date: Unreleased
+Release Date: Nov 30, 2018
 
 Initial "official" release, with settings consistent with CodeIgniter 4.0.0
 
@@ -56,6 +65,3 @@ Initial "official" release, with settings consistent with CodeIgniter 4.0.0
     - pt (Portugese)
     - pt-BR (Brazilian)
     - tr (Turkish)
-
--   Updated Translations
-    
