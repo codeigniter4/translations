@@ -10,6 +10,8 @@ Release Date: Unreleased
 -   New Translations
 
 -   Updated Translations
+
+      - ar (Arabic)
    
 Version 4.0-beta.1
 ==============================
