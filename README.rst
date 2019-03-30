@@ -30,7 +30,7 @@ expertise beyond English.
 ========  ===============  ===========  =================  =========================
 Locale    Language         As of        Github User        Maintainer
 ========  ===============  ===========  =================  =========================
-ar        Arabic           4.0.0        daif               Daif Alotaibi
+ar        Arabic           4.0.0*       daif               Daif Alotaibi
 de        German           4.0.0        sba                Stefan Bauer
 en        English          4.0.0        n/a                CI team
 es        Spanish          4.0.0        NandyJoshu         Fernán Castro Asensio?
