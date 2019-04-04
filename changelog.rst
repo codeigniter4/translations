@@ -15,7 +15,7 @@ Release Date: Unreleased
 Version 4.0-beta.2
 ==============================
 
-Release Date: Unreleased
+Release Date: Apr 4, 2019
 
 -   Updated Translations
 
