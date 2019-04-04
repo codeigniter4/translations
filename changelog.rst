@@ -11,6 +11,14 @@ Release Date: Unreleased
 
 -   Updated Translations
 
+   
+Version 4.0-beta.2
+==============================
+
+Release Date: Unreleased
+
+-   Updated Translations
+
       - ar (Arabic)
    
 Version 4.0-beta.1
