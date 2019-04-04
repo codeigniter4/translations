@@ -14,8 +14,9 @@
  */
 
 return [
-	'invalidMonth'   => 'Meses devem ser entre 0 e 12. Dado: {0}',
-	'invalidDay'     => 'Dias devem ser entre 0 e 31. Dado: {0}',
+	'invalidMonth'   => 'Meses devem ser entre 1 e 12. Dado: {0}',
+	'invalidDay'     => 'Dias devem ser entre 1 e 31. Dado: {0}',
+	'invalidOverDay' => 'Dias devem ser entre 1 e {0}. Dado: {1}',
 	'invalidHours'   => 'Horas devem ser entre 0 e 23. Dado: {0}',
 	'invalidMinutes' => 'Minutos devem ser entre 0 e 59. Dado: {0}',
 	'invalidSeconds' => 'Segundos devem ser entre 0 e 59. Dado: {0}',

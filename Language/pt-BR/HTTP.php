@@ -30,7 +30,7 @@ return [
 	'emptySupportedNegotiations' => 'Você deve fornecer uma array de valores suportados para todas as Negociações.',
 
 	// RedirectResponse
-	'invalidRoute'               => '{0, string} não é uma rota válida.',
+	'invalidRoute'               => 'Rota {0, string} não foi encontrada ao fazer o roteamento-reverso.',
 
 	// DownloadResponse
 	'cannotSetBinary'            => 'Ao definir o caminho do arquivo não foi possível definir como binário.',
@@ -48,7 +48,7 @@ return [
 	'cannotParseURI'             => 'Não é possível analisar o URI: {0}',
 	'segmentOutOfRange'          => 'Segmento do URI da Requisição está fora do intervalo: {0}',
 	'invalidPort'                => 'Portas devem estar entre 0 e 65535. Dado: {0}',
-	'malformedQueryString'       => 'As strings de consulta podem não incluir fragmentos de URI.',
+	'malformedQueryString'       => 'As strings de consulta não podem incluir fragmentos de URI.',
 
 	// Page Not Found
 	'pageNotFound'               => 'Página Não Encontrada',
@@ -63,4 +63,14 @@ return [
 	'alreadyMoved'               => 'O arquivo enviado já foi movido.',
 	'invalidFile'                => 'O arquivo original não é um arquivo válido.',
 	'moveFailed'                 => 'Não foi possível mover o arquivo {0} para {1} ({2})',
+
+	'uploadErrOk'                => 'O upload do arquivo foi realizado com sucesso.',
+	'uploadErrIniSize'           => 'O arquivo "%s" excede a diretiva ini upload_max_filesize.',
+	'uploadErrFormSize'          => 'O arquivo "%s" excede o limite de upload definido em seu formulário.',
+	'uploadErrPartial'           => 'O upload do arquivo "%s" foi realizado apenas parcialmente.',
+	'uploadErrNoFile'            => 'Nenhum upload de arquivo foi realizado.',
+	'uploadErrCantWrite'         => 'O arquivo "%s" não pode ser escrito no disco.',
+	'uploadErrNoTmpDir'          => 'Upload de arquivo não pode ser realizado: faltando diretório temporário.',
+	'uploadErrExtension'         => 'Upload de arquivo foi parado por uma extensão PHP.',
+	'uploadErrUnknown'           => 'O upload do arquivo "%s" não foi realizado devido a um erro desconhecido.',
 ];
