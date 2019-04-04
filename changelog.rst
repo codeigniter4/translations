@@ -10,6 +10,16 @@ Release Date: Unreleased
 -   New Translations
 
 -   Updated Translations
+
+   
+Version 4.0-beta.2
+==============================
+
+Release Date: Apr 4, 2019
+
+-   Updated Translations
+
+      - ar (Arabic)
    
 Version 4.0-beta.1
 ==============================

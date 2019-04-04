@@ -31,7 +31,6 @@ fa        Persian               MSDehghan          Mohammad Sadegh
 ro        Romanian              CodefishRo         Cristian Robert Chiribuc
 ru        Russian               vadimyer           Vadim Yermolin
 sr        Serbian               novakurosevic      Novak Urosevic ???
-zh?       Simplified-chinese    denghongcai        Deng HongCai ... See note below
 sk        Slovak                gadelat            Gabriel Potkány
 sl        Slovenian             andrejflorjancic   Andrej Florjančič
 sv        Swedish               peterdenk          Peter Denk
