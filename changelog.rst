@@ -13,6 +13,7 @@ Release Date: Unreleased
    
 -   Updated Translations
 
+      - pt-BR (Brazilian)
    
 Version 4.0-beta.2
 ==============================
