@@ -9,6 +9,8 @@ Release Date: Unreleased
 
 -   New Translations
 
+      - ru (Russian)
+   
 -   Updated Translations
 
    
