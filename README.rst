@@ -41,6 +41,7 @@ it        Italian          4.0.0        luk3b8             Luca Rasia
 pl        Polish           4.0.0        DEVELPL            Maciej Jasiewicz
 pt        Portugese        4.0.0        rbm0407            Rodrigo Borges
 pt-BR     Brazilian        4.0.0        natanfelles        Natan Felles
+ru        Russian          4.0.0*       DigitalWolf98      Vladislav Rihticov
 tr        Turkish          4.0.0        obozdag            obozdag
 zh-CN     Simple Chinese   4.0.0        bangbangda         bangbangda
 ========  ===============  ===========  =================  =========================
