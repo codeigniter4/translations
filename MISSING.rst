@@ -29,15 +29,12 @@ ko        Korean                KwonLatte          HyeongJoo Kwon ???
 no        Norwegian             yhoiseth           Yngve Hoiseth
 fa        Persian               MSDehghan          Mohammad Sadegh
 ro        Romanian              CodefishRo         Cristian Robert Chiribuc
-ru        Russian               vadimyer           Vadim Yermolin
 sr        Serbian               novakurosevic      Novak Urosevic ???
 sk        Slovak                gadelat            Gabriel Potkány
 sl        Slovenian             andrejflorjancic   Andrej Florjančič
 sv        Swedish               peterdenk          Peter Denk
 ta        Tamil                 karthik-code       Karthikeyan
 th        Thai                  ?                  ?
-zh?       Traditional-chinese   appleboy           Bo-Yi Wu ... See note below
-tr        Turkish               obozdag            Osman Bozdag
 uk        Ukranian              flybot             Sergiy Kosiy
 ur        Urdu                  codeonion          Muhammad Ali
 vi        Vietnamese            tinhphaistc        Trần Xuân Sâm ???
@@ -46,6 +43,5 @@ vi        Vietnamese            tinhphaistc        Trần Xuân Sâm ???
 Notes:
 
 - Filipino has a 639-2 code, while tl (Tagalog) is the 639-1 code; which to use?
-- 639-1 only provides one code for Chinese ... is this simplified or traditional?
 
 
