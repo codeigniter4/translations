@@ -8,6 +8,16 @@ Version 4.0-dev
 Release Date: Unreleased
 
 -   New Translations
+   
+-   Updated Translations
+
+      
+Version 4.0-beta.3
+==============================
+
+Release Date: May 6, 2029
+
+-   New Translations
 
       - ru (Russian)
    
