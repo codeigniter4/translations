@@ -11,6 +11,8 @@ Release Date: Unreleased
    
 -   Updated Translations
 
+   - ru (Russian)
+
       
 Version 4.0-beta.3
 ==============================
