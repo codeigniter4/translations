@@ -11,11 +11,13 @@ Release Date: Unreleased
    
 -   Updated Translations
 
+   - ru (Russian)
+
       
 Version 4.0-beta.3
 ==============================
 
-Release Date: May 6, 2029
+Release Date: May 6, 2019
 
 -   New Translations
 
