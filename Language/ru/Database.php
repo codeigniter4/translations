@@ -6,9 +6,9 @@
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
  * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT	MIT License
+ * @license    https://opensource.org/licenses/MIT MIT License
  * @link       https://codeigniter.com
- * @since      Version 3.0.0
+ * @since      Version 4.0.0
  * @filesource
  *
  * @codeCoverageIgnore
@@ -26,6 +26,7 @@ return [
 	'featureUnavailable'               => 'Эта функция недоступна для используемой вами базы данных.',
 	'tableNotFound'                    => 'Таблица `{0}` не найдена в текущей базе данных.',
 	'noPrimaryKey'                     => 'В классе модели `{0}` не указан первичный ключ.',
+	'noDateFormat'                     => '`{0}` Класс модели имеет не допустимый формат даты.',
 	'fieldNotExists'                   => 'Поле `{0}` не найдено.',
 	'forEmptyInputGiven'               => 'Пустое утверждение дано для поля: `{0}`',
 	'forFindColumnHaveMultipleColumns' => 'В имени столбца допускается только один столбец.',
