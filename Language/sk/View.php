@@ -3,21 +3,21 @@
  * View language strings.
  *
  * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
+ * @author     Jozef Botka - xbotkaj on Github
  * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
- * @since      Version 4.0.0
+ * @since      Version 4.0.0 - beta 4
  * @filesource
  *
  * @codeCoverageIgnore
  */
 
 return [
-   'invalidCellMethod'     => '{class}::{method} is not a valid method.',
-   'missingCellParameters' => '{class}::{method} has no params.',
-   'invalidCellParameter'  => '{0} is not a valid param name.',
-   'noCellClass'           => 'No view cell class provided.',
-   'invalidCellClass'      => 'Unable to locate view cell class: {0}.',
-   'tagSyntaxError'        => 'You have a syntax error in your Parser tags: {0}',
+   'invalidCellMethod'     => '{class}::{method} nie je platná metóda.',
+   'missingCellParameters' => '{class}::{method} nemá žiadne parametre.',
+   'invalidCellParameter'  => '{0} nie je platný názov paramteru.',
+   'noCellClass'           => 'Žiadna trieda zobrazenia.',
+   'invalidCellClass'      => 'Nebolo možné nájsť triedu zobrazenia: {0}.',
+   'tagSyntaxError'        => 'Chyba syntaxe vo vašich Parser značkách: {0}',
 ];

@@ -4,20 +4,20 @@
  * Session language strings.
  *
  * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
+ * @author     Jozef Botka - xbotkaj on Github
  * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
- * @since      Version 4.0.0
+ * @since      Version 4.0.0 - beta 4
  * @filesource
  *
  * @codeCoverageIgnore
  */
 
 return [
-   'missingDatabaseTable'   => '`sessionSavePath` must have the table name for the Database Session Handler to work.',
-   'invalidSavePath'        => "Session: Configured save path '{0}' is not a directory, doesn't exist or cannot be created.",
-   'writeProtectedSavePath' => "Session: Configured save path '{0}' is not writable by the PHP process.",
-   'emptySavePath'          => 'Session: No save path configured.',
-   'invalidSavePathFormat'  => 'Session: Invalid Redis save path format: {0}',
+   'missingDatabaseTable'   => '`sessionSavePath` musí mať tabuľku aby pracoval Database Session Handler.',
+   'invalidSavePath'        => "Session: Nastavená cesta uloženia '{0}' nie je zložka, neexistuje alebo nemôže byť vytvorená.",
+   'writeProtectedSavePath' => "Session: Nastavená cesta uloženia '{0}' nie je zapisovateľná cez PHP proces.",
+   'emptySavePath'          => 'Session: Nie je nastavená cesta na uloženie.',
+   'invalidSavePathFormat'  => 'Session: Neplatný formát Redis cesty: {0}',
 ];

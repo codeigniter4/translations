@@ -16,62 +16,62 @@
 
 return [
 	// CurlRequest
-   'missingCurl'                => 'CURL must be enabled to use the CURLRequest class.',
-   'invalidSSLKey'              => 'Cannot set SSL Key. {0} is not a valid file.',
-   'sslCertNotFound'            => 'SSL certificate not found at: {0}',
+   'missingCurl'                => 'Aby bolo možné používať triedu CURLRequest, musí byť povolená funkcia CURL.',
+   'invalidSSLKey'              => 'Nie je možné nastaviť kľúč SSL. {0} nie je platný súbor.',
+   'sslCertNotFound'            => 'SSL certifikát nebol nájdený na: {0}',
    'curlError'                  => '{0} : {1}',
 
 	// IncomingRequest
-   'invalidNegotiationType'     => '{0} is not a valid negotiation type. Must be one of: media, charset, encoding, language.',
+   'invalidNegotiationType'     => '{0} nie je platný typ vyjednávania. Musí to byť: médium, znaková sada, kódovanie alebo jazyk.',
 
 	// Message
-   'invalidHTTPProtocol'        => 'Invalid HTTP Protocol Version. Must be one of: {0}',
+   'invalidHTTPProtocol'        => 'Neplatná verzia protokolu HTTP. Musí to byť jedno z: {0}',
 
 	// Negotiate
-   'emptySupportedNegotiations' => 'You must provide an array of supported values to all Negotiations.',
+   'emptySupportedNegotiations' => 'Musíte poskytnúť pole podporovaných hodnôt pre všetky negotiations.',
 
 	// RedirectResponse
-   'invalidRoute'               => '{0, string} route cannot be found while reverse-routing.',
+   'invalidRoute'               => '{0, string} trasu nemožno nájsť pri spätnom smerovaní.',
 
 	// DownloadResponse
-   'cannotSetBinary'            => 'When setting filepath can not set binary.',
-   'cannotSetFilepath'          => 'When setting binary can not set filepath: {0}',
+   'cannotSetBinary'            => 'Pri nastavovaní filepath nie je možné nastaviť binary.',
+   'cannotSetFilepath'          => 'Pri nastavovaní binary nie je možné nastaviť filepath: {0}',
    'notFoundDownloadSource'     => 'Not found download body source.',
-   'cannotSetCache'             => 'It does not supported caching for downloading.',
-   'cannotSetStatusCode'        => 'It does not supported chnage status code for downloading. code: {0}, reason: {1}',
+   'cannotSetCache'             => 'Nepodporuje ukladanie do vyrovnávacej pamäte pre sťahovanie.',
+   'cannotSetStatusCode'        => 'Nepodporuje stavový kód chnage na stiahnutie. kód: {0}, dôvod: {1}',
 
 	// Response
-   'missingResponseStatus'      => 'HTTP Response is missing a status code',
-   'invalidStatusCode'          => '{0, string} is not a valid HTTP return status code',
-   'unknownStatusCode'          => 'Unknown HTTP status code provided with no message: {0}',
+   'missingResponseStatus'      => 'V odpovedi HTTP chýba stavový kód',
+   'invalidStatusCode'          => '{0, string} nie je platný návratový stavový kód HTTP',
+   'unknownStatusCode'          => 'Neznámy stavový kód HTTP poskytnutý bez správy: {0}',
 
 	// URI
-   'cannotParseURI'             => 'Unable to parse URI: {0}',
-   'segmentOutOfRange'          => 'Request URI segment is our of range: {0}',
-   'invalidPort'                => 'Ports must be between 0 and 65535. Given: {0}',
-   'malformedQueryString'       => 'Query strings may not include URI fragments.',
+   'cannotParseURI'             => 'Nemožno analyzovať URI: {0}',
+   'segmentOutOfRange'          => 'Segment URI žiadosti je mimo rozsahu: {0}',
+   'invalidPort'                => 'Porty musia byť medzi 0 a 65535. Zadaný: {0}',
+   'malformedQueryString'       => 'Reťazce dopytov nemusia obsahovať fragmenty URI.',
 
 	// Page Not Found
-   'pageNotFound'               => 'Page Not Found',
-   'emptyController'            => 'No Controller specified.',
-   'controllerNotFound'         => 'Controller or its method is not found: {0}::{1}',
-   'methodNotFound'             => 'Controller method is not found: {0}',
+   'pageNotFound'               => 'Stránka sa nenašla',
+   'emptyController'            => 'Nie je zadaný žiadny Controller.',
+   'controllerNotFound'         => 'Controller alebo jeho metóda sa nenašla: {0}::{1}',
+   'methodNotFound'             => 'Metóda Controller-u sa nenašla: {0}',
 
 	// CSRF
-   'disallowedAction'           => 'The action you requested is not allowed.',
+   'disallowedAction'           => 'Požadovaná akcia nie je povolená.',
 
 	// Uploaded file moving
-   'alreadyMoved'               => 'The uploaded file has already been moved.',
-   'invalidFile'                => 'The original file is not a valid file.',
-   'moveFailed'                 => 'Could not move file {0} to {1} ({2})',
+   'alreadyMoved'               => 'Nahraný súbor už bol presunutý.',
+   'invalidFile'                => 'Pôvodný súbor nie je platný.',
+   'moveFailed'                 => 'Nepodarilo sa presunúť súbor z {0} do {1} ({2})',
 
-   'uploadErrOk'                => 'The file uploaded with success.',
-   'uploadErrIniSize'           => 'The file "%s" exceeds your upload_max_filesize ini directive.',
-   'uploadErrFormSize'          => 'The file "%s" exceeds the upload limit defined in your form.',
-   'uploadErrPartial'           => 'The file "%s" was only partially uploaded.',
-   'uploadErrNoFile'            => 'No file was uploaded.',
-   'uploadErrCantWrite'         => 'The file "%s" could not be written on disk.',
-   'uploadErrNoTmpDir'          => 'File could not be uploaded: missing temporary directory.',
-   'uploadErrExtension'         => 'File upload was stopped by a PHP extension.',
-   'uploadErrUnknown'           => 'The file "%s" was not uploaded due to an unknown error.',
+   'uploadErrOk'                => 'Súbor bol úspešne odovzdaný.',
+   'uploadErrIniSize'           => 'Súbor "%s" prekračuje vašu direktívu upload_max_filesize ini.',
+   'uploadErrFormSize'          => 'Súbor "%s" prekračuje limit pre upload stanovený vo vašom formulári.',
+   'uploadErrPartial'           => 'Súbor "%s" bol nahraný iba čiastočne.',
+   'uploadErrNoFile'            => 'Nebol nahraný žiaden súbor.',
+   'uploadErrCantWrite'         => 'Súbor "%s" sa nedal zapísať na disk.',
+   'uploadErrNoTmpDir'          => 'Súbor sa nepodarilo nahrať: chýba dočasný adresár.',
+   'uploadErrExtension'         => 'Nahrávanie súborov bolo zastavené rozšírením PHP.',
+   'uploadErrUnknown'           => 'Súbor "%s" nebol nahraný kvôli neznámej chybe.',
 ];

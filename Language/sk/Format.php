@@ -4,17 +4,17 @@
  * Format language strings.
  *
  * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
+ * @author     Jozef Botka - xbotkaj on Github
  * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
- * @since      Version 4.0.0
+ * @since      Version 4.0.0 - beta 4
  * @filesource
  *
  * @codeCoverageIgnore
  */
 
 return [
-   'invalidJSON'      => 'Failed to parse json string, error: "{0}".',
-   'missingExtension' => 'The SimpleXML extension is required to format XML.',
+   'invalidJSON'      => 'Parsovanie JSON reťazca zlyhalo, chyba: "{0}".',
+   'missingExtension' => 'Rozšírenie SimpleXML je nevyhnutné pre XML formát.',
 ];

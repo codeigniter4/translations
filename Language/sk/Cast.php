@@ -3,21 +3,21 @@
  * Cast language strings.
  *
  * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
+ * @author     Jozef Botka - xbotkaj on Github
  * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
- * @since      Version 4.0.0
+ * @since      Version 4.0.0 - beta 4
  * @filesource
  *
  * @codeCoverageIgnore
  */
 
 return [
-   'jsonErrorDepth'         => 'Maximum stack depth exceeded',
-   'jsonErrorStateMismatch' => 'Underflow or the modes mismatch',
-   'jsonErrorCtrlChar'      => 'Unexpected control character found',
-   'jsonErrorSyntax'        => 'Syntax error, malformed JSON',
-   'jsonErrorUtf8'          => 'Malformed UTF-8 characters, possibly incorrectly encoded',
-   'jsonErrorUnknown'       => 'Unknown error',
+   'jsonErrorDepth'         => 'Bola prekročená maximálna veľkosť zásobníku',
+   'jsonErrorStateMismatch' => 'Neplatný alebo poškodený JSON',
+   'jsonErrorCtrlChar'      => 'Nájdený neočakáavaný kontrolný znak',
+   'jsonErrorSyntax'        => 'Chyba syntaxe, poškodený JSON',
+   'jsonErrorUtf8'          => 'Poškodené UTF-8 znaky, možné nesprávne kódovanie',
+   'jsonErrorUnknown'       => 'Neznáma chyba',
 ];

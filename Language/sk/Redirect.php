@@ -4,16 +4,16 @@
  * Redirect language strings.
  *
  * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
+ * @author     Jozef Botka - xbotkaj on Github
  * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
- * @since      Version 4.0.0
+ * @since      Version 4.0.0 - beta 4
  * @filesource
  *
  * @codeCoverageIgnore
  */
 
 return [
-   'forUnableToRedirect' => 'Unable to redirect to "{0}". Error status code "{1}"',
+   'forUnableToRedirect' => 'Nepodarilo sa presmerovať na "{0}". Kód chyby "{1}"',
 ];

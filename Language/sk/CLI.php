@@ -4,21 +4,21 @@
  * CLI language strings.
  *
  * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
+ * @author     Jozef Botka - xbotkaj on Github
  * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
- * @since      Version 4.0.0
+ * @since      Version 4.0.0 - beta 4
  * @filesource
  *
  * @codeCoverageIgnore
  */
 
 return [
-   'commandNotFound' => 'Command "{0}" not found.',
-   'helpUsage'       => 'Usage:',
-   'helpDescription' => 'Description:',
-   'helpOptions'     => 'Options:',
-   'helpArguments'   => 'Arguments:',
-   'invalidColor'    => 'Invalid {0} color: {1}.',
+   'commandNotFound' => 'Príkaz "{0}" nebol nájdený.',
+   'helpUsage'       => 'Použitie:',
+   'helpDescription' => 'Popis:',
+   'helpOptions'     => 'Možnosti:',
+   'helpArguments'   => 'Argumenty:',
+   'invalidColor'    => 'Neplatná {0} farba: {1}.',
 ];

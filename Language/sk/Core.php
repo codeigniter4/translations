@@ -4,19 +4,19 @@
  * Core language strings.
  *
  * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
+ * @author     Jozef Botka - xbotkaj on Github
  * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
- * @since      Version 4.0.0
+ * @since      Version 4.0.0 - beta 4
  * @filesource
  *
  * @codeCoverageIgnore
  */
 
 return [
-   'invalidFile'      => 'Invalid file: {0}',
-   'copyError'        => 'An error was encountered while attempting to replace the file({0}). Please make sure your file directory is writable.',
-   'missingExtension' => '{0} extension is not loaded.',
-   'noHandlers'       => '{0} must provide at least one Handler.',
+   'invalidFile'      => 'Neplatný súbor: {0}',
+   'copyError'        => 'Vyskytla sa chyba pri pokuse nahradiť súbor ({0}). Prosím uistite sa, že zložka so súbormi je zapisovateľná..',
+   'missingExtension' => '{0} rozšírenie nebolo načítané.',
+   'noHandlers'       => '{0} musí poskytnúť aspoň jeden manipulačný program (Handler).',
 ];

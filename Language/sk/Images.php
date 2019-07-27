@@ -4,33 +4,33 @@
  * Image language strings.
  *
  * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
+ * @author     Jozef Botka - xbotkaj on Github
  * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
- * @since      Version 4.0.0
+ * @since      Version 4.0.0 - beta 4
  * @filesource
  *
  * @codeCoverageIgnore
  */
 
 return [
-   'sourceImageRequired'    => 'You must specify a source image in your preferences.',
-   'gdRequired'             => 'The GD image library is required to use this feature.',
-   'gdRequiredForProps'     => 'Your server must support the GD image library in order to determine the image properties.',
-   'gifNotSupported'        => 'GIF images are often not supported due to licensing restrictions. You may have to use JPG or PNG images instead.',
-   'jpgNotSupported'        => 'JPG images are not supported.',
-   'pngNotSupported'        => 'PNG images are not supported.',
-   'unsupportedImageCreate' => 'Your server does not support the GD function required to process this type of image.',
-   'jpgOrPngRequired'       => 'The image resize protocol specified in your preferences only works with JPEG or PNG image types.',
-   'rotateUnsupported'      => 'Image rotation does not appear to be supported by your server.',
-   'libPathInvalid'         => 'The path to your image library is not correct. Please set the correct path in your image preferences. {0, string)',
-   'imageProcessFailed'     => 'Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.',
-   'rotationAngleRequired'  => 'An angle of rotation is required to rotate the image.',
-   'invalidPath'            => 'The path to the image is not correct.',
-   'copyFailed'             => 'The image copy routine failed.',
-   'missingFont'            => 'Unable to find a font to use.',
-   'saveFailed'             => 'Unable to save the image. Please make sure the image and file directory are writable.',
-   'invalidDirection'       => 'Flip direction can be only `vertical` or `horizontal`. Given: {0}',
-   'exifNotSupported'       => 'Reading EXIF data is not supported by this PHP installation.',
+   'sourceImageRequired'    => 'Musíte uviesť zdrojový obrázok v preferenciách.',
+   'gdRequired'             => 'Na použitie tejto funkcie je potrebná knižnica obrázkov GD.',
+   'gdRequiredForProps'     => 'Server musí podporovať knižnicu obrázkov GD, aby určil vlastnosti obrázkov.',
+   'gifNotSupported'        => 'Obrázky GIF často nie sú podporované kvôli licenčným obmedzeniam. Možno budete musieť namiesto toho použiť obrázky JPG alebo PNG.',
+   'jpgNotSupported'        => 'Obrázky JPG nie sú podporované.',
+   'pngNotSupported'        => 'Obrázky PNG nie sú podporované.',
+   'unsupportedImageCreate' => 'Váš server nepodporuje funkciu GD potrebnú na spracovanie tohto typu obrázka.',
+   'jpgOrPngRequired'       => 'Protokol o zmene veľkosti obrázka špecifikovaný vo vašich preferenciách funguje iba pre typy obrázkov JPEG alebo PNG.',
+   'rotateUnsupported'      => 'Zdá sa, že váš server nepodporuje rotáciu obrázkov.',
+   'libPathInvalid'         => 'Cesta do vašej knižnice obrázkov nie je správna. Nastavte správnu cestu v preferenciách obrázkov. {0, string)',
+   'imageProcessFailed'     => 'Spracovanie obrázku zlyhalo. Skontrolujte, či váš server podporuje zvolený protokol a či je cesta k vašej knižnici obrázkov správna.',
+   'rotationAngleRequired'  => 'Na otočenie obrázku je potrebný uhol rotácie.',
+   'invalidPath'            => 'Cesta k obrázku nie je správna.',
+   'copyFailed'             => 'Rutina kopírovania obrázkov zlyhala.',
+   'missingFont'            => 'Nie je možné nájsť písmo na použitie.',
+   'saveFailed'             => 'Obrázok sa nepodarilo uložiť. Uistite sa, že adresár obrázkov a súborov je zapisovateľný.',
+   'invalidDirection'       => 'Smer preklopenia môže byť iba "vertikálny" alebo "horizontálny". Zadané: {0}',
+   'exifNotSupported'       => 'Táto inštalácia PHP nepodporuje čítanie EXIF dát.',
 ];

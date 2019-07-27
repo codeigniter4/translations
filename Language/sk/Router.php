@@ -4,17 +4,17 @@
  * Router language strings.
  *
  * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
+ * @author     Jozef Botka - xbotkaj on Github
  * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
- * @since      Version 4.0.0
+ * @since      Version 4.0.0 - beta 4
  * @filesource
  *
  * @codeCoverageIgnore
  */
 
 return [
-   'invalidParameter'    => 'A parameter does not match the expected type.',
-   'missingDefaultRoute' => 'Unable to determine what should be displayed. A default route has not been specified in the routing file.',
+   'invalidParameter'    => 'Parameter sa nezhoduje s očakávaným typom.',
+   'missingDefaultRoute' => 'Nemôžné určiť, čo by malo byť zobrazené. Predvolená cesta nebola špecifikovaná v routing súbore.',
 ];
