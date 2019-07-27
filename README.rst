@@ -42,6 +42,7 @@ pl        Polish           4.0.0        DEVELPL            Maciej Jasiewicz
 pt        Portugese        4.0.0        rbm0407            Rodrigo Borges
 pt-BR     Brazilian        4.0.0        natanfelles        Natan Felles
 ru        Russian          4.0.0*       DigitalWolf98      Vladislav Rykhtikov
+sk        Slovak           4.0.0-b3     xbotkaj            Jozef Botka
 tr        Turkish          4.0.0        obozdag            obozdag
 zh-CN     Simple Chinese   4.0.0        bangbangda         bangbangda
 ========  ===============  ===========  =================  =========================
