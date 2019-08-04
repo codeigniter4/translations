@@ -18,5 +18,5 @@ return [
    'invalidFile'      => 'Neplatný súbor: {0}',
    'copyError'        => 'Vyskytla sa chyba pri pokuse nahradiť súbor ({0}). Prosím uistite sa, že zložka so súbormi je zapisovateľná..',
    'missingExtension' => '{0} rozšírenie nebolo načítané.',
-   'noHandlers'       => '{0} musí poskytnúť aspoň jeden manipulačný program (Handler).',
+   'noHandlers'       => '{0} musí poskytnúť aspoň jeden Handler.',
 ];
