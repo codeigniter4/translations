@@ -11,11 +11,26 @@ Release Date: Unreleased
    
 -   Updated Translations
 
+
+Version 4.0-beta4
+==============================
+
+Release Date: Aug 9, 2019
+
+-   New Translations
+   
+   - no (Norwegian)
+   - sk (Slovak)
+   
+-   Updated Translations
+
+   - ru (Russian)
+
       
 Version 4.0-beta.3
 ==============================
 
-Release Date: May 6, 2029
+Release Date: May 6, 2019
 
 -   New Translations
 

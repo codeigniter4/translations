@@ -6,9 +6,9 @@
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
  * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT	MIT License
+ * @license    https://opensource.org/licenses/MIT MIT License
  * @link       https://codeigniter.com
- * @since      Version 3.0.0
+ * @since      Version 4.0.0
  * @filesource
  *
  * @codeCoverageIgnore
@@ -30,6 +30,7 @@ return [
    'alpha_space'           => 'Поле {field} может содержать только алфавитные символы и пробелы.',
    'decimal'               => 'Поле {field} должно содержать десятичное число.',
    'differs'               => 'Поле {field} должно отличаться от поля {param}.',
+   'equals'                => 'Поле {field} должно быть точно {param}.',
    'exact_length'          => 'Поле {field} должно быть длиной ровно {param} символов.',
    'greater_than'          => 'Поле {field} должно содержать число больше, чем {param}.',
    'greater_than_equal_to' => 'Поле {field} должно содержать число, большее или равное {param}.',
@@ -43,6 +44,7 @@ return [
    'matches'               => 'Поле {field} не соответствует полю {param}.',
    'max_length'            => 'Длина поля {field} не может превышать {param} символов.',
    'min_length'            => 'Поле {field} должно быть длиной не менее {param} символов.',
+   'not_equals'            => 'Поле {field} не может быть {param}.',
    'numeric'               => 'Поле {field} должно содержать только цифры.',
    'regex_match'           => 'Поле {field} имеет неверный формат.',
    'required'              => 'Поле {поле} обязательно для заполнения.',
