@@ -5,17 +5,21 @@
     "homepage": "https://codeigniter.com",
     "license": "MIT",
     "require": {
-        "php": ">=7.1",
+        "php": ">=7.2",
         "ext-intl": "*"
     },
     "autoload": {
         "psr-4": {
-            "Translations\\": "Language/"
+            "CodeIgniter\\Language\\": "Language/"
         }
     },
     "support": {
         "forum": "http://forum.codeigniter.com/",
         "source": "https://github.com/codeigniter4/translations",
         "slack": "https://codeigniterchat.slack.com"
+    },
+    "require-dev": {
+        "codeigniter4/framework": "dev-master",
+        "phpunit/phpunit": "^7.0"
     }
 }

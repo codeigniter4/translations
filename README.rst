@@ -65,16 +65,16 @@ Contributing
 ************
 
 If you have a translation or correction, please fork the repository, clone it
-locally, and then create a new branch (from master)
+locally, and then create a new branch (from develop)
 for each set of related changes or for
 a complete language pack. Once your branch is complete, *then* create a pull
-request to merge it into the main repository.
+request to merge it into the develop branch of this repository.
 
 If you are contributing a variant of a main locale (e.g. "en-CA"), you
 only need to provide those translations that differ from it.
 
-Unlike the framework repository, we are not insisting on GPG-signed
-commits here, but please remember to "sign" your commits.
+We would like to see GPG-signed commits for contributions,
+and we have unit testing to help determine if your translations are complete.
 
 Pull requests to the repository will only be considered if they come from
 the maintainer for any translations in the request, or if the maintainer
@@ -84,4 +84,4 @@ language, we can add the contributor as a maintainer for that language.
 
 PR conversations should be conducted in English, thanks.
 
-`Jim Parry <jim_parry@bcit.ca>`_
+`Jim Parry <admin@codeigniter.com>`_
