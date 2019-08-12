@@ -1,0 +1,16 @@
+language: php
+
+php:
+  - 7.2
+
+# Recommended by Travis support
+sudo: required
+dist: trusty
+group: edge
+
+script:
+  - php vendor/bin/phpunit -v
+
+before_script:
+  - composer install --prefer-source
+
