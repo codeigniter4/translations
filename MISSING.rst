@@ -26,11 +26,9 @@ km        Khmer                 Chanthoeun         Chanthoeun Kim
 lv        Latvian               DavisMiculis       Davis Miculis
 lt        Lithuanian            dgvirtual          Donatas Glodenis
 ko        Korean                KwonLatte          HyeongJoo Kwon ???
-no        Norwegian             yhoiseth           Yngve Hoiseth
 fa        Persian               MSDehghan          Mohammad Sadegh
 ro        Romanian              CodefishRo         Cristian Robert Chiribuc
 sr        Serbian               novakurosevic      Novak Urosevic ???
-sk        Slovak                gadelat            Gabriel Potkány
 sl        Slovenian             andrejflorjancic   Andrej Florjančič
 sv        Swedish               peterdenk          Peter Denk
 ta        Tamil                 karthik-code       Karthikeyan
