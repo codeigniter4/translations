@@ -15,6 +15,6 @@
  */
 
 return [
-   'noFilter'           => 'Фильтр {0} должен иметь соответствующий псевдоним.',
-   'incorrectInterface' => '{0} должен реализовывать CodeIgniter\Filters\FilterInterface.',
+   'noFilter'           => '{0} фильтр должен иметь соответствующий алиас',
+   'incorrectInterface' => '{0} должен реализовывать CodeIgniter\Filters\FilterInterface',
 ];

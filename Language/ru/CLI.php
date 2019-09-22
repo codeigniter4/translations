@@ -15,10 +15,10 @@
  */
 
 return [
-   'commandNotFound' => 'Команда "{0}" не найдена.',
+   'commandNotFound' => 'Команда "{0}" не найдена',
    'helpUsage'       => 'Использование:',
    'helpDescription' => 'Описание:',
    'helpOptions'     => 'Опции:',
    'helpArguments'   => 'Аргументы:',
-   'invalidColor'    => 'Неверный {0} цвет: {1}.',
+   'invalidColor'    => 'Неверный {0} цвет: {1}',
 ];

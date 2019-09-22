@@ -19,12 +19,12 @@ return [
    'gigabyteAbbr' => 'ГБ',
    'megabyteAbbr' => 'МБ',
    'kilobyteAbbr' => 'КБ',
-   'bytes'        => 'Байт',
+   'bytes'        => 'Байтов',
 
 	// don't forget the space in front of these!
-   'thousand'     => ' тысяч',
-   'million'      => ' миллион',
-   'billion'      => ' миллиард',
-   'trillion'     => ' триллион',
-   'quadrillion'  => ' квадраллион',
+   'thousand'     => ' Тысяч',
+   'million'      => ' Миллион',
+   'billion'      => ' Миллиард',
+   'trillion'     => ' Триллион',
+   'quadrillion'  => ' Квадраллион',
 ];

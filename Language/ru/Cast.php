@@ -15,10 +15,10 @@
  */
 
 return [
-   'jsonErrorDepth'         => 'Максимальная глубина стека превышена',
-   'jsonErrorStateMismatch' => 'несовпадение режимов',
-   'jsonErrorCtrlChar'      => 'Обнаружен неожиданный управляющий символ',
+   'jsonErrorDepth'         => 'Превышена максимальная глубина стека',
+   'jsonErrorStateMismatch' => 'Несоответсвие режимов',
+   'jsonErrorCtrlChar'      => 'Обнаружен неожиданный символ',
    'jsonErrorSyntax'        => 'Синтаксическая ошибка, неправильный формат JSON',
    'jsonErrorUtf8'          => 'Неверно сформированные символы UTF-8, возможно неправильно закодированы',
-   'jsonErrorUnknown'       => 'Неизвестная ошибка',
+   'jsonErrorUnknown'       => 'Неизвестная ошибка'
 ];

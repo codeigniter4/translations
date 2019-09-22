@@ -15,5 +15,5 @@
  */
 
 return [
-   'languageGetLineInvalidArgumentException' => 'Получаемая линия должна быть строкой или массивом строк.',
+   'languageGetLineInvalidArgumentException' => 'Установленная строка должна быть строкой или массивом строк',
 ];
