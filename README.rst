@@ -38,12 +38,12 @@ fa        Farsi            4.0.0        smhnaji            Mohammad Naji
 fr        French           4.0.0        amuratet           Amuratet?
 id        Indonesian       4.0.0        ridho1991          Mutasim Ridlo
 it        Italian          4.0.0        luk3b8             Luca Rasia
-no        Norwegian        4.0.0*       LA3QMA             Kai Günter Brandt
+no        Norwegian        4.0.0        LA3QMA             Kai Günter Brandt
 pl        Polish           4.0.0        DEVELPL            Maciej Jasiewicz
 pt        Portugese        4.0.0        rbm0407            Rodrigo Borges
 pt-BR     Brazilian        4.0.0        natanfelles        Natan Felles
-ru        Russian          4.0.0*       DigitalWolf98      Vladislav Rykhtikov
-sk        Slovak           4.0.0*       xbotkaj            Jozef Botka
+ru        Russian          4.0.0        DigitalWolf98      Vladislav Rykhtikov
+sk        Slovak           4.0.0        xbotkaj            Jozef Botka
 tr        Turkish          4.0.0        obozdag            obozdag
 zh-CN     Simple Chinese   4.0.0        bangbangda         bangbangda
 ========  ===============  ===========  =================  =========================
