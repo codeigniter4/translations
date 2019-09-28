@@ -6,7 +6,7 @@
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
  * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT MIT License
+ * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
  * @since      Version 4.0.0
  * @filesource
@@ -15,13 +15,13 @@
  */
 
 return [
-   'pageNavigation'         => 'Навигация по страницам',
+   'pageNavigation'         => 'Пагинация',
    'first'                  => 'Первая',
    'previous'               => 'Предыдущая',
    'next'                   => 'Следующая',
    'last'                   => 'Последняя',
    'older'                  => 'Старая',
    'newer'                  => 'Новая',
-   'invalidTemplate'        => '{0} - недопустимый шаблон страниц.',
-   'invalidPaginationGroup' => '{0} - не является группой пагинации.',
+   'invalidTemplate'        => '{0} не является допустимым шаблоном.',
+   'invalidPaginationGroup' => '{0} не является группой пагинации.',
 ];

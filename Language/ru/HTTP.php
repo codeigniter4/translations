@@ -6,7 +6,7 @@
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
  * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT MIT License
+ * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
  * @since      Version 4.0.0
  * @filesource
@@ -16,62 +16,62 @@
 
 return [
 	// CurlRequest
-   'missingCurl'                => 'CURL должен быть включен для использования класса CURLRequest.',
-   'invalidSSLKey'              => 'Невозможно установить ключ SSL. {0} не является допустимым файлом.',
-   'sslCertNotFound'            => 'Сертификат SSL не найден по адресу: {0}',
+   'missingCurl'                => 'На вашем сервере должна быть включена библиотека CURL для использования класса CURLRequest.',
+   'invalidSSLKey'              => 'Не удается установить ключ SSL. {0} не является допустимым файлом.',
+   'sslCertNotFound'            => 'SSL-сертификат не найден в {0}',
    'curlError'                  => '{0} : {1}',
 
 	// IncomingRequest
-   'invalidNegotiationType'     => '{0} не является допустимым типом согласования. Должно быть одним из: media, charset, encoding, language.',
+   'invalidNegotiationType'     => '{0} не является допустимым типом согласования. Должен быть один из: media, charset, encoding, language.',
 
 	// Message
-   'invalidHTTPProtocol'        => 'Неверная версия протокола HTTP. Должно быть одним из: {0}',
+   'invalidHTTPProtocol'        => 'Неверная версия протокола HTTP. Должно быть одно из следующих значений: {0}',
 
 	// Negotiate
-   'emptySupportedNegotiations' => 'Вы должны предоставить массив поддерживаемых значений для всех согласований.',
+   'emptySupportedNegotiations' => 'Необходимо предоставить массив поддерживаемых значений для всех переговоров.',
 
 	// RedirectResponse
-   'invalidRoute'               => 'Не удается найти маршрут {0, string} во время обратной маршрутизации.',
+   'invalidRoute'               => '{0, string} маршрут не может быть найден при обратной маршрутизации.',
 
 	// DownloadResponse
-   'cannotSetBinary'            => 'При настройке filepath нельзя установить двоичный файл.',
-   'cannotSetFilepath'          => 'При настройке двоичного файла невозможно задать путь к файлу: {0}',
-   'notFoundDownloadSource'     => 'Не найдено скачивание источника тела.',
-   'cannotSetCache'             => 'Не поддерживается кеширование для скачивания.',
-   'cannotSetStatusCode'        => 'Не поддерживается изменение кода состояния для загрузки. код: {0}, причина: {1}',
+   'cannotSetBinary'            => 'При установке $filepath не удается установить двоичного файл.',
+   'cannotSetFilepath'          => 'При установке двоичного файла не удается установить $filepath: {0}.',
+   'notFoundDownloadSource'     => 'Не найден источник загрузки тела.',
+   'cannotSetCache'             => 'Для загрузки кэширование не поддерживается.',
+   'cannotSetStatusCode'        => 'При скачивании изменение HTTP кода не поддерживается. Код: {0}, Причина: {1}.',
 
 	// Response
-   'missingResponseStatus'      => 'В HTTP-ответе отсутствует код состояния',
-   'invalidStatusCode'          => '{0, string} не является допустимым кодом возврата HTTP',
-   'unknownStatusCode'          => 'Неизвестный код состояния HTTP предоставляется без сообщения: {0}',
+   'missingResponseStatus'      => 'В ответе HTTP отсутствует код состояния.',
+   'invalidStatusCode'          => '{0, string} не является допустимым кодом состояния.',
+   'unknownStatusCode'          => 'Неизвестный HTTP код состояния, предоставленный без сообщения: {0}.',
 
 	// URI
-   'cannotParseURI'             => 'Невозможно проанализировать URI: {0}',
-   'segmentOutOfRange'          => 'Сегмент запроса URI находится вне диапазона: {0}',
-   'invalidPort'                => 'Порты должны быть между 0 и 65535. Дано: {0}',
-   'malformedQueryString'       => 'Строки запроса могут не включать фрагменты URI.',
+   'cannotParseURI'             => 'Невозможно разобрать URI: {0}',
+   'segmentOutOfRange'          => 'Сегмент URI запроса имеет диапазон: {0}',
+   'invalidPort'                => 'Указанный порт должен быть между 0 и 65535. Указан: {0}',
+   'malformedQueryString'       => 'Строки запроса могут не включать в себя фрагменты URI.',
 
 	// Page Not Found
-   'pageNotFound'               => 'Страница не найдена',
-   'emptyController'            => 'Контроллер не указан.',
+   'pageNotFound'               => 'Страница не найдена.',
+   'emptyController'            => 'Не указан контроллер.',
    'controllerNotFound'         => 'Контроллер или его метод не найден: {0}::{1}',
    'methodNotFound'             => 'Метод контроллера не найден: {0}',
 
 	// CSRF
-   'disallowedAction'           => 'Запрошенное вами действие не разрешено.',
+   'disallowedAction'           => 'Действие, которое вы запросили, не разрешено.',
 
 	// Uploaded file moving
-   'alreadyMoved'               => 'Загруженный файл уже был перемещен.',
+   'alreadyMoved'               => 'Загруженный файл уже перемещен.',
    'invalidFile'                => 'Исходный файл не является допустимым файлом.',
-   'moveFailed'                 => 'Не удалось переместить файл {0} в {1} ({2})',
+   'moveFailed'                 => 'Не удалось переместить файл из {0} в {1}. ({2})',
 
-   'uploadErrOk'                => 'Файл успешно загружен.',
-   'uploadErrIniSize'           => 'Файл "%s" превышает директиву upload_max_filesize ini.',
-   'uploadErrFormSize'          => 'Файл "%s" указанный в вашей форме, превышает лимит загрузки.',
+   'uploadErrOk'                => 'Файл успешно загружен !',
+   'uploadErrIniSize'           => 'Ваш файл "%s" превышает дерективу upload_max_filesize.',
+   'uploadErrFormSize'          => 'Файл "%s" превышает лимит загрузки, установленную в форме.',
    'uploadErrPartial'           => 'Файл "%s" был загружен только частично.',
    'uploadErrNoFile'            => 'Файл не был загружен.',
-   'uploadErrCantWrite'         => 'Файл "%s" не может быть записан на диск.',
-   'uploadErrNoTmpDir'          => 'Файл не может быть загружен: отсутствует временный каталог.',
+   'uploadErrCantWrite'         => 'Не удалось записать на диск файл "%s".',
+   'uploadErrNoTmpDir'          => 'Не удалось загрузить файл: Отсутствует временный каталог.',
    'uploadErrExtension'         => 'Загрузка файла была остановлена расширением PHP.',
-   'uploadErrUnknown'           => 'Файл "%s" не был загружен из-за неизвестной ошибки.',
+   'uploadErrUnknown'           => 'Файл "%s" не был загружен из-за неизвестной ошыибки.',
 ];
