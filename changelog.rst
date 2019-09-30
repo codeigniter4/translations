@@ -11,6 +11,20 @@ Release Date: Unreleased
    
 -   Updated Translations
 
+   - ru (Russian)
+
+Version 4.0.0-rc.2
+==============================
+
+Release Date: Sept 26, 2019
+
+-   New Translations
+   
+-   Updated Translations
+
+   - no (Norwegian)
+   - ru (Russian)
+   - sk (Slovak)
 
 Version 4.0-beta4
 ==============================
