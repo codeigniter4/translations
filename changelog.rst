@@ -11,6 +11,7 @@ Release Date: Unreleased
    
 -   Updated Translations
 
+   - pt-BR (Brazilian)
    - ru (Russian)
 
 Version 4.0.0-rc.2
