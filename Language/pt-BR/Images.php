@@ -22,7 +22,6 @@ return [
 	'pngNotSupported'        => 'Imagens PNG não são suportadas.',
 	'unsupportedImageCreate' => 'Seu servidor não suporta a função GD necessária para processar este tipo de imagem.',
 	'jpgOrPngRequired'       => 'O protocolo de redimensionamento de imagem especificado nas suas preferências só funciona com os tipos de imagem JPEG ou PNG.',
-	'copyError'              => 'Um erro foi encontrado ao tentar substituir o arquivo. Por favor, certifique-se de que seu diretório de arquivos é gravável.',
 	'rotateUnsupported'      => 'A rotação de imagem não parece ser suportada pelo seu servidor.',
 	'libPathInvalid'         => 'O caminho para a sua biblioteca de imagens não está correto. Por favor, defina o caminho correto nas suas preferências de imagem.',
 	'imageProcessFailed'     => 'O processamento de imagem falhou. Por favor, verifique se o seu servidor suporta o protocolo escolhido e se o caminho para a sua biblioteca de imagens está correto.',
