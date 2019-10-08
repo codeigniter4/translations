@@ -14,6 +14,6 @@
  */
 
 return [
-   'fileNotFound' => 'File not found: {0}',
-   'cannotMove'   => 'Could not move file {0} to {1} ({2})',
+   'fileNotFound' => '找不到檔案：{0}',
+   'cannotMove'   => '無法將檔案從 {0} 移動到 {1}。({2})',
 ];

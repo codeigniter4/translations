@@ -15,5 +15,5 @@
  */
 
 return [
-   'languageGetLineInvalidArgumentException' => 'Get line must be a string or array of strings.',
+   'languageGetLineInvalidArgumentException' => 'Get line 必須是字串、陣列，或是字串陣列。',
 ];

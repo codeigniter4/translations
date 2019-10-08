@@ -15,8 +15,8 @@
  */
 
 return [
-   'unableToWrite'   => 'Cache unable to write to {0}',
-   'invalidHandlers' => 'Cache config must have an array of $validHandlers.',
-   'noBackup'        => 'Cache config must have a handler and backupHandler set.',
-   'handlerNotFound' => 'Cache config has an invalid handler or backup handler specified.',
+   'unableToWrite'   => '無法寫入快取 {0} 。',
+   'invalidHandlers' => '快取設置必須具有 $validHandlers 陣列。',
+   'noBackup'        => '快取設置必須具有處理器（handler）以及備份處理器（backupHandler）。',
+   'handlerNotFound' => '快取設置中指定了無效的處理器（handler）或備份處理器（backupHandler）。',
 ];

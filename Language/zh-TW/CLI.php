@@ -15,10 +15,10 @@
  */
 
 return [
-   'commandNotFound' => 'Command "{0}" not found.',
-   'helpUsage'       => 'Usage:',
-   'helpDescription' => 'Description:',
-   'helpOptions'     => 'Options:',
-   'helpArguments'   => 'Arguments:',
-   'invalidColor'    => 'Invalid {0} color: {1}.',
+   'commandNotFound' => '找不到 "{0}" 指令。',
+   'helpUsage'       => '應用:',
+   'helpDescription' => '說明:',
+   'helpOptions'     => '選項:',
+   'helpArguments'   => '引數:',
+   'invalidColor'    => '無效的 {0} 顏色: {1} 。',
 ];

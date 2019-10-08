@@ -15,5 +15,5 @@
  */
 
 return [
-   'invalidLogLevel' => '{0} is an invalid log level.',
+   'invalidLogLevel' => '{0} 是無效的紀錄層級（log level）。',
 ];

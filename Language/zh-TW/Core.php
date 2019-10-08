@@ -15,8 +15,8 @@
  */
 
 return [
-   'invalidFile'      => 'Invalid file: {0}',
-   'copyError'        => 'An error was encountered while attempting to replace the file({0}). Please make sure your file directory is writable.',
-   'missingExtension' => '{0} extension is not loaded.',
-   'noHandlers'       => '{0} must provide at least one Handler.',
+   'invalidFile'      => '無效的檔案: {0}',
+   'copyError'        => '嘗試替換檔案({0})時遇到錯誤. 請確定檔案目錄具有可寫入的權限。',
+   'missingExtension' => '尚未載入 {0} 擴充元件。',
+   'noHandlers'       => '{0} 最少必須提供一個處理器（handler）。',
 ];

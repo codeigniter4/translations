@@ -15,6 +15,6 @@
  */
 
 return [
-   'noFilter'           => '{0} filter must have a matching alias defined.',
-   'incorrectInterface' => '{0} must implement CodeIgniter\Filters\FilterInterface.',
+   'noFilter'           => '{0} 過濾器必續定義一個匹配的別名。',
+   'incorrectInterface' => '{0} 必需實作介面： CodeIgniter\Filters\FilterInterface ',
 ];

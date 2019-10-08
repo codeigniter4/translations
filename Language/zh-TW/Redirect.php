@@ -15,5 +15,5 @@
  */
 
 return [
-   'forUnableToRedirect' => 'Unable to redirect to "{0}". Error status code "{1}"',
+   'forUnableToRedirect' => '無法轉址（redirect）到 "{0}"。錯誤狀態碼："{1}"',
 ];
