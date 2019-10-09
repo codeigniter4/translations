@@ -13,7 +13,7 @@
  * @codeCoverageIgnore
  */
 return [
-	'invalidCellMethod'     => '{class}::{method} ليست دالة صحيحة."',
+	'invalidCellMethod'     => '{class}::{method} ليست دالة صحيحة.',
 	'missingCellParameters' => '{class}::{method} لا يوجد متغيرات.',
 	'invalidCellParameter'  => '{0} اسن متغير غير صحيح.',
 	'noCellClass'           => 'اسم الصنف لعرض جزء الصفحة غري مرسل.',

@@ -14,5 +14,5 @@
  */
 
 return [
-   'notImplemented' => "'{0}' ação não implementada.",
+   'notImplemented' => '"{0}" ação não implementada.',
 ];
