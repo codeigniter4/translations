@@ -32,7 +32,7 @@ return [
 	'migHelpRefresh'  => "\t\tOdinstalowuje i ponownie uruchamia wszystkie migracje, aby odświeżyć bazę danych.",
 	'migHelpSeed'     => "\tUruchamia siewnik o nazwie [name].",
 	'migCreate'       => "\tTworzy nową migrację o nazwie [name]",
-	'nameMigration'   => "Nazwij plik migracji",
+	'nameMigration'   => 'Nazwij plik migracji',
 	'badCreateName'   => 'Musisz podać nazwę pliku migracji.',
 	'writeError'      => 'Błąd podczas próby utworzenia pliku.',
 
@@ -40,7 +40,7 @@ return [
 	'migInvalidVersion' => 'Podano nieprawidłowy numer wersji.',
 	'toVersionPH'       => 'Migrowanie do wersji %s...',
 	'toVersion'         => 'Migracja do bieżącej wersji...',
-	'rollingBack'       => "Wycofuję wszystkie migracje...",
+	'rollingBack'       => 'Wycofuję wszystkie migracje...',
 	'noneFound'         => 'Nie znaleziono migracji.',
 	'on'                => 'Migracja włączona: ',
 	'migSeeder'         => 'Nazwa Seedera',

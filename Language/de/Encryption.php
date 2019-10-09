@@ -16,7 +16,7 @@
 return [
    'noDriverRequested'    => 'Kein Treiber angefordert.',
    'noHandlerAvailable'   => 'Es konnte kein verfügbarer {0} Verschlüsselungs-Handler gefunden werden.',
-   'unKnownHandler'       => "'{0}' kann nicht konfiguriert werden.",
+   'unKnownHandler'       => '"{0}" kann nicht konfiguriert werden.',
    'starterKeyNeeded'     => 'Encrypter benötigt einen Startschlüssel.',
    'authenticationFailed' => 'Entschlüsselung: Die Authentifizierung ist fehlgeschlagen.',
    'encryptionFailed'     => 'Verschlüsselung fehlgeschlagen.',

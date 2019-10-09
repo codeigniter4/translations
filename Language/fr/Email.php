@@ -19,7 +19,7 @@ return [
    'invalidAddress'       => 'Adresse email invalide : {0}',
    'attachmentMissing'    => 'Impossible de localiser le ficher joint suivant : {0}',
    'attachmentUnreadable' => 'Impossible d\'ouvrir ce fichier joint : {0}',
-   'noFrom'               => 'Impossible d\'envoyer un email sans en-tête \"From"\.',
+   'noFrom'               => 'Impossible d\'envoyer un email sans en-tête "From".',
    'noRecipients'         => 'Vous devez spécifier des destinataires : To, Cc, ou Bcc',
    'sendFailurePHPMail'   => 'Impossible d\'envoyer des emails avec la fonction mail() de PHP. Votre serveur n\'est peut-être pas configuré pour pouvoir utiliser cette méthode.',
    'sendFailureSendmail'  => 'Impossible d\'envoyer des emails avec la méthode Sendmail de PHP. Votre serveur n\'est peut-être pas configuré pour pouvoir utiliser cette méthode.',
