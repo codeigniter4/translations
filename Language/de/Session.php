@@ -16,8 +16,8 @@
 
 return [
    'missingDatabaseTable'   => 'In `sessionSavePath` muss der Tabellenname angegeben werden damit das Session Handling per Datenbank funktioniert.',
-   'invalidSavePath'        => "Session: Der konfigurierte Speicherpfad '{0}' ist kein Verzeichnis, existiert nicht oder kann nicht erstellt werden.",
-   'writeProtectedSavePath' => "Session: Der konfigurierte Speicherpfad '{0}' kann vom PHP-Prozess nicht beschrieben werden.",
+   'invalidSavePath'        => 'Session: Der konfigurierte Speicherpfad "{0}" ist kein Verzeichnis, existiert nicht oder kann nicht erstellt werden.',
+   'writeProtectedSavePath' => 'Session: Der konfigurierte Speicherpfad "{0}" kann vom PHP-Prozess nicht beschrieben werden.',
    'emptySavePath'          => 'Session: Kein Speicherpfad konfiguriert.',
    'invalidSavePathFormat'  => 'Session: Ungültiges Redis Speicherpfadformat: {0}',
 ];

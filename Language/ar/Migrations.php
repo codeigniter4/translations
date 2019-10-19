@@ -32,7 +32,7 @@ return [
 	'migHelpRefresh'  => "\t\tUninstalls and re-runs all migrations to freshen database.",
 	'migHelpSeed'     => "\tRuns the seeder named [name].",
 	'migCreate'       => "\tCreates a new migration named [name]",
-	'nameMigration'   => "Name the migration file",
+	'nameMigration'   => 'Name the migration file',
 	'badCreateName'   => 'You must provide a migration file name.',
 	'writeError'      => 'Error trying to create file.',
 
@@ -40,7 +40,7 @@ return [
 	'migInvalidVersion' => 'Invalid version number provided.',
 	'toVersionPH'       => 'Migrating to version %s...',
 	'toVersion'         => 'Migrating to current version...',
-	'rollingBack'       => "Rolling back all migrations...",
+	'rollingBack'       => 'Rolling back all migrations...',
 	'noneFound'         => 'No migrations were found.',
 	'on'                => 'Migrated On: ',
 	'migSeeder'         => 'Seeder name',

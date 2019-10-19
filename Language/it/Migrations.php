@@ -32,7 +32,7 @@ return [
 	'migHelpRefresh'  => "\t\tDisinstalla e rielabora tutte le migrazioni a un database riavviato.",
 	'migHelpSeed'     => "\tAvvia il seminatore denominato [name].",
 	'migCreate'       => "\tCrea una nuova migrazione denominata [name]",
-	'nameMigration'   => "Denomina il file di migrazione",
+	'nameMigration'   => 'Denomina il file di migrazione',
 	'badCreateName'   => 'Devi fornire un nome al file di migrazione.',
 	'writeError'      => 'Si è verificato un errore tentando di creare il file.',
 
@@ -40,7 +40,7 @@ return [
 	'migInvalidVersion' => 'Fornito un numero di versione non valido.',
 	'toVersionPH'       => 'Migrazione verso la versione %s...',
 	'toVersion'         => 'Migrazione verso la versione corrente...',
-	'rollingBack'       => "Ritorna indietro tutte le migrazioni...",
+	'rollingBack'       => 'Ritorna indietro tutte le migrazioni...',
 	'noneFound'         => 'Nessuna migrazione è stata trovata.',
 	'on'                => 'Migrato a: ',
 	'migSeeder'         => 'Nome seminatrice',

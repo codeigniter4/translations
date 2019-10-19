@@ -32,7 +32,7 @@ return [
 	'migHelpRefresh'  => "\t\tDesinstala e executa novamente todas as migrações para atualizar o banco de dados.",
 	'migHelpSeed'     => "\tExecuta o semeador chamado [name].",
 	'migCreate'       => "\tCria uma nova migração chamada [name]",
-	'nameMigration'   => "Nomeie o arquivo de migração",
+	'nameMigration'   => 'Nomeie o arquivo de migração',
 	'badCreateName'   => 'Você deve fornecer um nome de arquivo de migração.',
 	'writeError'      => 'Erro ao tentar criar o arquivo.',
 
@@ -40,7 +40,7 @@ return [
 	'migInvalidVersion' => 'Número de versão fornecido é inválido.',
 	'toVersionPH'       => 'Migrando para a versão %s...',
 	'toVersion'         => 'Migrando para a versão atual...',
-	'rollingBack'       => "Revertendo todas as migrações...",
+	'rollingBack'       => 'Revertendo todas as migrações...',
 	'noneFound'         => 'Nenhuma migração foi encontrada.',
 	'on'                => 'Migrado para: ',
 	'migSeeder'         => 'Nome do semeador',
