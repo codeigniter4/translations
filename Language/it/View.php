@@ -13,7 +13,7 @@
  * @codeCoverageIgnore
  */
 return [
-	'invalidCellMethod'     => '{class}::{method} non è un metodo valido."',
+	'invalidCellMethod'     => '{class}::{method} non è un metodo valido.',
 	'missingCellParameters' => '{class}::{method} non ha alcun parametro.',
 	'invalidCellParameter'  => '{0} non è un nome valido del parametro.',
 	'noCellClass'           => 'Nessuna classe view cell fornita.',

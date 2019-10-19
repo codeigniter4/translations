@@ -11,7 +11,30 @@ Release Date: Unreleased
    
 -   Updated Translations
 
+Version 4.0.0-rc.3
+==============================
+
+Release Date: Oct 19, 2019
+
+-   New Translations
+   
+-   Updated Translations
+
+   - ar (Arabic)
+   - de (German)
+   - es (Spanish)
+   - fa (Farsi)
+   - fr (French)
+   - id (Indonesian)
+   - it (Italian)
+   - no Norwegian
+   - pl (Polish)
+   - pt (Portugese)
+   - pt-BR (Brazilian)
    - ru (Russian)
+   - sk (Slovak)
+   - tr (Turkish)
+   - zh-CN (Simplified Chinese)
 
 Version 4.0.0-rc.2
 ==============================

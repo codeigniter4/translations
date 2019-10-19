@@ -13,7 +13,7 @@
  * @codeCoverageIgnore
  */
 return [
-	'invalidCellMethod'     => '{class}::{method} nie jest prawidłową metodą."',
+	'invalidCellMethod'     => '{class}::{method} nie jest prawidłową metodą.',
 	'missingCellParameters' => '{class}::{method} nie ma żadnych parametrów.',
 	'invalidCellParameter'  => '{0} nie jest prawidłową nazwą parametru.',
 	'noCellClass'           => 'Nie podano klasy komórek widoku.',

@@ -13,7 +13,7 @@
  * @codeCoverageIgnore
  */
 return [
-	'invalidCellMethod'     => '{class}::{method} geçerli bir yöntem değil."',
+	'invalidCellMethod'     => '{class}::{method} geçerli bir yöntem değil.',
 	'missingCellParameters' => '{class}::{method} yönteminin parametresi yok.',
 	'invalidCellParameter'  => '{0} geçerli bir parametre adı yok.',
 	'noCellClass'           => 'Görüntü hücre sınıfı belirtilmemiş.',

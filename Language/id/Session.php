@@ -15,8 +15,8 @@
  */
 return [
 	'missingDatabaseTable'   => '`sessionSavePath` harus memiliki nama tabel untuk Handler Sesi Basis Data agar bekerja.',
-	'invalidSavePath'        => "Sesi: Jalur penyimpanan terkonfigurasi '{0}' bukan sebuah direktori, tidak ada atau tidak dapat dibuat.",
-	'writeProtectedSavePath' => "Sesi: Jalur penyimpanan terkonfigurasi '{0}' tidak dapat ditulis oleh proses PHP.",
+	'invalidSavePath'        => 'Sesi: Jalur penyimpanan terkonfigurasi "{0}" bukan sebuah direktori, tidak ada atau tidak dapat dibuat.',
+	'writeProtectedSavePath' => 'Sesi: Jalur penyimpanan terkonfigurasi "{0}" tidak dapat ditulis oleh proses PHP.',
 	'emptySavePath'          => 'Sesi: Tidak ada jalur penyimpanan yang dikonfigurasi.',
 	'invalidSavePathFormat'  => 'Sesi: Format jalur penyimpanan Redis tidak valid: {0}',
 ];
