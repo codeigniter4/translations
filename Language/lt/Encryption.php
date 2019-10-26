@@ -14,10 +14,10 @@
  */
 
 return [
-   'noDriverRequested'    => 'No driver requested; Miss Daisy will be so upset!',
-   'noHandlerAvailable'   => 'Unable to find an available {0} encryption handler.',
-   'unKnownHandler'       => '"{0}" cannot be configured.',
-   'starterKeyNeeded'     => 'Encrypter needs a starter key.',
-   'authenticationFailed' => 'Decrypting: authentication failed.',
-   'encryptionFailed'     => 'Encryption failed.',
+   'noDriverRequested'    => 'Neužprašytas valdiklis; panelė Deizė bus labai nuliūdusi!',
+   'noHandlerAvailable'   => 'Nepavyksta rasti prieinamo {0} šifravimo doroklio.',
+   'unKnownHandler'       => '„{0}“ negali būti konfigūruotas.',
+   'starterKeyNeeded'     => 'Šifruokliui reikia starterio rakto.',
+   'authenticationFailed' => 'Dešifravimas: autentifikavimas nepavyko.',
+   'encryptionFailed'     => 'Užšifruoti nepavyko.',
 ];

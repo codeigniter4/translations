@@ -15,9 +15,9 @@
  */
 
 return [
-   'missingDatabaseTable'   => '`sessionSavePath` must have the table name for the Database Session Handler to work.',
-   'invalidSavePath'        => 'Session: Configured save path "{0}" is not a directory, does not exist or cannot be created.',
-   'writeProtectedSavePath' => 'Session: Configured save path "{0}" is not writable by the PHP process.',
-   'emptySavePath'          => 'Session: No save path configured.',
-   'invalidSavePathFormat'  => 'Session: Invalid Redis save path format: {0}',
+   'missingDatabaseTable'   => 'Norint, kad duomenų bazės doroklė veiktų, `sessionSavePath` turi turėti duomenų bazės lentelės pavadinimą.',
+   'invalidSavePath'        => 'Sesija: konfigūracijoje nustatytas įrašymo kelias „{0}“ nėra direktorija, neegzistuoja arba negali būti sukurtas.',
+   'writeProtectedSavePath' => 'Sesija: konfigūracijoje nustatytas įrašymo kelias „{0}“ nėra prieinamas php procesui įrašymui.',
+   'emptySavePath'          => 'Sesija: konfigūracijoje nenustatytas įrašymo kelias.',
+   'invalidSavePathFormat'  => 'Sesija: negaliojantis Redis įrašymo kelio formatas: {0}',
 ];

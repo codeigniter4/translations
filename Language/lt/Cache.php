@@ -15,8 +15,8 @@
  */
 
 return [
-   'unableToWrite'   => 'Cache unable to write to {0}',
-   'invalidHandlers' => 'Cache config must have an array of $validHandlers.',
-   'noBackup'        => 'Cache config must have a handler and backupHandler set.',
-   'handlerNotFound' => 'Cache config has an invalid handler or backup handler specified.',
+   'unableToWrite'   => 'Laikinąjai atmintinei nepavyko rašyti į {0}',
+   'invalidHandlers' => 'Laikinosios atmintinės konfigūracijos faile turi būti $validHandlers masyvas.',
+   'noBackup'        => 'Laikinosios atmintinės konfigūracijos faile turi būti nustatytas įvykių doroklio ir atsarginio įvykių doroklio parametras.',
+   'handlerNotFound' => 'Laikinosios atmintinės knfigūracijos faile nurodytas neteisingas įvykių doroklio ar atsarginio įvykių doroklio parametras.',
 ];

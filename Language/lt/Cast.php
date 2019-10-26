@@ -14,10 +14,10 @@
  */
 
 return [
-   'jsonErrorDepth'         => 'Maximum stack depth exceeded',
-   'jsonErrorStateMismatch' => 'Underflow or the modes mismatch',
-   'jsonErrorCtrlChar'      => 'Unexpected control character found',
-   'jsonErrorSyntax'        => 'Syntax error, malformed JSON',
-   'jsonErrorUtf8'          => 'Malformed UTF-8 characters, possibly incorrectly encoded',
-   'jsonErrorUnknown'       => 'Unknown error',
+   'jsonErrorDepth'         => 'Viršytas maksimalus dėklo gylis',
+   'jsonErrorStateMismatch' => 'Nepakankama tėkmė arba režimų neatitiimas',
+   'jsonErrorCtrlChar'      => 'Aptiktas nelauktas kontrolės simbolis',
+   'jsonErrorSyntax'        => 'Sintaksės klaida, netesingai suformuotas JSON',
+   'jsonErrorUtf8'          => 'Neteisingi UTF-8 simboliai, JSON gali būti neteisingai užkoduotas',
+   'jsonErrorUnknown'       => 'Nežinoma klaida',
 ];
