@@ -16,62 +16,62 @@
 
 return [
 	// CurlRequest
-   'missingCurl'                => 'CURL must be enabled to use the CURLRequest class.',
-   'invalidSSLKey'              => 'Cannot set SSL Key. {0} is not a valid file.',
-   'sslCertNotFound'            => 'SSL certificate not found at: {0}',
+   'missingCurl'                => 'Norint naudoti CURLRequest klasę CURL turi būti įgalintas.',
+   'invalidSSLKey'              => 'Nepavyksta nustatyti SSL rakto. {0} nėra taisyklingas failas.',
+   'sslCertNotFound'            => 'SSL sertifikatas narastas adresu: {0}',
    'curlError'                  => '{0} : {1}',
 
 	// IncomingRequest
-   'invalidNegotiationType'     => '{0} is not a valid negotiation type. Must be one of: media, charset, encoding, language.',
+   'invalidNegotiationType'     => '{0} nėra taisyklingas derybų tipas. Turi būti vienas iš: media, simbolių rinkinys, koduotė, kalba.',
 
 	// Message
-   'invalidHTTPProtocol'        => 'Invalid HTTP Protocol Version. Must be one of: {0}',
+   'invalidHTTPProtocol'        => 'Neteisinga HTTP protokolo versija. Turi būti viena iš: {0}',
 
 	// Negotiate
-   'emptySupportedNegotiations' => 'You must provide an array of supported values to all Negotiations.',
+   'emptySupportedNegotiations' => 'Visoms deryboms turite pateikti palaikomas reikšmes.',
 
 	// RedirectResponse
-   'invalidRoute'               => '{0, string} route cannot be found while reverse-routing.',
+   'invalidRoute'               => '{0, string} maršrutas negali būti nustatytas antvirkštinio maršrutizavimo metu.',
 
 	// DownloadResponse
-   'cannotSetBinary'            => 'When setting filepath can not set binary.',
-   'cannotSetFilepath'          => 'When setting binary can not set filepath: {0}',
-   'notFoundDownloadSource'     => 'Not found download body source.',
-   'cannotSetCache'             => 'It does not supported caching for downloading.',
-   'cannotSetStatusCode'        => 'It does not supported chnage status code for downloading. code: {0}, reason: {1}',
+   'cannotSetBinary'            => 'Nustatant failo kelią negali būti naudojama dvejetainė reikšmė.',
+   'cannotSetFilepath'          => 'Nustatant dvejetainę reikšmę negalima nustatyti failo kelio: {0}',
+   'notFoundDownloadSource'     => 'Nerastas atsiuntimo turinio šaltinis.',
+   'cannotSetCache'             => 'Nepalaiko padėjimo (caching) atsiuntimui.',
+   'cannotSetStatusCode'        => 'Nepalaiko pakeisto statuso kodo atsiuntimo tvarkymui. Kodas: {0}, priežastis: {1}',
 
 	// Response
-   'missingResponseStatus'      => 'HTTP Response is missing a status code',
-   'invalidStatusCode'          => '{0, string} is not a valid HTTP return status code',
-   'unknownStatusCode'          => 'Unknown HTTP status code provided with no message: {0}',
+   'missingResponseStatus'      => 'HTTP atsakui trūksta statuso kodo',
+   'invalidStatusCode'          => '{0, string} nėra teisingas HTTP atsako statuso kodas',
+   'unknownStatusCode'          => 'Nežinomas HTTP statuso kodas pateiktas be pranešimo: {0}',
 
 	// URI
-   'cannotParseURI'             => 'Unable to parse URI: {0}',
-   'segmentOutOfRange'          => 'Request URI segment is our of range: {0}',
-   'invalidPort'                => 'Ports must be between 0 and 65535. Given: {0}',
-   'malformedQueryString'       => 'Query strings may not include URI fragments.',
+   'cannotParseURI'             => 'Nepavyko išnagrinėti URI: {0}',
+   'segmentOutOfRange'          => 'Užklausos URI segmentas ne reikšmių aibės ribose: {0}',
+   'invalidPort'                => 'Prievadų numeriai turi būti tarp 0 ir 65535. Gautasis: {0}',
+   'malformedQueryString'       => 'Užklausų eilutės turi neįtraukti URI fragmentų.',
 
 	// Page Not Found
-   'pageNotFound'               => 'Page Not Found',
-   'emptyController'            => 'No Controller specified.',
-   'controllerNotFound'         => 'Controller or its method is not found: {0}::{1}',
-   'methodNotFound'             => 'Controller method is not found: {0}',
+   'pageNotFound'               => 'Puslapis nerastas',
+   'emptyController'            => 'Nenurodytas kontroleris.',
+   'controllerNotFound'         => 'Kontroleris arba jo metodas nerastas: {0}::{1}',
+   'methodNotFound'             => 'Kontrolerio metodas nerastas: {0}',
 
 	// CSRF
-   'disallowedAction'           => 'The action you requested is not allowed.',
+   'disallowedAction'           => 'Veiksmas, kurio prašote, neleistinas.',
 
 	// Uploaded file moving
-   'alreadyMoved'               => 'The uploaded file has already been moved.',
-   'invalidFile'                => 'The original file is not a valid file.',
-   'moveFailed'                 => 'Could not move file {0} to {1} ({2})',
+   'alreadyMoved'               => 'Įkeltasis failas jau perkeltas.',
+   'invalidFile'                => 'Pirminis failas nėra teisingas failas.',
+   'moveFailed'                 => 'Nepavyko perkelti failo {0} į {1} ({2})',
 
-   'uploadErrOk'                => 'The file uploaded with success.',
-   'uploadErrIniSize'           => 'The file "%s" exceeds your upload_max_filesize ini directive.',
-   'uploadErrFormSize'          => 'The file "%s" exceeds the upload limit defined in your form.',
-   'uploadErrPartial'           => 'The file "%s" was only partially uploaded.',
-   'uploadErrNoFile'            => 'No file was uploaded.',
-   'uploadErrCantWrite'         => 'The file "%s" could not be written on disk.',
-   'uploadErrNoTmpDir'          => 'File could not be uploaded: missing temporary directory.',
-   'uploadErrExtension'         => 'File upload was stopped by a PHP extension.',
-   'uploadErrUnknown'           => 'The file "%s" was not uploaded due to an unknown error.',
+   'uploadErrOk'                => 'Failas įkeltas sėkmingai.',
+   'uploadErrIniSize'           => 'Failo „%s“ dydis viršija jūsų upload_max_filesize ini direktyvą.',
+   'uploadErrFormSize'          => 'Failo „%s“ dydis viršija formoje nurodytą maksimalų failo dydį.',
+   'uploadErrPartial'           => 'Failas „%s“ buvo tik dalinai įkeltas.',
+   'uploadErrNoFile'            => 'Nebuvo įkeltas joks failas.',
+   'uploadErrCantWrite'         => 'Failo„%s“ nepavyko įrašyti į diską.',
+   'uploadErrNoTmpDir'          => 'Failo įkelti nepavyko: nėra laikinosios direktorijos.',
+   'uploadErrExtension'         => 'Failo įkėlimą sustabdė PHP išplėtimas.',
+   'uploadErrUnknown'           => 'Failo „%s“ nepavyko įkelti dėl nežinomos klaidos.',
 ];

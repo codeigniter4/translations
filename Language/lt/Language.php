@@ -15,5 +15,5 @@
  */
 
 return [
-   'languageGetLineInvalidArgumentException' => 'Get line must be a string or array of strings.',
+   'languageGetLineInvalidArgumentException' => 'Get eilutė turi būti eilutės arba eilučių masyvo tipo.',
 ];
