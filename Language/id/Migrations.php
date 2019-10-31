@@ -32,7 +32,7 @@ return [
 	'migHelpRefresh'  => "\t\tUninstal dan jalankan kembali semua migrasi untuk menyegarkan basis data.",
 	'migHelpSeed'     => "\tMenjalankan seeder bernama [name].",
 	'migCreate'       => "\tMenciptakan sebuah nama migrasi baru bernama [name]",
-	'nameMigration'   => "Beri nama berkas migrasi",
+	'nameMigration'   => 'Beri nama berkas migrasi',
 	'badCreateName'   => 'Anda harus memberikan sebuah nama berkas migrasi.',
 	'writeError'      => 'Kesalahan saat mencoba membuat berkas.',
 
@@ -40,7 +40,7 @@ return [
 	'migInvalidVersion' => 'Nomor versi tidak valid diberikan.',
 	'toVersionPH'       => 'Migrasi ke versi %s...',
 	'toVersion'         => 'Migrasi ke versi saat ini...',
-	'rollingBack'       => "Mengembalikan semua migrasi...",
+	'rollingBack'       => 'Mengembalikan semua migrasi...',
 	'noneFound'         => 'Tidak ada migrasi yang ditemukan.',
 	'on'                => 'Dimigrasi Pada: ',
 	'migSeeder'         => 'Nama seeder',

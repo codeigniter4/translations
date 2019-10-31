@@ -15,7 +15,7 @@
  */
 
 return [
-   'invalidCellMethod'     => '{class}::{method} er ikke en gyldig metode."',
+   'invalidCellMethod'     => '{class}::{method} er ikke en gyldig metode.',
    'missingCellParameters' => '{class}::{method} har ingen parametere.',
    'invalidCellParameter'  => '{0} er et ugyldig parameternavn.',
    'noCellClass'           => 'Det er ikke angitt noe View',

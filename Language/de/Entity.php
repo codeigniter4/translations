@@ -15,5 +15,5 @@
 
 return
 [
-   'tryingToAccessNonExistentProperty' => 'Попытка доступа к несуществующему свойству {0} из {1}',
+   'tryingToAccessNonExistentProperty' => 'Es wird versucht auf die nicht vorhandene Eigenschaft {0} von {1} zuzugreifen',
 ];

@@ -14,7 +14,7 @@
  */
 
 return [
-   'invalidCellMethod'     => '{class}::{method} n\'est pas une méthode valide."',
+   'invalidCellMethod'     => '{class}::{method} n\'est pas une méthode valide.',
    'missingCellParameters' => '{class}::{method} n\'a pas de paramètres.',
    'invalidCellParameter'  => '{0} n\'est pas un nom de paramètre valide.',
    'noCellClass'           => 'No view cell class provided.',

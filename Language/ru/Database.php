@@ -6,7 +6,7 @@
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
  * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT MIT License
+ * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
  * @since      Version 4.0.0
  * @filesource
@@ -15,19 +15,19 @@
  */
 
 return [
-	'invalidEvent'                     => '{0} - недопустимый обратный вызов модельного события.',
-	'invalidArgument'                  => 'Вы должны предоставить действительный {0}.',
-	'invalidAllowedFields'             => 'Разрешенные поля должны быть указаны для модели: {0}',
-	'emptyDataset'                     => 'Нет данных в {0}.',
-	'failGetFieldData'                 => 'Не удалось получить данные поля из базы данных.',
-	'failGetIndexData'                 => 'Не удалось получить данные индекса из базы данных.',
-	'failGetForeignKeyData'            => 'Не удалось получить данные внешнего ключа из базы данных.',
-	'parseStringFail'                  => 'Ошибка синтаксического анализа ключевой строки.',
-	'featureUnavailable'               => 'Эта функция недоступна для используемой вами базы данных.',
-	'tableNotFound'                    => 'Таблица `{0}` не найдена в текущей базе данных.',
-	'noPrimaryKey'                     => 'В классе модели `{0}` не указан первичный ключ.',
-	'noDateFormat'                     => '`{0}` Класс модели имеет не допустимый формат даты.',
-	'fieldNotExists'                   => 'Поле `{0}` не найдено.',
-	'forEmptyInputGiven'               => 'Пустое утверждение дано для поля: `{0}`',
-	'forFindColumnHaveMultipleColumns' => 'В имени столбца допускается только один столбец.',
+   'invalidEvent'                     => '{0} не является допустимой функцией обратного вызова модели.',
+   'invalidArgument'                  => 'Необходимо указать допустимое значение {0}.',
+   'invalidAllowedFields'             => 'Должны быть указаны допустимые поля для модели: {0}',
+   'emptyDataset'                     => 'Нет данных в {0}.',
+   'failGetFieldData'                 => 'Не удалось получить данные поля из базы данных.',
+   'failGetIndexData'                 => 'Не удалось получить данные индекса из базы данных.',
+   'failGetForeignKeyData'            => 'Не удалось получить данные внешнего ключа из базы данных.',
+   'parseStringFail'                  => 'Не удалось выполнить парсинг ключа.',
+   'featureUnavailable'               => 'Эта функция недоступна для используемой базы данных.',
+   'tableNotFound'                    => 'Таблица "{0}" не найдена в текущей базе данных.',
+   'noPrimaryKey'                     => 'Калсс модели "{0}" не имеет первичного ключа.',
+   'noDateFormat'                     => 'Класс модели "{0}" не имеет допустимого $dateFormat.',
+   'fieldNotExists'                   => 'Поле "{0}" не найдено.',
+   'forEmptyInputGiven'               => 'Для поля "{0}" задается пустой оператор.',
+   'forFindColumnHaveMultipleColumns' => 'Имя солбца должно содержать название только одного столбца.',
 ];
