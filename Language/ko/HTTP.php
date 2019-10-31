@@ -5,7 +5,7 @@
  *
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
- * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
+ * @copyright  2019 CodeIgniter Foundation
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
  * @since      Version 4.0.0
@@ -25,7 +25,7 @@ return [
    'invalidNegotiationType'     => '요청된 {0} 경우, 유효하지 않은 negotiation type입니다. 다음 중에 하나를 사용하십시오: media, charset, encoding, language.', // @See: https://httpd.apache.org/docs/2.2/ko/content-negotiation.html @see: https://tools.ietf.org/html/rfc2295 @see: https://www.w3.org/Protocols/rfc2616/rfc2616-sec12.html // '{0} is not a valid negotiation type. Must be one of: media, charset, encoding, language.',
 
 	// Message
-   'invalidHTTPProtocol'        => '유효하지 않은 HTTP 프로토콜 버전입니다. 다음 버전 중에 하나를 사용하십시오: {0}',  // CI4 rc.1기준 : protected $validProtocolVersions = ['1.0', '1.1', '2',]; // 'Invalid HTTP Protocol Version. Must be one of: {0}',
+   'invalidHTTPProtocol'        => '유효하지 않은 HTTP 프로토콜 버전입니다. 다음 버전 중에 하나를 사용하십시오: {0}',  // CI4 rc.3기준 : protected $validProtocolVersions = ['1.0', '1.1', '2',]; // 'Invalid HTTP Protocol Version. Must be one of: {0}',
 
 	// Negotiate
    'emptySupportedNegotiations' => '모든 Negotiations에 지원되는 값의 배열이 반드시 제공되어야 합니다.', // 'You must provide an array of supported values to all Negotiations.',
@@ -42,7 +42,7 @@ return [
 
 	// Response
    'missingResponseStatus'      => 'HTTP 응답에 HTTP 상태 코드가 누락되어 있습니다.', // 'HTTP Response is missing a status code',
-   'invalidStatusCode'          => '{0, string} 경우에 유효하지 않은 HTTP 상태 코드를 반환함.' , // CI4 rc.1기준 : 소스에서 if ($code < 100 || $code > 599)로 HTTP status code 체크함. // '{0, string} is not a valid HTTP return status code',
+   'invalidStatusCode'          => '{0, string} 경우에 유효하지 않은 HTTP 상태 코드를 반환함.' , // CI4 rc.3기준 : 소스에서 if ($code < 100 || $code > 599)로 HTTP status code 체크함. // '{0, string} is not a valid HTTP return status code',
    'unknownStatusCode'          => '아무런 메시지 없이 제공된, 알 수 없는 HTTP 상태 코드: {0}', // 'Unknown HTTP status code provided with no message: {0}',
 
 	// URI
