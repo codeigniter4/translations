@@ -9,7 +9,12 @@ Release Date: Unreleased
 
 -   New Translations
    
+   - ko (Korean)
+   - lt (Lithuanian)
+   
 -   Updated Translations
+
+   - fr (French)
 
 Version 4.0.0-rc.3
 ==============================
