@@ -14,6 +14,7 @@ Release Date: Unreleased
    
 -   Updated Translations
 
+   - es (Spanish)
    - fr (French)
 
 Version 4.0.0-rc.3
