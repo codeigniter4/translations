@@ -36,7 +36,7 @@ Locale    Language         As of        Github User        Maintainer
 ar        Arabic           4.0.0        daif               Daif Alotaibi
 de        German           4.0.0        sba                Stefan Bauer
 en        English          4.0.0        n/a                CI team
-es        Spanish          4.0.0        NandyJoshu         Fernán Castro Asensio?
+es        Spanish          4.0.0*       nachoaguirre       Ignacio Aguirre
 fa        Farsi            4.0.0        smhnaji            Mohammad Naji
 fr        French           4.0.0*       amuratet           Amuratet?
 id        Indonesian       4.0.0        ridho1991          Mutasim Ridlo
