@@ -14,13 +14,13 @@
  * @codeCoverageIgnore
  */
 return [
-	'pageNavigation'         => 'Página de navegación',
-	'first'                  => 'Primero',
+	'pageNavigation'         => 'Navegación de la página',
+	'first'                  => 'Primera',
 	'previous'               => 'Anterior',
 	'next'                   => 'Siguiente',
-	'last'                   => 'Último',
-	'older'                  => 'Antiguo',
-	'newer'                  => 'Nuevo',
+	'last'                   => 'Última',
+	'older'                  => 'Antigua',
+	'newer'                  => 'Nueva',
 	'invalidTemplate'        => '{0} no es un modelo válido de paginador.',
 	'invalidPaginationGroup' => '{0} no es un grupo válido de paginación.',
 ];
