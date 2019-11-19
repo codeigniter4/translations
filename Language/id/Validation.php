@@ -24,9 +24,9 @@ return [
 
 	// Rule Messages
 	'alpha'                 => 'Bidang {field} hanya boleh mengandung karakter alfabet.',
-	'alpha_dash'            => 'Bidang {field} hanya boleh berisi karakter alfa-numerik, setrip bawah, dan tanda pisah.',
-	'alpha_numeric'         => 'Bidang {field} hanya boleh berisi karakter alfa-numerik.',
-	'alpha_numeric_space'   => 'Bidang {field} hanya boleh berisi karakter alfa-numerik dan spasi.',
+	'alpha_dash'            => 'Bidang {field} hanya boleh berisi karakter alfanumerik, setrip bawah, dan tanda pisah.',
+	'alpha_numeric'         => 'Bidang {field} hanya boleh berisi karakter alfanumerik.',
+	'alpha_numeric_space'   => 'Bidang {field} hanya boleh berisi karakter alfanumerik dan spasi.',
 	'alpha_space'  			=> 'Bidang {field} hanya boleh berisi karakter alfabet dan spasi.',
 	'decimal'               => 'Bidang {field} harus mengandung sebuah angka desimal.',
 	'differs'               => 'Bidang {field} harus berbeda dari bidang {param}.',
