@@ -20,7 +20,7 @@ return [
 	'gifNotSupported'        => 'الصورة من نوع GIF غير مدعومة بسبب قيود على رخصة الاستخدام. استخدم بدلا من ذلك الصور من نوع JPG أو PNG.',
 	'jpgNotSupported'        => 'الصورة من نوع JPG غير مدعومة.',
 	'pngNotSupported'        => 'الصورة من نوع PNG غير مدعومة.',
-	'unsupportedImagecreate' => 'مكتبة الصور GD  لا تدعن معالجة هذا النوع من الصور.',
+//	'unsupportedImagecreate' => 'مكتبة الصور GD  لا تدعن معالجة هذا النوع من الصور.',
 	'jpgOrPngRequired'       => 'نظام تغيير حجم الصور المحدد يدعم فقط الصور من نوع JPEG أو PNG.',
 	'rotateUnsupported'      => 'تدوير الصور غير مدعوم في الخاد الخاص بك.',
 	'libPathInvalid'         => 'مسار مكتبة الصور غير صحيح. الرجاء وضع المسار الصحيح في الاعدادات. {0, string)',
