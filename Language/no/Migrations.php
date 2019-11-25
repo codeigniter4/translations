@@ -20,6 +20,7 @@ return [
    'invalidType'       => 'En ugyldig overføringsnummerering ble spesifisert: {0}',
    'disabled'          => 'Overføringer er lastet, men er deaktivert eller feil konfigurert.',
    'notFound'          => 'Migreringsfil ikke funnet: ',
+   'batchNotFound'     => 'Target batch not found: ',
    'empty'             => 'Ingen migrasjonsfiler funnet',
    'gap'               => 'Det er et gap i migrasjonshistorikken i nærheten av versjonsnummeret: ',
    'classNotFound'     => 'Migrasjonsklassen "%s" ble ikke funnet.',
@@ -38,6 +39,8 @@ return [
    'writeError'        => 'Feil ved oppretting av filen.',
    'migNumberError'    => 'Overføringsnummeret må være tre sifre, og det må ikke være noen hull i sekvensen.',
 
+   'latest'            => 'Running all new migrations...',
+   'generalFault'      => 'Migration failed!',
    'toLatest'          => 'Overføring til siste versjon...',
    'migInvalidVersion' => 'Ugyldig versjonsnummer spesifisert.',
    'toVersionPH'       => 'Overføring til versjon %s...',
