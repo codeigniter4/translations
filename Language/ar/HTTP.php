@@ -13,6 +13,7 @@
  * 
  * @codeCoverageIgnore
  */
+
 return [
 	// CurlRequest
 	'missingCurl'                => 'يجب تفعيل مكتبة CURL حتى تستطيع إستخدام صنف CURLRequest.',
@@ -31,6 +32,13 @@ return [
 
 	// RedirectResponse
 	'invalidRoute'               => 'القيمة {0, string} ليست مسار توجيه صحيح.',
+
+	// DownloadResponse
+	'cannotSetBinary'            => 'عند تحديد مسار الملف لا يمكن تعيين ثنائي.',
+	'cannotSetFilepath'          => 'عند ضبط ثنائي لا يمكن تعيين مسار الملف: {0}',
+	'notFoundDownloadSource'     => 'لم يتم العثور على تنزيل مصدر النص.',
+	'cannotSetCache'             => 'لا يدعم التخزين المؤقت للتنزيل.',
+	'cannotSetStatusCode'        => 'لا يدعم تغيير رمز الحالة للتنزيل. الكود: {0} ، السبب: {1}',
 
 	// Response
 	'missingResponseStatus'      => 'استجابة HTTP لا تحتوي على كود الحالة',
@@ -56,4 +64,14 @@ return [
 	'alreadyMoved'				 => 'الملف المرفوع تم نقلة بالفعل.',
 	'invalidFile'				 => 'الملف الأصل ليس ملفا صالح.',
 	'moveFailed'				 => 'فشل في نقل الملف من {0} إلى {1} ({2})',
+
+	'uploadErrOk'                => 'تم تحميل الملف بنجاح.',
+	'uploadErrIniSize'           => 'يتجاوز الملف "٪ s" التوجيه الخاص بـ upload_max_filesize.',
+	'uploadErrFormSize'          => 'يتجاوز الملف "٪ s" حد التحميل المحدد في النموذج.',
+	'uploadErrPartial'           => 'تم تحميل الملف "٪ s" جزئيًا فقط.',
+	'uploadErrNoFile'            => 'تم تحميله أي ملف.',
+	'uploadErrCantWrite'         => 'لا يمكن كتابة الملف "٪ s" على القرص.',
+	'uploadErrNoTmpDir'          => 'تعذر تحميل الملف: مفقود دليل مؤقت.',
+	'uploadErrExtension'         => 'تم إيقاف تحميل الملف بواسطة امتداد PHP.',
+	'uploadErrUnknown'           => 'لم يتم تحميل الملف "٪ s" بسبب خطأ غير معروف.', 
 ];
