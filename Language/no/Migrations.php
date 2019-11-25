@@ -17,7 +17,7 @@
 return [
 	// Migration Runner
    'missingTable'      => 'Migreringstabell må være satt.',
-   'invalidType'       => 'En ugyldig overføringsnummerering ble spesifisert: {0}',
+//   'invalidType'       => 'En ugyldig overføringsnummerering ble spesifisert: {0}',
    'disabled'          => 'Overføringer er lastet, men er deaktivert eller feil konfigurert.',
    'notFound'          => 'Migreringsfil ikke funnet: ',
    'batchNotFound'     => 'Target batch not found: ',
@@ -41,7 +41,7 @@ return [
 
    'latest'            => 'Running all new migrations...',
    'generalFault'      => 'Migration failed!',
-   'toLatest'          => 'Overføring til siste versjon...',
+//   'toLatest'          => 'Overføring til siste versjon...',
    'migInvalidVersion' => 'Ugyldig versjonsnummer spesifisert.',
    'toVersionPH'       => 'Overføring til versjon %s...',
    'toVersion'         => 'Overføring til gjeldende versjon...',

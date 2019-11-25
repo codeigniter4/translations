@@ -16,9 +16,10 @@
 return [
 	// Migration Runner
 	'missingTable'    => 'Göç tablosu belirtilmeli.',
-	'invalidType'     => 'Geçersiz göç numaralama türü: {0}',
+//	'invalidType'     => 'Geçersiz göç numaralama türü: {0}',
 	'disabled'        => 'Göçler yüklendi fakat etkinleştirilmedi veya yanlış kuruldu.',
 	'notFound'        => 'Göç dosyası bulunamadı: ',
+	'batchNotFound'     => 'Target batch not found: ',
 	'empty'           => 'Herhangi bir göç dosyası bulunamadı.',
 	'gap'             => 'Göç kuyruğunda şu sürüm numarası yakınında bir boşluk var: ',
 	'classNotFound'   => 'Göç sınıfı "%s" bulunamadı.',
@@ -36,7 +37,10 @@ return [
 	'badCreateName'   => 'Bir göç dosyası adı belirtmelisiniz.',
 	'writeError'      => 'Yazma hatası nedeniyle dosya oluşturulamadı.',
 
-	'toLatest'          => 'Son sürüme göçülüyor...',
+//	'toLatest'          => 'Son sürüme göçülüyor...',
+	'migNumberError'    => 'Migration number must be three digits, and there must not be any gaps in the sequence.',
+	'latest'            => 'Running all new migrations...',
+	'generalFault'      => 'Migration failed!', 
 	'migInvalidVersion' => 'Geçersiz sürüm numarası belirtildi.',
 	'toVersionPH'       => '%s sürümüne göçülüyor...',
 	'toVersion'         => 'Mevcut sürüme göçülüyor....',

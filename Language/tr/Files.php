@@ -15,6 +15,6 @@
 return [
 	'fileNotFound'		 => 'Dosya bulunamadı: {0}',
 	'cannotMove'		 => '{0} dosyası {1} ({2}) \'ye taşınamadı.',
-	'invalidFilename'	 => 'Hedef dosya adı eksik veya geçersiz: {0}',
-	'cannotCopy'		 => '{0} klasörüne kopyalanamadı - klasörün yazılabilir olduğundan emin olunuz',
+//	'invalidFilename'	 => 'Hedef dosya adı eksik veya geçersiz: {0}',
+//	'cannotCopy'		 => '{0} klasörüne kopyalanamadı - klasörün yazılabilir olduğundan emin olunuz',
 ];

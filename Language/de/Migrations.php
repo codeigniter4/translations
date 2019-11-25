@@ -17,7 +17,7 @@
 return [
 	// Migration Runner
    'missingTable'      => 'Migrations Tabelle muss gesetzt sein.',
-   'invalidType'       => 'Es wurde eine ungültige Migrationsnummerierung angegeben: {0}',
+//   'invalidType'       => 'Es wurde eine ungültige Migrationsnummerierung angegeben: {0}',
    'disabled'          => 'Migrationen wurden geladen, sind aber deaktiviert oder falsch eingerichtet.',
    'batchNotFound'     => 'Target batch not found: ',
    'notFound'          => 'Migrationsdatei nicht gefunden: ',
@@ -41,7 +41,7 @@ return [
 
    'latest'            => 'Running all new migrations...',
    'generalFault'      => 'Migration failed!',
-   'toLatest'          => 'Migration auf die neueste Version...',
+//   'toLatest'          => 'Migration auf die neueste Version...',
    'migInvalidVersion' => 'Ungültige Versionsnummer angegeben.',
    'toVersionPH'       => 'Migration auf Version %s...',
    'toVersion'         => 'Migration auf die aktuelle Version...',

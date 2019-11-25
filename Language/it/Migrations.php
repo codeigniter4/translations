@@ -16,7 +16,7 @@
 return [
 	// Migration Runner
 	'missingTable'    => 'La tavola delle Migrazioni deve essere indicata.',
-	'invalidType'     => 'E\' stata specificata una numerazione di migrazione non valida: {0}',
+//	'invalidType'     => 'E\' stata specificata una numerazione di migrazione non valida: {0}',
 	'disabled'        => 'Le Migrazioni sono state caricate ma sono disabilitate o configurate in modo non corretto.',
 	'notFound'        => 'File di Migrazione non trovato: ',
 	'batchNotFound'     => 'Target batch not found: ',
@@ -40,7 +40,7 @@ return [
 
 	'latest'            => 'Running all new migrations...',
 	'generalFault'      => 'Migration failed!', 
-	'toLatest'          => 'Migrazione verso la più recente versione...',
+//	'toLatest'          => 'Migrazione verso la più recente versione...',
 	'migInvalidVersion' => 'Fornito un numero di versione non valido.',
 	'toVersionPH'       => 'Migrazione verso la versione %s...',
 	'toVersion'         => 'Migrazione verso la versione corrente...',
