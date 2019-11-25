@@ -19,6 +19,7 @@ return [
 	'invalidType'     => 'E\' stata specificata una numerazione di migrazione non valida: {0}',
 	'disabled'        => 'Le Migrazioni sono state caricate ma sono disabilitate o configurate in modo non corretto.',
 	'notFound'        => 'File di Migrazione non trovato: ',
+	'batchNotFound'     => 'Target batch not found: ',
 	'empty'           => 'Nessun file di Migrazione è stato trovato',
 	'gap'             => 'Vi è una lacuna nella sequenza di migrazione vicino al numero di versione: ',
 	'classNotFound'   => 'Non è possibile trovare la classe di migrazione "%s" .',
@@ -35,7 +36,10 @@ return [
 	'nameMigration'   => 'Denomina il file di migrazione',
 	'badCreateName'   => 'Devi fornire un nome al file di migrazione.',
 	'writeError'      => 'Si è verificato un errore tentando di creare il file.',
+	'migNumberError'    => 'Migration number must be three digits, and there must not be any gaps in the sequence.',
 
+	'latest'            => 'Running all new migrations...',
+	'generalFault'      => 'Migration failed!', 
 	'toLatest'          => 'Migrazione verso la più recente versione...',
 	'migInvalidVersion' => 'Fornito un numero di versione non valido.',
 	'toVersionPH'       => 'Migrazione verso la versione %s...',
