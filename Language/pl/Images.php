@@ -20,7 +20,7 @@ return [
 	'gifNotSupported'        => 'Obrazy GIF często nie są obsługiwane ze względu na ograniczenia licencyjne. Może być konieczne użycie obrazów JPG lub PNG.',
 	'jpgNotSupported'        => 'Obrazy JPG nie są obsługiwane.',
 	'pngNotSupported'        => 'Obrazy PNG nie są obsługiwane.',
-	'unsupportedImagecreate' => 'Twój serwer nie obsługuje funkcji GD wymaganej do przetwarzania tego typu obrazu.',
+	'unsupportedImageCreate' => 'Twój serwer nie obsługuje funkcji GD wymaganej do przetwarzania tego typu obrazu.',
 	'jpgOrPngRequired'       => 'Protokół zmiany rozmiaru obrazu określony w preferencjach działa tylko z obrazami JPEG lub PNG.',
 	'rotateUnsupported'      => 'Obracanie obrazu nie jest obsługiwane przez Twój serwer.',
 	'libPathInvalid'         => 'Ścieżka do biblioteki obrazów jest niepoprawna. Ustaw prawidłową ścieżkę w preferencjach obrazu. {0, string)',
