@@ -32,6 +32,13 @@ return [
 	// RedirectResponse
 	'invalidRoute'               => '{0, string} bukan sebuah rute yang valid.',
 
+	// DownloadResponse
+	'cannotSetBinary'            => 'When setting filepath can not set binary.',
+	'cannotSetFilepath'          => 'When setting binary can not set filepath: {0}',
+	'notFoundDownloadSource'     => 'Not found download body source.',
+	'cannotSetCache'             => 'It does not supported caching for downloading.',
+	'cannotSetStatusCode'        => 'It does not supported chnage status code for downloading. code: {0}, reason: {1}',
+ 
 	// Response
 	'missingResponseStatus'      => 'Tanggapan HTTP kehilangan sebuah kode status',
 	'invalidStatusCode'          => '{0, string} bukan sebuah kode status pengembalian HTTP yang valid',
@@ -56,4 +63,14 @@ return [
 	'alreadyMoved'				 => 'Berkas yang diunggah telah dipindahkan.',
 	'invalidFile'				 => 'Berkas asli tersebut bukan berkas yang valid.',
 	'moveFailed'				 => 'Tidak dapat memindahkan berkas {0} ke {1} ({2})',
+
+	'uploadErrOk'                => 'The file uploaded with success.',
+	'uploadErrIniSize'           => 'The file "%s" exceeds your upload_max_filesize ini directive.',
+	'uploadErrFormSize'          => 'The file "%s" exceeds the upload limit defined in your form.',
+	'uploadErrPartial'           => 'The file "%s" was only partially uploaded.',
+	'uploadErrNoFile'            => 'No file was uploaded.',
+	'uploadErrCantWrite'         => 'The file "%s" could not be written on disk.',
+	'uploadErrNoTmpDir'          => 'File could not be uploaded: missing temporary directory.',
+	'uploadErrExtension'         => 'File upload was stopped by a PHP extension.',
+	'uploadErrUnknown'           => 'The file "%s" was not uploaded due to an unknown error.',
 ];
