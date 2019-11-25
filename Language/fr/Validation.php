@@ -15,7 +15,8 @@
  */
 
 return [
-	// Core Messages
+   // Core Messages
+   'noRuleSets'            => 'No rulesets specified in Validation configuration.',
    'ruleNotFound'          => '{0} n\'est pas une règle valide.',
    'groupNotFound'         => '{0} n\'est pas un groupe de règles de validation.',
    'groupNotArray'         => 'Le groupe de règles {0} doit être un tableau.',
@@ -29,6 +30,7 @@ return [
    'alpha_space'           => 'Le champ {field} ne peut contenir que des caractères alphabétiques et des espaces.',
    'decimal'               => 'Le champ {field} doit contenir un nombre décimal.',
    'differs'               => 'Le champ {field} doit être différent du champ {param}.',
+   'equals'                => 'The {field} field must be exactly: {param}.',
    'exact_length'          => 'Le champ {field} doit avoir précisément {param} caractères de long.',
    'greater_than'          => 'Le champ {field} doit contenir un nombre plus grand que {param}.',
    'greater_than_equal_to' => 'Le champ {field} doit être supérieur ou égal à {param}.',
@@ -42,6 +44,7 @@ return [
    'matches'               => 'Le champ {field} ne coïncide pas avec le champ {param}.',
    'max_length'            => 'Le champ {field} ne peut pas dépasser une longueur de {param} caractères.',
    'min_length'            => 'Le champ {field} doit contenir au moins {param} caractères.',
+   'not_equals'            => 'The {field} field cannot be: {param}.',
    'numeric'               => 'Le champ {field} ne doit contenir que des nombres.',
    'regex_match'           => 'Le champ {field} n\'a pas le format attendu.',
    'required'              => 'Le champ {field} est requis.',
