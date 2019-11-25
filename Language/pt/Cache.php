@@ -14,6 +14,7 @@
  * @codeCoverageIgnore
  */
 return [
+	'unableToWrite'   => 'Cache unable to write to {0}',
 	'invalidHandlers' => 'A configuração de Cache deve ter um array de $validHandlers.',
 	'noBackup'        => 'A configuração de Cache deve ter definidos handler e backupHandler.',
 	'handlerNotFound' => 'A configuração de Cache tem um handler inválido ou backup handler definido.',
