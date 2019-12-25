@@ -15,5 +15,5 @@
 
 return
 [
-   'tryingToAccessNonExistentProperty' => 'Trying to access non existent property {0} of {1}',
+   'tryingToAccessNonExistentProperty' => '無法訪問 {1} 的 {0}，這個屬性並不存在。',
 ];

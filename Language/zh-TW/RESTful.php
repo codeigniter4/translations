@@ -14,5 +14,5 @@
  */
 
 return [
-   'notImplemented' => '"{0}" action not implemented.',
+   'notImplemented' => "'{0}' 動詞（action）未執行。",
 ];

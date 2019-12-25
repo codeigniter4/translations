@@ -15,6 +15,6 @@
  */
 
 return [
-   'invalidParameter'    => 'A parameter does not match the expected type.',
-   'missingDefaultRoute' => 'Unable to determine what should be displayed. A default route has not been specified in the routing file.',
+   'invalidParameter'    => '參數與預期型別不匹配。',
+   'missingDefaultRoute' => '尚未在路由文件中指定默認路由，導致無法顯示內容。',
 ];

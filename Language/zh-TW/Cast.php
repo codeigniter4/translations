@@ -14,10 +14,10 @@
  */
 
 return [
-   'jsonErrorDepth'         => 'Maximum stack depth exceeded',
-   'jsonErrorStateMismatch' => 'Underflow or the modes mismatch',
-   'jsonErrorCtrlChar'      => 'Unexpected control character found',
-   'jsonErrorSyntax'        => 'Syntax error, malformed JSON',
-   'jsonErrorUtf8'          => 'Malformed UTF-8 characters, possibly incorrectly encoded',
-   'jsonErrorUnknown'       => 'Unknown error',
+   'jsonErrorDepth'         => '超過了最大堆疊深度。',
+   'jsonErrorStateMismatch' => '下溢或模式不匹配。',
+   'jsonErrorCtrlChar'      => '發現意外的控制字元。',
+   'jsonErrorSyntax'        => '語法錯誤， JSON 格式錯誤。',
+   'jsonErrorUtf8'          => '格式錯誤的 UTF-8 字元，可能是因為編碼錯誤。',
+   'jsonErrorUnknown'       => '未知的錯誤。',
 ];
