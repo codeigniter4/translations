@@ -51,7 +51,7 @@ ru        Russian               4.0.0        DigitalWolf98      Vladislav Rykhti
 sk        Slovak                4.0.0        xbotkaj            Jozef Botka
 tr        Turkish               4.0.0        obozdag            obozdag
 zh-CN     Simple Chinese        4.0.0        bangbangda         bangbangda
-zh-TW     Traditional Chinese   4.0.0        monkenWu           monkenWu
+zh-TW     Traditional Chinese   4.0.0 *      monkenWu           monkenWu
 ========  ====================  ===========  =================  =========================
 
 ************
