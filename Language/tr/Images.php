@@ -20,7 +20,7 @@ return [
 	'gifNotSupported'        => 'GIF resimleri lisans sınırlamaları nedeniyle genellikle desteklenmez. Bunun yerine JPG veya PNG resimler kullanabilirsiniz.',
 	'jpgNotSupported'        => 'JPG resimler desteklenmiyor.',
 	'pngNotSupported'        => 'PNG resimler desteklenmiyor.',
-	'unsupportedImagecreate' => 'Sunucunuz bu tür resmi işlemek için gerekli GD fonksiyonunu desteklemiyor.',
+	'unsupportedImageCreate' => 'Sunucunuz bu tür resmi işlemek için gerekli GD fonksiyonunu desteklemiyor.',
 	'jpgOrPngRequired'       => 'Tercihlerinizde belirttiğiniz resim boyutlandırma protokolü yalnız JPEG veya PNG resim türleriyle çalışır.',
 	'rotateUnsupported'      => 'Resim döndürme sunucunuz tarafından desteklenmiyor.',
 	'libPathInvalid'         => 'Resim kütüphanesi yolu doğru değil. Lütfen resim tercihlerinizde doğru yolu belirtiniz. {0, string)',

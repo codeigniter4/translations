@@ -15,6 +15,6 @@
 return [
 	'fileNotFound'		 => 'File non trovato: {0}',
 	'cannotMove'		 => 'Non è possibile spostare il file {0} in {1} ({2})',
-	'invalidFilename'	 => 'Il nome del file di riferimento manca o non è valido: {0}',
-	'cannotCopy'		 => 'Non è possibile copiare in {0} - assicurati che la cartella sia scrivibile',
+//	'invalidFilename'	 => 'Il nome del file di riferimento manca o non è valido: {0}',
+//	'cannotCopy'		 => 'Non è possibile copiare in {0} - assicurati che la cartella sia scrivibile',
 ];

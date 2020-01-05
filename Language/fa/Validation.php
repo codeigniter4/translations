@@ -19,6 +19,7 @@ return [
    'groupNotFound'         => '{0} یک گروه اعتبار سنجی نیست.',
    'groupNotArray'         => 'گروه قانون {0} باید یک آرایه باشد.',
    'invalidTemplate'       => '{0} قالب اعتبارسنجی درستی نیست.',
+
 	// Rule Messages
    'alpha'                 => 'فیلد {field} فقط می‌تواند شامل اعداد انگلیسی و یا حروف باشد.',
    'alpha_dash'            => 'فیلد {field} فقط می‌تواند شامل اعداد انگلیسی، حروف، خط تیره و آندرلاین باشد.',
@@ -31,6 +32,7 @@ return [
    'greater_than'          => 'فیلد {field} باید عددی بزرگتر از {param} باشد.',
    'greater_than_equal_to' => 'فیلد {field} باید عددی بزرگتر یا مساوی {param} باشد.',
    'in_list'               => 'فیلد {field} باید یکی از این مقدارها باشد: {param}.',
+   'equals'                => 'The {field} field must be exactly: {param}.',
    'integer'               => 'فیلد {field} باید یک عدد صحیح باشد.',
    'is_natural'            => 'فیلد {field} فقط می‌تواند شامل ارقام باشد.',
    'is_natural_no_zero'    => 'فیلد {field} باید عددی بزرگتر از صفر باشد.',
@@ -40,6 +42,7 @@ return [
    'matches'               => 'فیلد {field} با فیلد {param} همخوانی ندارد.',
    'max_length'            => 'طول فیلد {field} نباید بیشتر از {param} کاراکتر باشد.',
    'min_length'            => 'طول فیلد {field} باید حداقل {param} کاراکتر باشد.',
+   'not_equals'            => 'The {field} field cannot be: {param}.',
    'numeric'               => 'فیلد {field} باید یک عدد باشد.',
    'regex_match'           => 'فرمت فیلد {field} رعایت نشده است.',
    'required'              => 'فیلد {field} اجباری است.',
