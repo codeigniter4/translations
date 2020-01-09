@@ -16,6 +16,8 @@ Release Date: Unreleased
 
    - es (Spanish)
    - fr (French)
+    -id (Indonesian)
+   - zh-tw (Chinese - Taiwqan)
 
 Version 4.0.0-rc.3
 ==============================

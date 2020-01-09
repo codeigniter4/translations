@@ -17,9 +17,10 @@
 return [
 	// Migration Runner
    'missingTable'      => 'La table des migrations doit être définie.',
-   'invalidType'       => 'Type de numérotation de migration spécifié invalide: {0}',
+//   'invalidType'       => 'Type de numérotation de migration spécifié invalide: {0}',
    'disabled'          => 'Les migrations ont été chargées mais sont désactivées ou mal paramétrées.',
    'notFound'          => 'Fichier de migration non trouvé : ',
+   'batchNotFound'     => 'Target batch not found: ',
    'empty'             => 'Aucun fichier de migration trouvé',
    'gap'               => 'Il y a un écart dans la séquence de migration du coté du numéro de version : ',
    'classNotFound'     => 'La classe de migration "%s" n\'a pas pu être trouvée.',
@@ -38,7 +39,9 @@ return [
    'writeError'        => 'Erreur durant la création du fichier.',
    'migNumberError'    => 'Le numéro de migration doit comporter trois chiffres, et ne doit pas comporter de trous dans la séquence.',
 
-   'toLatest'          => 'Migration vers la dernière version en cours...',
+   'latest'            => 'Running all new migrations...',
+   'generalFault'      => 'Migration failed!',
+//   'toLatest'          => 'Migration vers la dernière version en cours...',
    'migInvalidVersion' => 'Numéro de version fourni invalide.',
    'toVersionPH'       => 'Migration vers la version %s en cours...',
    'toVersion'         => 'Migration vers la version actuelle en cours...',

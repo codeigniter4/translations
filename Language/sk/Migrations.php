@@ -17,9 +17,10 @@
 return [
 	// Migration Runner
    'missingTable'      => 'Musí byť nastavená tabuľka migrácií.',
-   'invalidType'       => 'Bol zadaný neplatný typ číslovania migrácie: {0}',
+//   'invalidType'       => 'Bol zadaný neplatný typ číslovania migrácie: {0}',
    'disabled'          => 'Migrácie boli načítané, ale sú deaktivované alebo nesprávne nastavené.',
    'notFound'          => 'Migračný súbor nebol nájdený: ',
+   'batchNotFound'     => 'Target batch not found: ',
    'empty'             => 'Nenašli sa žiadne migračné súbory',
    'gap'               => 'V migračnej sekvencii pri čísle verzie je medzera: ',
    'classNotFound'     => 'Migračnú triedu "%s" sa nepodarilo nájsť.',
@@ -38,7 +39,9 @@ return [
    'writeError'        => 'Chyba pri vytváraní súboru.',
    'migNumberError'    => 'Migračné číslo musí byť tri číslice a v sekvencii nesmú byť medzery.',
 
-   'toLatest'          => 'Prebieha migrácia na najnovšiu verziu...',
+//   'toLatest'          => 'Prebieha migrácia na najnovšiu verziu...',
+   'latest'            => 'Running all new migrations...',
+   'generalFault'      => 'Migration failed!',
    'migInvalidVersion' => 'Zadané neplatné číslo verzie.',
    'toVersionPH'       => 'Prebieha migrácia na verziu %s ...',
    'toVersion'         => 'Prebieha migrácia na aktuálnu verziu ...',
