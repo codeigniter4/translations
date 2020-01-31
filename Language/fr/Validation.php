@@ -35,6 +35,7 @@ return [
    'greater_than'          => 'Le champ {field} doit contenir un nombre plus grand que {param}.',
    'greater_than_equal_to' => 'Le champ {field} doit être supérieur ou égal à {param}.',
    'in_list'               => 'Le champ {field} doit être un élément de la liste suivante : {param}.',
+   'hex'                   => 'Le champ {field} ne peut contenir que des caractères hexadécimaux.',
    'integer'               => 'Le champ {field} doit contenir un nombre entier.',
    'is_natural'            => 'Le champ {field} ne doit contenir que des chiffres.',
    'is_natural_no_zero'    => 'Le champ {field} ne doit contenir que des chiffres et être supérieur à zéro.',

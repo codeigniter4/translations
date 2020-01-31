@@ -34,6 +34,7 @@ return [
 	'exact_length'          => 'Il campo {field} deve essere esattamente di {param} caratteri.',
 	'greater_than'          => 'Il campo {field} deve contenere un numero maggiore di {param}.',
 	'greater_than_equal_to' => 'Il campo {field} deve contenere un numero maggiore o uguale a {param}.',
+	'hex'                   => 'Il campo {field} può contenere solamente caratteri esadecimali.',
 	'in_list'               => 'Il campo {field} deve essere uno tra: {param}.',
 	'integer'               => 'Il campo {field} deve contenere un intero.',
 	'is_natural'            => 'Il campo {field} deve contenere solo caratteri numerici.',
