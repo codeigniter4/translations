@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Validation language strings.
  *
@@ -33,10 +34,12 @@ return [
 	'exact_length'          => 'O campo {field} deve conter exatamente {param} caracteres no tamanho.',
 	'greater_than'          => 'O campo {field} deve conter um número maior que {param}.',
 	'greater_than_equal_to' => 'O campo {field} deve conter um número maior ou igual a {param}.',
+	'hex'                   => 'O campo {field} pode conter apenas caracteres hexadecimais.',
 	'in_list'               => 'O campo {field} deve ser um desses: {param}.',
 	'integer'               => 'O campo {field} deve conter um número inteiro.',
 	'is_natural'            => 'O campo {field} deve conter apenas dígitos.',
 	'is_natural_no_zero'    => 'O campo {field} deve conter apenas dígitos e deve ser maior que zero.',
+	'is_not_unique'         => 'O campo {field} deve conter um valor já existente no banco de dados.',
 	'is_unique'             => 'O campo {field} deve conter um valor único.',
 	'less_than'             => 'O campo {field} deve conter um número menor que {param}.',
 	'less_than_equal_to'    => 'O campo {field} deve conter um número menor ou igual a {param}.',
