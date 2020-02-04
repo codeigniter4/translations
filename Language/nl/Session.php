@@ -15,9 +15,9 @@
  */
 
 return [
-   'missingDatabaseTable'   => '`sessionSavePath` must have the table name for the Database Session Handler to work.',
-   'invalidSavePath'        => 'Session: Configured save path "{0}" is not a directory, does not exist or cannot be created.',
-   'writeProtectedSavePath' => 'Session: Configured save path "{0}" is not writable by the PHP process.',
-   'emptySavePath'          => 'Session: No save path configured.',
-   'invalidSavePathFormat'  => 'Session: Invalid Redis save path format: {0}',
+   'missingDatabaseTable'   => 'De Database Session Handler werkt alleen als `sessionSavePath` een tabelnaam heeft.',
+   'invalidSavePath'        => 'Sessie: Het ingestelde bestandspad "{0}" is geen geldige locatie, bestaat niet of can niet worden aangemaakt.',
+   'writeProtectedSavePath' => 'Sessie: Het ingestelde bestandspad "{0}" is niet schrijfbaar voor het PHP-proces.',
+   'emptySavePath'          => 'Sessie: Geen bestandspad ingesteld.',
+   'invalidSavePathFormat'  => 'Sessie: Ongeldig Redis bestandspad format: {0}',
 ];

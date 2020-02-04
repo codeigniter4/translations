@@ -15,13 +15,13 @@
  */
 
 return [
-   'pageNavigation'         => 'Page navigation',
-   'first'                  => 'First',
-   'previous'               => 'Previous',
-   'next'                   => 'Next',
-   'last'                   => 'Last',
-   'older'                  => 'Older',
-   'newer'                  => 'Newer',
-   'invalidTemplate'        => '{0} is not a valid Pager template.',
-   'invalidPaginationGroup' => '{0} is not a valid Pagination group.',
+   'pageNavigation'         => 'Paginanavigatie',
+   'first'                  => 'Eerste',
+   'previous'               => 'Vorige',
+   'next'                   => 'Volgende',
+   'last'                   => 'Laatste',
+   'older'                  => 'Ouder',
+   'newer'                  => 'Nieuwer',
+   'invalidTemplate'        => '{0} is geen geldig Pager template.',
+   'invalidPaginationGroup' => '{0} is geen geldige Pagination groep.',
 ];
