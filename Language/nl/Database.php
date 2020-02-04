@@ -23,7 +23,7 @@ return [
    'failGetIndexData'                 => 'Kon geen indexdata uit de database halen.',
    'failGetForeignKeyData'            => 'Kon geen foreign key data uit de database halen.',
    'parseStringFail'                  => 'Kon key string niet parsen.',
-   'featureUnavailable'               => 'Deze functie is niet beschikbaar voor de database die u gebruikt.',
+   'featureUnavailable'               => 'Deze functionaliteit is niet beschikbaar voor de database die u gebruikt.',
    'tableNotFound'                    => 'Kon tabel `{0}` niet vinden in de huidige database.',
    'noPrimaryKey'                     => 'Er is geen Primary Key gespecificeerd voor de `{0}` model class.',
    'noDateFormat'                     => 'De `{0}` model class heeft geen geldig dateFormat.',

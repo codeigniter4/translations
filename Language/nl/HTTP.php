@@ -16,62 +16,62 @@
 
 return [
 	// CurlRequest
-   'missingCurl'                => 'CURL must be enabled to use the CURLRequest class.',
-   'invalidSSLKey'              => 'Cannot set SSL Key. {0} is not a valid file.',
-   'sslCertNotFound'            => 'SSL certificate not found at: {0}',
+   'missingCurl'                => 'CURL moet ingeschakeld zijn om de CURLRequest class te gebruiken.',
+   'invalidSSLKey'              => 'Kan SSL Key niet instellen. {0} is geen geldig bestand.',
+   'sslCertNotFound'            => 'SSL certificaat niet gevonden op: {0}',
    'curlError'                  => '{0} : {1}',
 
 	// IncomingRequest
-   'invalidNegotiationType'     => '{0} is not a valid negotiation type. Must be one of: media, charset, encoding, language.',
+   'invalidNegotiationType'     => '{0} is geen geldige negotiation type. Moet een van media, charset, encoding of language zijn.',
 
 	// Message
-   'invalidHTTPProtocol'        => 'Invalid HTTP Protocol Version. Must be one of: {0}',
+   'invalidHTTPProtocol'        => 'Ongeldige HTTP Protocol Versie. Moet een van de volgende zijn: {0}',
 
 	// Negotiate
-   'emptySupportedNegotiations' => 'You must provide an array of supported values to all Negotiations.',
+   'emptySupportedNegotiations' => 'U moet aan alle Negotiations een array van ondersteunde waardes geven.',
 
 	// RedirectResponse
-   'invalidRoute'               => '{0, string} route cannot be found while reverse-routing.',
+   'invalidRoute'               => '{0, string} route ka niet gevonden worden tijdens het reverse-routen.',
 
 	// DownloadResponse
-   'cannotSetBinary'            => 'When setting filepath can not set binary.',
-   'cannotSetFilepath'          => 'When setting binary can not set filepath: {0}',
-   'notFoundDownloadSource'     => 'Not found download body source.',
-   'cannotSetCache'             => 'It does not supported caching for downloading.',
-   'cannotSetStatusCode'        => 'It does not supported chnage status code for downloading. code: {0}, reason: {1}',
+   'cannotSetBinary'            => 'Downloadfout. Filepath kan niet op binair gezet worden.',
+   'cannotSetFilepath'          => 'Downloadfout. Filepath kan niet ingesteld worden: {0}',
+   'notFoundDownloadSource'     => 'De downloadsource kon niet gevonden worden.',
+   'cannotSetCache'             => 'Caching wordt bij het downloaden wordt niet ondersteund.',
+   'cannotSetStatusCode'        => 'Change status code wordt bij het downloaden niet ondersteund. code: {0}, reason: {1}',
 
 	// Response
-   'missingResponseStatus'      => 'HTTP Response is missing a status code',
-   'invalidStatusCode'          => '{0, string} is not a valid HTTP return status code',
-   'unknownStatusCode'          => 'Unknown HTTP status code provided with no message: {0}',
+   'missingResponseStatus'      => 'HTTP Response heeft geen status code',
+   'invalidStatusCode'          => '{0, string} is geen geldige HTTP return status code',
+   'unknownStatusCode'          => 'Onbekende HTTP status code gegeven met geen message: {0}',
 
 	// URI
-   'cannotParseURI'             => 'Unable to parse URI: {0}',
-   'segmentOutOfRange'          => 'Request URI segment is our of range: {0}',
-   'invalidPort'                => 'Ports must be between 0 and 65535. Given: {0}',
-   'malformedQueryString'       => 'Query strings may not include URI fragments.',
+   'cannotParseURI'             => 'Kon URI niet parsen: {0}',
+   'segmentOutOfRange'          => 'Het Request URI segment overschreidt het geldige bereik: {0}',
+   'invalidPort'                => 'Poorten moeten tussen 0 en 65535 zijn. Gegeven: {0}',
+   'malformedQueryString'       => 'Query strings mogen geen URI fragmenten bevatten.',
 
 	// Page Not Found
-   'pageNotFound'               => 'Page Not Found',
-   'emptyController'            => 'No Controller specified.',
-   'controllerNotFound'         => 'Controller or its method is not found: {0}::{1}',
-   'methodNotFound'             => 'Controller method is not found: {0}',
+   'pageNotFound'               => 'Pagina niet gevonden',
+   'emptyController'            => 'Geen Controller gespecificeerd.',
+   'controllerNotFound'         => 'Controller of controller-methode niet gevonden: {0}::{1}',
+   'methodNotFound'             => 'Controller-methode niet gevonden: {0}',
 
 	// CSRF
-   'disallowedAction'           => 'The action you requested is not allowed.',
+   'disallowedAction'           => 'De actie die u wilt uitvoeren is niet toegestaan.',
 
 	// Uploaded file moving
-   'alreadyMoved'               => 'The uploaded file has already been moved.',
-   'invalidFile'                => 'The original file is not a valid file.',
-   'moveFailed'                 => 'Could not move file {0} to {1} ({2})',
+   'alreadyMoved'               => 'Het geüploade bestand is al verplaatst.',
+   'invalidFile'                => 'Het originele bestand is geen geldig bestand.',
+   'moveFailed'                 => 'Kon bestand niet verplaatsen van {0} naar {1} ({2})',
 
-   'uploadErrOk'                => 'The file uploaded with success.',
-   'uploadErrIniSize'           => 'The file "%s" exceeds your upload_max_filesize ini directive.',
-   'uploadErrFormSize'          => 'The file "%s" exceeds the upload limit defined in your form.',
-   'uploadErrPartial'           => 'The file "%s" was only partially uploaded.',
-   'uploadErrNoFile'            => 'No file was uploaded.',
-   'uploadErrCantWrite'         => 'The file "%s" could not be written on disk.',
-   'uploadErrNoTmpDir'          => 'File could not be uploaded: missing temporary directory.',
-   'uploadErrExtension'         => 'File upload was stopped by a PHP extension.',
-   'uploadErrUnknown'           => 'The file "%s" was not uploaded due to an unknown error.',
+   'uploadErrOk'                => 'Het bestand is succesvol geüpload.',
+   'uploadErrIniSize'           => 'Het bestand "%s" overschreidt uw upload_max_filesize ini limiet.',
+   'uploadErrFormSize'          => 'Het bestand "%s" overschreidt de uploadlimiet vastgesteld in uw formulier.',
+   'uploadErrPartial'           => 'Het bestand "%s" is slechts gedeeltelijk geüpload.',
+   'uploadErrNoFile'            => 'Er is geen bestand geüpload.',
+   'uploadErrCantWrite'         => 'Het bestand "%s" kon niet naar de schijf worden geschreven.',
+   'uploadErrNoTmpDir'          => 'Kon bestand niet uploaden: geen tijdelijke map.',
+   'uploadErrExtension'         => 'De bestandupload is onderbroken door een PHP extensie.',
+   'uploadErrUnknown'           => 'Het bestand "%s" is niet geüpload door een onbekende error.',
 ];

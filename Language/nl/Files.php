@@ -14,6 +14,6 @@
  */
 
 return [
-   'fileNotFound' => 'File not found: {0}',
-   'cannotMove'   => 'Could not move file {0} to {1} ({2})',
+   'fileNotFound' => 'Bestand niet toegestaan: {0}',
+   'cannotMove'   => 'Kon bestand niet verplaatsen van {0} naar {1} ({2})',
 ];

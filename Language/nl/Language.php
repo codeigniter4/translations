@@ -15,5 +15,5 @@
  */
 
 return [
-   'languageGetLineInvalidArgumentException' => 'Get line must be a string or array of strings.',
+   'languageGetLineInvalidArgumentException' => 'De Get line moet een string of een array van strings zijn.',
 ];
