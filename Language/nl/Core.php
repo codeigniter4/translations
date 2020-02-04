@@ -15,8 +15,8 @@
  */
 
 return [
-   'invalidFile'      => 'Invalid file: {0}',
-   'copyError'        => 'An error was encountered while attempting to replace the file({0}). Please make sure your file directory is writable.',
-   'missingExtension' => '{0} extension is not loaded.',
-   'noHandlers'       => '{0} must provide at least one Handler.',
+   'invalidFile'      => 'Ongeldig bestand: {0}',
+   'copyError'        => 'Er trad een error op gedurende het vervangen van het bestand({0}). Zorg ervoor dat uw bestandsmap schrijfbaar is.',
+   'missingExtension' => '{0} extensie is niet geladen.',
+   'noHandlers'       => '{0} moet ten minste één Handler bieden.',
 ];

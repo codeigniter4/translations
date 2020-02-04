@@ -14,10 +14,10 @@
  */
 
 return [
-   'jsonErrorDepth'         => 'Maximum stack depth exceeded',
-   'jsonErrorStateMismatch' => 'Underflow or the modes mismatch',
-   'jsonErrorCtrlChar'      => 'Unexpected control character found',
-   'jsonErrorSyntax'        => 'Syntax error, malformed JSON',
-   'jsonErrorUtf8'          => 'Malformed UTF-8 characters, possibly incorrectly encoded',
-   'jsonErrorUnknown'       => 'Unknown error',
+   'jsonErrorDepth'         => 'De maximale stack diepte is overschreden',
+   'jsonErrorStateMismatch' => 'De underflow of modes komen niet overeen',
+   'jsonErrorCtrlChar'      => 'Onverwacht controle karakter gevonden',
+   'jsonErrorSyntax'        => 'Syntax fout, verkeerd gevormde JSON',
+   'jsonErrorUtf8'          => 'Verkeerd gevormde UTF-8 karakters, mogelijk verkeerd gecodeerd',
+   'jsonErrorUnknown'       => 'Onbekende fout',
 ];

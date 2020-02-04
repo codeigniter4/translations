@@ -15,8 +15,8 @@
  */
 
 return [
-   'unableToWrite'   => 'Cache unable to write to {0}',
-   'invalidHandlers' => 'Cache config must have an array of $validHandlers.',
-   'noBackup'        => 'Cache config must have a handler and backupHandler set.',
-   'handlerNotFound' => 'Cache config has an invalid handler or backup handler specified.',
+   'unableToWrite'   => 'De cache kan niet geschreven worden naar {0}.',
+   'invalidHandlers' => 'De cache configuratie moet een array hebben van $validHandlers.',
+   'noBackup'        => 'De cache configuratie moet een handler en een backupHandler set hebben.',
+   'handlerNotFound' => 'Er is een ongeldige handler of backup handler gespecificeerd in de cache configuratie.',
 ];

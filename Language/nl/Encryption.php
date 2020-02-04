@@ -14,10 +14,10 @@
  */
 
 return [
-   'noDriverRequested'    => 'No driver requested; Miss Daisy will be so upset!',
-   'noHandlerAvailable'   => 'Unable to find an available {0} encryption handler.',
-   'unKnownHandler'       => '"{0}" cannot be configured.',
-   'starterKeyNeeded'     => 'Encrypter needs a starter key.',
-   'authenticationFailed' => 'Decrypting: authentication failed.',
-   'encryptionFailed'     => 'Encryption failed.',
+   'noDriverRequested'    => 'Geen driver opgevraagd; Miss Daisy zal zo overstuur zijn!',
+   'noHandlerAvailable'   => 'Kon geen beschikbaren {0} encriptie-handler vinden.',
+   'unKnownHandler'       => '"{0}" kan niet geconfigureerd worden.',
+   'starterKeyNeeded'     => 'Encrypter heeft een starter key nodig.',
+   'authenticationFailed' => 'Decrypteren: authenticatie mislukt.',
+   'encryptionFailed'     => 'Encryptie mislukt.',
 ];
