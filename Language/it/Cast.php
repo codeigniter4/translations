@@ -1,10 +1,11 @@
 <?php
+
 /**
  * Cast language strings.
  *
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
- * @copyright  2019 CodeIgniter Foundation
+ * @copyright  2019-2020 CodeIgniter Foundation
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
  * @since      Version 4.0.0
@@ -14,10 +15,10 @@
  */
 
 return [
-   'jsonErrorDepth'         => 'Maximum stack depth exceeded',
-   'jsonErrorStateMismatch' => 'Underflow or the modes mismatch',
-   'jsonErrorCtrlChar'      => 'Unexpected control character found',
-   'jsonErrorSyntax'        => 'Syntax error, malformed JSON',
-   'jsonErrorUtf8'          => 'Malformed UTF-8 characters, possibly incorrectly encoded',
-   'jsonErrorUnknown'       => 'Unknown error',
+   'jsonErrorDepth'         => 'Superata la profondità massima dello stack',
+   'jsonErrorStateMismatch' => 'Sotto flussi o modalità non corrispondenti',
+   'jsonErrorCtrlChar'      => 'Trovato un carattare di controllo non previsto',
+   'jsonErrorSyntax'        => 'Errore di sintassi, JSON non valido',
+   'jsonErrorUtf8'          => 'Caratteri UTF-8 non validi, forse codificati in modo errato',
+   'jsonErrorUnknown'       => 'Errore sconosciuto',
 ];
