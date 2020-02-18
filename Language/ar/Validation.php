@@ -38,6 +38,7 @@ return [
 	'integer'               => 'الحقل {field} يجب أن يحتوى على رقم صحيح.',
 	'is_natural'            => 'الحقل {field} يجب أن يحتوى على عدد.',
 	'is_natural_no_zero'    => 'الحقل {field} يجب أن يحتوى على عدد أكبر من الصفر.',
+   'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
 	'is_unique'             => 'الحقل {field} يجب أن يحتوى على قيمة غير موجودة مسبقا.',
 	'less_than'             => 'الحقل {field} يجب أن يحتوى على رقم أقل من {param}.',
 	'less_than_equal_to'    => 'الحقل {field} يجب أن يحتوى على رقم أقل أو يساوي {param}.',

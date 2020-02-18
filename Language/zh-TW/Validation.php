@@ -38,6 +38,7 @@ return [
    'integer'               => '欄位 {field} 的型別必須是整數。',
    'is_natural'            => '欄位 {field} 只能是數字。',
    'is_natural_no_zero'    => '欄位 {field} 只能是大於零的數字。',
+   'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
    'is_unique'             => '欄位 {field} 必須是唯一的值。',
    'less_than'             => '欄位 {field} 中的數字必須小於 {param}。',
    'less_than_equal_to'    => '欄位 {field} 中的數字必須小於或等於 {param}。',

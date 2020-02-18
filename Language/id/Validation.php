@@ -38,6 +38,7 @@ return [
 	'integer'               => 'Bidang {field} harus mengandung bilangan bulat.',
 	'is_natural'            => 'Bidang {field} hanya boleh berisi angka.',
 	'is_natural_no_zero'    => 'Bidang {field} hanya boleh berisi angka dan harus lebih besar dari nol.',
+   'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
 	'is_unique'             => 'Bidang {field} harus mengandung sebuah nilai unik.',
 	'less_than'             => 'Bidang {field} harus berisi sebuah angka yang kurang dari {param}.',
 	'less_than_equal_to'    => 'Bidang {field} harus berisi sebuah angka yang kurang dari atau sama dengan {param}.',

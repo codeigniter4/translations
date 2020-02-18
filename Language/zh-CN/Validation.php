@@ -38,6 +38,7 @@ return [
    'integer'               => '{field} 字段必须是整数。',
    'is_natural'            => '{field} 字段必须是数字。',
    'is_natural_no_zero'    => '{field} 字段必须是数字且大于0。',
+   'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
    'is_unique'             => '{field} 字段必须是唯一的值。',
    'less_than'             => '{field} 字段必须小于 {param} 的数字。',
    'less_than_equal_to'    => '{field} 字段必须小于或等于 {param} 的数字。',

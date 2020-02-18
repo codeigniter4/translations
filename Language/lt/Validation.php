@@ -38,6 +38,7 @@ return [
    'integer'               => 'Lauke {field} gali būti tik sveikasis skaičius.',
    'is_natural'            => 'Lauke {field} gali būti tik skaitmenys.',
    'is_natural_no_zero'    => 'Lauke {field} gali būti tik skaitmenys, ir jo reikšmė turi būti didesnė nei nulis.',
+   'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
    'is_unique'             => 'Lauke {field} turi būti unikali reikšmė.',
    'less_than'             => 'Lauke {field} turi būti skaičius, mažesnis už {param}.',
    'less_than_equal_to'    => 'Lauke {field} turi būti skaičius, mažesnis ar lygus {param}.',

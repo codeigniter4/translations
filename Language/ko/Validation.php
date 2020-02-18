@@ -38,6 +38,7 @@ return [
    'integer'               => '{field} 필드는 정수여야 합니다.', // 'The {field} field must contain an integer.',
    'is_natural'            => '{field} 필드는 숫자여야 합니다.', // 'The {field} field must only contain digits.',
    'is_natural_no_zero'    => '{field} 필드는 0보다 큰 숫자여야 합니다.', // 'The {field} field must only contain digits and must be greater than zero.',
+   'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
    'is_unique'             => '{field} 필드는 유일한 값이어야 합니다.', // 'The {field} field must contain a unique value.',
    'less_than'             => '{field} 필드 값은 {param}보다 작아야 합니다.', // 'The {field} field must contain a number less than {param}.',
    'less_than_equal_to'    => '{field} 필드 값은 {param} 이하여야 합니다.', // 'The {field} field must contain a number less than or equal to {param}.',

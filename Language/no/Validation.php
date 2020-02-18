@@ -38,6 +38,7 @@ return [
    'integer'               => 'Formfeltet {field} må inneholde et heltall.',
    'is_natural'            => 'Formfeltet {field} kan bare inneholde sifre.',
    'is_natural_no_zero'    => 'Formfeltet {field} kan bare inneholde sifre og må være større enn null.',
+   'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
    'is_unique'             => 'Formfeltet {field} må inneholde en unik verdi.',
    'less_than'             => 'Formfeltet {field} må inneholde et nummer som er mindre enn {param}.',
    'less_than_equal_to'    => 'Formfeltet {field} må inneholde et tall som er mindre enn eller lik {param}.',
