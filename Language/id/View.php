@@ -13,7 +13,7 @@
  * @codeCoverageIgnore
  */
 return [
-	'invalidCellMethod'     => '{class}::{method} bukan sebuah metode yang valid."',
+	'invalidCellMethod'     => '{class}::{method} bukan sebuah metode yang valid.',
 	'missingCellParameters' => '{class}::{method} tidak memiliki parameter.',
 	'invalidCellParameter'  => '{0} bukan sebuah nama parameter yang valid.',
 	'noCellClass'           => 'Tidak ada kelas view cell yang disediakan.',

@@ -17,9 +17,10 @@
 return [
 	// Migration Runner
    'missingTable'      => '必须设置迁移表。',
-   'invalidType'       => '指定的迁移类型编号无效: {0}',
+//   'invalidType'       => '指定的迁移类型编号无效: {0}',
    'disabled'          => '迁移状态为禁用或不正确，请确认 app/Config/Migrations 文件的 $enabled 值是否为 true。',
    'notFound'          => '找不到指定的迁移文件：',
+   'batchNotFound'     => 'Target batch not found: ',
    'empty'             => '没有指定的迁移文件。',
    'gap'               => '版本号附近的迁移序列存在差异: ',
    'classNotFound'     => '找不到指定的迁移类 "%s" 。',
@@ -38,7 +39,9 @@ return [
    'writeError'        => '尝试创建文件时出错。',
    'migNumberError'    => '迁移号必须为3位数字且中间不能有任何空格。',
 
-   'toLatest'          => '迁移到最新版本...',
+//   'toLatest'          => '迁移到最新版本...',
+   'latest'            => 'Running all new migrations...',
+   'generalFault'      => 'Migration failed!',
    'migInvalidVersion' => '提供的版本号无效。',
    'toVersionPH'       => '迁移至 %s...',
    'toVersion'         => '迁移至当前（current）版本...',

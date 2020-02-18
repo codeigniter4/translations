@@ -15,6 +15,7 @@
  */
 
 return [
+   'unableToWrite'   => 'Cache unable to write to {0}',
    'invalidHandlers' => '$validHandlers må inneholde en matrise for hurtigbufferkonfigurasjon.',
    'noBackup'        => 'Cache-konfigurasjonen må ha en behandler og en backup-håndterer.',
    'handlerNotFound' => 'Cache-konfigurasjonen spesifiserer en ugyldig behandler eller backup-håndterer.',

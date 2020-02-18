@@ -13,7 +13,7 @@
  * @codeCoverageIgnore
  */
 return [
-	'invalidCellMethod'     => '{class}::{method} no es un método válido."',
+	'invalidCellMethod'     => '{class}::{method} no es un método válido.',
 	'missingCellParameters' => '{class}::{method} no tiene parámetros.',
 	'invalidCellParameter'  => '{0} no es un nombre de parámetro válido.',
 	'noCellClass'           => 'No se ha establecido una clase de vista de celda.',

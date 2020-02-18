@@ -14,5 +14,5 @@
  */
 
 return [
-   'notImplemented' => "'{0}'-Aktion nicht implementiert.",
+   'notImplemented' => '"{0}"-Aktion nicht implementiert.',
 ];

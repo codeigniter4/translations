@@ -15,11 +15,11 @@
  */
 
 return [
-   'terabyteAbbr' => 'TB',
-   'gigabyteAbbr' => 'GB',
-   'megabyteAbbr' => 'MB',
-   'kilobyteAbbr' => 'KB',
-   'bytes'        => 'Bytes',
+   'terabyteAbbr' => 'To',
+   'gigabyteAbbr' => 'Go',
+   'megabyteAbbr' => 'Mo',
+   'kilobyteAbbr' => 'Ko',
+   'bytes'        => 'Octets',
 
 	// don't forget the space in front of these!
    'thousand'     => ' millier',

@@ -32,6 +32,13 @@ return [
 	// RedirectResponse
 	'invalidRoute'               => '{0, string} non è un percorso valido.',
 
+	// DownloadResponse
+	'cannotSetBinary'            => 'When setting filepath can not set binary.',
+	'cannotSetFilepath'          => 'When setting binary can not set filepath: {0}',
+	'notFoundDownloadSource'     => 'Not found download body source.',
+	'cannotSetCache'             => 'It does not supported caching for downloading.',
+	'cannotSetStatusCode'        => 'It does not supported chnage status code for downloading. code: {0}, reason: {1}',
+ 
 	// Response
 	'missingResponseStatus'      => 'Alla risposta HTTP manca un codice di stato',
 	'invalidStatusCode'          => '{0, string} non è un valido codice di stato di ritorno da HTTP',
@@ -56,4 +63,14 @@ return [
 	'alreadyMoved'				 => 'Il file uploadato è già stato spostato.',
 	'invalidFile'				 => 'Il file originale non è un file valido.',
 	'moveFailed'				 => 'Non si può spostare il file {0} verso {1} ({2})',
-];
+
+	'uploadErrOk'                => 'The file uploaded with success.',
+	'uploadErrIniSize'           => 'The file "%s" exceeds your upload_max_filesize ini directive.',
+	'uploadErrFormSize'          => 'The file "%s" exceeds the upload limit defined in your form.',
+	'uploadErrPartial'           => 'The file "%s" was only partially uploaded.',
+	'uploadErrNoFile'            => 'No file was uploaded.',
+	'uploadErrCantWrite'         => 'The file "%s" could not be written on disk.',
+	'uploadErrNoTmpDir'          => 'File could not be uploaded: missing temporary directory.',
+	'uploadErrExtension'         => 'File upload was stopped by a PHP extension.',
+	'uploadErrUnknown'           => 'The file "%s" was not uploaded due to an unknown error.',
+ ];

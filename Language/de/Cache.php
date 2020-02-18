@@ -15,6 +15,7 @@
  */
 
 return [
+   'unableToWrite'   => 'Cache unable to write to {0}',
    'invalidHandlers' => '$validHandlers muss ein Array zur Cache-Konfiguration enthalten.',
    'noBackup'        => 'Die Cache-Konfiguration muss über einen Handler und einen Backup-Handler verfügen.',
    'handlerNotFound' => 'In der Cache-Konfiguration ist ein ungültiger Handler oder Backup-Handler angegeben.',

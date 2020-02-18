@@ -25,6 +25,8 @@ return [
 	'featureUnavailable'               => 'Este recurso não está disponível para o banco de dados que você está usando.',
 	'tableNotFound'                    => 'Tabela `{0}` não foi encontrada no banco de dados atual.',
 	'noPrimaryKey'                     => 'Classe model `{0}` não especifica uma Primary Key.',
+	'noDateFormat'                     => 'Classe model `{0}` não tem uma data válida.',
+	'fieldNotExists'                   => 'Campo `{0}` não encontrado.',
 	'forEmptyInputGiven'               => 'Declaração vazia passada para o campo `{0}`',
 	'forFindColumnHaveMultipleColumns' => 'Apenas uma coluna é permitida no nome da coluna.',
 ];

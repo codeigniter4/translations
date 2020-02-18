@@ -20,7 +20,7 @@ return [
 	'gifNotSupported'        => 'Gambar GIF sering tidak didukung karena pembatasan perizinan. anda mungkin harus menggunakan gambar JPG atau PNG sebagai gantinya.',
 	'jpgNotSupported'        => 'Gambar JPG tidak didukung.',
 	'pngNotSupported'        => 'Gambar PNG tidak didukung.',
-	'unsupportedImagecreate' => 'Server anda tidak mendukung fungsi GD yang diperlukan untuk memproses jenis gambar ini.',
+	'unsupportedImageCreate' => 'Server anda tidak mendukung fungsi GD yang diperlukan untuk memproses jenis gambar ini.',
 	'jpgOrPngRequired'       => 'Protokol pengubahan ukuran gambar yang ditentukan dalam preferensi anda hanya berfungsi dengan jenis gambar JPEG atau PNG.',
 	'rotateUnsupported'      => 'Rotasi gambar sepertinya tidak didukung oleh server anda.',
 	'libPathInvalid'         => 'Jalur ke pustaka gambar anda tidak benar. Silakan mengatur jalur yang benar dalam preferensi gambar anda. {0, string)',
