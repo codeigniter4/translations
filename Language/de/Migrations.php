@@ -19,12 +19,12 @@ return [
    'missingTable'      => 'Migrations Tabelle muss gesetzt sein.',
 //   'invalidType'       => 'Es wurde eine ungültige Migrationsnummerierung angegeben: {0}',
    'disabled'          => 'Migrationen wurden geladen, sind aber deaktiviert oder falsch eingerichtet.',
-   'batchNotFound'     => 'Target batch not found: ',
    'notFound'          => 'Migrationsdatei nicht gefunden: ',
    'empty'             => 'Keine Migrationsdateien gefunden',
    'gap'               => 'Es gibt eine Lücke in der Migrationsfolge in der Nähe der Versionsnummer: ',
    'classNotFound'     => 'Die Migrationsklasse "%s" konnte nicht gefunden werden.',
    'missingMethod'     => 'Der Migrationsklasse fehlt eine "%s"-Methode.',
+    'batchNotFound'   => 'Ziel-Batchnummer nicht gefunden: ',
 
 	// Migration Command
    'migHelpLatest'     => "\t\tMigriert die Datenbank auf die neueste verfügbare Migration.",
@@ -39,8 +39,6 @@ return [
    'writeError'        => 'Fehler beim Erstellen der Datei.',
    'migNumberError'    => 'Die Migrationsnummer muss dreistellig sein, und es dürfen keine Lücken in der Sequenz sein.',
 
-   'latest'            => 'Running all new migrations...',
-   'generalFault'      => 'Migration failed!',
 //   'toLatest'          => 'Migration auf die neueste Version...',
    'migInvalidVersion' => 'Ungültige Versionsnummer angegeben.',
    'toVersionPH'       => 'Migration auf Version %s...',
@@ -52,6 +50,8 @@ return [
    'migMissingSeeder'  => 'Es muss ein Beispieldaten-Name angegeben werden.',
    'removed'           => 'Zurückrollen nach: ',
    'added'             => 'Ausführen: ',
+    'latest'            => 'Neue Migrationen ausführen...',
+    'generalFault'      => 'Migration fehlgeschlagen!',
 
    'version'           => 'Version',
    'filename'          => 'Dateiname',
