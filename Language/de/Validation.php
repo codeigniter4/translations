@@ -38,6 +38,7 @@ return [
    'integer'               => 'Das {field}-Formularfeld muss eine ganze Zahl enthalten.',
    'is_natural'            => 'Das {field}-Formularfeld darf nur Ziffern enthalten.',
    'is_natural_no_zero'    => 'Das {field}-Formularfeld darf nur Ziffern enthalten und muss größer als Null sein.',
+   'is_not_unique'         => 'Das {field}-Formularfeld muss einen bereits in der Datenbank vorhandenen Wert enthalten.',
    'is_unique'             => 'Das {field}-Formularfeld muss einen eindeutigen Wert enthalten.',
    'less_than'             => 'Das {field}-Formularfeld muss eine Zahl kleiner als {param} enthalten.',
    'less_than_equal_to'    => 'Das {field}-Formularfeld muss eine Zahl kleiner oder gleich {param} enthalten.',
