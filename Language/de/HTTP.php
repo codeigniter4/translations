@@ -67,7 +67,6 @@ return [
 
    'uploadErrOk'        => 'Die Datei wurde erfolgreich hochgeladen.',
    'uploadErrIniSize'   => 'Die Datei "%s" überschreitet die upload_max_filesize ini Direktive.',
-   'uploadErrFormSize'  => 'Die Datei "%s" exceeds the upload limit defined in your form.',
    'uploadErrFormSize'  => 'Die Datei "%s" ist grösser als die im Formular definierte Limite',
    'uploadErrPartial'   => 'Die Datei "%s" wurde nur teilweise hochgeladen.',
    'uploadErrNoFile'    => 'Es wurde keine Datei hochgeladen',
