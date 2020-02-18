@@ -15,14 +15,14 @@
  */
 
 return [
-	// Core Messages
+   // Core Messages
    'noRuleSets'            => 'Kein Regelset in der Konfiguration der Validierung angegeben.',
    'ruleNotFound'          => '{0} ist keine gültige Regel.',
    'groupNotFound'         => '{0} ist keine Gruppe von Validierungsregeln.',
    'groupNotArray'         => '{0} Regelgruppe muss ein Array sein.',
    'invalidTemplate'       => '{0} ist keine gültige Validierungsvorlage.',
 
-	// Rule Messages
+   // Rule Messages
    'alpha'                 => 'Das {field}-Formularfeld darf nur alphabetische Zeichen enthalten.',
    'alpha_dash'            => 'Das {field}-Formularfeld darf nur alphanumerische Zeichen, Unterstriche und Bindestriche enthalten.',
    'alpha_numeric'         => 'Das {field}-Formularfeld darf nur alphanumerische Zeichen enthalten.',
@@ -58,10 +58,10 @@ return [
    'valid_url'             => 'Das {field}-Formularfeld muss eine gültige URL enthalten.',
    'valid_date'            => 'Das {field}-Formularfeld muss ein gültiges Datum enthalten.',
 
-	// Credit Cards
+   // Credit Cards
    'valid_cc_num'          => 'Das {field}-Formularfeld scheint keine gültige Kreditkartennummer zu enthalten.',
 
-	// Files
+   // Files
    'uploaded'              => 'Das {field}-Formularfeld enthält keine gültige hochgeladene Datei.',
    'max_size'              => 'Das {field}-Formularfeld enthält enthält eine zu grosse Datei.',
    'is_image'              => 'Das {field}-Formularfeld enthält keine gültige, hochgeladene Bilddatei.',
