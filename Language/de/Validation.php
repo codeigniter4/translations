@@ -30,7 +30,7 @@ return [
    'alpha_space'           => 'Das {field}-Formularfeld darf nur alphabetische Zeichen und Leerzeichen enthalten.',
    'decimal'               => 'Das {field}-Formularfeld muss eine Dezimalzahl enthalten.',
    'differs'               => 'Das {field}-Formularfeld muss sich vom Feld {param} unterscheiden.',
-   'equals'                => 'Das {field}-Formularfeld muss {param} entsprechen.',
+   'equals'                => 'Das {field}-Formularfeld muss exakt {param} entsprechen.',
    'exact_length'          => 'Das {field}-Formularfeld muss genau {param} Zeichen lang sein.',
    'greater_than'          => 'Das {field}-Formularfeld muss eine Zahl größer als {param} enthalten.',
    'greater_than_equal_to' => 'Das {field}-Formularfeld muss eine Zahl größer oder gleich {param} enthalten.',
