@@ -17,7 +17,6 @@
 return [
 	// Migration Runner
    'missingTable'      => 'Migrations Tabelle muss gesetzt sein.',
-//   'invalidType'       => 'Es wurde eine ungültige Migrationsnummerierung angegeben: {0}',
    'disabled'          => 'Migrationen wurden geladen, sind aber deaktiviert oder falsch eingerichtet.',
    'notFound'          => 'Migrationsdatei nicht gefunden: ',
    'empty'             => 'Keine Migrationsdateien gefunden',
@@ -39,7 +38,6 @@ return [
    'writeError'        => 'Fehler beim Erstellen der Datei.',
    'migNumberError'    => 'Die Migrationsnummer muss dreistellig sein, und es dürfen keine Lücken in der Sequenz sein.',
 
-//   'toLatest'          => 'Migration auf die neueste Version...',
    'migInvalidVersion' => 'Ungültige Versionsnummer angegeben.',
    'toVersionPH'       => 'Migration auf Version %s...',
    'toVersion'         => 'Migration auf die aktuelle Version...',
