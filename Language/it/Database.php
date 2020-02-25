@@ -3,30 +3,31 @@
 /**
  * Database language strings.
  *
- * @package      CodeIgniter
- * @author       Luca Marco Rasia
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 4.0.0
- *
+ * @package    CodeIgniter
+ * @author     CodeIgniter Dev Team
+ * @copyright  2019-2020 CodeIgniter Foundation
+ * @license    https://opensource.org/licenses/MIT	MIT License
+ * @link       https://codeigniter.com
+ * @since      Version 4.0.0
  * @filesource
  *
  * @codeCoverageIgnore
  */
+
 return [
-	'invalidEvent'         => '{0} non è una valida chiamata dell\'evento del Model.',
-	'invalidArgument'      => 'Devi fornire un valido {0}.',
-	'invalidAllowedFields' => 'I campi autorizzati devono essere specificati per il model: {0}',
-	'emptyDataset'         => 'Nessun dato presente in {0}.',
-	'failGetFieldData'                 => 'Failed to get field data from database.',
-	'failGetIndexData'                 => 'Failed to get index data from database.',
-	'failGetForeignKeyData'            => 'Failed to get foreign key data from database.',
-	'parseStringFail'                  => 'Parsing key string failed.',
-	'featureUnavailable'               => 'This feature is not available for the database you are using.',
-	'tableNotFound'                    => 'Table `{0}` was not found in the current database.',
-	'noPrimaryKey'                     => '`{0}` model class does not specify a Primary Key.',
-	'noDateFormat'                     => '`{0}` model class does not have a valid dateFormat.',
-	'fieldNotExists'                   => 'Field `{0}` not found.',
-	'forEmptyInputGiven'               => 'Empty statement is given for the field `{0}`',
-	'forFindColumnHaveMultipleColumns' => 'Only single column allowed in Column name.', 
+   'invalidEvent'                     => '{0} non è una callback valida per l\'evento del modello.',
+   'invalidArgument'                  => 'Devi fornire un valido {0}.',
+   'invalidAllowedFields'             => 'I campi consentiti devono essere specificati per il modello: {0}',
+   'emptyDataset'                     => 'Non ci sono dati per {0}.',
+   'failGetFieldData'                 => 'Impossibile ottenere i dati del campo dal database.',
+   'failGetIndexData'                 => 'Impossibile ottenere i dati dell\'indice dal database.',
+   'failGetForeignKeyData'            => 'Impossibile ottenere i dati della chiave esterna dal database.',
+   'parseStringFail'                  => 'Parsing della stringa chiave non riuscito.',
+   'featureUnavailable'               => 'Questa funzione non è disponibile per il database in uso.',
+   'tableNotFound'                    => 'Tabella `{0}` non trovata nel database in uso.',
+   'noPrimaryKey'                     => 'Nella classe del modello `{0}` non è stata specificata una chiave primaria.',
+   'noDateFormat'                     => 'Nella classe del modello `{0}` non è presente un formato di data valido.',
+   'fieldNotExists'                   => 'Campo `{0}` non trovato.',
+   'forEmptyInputGiven'               => 'È stata fornita un\'istruzione vuota per il campo `{0}`',
+   'forFindColumnHaveMultipleColumns' => 'È consentita solamente una colonna singola nel nome colonna.',
 ];
