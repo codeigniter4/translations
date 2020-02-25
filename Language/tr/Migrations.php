@@ -10,48 +10,48 @@
  * @link         https://codeigniter.com
  * @since        Version 3.0.0
  * @filesource
- * 
+ *
  * @codeCoverageIgnore
  */
 return [
-	// Migration Runner
-	'missingTable'    => 'Göç tablosu belirtilmeli.',
-//	'invalidType'     => 'Geçersiz göç numaralama türü: {0}',
-	'disabled'        => 'Göçler yüklendi fakat etkinleştirilmedi veya yanlış kuruldu.',
-	'notFound'        => 'Göç dosyası bulunamadı: ',
-	'batchNotFound'     => 'Target batch not found: ',
-	'empty'           => 'Herhangi bir göç dosyası bulunamadı.',
-	'gap'             => 'Göç kuyruğunda şu sürüm numarası yakınında bir boşluk var: ',
-	'classNotFound'   => 'Göç sınıfı "%s" bulunamadı.',
-	'missingMethod'   => 'Göç sınıfının "%s" metodu eksik.',
+    // Migration Runner
+    'missingTable'      => 'Taşıma tablosu ayarlanmalıdır.',
+    //	'invalidType'     => 'Geçersiz göç numaralama türü: {0}',
+    'disabled'          => 'Taşıma işlemleri yüklendi, ancak devre dışı bırakıldı veya yanlış ayarlandı.',
+    'notFound'          => 'Taşıma dosyası bulunamadı: ',
+    'batchNotFound'     => 'Hedef toplu iş komutu bulunamadı: ',
+    'empty'             => 'Herhangi bir taşıma dosyası bulunamadı.',
+    'gap'               => 'Taşıma kuyruğunda şu sürüm numarası yakınında bir boşluk var: ',
+    'classNotFound'     => 'Taşıma sınıfı "%s" bulunamadı.',
+    'missingMethod'     => 'Taşıma sınıfının "%s" metodu eksik.',
 
-	// Migration Command
-	'migHelpLatest'   => "\t\tVeri tabanını son göç sürümüne taşır.",
-	'migHelpCurrent'  => "\t\tVeri tabınını ayarlarda 'current' (mevcut) olarak belirtilen sürüme taşır.",
-	'migHelpVersion'  => "\tVeri tabanını {v} şu sürümüne taşır.",
-	'migHelpRollback' => "\tTüm göçleri 0 sürümüne indirir.",
-	'migHelpRefresh'  => "\t\tVeri tabanını yenilemek için tüm göçleri kaldırır ve yeniden çalıştırır.",
-	'migHelpSeed'     => "\t[name] isimli tohumlayıcıyı çalıştırır.",
-	'migCreate'       => "\t[name] isimli yeni bir göç oluşturur.",
-	'nameMigration'   => 'Göç dosyasına bir isim verin.',
-	'badCreateName'   => 'Bir göç dosyası adı belirtmelisiniz.',
-	'writeError'      => 'Yazma hatası nedeniyle dosya oluşturulamadı.',
+    // Migration Command
+    'migHelpLatest'     => "\t\tVeri tabanını son göç sürümüne taşır.",
+    'migHelpCurrent'    => "\t\tVeri tabınını ayarlarda 'current' (mevcut) olarak belirtilen sürüme taşır.",
+    'migHelpVersion'    => "\tVeri tabanını {v} şu sürümüne taşır.",
+    'migHelpRollback'   => "\tTüm göçleri 0 sürümüne indirir.",
+    'migHelpRefresh'    => "\t\tVeri tabanını yenilemek için tüm göçleri kaldırır ve yeniden çalıştırır.",
+    'migHelpSeed'       => "\t[name] isimli tohumlayıcıyı çalıştırır.",
+    'migCreate'         => "\t[name] isimli yeni bir göç oluşturur.",
+    'nameMigration'     => 'Göç dosyasına bir isim verin.',
+    'badCreateName'     => 'Bir göç dosyası adı belirtmelisiniz.',
+    'writeError'        => 'Yazma hatası nedeniyle dosya oluşturulamadı.',
 
-//	'toLatest'          => 'Son sürüme göçülüyor...',
-	'migNumberError'    => 'Migration number must be three digits, and there must not be any gaps in the sequence.',
-	'latest'            => 'Running all new migrations...',
-	'generalFault'      => 'Migration failed!', 
-	'migInvalidVersion' => 'Geçersiz sürüm numarası belirtildi.',
-	'toVersionPH'       => '%s sürümüne göçülüyor...',
-	'toVersion'         => 'Mevcut sürüme göçülüyor....',
-	'rollingBack'       => 'Tüm göçler geri alınıyor...',
-	'noneFound'         => 'Herhangi bir göç bulunamadı.',
-	'on'                => 'Göçüldü: ',
-	'migSeeder'         => 'Tohumlayıcı adı',
-	'migMissingSeeder'  => 'Tohumlayıcı adı belirtmelisiniz.',
-	'removed'           => 'Geri alınıyor: ',
-	'added'             => 'Çalıştırılıyor: ',
+    //	'toLatest'          => 'Son sürüme göçülüyor...',
+    'migNumberError'    => 'Migration number must be three digits, and there must not be any gaps in the sequence.',
+    'latest'            => 'Tüm yeni taşıma işlemleri çalıştırılıyor...',
+    'generalFault'      => 'Taşıma başarısız oldu!',
+    'migInvalidVersion' => 'Geçersiz sürüm numarası belirtildi.',
+    'toVersionPH'       => '%s sürümüne taşınıyor...',
+    'toVersion'         => 'Mevcut sürüme taşınıyor....',
+    'rollingBack'       => 'Tüm taşıma işlemleri geri alınıyor...',
+    'noneFound'         => 'Herhangi bir taşıma işlemi bulunamadı.',
+    'on'                => 'Taşındı: ',
+    'migSeeder'         => 'Tohumlayıcı adı',
+    'migMissingSeeder'  => 'Tohumlayıcı adı belirtmelisiniz.',
+    'removed'           => 'Geri alınıyor: ',
+    'added'             => 'Çalıştırılıyor: ',
 
-	'version'           => 'Sürüm',
-	'filename'          => 'Dosya adı',
+    'version'  => 'Sürüm',
+    'filename' => 'Dosya adı',
 ];

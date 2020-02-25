@@ -13,7 +13,6 @@
  * @codeCoverageIgnore
  */
 
-return
-[
-   'tryingToAccessNonExistentProperty' => 'Trying to access non existent property {0} of {1}',
+return [
+    'tryingToAccessNonExistentProperty' => '{1} için {0} var olmayan bir özelliğe erişmeye çalışılıyor',
 ];

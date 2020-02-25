@@ -10,14 +10,14 @@
  * @link         https://codeigniter.com
  * @since        Version 3.0.0
  * @filesource
- * 
+ *
  * @codeCoverageIgnore
  */
 return [
-	'commandNotFound' => 'Command "{0}" not found.',
-	'helpUsage'       => 'Kullanım:',
-	'helpDescription' => 'Açıklama:',
-	'helpOptions'     => 'Seçenekler:',
-	'helpArguments'   => 'Değişkenler:',
-	'invalidColor'    => 'Geçersiz {0} rengi: {1}.',
+    'commandNotFound' => '"{0}" komutu bulunamadı.',
+    'helpUsage'       => 'Kullanım:',
+    'helpDescription' => 'Açıklama:',
+    'helpOptions'     => 'Seçenekler:',
+    'helpArguments'   => 'Değişkenler:',
+    'invalidColor'    => 'Geçersiz {0} rengi: {1}.',
 ];
