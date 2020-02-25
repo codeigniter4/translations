@@ -21,6 +21,7 @@ return [
 	'gifNotSupported'        => 'الصورة من نوع GIF غير مدعومة بسبب قيود على رخصة الاستخدام. استخدم بدلا من ذلك الصور من نوع JPG أو PNG.',
 	'jpgNotSupported'        => 'الصورة من نوع JPG غير مدعومة.',
 	'pngNotSupported'        => 'الصورة من نوع PNG غير مدعومة.',
+    'fileNotSupported'       => 'The supplied file is not a supported image type.',
 	'unsupportedImageCreate' => 'مكتبة الصور GD  لا تدعن معالجة هذا النوع من الصور.',
 	'jpgOrPngRequired'       => 'نظام تغيير حجم الصور المحدد يدعم فقط الصور من نوع JPEG أو PNG.',
 	'rotateUnsupported'      => 'تدوير الصور غير مدعوم في الخاد الخاص بك.',
