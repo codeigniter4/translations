@@ -15,10 +15,10 @@
  */
 
 return [
-   'commandNotFound' => 'Command "{0}" not found.',
-   'helpUsage'       => 'Verwendung:',
-   'helpDescription' => 'Beschreibung:',
-   'helpOptions'     => 'Optionen:',
-   'helpArguments'   => 'Argumente:',
-   'invalidColor'    => 'Ungültige {0} Farbe: {1}.',
+    'commandNotFound' => 'Befehl "{0}" nicht gefunden.',
+    'helpUsage'       => 'Verwendung:',
+    'helpDescription' => 'Beschreibung:',
+    'helpOptions'     => 'Optionen:',
+    'helpArguments'   => 'Argumente:',
+    'invalidColor'    => 'Ungültige {0} Farbe: {1}.',
 ];
