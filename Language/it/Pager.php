@@ -3,24 +3,25 @@
 /**
  * Pager language strings.
  *
- * @package      CodeIgniter
- * @author       Luca Marco Rasia
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 4.0.0
-
+ * @package    CodeIgniter
+ * @author     CodeIgniter Dev Team
+ * @copyright  2019-2020 CodeIgniter Foundation
+ * @license    https://opensource.org/licenses/MIT	MIT License
+ * @link       https://codeigniter.com
+ * @since      Version 4.0.0
  * @filesource
- * 
+ *
  * @codeCoverageIgnore
  */
+
 return [
-	'pageNavigation'         => 'Selezione Pagina',
-	'first'                  => 'Primo',
-	'previous'               => 'Precedente',
-	'next'                   => 'Prossimo',
-	'last'                   => 'Ultimo',
-	'older'                  => 'Più datato',
-	'newer'                  => 'Più recente',
-	'invalidTemplate'        => '{0} non è un valido Pager template.',
-	'invalidPaginationGroup' => '{0} non è un valido gruppo di Paginazione.',
+   'pageNavigation'         => 'Navigazione pagine',
+   'first'                  => 'Prima',
+   'previous'               => 'Precedente',
+   'next'                   => 'Successiva',
+   'last'                   => 'Ultima',
+   'older'                  => 'Meno recente',
+   'newer'                  => 'Più recente',
+   'invalidTemplate'        => '{0} non è un pager template valido.',
+   'invalidPaginationGroup' => '{0} non è un pagination group valido.',
 ];
