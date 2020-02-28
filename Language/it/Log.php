@@ -3,16 +3,17 @@
 /**
  * Log language strings.
  *
- * @package      CodeIgniter
- * @author       Luca Marco Rasia
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 4.0.0
- *
+ * @package    CodeIgniter
+ * @author     CodeIgniter Dev Team
+ * @copyright  2019-2020 CodeIgniter Foundation
+ * @license    https://opensource.org/licenses/MIT	MIT License
+ * @link       https://codeigniter.com
+ * @since      Version 4.0.0
  * @filesource
- * 
+ *
  * @codeCoverageIgnore
  */
+
 return [
-	'invalidLogLevel' => '{0} non è un valido livello di log.',
+   'invalidLogLevel' => '{0} è un livello di log non valido',
 ];
