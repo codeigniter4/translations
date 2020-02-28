@@ -3,20 +3,21 @@
 /**
  * Session language strings.
  *
- * @package      CodeIgniter
- * @author       Luca Marco Rasia
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 4.0.0
- *
+ * @package    CodeIgniter
+ * @author     CodeIgniter Dev Team
+ * @copyright  2019-2020 CodeIgniter Foundation
+ * @license    https://opensource.org/licenses/MIT	MIT License
+ * @link       https://codeigniter.com
+ * @since      Version 4.0.0
  * @filesource
  *
  * @codeCoverageIgnore
  */
+
 return [
-	'missingDatabaseTable'   => '`sessionSavePath` deve avere il nome della tavola per far funzionare il Gestore della Sessione del Database.',
-	'invalidSavePath'        => 'Sessione: il configurato percorso di salvataggio "{0}" non è una cartella, non esiste o non può essere creato.',
-	'writeProtectedSavePath' => 'Sessione: il configurato percorso di salvataggio "{0}" non è scrivibile dal processo PHP.',
-	'emptySavePath'          => 'Sessione: nessun percorso di salvataggio configurato.',
-	'invalidSavePathFormat'  => 'Sessione: il formato del percorso di salvataggio Redis non è valido : {0}',
+   'missingDatabaseTable'   => '`sessionSavePath` deve contenere il nome della tabella affinché l\'handler delle sessioni via database possa funzionare.',
+   'invalidSavePath'        => 'Sessione: il percorso di salvataggio "{0}" configurato non è una cartella, non esiste o non può essere creata.',
+   'writeProtectedSavePath' => 'Sessione: il percorso di salvataggio "{0}" configurato non è scrivibile dal processo PHP.',
+   'emptySavePath'          => 'Sessione: No save path configured.',
+   'invalidSavePathFormat'  => 'Sessione: il formato del percorso di salvataggio redis non è valido: {0}',
 ];
