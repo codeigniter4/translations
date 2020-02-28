@@ -19,5 +19,5 @@ return [
    'invalidCellParameter'  => '{0} non è un nome valido per il parametro.',
    'noCellClass'           => 'Nessuna classe view cell fornita.',
    'invalidCellClass'      => 'Impossibile trovare la classe view cell: {0}.',
-   'tagSyntaxError'        => 'Hai un errore di sintassi nei tuoi parser tag: {0}',
+   'tagSyntaxError'        => 'Hai un errore di sintassi nei tuoi tags parser: {0}',
 ];
