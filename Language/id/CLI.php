@@ -14,7 +14,7 @@
  * @codeCoverageIgnore
  */
 return [
-	'commandNotFound' => 'Command "{0}" not found.',
+	'commandNotFound' => 'Perintah "{0}" tidak ditemukan.',
 	'helpUsage'       => 'Pemakaian:',
 	'helpDescription' => 'Deskripsi:',
 	'helpOptions'     => 'Pilihan:',

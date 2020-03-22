@@ -14,7 +14,7 @@
  * @codeCoverageIgnore
  */
 return [
-	'unableToWrite'   => 'Cache unable to write to {0}',
+	'unableToWrite'   => 'Cache tidak bisa menulis pada {0}',
 	'invalidHandlers' => 'Konfigurasi cache harus memiliki sebuah array dari $validHandlers.',
 	'noBackup'        => 'Konfigurasi cache harus memiliki sebuah set handler dan backupHandler.',
 	'handlerNotFound' => 'Konfigurasi cache memiliki sebuah handler tidak valid atau handler cadangan yang ditentukan.',
