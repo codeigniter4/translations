@@ -30,7 +30,7 @@ return [
 	'noSMTPAuth'           => 'Kesalahan: Anda harus menetapkan sebuah nama pengguna dan kata sandi SMTP.',
 	'failedSMTPLogin'      => 'Gagal mengirim perintah AUTH LOGIN. Kesalahan: {0}',
 	'SMTPAuthUsername'     => 'Gagal mengautentikasi nama pengguna. Kesalahan: {0}',
-	'SMTPAuthPassword'     => 'Gagal mengotentikasi kata sandi. Kesalahan: {0}',
+	'SMTPAuthPassword'     => 'Gagal mengautentikasi kata sandi. Kesalahan: {0}',
 	'SMTPDataFailure'      => 'Tidak dapat mengirim data: {0}',
 	'exitStatus'           => 'Kode status keluar: {0}',
 ];
