@@ -18,5 +18,5 @@ return [
 	'invalidCellParameter'  => '{0} bukan sebuah nama parameter yang valid.',
 	'noCellClass'           => 'Tidak ada kelas view cell yang disediakan.',
 	'invalidCellClass'      => 'Tidak dapat menemukan kelas view cell: {0}.',
-	'tagSyntaxError'        => 'Anda memiliki sebuah kesalahan sintaks di tag Parser anda: {0}',
+	'tagSyntaxError'        => 'Anda memiliki sebuah kesalahan sintaks di tag Parser Anda: {0}',
 ];
