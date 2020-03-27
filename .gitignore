@@ -18,3 +18,4 @@ application/logs/*
 /nbproject/private/
 /nbproject/
 .idea/*
+.DS_Store
