@@ -32,7 +32,6 @@ ta        Tamil                 karthik-code       Karthikeyan
 th        Thai                  ?                  ?
 uk        Ukranian              flybot             Sergiy Kosiy
 ur        Urdu                  codeonion          Muhammad Ali
-vi        Vietnamese            tinhphaistc        Trần Xuân Sâm ???
 ========  ====================  =================  =========================
 
 Notes:
