@@ -8,7 +8,7 @@ Version 4.0-dev
 Release Date: Unreleased
 
 -   New Translations
-   - vi (Vietnamese)
+   - vi (vietnamese)
    - ko (Korean)
    - lt (Lithuanian)
    
