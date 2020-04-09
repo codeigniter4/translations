@@ -5,7 +5,7 @@
  *
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
- * @copyright  2019 CodeIgniter Foundation
+ * @copyright  2019-2020 CodeIgniter Foundation
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
  * @since      Version 4.0.0
@@ -21,6 +21,7 @@ return [
    'gifNotSupported'        => 'GIF 이미지들은 라이선스 제한으로 지원되지 않는 경우가 많습니다. GIF 이미지 대신에 JPG 또는 PNG 형식의 이미지를 사용할 수도 있을 것입니다.', // 'GIF images are often not supported due to licensing restrictions. You may have to use JPG or PNG images instead.',
    'jpgNotSupported'        => 'JPG 이미지들은 지원되지 않습니다.', // 'JPG images are not supported.',
    'pngNotSupported'        => 'PNG 이미지들은 지원되지 않습니다.', // 'PNG images are not supported.',
+   'fileNotSupported'       => '제공된 파일은 지원하지 않는 이미지 타입입니다.', // 'The supplied file is not a supported image type.',
    'unsupportedImageCreate' => '이 형식의 이미지를 처리하기 위해서 필요한 GD 함수가 서버에서 지원되지 않습니다.', // 'Your server does not support the GD function required to process this type of image.',
    'jpgOrPngRequired'       => '환경 설정에 명시된 이미지 크기 조절 프로토콜은 JPEG 또는 PNG 타입의 이미지만 조절할 수 있습니다.', // 'The image resize protocol specified in your preferences only works with JPEG or PNG image types.',
    'rotateUnsupported'      => '서버에서 이미지 회원을 지원하지 않는 것 같습니다.', // 'Image rotation does not appear to be supported by your server.',
