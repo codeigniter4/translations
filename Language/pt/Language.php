@@ -10,9 +10,9 @@
  * @link         https://codeigniter.com
  * @since        Version 3.0.0
  * @filesource
- * 
+ *
  * @codeCoverageIgnore
  */
 return [
-	'languageGetLineInvalidArgumentException' => 'Get line deve ser uma string ou um array de strings.'
+	'languageGetLineInvalidArgumentException' => 'A linha obtida deve ser uma string ou um array de strings.'
 ];
