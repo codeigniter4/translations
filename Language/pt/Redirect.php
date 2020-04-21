@@ -15,5 +15,5 @@
  */
 
 return [
-   'forUnableToRedirect' => 'Unable to redirect to "{0}". Error status code "{1}"',
+   'forUnableToRedirect' => 'Não foi possível redirecionar para "{0}". Código de status do erro "{1}"',
 ];
