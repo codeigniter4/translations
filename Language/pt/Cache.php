@@ -10,11 +10,11 @@
  * @link         https://codeigniter.com
  * @since        Version 3.0.0
  * @filesource
- * 
+ *
  * @codeCoverageIgnore
  */
 return [
-	'unableToWrite'   => 'Cache unable to write to {0}',
+	'unableToWrite'   => 'Não foi possível escrever os ficheiros de cache em {0}',
 	'invalidHandlers' => 'A configuração de Cache deve ter um array de $validHandlers.',
 	'noBackup'        => 'A configuração de Cache deve ter definidos handler e backupHandler.',
 	'handlerNotFound' => 'A configuração de Cache tem um handler inválido ou backup handler definido.',
