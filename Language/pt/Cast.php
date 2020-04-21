@@ -9,15 +9,15 @@
  * @link         https://codeigniter.com
  * @since        Version 3.0.0
  * @filesource
- * 
+ *
  * @codeCoverageIgnore
  */
 
 return [
 	'jsonErrorDepth' 		=> 'Profundidade máxima da pilha excedida',
 	'jsonErrorStateMismatch'	=> 'Underflow ou a incompatibilidade de modos',
-	'jsonErrorCtrlChar'	=> 'Caractere de controle inesperado encontrado',
-	'jsonErrorSyntax'		=> 'Erro de sintaxe, JSON malformado',
-	'jsonErrorUtf8'		=> 'Caracteres UTF-8 malformados, possivelmente codificados incorretamente',
+	'jsonErrorCtrlChar'	=> 'Caractere de controlo inesperado encontrado',
+	'jsonErrorSyntax'		=> 'Erro de sintaxe, JSON formatado incorretamente',
+	'jsonErrorUtf8'		=> 'Caracteres UTF-8 formatados incorretamente, possivelmente codificação errada',
 	'jsonErrorUnknown'		=> 'Erro desconhecido'
 ];
