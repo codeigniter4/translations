@@ -17,9 +17,10 @@
 return [
 	// Migration Runner
    'missingTable'      => 'Migreringstabell må være satt.',
-   'invalidType'       => 'En ugyldig overføringsnummerering ble spesifisert: {0}',
+//   'invalidType'       => 'En ugyldig overføringsnummerering ble spesifisert: {0}',
    'disabled'          => 'Overføringer er lastet, men er deaktivert eller feil konfigurert.',
    'notFound'          => 'Migreringsfil ikke funnet: ',
+   'batchNotFound'     => 'Target batch not found: ',
    'empty'             => 'Ingen migrasjonsfiler funnet',
    'gap'               => 'Det er et gap i migrasjonshistorikken i nærheten av versjonsnummeret: ',
    'classNotFound'     => 'Migrasjonsklassen "%s" ble ikke funnet.',
@@ -38,7 +39,9 @@ return [
    'writeError'        => 'Feil ved oppretting av filen.',
    'migNumberError'    => 'Overføringsnummeret må være tre sifre, og det må ikke være noen hull i sekvensen.',
 
-   'toLatest'          => 'Overføring til siste versjon...',
+   'latest'            => 'Running all new migrations...',
+   'generalFault'      => 'Migration failed!',
+//   'toLatest'          => 'Overføring til siste versjon...',
    'migInvalidVersion' => 'Ugyldig versjonsnummer spesifisert.',
    'toVersionPH'       => 'Overføring til versjon %s...',
    'toVersion'         => 'Overføring til gjeldende versjon...',

@@ -9,7 +9,15 @@ Release Date: Unreleased
 
 -   New Translations
    
+   - ko (Korean)
+   - lt (Lithuanian)
+   
 -   Updated Translations
+
+   - es (Spanish)
+   - fr (French)
+    -id (Indonesian)
+   - zh-tw (Chinese - Taiwqan)
 
 Version 4.0.0-rc.3
 ==============================

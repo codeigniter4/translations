@@ -17,15 +17,12 @@ cs        Czech                 Ruplahlava         Štěpán Postránecký
 da        Danish                janhansson*        Jan Hansson
 nl        dutch                 pkrul              Pieter Krul
 fil       filipino              dzerium            Edzer Josh V. Padilla ... See note below
-el        Greek                 xargr              Grigoris Charamidis
 gu        Gujarati              sajid19991         Sajid Mathupotra
 hi        Hindi                 shindesushilkumar  Sushilkumar Shinde
 hu        Hungarian             orionstar          László Bóra
 ja        Japanese              ?                  ?
 km        Khmer                 Chanthoeun         Chanthoeun Kim
 lv        Latvian               DavisMiculis       Davis Miculis
-lt        Lithuanian            dgvirtual          Donatas Glodenis
-ko        Korean                KwonLatte          HyeongJoo Kwon ???
 fa        Persian               MSDehghan          Mohammad Sadegh
 ro        Romanian              CodefishRo         Cristian Robert Chiribuc
 sr        Serbian               novakurosevic      Novak Urosevic ???

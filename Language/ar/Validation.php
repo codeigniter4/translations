@@ -3,14 +3,14 @@
 /**
  * Validation language strings.
  *
- * @package      CodeIgniter
- * @author       CodeIgniter Dev Team
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 3.0.0
+ * @package    CodeIgniter
+ * @author     CodeIgniter Dev Team
+ * @copyright  2019 CodeIgniter Foundation
+ * @license    https://opensource.org/licenses/MIT	MIT License
+ * @link       https://codeigniter.com
+ * @since      Version 4.0.0
  * @filesource
- * 
+ *
  * @codeCoverageIgnore
  */
 
@@ -30,6 +30,7 @@ return [
 	'alpha_space'  			=> 'الحقل {field} يمكن أن يحتوى على أحرف و فراغات.',
 	'decimal'               => 'الحقل {field} يجب أن يحتوى على رقم عشري.',
 	'differs'               => 'الحقل {field} يجب أن يكون مختلف عن الحقل {param}.',
+	'equals'                => 'The {field} field must be exactly: {param}.',
 	'exact_length'          => 'الحقل {field} يجب أن يكون بطول {param} حرف.',
 	'greater_than'          => 'الحقل {field} يجب أن يحتوى على قيمة أكبر من {param}.',
 	'greater_than_equal_to' => 'الحقل {field} يجب أن يحتوى على قيمة أكبر من او يساوي {param}.',
@@ -43,6 +44,7 @@ return [
 	'matches'               => 'الحقل {field} لا يساوي الحقل {param}.',
 	'max_length'            => 'الحقل {field} يجب أن لا يتجاوز أكثر من {param} حرف.',
 	'min_length'            => 'الحقل {field} يجب أن لا يقل عن {param} حرف.',
+	'not_equals'            => 'The {field} field cannot be: {param}.',
 	'numeric'               => 'الحقل {field} يجب أن يحتوى على أرقام فقط.',
 	'regex_match'           => 'الحقل {field} يجب أن يحتوى على الصيغة الصحيحة.',
 	'required'              => 'الحقل {field} إجباري.',

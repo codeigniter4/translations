@@ -14,6 +14,7 @@
  * @codeCoverageIgnore
  */
 return [
+	'commandNotFound' => 'Command "{0}" not found.',
 	'helpUsage'       => 'Kullanım:',
 	'helpDescription' => 'Açıklama:',
 	'helpOptions'     => 'Seçenekler:',

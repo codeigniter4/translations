@@ -17,9 +17,10 @@
 return [
 	// Migration Runner
    'missingTable'      => 'جدول مایگریشن تنظیم نشده است.',
-   'invalidType'       => 'یک نوع شماره گذاری نامعتبر برای مایگریشن مشخص شده است: {0}',
+//   'invalidType'       => 'یک نوع شماره گذاری نامعتبر برای مایگریشن مشخص شده است: {0}',
    'disabled'          => 'مایگریشن‌ها لارگزاری شده‌اند، اما غیرفعالند یا درست تنظیم نشده اند.',
    'notFound'          => 'فایل مایگریشن پیدا نشد: ',
+   'batchNotFound'     => 'Target batch not found: ',
    'empty'             => 'هیچ فایل مایگریشنی پیدا نشد.',
    'gap'               => 'فاصله ای در دنباله‌ی مایگریشن در نزدیک این ورژن وجود دارد: ',
    'classNotFound'     => 'کلاس مایگریشن "%s" پیدا نشد.',
@@ -38,7 +39,9 @@ return [
    'writeError'        => 'Error trying to create file.',
    'migNumberError'    => 'Migration number must be three digits, and there must not be any gaps in the sequence.',
 
-   'toLatest'          => 'Migrating to latest version...',
+//   'toLatest'          => 'Migrating to latest version...',
+   'latest'            => 'Running all new migrations...',
+   'generalFault'      => 'Migration failed!',
    'migInvalidVersion' => 'Invalid version number provided.',
    'toVersionPH'       => 'Migrating to version %s...',
    'toVersion'         => 'Migrating to current version...',

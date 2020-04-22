@@ -15,6 +15,7 @@
  */
 
 return [
+   'commandNotFound' => 'Command "{0}" not found.',
    'helpUsage'       => 'bruke:',
    'helpDescription' => 'Beskrivelse:',
    'helpOptions'     => 'alternativer:',

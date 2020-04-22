@@ -16,9 +16,10 @@
 return [
 	// Migration Runner
 	'missingTable'    => 'Tabel migrasi harus diatur.',
-	'invalidType'     => 'Jenis penomoran migrasi tidak valid telah ditentukan: {0}',
+//	'invalidType'     => 'Jenis penomoran migrasi tidak valid telah ditentukan: {0}',
 	'disabled'        => 'Migrasi telah dimuat tetapi dinonaktifkan atau pengaturan salah.',
 	'notFound'        => 'Berkas migrasi tidak ditemukan: ',
+	'batchNotFound'     => 'Target batch not found: ',
 	'empty'           => 'Tidak ditemukan berkas Migrasi',
 	'gap'             => 'Ada sebuah celah dalam urutan migrasi dekat nomor versi: ',
 	'classNotFound'   => 'Kelas migrasi "%s" tidak dapat ditemukan.',
@@ -35,8 +36,11 @@ return [
 	'nameMigration'   => 'Beri nama berkas migrasi',
 	'badCreateName'   => 'Anda harus memberikan sebuah nama berkas migrasi.',
 	'writeError'      => 'Kesalahan saat mencoba membuat berkas.',
+	'migNumberError'    => 'Migration number must be three digits, and there must not be any gaps in the sequence.',
 
-	'toLatest'          => 'Migrasi ke versi terbaru...',
+	'latest'            => 'Running all new migrations...',
+	'generalFault'      => 'Migration failed!', 
+//	'toLatest'          => 'Migrasi ke versi terbaru...',
 	'migInvalidVersion' => 'Nomor versi tidak valid diberikan.',
 	'toVersionPH'       => 'Migrasi ke versi %s...',
 	'toVersion'         => 'Migrasi ke versi saat ini...',

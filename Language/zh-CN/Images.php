@@ -21,7 +21,7 @@ return [
    'gifNotSupported'        => '因为授权限制，通常不支持 GIF 图像。需要使用 JPG 或 PNG 图片。',
    'jpgNotSupported'        => '不支持 JPG 图片。',
    'pngNotSupported'        => '不支持 PNG 图片。',
-   'unsupportedImagecreate' => '服务器不支持处理此图片所需的 GD 库。',
+   'unsupportedImageCreate' => '服务器不支持处理此图片所需的 GD 库。',
    'jpgOrPngRequired'       => '调整图片大小仅适用于 PNG 或 JPG 图片。',
    'rotateUnsupported'      => '服务器似乎不支持图片旋转。',
    'libPathInvalid'         => '图片库路径不正确，请设置正确的路径。{0, string)',

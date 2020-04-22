@@ -15,5 +15,6 @@
  */
 
 return [
+   'noFilter'           => '{0} filter must have a matching alias defined.',
    'incorrectInterface' => '{0} doit implémenter CodeIgniter\Filters\FilterInterface.',
 ];
