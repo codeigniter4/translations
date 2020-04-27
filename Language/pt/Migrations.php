@@ -18,7 +18,7 @@ return [
 	'missingTable'    => 'A tabela de migrações deve ser definida.',
 	'disabled'        => 'As migrações foram carregadas, mas estão inativas ou estão configuradas incorretamente.',
 	'notFound'        => 'Arquivo de migração não encontrado: ',
-	'batchNotFound'     => 'Não foi possivel encontrar o ramo selecionado: ',
+	'batchNotFound'     => 'Não foi possível encontrar o ramo selecionado: ',
 	'empty'           => 'Nenhum arquivo de migração encontrado',
 	'gap'             => 'Há uma lacuna na sequência de migração perto do número da versão: ',
 	'classNotFound'   => 'A classe de migração "%s" não foi encontrada.',
