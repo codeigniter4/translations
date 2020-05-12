@@ -15,13 +15,13 @@
  */
 
 return [
-   'pageNavigation'         => 'Page navigation',
-   'first'                  => 'First',
-   'previous'               => 'Previous',
-   'next'                   => 'Next',
-   'last'                   => 'Last',
-   'older'                  => 'Older',
-   'newer'                  => 'Newer',
-   'invalidTemplate'        => '{0} is not a valid Pager template.',
-   'invalidPaginationGroup' => '{0} is not a valid Pagination group.',
+   'pageNavigation'         => 'പേജ് നാവിഗേഷൻ',
+   'first'                  => 'ആദ്യം',
+   'previous'               => 'മുമ്പത്തെ',
+   'next'                   => 'അടുത്തത്',
+   'last'                   => 'അവസാനത്തേത്',
+   'older'                  => 'പഴയത്',
+   'newer'                  => 'ഏറ്റവും പുതിയത്',
+   'invalidTemplate'        => '{0} സാധുവായ പേജർ ടെംപ്ലേറ്റല്ല.',
+   'invalidPaginationGroup' => '{0} സാധുവായ ഒരു പേജിനേഷൻ ഗ്രൂപ്പല്ല.',
 ];
