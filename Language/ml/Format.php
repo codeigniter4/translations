@@ -15,6 +15,6 @@
  */
 
 return [
-   'invalidJSON'      => 'Failed to parse json string, error: "{0}".',
-   'missingExtension' => 'The SimpleXML extension is required to format XML.',
+   'invalidJSON'      => 'Json സ്ട്രിംഗ് പാഴ്‌സുചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു, പിശക്: "{0}".',
+   'missingExtension' => 'എക്സ്എം‌എൽ ഫോർമാറ്റ് ചെയ്യുന്നതിന് സിമ്പിൾ എക്സ്എം‌എൽ വിപുലീകരണം ആവശ്യമാണ്.',
 ];
