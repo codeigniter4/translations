@@ -16,27 +16,27 @@
 
 return [
 	// CurlRequest
-   'missingCurl'                => 'CURL must be enabled to use the CURLRequest class.',
-   'invalidSSLKey'              => 'Cannot set SSL Key. {0} is not a valid file.',
-   'sslCertNotFound'            => 'SSL certificate not found at: {0}',
+   'missingCurl'                => 'CURL റിക്വസ്റ്റ് ക്ലാസ് ഉപയോഗിക്കാൻ CURL പ്രാപ്തമാക്കിയിരിക്കണം.',
+   'invalidSSLKey'              => 'SSL കീ സജ്ജമാക്കാൻ കഴിയില്ല. {0} സാധുവായ ഫയലല്ല.',
+   'sslCertNotFound'            => 'SSL സർട്ടിഫിക്കറ്റ് ഇവിടെ കണ്ടെത്തിയില്ല: {0}',
    'curlError'                  => '{0} : {1}',
 
 	// IncomingRequest
-   'invalidNegotiationType'     => '{0} is not a valid negotiation type. Must be one of: media, charset, encoding, language.',
+   'invalidNegotiationType'     => '{0} സാധുവായ ഒരു ചർച്ചാ തരമല്ല. ഇവയിലൊന്ന് ആയിരിക്കണം: മീഡിയ, പ്രതീകം, എൻകോഡിംഗ്, ഭാഷ. ',
 
 	// Message
-   'invalidHTTPProtocol'        => 'Invalid HTTP Protocol Version. Must be one of: {0}',
+   'invalidHTTPProtocol'        => 'അസാധുവായ HTTP പ്രോട്ടോക്കോൾ പതിപ്പ്. ഇവയിലൊന്ന് ആയിരിക്കണം: {0}',
 
 	// Negotiate
-   'emptySupportedNegotiations' => 'You must provide an array of supported values to all Negotiations.',
+   'emptySupportedNegotiations' => 'എല്ലാ ചർച്ചകൾക്കും നിങ്ങൾ പിന്തുണയ്‌ക്കുന്ന മൂല്യങ്ങളുടെ ഒരു നിര നൽകണം.',
 
 	// RedirectResponse
-   'invalidRoute'               => '{0, string} route cannot be found while reverse-routing.',
+   'invalidRoute'               => '{0, string} റിവേഴ്സ് റൂട്ടിംഗ് സമയത്ത് റൂട്ട് കണ്ടെത്താൻ കഴിയില്ല',
 
 	// DownloadResponse
-   'cannotSetBinary'            => 'When setting filepath can not set binary.',
-   'cannotSetFilepath'          => 'When setting binary can not set filepath: {0}',
-   'notFoundDownloadSource'     => 'Not found download body source.',
+   'cannotSetBinary'            => 'ഫയൽപാത്ത് സജ്ജമാക്കുമ്പോൾ ബൈനറി സജ്ജമാക്കാൻ കഴിയില്ല.',
+   'cannotSetFilepath'          => 'ബൈനറി സജ്ജമാക്കുമ്പോൾ ഫയൽപാത്ത് സജ്ജമാക്കാൻ കഴിയില്ല: {0}',
+   'notFoundDownloadSource'     => 'ഡൗൺലോഡ് ബോഡി ഉറവിടം കണ്ടെത്തിയില്ല.',
    'cannotSetCache'             => 'It does not supported caching for downloading.',
    'cannotSetStatusCode'        => 'It does not supported change status code for downloading. code: {0}, reason: {1}',
 
