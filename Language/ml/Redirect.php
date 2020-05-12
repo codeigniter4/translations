@@ -15,5 +15,5 @@
  */
 
 return [
-   'forUnableToRedirect' => 'Unable to redirect to "{0}". Error status code "{1}"',
+   'forUnableToRedirect' => '"{0}" എന്നതിലേക്ക് റീഡയറക്‌ടുചെയ്യാനാകില്ല. പിശക് സ്റ്റാറ്റസ് കോഡ് "{1}"',
 ];
