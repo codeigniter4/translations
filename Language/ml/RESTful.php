@@ -14,5 +14,5 @@
  */
 
 return [
-   'notImplemented' => '"{0}" action not implemented.',
+   'notImplemented' => '"{0}" പ്രവർത്തനം നടപ്പിലാക്കിയില്ല.',
 ];
