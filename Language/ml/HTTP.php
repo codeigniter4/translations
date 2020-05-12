@@ -37,41 +37,41 @@ return [
    'cannotSetBinary'            => 'ഫയൽപാത്ത് സജ്ജമാക്കുമ്പോൾ ബൈനറി സജ്ജമാക്കാൻ കഴിയില്ല.',
    'cannotSetFilepath'          => 'ബൈനറി സജ്ജമാക്കുമ്പോൾ ഫയൽപാത്ത് സജ്ജമാക്കാൻ കഴിയില്ല: {0}',
    'notFoundDownloadSource'     => 'ഡൗൺലോഡ് ബോഡി ഉറവിടം കണ്ടെത്തിയില്ല.',
-   'cannotSetCache'             => 'It does not supported caching for downloading.',
-   'cannotSetStatusCode'        => 'It does not supported change status code for downloading. code: {0}, reason: {1}',
+   'cannotSetCache'             => 'ഡൗൺലോഡുചെയ്യുന്നതിനുള്ള കാഷിംഗിനെ ഇത് പിന്തുണയ്‌ക്കുന്നില്ല.',
+   'cannotSetStatusCode'        => 'download ചെയ്യുന്നതിനുള്ള സ്റ്റാറ്റസ് കോഡ് മാറ്റുന്നതിനെ ഇത് പിന്തുണയ്‌ക്കുന്നില്ല. കോഡ്: {0}, കാരണം: {1}',
 
 	// Response
-   'missingResponseStatus'      => 'HTTP Response is missing a status code',
-   'invalidStatusCode'          => '{0, string} is not a valid HTTP return status code',
-   'unknownStatusCode'          => 'Unknown HTTP status code provided with no message: {0}',
+   'missingResponseStatus'      => 'എച്ച്ടിടിപി പ്രതികരണത്തിന് ഒരു സ്റ്റാറ്റസ് കോഡ് കാണുന്നില്ല',
+   'invalidStatusCode'          => '{0, string} സാധുവായ എച്ച്ടിടിപി റിട്ടേൺ സ്റ്റാറ്റസ് കോഡല്ല',
+   'unknownStatusCode'          => 'അജ്ഞാത എച്ച്ടിടിപി സ്റ്റാറ്റസ് കോഡ് സന്ദേശമൊന്നുമില്ല: {0}',
 
 	// URI
-   'cannotParseURI'             => 'Unable to parse URI: {0}',
-   'segmentOutOfRange'          => 'Request URI segment is our of range: {0}',
-   'invalidPort'                => 'Ports must be between 0 and 65535. Given: {0}',
-   'malformedQueryString'       => 'Query strings may not include URI fragments.',
+   'cannotParseURI'             => 'URI വ്യാകരിക്കാൻ കഴിയില്ല: {0}',
+   'segmentOutOfRange'          => 'അഭ്യർത്ഥന URI സെഗ്മെന്റ് ഞങ്ങളുടെ പരിധിയാണ്: {0}',
+   'invalidPort'                => 'തുറമുഖങ്ങൾ 0 നും 65535 നും ഇടയിലായിരിക്കണം. നൽകിയിരിക്കുന്നത്: {0}',
+   'malformedQueryString'       => 'അന്വേഷണ സ്ട്രിംഗുകളിൽ URI ശകലങ്ങൾ ഉൾപ്പെടില്ല.',
 
 	// Page Not Found
-   'pageNotFound'               => 'Page Not Found',
-   'emptyController'            => 'No Controller specified.',
-   'controllerNotFound'         => 'Controller or its method is not found: {0}::{1}',
-   'methodNotFound'             => 'Controller method is not found: {0}',
+   'pageNotFound'               => 'പേജ് കണ്ടെത്തിയില്ല',
+   'emptyController'            => 'കൺട്രോളറൊന്നും വ്യക്തമാക്കിയിട്ടില്ല.',
+   'controllerNotFound'         => 'കൺട്രോളറോ അതിന്റെ രീതിയോ കണ്ടെത്തിയില്ല: {0} :: {1}',
+   'methodNotFound'             => 'കൺട്രോളർ രീതി കണ്ടെത്തിയില്ല: {0}',
 
 	// CSRF
-   'disallowedAction'           => 'The action you requested is not allowed.',
+   'disallowedAction'           => 'നിങ്ങൾ അഭ്യർത്ഥിച്ച പ്രവർത്തനം അനുവദനീയമല്ല.',
 
 	// Uploaded file moving
-   'alreadyMoved'               => 'The uploaded file has already been moved.',
-   'invalidFile'                => 'The original file is not a valid file.',
-   'moveFailed'                 => 'Could not move file {0} to {1} ({2})',
+   'alreadyMoved'               => 'അപ്‌ലോഡുചെയ്‌ത ഫയൽ ഇതിനകം നീക്കി.',
+   'invalidFile'                => 'യഥാർത്ഥ ഫയൽ സാധുവായ ഫയലല്ല.',
+   'moveFailed'                 => 'ഫയൽ {1} ({2}) ലേക്ക് നീക്കാൻ കഴിഞ്ഞില്ല',
 
-   'uploadErrOk'                => 'The file uploaded with success.',
-   'uploadErrIniSize'           => 'The file "%s" exceeds your upload_max_filesize ini directive.',
-   'uploadErrFormSize'          => 'The file "%s" exceeds the upload limit defined in your form.',
-   'uploadErrPartial'           => 'The file "%s" was only partially uploaded.',
-   'uploadErrNoFile'            => 'No file was uploaded.',
-   'uploadErrCantWrite'         => 'The file "%s" could not be written on disk.',
-   'uploadErrNoTmpDir'          => 'File could not be uploaded: missing temporary directory.',
-   'uploadErrExtension'         => 'File upload was stopped by a PHP extension.',
-   'uploadErrUnknown'           => 'The file "%s" was not uploaded due to an unknown error.',
+   'uploadErrOk'                => 'ഫയൽ വിജയകരമായി അപ്‌ലോഡുചെയ്‌തു.',
+   'uploadErrIniSize'           => '"%s" ഫയൽ നിങ്ങളുടെ upload_max_filesize ini നിർദ്ദേശത്തെ കവിയുന്നു.',
+   'uploadErrFormSize'          => '"%s" ഫയൽ നിങ്ങളുടെ ഫോമിൽ നിർവചിച്ചിരിക്കുന്ന അപ്‌ലോഡ് പരിധി കവിയുന്നു.',
+   'uploadErrPartial'           => '"%s" ഫയൽ ഭാഗികമായി അപ്‌ലോഡുചെയ്‌തു.',
+   'uploadErrNoFile'            => 'ഒരു ഫയലും അപ്‌ലോഡുചെയ്‌തിട്ടില്ല.',
+   'uploadErrCantWrite'         => '"%s" ഫയൽ ഡിസ്കിൽ എഴുതാൻ കഴിഞ്ഞില്ല.',
+   'uploadErrNoTmpDir'          => 'ഫയൽ അപ്‌ലോഡുചെയ്യാൻ കഴിഞ്ഞില്ല: താൽക്കാലിക ഡയറക്‌ടറി നഷ്‌ടമായി.',
+   'uploadErrExtension'         => 'ഒരു PHP വിപുലീകരണം ഫയൽ അപ്‌ലോഡ് നിർത്തി.',
+   'uploadErrUnknown'           => 'അജ്ഞാതമായ ഒരു പിശക് കാരണം "%s" ഫയൽ അപ്‌ലോഡ് ചെയ്തിട്ടില്ല.',
 ];
