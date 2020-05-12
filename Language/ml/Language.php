@@ -15,5 +15,5 @@
  */
 
 return [
-   'languageGetLineInvalidArgumentException' => 'Get line must be a string or array of strings.',
+   'languageGetLineInvalidArgumentException' => 'ഗെറ്റ് ലൈൻ ഒരു സ്ട്രിംഗ് അല്ലെങ്കിൽ സ്ട്രിംഗുകളുടെ നിരയായിരിക്കണം.',
 ];
