@@ -15,6 +15,6 @@
  */
 
 return [
-   'invalidParameter'    => 'A parameter does not match the expected type.',
-   'missingDefaultRoute' => 'Unable to determine what should be displayed. A default route has not been specified in the routing file.',
+   'invalidParameter'    => 'ഒരു പാരാമീറ്റർ പ്രതീക്ഷിച്ച തരവുമായി പൊരുത്തപ്പെടുന്നില്ല.',
+   'missingDefaultRoute' => 'എന്താണ് പ്രദർശിപ്പിക്കേണ്ടതെന്ന് നിർണ്ണയിക്കാൻ കഴിയുന്നില്ല. റൂട്ടിംഗ് ഫയലിൽ ഒരു സ്ഥിര റൂട്ട് വ്യക്തമാക്കിയിട്ടില്ല.',
 ];
