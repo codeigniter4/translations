@@ -15,8 +15,8 @@
  */
 
 return [
-   'unableToWrite'   => 'Cache unable to write to {0}',
-   'invalidHandlers' => 'Cache config must have an array of $validHandlers.',
-   'noBackup'        => 'Cache config must have a handler and backupHandler set.',
-   'handlerNotFound' => 'Cache config has an invalid handler or backup handler specified.',
+   'unableToWrite'   => 'കാഷെ {0} ലേക്ക് എഴുതാൻ കഴിയുന്നില്ല',
+   'invalidHandlers' => 'കാഷെ കോൺഫിഗറേഷന് $ validHandlers ന്റെ ഒരു നിര ഉണ്ടായിരിക്കണം.',
+   'noBackup'        => 'കാഷെ കോൺഫിഗറേഷന് ഒരു ഹാൻഡ്‌ലറും ബാക്കപ്പ് ഹാൻഡ്‌ലർ സെറ്റും ഉണ്ടായിരിക്കണം.',
+   'handlerNotFound' => 'കാഷെ കോൺഫിഗറേഷനിൽ അസാധുവായ ഹാൻഡ്‌ലർ അല്ലെങ്കിൽ ബാക്കപ്പ് ഹാൻഡ്‌ലർ വ്യക്തമാക്കിയിട്ടുണ്ട്.',
 ];
