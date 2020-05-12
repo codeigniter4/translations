@@ -14,10 +14,10 @@
  */
 
 return [
-   'jsonErrorDepth'         => 'Maximum stack depth exceeded',
-   'jsonErrorStateMismatch' => 'Underflow or the modes mismatch',
-   'jsonErrorCtrlChar'      => 'Unexpected control character found',
-   'jsonErrorSyntax'        => 'Syntax error, malformed JSON',
-   'jsonErrorUtf8'          => 'Malformed UTF-8 characters, possibly incorrectly encoded',
-   'jsonErrorUnknown'       => 'Unknown error',
+   'jsonErrorDepth'         => 'പരമാവധി സ്റ്റാക്ക് ഡെപ്ത് കവിഞ്ഞു',
+   'jsonErrorStateMismatch' => 'അണ്ടർ‌ഫ്ലോ അല്ലെങ്കിൽ‌ മോഡുകൾ‌ പൊരുത്തപ്പെടുന്നില്ല',
+   'jsonErrorCtrlChar'      => 'അപ്രതീക്ഷിത നിയന്ത്രണ പ്രതീകം കണ്ടെത്തി',
+   'jsonErrorSyntax'        => 'വാക്യഘടന പിശക്, കേടായ JSON',
+   'jsonErrorUtf8'          => 'തെറ്റായ എൻ‌കോഡുചെയ്‌ത യു‌ടി‌എഫ് -8 പ്രതീകങ്ങൾ‌ കേടായി',
+   'jsonErrorUnknown'       => 'അജ്ഞാത പിശക്',
 ];
