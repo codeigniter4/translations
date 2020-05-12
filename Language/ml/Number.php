@@ -19,12 +19,12 @@ return [
    'gigabyteAbbr' => 'GB',
    'megabyteAbbr' => 'MB',
    'kilobyteAbbr' => 'KB',
-   'bytes'        => 'Bytes',
+   'bytes'        => 'ബൈറ്റുകൾ',
 
 	// don't forget the space in front of these!
-   'thousand'     => ' thousand',
-   'million'      => ' million',
-   'billion'      => ' billion',
-   'trillion'     => ' trillion',
-   'quadrillion'  => ' quadrillion',
+   'thousand'     => ' ആയിരം',
+   'million'      => ' ദശലക്ഷം',
+   'billion'      => ' ബില്യൺ',
+   'trillion'     => ' ട്രില്യൺ',
+   'quadrillion'  => ' ക്വാഡ്രില്യൺ',
 ];
