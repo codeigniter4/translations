@@ -15,10 +15,10 @@
  */
 
 return [
-   'commandNotFound' => 'Command "{0}" not found.',
-   'helpUsage'       => 'Usage:',
-   'helpDescription' => 'Description:',
-   'helpOptions'     => 'Options:',
-   'helpArguments'   => 'Arguments:',
-   'invalidColor'    => 'Invalid {0} color: {1}.',
+   'commandNotFound' => '"{0}" കമാൻഡ് കണ്ടെത്തിയില്ല.',
+   'helpUsage'       => 'ഉപയോഗം:',
+   'helpDescription' => 'വിവരണം:',
+   'helpOptions'     => 'ഓപ്ഷനുകൾ:',
+   'helpArguments'   => 'വാദങ്ങൾ:',
+   'invalidColor'    => 'അസാധുവായ {0} നിറം: {1}.',
 ];
