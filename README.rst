@@ -45,6 +45,7 @@ ja        Japanese              4.0.0        kohenji01          Shoji Ogura
 ko        Korean                4.0.0*       Timothy-Y-H-Lee    Timothy-Y-H-Lee
 lt        Lithuanian            4.0.0*       dgvirtual          Donatas Glodenis
 ml        Malayalam             4.0.0        rakheshthayyur     Rakhesh Thayyur
+nl        Dutch                 4.0.0        JohanSmolders      JohanSmolders 
 no        Norwegian             4.0.0        LA3QMA             Kai Günter Brandt
 pl        Polish                4.0.0        DEVELPL            Maciej Jasiewicz
 pt        Portugese             4.0.0        rbm0407            Rodrigo Borges
