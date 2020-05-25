@@ -5,12 +5,12 @@
  *
  * @package      CodeIgniter
  * @author       CodeIgniter Dev Team
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
+ * @copyright    2014-2020 British Columbia Institute of Technology (https://bcit.ca/)
  * @license      https://opensource.org/licenses/MIT	MIT License
  * @link         https://codeigniter.com
  * @since        Version 3.0.0
  * @filesource
- * 
+ *
  * @codeCoverageIgnore
  */
 return [
@@ -38,7 +38,7 @@ return [
 	'notFoundDownloadSource'     => 'Not found download body source.',
 	'cannotSetCache'             => 'It does not supported caching for downloading.',
 	'cannotSetStatusCode'        => 'It does not supported chnage status code for downloading. code: {0}, reason: {1}',
- 
+
 	// Response
 	'missingResponseStatus'      => 'W odpowiedzi HTTP brakuje kodu statusu',
 	'invalidStatusCode'          => '{0, string} nie jest prawidłowym kodem statusu zwrotu HTTP',
@@ -58,12 +58,12 @@ return [
 
 	// CSRF
 	'disallowedAction'           => 'Żądane działanie jest niedozwolone.',
-	
+
 	// Uploaded file moving
 	'alreadyMoved'				 => 'Przesłany plik został już przeniesiony.',
 	'invalidFile'				 => 'Oryginalny plik nie jest prawidłowym plikiem.',
 	'moveFailed'				 => 'Nie można przenieść pliku {0} do {1} ({2})',
-	'uploadErrOk'				=> 'Plik został prawidłowo wysłany.', 
+	'uploadErrOk'				=> 'Plik został prawidłowo wysłany.',
 	'uploadErrIniSize'			=> 'Wielkość pliku "%s" przekracza wielkość określoną przez upload_max_filesize',
 	'uploadErrFormSize'			=> 'Wielkość pliku "%s" przekracza wielkość określoną w formularzu.',
 	'uploadErrPartial'			=> 'Plik "%s" został wysłany częściowo.',

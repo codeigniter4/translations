@@ -5,12 +5,12 @@
  *
  * @package      CodeIgniter
  * @author       CodeIgniter Dev Team
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
+ * @copyright    2014-2020 British Columbia Institute of Technology (https://bcit.ca/)
  * @license      https://opensource.org/licenses/MIT	MIT License
  * @link         https://codeigniter.com
  * @since        Version 3.0.0
  * @filesource
- * 
+ *
  * @codeCoverageIgnore
  */
 return [
@@ -38,7 +38,7 @@ return [
 	'notFoundDownloadSource'     => 'Tidak ditemukan badan sumber unduhan.',
 	'cannotSetCache'             => 'Itu tidak mendukung cache untuk mengunduh.',
 	'cannotSetStatusCode'        => 'Itu tidak mendukung perubahan kode status untuk mengunduh. kode: {0}, alasan: {1}',
- 
+
 	// Response
 	'missingResponseStatus'      => 'Tanggapan HTTP kehilangan sebuah kode status',
 	'invalidStatusCode'          => '{0, string} bukan sebuah kode status pengembalian HTTP yang valid',
@@ -58,7 +58,7 @@ return [
 
 	// CSRF
 	'disallowedAction'           => 'Tindakan yang Anda minta tidak diizinkan.',
-	
+
 	// Uploaded file moving
 	'alreadyMoved'				 => 'Berkas yang diunggah telah dipindahkan.',
 	'invalidFile'				 => 'Berkas asli tersebut bukan berkas yang valid.',

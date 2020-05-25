@@ -5,12 +5,12 @@
  *
  * @package      CodeIgniter
  * @author       CodeIgniter Dev Team
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
+ * @copyright    2014-2020 British Columbia Institute of Technology (https://bcit.ca/)
  * @license      https://opensource.org/licenses/MIT	MIT License
  * @link         https://codeigniter.com
  * @since        Version 3.0.0
  * @filesource
- * 
+ *
  * @codeCoverageIgnore
  */
 return [
@@ -38,7 +38,7 @@ return [
 	'notFoundDownloadSource'     => 'Not found download body source.',
 	'cannotSetCache'             => 'It does not supported caching for downloading.',
 	'cannotSetStatusCode'        => 'It does not supported chnage status code for downloading. code: {0}, reason: {1}',
- 
+
 	// Response
 	'missingResponseStatus'      => 'Resposta HTTP está sem um código de status',
 	'invalidStatusCode'          => '{0, string} não é um código de status de retorno HTTP válido',
@@ -58,7 +58,7 @@ return [
 
 	// CSRF
 	'disallowedAction'           => 'A ação que você solicitou não é permitida.',
-	
+
 	// Uploaded file moving
 	'alreadyMoved'				 => 'O arquivo enviado já foi movido.',
 	'invalidFile'				 => 'O arquivo original não é um arquivo válido.',
@@ -72,5 +72,5 @@ return [
 	'uploadErrCantWrite'         => 'The file "%s" could not be written on disk.',
 	'uploadErrNoTmpDir'          => 'File could not be uploaded: missing temporary directory.',
 	'uploadErrExtension'         => 'File upload was stopped by a PHP extension.',
-	'uploadErrUnknown'           => 'The file "%s" was not uploaded due to an unknown error.', 
+	'uploadErrUnknown'           => 'The file "%s" was not uploaded due to an unknown error.',
 ];
