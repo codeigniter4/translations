@@ -18,8 +18,8 @@ return [
    // Migration Runner
    'missingTable'    => 'Migrations Tabelle muss gesetzt sein.',
    'disabled'        => 'Migrationen wurden geladen, sind aber deaktiviert oder falsch eingerichtet.',
-   'batchNotFound'   => 'Ziel-Batchnummer nicht gefunden: ',
    'notFound'        => 'Migrationsdatei nicht gefunden: ',
+   'batchNotFound'   => 'Ziel-Batchnummer nicht gefunden: ',
    'empty'           => 'Keine Migrationsdateien gefunden',
    'gap'             => 'Es gibt eine Lücke in der Migrationsfolge in der Nähe der Versionsnummer: ',
    'classNotFound'   => 'Die Migrationsklasse "%s" konnte nicht gefunden werden.',
@@ -37,6 +37,8 @@ return [
    'badCreateName'   => 'Es muss ein gültiger Migrations-Dateiname angegeben werden.',
    'writeError'      => 'Fehler beim Erstellen der Datei.',
    'migNumberError'  => 'Die Migrationsnummer muss dreistellig sein, und es dürfen keine Lücken in der Sequenz sein.',
+   'rollBackConfirm'   => 'Are you sure you want to rollback?',
+   'refreshConfirm'    => 'Are you sure you want to refresh?',
 
    'latest'            => 'Neue Migrationen ausführen...',
    'generalFault'      => 'Migration fehlgeschlagen!',
