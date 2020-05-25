@@ -4,7 +4,7 @@
  *
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
- * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
+ * @copyright  2014-2020 British Columbia Institute of Technology (https://bcit.ca/)
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
  * @since      Version 3.0.0
@@ -52,7 +52,7 @@ return [
    'alreadyMoved'               => 'فایل آپلود شده در حال حاضر جابجا شده است.',
    'invalidFile'                => 'فایل اصلی معتبر نیست.',
    'moveFailed'                 => 'امکان انتقال فایل از {0} به {1} وجود ندارد. ({2})',
-	
+
    'uploadErrOk'				=> 'فایل با موفقیت آپلود شد.',
    'uploadErrIniSize'			=> 'فایل "%s" از upload_max_filesize در فایل ini بیشتر است..',
    'uploadErrFormSize'			=> 'فایل "%s" از محدوده آپلود تعریف شده در فرم شما بیشتر است.',
