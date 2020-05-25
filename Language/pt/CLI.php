@@ -10,11 +10,11 @@
  * @link         https://codeigniter.com
  * @since        Version 3.0.0
  * @filesource
- * 
+ *
  * @codeCoverageIgnore
  */
 return [
-	'commandNotFound' => 'Command "{0}" not found.',
+	'commandNotFound' => 'Comando "{0}" não encontrado.',
 	'helpUsage'       => 'Uso:',
 	'helpDescription' => 'Descrição:',
 	'helpOptions'     => 'Opções:',

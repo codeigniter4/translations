@@ -10,7 +10,7 @@
  * @link         https://codeigniter.com
  * @since        Version 3.0.0
  * @filesource
- * 
+ *
  * @codeCoverageIgnore
  */
 
@@ -24,7 +24,7 @@ return [
 	// don't forget the space in front of these!
 	'thousand'     => ' mil',
 	'million'      => ' milhão(ões)',
-	'billion'      => ' bilhão(ões)',
-	'trillion'     => ' trilhão(ões)',
-	'quadrillion'  => ' quadrilhão(ões)',
+	'billion'      => ' bilião(ões)',
+	'trillion'     => ' trilião(ões)',
+	'quadrillion'  => ' quadrilião(ões)',
 ];

@@ -41,8 +41,11 @@ fa        Farsi                 4.0.0        smhnaji            Mohammad Naji
 fr        French                4.0.0*       amuratet           Amuratet?
 id        Indonesian            4.0.0*       ridho1991          Mutasim Ridlo
 it        Italian               4.0.0        luk3b8             Luca Rasia
+ja        Japanese              4.0.0        kohenji01          Shoji Ogura
 ko        Korean                4.0.0*       Timothy-Y-H-Lee    Timothy-Y-H-Lee
 lt        Lithuanian            4.0.0*       dgvirtual          Donatas Glodenis
+ml        Malayalam             4.0.0        rakheshthayyur     Rakhesh Thayyur
+nl        Dutch                 4.0.0        JohanSmolders      JohanSmolders 
 no        Norwegian             4.0.0        LA3QMA             Kai Günter Brandt
 pl        Polish                4.0.0        DEVELPL            Maciej Jasiewicz
 pt        Portugese             4.0.0        rbm0407            Rodrigo Borges
@@ -50,6 +53,7 @@ pt-BR     Brazilian             4.0.0        natanfelles        Natan Felles
 ru        Russian               4.0.0        DigitalWolf98      Vladislav Rykhtikov
 sk        Slovak                4.0.0        xbotkaj            Jozef Botka
 tr        Turkish               4.0.0        obozdag            obozdag
+vi        Vietnamese            4.0.0        xuandung38         XuanDung38
 zh-CN     Simple Chinese        4.0.0        bangbangda         bangbangda
 zh-TW     Traditional Chinese   4.0.0 *      monkenWu           monkenWu
 ========  ====================  ===========  =================  =========================
