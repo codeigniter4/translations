@@ -38,6 +38,7 @@ return [
 	'integer'               => '{field} alanı bir tamsayı içermeli.',
 	'is_natural'            => '{field} alanı yalnız rakam içermeli.',
 	'is_natural_no_zero'    => '{field} alanı yalnız rakam içermeli ve sıfırdan büyük olmalı.',
+   'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
 	'is_unique'             => '{field} alanı eşsiz bir değer içermeli.',
 	'less_than'             => '{field} alanı {param} den küçük bir sayı içermeli.',
 	'less_than_equal_to'    => '{field} alanı {param} den küçük veya eşit bir sayı içermeli.',

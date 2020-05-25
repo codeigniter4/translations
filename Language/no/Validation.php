@@ -23,7 +23,6 @@ return [
    'invalidTemplate'       => '{0} er ikke en gyldig valideringsmal.',
 
 	// Rule Messages
-
    'alpha'                 => 'Skjemafeltet {field} kan bare inneholde alfabetiske tegn.',
    'alpha_dash'            => 'Skjemafeltet {field} kan bare inneholde alfanumeriske tegn, understrekinger og bindestrek.',
    'alpha_numeric'         => 'Skjemafeltet {field} kan bare inneholde alfanumeriske tegn.',

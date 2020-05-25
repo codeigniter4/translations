@@ -38,6 +38,7 @@ return [
    'integer'               => 'Поле {field} должно содержать целое число.',
    'is_natural'            => 'Поле {field} должно содержать только цифры.',
    'is_natural_no_zero'    => 'Поле {field} должно содержать только цифры и должно быть больше нуля.',
+   'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
    'is_unique'             => 'Поле {field} должно содержать уникальное значение.',
    'less_than'             => 'Поле {field} должно содержать число меньше, чем {param}.',
    'less_than_equal_to'    => 'Поле {field} должно содержать число, меньшее или равное {param}.',

@@ -15,14 +15,14 @@
  */
 
 return [
-	// Core Messages
+   // Core Messages
    'noRuleSets'            => 'Kein Regelset in der Konfiguration der Validierung angegeben.',
    'ruleNotFound'          => '{0} ist keine gültige Regel.',
    'groupNotFound'         => '{0} ist keine Gruppe von Validierungsregeln.',
    'groupNotArray'         => '{0} Regelgruppe muss ein Array sein.',
    'invalidTemplate'       => '{0} ist keine gültige Validierungsvorlage.',
 
-	// Rule Messages
+   // Rule Messages
    'alpha'                 => 'Das {field}-Formularfeld darf nur alphabetische Zeichen enthalten.',
    'alpha_dash'            => 'Das {field}-Formularfeld darf nur alphanumerische Zeichen, Unterstriche und Bindestriche enthalten.',
    'alpha_numeric'         => 'Das {field}-Formularfeld darf nur alphanumerische Zeichen enthalten.',
@@ -30,7 +30,7 @@ return [
    'alpha_space'           => 'Das {field}-Formularfeld darf nur alphabetische Zeichen und Leerzeichen enthalten.',
    'decimal'               => 'Das {field}-Formularfeld muss eine Dezimalzahl enthalten.',
    'differs'               => 'Das {field}-Formularfeld muss sich vom Feld {param} unterscheiden.',
-   'equals'                => 'The {field} field must be exactly: {param}.',
+   'equals'                => 'Das {field}-Formularfeld muss exakt {param} entsprechen.',
    'exact_length'          => 'Das {field}-Formularfeld muss genau {param} Zeichen lang sein.',
    'greater_than'          => 'Das {field}-Formularfeld muss eine Zahl größer als {param} enthalten.',
    'greater_than_equal_to' => 'Das {field}-Formularfeld muss eine Zahl größer oder gleich {param} enthalten.',
@@ -38,13 +38,14 @@ return [
    'integer'               => 'Das {field}-Formularfeld muss eine ganze Zahl enthalten.',
    'is_natural'            => 'Das {field}-Formularfeld darf nur Ziffern enthalten.',
    'is_natural_no_zero'    => 'Das {field}-Formularfeld darf nur Ziffern enthalten und muss größer als Null sein.',
+   'is_not_unique'         => 'Das {field}-Formularfeld muss einen bereits in der Datenbank vorhandenen Wert enthalten.',
    'is_unique'             => 'Das {field}-Formularfeld muss einen eindeutigen Wert enthalten.',
    'less_than'             => 'Das {field}-Formularfeld muss eine Zahl kleiner als {param} enthalten.',
    'less_than_equal_to'    => 'Das {field}-Formularfeld muss eine Zahl kleiner oder gleich {param} enthalten.',
    'matches'               => 'Das {field}-Formularfeld stimmt nicht mit dem Feld {param} überein.',
    'max_length'            => 'Das {field}-Formularfeld darf die Länge von {param} Zeichen nicht überschreiten.',
    'min_length'            => 'Das {field}-Formularfeld muss mindestens {param} Zeichen lang sein.',
-   'not_equals'            => 'The {field} field cannot be: {param}.',
+   'not_equals'            => 'Das {field}-Formularfeld darf nicht {param} entsprechen.',
    'numeric'               => 'Das {field}-Formularfeld darf nur Zahlen enthalten.',
    'regex_match'           => 'Das {field}-Formularfeld ist nicht im richtigen Format.',
    'required'              => 'Das {field}-Formularfeld ist erforderlich.',
@@ -58,10 +59,10 @@ return [
    'valid_url'             => 'Das {field}-Formularfeld muss eine gültige URL enthalten.',
    'valid_date'            => 'Das {field}-Formularfeld muss ein gültiges Datum enthalten.',
 
-	// Credit Cards
+   // Credit Cards
    'valid_cc_num'          => 'Das {field}-Formularfeld scheint keine gültige Kreditkartennummer zu enthalten.',
 
-	// Files
+   // Files
    'uploaded'              => 'Das {field}-Formularfeld enthält keine gültige hochgeladene Datei.',
    'max_size'              => 'Das {field}-Formularfeld enthält enthält eine zu grosse Datei.',
    'is_image'              => 'Das {field}-Formularfeld enthält keine gültige, hochgeladene Bilddatei.',

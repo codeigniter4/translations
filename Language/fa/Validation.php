@@ -36,6 +36,7 @@ return [
    'integer'               => 'فیلد {field} باید یک عدد صحیح باشد.',
    'is_natural'            => 'فیلد {field} فقط می‌تواند شامل ارقام باشد.',
    'is_natural_no_zero'    => 'فیلد {field} باید عددی بزرگتر از صفر باشد.',
+   'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
    'is_unique'             => 'فیلد {field} باید مقداری یکتا داشته باشد.',
    'less_than'             => 'فیلد {field} باید عددی کوچکتر از {param} باشد.',
    'less_than_equal_to'    => 'فیلد {field} باید عددی کوکیتر یا مساوی {param} باشد.',

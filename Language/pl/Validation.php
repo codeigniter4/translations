@@ -38,6 +38,7 @@ return [
 	'integer'               => 'Pole {field} musi zawierać liczbę całkowitą.',
 	'is_natural'            => 'Pole {field} może zawierać tylko cyfry.',
 	'is_natural_no_zero'    => 'Pole {field} może zawierać tylko cyfry i musi być większe od zera.',
+   'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
 	'is_unique'             => 'Pole {field} musi zawierać unikalną wartość.',
 	'less_than'             => 'Pole {field} musi zawierać liczbę mniejszą niż {param}.',
 	'less_than_equal_to'    => 'Pole {field} musi zawierać liczbę mniejszą lub równą {param}.',
