@@ -43,6 +43,7 @@ id        Indonesian            4.0.0*       ridho1991          Mutasim Ridlo
 it        Italian               4.0.0        luk3b8             Luca Rasia
 ko        Korean                4.0.0*       Timothy-Y-H-Lee    Timothy-Y-H-Lee
 lt        Lithuanian            4.0.0*       dgvirtual          Donatas Glodenis
+ml        Malayalam             4.0.0        rakheshthayyur     Rakhesh Thayyur
 no        Norwegian             4.0.0        LA3QMA             Kai Günter Brandt
 pl        Polish                4.0.0        DEVELPL            Maciej Jasiewicz
 pt        Portugese             4.0.0        rbm0407            Rodrigo Borges
