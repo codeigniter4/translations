@@ -26,5 +26,5 @@ return [
 	'million'      => ' juta',
 	'billion'      => ' milyar',
 	'trillion'     => ' triliun',
-	'quadrillion'  => ' dwiyar',
+	'quadrillion'  => ' kuadriliun',
 ];

@@ -15,7 +15,7 @@
  */
 return [
 	'invalidFile'      => 'Berkas tidak valid: {0}',
-	'copyError'        => 'Sebuah kesalahan terjadi saat mencoba mengganti berkas. Pastikan direktori berkas anda dapat ditulis.',
+	'copyError'        => 'Sebuah kesalahan terjadi saat mencoba mengganti berkas. Pastikan direktori berkas Anda dapat ditulis.',
 	'missingExtension' => 'Ekstensi {0} tidak dimuat.',
 	'noHandlers'       => '{0} harus menyediakan setidaknya satu Handler.',
 ];
