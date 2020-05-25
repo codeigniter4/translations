@@ -34,6 +34,7 @@ return [
    'exact_length'          => 'Das {field}-Formularfeld muss genau {param} Zeichen lang sein.',
    'greater_than'          => 'Das {field}-Formularfeld muss eine Zahl größer als {param} enthalten.',
    'greater_than_equal_to' => 'Das {field}-Formularfeld muss eine Zahl größer oder gleich {param} enthalten.',
+   'hex'                   => 'Das {field}-Formularfeld darf nur hexadezimale Zeichen enthalten.',
    'in_list'               => 'Das {field}-Formularfeld muss eines der folgenden sein: {param}.',
    'integer'               => 'Das {field}-Formularfeld muss eine ganze Zahl enthalten.',
    'is_natural'            => 'Das {field}-Formularfeld darf nur Ziffern enthalten.',
