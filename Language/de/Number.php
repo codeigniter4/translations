@@ -21,7 +21,7 @@ return [
    'kilobyteAbbr' => 'KB',
    'bytes'        => 'Bytes',
 
-	// don't forget the space in front of these!
+   // don't forget the space in front of these!
    'thousand'     => ' Tausend',
    'million'      => ' Million',
    'billion'      => ' Milliarde',

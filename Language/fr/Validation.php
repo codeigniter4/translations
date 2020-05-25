@@ -39,6 +39,7 @@ return [
    'integer'               => 'Le champ {field} doit contenir un nombre entier.',
    'is_natural'            => 'Le champ {field} ne doit contenir que des chiffres.',
    'is_natural_no_zero'    => 'Le champ {field} ne doit contenir que des chiffres et être supérieur à zéro.',
+   'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
    'is_unique'             => 'Le champ {field} doit contenir une valeur unique.',
    'less_than'             => 'Le champ {field} doit contenir un nombre inférieur à {param}.',
    'less_than_equal_to'    => 'Le champ {field} doit contenir un nombre inférieur ou égal à {param}.',

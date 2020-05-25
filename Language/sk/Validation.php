@@ -38,6 +38,7 @@ return [
    'integer'               => 'Pole {field} musí obsahovať celé číslo.',
    'is_natural'            => 'Pole {field} musí obsahovať iba číslice.',
    'is_natural_no_zero'    => 'Pole {field} musí obsahovať iba číslice a musí byť väčšie ako nula.',
+   'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
    'is_unique'             => 'Pole {field} musí obsahovať unikátnu hodnotu.',
    'less_than'             => 'Pole {field} musí obsahovať číslo menšie ako {param}.',
    'less_than_equal_to'    => 'Pole {field} musí obsahovať číslo menšie alebo rovné ako {param}.',
