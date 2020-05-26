@@ -37,7 +37,9 @@ return [
    'badCreateName'   => 'Es muss ein gültiger Migrations-Dateiname angegeben werden.',
    'writeError'      => 'Fehler beim Erstellen der Datei.',
    'migNumberError'  => 'Die Migrationsnummer muss dreistellig sein, und es dürfen keine Lücken in der Sequenz sein.',
-
+   'rollBackConfirm' => 'Soll der Datenbank-Rollback ausgeführt werden?',
+   'refreshConfirm'  => 'Soll die Datenbank wirklich aktualisiert werden?',
+   
    'latest'            => 'Neue Migrationen ausführen...',
    'generalFault'      => 'Migration fehlgeschlagen!',
    'migInvalidVersion' => 'Ungültige Versionsnummer angegeben.',
