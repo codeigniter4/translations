@@ -5,8 +5,8 @@
  *
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
- * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT	MIT License
+ * @copyright  2019-2020 CodeIgniter Foundation
+ * @license    https://opensource.org/licenses/MIT MIT License
  * @link       https://codeigniter.com
  * @since      Version 4.0.0
  * @filesource
@@ -22,12 +22,12 @@ return [
    'invalidMinutes' => 'Минуты должны быть указаны между 0 и 59. Указано: {0}.',
    'invalidSeconds' => 'Секунды должны быть указаны между 0 и 59. Указано: {0}.',
    'years'          => '{0, plural, =1{# год} other{# лет}}',
-   'months'         => '{0, plural, =1{# месяц} other{# мес.}}',
-   'weeks'          => '{0, plural, =1{# неделя} other{# нед.}}',
-   'days'           => '{0, plural, =1{# день} other{# дн.}}',
-   'hours'          => '{0, plural, =1{# час} other{# ч.}}',
-   'minutes'        => '{0, plural, =1{# минута} other{# мин.}}',
-   'seconds'        => '{0, plural, =1{# секунда} other{# сек.}}',
+   'months'         => '{0, plural, =1{# месяц} other{# месяцев}}',
+   'weeks'          => '{0, plural, =1{# неделя} other{# недель}}',
+   'days'           => '{0, plural, =1{# день} other{# дней}}',
+   'hours'          => '{0, plural, =1{# час} other{# часов}}',
+   'minutes'        => '{0, plural, =1{# минута} other{# минут}}',
+   'seconds'        => '{0, plural, =1{# секунда} other{# секунд}}',
    'ago'            => '{0} назад',
    'inFuture'       => 'в {0}',
    'yesterday'      => 'Вчера',

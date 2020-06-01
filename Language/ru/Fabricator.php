@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Format language strings.
+ * Fabricator language strings.
  *
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
@@ -15,6 +15,6 @@
  */
 
 return [
-   'invalidJSON'      => 'Не удалось разобрать строку в JSON, Ошибка: "{0}".',
-   'missingExtension' => 'Расширение SimpleXML требуется для форматирования XML.',
+   'invalidModel'      => 'Постовляемая модель недопустима для изготовления.',
+   'missingFormatters' => 'Действительные форматеры не определены.',
 ];
