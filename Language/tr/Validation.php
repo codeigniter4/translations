@@ -42,7 +42,7 @@ return [
 	'is_unique'             => '{field} alanı eşsiz bir değer içermeli.',
 	'less_than'             => '{field} alanı {param} den küçük bir sayı içermeli.',
 	'less_than_equal_to'    => '{field} alanı {param} den küçük veya eşit bir sayı içermeli.',
-	'matches'               => '{field} alanı {param} ile aynı olmalı.',
+	'matches'               => '{field} alanı ile {param} alanı aynı olmalı.',
 	'max_length'            => '{field} alanı {param} karakterden fazla olamaz.',
 	'min_length'            => '{field} alanı en az {param} karakter olmalı.',
 	'not_equals'            => '{field} alanı {param} alanı ile eşit olmamalı.',
