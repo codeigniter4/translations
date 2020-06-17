@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Migration language strings.
+ * Migrations language strings.
  *
  * This content is released under the MIT License (MIT)
  *
@@ -29,7 +29,7 @@
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
  * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
+ * @license    https://opensource.org/licenses/MIT MIT License
  * @link       https://codeigniter.com
  * @since      Version 4.0.0
  * @filesource
@@ -60,6 +60,8 @@ return [
    'badCreateName'     => 'Необходимо указать имя файла миграции.',
    'writeError'        => 'Ошибка при попытке создать файл.',
    'migNumberError'    => 'Номер миграции должен состоять из трех цифр, и в нем не должно быть пробелов.',
+   'rollBackConfirm'   => 'Вы уверены, что хотите откатиться назад ?',
+   'refreshConfirm'    => 'Вы уверены, что хотите обновить ?',
 
    'latest'            => 'Запуск всех новых миграций...',
    'generalFault'      => 'Миграция не удалась !',

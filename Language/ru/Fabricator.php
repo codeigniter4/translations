@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Language language strings.
+ * Fabricator language strings.
  *
  * This content is released under the MIT License (MIT)
  *
@@ -38,5 +38,6 @@
  */
 
 return [
-   'languageGetLineInvalidArgumentException' => 'Установленная строка должна быть строкой или массивом строк.',
+   'invalidModel'      => 'Постовляемая модель недопустима для изготовления.',
+   'missingFormatters' => 'Действительные форматеры не определены.',
 ];
