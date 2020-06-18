@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Image language strings.
+ * Images language strings.
  *
  * This content is released under the MIT License (MIT)
  *
@@ -29,7 +29,7 @@
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
  * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
+ * @license    https://opensource.org/licenses/MIT MIT License
  * @link       https://codeigniter.com
  * @since      Version 4.0.0
  * @filesource
@@ -44,6 +44,7 @@ return [
    'gifNotSupported'        => 'Изображения GIF часто не поддерживаются из-за лицензионных ограничений.',
    'jpgNotSupported'        => 'Изображения JPG не поддерживаются.',
    'pngNotSupported'        => 'Изображения PNG не поддерживаются.',
+   'fileNotSupported'       => 'Предоставленный файл не является поддерживаемым типом изображения.',
    'unsupportedImageCreate' => 'Ваш сервер не поддерживает функцию GD, необходимую для обработки этого типа изображения.',
    'jpgOrPngRequired'       => 'Протокол изменения размера изображения, указанный в настройках, работает только с типами изображений JPEG или PNG.',
    'rotateUnsupported'      => 'Вращение изображений не поддерживается вашим сервером.',
