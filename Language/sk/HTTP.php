@@ -54,7 +54,7 @@ return [
    'emptySupportedNegotiations' => 'Musíte poskytnúť pole podporovaných hodnôt pre všetky negotiations.',
 
 	// RedirectResponse
-   'invalidRoute'               => '{0, string} trasu nemožno nájsť pri spätnom smerovaní.',
+   'invalidRoute'               => '{0} trasu nemožno nájsť pri spätnom smerovaní.',
 
 	// DownloadResponse
    'cannotSetBinary'            => 'Pri nastavovaní filepath nie je možné nastaviť binary.',
@@ -65,7 +65,7 @@ return [
 
 	// Response
    'missingResponseStatus'      => 'V odpovedi HTTP chýba stavový kód',
-   'invalidStatusCode'          => '{0, string} nie je platný návratový stavový kód HTTP',
+   'invalidStatusCode'          => '{0} nie je platný návratový stavový kód HTTP',
    'unknownStatusCode'          => 'Neznámy stavový kód HTTP poskytnutý bez správy: {0}',
 
 	// URI

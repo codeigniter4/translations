@@ -46,7 +46,7 @@ return [
    'sendFailurePHPMail'   => 'PHP関数mail()がメール送信に利用できません。この方法でメールを送信するようにサーバーが設定されていない可能性があります。', //Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
    'sendFailureSendmail'  => 'PHPでSendmailコマンドがメール送信に利用できません。この方法でメールを送信するようにサーバーが設定されていない可能性があります。', //Unable to send email using PHP Sendmail. Your server might not be configured to send mail using this method.
    'sendFailureSmtp'      => 'PHPでSMTPを使ったメール送信が利用できません。この方法でメールを送信するようにサーバーが設定されていない可能性があります。', //Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.
-   'sent'                 => 'あなたのメッセージは、以下のプロトコルを使用して正常に送信されました。: {0, string}', //Your message has been successfully sent using the following protocol: {0, string}
+   'sent'                 => 'あなたのメッセージは、以下のプロトコルを使用して正常に送信されました。: {0}', //Your message has been successfully sent using the following protocol: {0}
    'noSocket'             => 'Sendmailへのソケットが開けません。設定を確認してください。', //Unable to open a socket to Sendmail. Please check settings.
    'noHostname'           => 'SMTPホスト名を指定していません。', //You did not specify a SMTP hostname.
    'SMTPError'            => '以下のSMTPエラーが発生しました。: {0}', //The following SMTP error was encountered: {0}

@@ -54,7 +54,7 @@ return [
 	'emptySupportedNegotiations' => 'يجب تحديد مصفوفة بجيمع أنواع التفاوض المدعومة لجميع عمليات التفاوض في الاتصال.',
 
 	// RedirectResponse
-	'invalidRoute'               => 'القيمة {0, string} ليست مسار توجيه صحيح.',
+	'invalidRoute'               => 'القيمة {0} ليست مسار توجيه صحيح.',
 
 	// DownloadResponse
 	'cannotSetBinary'            => 'عند تحديد مسار الملف لا يمكن تعيين ثنائي.',
@@ -65,7 +65,7 @@ return [
 
 	// Response
 	'missingResponseStatus'      => 'استجابة HTTP لا تحتوي على كود الحالة',
-	'invalidStatusCode'          => 'القيمة {0, string} ليست كود حالة صحيح لبروتوكول HTTP',
+	'invalidStatusCode'          => 'القيمة {0} ليست كود حالة صحيح لبروتوكول HTTP',
 	'unknownStatusCode'          => 'كود الحالة لبروتوكول HTTP لا يحتوى على رسالة: {0}',
 
 	// URI

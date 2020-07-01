@@ -47,7 +47,7 @@ return [
    'unsupportedImageCreate' => 'お使いのサーバーは、このタイプの画像を処理するために必要なGDファンクションをサポートしていません。', //Your server does not support the GD function required to process this type of image.
    'jpgOrPngRequired'       => '環境設定で指定された画像サイズ変更プロトコルは、JPEGまたはPNG画像でのみ動作します。', //The image resize protocol specified in your preferences only works with JPEG or PNG image types.
    'rotateUnsupported'      => 'お使いのサーバーでは、画像の回転はサポートされていないようです。', //Image rotation does not appear to be supported by your server.
-   'libPathInvalid'         => 'イメージライブラリのパスが正しくありません。画像環境設定で正しいパスを設定してください。 {0, string}', //The path to your image library is not correct. Please set the correct path in your image preferences. {0, string) ← {0, string) is typo?
+   'libPathInvalid'         => 'イメージライブラリのパスが正しくありません。画像環境設定で正しいパスを設定してください。 {0}', //The path to your image library is not correct. Please set the correct path in your image preferences. {0, string) ← {0, string) is typo?
    'imageProcessFailed'     => '画像処理に失敗しました。サーバーが選択したプロトコルをサポートしていること、およびイメージライブラリへのパスが正しいことを確認してください。', //Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
    'rotationAngleRequired'  => '画像を回転させるには回転角度を指定してください。', //An angle of rotation is required to rotate the image.
    'invalidPath'            => '画像へのパスが正しくありません。', //The path to the image is not correct.

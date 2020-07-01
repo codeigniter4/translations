@@ -54,7 +54,7 @@ return [
    'emptySupportedNegotiations' => 'Bạn phải cung cấp một loạt các giá trị được hỗ trợ cho tất cả các Cuộc đàm phán.',
 
 	// RedirectResponse
-   'invalidRoute'               => '{0, string} route không thể được tìm thấy trong khi định tuyến ngược.',
+   'invalidRoute'               => '{0} route không thể được tìm thấy trong khi định tuyến ngược.',
 
 	// DownloadResponse
    'cannotSetBinary'            => 'Cài đặt đường dẫn tập tin không thể đặt binary.',
@@ -65,7 +65,7 @@ return [
 
 	// Response
    'missingResponseStatus'      => 'Phản hồi HTTP thiếu mã trạng thái',
-   'invalidStatusCode'          => '{0, string} trả về mã trạng thái HTTP không hợp lệ',
+   'invalidStatusCode'          => '{0} trả về mã trạng thái HTTP không hợp lệ',
    'unknownStatusCode'          => 'Không có mã trạng thái HTTP nào được cung cấp hoặc không xác định: {0}',
 
 	// URI

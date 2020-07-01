@@ -46,7 +46,7 @@ return [
    'sendFailurePHPMail'   => 'Không thể gửi email bằng PHP mail(). Máy chủ của bạn có thể không được cấu hình để gửi thư bằng phương thức này.',
    'sendFailureSendmail'  => 'Không thể gửi email bằng PHP Sendmail. Máy chủ của bạn có thể không được cấu hình để gửi thư bằng phương thức này.',
    'sendFailureSmtp'      => 'Không thể gửi email bằng PHP SMTP. Máy chủ của bạn có thể không được cấu hình để gửi thư bằng phương thức này.',
-   'sent'                 => 'Tin nhắn của bạn đã được gửi thành công bằng giao thức sau: {0, string}',
+   'sent'                 => 'Tin nhắn của bạn đã được gửi thành công bằng giao thức sau: {0}',
    'noSocket'             => 'Không thể mở ổ cắm cho Sendmail. Vui lòng kiểm tra cài đặt.',
    'noHostname'           => 'Bạn đã không chỉ định tên máy chủ SMTP.',
    'SMTPError'            => 'Đã xảy ra lỗi SMTP sau đây: {0}',

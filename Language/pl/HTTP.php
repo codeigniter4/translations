@@ -53,7 +53,7 @@ return [
 	'emptySupportedNegotiations' => 'Musisz dostarczyć tablicę obsługiwanych wartości do wszystkich Negocjacji.',
 
 	// RedirectResponse
-	'invalidRoute'               => '{0, string} nie jest prawidłową trasą.',
+	'invalidRoute'               => '{0} nie jest prawidłową trasą.',
 
 	// DownloadResponse
 	'cannotSetBinary'            => 'When setting filepath can not set binary.',
@@ -64,7 +64,7 @@ return [
 
 	// Response
 	'missingResponseStatus'      => 'W odpowiedzi HTTP brakuje kodu statusu',
-	'invalidStatusCode'          => '{0, string} nie jest prawidłowym kodem statusu zwrotu HTTP',
+	'invalidStatusCode'          => '{0} nie jest prawidłowym kodem statusu zwrotu HTTP',
 	'unknownStatusCode'          => 'Nieznany kod statusu HTTP dostarczony bez komunikatu: {0}',
 
 	// URI

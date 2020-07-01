@@ -53,7 +53,7 @@ return [
 	'emptySupportedNegotiations' => 'Devi fornire un array di valori supportati a tutte le Negoziazioni.',
 
 	// RedirectResponse
-	'invalidRoute'               => '{0, string} non è un percorso valido.',
+	'invalidRoute'               => '{0} non è un percorso valido.',
 
 	// DownloadResponse
 	'cannotSetBinary'            => 'When setting filepath can not set binary.',
@@ -64,7 +64,7 @@ return [
 
 	// Response
 	'missingResponseStatus'      => 'Alla risposta HTTP manca un codice di stato',
-	'invalidStatusCode'          => '{0, string} non è un valido codice di stato di ritorno da HTTP',
+	'invalidStatusCode'          => '{0} non è un valido codice di stato di ritorno da HTTP',
 	'unknownStatusCode'          => 'Codice di stato HTTP sconosciuto consegnato senza messaggi: {0}',
 
 	// URI

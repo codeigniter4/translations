@@ -48,7 +48,7 @@ return [
 	// Negotiate
    'emptySupportedNegotiations' => 'برای انجام Negotiations شما باید آرایه‌ای از مقادیر مجاز را وارد کنید.',
 	// RedirectResponse
-   'invalidRoute'               => 'مسیر {0, string} در هنگام مسیریابی وارونه (reverse-routing) پیدا نشد.',
+   'invalidRoute'               => 'مسیر {0} در هنگام مسیریابی وارونه (reverse-routing) پیدا نشد.',
 	// DownloadResponse
    'cannotSetBinary'            => 'وقتی که مسیر فایل را تنظیم می‌کنید، نمی‌توانید یک کقدار باینری وارد کنید.',
    'cannotSetFilepath'          => 'وقتی که باینری را انتخاب می‌کید، نمی‌توانید مسیر فایل ارسال کنید: {0}',
@@ -57,7 +57,7 @@ return [
    'cannotSetStatusCode'        => 'تغییر status code برای دانلود پشتیبانی نمی‌شود. کد: {0}, دلیل: {1}',
 	// Response
    'missingResponseStatus'      => 'Status code در پاسخ HTTP وجود ندارد',
-   'invalidStatusCode'          => '{0, string} یک Status Code صحیح نیست.',
+   'invalidStatusCode'          => '{0} یک Status Code صحیح نیست.',
    'unknownStatusCode'          => 'Status Code نامعلوم با هیچ پیامی مرتبط نیست: {0}',
 	// URI
    'cannotParseURI'             => 'پارس کردن و فهمیدم URI ممکن نیست: {0}',

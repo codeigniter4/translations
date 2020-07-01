@@ -53,7 +53,7 @@ return [
    'emptySupportedNegotiations' => 'すべてのネゴシエーションにサポートされている値の配列を設定する必要があります。', //You must provide an array of supported values to all Negotiations.
 
 	// RedirectResponse
-   'invalidRoute'               => 'リバースルーティング中に {0, string} ルートが見つかりません。', //{0, string} route cannot be found while reverse-routing.
+   'invalidRoute'               => 'リバースルーティング中に {0} ルートが見つかりません。', //{0} route cannot be found while reverse-routing.
 
 	// DownloadResponse
    'cannotSetBinary'            => 'ファイルパスを設定する場合、バイナリを設定できません。', //When setting filepath can not set binary.
@@ -64,7 +64,7 @@ return [
 
 	// Response
    'missingResponseStatus'      => 'HTTPレスポンスにステータスコードがありません。', //HTTP Response is missing a status code
-   'invalidStatusCode'          => '{0, string} は有効な HTTP リターンステータスコードではありません。', //{0, string} is not a valid HTTP return status code
+   'invalidStatusCode'          => '{0} は有効な HTTP リターンステータスコードではありません。', //{0} is not a valid HTTP return status code
    'unknownStatusCode'          => 'メッセージの無い未知のHTTPステータスコードです。: {0}', //Unknown HTTP status code provided with no message: {0}
 
 	// URI
