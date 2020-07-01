@@ -46,7 +46,7 @@ return [
     'sendFailurePHPMail'   => 'Kon geen email versturen via mail(). Is uw server geconfigureerd om mails te versturen op deze methode.',
     'sendFailureSendmail'  => 'Kon geen email versturen PHP Sendmail. Is uw server geconfigureerd om mails te versturen op deze methode.',
     'sendFailureSmtp'      => 'Kon geen email versturen PHP SMTP. Is uw server geconfigureerd om mails te versturen op deze methode.',
-    'sent'                 => 'Uw bericht is succesvol verstuurd met de volgende methode: {0, string}',
+    'sent'                 => 'Uw bericht is succesvol verstuurd met de volgende methode: {0}',
     'noSocket'             => 'Kon geen socket openen naar Sendmail. Gelieve uw instellingen na te kijken.',
     'noHostname'           => 'SMTP hostname is niet gespecifieerd.',
     'SMTPError'            => 'De volgende SMTP fout heeft zich voorgedaan: {0}',

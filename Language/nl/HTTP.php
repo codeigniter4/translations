@@ -54,7 +54,7 @@ return [
     'emptySupportedNegotiations' => 'Je moet een Array opgeven met al de geldige Negotiations.',
 
     // RedirectResponse
-    'invalidRoute'               => '{0, string} route kon niet worden gevonden tijdens reverse-routing.',
+    'invalidRoute'               => '{0} route kon niet worden gevonden tijdens reverse-routing.',
 
     // DownloadResponse
     'cannotSetBinary'            => 'Bestandspad kan niet binaire zijn.',
@@ -65,7 +65,7 @@ return [
 
     // Response
     'missingResponseStatus'      => 'HTTP Response heeft geen status code',
-    'invalidStatusCode'          => '{0, string} is geen geldige HTTP return status code',
+    'invalidStatusCode'          => '{0} is geen geldige HTTP return status code',
     'unknownStatusCode'          => 'Ongekende HTTP status code opgegeven met geen bericht: {0}',
 
     // URI

@@ -46,7 +46,7 @@ return [
    'sendFailurePHPMail'   => 'E-Mailversand mit PHP mail() fehlgeschlagen. Möglicherweise ist der Server nicht so konfiguriert, dass er E-Mails mit dieser Methode sendet.',
    'sendFailureSendmail'  => 'E-Mailversand mit Sendmail fehlgeschlagen. Möglicherweise ist der Server nicht so konfiguriert, dass er E-Mails mit dieser Methode sendet.',
    'sendFailureSmtp'      => 'E-Mailversand mit PHP SMTP fehlgeschlagen. Möglicherweise ist der Server nicht so konfiguriert, dass er E-Mails mit dieser Methode sendet.',
-   'sent'                 => 'Die Nachricht wurde erfolgreich mit folgendem Protokoll gesendet: {0, string}',
+   'sent'                 => 'Die Nachricht wurde erfolgreich mit folgendem Protokoll gesendet: {0}',
    'noSocket'             => 'Der socket für Sendmail konnte nicht geöffnet werden. Bitte Einstellungen prüfen.',
    'noHostname'           => 'SMTP-Hostname ist nicht definiert',
    'SMTPError'            => 'Folgender SMTP-Fehler ist aufgetreten: {0}',

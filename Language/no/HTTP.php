@@ -54,7 +54,7 @@ return [
    'emptySupportedNegotiations' => 'Gyldige innholdstyper må spesifiseres.',
 
 	// RedirectResponse
-   'invalidRoute'               => '{0, string} er en gyldig rute.',
+   'invalidRoute'               => '{0} er en gyldig rute.',
 
 	// DownloadResponse
    'cannotSetBinary'            => 'Feil ved nedlasting. Filsti kan ikke settes til binær.',
@@ -65,7 +65,7 @@ return [
 
 	// Response
    'missingResponseStatus'      => 'HTTP-svar inneholder ikke en statuskode',
-   'invalidStatusCode'          => '{0, string} er en ugyldig HTTP-statuskode',
+   'invalidStatusCode'          => '{0} er en ugyldig HTTP-statuskode',
    'unknownStatusCode'          => 'Ukjent HTTP-statuskode uten melding: {0}',
 
 	// URI

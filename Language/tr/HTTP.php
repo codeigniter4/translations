@@ -53,7 +53,7 @@ return [
 	'emptySupportedNegotiations' => 'Tüm pazarlıklara (Negotiations) bir desteklenen değerler dizisi belirtmelisiniz.',
 
 	// RedirectResponse
-	'invalidRoute'               => '{0, string} geçersiz rota.',
+	'invalidRoute'               => '{0} geçersiz rota.',
 
 	// DownloadResponse
 	'cannotSetBinary'            => 'When setting filepath can not set binary.',
@@ -64,7 +64,7 @@ return [
 
 	// Response
 	'missingResponseStatus'      => 'HTTP Response durum kodu eksik.',
-	'invalidStatusCode'          => '{0, string} geçersiz HTTP cevap durum kodu',
+	'invalidStatusCode'          => '{0} geçersiz HTTP cevap durum kodu',
 	'unknownStatusCode'          => 'Bilinmeyen HTTP durum kodu: {0}',
 
 	// URI

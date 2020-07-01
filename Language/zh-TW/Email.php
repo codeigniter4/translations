@@ -46,7 +46,7 @@ return [
    'sendFailurePHPMail'   => '無法使用 PHP mail() 傳送電子郵件。您的伺服器可能尚未配置使用這個方法發送郵件的相關設定。',
    'sendFailureSendmail'  => '無法使用 PHP Sendmail 傳送電子郵件。您的伺服器可能尚未配置使用這個方法發送郵件的相關設定。',
    'sendFailureSmtp'      => '無法使用 PHP SMTP 傳送電子郵件。您的伺服器可能尚未配置使用這個方法發送郵件的相關設定。',
-   'sent'                 => '您的郵件已使用下列協議成功寄出: {0, string}',
+   'sent'                 => '您的郵件已使用下列協議成功寄出: {0}',
    'noSocket'             => '無法打開基座（Socket）傳送電子郵件，請確定您的設定是否正確。',
    'noHostname'           => '尚未指定SMTP的主機名稱。',
    'SMTPError'            => '發生以下SMTP錯誤: {0}',

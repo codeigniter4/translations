@@ -53,7 +53,7 @@ return [
 	'emptySupportedNegotiations' => 'Anda harus memberikan sebuah array dari nilai yang didukung untuk semua Negosiasi.',
 
 	// RedirectResponse
-	'invalidRoute'               => '{0, string} bukan sebuah rute yang valid.',
+	'invalidRoute'               => '{0} bukan sebuah rute yang valid.',
 
 	// DownloadResponse
 	'cannotSetBinary'            => 'Saat mengatur filepath, tidak dapat mengatur binary.',
@@ -64,7 +64,7 @@ return [
 
 	// Response
 	'missingResponseStatus'      => 'Tanggapan HTTP kehilangan sebuah kode status',
-	'invalidStatusCode'          => '{0, string} bukan sebuah kode status pengembalian HTTP yang valid',
+	'invalidStatusCode'          => '{0} bukan sebuah kode status pengembalian HTTP yang valid',
 	'unknownStatusCode'          => 'Kode status HTTP tidak dikenal diberikan tanpa pesan: {0}',
 
 	// URI

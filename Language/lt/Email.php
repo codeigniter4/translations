@@ -46,7 +46,7 @@ return [
    'sendFailurePHPMail'   => 'Nepavyksta siųsti laiško naudojant PHP mail() funkciją. Jūsų serveris greičiausiai nesukonfigūruotas siųsti laiškus šiuo metodu.',
    'sendFailureSendmail'  => 'Nepavyksta siųsti laiško naudojant PHP Sendmail funkciją. Jūsų serveris greičiausiai nesukonfigūruotas siųsti laiškus šiuo metodu.',
    'sendFailureSmtp'      => 'Nepavyksta siųsti laiško naudojant PHP SMTP funkciją. Jūsų serveris greičiausiai nesukonfigūruotas siųsti laiškus šiuo metodu.',
-   'sent'                 => 'Jūsų laiškas buvo išsiųstas naudojant šį protokolą: {0, string}',
+   'sent'                 => 'Jūsų laiškas buvo išsiųstas naudojant šį protokolą: {0}',
    'noSocket'             => 'Nepavyksta atverti lizdo į Sendmail. Prašome patikrinti nustatymus.',
    'noHostname'           => 'Jūs nenurodėte SMTP mazgo pavadinimo.',
    'SMTPError'            => 'Buvo susidurta su šia SMTP klaida: {0}',

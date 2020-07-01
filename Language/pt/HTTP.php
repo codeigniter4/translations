@@ -53,7 +53,7 @@ return [
 	'emptySupportedNegotiations' => 'Você deve fornecer um array de valores suportados para todas as negociações.',
 
 	// RedirectResponse
-	'invalidRoute'               => '{0, string} não é uma rota válida.',
+	'invalidRoute'               => '{0} não é uma rota válida.',
 
 	// DownloadResponse
 	'cannotSetBinary'            => 'When setting filepath can not set binary.',
@@ -64,7 +64,7 @@ return [
 
 	// Response
 	'missingResponseStatus'      => 'Resposta HTTP está sem um código de status',
-	'invalidStatusCode'          => '{0, string} não é um código de status de retorno HTTP válido',
+	'invalidStatusCode'          => '{0} não é um código de status de retorno HTTP válido',
 	'unknownStatusCode'          => 'Código de status HTTP desconhecido fornecido sem mensagem: {0}',
 
 	// URI

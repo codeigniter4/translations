@@ -54,7 +54,7 @@ return [
    'emptySupportedNegotiations' => 'Es müssen gültige Inhaltstypen angegeben werden.',
 
    // RedirectResponse
-   'invalidRoute'               => '{0, string} ist eine üngültige Route.',
+   'invalidRoute'               => '{0} ist eine üngültige Route.',
 
    // DownloadResponse
    'cannotSetBinary'            => 'Fehler beim Download. Filepath kann nicht auf Binär gesetzt werden.',
@@ -65,7 +65,7 @@ return [
 
    // Response
    'missingResponseStatus'      => 'HTTP Response enthält keinen Statuscode',
-   'invalidStatusCode'          => '{0, string} ist ein ungültiger HTTP-Statuscode',
+   'invalidStatusCode'          => '{0} ist ein ungültiger HTTP-Statuscode',
    'unknownStatusCode'          => 'Unbekannter HTTP-Statuscode ohne Meldung: {0}',
 
    // URI
