@@ -54,7 +54,7 @@ return [
    'emptySupportedNegotiations' => 'Visoms deryboms turite pateikti palaikomas reikšmes.',
 
 	// RedirectResponse
-   'invalidRoute'               => '{0, string} maršrutas negali būti nustatytas antvirkštinio maršrutizavimo metu.',
+   'invalidRoute'               => '{0} maršrutas negali būti nustatytas antvirkštinio maršrutizavimo metu.',
 
 	// DownloadResponse
    'cannotSetBinary'            => 'Nustatant failo kelią negali būti naudojama dvejetainė reikšmė.',
@@ -65,7 +65,7 @@ return [
 
 	// Response
    'missingResponseStatus'      => 'HTTP atsakui trūksta statuso kodo',
-   'invalidStatusCode'          => '{0, string} nėra teisingas HTTP atsako statuso kodas',
+   'invalidStatusCode'          => '{0} nėra teisingas HTTP atsako statuso kodas',
    'unknownStatusCode'          => 'Nežinomas HTTP statuso kodas pateiktas be pranešimo: {0}',
 
 	// URI

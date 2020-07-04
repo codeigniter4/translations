@@ -46,7 +46,7 @@ return [
 	'sendFailurePHPMail'   => 'PHP mail() yöntemi kullanılarak email gönderilemiyor. Sunucunuz bu yöntemle email gönderecek şekilde ayarlanmamış olabilir.',
 	'sendFailureSendmail'  => 'PHP Sendmail yöntemi kullanılarak email gönderilemiyor. Sunucunuz bu yöntemle email gönderecek şekilde ayarlanmamış olabilir.',
 	'sendFailureSmtp'      => 'PHP SMTP yöntemi kullanılarak email gönderilemiyor. Sunucunuz bu yöntemle email gönderecek şekilde ayarlanmamış olabilir.',
-	'sent'                 => 'Mesajınız {0, string} protokolü kullanılarak başarıyla gönderildi.',
+	'sent'                 => 'Mesajınız {0} protokolü kullanılarak başarıyla gönderildi.',
 	'noSocket'             => 'Sendmail soketi açılamıyor. Lütfen ayarlarınızı kontrol edin.',
 	'noHostname'           => 'SMTP sunucu adı belirtmeniz gerekiyor.',
 	'SMTPError'            => 'SMTP hatası alındı: {0}',

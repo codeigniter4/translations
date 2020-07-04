@@ -46,7 +46,7 @@ return [
    'sendFailurePHPMail'   => 'PHP의 mail()을 사용해서 메일을 보낼 수 없습니다. PHP의 mail()을 사용해서, 메일을 보낼 수 없도록 서버에 설정되어 있을 수도 있습니다.', // 'Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.',
    'sendFailureSendmail'  => 'PHP의 Sendmail을 사용해서 메일을 보낼 수 없습니다. PHP의 Sendmail을 사용해서, 메일을 보낼 수 없도록 서버에 설정되어 있을 수도 있습니다.', // 'Unable to send email using PHP Sendmail. Your server might not be configured to send mail using this method.',
    'sendFailureSmtp'      => 'PHP의 SMTP를 사용해서 메일을 보낼 수 없습니다. PHP의 SMTP를 사용해서, 메일을 보낼 수 없도록 서버에 설정되어 있을 수도 있습니다.', // 'Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.',
-   'sent'                 => '다음 protocol을 사용해서 메일 보내기 성공: {0, string}', // 'Your message has been successfully sent using the following protocol: {0, string}',
+   'sent'                 => '다음 protocol을 사용해서 메일 보내기 성공: {0}', // 'Your message has been successfully sent using the following protocol: {0}',
    'noSocket'             => 'Sendmaill을 사용하기 위해서 소켓을 열 수가 없습니다. 환경설정을 확인해 주세요.', // 'Unable to open a socket to Sendmail. Please check settings.',
    'noHostname'           => 'SMTP hostname을 지정하지 않았습니다.', // 'You did not specify a SMTP hostname.',
    'SMTPError'            => '다음의 SMTP 에러가 발생하였습니다: {0}', // 'The following SMTP error was encountered: {0}',

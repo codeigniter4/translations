@@ -54,7 +54,7 @@ return [
    'emptySupportedNegotiations' => '모든 Negotiations에 지원되는 값의 배열이 반드시 제공되어야 합니다.', // 'You must provide an array of supported values to all Negotiations.',
 
 	// RedirectResponse
-   'invalidRoute'               => '(유효하지 않은 route). 리버스 라우팅을 하는 동안에, 페이지 redirect를 위한 {0, string} route는 발견되지 않았습니다.', // '{0, string} route cannot be found while reverse-routing.',
+   'invalidRoute'               => '(유효하지 않은 route). 리버스 라우팅을 하는 동안에, 페이지 redirect를 위한 {0} route는 발견되지 않았습니다.', // '{0} route cannot be found while reverse-routing.',
 
 	// DownloadResponse
    'cannotSetBinary'            => '다운로드 에러: 파일 경로를 설정할 때에 바이너리로 설정할 수 없습니다.', // DownloadResponse.php setBinary() : 바이너리 문자열을 위한 다운로드 설정 실패. // 'When setting filepath can not set binary.',
@@ -65,7 +65,7 @@ return [
 
 	// Response
    'missingResponseStatus'      => 'HTTP 응답에 HTTP 상태 코드가 누락되어 있습니다.', // 'HTTP Response is missing a status code',
-   'invalidStatusCode'          => '{0, string} 경우에 유효하지 않은 HTTP 상태 코드를 반환함.' , // CI4 rc.3기준 : 소스에서 if ($code < 100 || $code > 599)로 HTTP status code 체크함. // '{0, string} is not a valid HTTP return status code',
+   'invalidStatusCode'          => '{0} 경우에 유효하지 않은 HTTP 상태 코드를 반환함.' , // CI4 rc.3기준 : 소스에서 if ($code < 100 || $code > 599)로 HTTP status code 체크함. // '{0} is not a valid HTTP return status code',
    'unknownStatusCode'          => '아무런 메시지 없이 제공된, 알 수 없는 HTTP 상태 코드: {0}', // 'Unknown HTTP status code provided with no message: {0}',
 
 	// URI

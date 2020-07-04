@@ -46,7 +46,7 @@ return [
 	'sendFailurePHPMail'   => 'Tidak dapat mengirim surel menggunakan PHP mail(). Server Anda mungkin tidak dikonfigurasi untuk mengirim surel menggunakan metode ini.',
 	'sendFailureSendmail'  => 'Tidak dapat mengirim surel menggunakan PHP Sendmail. Server Anda mungkin tidak dikonfigurasi untuk mengirim surel menggunakan metode ini.',
 	'sendFailureSmtp'      => 'Tidak dapat mengirim surel menggunakan PHP SMTP. Server Anda mungkin tidak dikonfigurasi untuk mengirim surel menggunakan metode ini.',
-	'sent'                 => 'Pesan Anda telah berhasil dikirim menggunakan protokol berikut: {0, string}',
+	'sent'                 => 'Pesan Anda telah berhasil dikirim menggunakan protokol berikut: {0}',
 	'noSocket'             => 'Tidak dapat membuka sebuah soket ke Sendmail. Silakan periksa pengaturan.',
 	'noHostname'           => 'Anda tidak menentukan sebuah nama host SMTP.',
 	'SMTPError'            => 'Kesalahan SMTP berikut ditemukan: {0}',

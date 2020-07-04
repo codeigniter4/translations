@@ -54,7 +54,7 @@ return [
    'emptySupportedNegotiations' => 'You must provide an array of supported values to all Negotiations.',
 
 	// RedirectResponse
-   'invalidRoute'               => '{0, string} n\'est pas une route valide.',
+   'invalidRoute'               => '{0} n\'est pas une route valide.',
 
    // DownloadResponse
    'cannotSetBinary'            => 'When setting filepath can not set binary.',
@@ -65,7 +65,7 @@ return [
 
 	// Response
    'missingResponseStatus'      => 'HTTP Response is missing a status code',
-   'invalidStatusCode'          => '{0, string} is not a valid HTTP return status code',
+   'invalidStatusCode'          => '{0} is not a valid HTTP return status code',
    'unknownStatusCode'          => 'Unknown HTTP status code provided with no message: {0}',
 
 	// URI

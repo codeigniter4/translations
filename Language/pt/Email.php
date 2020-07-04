@@ -46,7 +46,7 @@ return [
 	'sendFailurePHPMail'   => 'Não é possível enviar e-mail usando o PHP mail(). O servidor pode não estar configurado para enviar e-mails usando esse método.',
 	'sendFailureSendmail'  => 'Não é possível enviar e-mail usando o PHP Sendmail. O servidor pode não estar configurado para enviar e-mails usando esse método.',
 	'sendFailureSmtp'      => 'Não é possível enviar e-mail usando o PHP SMTP. O servidor pode não estar configurado para enviar e-mails usando esse método.',
-	'sent'                 => 'A sua mensagem foi enviada com sucesso usando o seguinte protocolo: {0, string}',
+	'sent'                 => 'A sua mensagem foi enviada com sucesso usando o seguinte protocolo: {0}',
 	'noSocket'             => 'Não foi possível abrir um socket para o Sendmail. Por favor, verifique as configurações.',
 	'noHostname'           => 'Não especificou um nome de host SMTP.',
 	'SMTPError'            => 'O seguinte erro SMTP foi encontrado: {0}',

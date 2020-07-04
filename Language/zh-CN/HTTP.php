@@ -54,7 +54,7 @@ return [
    'emptySupportedNegotiations' => '必须为所有协商（Negotiation）提供一组受支持的值。',
 
 	// RedirectResponse
-   'invalidRoute'               => '反向路由时，无法找到{0, string} 路由。',
+   'invalidRoute'               => '反向路由时，无法找到{0} 路由。',
 
 	// DownloadResponse
    'cannotSetBinary'            => '设置为文件路径时，无法设置为二进制。',
@@ -65,7 +65,7 @@ return [
 
 	// Response
    'missingResponseStatus'      => 'HTTP 响应缺少状态码。',
-   'invalidStatusCode'          => '{0, string} 不是有效的返回状态码。',
+   'invalidStatusCode'          => '{0} 不是有效的返回状态码。',
    'unknownStatusCode'          => '未提供 HTTP 状态码或状态码未知: {0}',
 
 	// URI
