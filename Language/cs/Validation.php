@@ -41,9 +41,9 @@ return [
     // Core Messages
    'noRuleSets'            => 'V konfiguraci ověření nebyly zadány žádné sady pravidel.',
    'ruleNotFound'          => '{0} je neplatné pravidlo.',
-   'groupNotFound'         => '{0} není skupina ověřovacích pravidiel..',
+   'groupNotFound'         => '{0} není skupina ověřovacích pravidel.',
    'groupNotArray'         => '{0} skupina pravidel musí být pole.',
-   'invalidTemplate'       => '{0} je neplatná Validation předloha.',
+   'invalidTemplate'       => '{0} je neplatná šablona validace.',
 
     // Rule Messages
    'alpha'                 => 'Pole {field} může obsahovat pouze abecední znaky.',
@@ -51,7 +51,7 @@ return [
    'alpha_numeric'         => 'Pole {field} může obsahovat pouze alfanumerické znaky.',
    'alpha_numeric_space'   => 'Pole {field} může obsahovat pouze alfanumerické znaky a mezery.',
    'alpha_space'           => 'Pole {field} může obsahovat pouze abecední znaky a mezery.',
-   'decimal'               => 'Pole {field} musí obsahovat decimální číslo.',
+   'decimal'               => 'Pole {field} musí obsahovat číslo (0-9).',
    'differs'               => 'Pole {field} musí být rozdílné než pole {param}.',
    'equals'                => 'Pole {field} musí být přesně: {param}.',
    'exact_length'          => 'Pole {field} musí být přesně {param} znaků dlouhé.',
