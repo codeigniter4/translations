@@ -27,7 +27,7 @@
  * THE SOFTWARE.
  *
  * @package    CodeIgniter
- * @author     Jozef Botka - xbotkaj on Github
+ * @author     Pavel Tajduš - PavelTajdus on Github
  * @copyright  2019-2020 CodeIgniter Foundation
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
@@ -38,13 +38,13 @@
  */
 
 return [
-   'pageNavigation'         => 'Navigácia stránky',
-   'first'                  => 'Prvá',
-   'previous'               => 'Predošlá',
-   'next'                   => 'Ďalšia',
-   'last'                   => 'Posledná',
-   'older'                  => 'Staršie',
-   'newer'                  => 'Novšie',
-   'invalidTemplate'        => '{0} je neplatná Pager predloha.',
-   'invalidPaginationGroup' => '{0} je neplatná skupina pre Pagination.',
+   'pageNavigation'         => 'Navigace stránky',
+   'first'                  => 'První',
+   'previous'               => 'Předchozí',
+   'next'                   => 'Další',
+   'last'                   => 'Poslední',
+   'older'                  => 'Starší',
+   'newer'                  => 'Novější',
+   'invalidTemplate'        => '{0} je neplatná šablona pro Pager.',
+   'invalidPaginationGroup' => '{0} je neplatná skupina pro stránkování (Pagination).',
 ];

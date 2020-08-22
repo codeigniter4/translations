@@ -27,7 +27,7 @@
  * THE SOFTWARE.
  *
  * @package    CodeIgniter
- * @author     Jozef Botka - xbotkaj on Github
+ * @author     Pavel Tajduš - PavelTajdus on Github
  * @copyright  2019-2020 CodeIgniter Foundation
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
@@ -38,63 +38,63 @@
  */
 
 return [
-	// CurlRequest
-   'missingCurl'                => 'Aby bolo možné používať triedu CURLRequest, musí byť povolená funkcia CURL.',
-   'invalidSSLKey'              => 'Nie je možné nastaviť kľúč SSL. {0} nie je platný súbor.',
-   'sslCertNotFound'            => 'SSL certifikát nebol nájdený na: {0}',
+    // CurlRequest
+   'missingCurl'                => 'Pro použití třídy CURLRequest, musí byť povolená funkce CURL.',
+   'invalidSSLKey'              => 'Není možné nastavit klíč SSL. {0} není platný soubor.',
+   'sslCertNotFound'            => 'SSL certifikát nebyl nalezen na: {0}',
    'curlError'                  => '{0} : {1}',
 
-	// IncomingRequest
-   'invalidNegotiationType'     => '{0} nie je platný typ vyjednávania. Musí to byť: médium, znaková sada, kódovanie alebo jazyk.',
+    // IncomingRequest
+   'invalidNegotiationType'     => '{0} není platný typ vyjednávání. Musí to být: médium, znaková sada, kódování nebo jazyk.',
 
-	// Message
-   'invalidHTTPProtocol'        => 'Neplatná verzia protokolu HTTP. Musí to byť jedno z: {0}',
+    // Message
+   'invalidHTTPProtocol'        => 'Neplatná verze protokolu HTTP. Musí to být jedno z: {0}',
 
-	// Negotiate
-   'emptySupportedNegotiations' => 'Musíte poskytnúť pole podporovaných hodnôt pre všetky negotiations.',
+    // Negotiate
+   'emptySupportedNegotiations' => 'Musíte poskytnout pole podporovaných hodnot pro všechny negotiations.',
 
-	// RedirectResponse
-   'invalidRoute'               => '{0} trasu nemožno nájsť pri spätnom smerovaní.',
+    // RedirectResponse
+   'invalidRoute'               => '{0} trasu není možné najít při zpětném směrování.',
 
-	// DownloadResponse
-   'cannotSetBinary'            => 'Pri nastavovaní filepath nie je možné nastaviť binary.',
-   'cannotSetFilepath'          => 'Pri nastavovaní binary nie je možné nastaviť filepath: {0}',
-   'notFoundDownloadSource'     => 'Not found download body source.',
-   'cannotSetCache'             => 'Nepodporuje ukladanie do vyrovnávacej pamäte pre sťahovanie.',
-   'cannotSetStatusCode'        => 'Nepodporuje stavový kód chnage na stiahnutie. kód: {0}, dôvod: {1}',
+    // DownloadResponse
+   'cannotSetBinary'            => 'Při nastavování filepath není možné nastavit binary.',
+   'cannotSetFilepath'          => 'Při nastavování binary není možné nastavit filepath: {0}',
+   'notFoundDownloadSource'     => 'Nebyl nalezen zdroj těla (body) ke stažení.',
+   'cannotSetCache'             => 'Nepodporuje ukladání do vyrovnávací paměti pro stahování.',
+   'cannotSetStatusCode'        => 'Nepodporuje stavový kód change pro stažení. kód: {0}, důvod: {1}',
 
-	// Response
-   'missingResponseStatus'      => 'V odpovedi HTTP chýba stavový kód',
-   'invalidStatusCode'          => '{0} nie je platný návratový stavový kód HTTP',
-   'unknownStatusCode'          => 'Neznámy stavový kód HTTP poskytnutý bez správy: {0}',
+    // Response
+   'missingResponseStatus'      => 'V odpovědi HTTP chybí stavový kód',
+   'invalidStatusCode'          => '{0} není platný návratový stavový kód HTTP',
+   'unknownStatusCode'          => 'Neznámý stavový kód HTTP poskytnutý bez zprávy: {0}',
 
-	// URI
-   'cannotParseURI'             => 'Nemožno analyzovať URI: {0}',
-   'segmentOutOfRange'          => 'Segment URI žiadosti je mimo rozsahu: {0}',
-   'invalidPort'                => 'Porty musia byť medzi 0 a 65535. Zadaný: {0}',
-   'malformedQueryString'       => 'Reťazce dopytov nemusia obsahovať fragmenty URI.',
+    // URI
+   'cannotParseURI'             => 'Není možné analyzovat URI: {0}',
+   'segmentOutOfRange'          => 'Segment URI žádosti je mimo rozsah: {0}',
+   'invalidPort'                => 'Porty musí být mezi 0 a 65535. Zadáno: {0}',
+   'malformedQueryString'       => 'Řetězce dotazů nemusí obsahovat fragmenty URI.',
 
-	// Page Not Found
-   'pageNotFound'               => 'Stránka sa nenašla',
-   'emptyController'            => 'Nie je zadaný žiadny Controller.',
-   'controllerNotFound'         => 'Controller alebo jeho metóda sa nenašla: {0}::{1}',
-   'methodNotFound'             => 'Metóda Controller-u sa nenašla: {0}',
+    // Page Not Found
+   'pageNotFound'               => 'Stránka nebyla nalezena',
+   'emptyController'            => 'Není zadán žádný Controller.',
+   'controllerNotFound'         => 'Controller nebo jeho metoda nebyla nalezena: {0}::{1}',
+   'methodNotFound'             => 'Metoda Controlleru nebyla nalezena: {0}',
 
-	// CSRF
-   'disallowedAction'           => 'Požadovaná akcia nie je povolená.',
+    // CSRF
+   'disallowedAction'           => 'Požadovaná akce není povolena.',
 
-	// Uploaded file moving
-   'alreadyMoved'               => 'Nahraný súbor už bol presunutý.',
-   'invalidFile'                => 'Pôvodný súbor nie je platný.',
-   'moveFailed'                 => 'Nepodarilo sa presunúť súbor z {0} do {1} ({2})',
+    // Uploaded file moving
+   'alreadyMoved'               => 'Nahraný soubor už byl presunutý.',
+   'invalidFile'                => 'Pôvodný soubor není platný.',
+   'moveFailed'                 => 'Nepodařilo se přesunout soubor z {0} do {1} ({2})',
 
-   'uploadErrOk'                => 'Súbor bol úspešne odovzdaný.',
-   'uploadErrIniSize'           => 'Súbor "%s" prekračuje vašu direktívu upload_max_filesize ini.',
-   'uploadErrFormSize'          => 'Súbor "%s" prekračuje limit pre upload stanovený vo vašom formulári.',
-   'uploadErrPartial'           => 'Súbor "%s" bol nahraný iba čiastočne.',
-   'uploadErrNoFile'            => 'Nebol nahraný žiaden súbor.',
-   'uploadErrCantWrite'         => 'Súbor "%s" sa nedal zapísať na disk.',
-   'uploadErrNoTmpDir'          => 'Súbor sa nepodarilo nahrať: chýba dočasný adresár.',
-   'uploadErrExtension'         => 'Nahrávanie súborov bolo zastavené rozšírením PHP.',
-   'uploadErrUnknown'           => 'Súbor "%s" nebol nahraný kvôli neznámej chybe.',
+   'uploadErrOk'                => 'soubor byl úspěšně nahrán.',
+   'uploadErrIniSize'           => 'soubor "%s" překračuje vaše nastavení upload_max_filesize.',
+   'uploadErrFormSize'          => 'soubor "%s" překračuje limit pro upload nastavený ve vašem formuláři.',
+   'uploadErrPartial'           => 'soubor "%s" byl nahrán pouze částečně.',
+   'uploadErrNoFile'            => 'Nebyl nahrán žádný soubor.',
+   'uploadErrCantWrite'         => 'soubor "%s" se nepodařilo zapsat na disk.',
+   'uploadErrNoTmpDir'          => 'soubor se nepodařilo nahrát: chybí dočasný adresář.',
+   'uploadErrExtension'         => 'Nahrávání souborů bylo zastaveno rozšířením PHP.',
+   'uploadErrUnknown'           => 'soubor "%s" nebyl nahrán z důvodu neznámé chyby.',
 ];

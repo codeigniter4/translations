@@ -27,7 +27,7 @@
  * THE SOFTWARE.
  *
  * @package    CodeIgniter
- * @author     Jozef Botka - xbotkaj on Github
+ * @author     Pavel Tajduš - PavelTajdus on Github
  * @copyright  2019-2020 CodeIgniter Foundation
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
@@ -38,22 +38,22 @@
  */
 
 return [
-   'invalidMonth'   => 'Mesiace musia byť v rozmedzí od 1 do 12. Zadané: {0}',
-   'invalidDay'     => 'Dni musia byť v rozmedzí od 1 do 31. Zadané: {0}',
-   'invalidOverDay' => 'Dni musia byť v rozmedzí od 1 do {0}. Zadané: {1}',
-   'invalidHours'   => 'Hodiny musia byť v rozmedzí od 0 do 23. Zadané: {0}',
-   'invalidMinutes' => 'Minúty mudia byť v rozmedzí od 0 do 59. Zadané: {0}',
-   'invalidSeconds' => 'Sekundy musia byť v rozmedzí od 0 do 59. Zadané: {0}',
+   'invalidMonth'   => 'Měsíce musí být v rozmezí od 1 do 12. Zadáno: {0}',
+   'invalidDay'     => 'Dny musí být v rozmezí od 1 do 31. Zadáno: {0}',
+   'invalidOverDay' => 'Dny musí být v rozmezí od 1 do {0}. Zadáno: {1}',
+   'invalidHours'   => 'Hodiny musí být v rozmezí od 0 do 23. Zadáno: {0}',
+   'invalidMinutes' => 'Minuty mudia byť v rozmedzí od 0 do 59. Zadáno: {0}',
+   'invalidSeconds' => 'Vteřiny musí být v rozmezí od 0 do 59. Zadáno: {0}',
    'years'          => '{0, plural, =1{# rok} other{# roky}}',
-   'months'         => '{0, plural, =1{# mesiac} other{# mesiace}}',
-   'weeks'          => '{0, plural, =1{# týždeň} other{# týždne}}',
-   'days'           => '{0, plural, =1{# deň} other{# dni}}',
+   'months'         => '{0, plural, =1{# měsíc} other{# měsíce}}',
+   'weeks'          => '{0, plural, =1{# tyden} other{# týdny}}',
+   'days'           => '{0, plural, =1{# den} other{# dny}}',
    'hours'          => '{0, plural, =1{# hodina} other{# hodiny}}',
-   'minutes'        => '{0, plural, =1{# minúta} other{# minúty}}',
-   'seconds'        => '{0, plural, =1{# sekunda} other{# sekundy}}',
-   'ago'            => '{0} pred',
+   'minutes'        => '{0, plural, =1{# minuta} other{# minuty}}',
+   'seconds'        => '{0, plural, =1{# sekunda} other{# vteřiny}}',
+   'ago'            => '{0} před',
    'inFuture'       => 'za {0}',
    'yesterday'      => 'Včera',
-   'tomorrow'       => 'Zajtra',
-   'now'            => 'Práve teraz',
+   'tomorrow'       => 'Zítra',
+   'now'            => 'Právě teď',
 ];

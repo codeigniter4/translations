@@ -27,7 +27,7 @@
  * THE SOFTWARE.
  *
  * @package    CodeIgniter
- * @author     Jozef Botka - xbotkaj on Github
+ * @author     Pavel Tajduš - PavelTajdus on Github
  * @copyright  2019-2020 CodeIgniter Foundation
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
@@ -38,44 +38,44 @@
  */
 
 return [
-	// Migration Runner
-   'missingTable'      => 'Musí byť nastavená tabuľka migrácií.',
-//   'invalidType'       => 'Bol zadaný neplatný typ číslovania migrácie: {0}',
-   'disabled'          => 'Migrácie boli načítané, ale sú deaktivované alebo nesprávne nastavené.',
-   'notFound'          => 'Migračný súbor nebol nájdený: ',
-   'batchNotFound'     => 'Target batch not found: ',
-   'empty'             => 'Nenašli sa žiadne migračné súbory',
-   'gap'               => 'V migračnej sekvencii pri čísle verzie je medzera: ',
-   'classNotFound'     => 'Migračnú triedu "%s" sa nepodarilo nájsť.',
-   'missingMethod'     => 'V migračnej triede chýba metóda "%s".',
+    // Migration Runner
+   'missingTable'      => 'Musí byť nastavená tabulka migrací.',
+   'invalidType'       => 'Bol zadán neplatný typ číslování migrace: {0}',
+   'disabled'          => 'Migrace byly načteny, ale jsou deaktivované nebo špatně nastavené.',
+   'notFound'          => 'Migrační soubor nebyl nalezen: ',
+   'batchNotFound'     => 'Cílová dávka nebyla nalezena: ',
+   'empty'             => 'Nenalezeny žádné migrační soubory',
+   'gap'               => 'V migrační sekvenci u čísle verze je mezera: ',
+   'classNotFound'     => 'Migrační třídu "%s" se nepodařilo najít.',
+   'missingMethod'     => 'V migrační třídě chybí metoda "%s".',
 
-	// Migration Command
-   'migHelpLatest'     => "\t\tMigruje databázu na najnovšiu dostupnú migráciu.",
-   'migHelpCurrent'    => "\t\tMigruje databázu na verziu nastavenú ako aktuálnu v konfigurácii.",
-   'migHelpVersion'    => "\tMigruje databázu na verziu {v}.",
-   'migHelpRollback'   => "\tSpustí všetky migrácie 'nadol' na verziu 0.",
-   'migHelpRefresh'    => "\t\tOdinštaluje a znovu spustí všetky migrácie do novej databázy.",
-   'migHelpSeed'       => "\tSpustí seeder s menom [ name ].",
-   'migCreate'         => "\tVytvorí novú migráciu s názvom [ name ]",
-   'nameMigration'     => 'Pomenujte migračný súbor',
-   'badCreateName'     => 'Musíte zadať názov migračného súboru.',
-   'writeError'        => 'Chyba pri vytváraní súboru.',
-   'migNumberError'    => 'Migračné číslo musí byť tri číslice a v sekvencii nesmú byť medzery.',
+    // Migration Command
+   'migHelpLatest'     => "\t\tMigruje databázi na nejnovější dostupnou migraci.",
+   'migHelpCurrent'    => "\t\tMigruje databázi na verzi nastavenou v konfiguraci jako aktuální.",
+   'migHelpVersion'    => "\tMigruje databázi na verzi {v}.",
+   'migHelpRollback'   => "\tSpustí všechny migrace vrácením na verzi 0.",
+   'migHelpRefresh'    => "\t\tOdinstaluje a znovu spustí všechny migrace do nové databáze.",
+   'migHelpSeed'       => "\tSpustí seeder se jménem [ name ].",
+   'migCreate'         => "\tVytvoří novou migraci s názvem [ name ]",
+   'nameMigration'     => 'Pojmenujte migrační soubor',
+   'badCreateName'     => 'Musíte zadať název migračního souboru.',
+   'writeError'        => 'Chyba při vytváření souboru.',
+   'migNumberError'    => 'migrační číslo musí být tři číslice a v sekvenci nesmí být mezery.',
 
-//   'toLatest'          => 'Prebieha migrácia na najnovšiu verziu...',
-   'latest'            => 'Running all new migrations...',
-   'generalFault'      => 'Migration failed!',
-   'migInvalidVersion' => 'Zadané neplatné číslo verzie.',
-   'toVersionPH'       => 'Prebieha migrácia na verziu %s ...',
-   'toVersion'         => 'Prebieha migrácia na aktuálnu verziu ...',
-   'rollingBack'       => 'Vracajú sa späť všetky migrácie ...',
-   'noneFound'         => 'Nenašli sa žiadne migrácie.',
-   'on'                => 'Zmigraované na: ',
-   'migSeeder'         => 'Meno seederu',
-   'migMissingSeeder'  => 'Musíte zadať meno seederu.',
-   'removed'           => 'Vraciam: ',
-   'added'             => 'Beží: ',
+   'toLatest'          => 'Probíhá migrace na nejnovější verzi...',
+   'latest'            => 'Spouštění všech nových migrací...',
+   'generalFault'      => 'Migrace selhala!',
+   'migInvalidVersion' => 'Zadáno neplatné číslo verze.',
+   'toVersionPH'       => 'Probíhá migrace na verzi %s ...',
+   'toVersion'         => 'Probíhá migrace na aktuální verzi ...',
+   'rollingBack'       => 'Vracejí se zpět všechny migrace ...',
+   'noneFound'         => 'Nenašly se žádné migrace.',
+   'on'                => 'Zmigrováno na: ',
+   'migSeeder'         => 'Jméno seederu',
+   'migMissingSeeder'  => 'Musíte zadat jméno seederu.',
+   'removed'           => 'Vracím: ',
+   'added'             => 'Běží: ',
 
-   'version'           => 'Verzia',
-   'filename'          => 'Názov súboru',
+   'version'           => 'Verze',
+   'filename'          => 'Název souboru',
 ];

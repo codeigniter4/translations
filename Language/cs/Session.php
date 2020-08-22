@@ -27,7 +27,7 @@
  * THE SOFTWARE.
  *
  * @package    CodeIgniter
- * @author     Jozef Botka - xbotkaj on Github
+ * @author     Pavel Tajduš - PavelTajdus on Github
  * @copyright  2019-2020 CodeIgniter Foundation
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
@@ -38,9 +38,9 @@
  */
 
 return [
-   'missingDatabaseTable'   => '`sessionSavePath` musí mať tabuľku aby pracoval Database Session Handler.',
-   'invalidSavePath'        => 'Session: Nastavená cesta uloženia "{0}" nie je zložka, neexistuje alebo nemôže byť vytvorená.',
-   'writeProtectedSavePath' => 'Session: Nastavená cesta uloženia "{0}" nie je zapisovateľná cez PHP proces.',
-   'emptySavePath'          => 'Session: Nie je nastavená cesta na uloženie.',
+   'missingDatabaseTable'   => '`sessionSavePath` musí mít tabulku aby pracoval Database Session Handler.',
+   'invalidSavePath'        => 'Session: Nastavená cesta uložení "{0}" není složka, neexistuje, nebo nemůže být vytvořena.',
+   'writeProtectedSavePath' => 'Session: Nastavená cesta uložení "{0}" není zapisovatelná skrze PHP proces.',
+   'emptySavePath'          => 'Session: není nastavená cesta pro uložení.',
    'invalidSavePathFormat'  => 'Session: Neplatný formát Redis cesty: {0}',
 ];

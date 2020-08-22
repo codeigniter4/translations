@@ -27,7 +27,7 @@
  * THE SOFTWARE.
  *
  * @package    CodeIgniter
- * @author     Jozef Botka - xbotkaj on Github
+ * @author     Pavel Tajduš - PavelTajdus on Github
  * @copyright  2019-2020 CodeIgniter Foundation
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
@@ -38,58 +38,58 @@
  */
 
 return [
-	// Core Messages
-   'noRuleSets'            => 'No rulesets specified in Validation configuration.',
+    // Core Messages
+   'noRuleSets'            => 'V konfiguraci ověření nebyly zadány žádné sady pravidel.',
    'ruleNotFound'          => '{0} je neplatné pravidlo.',
-   'groupNotFound'         => '{0} nie je skupina overovacích pravidiel..',
-   'groupNotArray'         => '{0} skupina pravididel musí byť pole.',
-   'invalidTemplate'       => '{0} je neplatná Validation predloha.',
+   'groupNotFound'         => '{0} není skupina ověřovacích pravidiel..',
+   'groupNotArray'         => '{0} skupina pravidel musí být pole.',
+   'invalidTemplate'       => '{0} je neplatná Validation předloha.',
 
-	// Rule Messages
-   'alpha'                 => 'Pole {field} môže obsahovať iba abecedné znaky.',
-   'alpha_dash'            => 'Pole {field} môže obsahovať iba alfanumerické znaky, podtržníky a pomlčky.',
-   'alpha_numeric'         => 'Pole {field} môže obsahovať iba alfanumerické znaky.',
-   'alpha_numeric_space'   => 'Pole {field} môže obsahovať iba alfanumerické znaky a medzery.',
-   'alpha_space'           => 'Pole {field} môže obsahovať iba abecedné znaky a medzery.',
-   'decimal'               => 'Pole {field} musí obsahovať decimálne číslo.',
-   'differs'               => 'Pole {field} musí byť rozdielne od poľa {param}.',
-   'equals'                => 'Pole {field} musí byť presne: {param}.',
-   'exact_length'          => 'Pole {field} musí byť presne {param} znakov dlhé.',
-   'greater_than'          => 'Pole {field} musí obsahovať číslo väčšie ako {param}.',
-   'greater_than_equal_to' => 'Pole {field} musí obsahovať číslo väčšie alebo rovné ako {param}.',
-   'in_list'               => 'Pole {field} musí byť jedno z: {param}.',
-   'integer'               => 'Pole {field} musí obsahovať celé číslo.',
-   'is_natural'            => 'Pole {field} musí obsahovať iba číslice.',
-   'is_natural_no_zero'    => 'Pole {field} musí obsahovať iba číslice a musí byť väčšie ako nula.',
-   'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
-   'is_unique'             => 'Pole {field} musí obsahovať unikátnu hodnotu.',
-   'less_than'             => 'Pole {field} musí obsahovať číslo menšie ako {param}.',
-   'less_than_equal_to'    => 'Pole {field} musí obsahovať číslo menšie alebo rovné ako {param}.',
-   'matches'               => 'Pole {field} sa nezhoduje s poľom {param}.',
-   'max_length'            => 'Pole {field} nemôže prekročiť počet znakov: {param}.',
-   'min_length'            => 'Pole {field} musí byť dlhšie ako {param} znaky.',
-   'not_equals'            => 'Pole {field} nemôže byť: {param}.',
-   'numeric'               => 'Pole {field} musí obsahovať iba čísla.',
-   'regex_match'           => 'Pole {field} má nesprávny formát.',
+    // Rule Messages
+   'alpha'                 => 'Pole {field} může obsahovat pouze abecední znaky.',
+   'alpha_dash'            => 'Pole {field} může obsahovat pouze alfanumerické znaky, podtržítka a pomlčky.',
+   'alpha_numeric'         => 'Pole {field} může obsahovat pouze alfanumerické znaky.',
+   'alpha_numeric_space'   => 'Pole {field} může obsahovat pouze alfanumerické znaky a mezery.',
+   'alpha_space'           => 'Pole {field} může obsahovat pouze abecední znaky a mezery.',
+   'decimal'               => 'Pole {field} musí obsahovat decimální číslo.',
+   'differs'               => 'Pole {field} musí být rozdílné než pole {param}.',
+   'equals'                => 'Pole {field} musí být přesně: {param}.',
+   'exact_length'          => 'Pole {field} musí být přesně {param} znaků dlouhé.',
+   'greater_than'          => 'Pole {field} musí obsahovat číslo větší než {param}.',
+   'greater_than_equal_to' => 'Pole {field} musí obsahovat číslo větší nebo rovno než {param}.',
+   'in_list'               => 'Pole {field} musí být jedno z: {param}.',
+   'integer'               => 'Pole {field} musí obsahovat celé číslo.',
+   'is_natural'            => 'Pole {field} musí obsahovat pouze číslice.',
+   'is_natural_no_zero'    => 'Pole {field} musí obsahovat pouze číslice a musí být větší než nula.',
+   'is_not_unique'         => 'Pole {field} musí obsahovat dříve existující hodnotu v databázi.',
+   'is_unique'             => 'Pole {field} musí obsahovat unikátní hodnotu.',
+   'less_than'             => 'Pole {field} musí obsahovat číslo menší než {param}.',
+   'less_than_equal_to'    => 'Pole {field} musí obsahovat číslo menší nebo rovno než {param}.',
+   'matches'               => 'Pole {field} sa neshoduje s polem {param}.',
+   'max_length'            => 'Pole {field} nemůže překročit počet znaků: {param}.',
+   'min_length'            => 'Pole {field} musí být delší než {param} znaky/ů.',
+   'not_equals'            => 'Pole {field} nemůže být: {param}.',
+   'numeric'               => 'Pole {field} musí obsahovat pouze čísla.',
+   'regex_match'           => 'Pole {field} má nesprávný formát.',
    'required'              => 'Pole {field} je povinné.',
-   'required_with'         => 'Pole {field} je povinné ak {param} je zadaný.',
-   'required_without'      => 'Pole {field} je povinné ak {param} nie je zadaný.',
-   'timezone'              => 'Pole {field} musí byť platná časová zóna.',
-   'valid_base64'          => 'Pole {field} musí byť platný base64 reťazec.',
-   'valid_email'           => 'Pole {field} musí obsahovať platnú emailovú adresu.',
-   'valid_emails'          => 'Pole {field} musí obsahovať iba platné emailové adresy.',
-   'valid_ip'              => 'Pole {field} musí obsahovať platnú IP adresu.',
-   'valid_url'             => 'Pole {field} musí obsahovať platnú URL adresu.',
-   'valid_date'            => 'Pole {field} musí obsahovať platný dátum.',
+   'required_with'         => 'Pole {field} je povinné pokud {param} je zadán.',
+   'required_without'      => 'Pole {field} je povinné pokud {param} není zadán.',
+   'timezone'              => 'Pole {field} musí být platná časová zóna.',
+   'valid_base64'          => 'Pole {field} musí být platný base64 řetězec.',
+   'valid_email'           => 'Pole {field} musí obsahovat platnou emailovú adresu.',
+   'valid_emails'          => 'Pole {field} musí obsahovat pouze platné emailové adresy.',
+   'valid_ip'              => 'Pole {field} musí obsahovat platnou IP adresu.',
+   'valid_url'             => 'Pole {field} musí obsahovat platnou URL adresu.',
+   'valid_date'            => 'Pole {field} musí obsahovat platné datum.',
 
-	// Credit Cards
-   'valid_cc_num'          => '{field} sa nezdá byť platné číslo kreditnej/debetnej karty.',
+    // Credit Cards
+   'valid_cc_num'          => '{field} sa nezdá být platné číslo kreditní/debetní karty.',
 
-	// Files
-   'uploaded'              => '{field} je neplatný nahraný súbor.',
-   'max_size'              => '{field} je príliš veľký súbor.',
-   'is_image'              => '{field} je neplatný nahraný obrázok.',
+    // Files
+   'uploaded'              => '{field} je neplatný nahraný soubor.',
+   'max_size'              => '{field} je příliš velký soubor.',
+   'is_image'              => '{field} je neplatný nahraný obrázek.',
    'mime_in'               => '{field} nemá platný mime typ.',
-   'ext_in'                => '{field} je neplatný typ súboru.',
-   'max_dims'              => '{field} nie je obrázok alebo je príliš široký alebo vysoký.',
+   'ext_in'                => '{field} je neplatný typ souboru.',
+   'max_dims'              => '{field} není obrázek, nebo je příliš široký nebo vysoký.',
 ];

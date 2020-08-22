@@ -27,7 +27,7 @@
  * THE SOFTWARE.
  *
  * @package    CodeIgniter
- * @author     Jozef Botka - xbotkaj on Github
+ * @author     Pavel Tajduš - PavelTajdus on Github
  * @copyright  2019-2020 CodeIgniter Foundation
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
@@ -38,22 +38,22 @@
  */
 
 return [
-   'sourceImageRequired'    => 'Musíte uviesť zdrojový obrázok v preferenciách.',
-   'gdRequired'             => 'Na použitie tejto funkcie je potrebná knižnica obrázkov GD.',
-   'gdRequiredForProps'     => 'Server musí podporovať knižnicu obrázkov GD, aby určil vlastnosti obrázkov.',
-   'gifNotSupported'        => 'Obrázky GIF často nie sú podporované kvôli licenčným obmedzeniam. Možno budete musieť namiesto toho použiť obrázky JPG alebo PNG.',
-   'jpgNotSupported'        => 'Obrázky JPG nie sú podporované.',
-   'pngNotSupported'        => 'Obrázky PNG nie sú podporované.',
-   'unsupportedImageCreate' => 'Váš server nepodporuje funkciu GD potrebnú na spracovanie tohto typu obrázka.',
-   'jpgOrPngRequired'       => 'Protokol o zmene veľkosti obrázka špecifikovaný vo vašich preferenciách funguje iba pre typy obrázkov JPEG alebo PNG.',
-   'rotateUnsupported'      => 'Zdá sa, že váš server nepodporuje rotáciu obrázkov.',
-   'libPathInvalid'         => 'Cesta do vašej knižnice obrázkov nie je správna. Nastavte správnu cestu v preferenciách obrázkov. {0, string)',
-   'imageProcessFailed'     => 'Spracovanie obrázku zlyhalo. Skontrolujte, či váš server podporuje zvolený protokol a či je cesta k vašej knižnici obrázkov správna.',
-   'rotationAngleRequired'  => 'Na otočenie obrázku je potrebný uhol rotácie.',
-   'invalidPath'            => 'Cesta k obrázku nie je správna.',
-   'copyFailed'             => 'Rutina kopírovania obrázkov zlyhala.',
-   'missingFont'            => 'Nie je možné nájsť písmo na použitie.',
-   'saveFailed'             => 'Obrázok sa nepodarilo uložiť. Uistite sa, že adresár obrázkov a súborov je zapisovateľný.',
-   'invalidDirection'       => 'Smer preklopenia môže byť iba "vertikálny" alebo "horizontálny". Zadané: {0}',
-   'exifNotSupported'       => 'Táto inštalácia PHP nepodporuje čítanie EXIF dát.',
+   'sourceImageRequired'    => 'Musíte uvést zdrojový obrázek v nastavení.',
+   'gdRequired'             => 'Na použití této funkce je potřeba obrázková knihovna GD.',
+   'gdRequiredForProps'     => 'Server musí podporovat obrázkovou knihovnu GD, aby určil vlastnosti obrázků.',
+   'gifNotSupported'        => 'Obrázky GIF nejsou často podporovány kvůli licenčním omezením. Možno budete muset místo toho použít obrázky JPG nebo PNG.',
+   'jpgNotSupported'        => 'Obrázky JPG nejsou podporovány.',
+   'pngNotSupported'        => 'Obrázky PNG nejsou podporovány.',
+   'unsupportedImageCreate' => 'Váš server nepodporuje funkci GD potřebnou pro zpracování tohoto typu obrázku.',
+   'jpgOrPngRequired'       => 'Protokol pro změnu velikost obrázku specifikovaný ve vašem nastavení funguje pouze pro typy obrázků JPEG nebo PNG.',
+   'rotateUnsupported'      => 'Zdá se, že váš server nepodporuje otáčení obrázků.',
+   'libPathInvalid'         => 'Cesta k vaší knihovně obrázků není správná. Nastavte správnou cestu v nastavení obrázků. {0, string)',
+   'imageProcessFailed'     => 'Zpracování obrázku selhalo. Zkontrolujte, zda váš server podporuje zvolený protokol a zda je cesta k vaší knihovně obrázkov správna.',
+   'rotationAngleRequired'  => 'Na otočení obrázku je potřeba úhel rotace.',
+   'invalidPath'            => 'Cesta k obrázku není správná.',
+   'copyFailed'             => 'Rutina kopírování obrázků selhala.',
+   'missingFont'            => 'není možné nalézt písmo pro použití.',
+   'saveFailed'             => 'Obrázek se nepodařilo uložit. Ujistěte se, že adresář obrázků a souborů je zapisovatelný.',
+   'invalidDirection'       => 'Směr překlopení může být pouze "vertikální" nebo "horizontální". Zadáno: {0}',
+   'exifNotSupported'       => 'Tato instalace PHP nepodporuje čtení EXIF dat.',
 ];

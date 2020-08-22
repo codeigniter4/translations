@@ -39,5 +39,5 @@
 
 return [
    'invalidJSON'      => 'Parsování JSON řetězce selhalo, chyba: "{0}".',
-   'missingExtension' => 'Rozšíření SimpleXML je nevyhnutné pre XML formát.',
+   'missingExtension' => 'Rozšíření SimpleXML je nezbytné pro XML formát.',
 ];

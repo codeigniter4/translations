@@ -38,6 +38,6 @@
  */
 
 return [
-   'invalidParameter'    => 'Parameter sa nezhoduje s očakávaným typom.',
-   'missingDefaultRoute' => 'Nemôžné určiť, čo by malo byť zobrazené. Predvolená cesta nebola špecifikovaná v routing súbore.',
+   'invalidParameter'    => 'Parameter se neshoduje s očekávaným typem.',
+   'missingDefaultRoute' => 'Není možné určit co má být zobrazeno. Zvolená cesta nebyla specifikována v routing souboru.',
 ];

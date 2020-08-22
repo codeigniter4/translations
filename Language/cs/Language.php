@@ -27,7 +27,7 @@
  * THE SOFTWARE.
  *
  * @package    CodeIgniter
- * @author     Jozef Botka - xbotkaj on Github
+ * @author     Pavel Tajduš - PavelTajdus on Github
  * @copyright  2019-2020 CodeIgniter Foundation
  * @license    https://opensource.org/licenses/MIT	MIT License
  * @link       https://codeigniter.com
@@ -38,5 +38,5 @@
  */
 
 return [
-   'languageGetLineInvalidArgumentException' => 'Get line musí byť reťazec alebo pole reťazcov.',
+   'languageGetLineInvalidArgumentException' => 'Get line musí být řetězec nebo pole řetězců.',
 ];
