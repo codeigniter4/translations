@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Encryption language strings.
+ * Cast language strings.
  *
  * This content is released under the MIT License (MIT)
  *
@@ -38,10 +38,10 @@
  */
 
 return [
-   'noDriverRequested'    => 'Требуется подключить драйвер шифрования.',
-   'noHandlerAvailable'   => 'Не удается найти доступный обработчик шифрования {0}.',
-   'unKnownHandler'       => 'Обработчик "{0}" не может быть настроен.',
-   'starterKeyNeeded'     => 'Для шифрования требуется указать секретный ключ',
-   'authenticationFailed' => 'Ошибка: Не удалось выполнить проверку подлинности.',
-   'encryptionFailed'     => 'Сбой шифрования.',
+   'jsonErrorDepth'         => 'Перевищено максимальну глибину стеку',
+   'jsonErrorStateMismatch' => 'Недостатній потік або невідповідність режимів',
+   'jsonErrorCtrlChar'      => 'Знайдено неочікуваний контрольний символ',
+   'jsonErrorSyntax'        => 'Синтаксична помилка, неправильний формат JSON',
+   'jsonErrorUtf8'          => 'Неправильні символи UTF-8, можливо, неправильно закодовані',
+   'jsonErrorUnknown'       => 'Невідома помилка',
 ];

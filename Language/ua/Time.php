@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Encryption language strings.
+ * Time language strings.
  *
  * This content is released under the MIT License (MIT)
  *
@@ -29,7 +29,7 @@
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
  * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
+ * @license    https://opensource.org/licenses/MIT MIT License
  * @link       https://codeigniter.com
  * @since      Version 4.0.0
  * @filesource
@@ -38,10 +38,22 @@
  */
 
 return [
-   'noDriverRequested'    => 'Требуется подключить драйвер шифрования.',
-   'noHandlerAvailable'   => 'Не удается найти доступный обработчик шифрования {0}.',
-   'unKnownHandler'       => 'Обработчик "{0}" не может быть настроен.',
-   'starterKeyNeeded'     => 'Для шифрования требуется указать секретный ключ',
-   'authenticationFailed' => 'Ошибка: Не удалось выполнить проверку подлинности.',
-   'encryptionFailed'     => 'Сбой шифрования.',
+   'invalidMonth'   => 'Місяці повинні бути від 1 до 12. Вказано: {0}',
+   'invalidDay'     => 'Дні повинні бути від 1 до 31. Вказано: {0}',
+   'invalidOverDay' => 'Дні повинні бути від 1 до {0}. Вказано: {1}',
+   'invalidHours'   => 'Години повинні бути від 0 до 23. Вказано: {0}',
+   'invalidMinutes' => 'Хвилини повинні бути від 0 до 59. Вказано: {0}',
+   'invalidSeconds' => 'Секунди повинні бути від 0 до 59. Вказано: {0}',
+   'years'          => '{0, plural, =1{# рік} other{# років}}',
+   'months'         => '{0, plural, =1{# місяць} other{# місяців}}',
+   'weeks'          => '{0, plural, =1{# тиждень} other{# тижнів}}',
+   'days'           => '{0, plural, =1{# день} other{# днів}}',
+   'hours'          => '{0, plural, =1{# година} other{# годин}}',
+   'minutes'        => '{0, plural, =1{# хвилина} other{# хвилин}}',
+   'seconds'        => '{0, plural, =1{# секунда} other{# секунд}}',
+   'ago'            => '{0} тому',
+   'inFuture'       => 'в {0}',
+   'yesterday'      => 'Вчора',
+   'tomorrow'       => 'Завтра',
+   'now'            => 'Прямо зараз',
 ];

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Encryption language strings.
+ * View language strings.
  *
  * This content is released under the MIT License (MIT)
  *
@@ -38,10 +38,10 @@
  */
 
 return [
-   'noDriverRequested'    => 'Требуется подключить драйвер шифрования.',
-   'noHandlerAvailable'   => 'Не удается найти доступный обработчик шифрования {0}.',
-   'unKnownHandler'       => 'Обработчик "{0}" не может быть настроен.',
-   'starterKeyNeeded'     => 'Для шифрования требуется указать секретный ключ',
-   'authenticationFailed' => 'Ошибка: Не удалось выполнить проверку подлинности.',
-   'encryptionFailed'     => 'Сбой шифрования.',
+   'invalidCellMethod'     => '{class}::{method} не є допустимим методом.',
+   'missingCellParameters' => '{class}::{method} не має параметрів.',
+   'invalidCellParameter'  => '{0} не є допустимим іменем параметра.',
+   'noCellClass'           => 'Клас комірки перегляду не надано.',
+   'invalidCellClass'      => 'Не вдається знайти клас комірки перегляду: {0}.',
+   'tagSyntaxError'        => 'У вас є синтаксична помилка в тегах парсера: {0}',
 ];

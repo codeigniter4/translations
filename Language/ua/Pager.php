@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Encryption language strings.
+ * Pager language strings.
  *
  * This content is released under the MIT License (MIT)
  *
@@ -38,10 +38,13 @@
  */
 
 return [
-   'noDriverRequested'    => 'Требуется подключить драйвер шифрования.',
-   'noHandlerAvailable'   => 'Не удается найти доступный обработчик шифрования {0}.',
-   'unKnownHandler'       => 'Обработчик "{0}" не может быть настроен.',
-   'starterKeyNeeded'     => 'Для шифрования требуется указать секретный ключ',
-   'authenticationFailed' => 'Ошибка: Не удалось выполнить проверку подлинности.',
-   'encryptionFailed'     => 'Сбой шифрования.',
+   'pageNavigation'         => 'Пагінація',
+   'first'                  => 'Перша',
+   'previous'               => 'Попередня',
+   'next'                   => 'Наступна',
+   'last'                   => 'Остання',
+   'older'                  => 'Старіша',
+   'newer'                  => 'Новіша',
+   'invalidTemplate'        => '{0} не є допустимим шаблоном пагінації.',
+   'invalidPaginationGroup' => '{0} не є допустимою групою пагінації.',
 ];

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Encryption language strings.
+ * Number language strings.
  *
  * This content is released under the MIT License (MIT)
  *
@@ -29,7 +29,7 @@
  * @package    CodeIgniter
  * @author     CodeIgniter Dev Team
  * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
+ * @license    https://opensource.org/licenses/MIT MIT License
  * @link       https://codeigniter.com
  * @since      Version 4.0.0
  * @filesource
@@ -38,10 +38,16 @@
  */
 
 return [
-   'noDriverRequested'    => 'Требуется подключить драйвер шифрования.',
-   'noHandlerAvailable'   => 'Не удается найти доступный обработчик шифрования {0}.',
-   'unKnownHandler'       => 'Обработчик "{0}" не может быть настроен.',
-   'starterKeyNeeded'     => 'Для шифрования требуется указать секретный ключ',
-   'authenticationFailed' => 'Ошибка: Не удалось выполнить проверку подлинности.',
-   'encryptionFailed'     => 'Сбой шифрования.',
+   'terabyteAbbr' => 'ТБ',
+   'gigabyteAbbr' => 'ГБ',
+   'megabyteAbbr' => 'МБ',
+   'kilobyteAbbr' => 'КБ',
+   'bytes'        => 'Байтів',
+
+	// don't forget the space in front of these!
+   'thousand'     => ' тисяча',
+   'million'      => ' мільйон',
+   'billion'      => ' мільярд',
+   'trillion'     => ' трильйон',
+   'quadrillion'  => ' квадрильйон',
 ];

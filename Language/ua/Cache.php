@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Encryption language strings.
+ * Cache language strings.
  *
  * This content is released under the MIT License (MIT)
  *
@@ -38,10 +38,8 @@
  */
 
 return [
-   'noDriverRequested'    => 'Требуется подключить драйвер шифрования.',
-   'noHandlerAvailable'   => 'Не удается найти доступный обработчик шифрования {0}.',
-   'unKnownHandler'       => 'Обработчик "{0}" не может быть настроен.',
-   'starterKeyNeeded'     => 'Для шифрования требуется указать секретный ключ',
-   'authenticationFailed' => 'Ошибка: Не удалось выполнить проверку подлинности.',
-   'encryptionFailed'     => 'Сбой шифрования.',
+   'unableToWrite'   => 'Не вдається записати кеш в {0}',
+   'invalidHandlers' => 'В конфігурації кешу повинен бути масив $validHandlers.',
+   'noBackup'        => 'В конфігурації кешу повинен бути вказаний обробник (handler) і обробник бекапу (backupHandler).',
+   'handlerNotFound' => 'В конфігурації кешу вказаний невірний обробник (handler) або обробник бекапу (backupHandler).',
 ];

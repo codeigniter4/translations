@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Encryption language strings.
+ * Language language strings.
  *
  * This content is released under the MIT License (MIT)
  *
@@ -38,10 +38,5 @@
  */
 
 return [
-   'noDriverRequested'    => 'Требуется подключить драйвер шифрования.',
-   'noHandlerAvailable'   => 'Не удается найти доступный обработчик шифрования {0}.',
-   'unKnownHandler'       => 'Обработчик "{0}" не может быть настроен.',
-   'starterKeyNeeded'     => 'Для шифрования требуется указать секретный ключ',
-   'authenticationFailed' => 'Ошибка: Не удалось выполнить проверку подлинности.',
-   'encryptionFailed'     => 'Сбой шифрования.',
+   'languageGetLineInvalidArgumentException' => 'Отриманий рядок повинен бути рядком або масивом рядків.',
 ];

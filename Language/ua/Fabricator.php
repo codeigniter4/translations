@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Encryption language strings.
+ * Fabricator language strings.
  *
  * This content is released under the MIT License (MIT)
  *
@@ -38,10 +38,6 @@
  */
 
 return [
-   'noDriverRequested'    => 'Требуется подключить драйвер шифрования.',
-   'noHandlerAvailable'   => 'Не удается найти доступный обработчик шифрования {0}.',
-   'unKnownHandler'       => 'Обработчик "{0}" не может быть настроен.',
-   'starterKeyNeeded'     => 'Для шифрования требуется указать секретный ключ',
-   'authenticationFailed' => 'Ошибка: Не удалось выполнить проверку подлинности.',
-   'encryptionFailed'     => 'Сбой шифрования.',
+   'invalidModel'      => 'Для виготовлення представлена недійсна модель.',
+   'missingFormatters' => 'Не визначено допустимих форматорів.',
 ];

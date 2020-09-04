@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Encryption language strings.
+ * Session language strings.
  *
  * This content is released under the MIT License (MIT)
  *
@@ -38,10 +38,9 @@
  */
 
 return [
-   'noDriverRequested'    => 'Требуется подключить драйвер шифрования.',
-   'noHandlerAvailable'   => 'Не удается найти доступный обработчик шифрования {0}.',
-   'unKnownHandler'       => 'Обработчик "{0}" не может быть настроен.',
-   'starterKeyNeeded'     => 'Для шифрования требуется указать секретный ключ',
-   'authenticationFailed' => 'Ошибка: Не удалось выполнить проверку подлинности.',
-   'encryptionFailed'     => 'Сбой шифрования.',
+   'missingDatabaseTable'   => '`sessionSavePath` повинен містити назву таблиці для роботи сесій з базою даних.',
+   'invalidSavePath'        => 'Сесія: Налаштований шлях збереження "{0}" не є каталогом, не існує або не може бути створений.',
+   'writeProtectedSavePath' => 'Сесія: Налаштований шлях збереження "{0}" не доступний для запису процесом PHP.',
+   'emptySavePath'          => 'Сесія: Шлях збереження не налаштовано.',
+   'invalidSavePathFormat'  => 'Сесія: Недійсний формат шляху збереження Redis: {0}',
 ];
