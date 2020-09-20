@@ -41,4 +41,5 @@ return [
 	'copyError'        => 'Riscontrato un errore nel tentativo di riposizionare il file. Si prega di assicurarsi che la cartella dei file sia scrivibile.',
 	'missingExtension' => '{0} estensione non è caricata.',
 	'noHandlers'       => '{0} deve prevedere almeno un Gestore.',
+	'enabledZlibOutputCompression' => 'Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.',
 ];

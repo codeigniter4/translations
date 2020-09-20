@@ -39,6 +39,7 @@
 return [
 	'invalidFile'      => 'Arquivo inválido: {0}',
 	'copyError'        => 'Um erro foi encontrado ao tentar substituir o arquivo. Por favor, certifique-se de que seu diretório tem permissões de escrita.',
+	'enabledZlibOutputCompression' => 'A diretiva ini zlib.output_compression ini está ligada. Isto não irá funcionar com buffers de saída.',
 	'missingExtension' => 'A extensão {0} não está carregada.',
 	'noHandlers'       => '{0} deve fornecer pelo menos um handler.',
 ];

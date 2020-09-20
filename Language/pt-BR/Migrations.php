@@ -59,6 +59,8 @@ return [
 	'badCreateName'   => 'Você deve fornecer um nome de arquivo de migração.',
 	'writeError'      => 'Erro ao tentar criar arquivo.',
 	'migNumberError'  => 'O número da migração deve ter três dígitos e não deve haver lacunas na sequência.',
+	'rollBackConfirm'   => 'Are you sure you want to rollback?',
+	'refreshConfirm'    => 'Are you sure you want to refresh?',
 
 	'latest'          => 'Executando todas as novas migrações...',
 	'generalFault'      => 'Migração falhou!',

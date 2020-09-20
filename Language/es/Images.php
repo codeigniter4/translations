@@ -55,4 +55,5 @@ return [
 	'saveFailed'             => 'Incapaz de guardar la imagen. Por favor compruebe el archivo que la imagen y el directorio tienen permiso de escritura.',
 	'invalidDirection'       => 'La dirección de girado puede ser solo `vertical` o `horizontal`. Seleccionado: {0}',
 	'exifNotSupported'       => 'Leer datos EXIF no está soportado por esta instalación de PHP.',
+	'fileNotSupported'       => 'The supplied file is not a supported image type.',
 ];

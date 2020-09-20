@@ -43,6 +43,8 @@ return [
 	'gifNotSupported'        => 'Imagens GIF geralmente não são suportadas devido a restrições de licenciamento. Pode usar imagens JPG ou PNG.',
 	'jpgNotSupported'        => 'Imagens JPG não são suportadas.',
 	'pngNotSupported'        => 'Imagens PNG não são suportadas.',
+	'webpNotSupported'       => 'Imagens WEBP não são suportadas.',
+	'fileNotSupported'       => 'O ficheiro escolhido não se encontra num formato suportado.',
 	'unsupportedImageCreate' => 'O servidor não suporta a função GD necessária para processar este tipo de imagem.',
 	'jpgOrPngRequired'       => 'O protocolo de redimensionamento de imagem especificado nas suas preferências só funciona com os tipos de imagem JPEG ou PNG.',
 	'rotateUnsupported'      => 'A rotação de imagem não parece ser suportada pelo seu servidor.',
