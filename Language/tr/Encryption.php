@@ -37,10 +37,10 @@
  */
 
 return [
-   'noDriverRequested'    => 'No driver requested; Miss Daisy will be so upset!',
-   'noHandlerAvailable'   => 'Unable to find an available {0} encryption handler.',
-   'unKnownHandler'       => '"{0}" cannot be configured.',
-   'starterKeyNeeded'     => 'Encrypter needs a starter key.',
-   'authenticationFailed' => 'Decrypting: authentication failed.',
-   'encryptionFailed'     => 'Encryption failed.',
+   'noDriverRequested'    => 'Sürücü talep edilmedi; Bayan Daisy çok üzülecek!',
+   'noHandlerAvailable'   => 'Kullanılabilir bir {0} şifreleme işleyicisi bulunamıyor.',
+   'unKnownHandler'       => '"{0}" yapılandırılamaz.',
+   'starterKeyNeeded'     => 'Encrypter için bir başlangıç anahtarına ihtiyacı var.',
+   'authenticationFailed' => 'Şifre çözme: kimlik doğrulama başarısız oldu.',
+   'encryptionFailed'     => 'Şifreleme başarısız oldu.',
 ];

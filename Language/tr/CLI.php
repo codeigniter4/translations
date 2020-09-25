@@ -37,7 +37,7 @@
  * @codeCoverageIgnore
  */
 return [
-	'commandNotFound' => 'Command "{0}" not found.',
+	'commandNotFound' => '"{0}" komutu bulunamadı.',
 	'helpUsage'       => 'Kullanım:',
 	'helpDescription' => 'Açıklama:',
 	'helpOptions'     => 'Seçenekler:',

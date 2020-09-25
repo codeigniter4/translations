@@ -37,10 +37,10 @@
  */
 
 return [
-   'jsonErrorDepth'         => 'Maximum stack depth exceeded',
-   'jsonErrorStateMismatch' => 'Underflow or the modes mismatch',
-   'jsonErrorCtrlChar'      => 'Unexpected control character found',
-   'jsonErrorSyntax'        => 'Syntax error, malformed JSON',
-   'jsonErrorUtf8'          => 'Malformed UTF-8 characters, possibly incorrectly encoded',
-   'jsonErrorUnknown'       => 'Unknown error',
+   'jsonErrorDepth'         => 'Maksimum yığın derinliği aşıldı',
+   'jsonErrorStateMismatch' => 'Alt akış veya mod uyuşmazlığı',
+   'jsonErrorCtrlChar'      => 'Beklenmeyen kontrol karakteri bulundu',
+   'jsonErrorSyntax'        => 'Sözdizimi hatası, hatalı biçimlendirilmiş JSON dosyası.',
+   'jsonErrorUtf8'          => 'Hatalı biçimlendirilmiş UTF-8 karakterleri, muhtemelen yanlış kodlanmış',
+   'jsonErrorUnknown'       => 'Bilinmeyen hata',
 ];

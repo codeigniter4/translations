@@ -56,11 +56,11 @@ return [
 	'invalidRoute'               => '{0} geçersiz rota.',
 
 	// DownloadResponse
-	'cannotSetBinary'            => 'When setting filepath can not set binary.',
-	'cannotSetFilepath'          => 'When setting binary can not set filepath: {0}',
-	'notFoundDownloadSource'     => 'Not found download body source.',
-	'cannotSetCache'             => 'It does not supported caching for downloading.',
-	'cannotSetStatusCode'        => 'It does not supported chnage status code for downloading. code: {0}, reason: {1}',
+	'cannotSetBinary'            => 'Dosya yolunu ayarlarken binary türünden ayarlanamaz.',
+	'cannotSetFilepath'          => 'Binary türünden dosya ayarlarken dosya yolu ayarlanamaz: {0}',
+	'notFoundDownloadSource'     => 'İndirme gövde kaynağı bulunamadı.',
+	'cannotSetCache'             => 'İndirme önbelleğe almayı desteklemiyor.',
+	'cannotSetStatusCode'        => 'İndirme için değişiklik durum kodunu desteklemiyor. Kod : {0}, Neden : {1}',
 
 	// Response
 	'missingResponseStatus'      => 'HTTP Response durum kodu eksik.',
@@ -87,13 +87,13 @@ return [
 	'invalidFile'				 => 'Orijinal dosya geçersiz bir dosya.',
 	'moveFailed'				 => '{0} dosyası {1} ({2}) ye taşınamıyor.',
 
-	'uploadErrOk'                => 'The file uploaded with success.',
-	'uploadErrIniSize'           => 'The file "%s" exceeds your upload_max_filesize ini directive.',
-	'uploadErrFormSize'          => 'The file "%s" exceeds the upload limit defined in your form.',
-	'uploadErrPartial'           => 'The file "%s" was only partially uploaded.',
-	'uploadErrNoFile'            => 'No file was uploaded.',
-	'uploadErrCantWrite'         => 'The file "%s" could not be written on disk.',
-	'uploadErrNoTmpDir'          => 'File could not be uploaded: missing temporary directory.',
-	'uploadErrExtension'         => 'File upload was stopped by a PHP extension.',
-	'uploadErrUnknown'           => 'The file "%s" was not uploaded due to an unknown error.',
+	'uploadErrOk'                => 'Dosya başarıyla yüklendi.',
+	'uploadErrIniSize'           => '"%s" dosyası, upload_max_filesize ini yönergenizi aşıyor.',
+	'uploadErrFormSize'          => '"%s" dosyası, formunuzda tanımlanan yükleme sınırını aşıyor.',
+	'uploadErrPartial'           => '"%s" dosyası yalnızca kısmen yüklendi.',
+	'uploadErrNoFile'            => 'Dosya yüklenmedi.',
+	'uploadErrCantWrite'         => '"%s" dosyası diske yazılamadı.',
+	'uploadErrNoTmpDir'          => 'Dosya yüklenemedi: geçici dizin eksik.',
+	'uploadErrExtension'         => 'Dosya yükleme işlemi bir PHP eklentisi tarafından durduruldu.',
+	'uploadErrUnknown'           => 'Bilinmeyen bir hata nedeniyle "%s" dosyası yüklenmedi.',
 ];
