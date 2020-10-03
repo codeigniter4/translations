@@ -37,7 +37,6 @@
  * @codeCoverageIgnore
  */
 
-return
-[
-   'tryingToAccessNonExistentProperty' => 'Tentando acessar uma propriedade não existente {0} de {1}',
+return [
+	'tryingToAccessNonExistentProperty' => 'Tentando acessar uma propriedade não existente {0} de {1}',
 ];

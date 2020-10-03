@@ -54,5 +54,5 @@ return [
 	'inFuture'       => 'em {0}',
 	'yesterday'      => 'Ontem',
 	'tomorrow'       => 'Amanhã',
-	'now'            => 'Agora',
+	'now'            => 'Agora mesmo',
 ];

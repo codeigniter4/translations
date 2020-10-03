@@ -53,7 +53,7 @@ return [
 	'emptySupportedNegotiations' => 'Você deve fornecer uma array de valores suportados para todas as Negociações.',
 
 	// RedirectResponse
-	'invalidRoute'               => 'Rota {0} não foi encontrada ao fazer o roteamento-reverso.',
+	'invalidRoute'               => 'Rota {0, string} não foi encontrada ao fazer o roteamento-reverso.',
 
 	// DownloadResponse
 	'cannotSetBinary'            => 'Ao definir o caminho do arquivo não foi possível definir como binário.',
@@ -64,7 +64,7 @@ return [
 
 	// Response
 	'missingResponseStatus'      => 'Resposta HTTP está faltando um código de status',
-	'invalidStatusCode'          => '{0} não é um código de status de retorno HTTP válido',
+	'invalidStatusCode'          => '{0, string} não é um código de status de retorno HTTP válido',
 	'unknownStatusCode'          => 'Código de status HTTP desconhecido fornecido sem nenhuma mensagem: {0}',
 
 	// URI
@@ -87,13 +87,16 @@ return [
 	'invalidFile'                => 'O arquivo original não é um arquivo válido.',
 	'moveFailed'                 => 'Não foi possível mover o arquivo {0} para {1} ({2})',
 
-	'uploadErrOk'                => 'O upload do arquivo foi realizado com sucesso.',
-	'uploadErrIniSize'           => 'O arquivo "%s" excede a diretiva ini upload_max_filesize.',
-	'uploadErrFormSize'          => 'O arquivo "%s" excede o limite de upload definido em seu formulário.',
-	'uploadErrPartial'           => 'O upload do arquivo "%s" foi realizado apenas parcialmente.',
-	'uploadErrNoFile'            => 'Nenhum upload de arquivo foi realizado.',
-	'uploadErrCantWrite'         => 'O arquivo "%s" não pode ser escrito no disco.',
-	'uploadErrNoTmpDir'          => 'Upload de arquivo não pode ser realizado: faltando diretório temporário.',
-	'uploadErrExtension'         => 'Upload de arquivo foi parado por uma extensão PHP.',
-	'uploadErrUnknown'           => 'O upload do arquivo "%s" não foi realizado devido a um erro desconhecido.',
+	'uploadErrOk'            => 'O upload do arquivo foi realizado com sucesso.',
+	'uploadErrIniSize'       => 'O arquivo "%s" excede a diretiva ini upload_max_filesize.',
+	'uploadErrFormSize'      => 'O arquivo "%s" excede o limite de upload definido em seu formulário.',
+	'uploadErrPartial'       => 'O upload do arquivo "%s" foi realizado apenas parcialmente.',
+	'uploadErrNoFile'        => 'Nenhum upload de arquivo foi realizado.',
+	'uploadErrCantWrite'     => 'O arquivo "%s" não pode ser escrito no disco.',
+	'uploadErrNoTmpDir'      => 'Upload de arquivo não pode ser realizado: faltando diretório temporário.',
+	'uploadErrExtension'     => 'Upload de arquivo foi parado por uma extensão PHP.',
+	'uploadErrUnknown'       => 'O upload do arquivo "%s" não foi realizado devido a um erro desconhecido.',
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'A configuração SameSite deve ser None, Lax, Strict ou uma string vazia. Dado: {0}',
 ];
