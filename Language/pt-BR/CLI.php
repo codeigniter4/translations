@@ -39,7 +39,7 @@
 return [
 	'commandNotFound'     => 'Comando "{0}" não foi encontrado.',
 	'altCommandSingular'  => 'Você quis dizer isso?',
-	'altCommandPlural'    => 'Você quis dizer um desses??',
+	'altCommandPlural'    => 'Você quis dizer um desses?',
 	'helpUsage'           => 'Uso:',
 	'helpDescription'     => 'Descrição:',
 	'helpOptions'         => 'Opções:',
