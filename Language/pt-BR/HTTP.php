@@ -87,13 +87,16 @@ return [
 	'invalidFile'                => 'O arquivo original não é um arquivo válido.',
 	'moveFailed'                 => 'Não foi possível mover o arquivo {0} para {1} ({2})',
 
-	'uploadErrOk'                => 'O upload do arquivo foi realizado com sucesso.',
-	'uploadErrIniSize'           => 'O arquivo "%s" excede a diretiva ini upload_max_filesize.',
-	'uploadErrFormSize'          => 'O arquivo "%s" excede o limite de upload definido em seu formulário.',
-	'uploadErrPartial'           => 'O upload do arquivo "%s" foi realizado apenas parcialmente.',
-	'uploadErrNoFile'            => 'Nenhum upload de arquivo foi realizado.',
-	'uploadErrCantWrite'         => 'O arquivo "%s" não pode ser escrito no disco.',
-	'uploadErrNoTmpDir'          => 'Upload de arquivo não pode ser realizado: faltando diretório temporário.',
-	'uploadErrExtension'         => 'Upload de arquivo foi parado por uma extensão PHP.',
-	'uploadErrUnknown'           => 'O upload do arquivo "%s" não foi realizado devido a um erro desconhecido.',
+	'uploadErrOk'            => 'O upload do arquivo foi realizado com sucesso.',
+	'uploadErrIniSize'       => 'O arquivo "%s" excede a diretiva ini upload_max_filesize.',
+	'uploadErrFormSize'      => 'O arquivo "%s" excede o limite de upload definido em seu formulário.',
+	'uploadErrPartial'       => 'O upload do arquivo "%s" foi realizado apenas parcialmente.',
+	'uploadErrNoFile'        => 'Nenhum upload de arquivo foi realizado.',
+	'uploadErrCantWrite'     => 'O arquivo "%s" não pode ser escrito no disco.',
+	'uploadErrNoTmpDir'      => 'Upload de arquivo não pode ser realizado: faltando diretório temporário.',
+	'uploadErrExtension'     => 'Upload de arquivo foi parado por uma extensão PHP.',
+	'uploadErrUnknown'       => 'O upload do arquivo "%s" não foi realizado devido a um erro desconhecido.',
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'A configuração SameSite deve ser None, Lax, Strict ou uma string vazia. Dado: {0}',
 ];
