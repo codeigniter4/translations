@@ -38,6 +38,6 @@
  */
 
 return [
-   'invalidJSON'      => 'JSON 문자열 파싱 실패, 에러: "{0}".', // 'Failed to parse json string, error: "{0}".',
+   'invalidJSON'      => 'JSON 문자열 파싱 실패, 오류: "{0}".', // 'Failed to parse json string, error: "{0}".',
    'missingExtension' => 'XML 형식을 지정하려면 SimpleXML 확장이 필요합니다.', // 'The SimpleXML extension is required to format XML.',
 ];

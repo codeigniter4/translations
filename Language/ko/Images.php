@@ -49,7 +49,7 @@ return [
    'jpgOrPngRequired'       => '환경 설정에 명시된 이미지 크기 조절 프로토콜은 JPEG 또는 PNG 타입의 이미지만 조절할 수 있습니다.', // 'The image resize protocol specified in your preferences only works with JPEG or PNG image types.',
    'rotateUnsupported'      => '서버에서 이미지 회원을 지원하지 않는 것 같습니다.', // 'Image rotation does not appear to be supported by your server.',
    'libPathInvalid'         => '이미지 라이브러리 경로가 올바르지 않습니다. 올바른 경로를 이미지 환경설정에서 설정하여 주십시오. {0, string)', // 'The path to your image library is not correct. Please set the correct path in your image preferences. {0, string)',
-   'imageProcessFailed'     => '이미지 처리 실패. 이미지 라이브러리의 경로가 올바르게 설정되어있는, 선택한 프로토콜이 서버에서 지원하도록 확인하여 주십시오.', // 'Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.',
+   'imageProcessFailed'     => '이미지 처리 실패. 이미지 라이브러리의 경로가 올바르게 설정 되어있는, 선택한 프로토콜이 서버에서 지원하도록 확인하여 주십시오.', // 'Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.',
    'rotationAngleRequired'  => '이미지를 회전시키기 위해서 회전 각도가 필요합니다.', // 'An angle of rotation is required to rotate the image.',
    'invalidPath'            => '이미지 경로가 올바르지 않습니다.', // 'The path to the image is not correct.',
    'copyFailed'             => '해당 이미지의 복사 루틴이 실패했습니다.', // 'The image copy routine failed.',

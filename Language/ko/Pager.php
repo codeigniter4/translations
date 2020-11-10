@@ -38,13 +38,13 @@
  */
 
 return [
-   'pageNavigation'         => '페이지 내비게이션', // 'Page navigation',
+   'pageNavigation'         => '페이지 네비게이션', // 'Page navigation',
    'first'                  => '처음', // 'First',
    'previous'               => '이전', // 'Previous',
    'next'                   => '다음', // 'Next',
-   'last'                   => '마지막', // 'Last',
-   'older'                  => '과거', // 'Older',
+   'last'                   => '끝', // 'Last',
+   'older'                  => '오래된', // 'Older',
    'newer'                  => '최근', // 'Newer',
-   'invalidTemplate'        => '{0}의 경우는 유효하지 않은 Pager 템플릿입니다.', // '{0} is not a valid Pager template.',
-   'invalidPaginationGroup' => '{0}의 경우는 유효하지 않은 Pagination 그룹입니다.', // '{0} is not a valid Pagination group.',
+   'invalidTemplate'        => '{0}의 경우는 유효하지 않은 페이저 템플릿입니다.', // '{0} is not a valid Pager template.',
+   'invalidPaginationGroup' => '{0}의 경우는 유효하지 않은 페이지네이션 그룹입니다.', // '{0} is not a valid Pagination group.',
 ];

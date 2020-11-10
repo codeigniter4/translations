@@ -39,11 +39,11 @@
 
 return [
 	// Core Messages
-   'noRuleSets'            => 'Validation 설정에서 지정된 규칙 집합이 없습니다.', // 'No rulesets specified in Validation configuration.',
+   'noRuleSets'            => '검증 설정에서 지정된 규칙 집합이 없습니다.', // 'No rulesets specified in Validation configuration.',
    'ruleNotFound'          => '{0} 경우는 유효한 규칙이 아닙니다.', // '{0} is not a valid rule.',
    'groupNotFound'         => '{0} 경우는 유효성 규칙 그룹이 아닙니다.', // '{0} is not a validation rules group.',
    'groupNotArray'         => '{0} 규칙 그룹은 반드시 배열이어야 합니다.', // '{0} rule group must be an array.',
-   'invalidTemplate'       => '{0} 경우는 유효한 Validation 템플릿이 아닙니다.', // '{0} is not a valid Validation template.',
+   'invalidTemplate'       => '{0} 경우는 유효한 검증 템플릿이 아닙니다.', // '{0} is not a valid Validation template.',
 
 	// Rule Messages
    'alpha'                 => '{field} 필드에는 알파벳 문자만 포함시킬 수 있습니다.', // 'The {field} field may only contain alphabetical characters.',
@@ -52,7 +52,7 @@ return [
    'alpha_numeric_punct'   => '{field} 필드에는 알파벳, 공백, ~ ! # $ % & * - _ + = | : . 문자만 포함할 수 있습니다.', // 'The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.',
    'alpha_numeric_space'   => '{field} 필드에는 알파벳, 숫자 그리고 공백만 포함시킬 수 있습니다.', // 'The {field} field may only contain alpha-numeric characters and spaces.',
    'alpha_space'           => '{field} 필드에는 알파벳과 공백만 포함시킬 수 있습니다.', // 'The {field} field may only contain alphabetical characters and spaces.',
-   'decimal'               => '{field} 필드에는 소수(decimal number)만 포함시킬 수 있습니다.', // 'The {field} field must contain a decimal number.',
+   'decimal'               => '{field} 필드에는 소수(숫자)만 포함시킬 수 있습니다.', // 'The {field} field must contain a decimal number.',
    'differs'               => '{field} 필드는 {param} 필드와 서로 달라야 합니다.', // 'The {field} field must differ from the {param} field.',
    'equals'                => '{field} 필드와 {param} 필드는 서로 같아야 합니다.', // 'The {field} field must be exactly: {param}.',
    'exact_length'          => '{field} 필드의 길이는 {param} 이어야 합니다.', // 'The {field} field must be exactly {param} characters in length.',
@@ -76,8 +76,8 @@ return [
    'required'              => '{field} 필드가 있어야 합니다.', // 'The {field} field is required.',
    'required_with'         => '{field} 필드는 {param} 값이 있을 때, 해당 필드가 있어야 합니다.', // 'The {field} field is required when {param} is present.',
    'required_without'      => '{field} 필드는 {param} 값이 없을 때, 해당 필드가 있어야 합니다.', // 'The {field} field is required when {param} is not present.',
-   'timezone'              => '{field} 필드는 반드시 유요한 시간대(timezone)이어야 합니다.', // 'The {field} field must be a valid timezone.',
-   'valid_base64'          => '{field} 필드는 유효한 base64문자열이어야 합니다.', // 'The {field} field must be a valid base64 string.',
+   'timezone'              => '{field} 필드는 반드시 유효한 시간대이어야 합니다.', // 'The {field} field must be a valid timezone.',
+   'valid_base64'          => '{field} 필드는 유효한 Base64 문자열이어야 합니다.', // 'The {field} field must be a valid base64 string.',
    'valid_email'           => '{field} 필드 값은 유효한 이메일 주소이어야 합니다.', // 'The {field} field must contain a valid email address.',
    'valid_emails'          => '{field} 필드의 값들은 유효한 이메일 주소이어야 합니다.', // 'The {field} field must contain all valid email addresses.',
    'valid_ip'              => '{field} 필드 값은 유요한 IP 주소이어야 합니다.', // 'The {field} field must contain a valid IP.',
