@@ -11,9 +11,9 @@
 
 // Migration language settings
 return [
-	// Migration Runner
+   // Migration Runner
    'missingTable'      => 'Musí byť nastavená tabuľka migrácií.',
-//   'invalidType'       => 'Bol zadaný neplatný typ číslovania migrácie: {0}',
+   //   'invalidType'       => 'Bol zadaný neplatný typ číslovania migrácie: {0}',
    'disabled'          => 'Migrácie boli načítané, ale sú deaktivované alebo nesprávne nastavené.',
    'notFound'          => 'Migračný súbor nebol nájdený: ',
    'batchNotFound'     => 'Target batch not found: ',
@@ -22,7 +22,7 @@ return [
    'classNotFound'     => 'Migračnú triedu "%s" sa nepodarilo nájsť.',
    'missingMethod'     => 'V migračnej triede chýba metóda "%s".',
 
-	// Migration Command
+   // Migration Command
    'migHelpLatest'     => "\t\tMigruje databázu na najnovšiu dostupnú migráciu.",
    'migHelpCurrent'    => "\t\tMigruje databázu na verziu nastavenú ako aktuálnu v konfigurácii.",
    'migHelpVersion'    => "\tMigruje databázu na verziu {v}.",
@@ -34,8 +34,10 @@ return [
    'badCreateName'     => 'Musíte zadať názov migračného súboru.',
    'writeError'        => 'Chyba pri vytváraní súboru.',
    'migNumberError'    => 'Migračné číslo musí byť tri číslice a v sekvencii nesmú byť medzery.',
+   'rollBackConfirm'   => 'Are you sure you want to rollback?',
+   'refreshConfirm'    => 'Are you sure you want to refresh?',
 
-//   'toLatest'          => 'Prebieha migrácia na najnovšiu verziu...',
+   //   'toLatest'          => 'Prebieha migrácia na najnovšiu verziu...',
    'latest'            => 'Running all new migrations...',
    'generalFault'      => 'Migration failed!',
    'migInvalidVersion' => 'Zadané neplatné číslo verzie.',

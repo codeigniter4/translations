@@ -13,7 +13,7 @@
 return [
 	// Migration Runner
 	'missingTable'    => 'Tabela migracji musi zostać ustawiona.',
-//	'invalidType'     => 'Określono niepoprawny typ numerowania migracji: {0}',
+	//	'invalidType'     => 'Określono niepoprawny typ numerowania migracji: {0}',
 	'disabled'        => 'Migracje zostały załadowane, ale są wyłączone lub niepoprawnie skonfigurowane.',
 	'notFound'        => 'Nie znaleziono pliku migracji: ',
 	'batchNotFound'     => 'Target batch not found: ',
@@ -34,10 +34,12 @@ return [
 	'badCreateName'   => 'Musisz podać nazwę pliku migracji.',
 	'writeError'      => 'Błąd podczas próby utworzenia pliku.',
 	'migNumberError'    => 'Migration number must be three digits, and there must not be any gaps in the sequence.',
+	'rollBackConfirm'   => 'Are you sure you want to rollback?',
+	'refreshConfirm'    => 'Are you sure you want to refresh?',
 
 	'latest'            => 'Running all new migrations...',
 	'generalFault'      => 'Migration failed!',
-//	'toLatest'          => 'Migrowanie do najnowszej wersji...',
+	//	'toLatest'          => 'Migrowanie do najnowszej wersji...',
 	'migInvalidVersion' => 'Podano nieprawidłowy numer wersji.',
 	'toVersionPH'       => 'Migrowanie do wersji %s...',
 	'toVersion'         => 'Migracja do bieżącej wersji...',

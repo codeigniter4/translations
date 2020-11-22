@@ -17,6 +17,7 @@ return [
    'gifNotSupported'        => 'Hình ảnh GIF thường không được hỗ trợ do hạn chế cấp phép. Bạn có thể phải sử dụng hình ảnh JPG hoặc PNG thay thế.',
    'jpgNotSupported'        => 'JPG hình ảnh không được hỗ trợ.',
    'pngNotSupported'        => 'PNG hình ảnh không được hỗ trợ.',
+   'webpNotSupported'       => 'WEBP images are not supported.',   
    'fileNotSupported'       => 'Tệp được cung cấp không phải là loại hình ảnh được hỗ trợ.',
    'unsupportedImageCreate' => 'Máy chủ của bạn không hỗ trợ chức năng GD cần thiết để xử lý loại hình ảnh này.',
    'jpgOrPngRequired'       => 'Giao thức thay đổi kích thước hình ảnh được chỉ định trong tùy chọn của bạn chỉ hoạt động với các loại hình ảnh JPEG hoặc PNG.',

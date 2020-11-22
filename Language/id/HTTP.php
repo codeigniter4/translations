@@ -57,9 +57,9 @@ return [
 	'disallowedAction'           => 'Tindakan yang Anda minta tidak diizinkan.',
 
 	// Uploaded file moving
-	'alreadyMoved'				 => 'Berkas yang diunggah telah dipindahkan.',
-	'invalidFile'				 => 'Berkas asli tersebut bukan berkas yang valid.',
-	'moveFailed'				 => 'Tidak dapat memindahkan berkas {0} ke {1} ({2})',
+	'alreadyMoved'               => 'Berkas yang diunggah telah dipindahkan.',
+	'invalidFile'                => 'Berkas asli tersebut bukan berkas yang valid.',
+	'moveFailed'                 => 'Tidak dapat memindahkan berkas {0} ke {1} ({2})',
 
 	'uploadErrOk'                => 'Berkas berhasil diunggah.',
 	'uploadErrIniSize'           => 'Berkas "%s" melampaui pengaturan upload_max_filesize Anda.',

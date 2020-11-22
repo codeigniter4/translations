@@ -11,14 +11,14 @@
 
 // Validation language settings
 return [
-	// Core Messages
+   // Core Messages
    'noRuleSets'            => 'Không có quy tắc nào được chỉ định trong cấu hình Xác thực.',
    'ruleNotFound'          => '{0} không phải là một quy tắc hợp lệ.',
    'groupNotFound'         => '{0} không phải là một nhóm quy tắc xác nhận.',
    'groupNotArray'         => '{0} nhóm quy tắc phải là một mảng.',
    'invalidTemplate'       => '{0} không phải là mẫu Xác thực hợp lệ.',
 
-	// Rule Messages
+   // Rule Messages
    'alpha'                 => 'Trường {field} chỉ có thể chứa các ký tự chữ cái.',
    'alpha_dash'            => 'Trường {field} chỉ có thể chứa các ký tự chữ và số, gạch dưới và dấu gạch ngang.',
    'alpha_numeric'         => 'Trường {field} chỉ có thể chứa các ký tự chữ và số.',
@@ -49,6 +49,7 @@ return [
    'required'              => 'Trường {field} bắt buộc.',
    'required_with'         => 'Trường {field} bắt buộc khi {param} tồn tại.',
    'required_without'      => 'Trường {field} bắt buộc khi {param} không tồn tại.',
+   'string'                => 'The {field} field must be a valid string.',
    'timezone'              => 'Trường {field} phải là múi giờ hợp lệ. ',
    'valid_base64'          => 'Trường {field} phải là một chuỗi base64 hợp lệ.',
    'valid_email'           => 'Trường {field} phải là địa chỉ email hợp lệ.',
@@ -57,10 +58,10 @@ return [
    'valid_url'             => 'Trường {field} phải là một đường dẫn URL hợp lệ.',
    'valid_date'            => 'Trường {field} phải là một ngày hợp lệ.',
 
-	// Credit Cards
+   // Credit Cards
    'valid_cc_num'          => '{field} dường như không phải là số thẻ tín dụng hợp lệ.',
 
-	// Files
+   // Files
    'uploaded'              => '{field} không phải là một tập tin tải lên hợp lệ.',
    'max_size'              => '{field} tệp quá nặng.',
    'is_image'              => '{field} không phải là một tập tin hình ảnh được tải lên hợp lệ.',

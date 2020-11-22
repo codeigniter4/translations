@@ -34,6 +34,8 @@ return [
    'badCreateName'     => 'Et gyldig overføringsfilnavn må spesifiseres.',
    'writeError'        => 'Feil ved oppretting av filen.',
    'migNumberError'    => 'Overføringsnummeret må være tre sifre, og det må ikke være noen hull i sekvensen.',
+   'rollBackConfirm'   => 'Are you sure you want to rollback?',
+   'refreshConfirm'    => 'Are you sure you want to refresh?',
 
    'latest'            => 'Running all new migrations...',
    'generalFault'      => 'Migration failed!',

@@ -11,7 +11,7 @@
 
 // Migration language settings
 return [
-	// Migration Runner
+   // Migration Runner
    'missingTable'      => '마이그레이션 테이블은 반드시 설정되어야 합니다.', // 'Migrations table must be set.',
    'disabled'          => '마이그레이션이 로드되었지만, 사용할 수 없거나 설정이 잘못되었습니다.', //'Migrations have been loaded but are disabled or setup incorrectly.',
    'notFound'          => '마이그레이션 파일 찾기 실패: ', // 'Migration file not found: ',
@@ -21,7 +21,7 @@ return [
    'classNotFound'     => '해당 마이그레이션 클래스 "%s" 찾기 실패', // 'The migration class "%s" could not be found.',
    'missingMethod'     => '해당 마이그레이션 클래스의 "%s" 메서드를 찾을 수 없습니다.', // 'The migration class is missing an "%s" method.',
 
-	// Migration Command
+   // Migration Command
    'migHelpLatest'     => "\t\t데이터베이스를 사용이 가능한 최신 마이그레이션으로 마이그레이트합니다.", // "\t\tMigrates database to latest available migration.",
    'migHelpCurrent'    => "\t\t환경설정에서 데이터베이스의 버전을 'current'로 마이그레이트합니다.", // "\t\tMigrates database to version set as 'current' in configuration.",
    'migHelpVersion'    => "\t데이터베이스의 버전을 {v} 경우로 마이그레이트.", // "\tMigrates database to version {v}.",
@@ -33,6 +33,8 @@ return [
    'badCreateName'     => '반드시 마이그레이션 파일명이 지정되어야 합니다.', // 'You must provide a migration file name.',
    'writeError'        => '파일 생성 시도 중에 에러 발생', // 'Error trying to create file.',
    'migNumberError'    => '마이그레이션 숫자 값은 반드시 세 자리 숫자 값이어야 합니다. 그리고 순차적인 마이그레이션 값에 간격이 없어야 합니다.', // 'Migration number must be three digits, and there must not be any gaps in the sequence.',
+   'rollBackConfirm'   => 'Are you sure you want to rollback?',
+   'refreshConfirm'    => 'Are you sure you want to refresh?',
 
    'latest'            => '새로운 모든 마이그레이션들을 실행 중...', // 'Running all new migrations...',
    'generalFault'      => '마이그레이션 실패!', // 'Migration failed!',

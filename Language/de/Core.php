@@ -11,8 +11,9 @@
 
 // Core language settings
 return [
-   'invalidFile'      => 'Ungültige Datei: {0}',
    'copyError'        => 'Beim Versuch, die Datei zu ersetzen, ist ein Fehler aufgetreten. Bitte sicherstellen, dass das Verzeichnis beschreibbar ist.',
+   'enabledZlibOutputCompression' => 'Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.',
+   'invalidFile'      => 'Ungültige Datei: {0}',
    'missingExtension' => 'Erweiterung {0} konte nicht geladen werden.',
    'noHandlers'       => '{0} muss mindestes einen Handler bereitstellen.',
 ];

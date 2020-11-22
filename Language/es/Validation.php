@@ -11,19 +11,20 @@
 
 // Validation language settings
 return [
-	// Core Messages
+   // Core Messages
    'noRuleSets'            => 'No se han establecido reglas en la configuración de validación.',
    'ruleNotFound'          => '{0} no es una regla de validación válida.',
    'groupNotFound'         => '{0} no es un grupo de reglas de validación.',
    'groupNotArray'         => '{0} el grupo de validación debe ser un array.',
    'invalidTemplate'       => '{0} no es un modelo de validación válido.',
 
-	// Rule Messages
+   // Rule Messages
    'alpha'                 => 'El campo {field} solo puede contener caracteres alfabéticos.',
    'alpha_dash'            => 'El campo {field} solo puede contener caracteres alfanuméricos, subrayados, y guiones.',
    'alpha_numeric'         => 'El campo {field} solo puede contener caracteres alfanuméricos.',
+   'alpha_numeric_punct'   => 'The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.',
    'alpha_numeric_space'   => 'El campo {field} solo puede contener caracteres alfanuméricos y espacios.',
-   'alpha_space'  		   => 'El campo {field} solo puede contener caracteres alfabéticos y espacios.',
+   'alpha_space'           => 'El campo {field} solo puede contener caracteres alfabéticos y espacios.',
    'decimal'               => 'El campo {field} debe contener un número decimal.',
    'differs'               => 'El campo {field} debe diferir del campo {param}.',
    'equals'                => 'El campo {field} debe ser exactamente: {param}.',
@@ -48,6 +49,7 @@ return [
    'required'              => 'El campo {field} es obligatorio.',
    'required_with'         => 'El campo {field} es obligatorio cuando {param} está presente.',
    'required_without'      => 'El campo {field} es obligatorio cuando {param} no está presente.',
+   'string'                => 'The {field} field must be a valid string.',
    'timezone'              => 'El campo {field} debe ser una zona horaria válida.',
    'valid_base64'          => 'El campo {field} debe ser una cadena base64 válida.',
    'valid_email'           => 'El campo {field} debe contener una dirección de email válida.',
@@ -56,10 +58,10 @@ return [
    'valid_url'             => 'El campo {field} debe contener una URL válida.',
    'valid_date'            => 'El campo {field} debe contener una fecha válida.',
 
-	// Credit Cards
+   // Credit Cards
    'valid_cc_num'          => '{field} no parece ser un número de tarjeta de crédito válida.',
 
-	// Files
+   // Files
    'uploaded'              => '{field} no es un campo de subida de archivo válido.',
    'max_size'              => '{field} es demasiado grande para un archivo.',
    'is_image'              => '{field} no es válido, subido archivo de imagen.',

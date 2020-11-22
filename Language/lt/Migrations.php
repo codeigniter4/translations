@@ -33,6 +33,8 @@ return [
    'badCreateName'     => 'Turite nurodyti migracijos failo vardą.',
    'writeError'        => 'Klaida bandant sukurti failą.',
    'migNumberError'    => 'Migracijos numerį turi sudaryti trys skaitmenys, o jų sekoje neturi būti jokių tarpų.',
+   'rollBackConfirm'   => 'Are you sure you want to rollback?',
+   'refreshConfirm'    => 'Are you sure you want to refresh?',
 
    'latest'            => 'Vykdomos visos migracijos...',
    'generalFault'      => 'Migracijos nepavyko!',

@@ -17,6 +17,8 @@ return [
    'gifNotSupported'        => 'معمولا تصاویر GIF به دلایل محدودیت‌های لایسنس پشتیبانی نمی‌شوند. به جای آن می‌توانید از فرمت‌های JPG یا PNG استفاده کنید.',
    'jpgNotSupported'        => 'تصاویر JPG پشتیبانی نمی‌شونند.',
    'pngNotSupported'        => 'تصاویر PNG پشتیبانی نمی‌شونند.',
+   'webpNotSupported'       => 'WEBP images are not supported.',
+   'fileNotSupported'       => 'The supplied file is not a supported image type.',
    'unsupportedImageCreate' => 'برای پردازش این نوع تصاویر، سرور شما باید از GD پشتیبانی کند.',
    'jpgOrPngRequired'       => 'تنظیمان انتابی شما برای تغییر اندازه‌ی عکس فقط برای فایل‌های JPEG و PNG قابل انجام است.',
    'rotateUnsupported'      => 'بر اساس تنظیمات سرور شما، امکان چرخش تصویر وجود ندارد.',

@@ -11,7 +11,7 @@
 
 // Migration language settings
 return [
-	// Migration Runner
+   // Migration Runner
    'missingTable'      => 'マイグレーション・テーブルを設定する必要があります。', //Migrations table must be set.
    'disabled'          => 'マイグレーションは読み込まれていますが、無効化されているか、設定が間違っています。', //Migrations have been loaded but are disabled or setup incorrectly.
    'notFound'          => 'マイグレーション・ファイルが見つかりません。: ', //Migration file not found:
@@ -21,7 +21,7 @@ return [
    'classNotFound'     => 'マイグレーション・クラス "%s" が見つかりませんでした。', //The migration class "%s" could not be found.
    'missingMethod'     => 'マイグレーション・クラスには "%s" メソッドがありません。', //The migration class is missing an "%s" method.
 
-	// Migration Command
+   // Migration Command
    'migHelpLatest'     => "\t\tデータベースを最新の利用可能なマイグレーションに移行します。", //\t\tMigrates database to latest available migration.
    'migHelpCurrent'    => "\t\t'current'設定のバージョンにデータベースを移行します。", //\t\tMigrates database to version set as 'current' in configuration.
    'migHelpVersion'    => "\tデータベースをバージョン {v} に移行します。", //\tMigrates database to version {v}.

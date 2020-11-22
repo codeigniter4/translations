@@ -11,8 +11,9 @@
 
 // Core language settings
 return [
-   'invalidFile'      => 'فایل نامعتبر: {0}',
    'copyError'        => 'مشکلی در هنگام جایگزینی فایل بوجود آمده است. لطفا اطمینان حاصل کنید که شاخه‌ی فایل قابل نوشتن است.',
+   'enabledZlibOutputCompression' => 'Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.',
+   'invalidFile'      => 'فایل نامعتبر: {0}',
    'missingExtension' => 'افزونه‌ی {0} بارگزاری نشده است.',
    'noHandlers'       => '{0} باید حداقل یک Handler داشته باشد.',
 ];

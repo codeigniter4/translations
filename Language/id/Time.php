@@ -12,8 +12,8 @@
 // Time language settings
 return [
 	'invalidMonth'   => 'Bulan harus antara 1 dan 12. Diberikan: {0}',
-    'invalidDay'     => 'Hari harus antara 1 dan 31. Diberikan: {0}',
-    'invalidOverDay' => 'Hari harus antara 1 dan {0}. Diberikan: {1}',
+	'invalidDay'     => 'Hari harus antara 1 dan 31. Diberikan: {0}',
+	'invalidOverDay' => 'Hari harus antara 1 dan {0}. Diberikan: {1}',
 	'invalidHours'   => 'Jam harus antara 0 dan 23. Diberikan: {0}',
 	'invalidMinutes' => 'Menit harus di antara 0 dan 59. Diberikan: {0}',
 	'invalidSeconds' => 'Detik harus antara 0 dan 59. Diberikan: {0}',

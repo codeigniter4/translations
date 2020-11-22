@@ -11,9 +11,9 @@
 
 // Migration language settings
 return [
-	// Migration Runner
+   // Migration Runner
    'missingTable'      => 'جدول مایگریشن تنظیم نشده است.',
-//   'invalidType'       => 'یک نوع شماره گذاری نامعتبر برای مایگریشن مشخص شده است: {0}',
+   //   'invalidType'       => 'یک نوع شماره گذاری نامعتبر برای مایگریشن مشخص شده است: {0}',
    'disabled'          => 'مایگریشن‌ها لارگزاری شده‌اند، اما غیرفعالند یا درست تنظیم نشده اند.',
    'notFound'          => 'فایل مایگریشن پیدا نشد: ',
    'batchNotFound'     => 'Target batch not found: ',
@@ -22,7 +22,7 @@ return [
    'classNotFound'     => 'کلاس مایگریشن "%s" پیدا نشد.',
    'missingMethod'     => 'کلاس مایگریشن متد "%s" را ندارد.',
 
-	// Migration Command
+   // Migration Command
    'migHelpLatest'     => "\t\tMigrates database to latest available migration.",
    'migHelpCurrent'    => "\t\tMigrates database to version set as 'current' in configuration.",
    'migHelpVersion'    => "\tMigrates database to version {v}.",
@@ -34,8 +34,10 @@ return [
    'badCreateName'     => 'You must provide a migration file name.',
    'writeError'        => 'Error trying to create file.',
    'migNumberError'    => 'Migration number must be three digits, and there must not be any gaps in the sequence.',
+   'rollBackConfirm'   => 'Are you sure you want to rollback?',
+   'refreshConfirm'    => 'Are you sure you want to refresh?',
 
-//   'toLatest'          => 'Migrating to latest version...',
+   //   'toLatest'          => 'Migrating to latest version...',
    'latest'            => 'Running all new migrations...',
    'generalFault'      => 'Migration failed!',
    'migInvalidVersion' => 'Invalid version number provided.',
