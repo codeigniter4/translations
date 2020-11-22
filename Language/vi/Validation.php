@@ -1,51 +1,24 @@
 <?php
 
 /**
- * Validation language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * This content is released under the MIT License (MIT)
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * Copyright (c) 2014-2019 British Columbia Institute of Technology
- * Copyright (c) 2019-2020 CodeIgniter Foundation
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package    CodeIgniter
- * @author     XuanDung38 (Fox)
- * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
- *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+// Validation language settings
 return [
-	// Core Messages
+   // Core Messages
    'noRuleSets'            => 'Không có quy tắc nào được chỉ định trong cấu hình Xác thực.',
    'ruleNotFound'          => '{0} không phải là một quy tắc hợp lệ.',
    'groupNotFound'         => '{0} không phải là một nhóm quy tắc xác nhận.',
    'groupNotArray'         => '{0} nhóm quy tắc phải là một mảng.',
    'invalidTemplate'       => '{0} không phải là mẫu Xác thực hợp lệ.',
 
-	// Rule Messages
+   // Rule Messages
    'alpha'                 => 'Trường {field} chỉ có thể chứa các ký tự chữ cái.',
    'alpha_dash'            => 'Trường {field} chỉ có thể chứa các ký tự chữ và số, gạch dưới và dấu gạch ngang.',
    'alpha_numeric'         => 'Trường {field} chỉ có thể chứa các ký tự chữ và số.',
@@ -76,6 +49,7 @@ return [
    'required'              => 'Trường {field} bắt buộc.',
    'required_with'         => 'Trường {field} bắt buộc khi {param} tồn tại.',
    'required_without'      => 'Trường {field} bắt buộc khi {param} không tồn tại.',
+   'string'                => 'The {field} field must be a valid string.',
    'timezone'              => 'Trường {field} phải là múi giờ hợp lệ. ',
    'valid_base64'          => 'Trường {field} phải là một chuỗi base64 hợp lệ.',
    'valid_email'           => 'Trường {field} phải là địa chỉ email hợp lệ.',
@@ -84,10 +58,10 @@ return [
    'valid_url'             => 'Trường {field} phải là một đường dẫn URL hợp lệ.',
    'valid_date'            => 'Trường {field} phải là một ngày hợp lệ.',
 
-	// Credit Cards
+   // Credit Cards
    'valid_cc_num'          => '{field} dường như không phải là số thẻ tín dụng hợp lệ.',
 
-	// Files
+   // Files
    'uploaded'              => '{field} không phải là một tập tin tải lên hợp lệ.',
    'max_size'              => '{field} tệp quá nặng.',
    'is_image'              => '{field} không phải là một tập tin hình ảnh được tải lên hợp lệ.',

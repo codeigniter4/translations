@@ -1,42 +1,15 @@
 <?php
 
 /**
- * Validation language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * This content is released under the MIT License (MIT)
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * Copyright (c) 2014-2019 British Columbia Institute of Technology
- * Copyright (c) 2019-2020 CodeIgniter Foundation
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package    CodeIgniter
- * @author     Marco Monteiro
- * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
- *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+// Validation language settings
 return [
 	// Core Messages
 	'noRuleSets'            => 'Nenhum conjunto de regras especificado na configuração de validação.',
@@ -49,6 +22,7 @@ return [
 	'alpha'                 => 'O campo {field} pode conter apenas caracteres alfabéticos.',
 	'alpha_dash'            => 'O campo {field} pode conter apenas caracteres alfanuméricos, sublinhados e traços.',
 	'alpha_numeric'         => 'O campo {field} pode conter apenas caracteres alfanuméricos.',
+	'alpha_numeric_punct'   => 'The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.',
 	'alpha_numeric_space'   => 'O campo {field} pode conter apenas caracteres alfanuméricos e espaços.',
 	'alpha_space'  			=> 'O campo {field} pode conter apenas caracteres alfabéticos e espaços.',
 	'decimal'               => 'O campo {field} deve conter um número decimal.',
@@ -62,7 +36,7 @@ return [
 	'integer'               => 'O campo {field} deve ser um inteiro',
 	'is_natural'            => 'O campo {field} deve conter apenas dígitos.',
 	'is_natural_no_zero'    => 'O campo {field} deve conter apenas dígitos e deve ser maior que zero.',
-   'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
+	'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
 	'is_unique'             => 'O campo {field} deve conter um valor único.',
 	'less_than'             => 'O campo {field} deve conter um número menor que {param}.',
 	'less_than_equal_to'    => 'O campo {field} deve conter um número menor ou igual a {param}.',
@@ -75,6 +49,7 @@ return [
 	'required'              => 'O campo {field} é obrigatório.',
 	'required_with'         => 'O campo {field} é obrigatório quando {param} está presente.',
 	'required_without'      => 'O campo {field} é obrigatório quando {param} não está presente.',
+	'string'                => 'The {field} field must be a valid string.',
 	'timezone'              => 'O campo {field} deve ser um fuso horário válido.',
 	'valid_base64'          => 'O campo {field} deve conter um valor base64 válido.',
 	'valid_email'           => 'O campo {field} deve conter um email válido.',

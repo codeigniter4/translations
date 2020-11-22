@@ -1,43 +1,17 @@
 <?php
+
 /**
- * Migration language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * This content is released under the MIT License (MIT)
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * Copyright (c) 2014-2019 British Columbia Institute of Technology
- * Copyright (c) 2019-2020 CodeIgniter Foundation
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package    CodeIgniter
- * @author     Shoji Ogura
- * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
- *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+// Migration language settings
 return [
-	// Migration Runner
+   // Migration Runner
    'missingTable'      => 'マイグレーション・テーブルを設定する必要があります。', //Migrations table must be set.
    'disabled'          => 'マイグレーションは読み込まれていますが、無効化されているか、設定が間違っています。', //Migrations have been loaded but are disabled or setup incorrectly.
    'notFound'          => 'マイグレーション・ファイルが見つかりません。: ', //Migration file not found:
@@ -47,7 +21,7 @@ return [
    'classNotFound'     => 'マイグレーション・クラス "%s" が見つかりませんでした。', //The migration class "%s" could not be found.
    'missingMethod'     => 'マイグレーション・クラスには "%s" メソッドがありません。', //The migration class is missing an "%s" method.
 
-	// Migration Command
+   // Migration Command
    'migHelpLatest'     => "\t\tデータベースを最新の利用可能なマイグレーションに移行します。", //\t\tMigrates database to latest available migration.
    'migHelpCurrent'    => "\t\t'current'設定のバージョンにデータベースを移行します。", //\t\tMigrates database to version set as 'current' in configuration.
    'migHelpVersion'    => "\tデータベースをバージョン {v} に移行します。", //\tMigrates database to version {v}.

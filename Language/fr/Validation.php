@@ -1,42 +1,15 @@
 <?php
 
 /**
- * Validation language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * This content is released under the MIT License (MIT)
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * Copyright (c) 2014-2019 British Columbia Institute of Technology
- * Copyright (c) 2019-2020 CodeIgniter Foundation
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
- *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+// Validation language settings
 return [
    // Core Messages
    'noRuleSets'            => 'No rulesets specified in Validation configuration.',
@@ -45,10 +18,11 @@ return [
    'groupNotArray'         => 'Le groupe de règles {0} doit être un tableau.',
    'invalidTemplate'       => '{0} n\'est pas un modèle de Validation valide.',
 
-	// Rule Messages
+   // Rule Messages
    'alpha'                 => 'Le champ {field} ne peut contenir que des caractères alphabétiques.',
    'alpha_dash'            => 'Le champ {field} ne peut contenir que des caractères alphanumériques, des underscores, et des tirets.',
    'alpha_numeric'         => 'Le champ {field} ne peut contenir que des caractères alphanumériques.',
+   'alpha_numeric_punct'   => 'The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.',
    'alpha_numeric_space'   => 'Le champ {field} ne peut contenir que des caractères alphanumériques et des espaces.',
    'alpha_space'           => 'Le champ {field} ne peut contenir que des caractères alphabétiques et des espaces.',
    'decimal'               => 'Le champ {field} doit contenir un nombre décimal.',
@@ -75,6 +49,7 @@ return [
    'required'              => 'Le champ {field} est requis.',
    'required_with'         => 'Le champ {field} est requis lorsque {param} est présent.',
    'required_without'      => 'Le champ {field} est requis lorsque {param} n\'est pas présent.',
+   'string'                => 'The {field} field must be a valid string.',
    'timezone'              => 'Le champ {field} doit être un fuseau horaire valide.',
    'valid_base64'          => 'Le champ {field} doit être une chaîne de caractères en base64 valide.',
    'valid_email'           => 'Le champ {field} doit contenir une adresse email valide.',
@@ -83,10 +58,10 @@ return [
    'valid_url'             => 'Le champ {field} doit contenir une URL valide.',
    'valid_date'            => 'Le champ {field} doit contenir une date valide.',
 
-	// Credit Cards
+   // Credit Cards
    'valid_cc_num'          => '{field} ne semble pas être un numéro de carte de crédit valide.',
 
-	// Files
+   // Files
    'uploaded'              => 'Le fichier envoyé {field} n\'est pas valide.',
    'max_size'              => 'Le fichier {field} est trop volumineux.',
    'is_image'              => 'Le fichier envoyé {field} n\'est pas une image valide.',

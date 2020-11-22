@@ -1,54 +1,28 @@
 <?php
 
 /**
- * Validation language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * This content is released under the MIT License (MIT)
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * Copyright (c) 2014-2019 British Columbia Institute of Technology
- * Copyright (c) 2019-2020 CodeIgniter Foundation
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
- *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+// Validation language settings
 return [
-	// Core Messages
+   // Core Messages
    'noRuleSets'            => 'Validavimo konfigūracijoje nenurodyta jokių taisyklių.',
    'ruleNotFound'          => '{0} nėra tinkama taisyklė.',
    'groupNotFound'         => '{0} nėra validavimo taisyklių grupė.',
    'groupNotArray'         => '{0} taisyklių grupė turi būti masyvas.',
    'invalidTemplate'       => '{0} nėra tinkamas validavimo šablonas.',
 
-	// Rule Messages
+   // Rule Messages
    'alpha'                 => 'Lauke {field} gali būti tik abėcėlės raidės.',
    'alpha_dash'            => 'Lauke {field} gali būti tik raidės, skaičiai, brūkšneliai ir apatiniai brūkšneliai.',
    'alpha_numeric'         => 'Lauke {field} gali būti tik raidės ir skaičiai.',
+   'alpha_numeric_punct'   => 'The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.',
    'alpha_numeric_space'   => 'Lauke {field} gali būti tik raidės, skaičiai ir tarpai.',
    'alpha_space'           => 'Lauke {field} gali būti tik raidės ir tarpai.',
    'decimal'               => 'Lauke {field} turi būti dešimtainis skaičius.',
@@ -65,6 +39,7 @@ return [
    'is_unique'             => 'Lauke {field} turi būti unikali reikšmė.',
    'less_than'             => 'Lauke {field} turi būti skaičius, mažesnis už {param}.',
    'less_than_equal_to'    => 'Lauke {field} turi būti skaičius, mažesnis ar lygus {param}.',
+   'hex'                   => 'The {field} field may only contain hexidecimal characters.',
    'matches'               => 'Laukas {field} neatitinka {param} lauko.',
    'max_length'            => 'Laukas {field} negali būti ilgesnis, nei {param} ženklai/-ų.',
    'min_length'            => 'Lauke {field} negali būti mažiau nei {param} ženklų.',
@@ -74,6 +49,7 @@ return [
    'required'              => 'Laukas {field} yra privalomas.',
    'required_with'         => 'Laukas {field} yra privalomas kai yra nustatytas {param}.',
    'required_without'      => 'Laukas {field} yra privalomas kai nėra nustatytas {param}.',
+   'string'                => 'The {field} field must be a valid string.',
    'timezone'              => 'Laukas {field} turi atitikti egzistuojančią laiko zoną.',
    'valid_base64'          => 'Lauke {field} turi būti validi base64 eilutė.',
    'valid_email'           => 'Lauke {field} turi būti teisyklingas el. pašto adresas.',
@@ -82,10 +58,10 @@ return [
    'valid_url'             => 'Lauke {field} turi būti taisyklingas URL.',
    'valid_date'            => 'Lauke {field} turi būti taisyklinga data.',
 
-	// Credit Cards
+   // Credit Cards
    'valid_cc_num'          => 'Nepanašu, kad lauke {field} būtų įrašytas taisyklingas kredito kortelės numeris.',
 
-	// Files
+   // Files
    'uploaded'              => '{field} nėra realus įkeltas failas.',
    'max_size'              => '{field} failas yra per didelis.',
    'is_image'              => '{field} nėra taisyklingas įkeltas paveikslėlis.',

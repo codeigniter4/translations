@@ -1,54 +1,28 @@
 <?php
 
 /**
- * Validation language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * This content is released under the MIT License (MIT)
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * Copyright (c) 2014-2019 British Columbia Institute of Technology
- * Copyright (c) 2019-2020 CodeIgniter Foundation
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package    CodeIgniter
- * @author     Jozef Botka - xbotkaj on Github
- * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
- *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+// Validation language settings
 return [
-	// Core Messages
+   // Core Messages
    'noRuleSets'            => 'No rulesets specified in Validation configuration.',
    'ruleNotFound'          => '{0} je neplatné pravidlo.',
    'groupNotFound'         => '{0} nie je skupina overovacích pravidiel..',
    'groupNotArray'         => '{0} skupina pravididel musí byť pole.',
    'invalidTemplate'       => '{0} je neplatná Validation predloha.',
 
-	// Rule Messages
+   // Rule Messages
    'alpha'                 => 'Pole {field} môže obsahovať iba abecedné znaky.',
    'alpha_dash'            => 'Pole {field} môže obsahovať iba alfanumerické znaky, podtržníky a pomlčky.',
    'alpha_numeric'         => 'Pole {field} môže obsahovať iba alfanumerické znaky.',
+   'alpha_numeric_punct'   => 'The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.',
    'alpha_numeric_space'   => 'Pole {field} môže obsahovať iba alfanumerické znaky a medzery.',
    'alpha_space'           => 'Pole {field} môže obsahovať iba abecedné znaky a medzery.',
    'decimal'               => 'Pole {field} musí obsahovať decimálne číslo.',
@@ -57,6 +31,7 @@ return [
    'exact_length'          => 'Pole {field} musí byť presne {param} znakov dlhé.',
    'greater_than'          => 'Pole {field} musí obsahovať číslo väčšie ako {param}.',
    'greater_than_equal_to' => 'Pole {field} musí obsahovať číslo väčšie alebo rovné ako {param}.',
+   'hex'                   => 'The {field} field may only contain hexidecimal characters.',
    'in_list'               => 'Pole {field} musí byť jedno z: {param}.',
    'integer'               => 'Pole {field} musí obsahovať celé číslo.',
    'is_natural'            => 'Pole {field} musí obsahovať iba číslice.',
@@ -74,6 +49,7 @@ return [
    'required'              => 'Pole {field} je povinné.',
    'required_with'         => 'Pole {field} je povinné ak {param} je zadaný.',
    'required_without'      => 'Pole {field} je povinné ak {param} nie je zadaný.',
+   'string'                => 'The {field} field must be a valid string.',
    'timezone'              => 'Pole {field} musí byť platná časová zóna.',
    'valid_base64'          => 'Pole {field} musí byť platný base64 reťazec.',
    'valid_email'           => 'Pole {field} musí obsahovať platnú emailovú adresu.',
@@ -82,10 +58,10 @@ return [
    'valid_url'             => 'Pole {field} musí obsahovať platnú URL adresu.',
    'valid_date'            => 'Pole {field} musí obsahovať platný dátum.',
 
-	// Credit Cards
+   // Credit Cards
    'valid_cc_num'          => '{field} sa nezdá byť platné číslo kreditnej/debetnej karty.',
 
-	// Files
+   // Files
    'uploaded'              => '{field} je neplatný nahraný súbor.',
    'max_size'              => '{field} je príliš veľký súbor.',
    'is_image'              => '{field} je neplatný nahraný obrázok.',
