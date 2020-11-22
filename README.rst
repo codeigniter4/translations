@@ -70,6 +70,6 @@ These translations are intended for use with CodeIgniter 4.x applications.
 License
 *******
 
-These translations are licensed under the `MIT license <license.txt>`_.
+These translations are licensed under the `MIT license <LICENSE>`_.
 
 `Jim Parry <admin@codeigniter.com>`_
