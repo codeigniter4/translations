@@ -11,8 +11,9 @@
 
 // Core language settings
 return [
-   'invalidFile'      => 'Ugyldig fil: {0}',
    'copyError'        => 'Det oppstod en feil under forsøket på å erstatte filen. Forsikre deg om at katalogen er skrivbar.',
+   'enabledZlibOutputCompression' => 'Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.',
+   'invalidFile'      => 'Ugyldig fil: {0}',
    'missingExtension' => 'Utvidelsen {0} kunne ikke lastes.',
    'noHandlers'       => '{0} må tilby minst en behandler.',
 ];

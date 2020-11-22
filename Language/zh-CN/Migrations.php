@@ -11,9 +11,9 @@
 
 // Migration language settings
 return [
-	// Migration Runner
+   // Migration Runner
    'missingTable'      => '必须设置迁移表。',
-//   'invalidType'       => '指定的迁移类型编号无效: {0}',
+   //   'invalidType'       => '指定的迁移类型编号无效: {0}',
    'disabled'          => '迁移状态为禁用或不正确，请确认 app/Config/Migrations 文件的 $enabled 值是否为 true。',
    'notFound'          => '找不到指定的迁移文件：',
    'batchNotFound'     => 'Target batch not found: ',
@@ -22,7 +22,7 @@ return [
    'classNotFound'     => '找不到指定的迁移类 "%s" 。',
    'missingMethod'     => '迁移类缺少 "%s" 方法。',
 
-	// Migration Command
+   // Migration Command
    'migHelpLatest'     => "\t\t数据库将迁移至最新的可用迁移。",
    'migHelpCurrent'    => "\t\t数据库将迁移至配置文件中 'current' 的版本。",
    'migHelpVersion'    => "\t数据库将迁移至 {v} 版本。",
@@ -34,8 +34,10 @@ return [
    'badCreateName'     => '你必须提供迁移文件名。',
    'writeError'        => '尝试创建文件时出错。',
    'migNumberError'    => '迁移号必须为3位数字且中间不能有任何空格。',
+   'rollBackConfirm'   => 'Are you sure you want to rollback?',
+   'refreshConfirm'    => 'Are you sure you want to refresh?',
 
-//   'toLatest'          => '迁移到最新版本...',
+   //   'toLatest'          => '迁移到最新版本...',
    'latest'            => 'Running all new migrations...',
    'generalFault'      => 'Migration failed!',
    'migInvalidVersion' => '提供的版本号无效。',

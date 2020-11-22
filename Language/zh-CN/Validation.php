@@ -11,17 +11,18 @@
 
 // Validation language settings
 return [
-	// Core Messages
+   // Core Messages
    'noRuleSets'            => '验证配置中没有指定任何规则。',
    'ruleNotFound'          => '{0} 不是一个有效的规则。',
    'groupNotFound'         => '{0} 不是一个有效的规则验证组。',
    'groupNotArray'         => '{0} 验证组必须是一个数组类型。',
    'invalidTemplate'       => '{0} 不是有效的验证模板。',
 
-	// Rule Messages
+   // Rule Messages
    'alpha'                 => '{field} 字段只能包含字母字符。',
    'alpha_dash'            => '{field} 字段只能包含字母数字、下划线和中划线。',
    'alpha_numeric'         => '{field} 字段只能包含字母数字。',
+   'alpha_numeric_punct'   => 'The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.',
    'alpha_numeric_space'   => '{field} 字段只能包含字母数字和空格。',
    'alpha_space'           => '{field} 字段只能包含字母字符和空格。',
    'decimal'               => '{field} 字段只能包含十进制数字。',
@@ -30,6 +31,7 @@ return [
    'exact_length'          => '{field} 字段的长度必须是 {param} 个字符。',
    'greater_than'          => '{field} 字段必须是大于 {param} 的数字。',
    'greater_than_equal_to' => '{field} 字段必须是大于或等于 {param} 的数字。',
+   'hex'                   => 'The {field} field may only contain hexidecimal characters.',
    'in_list'               => '{field} 字段必须是以下内容之一: {param}.',
    'integer'               => '{field} 字段必须是整数。',
    'is_natural'            => '{field} 字段必须是数字。',
@@ -47,6 +49,7 @@ return [
    'required'              => '{field} 是必填字段。',
    'required_with'         => '如果 {param} 存在时，{field} 是必填字段。',
    'required_without'      => '如果 {param} 不存在时，{field} 是必填字段。',
+   'string'                => 'The {field} field must be a valid string.',
    'timezone'              => '{field} 字段必须是有效的时区。',
    'valid_base64'          => '{field} 字段必须是有效的 base64 字符串。',
    'valid_email'           => '{field} 字段必须是有效的 Email 地址。',
@@ -55,10 +58,10 @@ return [
    'valid_url'             => '{field} 字段必须是有效的 URL 地址。',
    'valid_date'            => '{field} 字段必须是有效的日期。',
 
-	// Credit Cards
+   // Credit Cards
    'valid_cc_num'          => '{field} 字段不是有效的信用卡号码。',
 
-	// Files
+   // Files
    'uploaded'              => '{field} 不是有效上传文件。',
    'max_size'              => '{field} 文件太大了。',
    'is_image'              => '{field} 不是有效的图片上传文件。',

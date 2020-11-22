@@ -11,8 +11,9 @@
 
 // Core language settings
 return [
-	'invalidFile'      => 'Arquivo inválido: {0}',
 	'copyError'        => 'Um erro foi encontrado ao tentar substituir o arquivo. Por favor, certifique-se de que seu diretório tem permissões de escrita.',
+	'enabledZlibOutputCompression' => 'Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.',
+	'invalidFile'      => 'Arquivo inválido: {0}',
 	'missingExtension' => 'A extensão {0} não está carregada.',
 	'noHandlers'       => '{0} deve fornecer pelo menos um handler.',
 ];

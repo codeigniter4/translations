@@ -17,6 +17,8 @@ return [
     'gifNotSupported'        => 'GIF afbeeldingen zijn vaak niet ondersteunt omwille van licentie restricties. Probeer indien mogelijk met PNG of JPG.',
     'jpgNotSupported'        => 'JPG afbeeldingen zijn niet ondersteunt.',
     'pngNotSupported'        => 'PNG afbeeldingen zijn niet ondersteunt.',
+    'webpNotSupported'       => 'WEBP images are not supported.',
+    'fileNotSupported'       => 'The supplied file is not a supported image type.',
     'fileNotSupported'       => 'Het opgegeven bestand is geen ondersteutn afbeelding type.',
     'unsupportedImageCreate' => 'De GD image library nodig voor deze functie is niet beschikbaar.',
     'jpgOrPngRequired'       => 'Het afbeelding "resize" protocol opgegeven in uw instellingen is enkel beschikbaar voor JPEG en PNG bestanden.',

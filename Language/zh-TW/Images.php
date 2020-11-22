@@ -17,6 +17,8 @@ return [
    'gifNotSupported'        => '由於授權限制，GIF 圖像通常不支援，您可能得使用 JPG 與PNG 圖像。',
    'jpgNotSupported'        => '不支援 JPG 圖像。',
    'pngNotSupported'        => '不支援 PNG 圖像。',
+   'webpNotSupported'       => 'WEBP images are not supported.',
+   'fileNotSupported'       => 'The supplied file is not a supported image type.',
    'unsupportedImageCreate' => '你的伺服器不支援處理此類圖像所需的GD功能。',
    'jpgOrPngRequired'       => '在偏好設定中（preferences）調整圖像大小的功能僅適用於 JPEG 與 PNG 圖像。',
    'rotateUnsupported'      => '伺服器似乎不支援圖像旋轉。',

@@ -45,15 +45,15 @@ return [
 	'noneFound'         => 'Nenhuma migração foi encontrada.',
 	'migSeeder'         => 'Nome do seeder',
 	'migMissingSeeder'  => 'Você deve fornecer o nome de um seeder.',
-	'nameSeeder'        => 'Name the seeder file',
+	// 'nameSeeder'        => 'Name the seeder file',
 	'removed'           => 'Revertendo: ',
 	'added'             => 'Rodando: ',
 
 	// Migrate Status
-	'namespace'         => 'Namespace',
+	// 'namespace'         => 'Namespace',
 	'filename'          => 'Nome do arquivo',
 	'version'           => 'Versão',
-	'group'             => 'Grupo',
+	// 'group'             => 'Grupo',
 	'on'                => 'Migrado em: ',
-	'batch'             => 'Lote',
+	// 'batch'             => 'Lote',
 ];

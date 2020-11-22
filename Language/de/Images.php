@@ -17,6 +17,7 @@ return [
    'gifNotSupported'        => 'GIF-Bilder werden aufgrund von Lizenzbeschränkungen oft nicht unterstützt. Möglicherweise müssen stattdessen JPG- oder PNG-Bilder verwendet werden.',
    'jpgNotSupported'        => 'JPG-Bilder werden nicht unterstützt.',
    'pngNotSupported'        => 'PNG-Bilder werden nicht unterstützt.',
+   'webpNotSupported'       => 'WEBP images are not supported.',
    'fileNotSupported'       => 'Die Datei enthält ein nicht unterstütztes Bildformat.',
    'unsupportedImageCreate' => 'Der Server unterstützt die GD-Funktion, welche für die Verarbeitung dieser Art von Bildern erforderlich ist, nicht.',
    'jpgOrPngRequired'       => 'Das in den Einstellungen angegebene Protokoll zur Änderung der Bildgröße funktioniert nur mit den Bildtypen JPEG oder PNG.',

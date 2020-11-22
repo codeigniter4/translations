@@ -11,8 +11,9 @@
 
 // Core language settings
 return [
-   'invalidFile'      => 'Neteisingas failas: {0}',
    'copyError'        => 'Bandant pakeisti failą ({0}) susidurta su klaida. Prašome patikrinti, ar galima rašyti į direktoriją, kurioje yra failas.',
+   'enabledZlibOutputCompression' => 'Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.',
+   'invalidFile'      => 'Neteisingas failas: {0}',
    'missingExtension' => '{0} praplėtimas nėra įkeltas.',
    'noHandlers'       => '{0} turi teikti bent vieną doroklį.',
 ];

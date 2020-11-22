@@ -18,10 +18,11 @@ return [
    'groupNotArray'         => 'Le groupe de règles {0} doit être un tableau.',
    'invalidTemplate'       => '{0} n\'est pas un modèle de Validation valide.',
 
-	// Rule Messages
+   // Rule Messages
    'alpha'                 => 'Le champ {field} ne peut contenir que des caractères alphabétiques.',
    'alpha_dash'            => 'Le champ {field} ne peut contenir que des caractères alphanumériques, des underscores, et des tirets.',
    'alpha_numeric'         => 'Le champ {field} ne peut contenir que des caractères alphanumériques.',
+   'alpha_numeric_punct'   => 'The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.',
    'alpha_numeric_space'   => 'Le champ {field} ne peut contenir que des caractères alphanumériques et des espaces.',
    'alpha_space'           => 'Le champ {field} ne peut contenir que des caractères alphabétiques et des espaces.',
    'decimal'               => 'Le champ {field} doit contenir un nombre décimal.',
@@ -48,6 +49,7 @@ return [
    'required'              => 'Le champ {field} est requis.',
    'required_with'         => 'Le champ {field} est requis lorsque {param} est présent.',
    'required_without'      => 'Le champ {field} est requis lorsque {param} n\'est pas présent.',
+   'string'                => 'The {field} field must be a valid string.',
    'timezone'              => 'Le champ {field} doit être un fuseau horaire valide.',
    'valid_base64'          => 'Le champ {field} doit être une chaîne de caractères en base64 valide.',
    'valid_email'           => 'Le champ {field} doit contenir une adresse email valide.',
@@ -56,10 +58,10 @@ return [
    'valid_url'             => 'Le champ {field} doit contenir une URL valide.',
    'valid_date'            => 'Le champ {field} doit contenir une date valide.',
 
-	// Credit Cards
+   // Credit Cards
    'valid_cc_num'          => '{field} ne semble pas être un numéro de carte de crédit valide.',
 
-	// Files
+   // Files
    'uploaded'              => 'Le fichier envoyé {field} n\'est pas valide.',
    'max_size'              => 'Le fichier {field} est trop volumineux.',
    'is_image'              => 'Le fichier envoyé {field} n\'est pas une image valide.',

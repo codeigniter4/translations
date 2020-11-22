@@ -44,7 +44,7 @@ return [
 	'max_length'            => 'O campo {field} não pode exceder {param} caracteres no tamanho.',
 	'min_length'            => 'O campo {field} deve conter pelo menos {param} caracteres no tamanho.',
 	'not_equals'            => 'O campo {field} não pode ser: {param}.',
-	'not_in_list'           => 'O campo {field} não deve ser um desses: {param}.',
+	// 'not_in_list'           => 'O campo {field} não deve ser um desses: {param}.',
 	'numeric'               => 'O campo {field} deve conter apenas números.',
 	'regex_match'           => 'O campo {field} não está no formato correto.',
 	'required'              => 'O campo {field} é requerido.',

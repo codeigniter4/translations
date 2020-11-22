@@ -11,8 +11,9 @@
 
 // Core language settings
 return [
-    'invalidFile'      => '无效的文件: {0}。',
     'copyError'        => '尝试替换文件时发生错误，请确认文件路径是否有写权限。',
+    'enabledZlibOutputCompression' => 'Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.',
+    'invalidFile'      => '无效的文件: {0}。',
     'missingExtension' => '未加载 {0} 扩展。',
     'noHandlers'       => '{0} 必须提供至少一个处理程序。',
 ];

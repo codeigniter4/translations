@@ -11,7 +11,7 @@
 
 // Migration language settings
 return [
-	// Migration Runner
+   // Migration Runner
    'missingTable'      => 'Debe establecer la tabla de migrado.',
    'disabled'          => 'Las migraciones se han cargado pero están deshabilitadas o configuradas incorrectamente.',
    'notFound'          => 'Archivo de migración no encontrado: ',
@@ -21,7 +21,7 @@ return [
    'classNotFound'     => 'La clase de migración "%s" no se ha encontrado.',
    'missingMethod'     => 'La clase de migración no ha encontrado el método "%s".',
 
-    // Migration Command
+   // Migration Command
    'migHelpLatest'     => "\t\tMigra la base de datos a la última versión disponible.",
    'migHelpCurrent'    => "\t\tMigra la base de datos a la versión marcado como 'current' en configuración.",
    'migHelpVersion'    => "\tMigra la base de datos a la versión {v}.",
@@ -33,6 +33,8 @@ return [
    'badCreateName'     => 'Debe establecer un nombre al archivo de migración.',
    'writeError'        => 'Error al intentar crear el archivo.',
    'migNumberError'    => 'El número de migración debe tener tres dígitos y no debe haber espacios en la secuencia.',
+   'rollBackConfirm'   => 'Are you sure you want to rollback?',
+   'refreshConfirm'    => 'Are you sure you want to refresh?',
 
    'latest'            => 'Migrando a la última versión...',
    'generalFault'      => '¡La migración falló!',

@@ -11,17 +11,18 @@
 
 // Validation language settings
 return [
-	// Core Messages
+   // Core Messages
    'noRuleSets'            => 'No rulesets specified in Validation configuration.',
    'ruleNotFound'          => '{0} je neplatné pravidlo.',
    'groupNotFound'         => '{0} nie je skupina overovacích pravidiel..',
    'groupNotArray'         => '{0} skupina pravididel musí byť pole.',
    'invalidTemplate'       => '{0} je neplatná Validation predloha.',
 
-	// Rule Messages
+   // Rule Messages
    'alpha'                 => 'Pole {field} môže obsahovať iba abecedné znaky.',
    'alpha_dash'            => 'Pole {field} môže obsahovať iba alfanumerické znaky, podtržníky a pomlčky.',
    'alpha_numeric'         => 'Pole {field} môže obsahovať iba alfanumerické znaky.',
+   'alpha_numeric_punct'   => 'The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.',
    'alpha_numeric_space'   => 'Pole {field} môže obsahovať iba alfanumerické znaky a medzery.',
    'alpha_space'           => 'Pole {field} môže obsahovať iba abecedné znaky a medzery.',
    'decimal'               => 'Pole {field} musí obsahovať decimálne číslo.',
@@ -30,6 +31,7 @@ return [
    'exact_length'          => 'Pole {field} musí byť presne {param} znakov dlhé.',
    'greater_than'          => 'Pole {field} musí obsahovať číslo väčšie ako {param}.',
    'greater_than_equal_to' => 'Pole {field} musí obsahovať číslo väčšie alebo rovné ako {param}.',
+   'hex'                   => 'The {field} field may only contain hexidecimal characters.',
    'in_list'               => 'Pole {field} musí byť jedno z: {param}.',
    'integer'               => 'Pole {field} musí obsahovať celé číslo.',
    'is_natural'            => 'Pole {field} musí obsahovať iba číslice.',
@@ -47,6 +49,7 @@ return [
    'required'              => 'Pole {field} je povinné.',
    'required_with'         => 'Pole {field} je povinné ak {param} je zadaný.',
    'required_without'      => 'Pole {field} je povinné ak {param} nie je zadaný.',
+   'string'                => 'The {field} field must be a valid string.',
    'timezone'              => 'Pole {field} musí byť platná časová zóna.',
    'valid_base64'          => 'Pole {field} musí byť platný base64 reťazec.',
    'valid_email'           => 'Pole {field} musí obsahovať platnú emailovú adresu.',
@@ -55,10 +58,10 @@ return [
    'valid_url'             => 'Pole {field} musí obsahovať platnú URL adresu.',
    'valid_date'            => 'Pole {field} musí obsahovať platný dátum.',
 
-	// Credit Cards
+   // Credit Cards
    'valid_cc_num'          => '{field} sa nezdá byť platné číslo kreditnej/debetnej karty.',
 
-	// Files
+   // Files
    'uploaded'              => '{field} je neplatný nahraný súbor.',
    'max_size'              => '{field} je príliš veľký súbor.',
    'is_image'              => '{field} je neplatný nahraný obrázok.',

@@ -72,5 +72,5 @@ return [
 	'uploadErrUnknown'       => 'O upload do arquivo "%s" não foi realizado devido a um erro desconhecido.',
 
 	// SameSite setting
-	'invalidSameSiteSetting' => 'A configuração SameSite deve ser None, Lax, Strict ou uma string vazia. Dado: {0}',
+	// 'invalidSameSiteSetting' => 'A configuração SameSite deve ser None, Lax, Strict ou uma string vazia. Dado: {0}',
 ];
