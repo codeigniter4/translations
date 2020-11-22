@@ -17,6 +17,8 @@ return [
 	'gifNotSupported'        => 'Gambar GIF sering tidak didukung karena pembatasan perizinan. Anda mungkin harus menggunakan gambar JPG atau PNG sebagai gantinya.',
 	'jpgNotSupported'        => 'Gambar JPG tidak didukung.',
 	'pngNotSupported'        => 'Gambar PNG tidak didukung.',
+	'webpNotSupported'       => 'Gambar WEBP tidak didukung.',
+	'fileNotSupported'       => 'Berkas yang diberikan bukan jenis gambar yang didukung.',
 	'unsupportedImageCreate' => 'Server Anda tidak mendukung fungsi GD yang diperlukan untuk memproses jenis gambar ini.',
 	'jpgOrPngRequired'       => 'Protokol pengubahan ukuran gambar yang ditentukan dalam preferensi Anda hanya berfungsi dengan jenis gambar JPEG atau PNG.',
 	'rotateUnsupported'      => 'Rotasi gambar sepertinya tidak didukung oleh server Anda.',

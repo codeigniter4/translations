@@ -9,8 +9,8 @@
  * file that was distributed with this source code.
  */
 
-// Files language settings
+// Fabricator language strings
 return [
-	'fileNotFound'		 => 'Berkas tidak ditemukan: {0}',
-	'cannotMove'		 => 'Tidak dapat memindahkan berkas {0} ke {1} ({2})',
+    'invalidModel'      => 'Model tidak valid disediakan untuk fabrikasi.',
+    'missingFormatters' => 'Tidak ada pemformat valid yang ditentukan.',
 ];

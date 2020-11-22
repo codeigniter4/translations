@@ -9,8 +9,9 @@
  * file that was distributed with this source code.
  */
 
-// Files language settings
+// Seed language strings
 return [
-	'fileNotFound'		 => 'Berkas tidak ditemukan: {0}',
-	'cannotMove'		 => 'Tidak dapat memindahkan berkas {0} ke {1} ({2})',
+    // Seed command
+    'nameFile'   => 'Beri nama file seeder',
+    'writeError' => 'Galat saat mencoba membuat berkas {0}, periksa apakah direktori dapat ditulis.',
 ];
