@@ -13,7 +13,7 @@ class TranslationsTest extends TestCase
 
 	/**
 	 * Identify all the locales in the translations repo.
-	 * 
+	 *
 	 * @return [][]
 	 */
 	public function translations()
@@ -36,7 +36,7 @@ class TranslationsTest extends TestCase
 	 * the translation sets (individual files) are there.
 	 * This is relaxed for sublocales (eg fr-CA), which are only
 	 * expected to provide variations for a parent locale.
-	 * 
+	 *
 	 * @dataProvider translations
 	 */
 	public function testMissingFiles($locale)
@@ -51,7 +51,7 @@ class TranslationsTest extends TestCase
 	/**
 	 * For a given translation locale found, make sure that there
 	 * are no extra (unneeded) translation sets provided.
-	 * 
+	 *
 	 * @dataProvider translations
 	 */
 	public function testExtraFiles($locale)
@@ -68,7 +68,7 @@ class TranslationsTest extends TestCase
 	 * set has the appropriate keys for a complete translation.
 	 * This is relaxed for sublocales (eg fr-CA), which are only
 	 * expected to provide variations for a parent locale.
-	 * 
+	 *
 	 * @dataProvider translations
 	 */
 	public function testMissingKeys($locale)
@@ -93,7 +93,7 @@ class TranslationsTest extends TestCase
 	/**
 	 * For a given translation locale found, make sure that each translation
 	 * doesn't have extra (un-needed) keys defined..
-	 * 
+	 *
 	 * @dataProvider translations
 	 */
 	public function testExtraKeys($locale)
@@ -117,12 +117,12 @@ class TranslationsTest extends TestCase
 
 	/**
 	 * Identify all the translation sets in system/Language/en
-	 * 
+	 *
 	 * @return []
 	 */
 	public function expectedSets()
 	{
-		$dir = getcwd() . '/vendor/codeigniter4/framework/system/Language/en/';
+		$dir = getcwd() . '/vendor/codeigniter4/codeigniter4/system/Language/en/';
 		$dh = opendir($dir);
 		$sets = [];
 		while (($file = readdir($dh)) !== false)
@@ -137,7 +137,7 @@ class TranslationsTest extends TestCase
 
 	/**
 	 * Identify all the translation sets found for a given locale
-	 * 
+	 *
 	 * @return []
 	 */
 	public function foundSets($locale)
@@ -157,13 +157,13 @@ class TranslationsTest extends TestCase
 
 	/**
 	 * Load a set of translations, from the repo or "stock".
-	 * 
+	 *
 	 * @return []
 	 */
 	public function loadKeys($which, $locale = null)
 	{
 		$folder = $locale ? getcwd() . '/Language/' . $locale . '/' :
-				getcwd() . '/vendor/codeigniter4/framework/system/Language/en/';
+				getcwd() . '/vendor/codeigniter4/codeigniter4/system/Language/en/';
 		$file = $folder . $which;
 		$keys = require $file;
 		return $keys;
