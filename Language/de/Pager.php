@@ -13,9 +13,9 @@
 return [
    'pageNavigation'         => 'Seiten Navigation',
    'first'                  => 'Erste',
-   'previous'               => 'Letzte',
+   'previous'               => 'Zurück',
    'next'                   => 'Weiter',
-   'last'                   => 'Zurück',
+   'last'                   => 'Letzte',
    'older'                  => 'Älter',
    'newer'                  => 'Neuer',
    'invalidTemplate'        => '{0} ist kein gültiges Template.',
