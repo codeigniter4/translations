@@ -1,46 +1,19 @@
 <?php
 
 /**
- * Migration language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * This content is released under the MIT License (MIT)
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * Copyright (c) 2014-2019 British Columbia Institute of Technology
- * Copyright (c) 2019-2020 CodeIgniter Foundation
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
- *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+// Migration language settings
 return [
-	// Migration Runner
+   // Migration Runner
    'missingTable'      => 'جدول مایگریشن تنظیم نشده است.',
-//   'invalidType'       => 'یک نوع شماره گذاری نامعتبر برای مایگریشن مشخص شده است: {0}',
+   //   'invalidType'       => 'یک نوع شماره گذاری نامعتبر برای مایگریشن مشخص شده است: {0}',
    'disabled'          => 'مایگریشن‌ها لارگزاری شده‌اند، اما غیرفعالند یا درست تنظیم نشده اند.',
    'notFound'          => 'فایل مایگریشن پیدا نشد: ',
    'batchNotFound'     => 'Target batch not found: ',
@@ -49,7 +22,7 @@ return [
    'classNotFound'     => 'کلاس مایگریشن "%s" پیدا نشد.',
    'missingMethod'     => 'کلاس مایگریشن متد "%s" را ندارد.',
 
-	// Migration Command
+   // Migration Command
    'migHelpLatest'     => "\t\tMigrates database to latest available migration.",
    'migHelpCurrent'    => "\t\tMigrates database to version set as 'current' in configuration.",
    'migHelpVersion'    => "\tMigrates database to version {v}.",
@@ -61,8 +34,10 @@ return [
    'badCreateName'     => 'You must provide a migration file name.',
    'writeError'        => 'Error trying to create file.',
    'migNumberError'    => 'Migration number must be three digits, and there must not be any gaps in the sequence.',
+   'rollBackConfirm'   => 'Are you sure you want to rollback?',
+   'refreshConfirm'    => 'Are you sure you want to refresh?',
 
-//   'toLatest'          => 'Migrating to latest version...',
+   //   'toLatest'          => 'Migrating to latest version...',
    'latest'            => 'Running all new migrations...',
    'generalFault'      => 'Migration failed!',
    'migInvalidVersion' => 'Invalid version number provided.',

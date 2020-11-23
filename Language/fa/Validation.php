@@ -1,52 +1,28 @@
 <?php
+
 /**
- * Validation language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * This content is released under the MIT License (MIT)
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * Copyright (c) 2014-2019 British Columbia Institute of Technology
- * Copyright (c) 2019-2020 CodeIgniter Foundation
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
- *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
+
+// Validation language settings
 return [
-	// Core Messages
+   // Core Messages
    'noRuleSets'            => 'در تنظیمات اعتبارسنجی هیچ سری قانونی تعریف نشده است.',
    'ruleNotFound'          => '{0} یک قانون معتبر نیست.',
    'groupNotFound'         => '{0} یک گروه اعتبار سنجی نیست.',
    'groupNotArray'         => 'گروه قانون {0} باید یک آرایه باشد.',
    'invalidTemplate'       => '{0} قالب اعتبارسنجی درستی نیست.',
 
-	// Rule Messages
+   // Rule Messages
    'alpha'                 => 'فیلد {field} فقط می‌تواند شامل اعداد انگلیسی و یا حروف باشد.',
    'alpha_dash'            => 'فیلد {field} فقط می‌تواند شامل اعداد انگلیسی، حروف، خط تیره و آندرلاین باشد.',
    'alpha_numeric'         => 'فیلد {field} فقط می‌تواند شامل اعداد انگلیسی و یا حروف باشد.',
+   'alpha_numeric_punct'   => 'The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.',
    'alpha_numeric_space'   => 'فیلد {field} فقط می‌تواند شامل اعداد انگلیسی، حروف و فاصله باشد.',
    'alpha_space'           => 'فیلد {field} فقط می‌تواند شامل حروف و فاصله باشد.',
    'decimal'               => 'فیلد {field} باید یک عدد اعشاری باشد.',
@@ -54,6 +30,7 @@ return [
    'exact_length'          => 'طول فیلد {field} باید دقیقا {param} کاراکتر باشد.',
    'greater_than'          => 'فیلد {field} باید عددی بزرگتر از {param} باشد.',
    'greater_than_equal_to' => 'فیلد {field} باید عددی بزرگتر یا مساوی {param} باشد.',
+   'hex'                   => 'The {field} field may only contain hexidecimal characters.',
    'in_list'               => 'فیلد {field} باید یکی از این مقدارها باشد: {param}.',
    'equals'                => 'The {field} field must be exactly: {param}.',
    'integer'               => 'فیلد {field} باید یک عدد صحیح باشد.',
@@ -72,6 +49,7 @@ return [
    'required'              => 'فیلد {field} اجباری است.',
    'required_with'         => 'وقتی {param} پر باشد، فیلد {field} اجباری است.',
    'required_without'      => 'وقتی {param} پر نشده باشد، فیلد {field} اجباری است.',
+   'string'                => 'The {field} field must be a valid string.',
    'timezone'              => 'فیلد {field} باید یک منطقه‌ی زمانی صحیح باشد.',
    'valid_base64'          => 'فیلد {field} باید یک رشته‌ی صحیح base64 باشد.',
    'valid_email'           => 'فیلد {field} باید یک آدرس ای‌میل معتبر باشد.',
@@ -79,9 +57,9 @@ return [
    'valid_ip'              => 'فیلد {field} باید یک IP معتبر باشد.',
    'valid_url'             => 'فیلد {field} باید یک URL (آدرس اینترنتی) معتبر باشد.',
    'valid_date'            => 'فیلد {field} باید یک تاریخ معتبر باشد.',
-	// Credit Cards
+   // Credit Cards
    'valid_cc_num'          => '{field} یک شماره‌ی کارت اعتباری معتبر نیست.',
-	// Files
+   // Files
    'uploaded'              => '{field} یک فایل آپلود شده‌ی معتبر نیست.',
    'max_size'              => '{field} برای یک فایل، سایز خیلی بزرگ دارد.',
    'is_image'              => '{field} یک عکس آپلود شده‌ی معتبر نیست.',
