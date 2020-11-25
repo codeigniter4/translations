@@ -12,6 +12,6 @@
 // Seed language strings
 return [
     // Seed command
-    'nameFile'   => 'Name the seeder file',
-    'writeError' => 'Error trying to create {0} file, check if the directory is writable.',
+    'nameFile'   => 'Name der Seeder-Datei',
+    'writeError' => 'Fehler beim Versuch die Datei {0} zu erstellen, prüfe ob das Verzeichnis beschreibbar ist.',
 ];
