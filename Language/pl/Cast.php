@@ -37,10 +37,10 @@
  */
 
 return [
-	'jsonErrorDepth' 		=> 'Przekroczono maksymalną głębokość stosu',
-	'jsonErrorStateMismatch'	=> 'Niedopełnienie lub niedopasowanie trybów',
-	'jsonErrorCtrlChar'	=> 'Znaleziono nieoczekiwany znak kontrolny',
-	'jsonErrorSyntax'		=> 'Błąd składniowy, źle sformułowany JSON',
-	'jsonErrorUtf8'		=> 'Zniekształcone znaki UTF-8, prawdopodobnie niepoprawnie zakodowane',
-	'jsonErrorUnknown'		=> 'Nieznany błąd'
+	'jsonErrorDepth'         => 'Przekroczono maksymalną głębokość stosu',
+	'jsonErrorStateMismatch' => 'Niedopełnienie lub niedopasowanie trybów',
+	'jsonErrorCtrlChar'      => 'Znaleziono nieoczekiwany znak kontrolny',
+	'jsonErrorSyntax'        => 'Błąd składniowy, źle sformułowany JSON',
+	'jsonErrorUtf8'          => 'Zniekształcone znaki UTF-8, prawdopodobnie niepoprawnie zakodowane',
+	'jsonErrorUnknown'       => 'Nieznany błąd'
 ];

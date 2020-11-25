@@ -37,5 +37,5 @@
  */
 
 return [
-   'notImplemented' => '"{0}" action not implemented.',
+	'notImplemented' => '"{0}" akcja nie jest obsługiwana.',
 ];

@@ -47,7 +47,7 @@ lt        Lithuanian            4.0.0*       dgvirtual          Donatas Glodenis
 ml        Malayalam             4.0.0        rakheshthayyur     Rakhesh Thayyur
 nl        Dutch                 4.0.0        JohanSmolders      JohanSmolders 
 no        Norwegian             4.0.0        LA3QMA             Kai Günter Brandt
-pl        Polish                4.0.0        DEVELPL            Maciej Jasiewicz
+pl        Polish                4.0.2        codeigniter-polska Slawomir Jasinski
 pt        Portugese             4.0.0        rbm0407            Rodrigo Borges
 pt-BR     Brazilian             4.0.0        natanfelles        Natan Felles
 ru        Russian               4.0.0        DigitalWolf98      Vladislav Rykhtikov

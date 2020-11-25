@@ -39,10 +39,10 @@
 return [
 	// Migration Runner
 	'missingTable'    => 'Tabela migracji musi zostać ustawiona.',
-//	'invalidType'     => 'Określono niepoprawny typ numerowania migracji: {0}',
+	//	'invalidType'     => 'Określono niepoprawny typ numerowania migracji: {0}',
 	'disabled'        => 'Migracje zostały załadowane, ale są wyłączone lub niepoprawnie skonfigurowane.',
 	'notFound'        => 'Nie znaleziono pliku migracji: ',
-	'batchNotFound'     => 'Target batch not found: ',
+	'batchNotFound'   => 'Target batch not found: ',
 	'empty'           => 'Nie znaleziono plików migracji',
 	'gap'             => 'W sekwencji migracji znajduje się luka w pobliżu numeru wersji: ',
 	'classNotFound'   => 'Nie można znaleźć klasy migracji "%s".',
@@ -59,11 +59,11 @@ return [
 	'nameMigration'   => 'Nazwij plik migracji',
 	'badCreateName'   => 'Musisz podać nazwę pliku migracji.',
 	'writeError'      => 'Błąd podczas próby utworzenia pliku.',
-	'migNumberError'    => 'Migration number must be three digits, and there must not be any gaps in the sequence.',
+	'migNumberError'  => 'Numer migracji musi mieć 3 cyfry, nie może też być przerw w numeracji.',
 
-	'latest'            => 'Running all new migrations...',
-	'generalFault'      => 'Migration failed!',
-//	'toLatest'          => 'Migrowanie do najnowszej wersji...',
+	'latest'            => 'Uruchamianie nowych migracji...',
+	'generalFault'      => 'Migracja nie powiodła się!',
+	//	'toLatest'          => 'Migrowanie do najnowszej wersji...',
 	'migInvalidVersion' => 'Podano nieprawidłowy numer wersji.',
 	'toVersionPH'       => 'Migrowanie do wersji %s...',
 	'toVersion'         => 'Migracja do bieżącej wersji...',
