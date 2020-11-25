@@ -45,6 +45,7 @@ it        Italian               4.0.0        luk3b8             Luca Rasia
 ja        Japanese              4.0.0        kohenji01          Shoji Ogura
 ko        Korean                4.0.0*       Timothy-Y-H-Lee    Timothy-Y-H-Lee
 lt        Lithuanian            4.0.0*       dgvirtual          Donatas Glodenis
+lv        Latvian               4.0.0*       davislasis         Dāvis Lasis
 ml        Malayalam             4.0.0        rakheshthayyur     Rakhesh Thayyur
 nl        Dutch                 4.0.0        JohanSmolders      JohanSmolders 
 no        Norwegian             4.0.0        LA3QMA             Kai Günter Brandt
