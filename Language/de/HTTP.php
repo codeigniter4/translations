@@ -12,8 +12,8 @@
 // HTTP language settings
 return [
    // CurlRequest
-   'missingCurl'                => 'CURL must be enabled to use the CURLRequest class.',
-   'invalidSSLKey'              => 'Kann SSL Key micht setzen. {0} ist kein gültiger Dateiname.',
+   'missingCurl'                => 'CURL muss aktiviert sein um die CURLRequest Klasse zu nutzen.',
+   'invalidSSLKey'              => 'Kann SSL Key nicht setzen. {0} ist kein gültiger Dateiname.',
    'sslCertNotFound'            => 'SSL-Zertifikat nicht gefunden unter:: {0}',
    'curlError'                  => '{0} : {1}',
 
@@ -27,7 +27,7 @@ return [
    'emptySupportedNegotiations' => 'Es müssen gültige Inhaltstypen angegeben werden.',
 
    // RedirectResponse
-   'invalidRoute'               => '{0} ist eine üngültige Route.',
+   'invalidRoute'               => '{0} ist eine ungültige Route.',
 
    // DownloadResponse
    'cannotSetBinary'            => 'Fehler beim Download. Filepath kann nicht auf Binär gesetzt werden.',
