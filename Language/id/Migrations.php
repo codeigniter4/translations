@@ -31,8 +31,6 @@ return [
 	'migHelpSeed'       => "\tMenjalankan seeder bernama [name].",
 	'migCreate'         => "\tMenciptakan sebuah nama migrasi baru bernama [name]",
 	'nameMigration'     => 'Beri nama berkas migrasi',
-	'badCreateName'     => 'Anda harus memberikan sebuah nama berkas migrasi.',
-	'writeError'        => 'Kesalahan saat mencoba membuat berkas.',
 	'migNumberError'    => 'Nomor migrasi harus tiga digit dan tidak boleh ada jarak pada urutan.',
 	'rollBackConfirm'   => 'Anda yakin ingin melakukan rollback?',
 	'refreshConfirm'    => 'Anda yakin ingin menyegarkan?',
@@ -48,9 +46,15 @@ return [
 	'on'                => 'Dimigrasi Pada: ',
 	'migSeeder'         => 'Nama seeder',
 	'migMissingSeeder'  => 'Anda harus memberikan sebuah nama seeder.',
+	'nameSeeder'        => 'Beri nama berkas seeder',
 	'removed'           => 'Mengembalikan: ',
 	'added'             => 'Berjalan: ',
 
-	'version'           => 'Versi',
+	// Migrate Status
+	'namespace'         => 'Namespace',
 	'filename'          => 'Nama berkas',
+	'version'           => 'Versi',
+	'group'             => 'Grup',
+	'on'                => 'Dimigrasi Pada: ',
+	'batch'             => 'Batch',
 ];

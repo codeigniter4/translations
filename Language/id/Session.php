@@ -16,4 +16,5 @@ return [
 	'writeProtectedSavePath' => 'Sesi: Jalur penyimpanan terkonfigurasi "{0}" tidak dapat ditulis oleh proses PHP.',
 	'emptySavePath'          => 'Sesi: Tidak ada jalur penyimpanan yang dikonfigurasi.',
 	'invalidSavePathFormat'  => 'Sesi: Format jalur penyimpanan Redis tidak valid: {0}',
+	'invalidSameSiteSetting' => 'Sesi: Pengaturan SameSite harus ada, Lax, Strict, atau string kosong. Diberikan: {0}',
 ];

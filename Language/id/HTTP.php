@@ -70,4 +70,7 @@ return [
 	'uploadErrNoTmpDir'          => 'Berkas tidak dapat diunggah: direktori sementara tidak ditemukan.',
 	'uploadErrExtension'         => 'Unggahan berkas dihentikan oleh ekstensi PHP.',
 	'uploadErrUnknown'           => 'Berkas "%s" tidak terunggah karena kesalahan yang tidak diketahui.',
+
+	// SameSite setting
+	'invalidSameSiteSetting'     => 'Pengaturan SameSite harus None, Lax, Strict, atau string kosong. Diberikan: {0}',
 ];

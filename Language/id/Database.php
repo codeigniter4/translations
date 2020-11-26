@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => 'Anda harus memberikan sebuah {0} yang valid.',
 	'invalidAllowedFields'             => 'Bidang yang diizinkan harus ditentukan untuk model: {0}',
 	'emptyDataset'                     => 'Tidak ada data untuk {0}.',
+	'emptyPrimaryKey'                  => 'Tidak ada kunci utama yang ditentukan saat mencoba membuat {0}.',
 	'failGetFieldData'                 => 'Gagal mengambil data bidang dari basis data.',
 	'failGetIndexData'                 => 'Gagal mengambil data indeks dari basis data.',
 	'failGetForeignKeyData'            => 'Gagal mengambil data foreign key dari basis data.',
