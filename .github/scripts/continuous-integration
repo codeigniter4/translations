@@ -1,0 +1,78 @@
+#!/usr/bin/env php
+<?php
+
+error_reporting(-1);
+ini_set('display_errors', '1');
+
+require __DIR__ . '/../../vendor/autoload.php';
+
+use CodeIgniter\Language\AbstractTranslationTestCase;
+
+$args = $_SERVER['argv'];
+
+if (! isset($args[1]))
+{
+	fwrite(STDERR, 'Changed files are not provided. Aborting...');
+	exit(1);
+}
+
+$files = $args[1];
+unset($args);
+
+$files = explode(' ', trim($files));
+
+$stagedPhpFiles = [];
+
+foreach ($files as $file)
+{
+	if (substr($file, -4) === '.php')
+	{
+		$stagedPhpFiles[] = $file;
+	}
+}
+
+$locales = [];
+
+foreach ($stagedPhpFiles as $file)
+{
+	if (preg_match('/^Language\/(.*)\/.*\.php$/', $file, $matches))
+	{
+		$locales[] = $matches[1];
+	}
+}
+
+$locales = array_unique($locales);
+$count   = count($locales);
+
+chdir(__DIR__ . '/../../');
+
+if ($count === 0)
+{
+	fwrite(STDOUT, 'No language files to test.');
+	exit(0);
+}
+
+if ($count === count(AbstractTranslationTestCase::$locales))
+{
+	$return = 0;
+	fwrite(STDOUT, "Testing all language files in all locales.\n\n");
+	passthru('vendor/bin/phpunit --filter AllLocalesTranslationTest', $return);
+
+	exit($return);
+}
+
+$returns = 0;
+$return  = 0;
+
+foreach ($locales as $locale)
+{
+	$localeMap = array_flip(AbstractTranslationTestCase::$locales);
+	$class     = preg_replace('/^CodeIgniter\\\\Language\\\\(.*)$/u', '$1', $localeMap[$locale]);
+
+	fwrite(STDOUT, 'Executing vendor/bin/phpunit --color=always --filter ' . $class . "\n\n");
+	passthru("vendor/bin/phpunit --color=always --filter {$class}", $return);
+
+	$returns += $return;
+}
+
+exit($returns ? 1 : 0);
