@@ -3,11 +3,11 @@ Translations for CodeIgniter 4 System Messages
 ##############################################
 
 This project contains translations for CodeIgniter 4
-localization, eg. **system/Language/en**.
+localization, e.g. **system/Language/en/**.
 
 Copy the folder(s) for the locales you are interested in,
 from inside the **Language** folder of this project to your
-**application/Language** folder.
+**app/Language/** folder.
 
 You may then use the CodeIgniter Language class to reference the translations
 directly ... see the `User Guide <https://codeigniter4.github.io/CodeIgniter4/outgoing/localization.html>`_.
@@ -15,9 +15,9 @@ directly ... see the `User Guide <https://codeigniter4.github.io/CodeIgniter4/ou
 Localization in CodeIgniter 4 follows the `ISO 639-1 conventions <https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_.
 Each translation set would go inside a folder named following the two-letter language code from here.
 
-Localization variants are provided for, as folders named with the two-letter ISO 639-1 language code in lowercase, 
-followed by the two-letter `ISO 3166 country code <https://en.wikipedia.org/wiki/ISO_3166-1>`_ capitalized, 
-and with the two parts separated by a hyphen. 
+Localization variants are provided for, as folders named with the two-letter ISO 639-1 language code in lowercase,
+followed by the two-letter `ISO 3166 country code <https://en.wikipedia.org/wiki/ISO_3166-1>`_ capitalized,
+and with the two parts separated by a hyphen.
 An example would be "en" for English, and "en-US" for the variations appropriate to the United States.
 
 **********************
@@ -47,7 +47,7 @@ ko        Korean                4.0.0*       Timothy-Y-H-Lee    Timothy-Y-H-Lee
 lt        Lithuanian            4.0.0*       dgvirtual          Donatas Glodenis
 lv        Latvian               4.0.0*       davislasis         Dāvis Lasis
 ml        Malayalam             4.0.0        rakheshthayyur     Rakhesh Thayyur
-nl        Dutch                 4.0.0        JohanSmolders      JohanSmolders 
+nl        Dutch                 4.0.0        JohanSmolders      JohanSmolders
 no        Norwegian             4.0.0        LA3QMA             Kai Günter Brandt
 pl        Polish                4.0.0        DEVELPL            Maciej Jasiewicz
 pt        Portugese             4.0.0        rbm0407            Rodrigo Borges
@@ -72,5 +72,3 @@ License
 *******
 
 These translations are licensed under the `MIT license <LICENSE>`_.
-
-`Jim Parry <admin@codeigniter.com>`_
