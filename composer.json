@@ -5,12 +5,12 @@
     "homepage": "https://codeigniter.com",
     "license": "MIT",
     "require": {
-        "php": ">=7.2",
+        "php": "^7.2",
         "ext-intl": "*"
     },
     "require-dev": {
         "codeigniter4/codeigniter4": "dev-develop",
-        "phpunit/phpunit": "^8.5"
+        "phpunit/phpunit": "^9.4"
     },
     "config": {
         "optimize-autoloader": true,
@@ -30,7 +30,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/codeigniter4/codeigniter4",
+            "url": "https://github.com/codeigniter4/CodeIgniter4",
             "canonical": true
         }
     ],

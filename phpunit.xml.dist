@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/8.5/phpunit.xsd"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.4/phpunit.xsd"
          bootstrap="vendor/codeigniter4/codeigniter4/system/Test/bootstrap.php"
+         cacheResultFile=".phpunit.cache/test-results"
          backupGlobals="false"
          colors="true"
          convertErrorsToExceptions="true"
@@ -18,11 +19,11 @@
         </testsuite>
     </testsuites>
 
-    <filter>
-        <whitelist processUncoveredFilesFromWhitelist="true">
+    <coverage cacheDirectory=".phpunit.cache/code-coverage" processUncoveredFiles="true">
+        <include>
             <directory suffix=".php">Language</directory>
-        </whitelist>
-    </filter>
+        </include>
+    </coverage>
 
     <php>
         <env name="app.baseURL" value="http://example.com/"/>
