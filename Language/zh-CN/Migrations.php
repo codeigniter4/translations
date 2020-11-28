@@ -1,46 +1,19 @@
 <?php
 
 /**
- * Migration language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * This content is released under the MIT License (MIT)
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * Copyright (c) 2014-2019 British Columbia Institute of Technology
- * Copyright (c) 2019-2020 CodeIgniter Foundation
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
- *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+// Migration language settings
 return [
-	// Migration Runner
+   // Migration Runner
    'missingTable'      => '必须设置迁移表。',
-//   'invalidType'       => '指定的迁移类型编号无效: {0}',
+   //   'invalidType'       => '指定的迁移类型编号无效: {0}',
    'disabled'          => '迁移状态为禁用或不正确，请确认 app/Config/Migrations 文件的 $enabled 值是否为 true。',
    'notFound'          => '找不到指定的迁移文件：',
    'batchNotFound'     => 'Target batch not found: ',
@@ -49,7 +22,7 @@ return [
    'classNotFound'     => '找不到指定的迁移类 "%s" 。',
    'missingMethod'     => '迁移类缺少 "%s" 方法。',
 
-	// Migration Command
+   // Migration Command
    'migHelpLatest'     => "\t\t数据库将迁移至最新的可用迁移。",
    'migHelpCurrent'    => "\t\t数据库将迁移至配置文件中 'current' 的版本。",
    'migHelpVersion'    => "\t数据库将迁移至 {v} 版本。",
@@ -61,8 +34,10 @@ return [
    'badCreateName'     => '你必须提供迁移文件名。',
    'writeError'        => '尝试创建文件时出错。',
    'migNumberError'    => '迁移号必须为3位数字且中间不能有任何空格。',
+   'rollBackConfirm'   => 'Are you sure you want to rollback?',
+   'refreshConfirm'    => 'Are you sure you want to refresh?',
 
-//   'toLatest'          => '迁移到最新版本...',
+   //   'toLatest'          => '迁移到最新版本...',
    'latest'            => 'Running all new migrations...',
    'generalFault'      => 'Migration failed!',
    'migInvalidVersion' => '提供的版本号无效。',

@@ -22,7 +22,6 @@ hi        Hindi                 shindesushilkumar  Sushilkumar Shinde
 hu        Hungarian             orionstar          László Bóra
 ja        Japanese              ?                  ?
 km        Khmer                 Chanthoeun         Chanthoeun Kim
-lv        Latvian               DavisMiculis       Davis Miculis
 fa        Persian               MSDehghan          Mohammad Sadegh
 ro        Romanian              CodefishRo         Cristian Robert Chiribuc
 sr        Serbian               novakurosevic      Novak Urosevic ???

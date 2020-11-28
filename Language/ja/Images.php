@@ -1,41 +1,15 @@
 <?php
+
 /**
- * Image language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * This content is released under the MIT License (MIT)
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * Copyright (c) 2014-2019 British Columbia Institute of Technology
- * Copyright (c) 2019-2020 CodeIgniter Foundation
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package    CodeIgniter
- * @author     Shoji Ogura
- * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
- *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+// Images language settings
 return [
    'sourceImageRequired'    => '環境設定でソース画像を指定する必要があります。', //You must specify a source image in your preferences.
    'gdRequired'             => 'この機能を利用するにはGDイメージライブラリが必要です。', //The GD image library is required to use this feature.
@@ -43,6 +17,7 @@ return [
    'gifNotSupported'        => 'ライセンスの制限により、GIF画像はサポートされないことがよくあります。代わりに JPG または PNG 画像を使用する必要があるかもしれません。', //GIF images are often not supported due to licensing restrictions. You may have to use JPG or PNG images instead.
    'jpgNotSupported'        => 'JPG画像には対応していません。', //JPG images are not supported.
    'pngNotSupported'        => 'PNG画像には対応していません。', //PNG images are not supported.
+   'webpNotSupported'       => 'WEBP images are not supported.',
    'fileNotSupported'       => '与えられたファイルはサポートされている画像の種類ではありません。', //The supplied file is not a supported image type.
    'unsupportedImageCreate' => 'お使いのサーバーは、このタイプの画像を処理するために必要なGDファンクションをサポートしていません。', //Your server does not support the GD function required to process this type of image.
    'jpgOrPngRequired'       => '環境設定で指定された画像サイズ変更プロトコルは、JPEGまたはPNG画像でのみ動作します。', //The image resize protocol specified in your preferences only works with JPEG or PNG image types.

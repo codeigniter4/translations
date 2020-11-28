@@ -1,42 +1,15 @@
 <?php
 
 /**
- * Validation language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * This content is released under the MIT License (MIT)
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * Copyright (c) 2014-2019 British Columbia Institute of Technology
- * Copyright (c) 2019-2020 CodeIgniter Foundation
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
- *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+// Validation language settings
 return [
 	// Core Messages
 	'noRuleSets'            => 'Doğrulama ayarlarında kural kümesi tanımlanmamış.',
@@ -49,6 +22,7 @@ return [
 	'alpha'                 => '{field} alanı yalnız alfabetik karakterler içerebilir.',
 	'alpha_dash'            => '{field} alanı yalnız harf, rakam, alt çizgi ve tire içerebilir.',
 	'alpha_numeric'         => '{field} alanı yalnız harf ve rakam içerebilir.',
+	'alpha_numeric_punct'   => 'The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.',
 	'alpha_numeric_space'   => '{field} alanı yalnız harf, rakam ve boşluk içerebilir.',
 	'alpha_space'           => '{field} alanı yalnız harf ve boşluk içerebilir.',
 	'decimal'               => '{field} alanı bir sayı içermeli.',
@@ -57,6 +31,7 @@ return [
 	'exact_length'          => '{field} alanı {param} karakter uzunluğunda olmalı.',
 	'greater_than'          => '{field} alanı {param} den büyük bir sayı içermeli.',
 	'greater_than_equal_to' => '{field} alanı {param} den büyük veya eşit bir sayı içermeli.',
+	'hex'                   => 'The {field} field may only contain hexidecimal characters.',
 	'in_list'               => '{field} alanı şunlardan biri olmalı: {param}.',
 	'integer'               => '{field} alanı bir tamsayı içermeli.',
 	'is_natural'            => '{field} alanı yalnız rakam içermeli.',
@@ -74,6 +49,7 @@ return [
 	'required'              => '{field} alanı gerekli.',
 	'required_with'         => '{param} olduğunda {field} alanı da olmalı.',
 	'required_without'      => '{param} olmadığında {field} alanı gerekli.',
+	'string'                => 'The {field} field must be a valid string.',
 	'timezone'              => '{field} alanı geçerli bir saat dilimi olmalı.',
 	'valid_base64'          => '{field} alanı geçerli bir base64 dizisi olmalı.',
 	'valid_email'           => '{field} alanı geçerli bir email adresi içermeli.',

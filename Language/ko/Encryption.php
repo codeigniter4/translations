@@ -1,41 +1,15 @@
 <?php
+
 /**
- * Encryption language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * This content is released under the MIT License (MIT)
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * Copyright (c) 2014-2019 British Columbia Institute of Technology
- * Copyright (c) 2019-2020 CodeIgniter Foundation
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2019-2020 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT  MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
- *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
+// Encryption language settings
 return [
    'noDriverRequested'    => '드라이버가 요청되지 않았습니다.', // 미스 데이지가 화낼 것입니다. (역자 주: 영화 Driving Miss Daisy)', // 영어권 문화와 관련된 유머 - 미스 데이지 제외 : (역자 주: 1989년 개봉된 아카데미 작품상을 받은 드라마/코미디 영화 Driving Miss Daisy) @see: https://en.wikipedia.org/wiki/Driving_Miss_Daisy)', // 'No driver requested; Miss Daisy will be so upset!',
    'noHandlerAvailable'   => '사용이 가능한 {0} 암호화 핸들러를 찾을 수 없습니다.', // 'Unable to find an available {0} encryption handler.',

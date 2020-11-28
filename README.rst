@@ -45,6 +45,7 @@ it        Italian               4.0.0        luk3b8             Luca Rasia
 ja        Japanese              4.0.0        kohenji01          Shoji Ogura
 ko        Korean                4.0.0*       Timothy-Y-H-Lee    Timothy-Y-H-Lee
 lt        Lithuanian            4.0.0*       dgvirtual          Donatas Glodenis
+lv        Latvian               4.0.0*       davislasis         Dāvis Lasis
 ml        Malayalam             4.0.0        rakheshthayyur     Rakhesh Thayyur
 nl        Dutch                 4.0.0        JohanSmolders      JohanSmolders 
 no        Norwegian             4.0.0        LA3QMA             Kai Günter Brandt
@@ -54,6 +55,7 @@ pt-BR     Brazilian             4.0.0        natanfelles        Natan Felles
 ru        Russian               4.0.0        DigitalWolf98      Vladislav Rykhtikov
 sk        Slovak                4.0.0        xbotkaj            Jozef Botka
 tr        Turkish               4.0.0        obozdag            obozdag
+uk        Ukrainian             4.0.0        flybot             Serhii Kosyi
 vi        Vietnamese            4.0.0        xuandung38         XuanDung38
 zh-CN     Simple Chinese        4.0.0        bangbangda         bangbangda
 zh-TW     Traditional Chinese   4.0.0 *      monkenWu           monkenWu
@@ -69,6 +71,6 @@ These translations are intended for use with CodeIgniter 4.x applications.
 License
 *******
 
-These translations are licensed under the `MIT license <license.txt>`_.
+These translations are licensed under the `MIT license <LICENSE>`_.
 
 `Jim Parry <admin@codeigniter.com>`_
