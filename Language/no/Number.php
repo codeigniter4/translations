@@ -18,9 +18,9 @@ return [
    'bytes'        => 'Bytes',
 
 	// don't forget the space in front of these!
-   'thousand'     => ' Tusen',
-   'million'      => ' Million',
-   'billion'      => ' Milliarder',
-   'trillion'     => ' Billion',
-   'quadrillion'  => ' Billiarder',
+   'thousand'     => ' tusen',
+   'million'      => ' million',
+   'billion'      => ' milliarder',
+   'trillion'     => ' billion',
+   'quadrillion'  => ' billiarder',
 ];
