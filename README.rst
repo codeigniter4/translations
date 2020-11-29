@@ -43,7 +43,7 @@ fr        French                4.0.0*       amuratet           Amuratet?
 id        Indonesian            4.0.0*       ridho1991          Mutasim Ridlo
 it        Italian               4.0.0        luk3b8             Luca Rasia
 ja        Japanese              4.0.0        kohenji01          Shoji Ogura
-ko        Korean                4.0.0*       Timothy-Y-H-Lee    Timothy-Y-H-Lee
+ko        Korean                4.0.4        codeigniter-kr     codeigniter-kr
 lt        Lithuanian            4.0.0*       dgvirtual          Donatas Glodenis
 lv        Latvian               4.0.0*       davislasis         Dāvis Lasis
 ml        Malayalam             4.0.0        rakheshthayyur     Rakhesh Thayyur
