@@ -15,6 +15,7 @@ return [
    'invalidArgument'                  => '{0} 대신 반드시 유효한 인수가 제공되어야 합니다.', //  CI4 기준 : {0}에는 argument가 들어감. // 'You must provide a valid {0}.',
    'invalidAllowedFields'             => 'Model을 위한 fileds는 반드시 명시가 되어야 합니다: {0}', // 'Allowed fields must be specified for model: {0}',
    'emptyDataset'                     => '{0} : data가 들어있지 않습니다.', // CI4 기준 : DB 작업 관련, data가 없는 경우. {0}에는 'insert', 'update', 'chunk'가 들어감. // 'There is no data to {0}.',
+   'emptyPrimaryKey'                  => '{0}을(를) 만들려고 할때 정의 된 기본키가 없습니다.', // 'There is no primary key defined when trying to make {0}.',
    'failGetFieldData'                 => '데이터베이스로부터 field 가져오기 실패.', // 'Failed to get field data from database.',
    'failGetIndexData'                 => '데이터베이스로부터 index 데이터 가져오기 실패.', // 'Failed to get index data from database.',
    'failGetForeignKeyData'            => '데이터베이스로부터 foreign key 데이터 가져오기 실패.', // 'Failed to get foreign key data from database.',
