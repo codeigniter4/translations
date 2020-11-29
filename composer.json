@@ -5,21 +5,38 @@
     "homepage": "https://codeigniter.com",
     "license": "MIT",
     "require": {
-        "php": ">=7.2",
+        "php": "^7.2",
         "ext-intl": "*"
+    },
+    "require-dev": {
+        "codeigniter4/codeigniter4": "dev-develop",
+        "phpunit/phpunit": "^9.4"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
     },
     "autoload": {
         "psr-4": {
-            "Translations\\": ""
+            "CodeIgniter\\Language\\": "Language/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "CodeIgniter\\Language\\": "tests/Language/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/codeigniter4/CodeIgniter4",
+            "canonical": true
+        }
+    ],
     "support": {
         "forum": "http://forum.codeigniter.com/",
         "source": "https://github.com/codeigniter4/translations",
         "slack": "https://codeigniterchat.slack.com"
-    },
-    "require-dev": {
-        "codeigniter4/framework": "dev-master",
-        "phpunit/phpunit": "^7.0"
     }
 }
