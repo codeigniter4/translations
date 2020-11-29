@@ -51,7 +51,7 @@ return [
    'namespace'         => '네임스페이스',
    'version'           => '버전', // 'Version',
    'filename'          => '파일명', // 'Filename',
-	'group'             => '그룹',
-   'on'                => '마이그레이션 대상: ', // 'Migrated On: ',
-	'batch'             => 'Batch',
+	'group'          => '그룹',
+	'on'                => '마이그레이션 대상: ', // 'Migrated On: ',
+	'batch'           => 'Batch',
 ];
