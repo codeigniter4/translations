@@ -11,5 +11,5 @@
 
 // Entity language settings
 return [
-   'tryingToAccessNonExistentProperty' => 'Intentando acceder a la propiedad inexistente {0} de {1}', // 'Trying to access non existent property {0} of {1}',
+	'tryingToAccessNonExistentProperty' => 'Intentando acceder a la propiedad inexistente {0} de {1}', // 'Trying to access non existent property {0} of {1}',
 ];

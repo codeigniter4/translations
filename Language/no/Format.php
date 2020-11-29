@@ -11,6 +11,6 @@
 
 // Format language settings
 return [
-   'invalidJSON'      => 'JSON-streng kunne ikke tolkes. Feil: "{0}".',
-   'missingExtension' => 'SimpleXML-utvidelsen er nødvendig for å formatere XML.',
+	'invalidJSON'      => 'JSON-streng kunne ikke tolkes. Feil: "{0}".',
+	'missingExtension' => 'SimpleXML-utvidelsen er nødvendig for å formatere XML.',
 ];

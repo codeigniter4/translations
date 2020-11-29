@@ -11,6 +11,6 @@
 
 // Router language settings
 return [
-   'invalidParameter'    => 'Parameter se neshoduje s očekávaným typem.',
-   'missingDefaultRoute' => 'Není možné určit co má být zobrazeno. Zvolená cesta nebyla specifikována v routing souboru.',
+	'invalidParameter'    => 'Parameter se neshoduje s očekávaným typem.',
+	'missingDefaultRoute' => 'Není možné určit co má být zobrazeno. Zvolená cesta nebyla specifikována v routing souboru.',
 ];

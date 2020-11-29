@@ -11,10 +11,10 @@
 
 // Cast language settings
 return [
-   'jsonErrorDepth'         => 'Byla prekročena maximální velikost zásobníku',
-   'jsonErrorStateMismatch' => 'Neplatný nebo poškozený JSON',
-   'jsonErrorCtrlChar'      => 'Nalezen neočekávaný kontrolní znak',
-   'jsonErrorSyntax'        => 'Chyba syntaxe, poškozený JSON',
-   'jsonErrorUtf8'          => 'Poškozené UTF-8 znaky, možná nesprávné kódování',
-   'jsonErrorUnknown'       => 'Neznáma chyba',
+	'jsonErrorDepth'         => 'Byla prekročena maximální velikost zásobníku',
+	'jsonErrorStateMismatch' => 'Neplatný nebo poškozený JSON',
+	'jsonErrorCtrlChar'      => 'Nalezen neočekávaný kontrolní znak',
+	'jsonErrorSyntax'        => 'Chyba syntaxe, poškozený JSON',
+	'jsonErrorUtf8'          => 'Poškozené UTF-8 znaky, možná nesprávné kódování',
+	'jsonErrorUnknown'       => 'Neznáma chyba',
 ];

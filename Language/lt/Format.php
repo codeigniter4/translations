@@ -11,6 +11,6 @@
 
 // Format language settings
 return [
-   'invalidJSON'      => 'Nepavyko nuskaityti json eilutės, klaida: „{0}“.',
-   'missingExtension' => 'XML formatavimui reikalingas SimpleXML praplėtimas.',
+	'invalidJSON'      => 'Nepavyko nuskaityti json eilutės, klaida: „{0}“.',
+	'missingExtension' => 'XML formatavimui reikalingas SimpleXML praplėtimas.',
 ];

@@ -11,6 +11,6 @@
 
 // Format language settings
 return [
-   'invalidJSON'      => 'Не вдалось розібрати рядок в JSON, Помилка: "{0}".',
-   'missingExtension' => 'Розширення SimpleXML мусить бути для форматування XML.',
+	'invalidJSON'      => 'Не вдалось розібрати рядок в JSON, Помилка: "{0}".',
+	'missingExtension' => 'Розширення SimpleXML мусить бути для форматування XML.',
 ];

@@ -11,14 +11,14 @@
 
 // CLI language settings
 return [
-	'commandNotFound'     => 'Perintah "{0}" tidak ditemukan.',
-	'altCommandSingular'  => 'Apakah yang Anda maksud ini?',
-	'altCommandPlural'    => 'Apakah maksud Anda salah satunya?',
-	'helpUsage'           => 'Pemakaian:',
-	'helpDescription'     => 'Deskripsi:',
-	'helpOptions'         => 'Pilihan:',
-	'helpArguments'       => 'Argumen:',
-	'invalidColor'        => 'Warna {0} tidak valid: {1}.',
+	'commandNotFound'    => 'Perintah "{0}" tidak ditemukan.',
+	'altCommandSingular' => 'Apakah yang Anda maksud ini?',
+	'altCommandPlural'   => 'Apakah maksud Anda salah satunya?',
+	'helpUsage'          => 'Pemakaian:',
+	'helpDescription'    => 'Deskripsi:',
+	'helpOptions'        => 'Pilihan:',
+	'helpArguments'      => 'Argumen:',
+	'invalidColor'       => 'Warna {0} tidak valid: {1}.',
 
 	// Generators
 	'generateClassName'   => 'Nama kelas',

@@ -11,5 +11,5 @@
 
 // Entity language settings
 return [
-   'tryingToAccessNonExistentProperty' => 'Đang cố gắng truy cập thuộc tính không tồn tại {0} trong số {1}',
+	'tryingToAccessNonExistentProperty' => 'Đang cố gắng truy cập thuộc tính không tồn tại {0} trong số {1}',
 ];

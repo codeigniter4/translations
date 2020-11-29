@@ -11,10 +11,10 @@
 
 // Cast language settings
 return [
-   'jsonErrorDepth'         => 'Maksimal stakkdybde er overskredet',
-   'jsonErrorStateMismatch' => 'Undertilstrømning eller tilstandsfeil',
-   'jsonErrorCtrlChar'      => 'Kontroller tegnfeil, muligens feil kodet',
-   'jsonErrorSyntax'        => 'Syntaksfeil, feilaktig JSON',
-   'jsonErrorUtf8'          => 'Ugyldig UTF-8-tegn, muligens feil kodet',
-   'jsonErrorUnknown'       => 'Ukjent feil',
+	'jsonErrorDepth'         => 'Maksimal stakkdybde er overskredet',
+	'jsonErrorStateMismatch' => 'Undertilstrømning eller tilstandsfeil',
+	'jsonErrorCtrlChar'      => 'Kontroller tegnfeil, muligens feil kodet',
+	'jsonErrorSyntax'        => 'Syntaksfeil, feilaktig JSON',
+	'jsonErrorUtf8'          => 'Ugyldig UTF-8-tegn, muligens feil kodet',
+	'jsonErrorUnknown'       => 'Ukjent feil',
 ];

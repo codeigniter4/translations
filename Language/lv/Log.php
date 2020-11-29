@@ -11,5 +11,5 @@
 
 // Log language settings
 return [
-   'invalidLogLevel' => '{0} ir nederīgs žurnāla līmenis.',
+	'invalidLogLevel' => '{0} ir nederīgs žurnāla līmenis.',
 ];

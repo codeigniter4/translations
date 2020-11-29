@@ -11,5 +11,5 @@
 
 // Language system language settings
 return [
-   'languageGetLineInvalidArgumentException' => 'Get line 必須是字串、陣列，或是字串陣列。',
+	'languageGetLineInvalidArgumentException' => 'Get line 必須是字串、陣列，或是字串陣列。',
 ];

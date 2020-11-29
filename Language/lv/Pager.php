@@ -11,13 +11,13 @@
 
 // Pager language settings
 return [
-   'pageNavigation'         => 'Lapas navigācija',
-   'first'                  => 'Pirmais',
-   'previous'               => 'Iepriekšējais',
-   'next'                   => 'Nākamais',
-   'last'                   => 'Pēdējais',
-   'older'                  => 'Vecāks',
-   'newer'                  => 'Jaunāks',
-   'invalidTemplate'        => '{0} nav derīga veidne.',
-   'invalidPaginationGroup' => '{0} nav derīga lapošanas grupa.',
+	'pageNavigation'         => 'Lapas navigācija',
+	'first'                  => 'Pirmais',
+	'previous'               => 'Iepriekšējais',
+	'next'                   => 'Nākamais',
+	'last'                   => 'Pēdējais',
+	'older'                  => 'Vecāks',
+	'newer'                  => 'Jaunāks',
+	'invalidTemplate'        => '{0} nav derīga veidne.',
+	'invalidPaginationGroup' => '{0} nav derīga lapošanas grupa.',
 ];

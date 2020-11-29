@@ -11,6 +11,6 @@
 
 // Router language settings
 return [
-   'invalidParameter'    => 'Parametrs neatbilst gaidītajam tipam.',
-   'missingDefaultRoute' => 'Nevar noteikt, kas jāparāda. Maršrutēšanas failā nav norādīts noklusējuma maršruts.',
+	'invalidParameter'    => 'Parametrs neatbilst gaidītajam tipam.',
+	'missingDefaultRoute' => 'Nevar noteikt, kas jāparāda. Maršrutēšanas failā nav norādīts noklusējuma maršruts.',
 ];

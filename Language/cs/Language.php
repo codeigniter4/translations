@@ -11,5 +11,5 @@
 
 // Language system language settings
 return [
-   'languageGetLineInvalidArgumentException' => 'Get line musí být řetězec nebo pole řetězců.',
+	'languageGetLineInvalidArgumentException' => 'Get line musí být řetězec nebo pole řetězců.',
 ];

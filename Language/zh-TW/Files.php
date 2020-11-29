@@ -11,6 +11,6 @@
 
 // Files language settings
 return [
-   'fileNotFound' => '找不到檔案：{0}',
-   'cannotMove'   => '無法將檔案從 {0} 移動到 {1}。({2})',
+	'fileNotFound' => '找不到檔案：{0}',
+	'cannotMove'   => '無法將檔案從 {0} 移動到 {1}。({2})',
 ];

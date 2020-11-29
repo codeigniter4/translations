@@ -11,6 +11,6 @@
 
 // Format language settings
 return [
-   'invalidJSON'      => '无法解析 json 字符串, 错误信息: "{0}".',
-   'missingExtension' => '必须有 SimpleXML 扩展才能格式化 XML 文件。',
+	'invalidJSON'      => '无法解析 json 字符串, 错误信息: "{0}".',
+	'missingExtension' => '必须有 SimpleXML 扩展才能格式化 XML 文件。',
 ];

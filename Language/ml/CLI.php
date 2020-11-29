@@ -11,10 +11,10 @@
 
 // CLI language settings
 return [
-   'commandNotFound' => '"{0}" കമാൻഡ് കണ്ടെത്തിയില്ല.',
-   'helpUsage'       => 'ഉപയോഗം:',
-   'helpDescription' => 'വിവരണം:',
-   'helpOptions'     => 'ഓപ്ഷനുകൾ:',
-   'helpArguments'   => 'വാദങ്ങൾ:',
-   'invalidColor'    => 'അസാധുവായ {0} നിറം: {1}.',
+	'commandNotFound' => '"{0}" കമാൻഡ് കണ്ടെത്തിയില്ല.',
+	'helpUsage'       => 'ഉപയോഗം:',
+	'helpDescription' => 'വിവരണം:',
+	'helpOptions'     => 'ഓപ്ഷനുകൾ:',
+	'helpArguments'   => 'വാദങ്ങൾ:',
+	'invalidColor'    => 'അസാധുവായ {0} നിറം: {1}.',
 ];

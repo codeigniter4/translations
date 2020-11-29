@@ -12,8 +12,8 @@
 // Time language settings
 return [
 	'invalidMonth'   => 'Miesiące muszą mieć wartość od 1 do 12. Biorąc pod uwagę: {0}',
-       'invalidDay'     => 'Dni muszą należeć do przedziału od 1 do 31. Biorąc pod uwagę: {0}',
-       'invalidOverDay' => 'Dni muszą wynosić od 1 do {0}. Biorąc pod uwagę: {1}',
+	'invalidDay'     => 'Dni muszą należeć do przedziału od 1 do 31. Biorąc pod uwagę: {0}',
+	'invalidOverDay' => 'Dni muszą wynosić od 1 do {0}. Biorąc pod uwagę: {1}',
 	'invalidHours'   => 'Godziny muszą wynosić od 0 do 23. Biorąc pod uwagę: {0}',
 	'invalidMinutes' => 'Minuty muszą mieścić się w przedziale od 0 do 59. Biorąc pod uwagę: {0}',
 	'invalidSeconds' => 'Sekundy muszą zawierać się między 0 a 59. Biorąc pod uwagę: {0}',

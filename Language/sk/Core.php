@@ -11,9 +11,9 @@
 
 // Core language settings
 return [
-   'copyError'        => 'Vyskytla sa chyba pri pokuse nahradiť súbor ({0}). Prosím uistite sa, že zložka so súbormi je zapisovateľná..',
-   'enabledZlibOutputCompression' => 'Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.',
-   'invalidFile'      => 'Neplatný súbor: {0}',
-   'missingExtension' => '{0} rozšírenie nebolo načítané.',
-   'noHandlers'       => '{0} musí poskytnúť aspoň jeden Handler.',
+	'copyError'                    => 'Vyskytla sa chyba pri pokuse nahradiť súbor ({0}). Prosím uistite sa, že zložka so súbormi je zapisovateľná..',
+	'enabledZlibOutputCompression' => 'Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.',
+	'invalidFile'                  => 'Neplatný súbor: {0}',
+	'missingExtension'             => '{0} rozšírenie nebolo načítané.',
+	'noHandlers'                   => '{0} musí poskytnúť aspoň jeden Handler.',
 ];

@@ -11,5 +11,5 @@
 
 // Redirect language settings
 return [
-    'forUnableToRedirect' => 'Kon niet redirecten naar "{0}". Fout, status code "{1}"',
+	'forUnableToRedirect' => 'Kon niet redirecten naar "{0}". Fout, status code "{1}"',
 ];

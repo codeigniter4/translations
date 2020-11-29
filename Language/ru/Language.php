@@ -11,5 +11,5 @@
 
 // Language system language settings
 return [
-   'languageGetLineInvalidArgumentException' => 'Установленная строка должна быть строкой или массивом строк.',
+	'languageGetLineInvalidArgumentException' => 'Установленная строка должна быть строкой или массивом строк.',
 ];

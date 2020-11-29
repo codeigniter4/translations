@@ -11,6 +11,6 @@
 
 // Files language settings
 return [
-    'fileNotFound' => 'Bestand niet gevonden: {0}',
-    'cannotMove'   => 'Kon bestand {0} niet verplaatsen naar {1} ({2})',
+	'fileNotFound' => 'Bestand niet gevonden: {0}',
+	'cannotMove'   => 'Kon bestand {0} niet verplaatsen naar {1} ({2})',
 ];

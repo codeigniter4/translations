@@ -11,9 +11,9 @@
 
 // Core language settings
 return [
-   'copyError'        => 'Beim Versuch, die Datei zu ersetzen, ist ein Fehler aufgetreten. Bitte sicherstellen, dass das Verzeichnis beschreibbar ist.',
-   'enabledZlibOutputCompression' => 'Die zlib.output_compression ini Direktive ist angeschaltet. Dies funktioniert nicht gut mit Ausgabe-Pufferung.',
-   'invalidFile'      => 'Ungültige Datei: {0}',
-   'missingExtension' => 'Erweiterung {0} konnte nicht geladen werden.',
-   'noHandlers'       => '{0} muss mindestens einen Handler bereitstellen.',
+	'copyError'                    => 'Beim Versuch, die Datei zu ersetzen, ist ein Fehler aufgetreten. Bitte sicherstellen, dass das Verzeichnis beschreibbar ist.',
+	'enabledZlibOutputCompression' => 'Die zlib.output_compression ini Direktive ist angeschaltet. Dies funktioniert nicht gut mit Ausgabe-Pufferung.',
+	'invalidFile'                  => 'Ungültige Datei: {0}',
+	'missingExtension'             => 'Erweiterung {0} konnte nicht geladen werden.',
+	'noHandlers'                   => '{0} muss mindestens einen Handler bereitstellen.',
 ];

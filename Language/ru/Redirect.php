@@ -11,5 +11,5 @@
 
 // Redirect language settings
 return [
-   'forUnableToRedirect' => 'Не удается перенаправить на "{0}". Код ошибки: "{1}"',
+	'forUnableToRedirect' => 'Не удается перенаправить на "{0}". Код ошибки: "{1}"',
 ];

@@ -11,10 +11,10 @@
 
 // Database language settings
 return [
-	'invalidEvent'         => '{0} não é um Model Event callback.',
-	'invalidArgument'      => 'Você deve fornecer um {0} válido.',
-	'invalidAllowedFields' => 'Os campos permitidos devem ser especificados para o model: {0}',
-	'emptyDataset'         => 'Não há dados para {0}.',
+	'invalidEvent'                     => '{0} não é um Model Event callback.',
+	'invalidArgument'                  => 'Você deve fornecer um {0} válido.',
+	'invalidAllowedFields'             => 'Os campos permitidos devem ser especificados para o model: {0}',
+	'emptyDataset'                     => 'Não há dados para {0}.',
 	'failGetFieldData'                 => 'Não foi possível receber informação da base de dados.',
 	'failGetIndexData'                 => 'Não foi possível receber o index da base de dados.',
 	'failGetForeignKeyData'            => 'Não foi possível receber a Chave Forasteira da base de dados.',

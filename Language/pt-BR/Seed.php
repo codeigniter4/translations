@@ -11,7 +11,7 @@
 
 // Seed language strings
 return [
-    // Seed command
-    'nameFile'   => 'Nomeie o arquivo seeder',
-    'writeError' => 'Erro ao tentar criar o arquivo {0}, verifique se o diretório é gravável.',
+	// Seed command
+	'nameFile'   => 'Nomeie o arquivo seeder',
+	'writeError' => 'Erro ao tentar criar o arquivo {0}, verifique se o diretório é gravável.',
 ];

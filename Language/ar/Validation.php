@@ -12,11 +12,11 @@
 // Validation language settings
 return [
 	// Core Messages
-	'noRuleSets'            => 'لم يتم تحديد مجموعة قواعد التحقق في الاعدادات.',
-	'ruleNotFound'          => '{0} هذه القاعدة غير صالحة.',
-	'groupNotFound'         => '{0} مجموعة التحقق هذه غير صالحة.',
-	'groupNotArray'         => '{0} مجموعة التحقق يجب أن تكون مصفوفة.',
-	'invalidTemplate'       => '{0} ليس قالب تحقق صالح.',
+	'noRuleSets'      => 'لم يتم تحديد مجموعة قواعد التحقق في الاعدادات.',
+	'ruleNotFound'    => '{0} هذه القاعدة غير صالحة.',
+	'groupNotFound'   => '{0} مجموعة التحقق هذه غير صالحة.',
+	'groupNotArray'   => '{0} مجموعة التحقق يجب أن تكون مصفوفة.',
+	'invalidTemplate' => '{0} ليس قالب تحقق صالح.',
 
 	// Rule Messages
 	'alpha'                 => 'الحقل {field} يمكن أن يحتوى على أحرف.',
@@ -24,7 +24,7 @@ return [
 	'alpha_numeric'         => 'الحقل {field} يمكن أن يحتوى على أحرف وأرقام.',
 	'alpha_numeric_punct'   => 'The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.',
 	'alpha_numeric_space'   => 'الحقل {field} يمكن أن يحتوى على أحرف وأرقام و فراغات.',
-	'alpha_space'  			=> 'الحقل {field} يمكن أن يحتوى على أحرف و فراغات.',
+	'alpha_space'           => 'الحقل {field} يمكن أن يحتوى على أحرف و فراغات.',
 	'decimal'               => 'الحقل {field} يجب أن يحتوى على رقم عشري.',
 	'differs'               => 'الحقل {field} يجب أن يكون مختلف عن الحقل {param}.',
 	'equals'                => 'The {field} field must be exactly: {param}.',
@@ -59,13 +59,13 @@ return [
 	'valid_date'            => 'الحقل {field} يجب أن يحتوى على تاريخ صحيح.',
 
 	// Credit Cards
-	'valid_cc_num'          => 'الحقل {field} يجب أن يحتوى على رقم بطاقة الائتمان صحيح.',
+	'valid_cc_num' => 'الحقل {field} يجب أن يحتوى على رقم بطاقة الائتمان صحيح.',
 
 	// Files
-	'uploaded'              => 'الملف {field} ليس ملف مرفوع صحيح.',
-	'max_size'              => 'حجم الملف {field} كبير جدا.',
-	'is_image'              => 'الملف {field} ليس ملف صورة.',
-	'mime_in'               => 'نوع الملف {field} ليس نوع صحيح.',
-	'ext_in'                => 'امتداد الملف {field} ليس امتداد صحيح.',
-	'max_dims'              => 'الملف {field} اما انه ليس صورة او صورة ذات ارتفاع او عرض كبير جدا.',
+	'uploaded' => 'الملف {field} ليس ملف مرفوع صحيح.',
+	'max_size' => 'حجم الملف {field} كبير جدا.',
+	'is_image' => 'الملف {field} ليس ملف صورة.',
+	'mime_in'  => 'نوع الملف {field} ليس نوع صحيح.',
+	'ext_in'   => 'امتداد الملف {field} ليس امتداد صحيح.',
+	'max_dims' => 'الملف {field} اما انه ليس صورة او صورة ذات ارتفاع او عرض كبير جدا.',
 ];

@@ -11,5 +11,5 @@
 
 // Entity language settings
 return [
-   'tryingToAccessNonExistentProperty' => '無法訪問 {1} 的 {0}，這個屬性並不存在。',
+	'tryingToAccessNonExistentProperty' => '無法訪問 {1} 的 {0}，這個屬性並不存在。',
 ];

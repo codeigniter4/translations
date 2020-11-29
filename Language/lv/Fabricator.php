@@ -11,7 +11,7 @@
 
 // Fabricator language settings
 return [
-   'invalidModel'      => 'Ražošanai piegādāts nederīgs modelis.',
-   'missingFormatters' => 'Nav definēti derīgi formatētāji.',
-   //'createFailed'      => 'Ražotājam neizdevās ievietot tabulā {0}: {1}.',
+	'invalidModel'      => 'Ražošanai piegādāts nederīgs modelis.',
+	'missingFormatters' => 'Nav definēti derīgi formatētāji.',
+	'createFailed'      => 'Ražotājam neizdevās ievietot tabulā {0}: {1}.',
 ];

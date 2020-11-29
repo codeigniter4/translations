@@ -12,8 +12,8 @@
 // Time language settings
 return [
 	'invalidMonth'   => 'Aylar 1 ile 12 arasında olmalı. Verilen: {0}',
-    'invalidDay'     => 'Günler 1 ile 31 arasında olmalı. Verilen: {0}',
-    'invalidOverDay' => 'Günler 1 ile {0} arasında olmalı. Verilen: {1}',
+	'invalidDay'     => 'Günler 1 ile 31 arasında olmalı. Verilen: {0}',
+	'invalidOverDay' => 'Günler 1 ile {0} arasında olmalı. Verilen: {1}',
 	'invalidHours'   => 'Saatler 0 ile 23 arasında olmalı. Verilen: {0}',
 	'invalidMinutes' => 'Dakikalar 0 ile 59 arasında olmalı. Verilen: {0}',
 	'invalidSeconds' => 'Saniyeler 0 ile 59 arasında olmalı. Verilen: {0}',

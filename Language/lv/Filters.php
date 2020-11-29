@@ -11,6 +11,6 @@
 
 // Filters language settings
 return [
-   'noFilter'           => '{0} filtram jābūt definētam atbilstošam aizstājvārdam.',
-   'incorrectInterface' => '{0} ir jāievieš CodeIgniter\Filters\FilterInterface.',
+	'noFilter'           => '{0} filtram jābūt definētam atbilstošam aizstājvārdam.',
+	'incorrectInterface' => '{0} ir jāievieš CodeIgniter\Filters\FilterInterface.',
 ];

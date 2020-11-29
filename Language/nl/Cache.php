@@ -11,8 +11,8 @@
 
 // Cache language settings
 return [
-   'unableToWrite'   => 'Cache kan niet schrijven naar {0}',
-   'invalidHandlers' => 'Cache config moet een Array bevatten met $validHandlers.',
-   'noBackup'        => 'Cache config vereist een Handler en BackupHandler.',
-   'handlerNotFound' => 'Cache config bevat een ongeldige Handler of BackupHandler.',
+	'unableToWrite'   => 'Cache kan niet schrijven naar {0}',
+	'invalidHandlers' => 'Cache config moet een Array bevatten met $validHandlers.',
+	'noBackup'        => 'Cache config vereist een Handler en BackupHandler.',
+	'handlerNotFound' => 'Cache config bevat een ongeldige Handler of BackupHandler.',
 ];

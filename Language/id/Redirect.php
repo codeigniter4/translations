@@ -11,5 +11,5 @@
 
 // Redirect language settings
 return [
-   'forUnableToRedirect' => 'Tidak dapat mengalihkan ke "{0}". Kode status kesalahan "{1}"',
+	'forUnableToRedirect' => 'Tidak dapat mengalihkan ke "{0}". Kode status kesalahan "{1}"',
 ];

@@ -11,8 +11,8 @@
 
 // Cache language settings
 return [
-   'unableToWrite'   => 'Cache نمی‌تواند در {0} بنویسد.',
-   'invalidHandlers' => 'تنظیمات کش باید شامل آرایه‌ای از $validHandlers باشد.',
-   'noBackup'        => 'تنظیمات کش باید Cache handler و Backup Handler داشته باشند.',
-   'handlerNotFound' => 'در تنظیمات کش، مقدار Cache handler یا Backup handler به درستی مشخص نشده است.',
+	'unableToWrite'   => 'Cache نمی‌تواند در {0} بنویسد.',
+	'invalidHandlers' => 'تنظیمات کش باید شامل آرایه‌ای از $validHandlers باشد.',
+	'noBackup'        => 'تنظیمات کش باید Cache handler و Backup Handler داشته باشند.',
+	'handlerNotFound' => 'در تنظیمات کش، مقدار Cache handler یا Backup handler به درستی مشخص نشده است.',
 ];

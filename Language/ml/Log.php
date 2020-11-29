@@ -11,5 +11,5 @@
 
 // Log language settings
 return [
-   'invalidLogLevel' => '{0} അസാധുവായ ലോഗ് നിലയാണ്.',
+	'invalidLogLevel' => '{0} അസാധുവായ ലോഗ് നിലയാണ്.',
 ];

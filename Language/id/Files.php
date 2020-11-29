@@ -11,6 +11,6 @@
 
 // Files language settings
 return [
-	'fileNotFound'		 => 'Berkas tidak ditemukan: {0}',
-	'cannotMove'		 => 'Tidak dapat memindahkan berkas {0} ke {1} ({2})',
+	'fileNotFound' => 'Berkas tidak ditemukan: {0}',
+	'cannotMove'   => 'Tidak dapat memindahkan berkas {0} ke {1} ({2})',
 ];

@@ -11,5 +11,5 @@
 
 // Entity language settings
 return [
-   'tryingToAccessNonExistentProperty' => '{1}の実在しないプロパティ {0} にアクセスしようとします。', //Trying to access non existent property {0} of {1}
+	'tryingToAccessNonExistentProperty' => '{1}の実在しないプロパティ {0} にアクセスしようとします。', //Trying to access non existent property {0} of {1}
 ];

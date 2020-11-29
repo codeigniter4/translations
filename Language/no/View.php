@@ -11,10 +11,10 @@
 
 // View language settings
 return [
-   'invalidCellMethod'     => '{class}::{method} er ikke en gyldig metode.',
-   'missingCellParameters' => '{class}::{method} har ingen parametere.',
-   'invalidCellParameter'  => '{0} er et ugyldig parameternavn.',
-   'noCellClass'           => 'Det er ikke angitt noe View',
-   'invalidCellClass'      => 'Klassen ble ikke funnet: {0}.',
-   'tagSyntaxError'        => 'Syntaksfeil i parser-koden: {0}',
+	'invalidCellMethod'     => '{class}::{method} er ikke en gyldig metode.',
+	'missingCellParameters' => '{class}::{method} har ingen parametere.',
+	'invalidCellParameter'  => '{0} er et ugyldig parameternavn.',
+	'noCellClass'           => 'Det er ikke angitt noe View',
+	'invalidCellClass'      => 'Klassen ble ikke funnet: {0}.',
+	'tagSyntaxError'        => 'Syntaksfeil i parser-koden: {0}',
 ];

@@ -11,7 +11,7 @@
 
 // Seed language strings
 return [
-    // Seed command
-    'nameFile'   => 'Nosauciet SEEDER failu.',
-    'writeError' => 'Mēģinot izveidot failu {0}, radās kļūda. Pārbaudiet, vai direktorija ir rakstāma.',
+	// Seed command
+	'nameFile'   => 'Nosauciet SEEDER failu.',
+	'writeError' => 'Mēģinot izveidot failu {0}, radās kļūda. Pārbaudiet, vai direktorija ir rakstāma.',
 ];
