@@ -2,6 +2,11 @@
 Translations for CodeIgniter 4 System Messages
 ##############################################
 
+![build](https://github.com/codeigniter4/translations/workflows/build/badge.svg?branch=develop)
+[![Latest Stable Version](https://poser.pugx.org/codeigniter4/translations/v)](//packagist.org/packages/codeigniter4/translations)
+[![Total Downloads](https://poser.pugx.org/codeigniter4/translations/downloads)](//packagist.org/packages/codeigniter4/translations)
+[![License](https://poser.pugx.org/codeigniter4/translations/license)](//packagist.org/packages/codeigniter4/translations)
+
 This project contains translations for CodeIgniter 4
 localization, e.g. **system/Language/en/**.
 
@@ -50,7 +55,7 @@ ml        Malayalam             4.0.0        rakheshthayyur     Rakhesh Thayyur
 nl        Dutch                 4.0.0        JohanSmolders      JohanSmolders
 no        Norwegian             4.0.0        LA3QMA             Kai Günter Brandt
 pl        Polish                4.0.0        DEVELPL            Maciej Jasiewicz
-pt        Portugese             4.0.0        rbm0407            Rodrigo Borges
+pt        Portuguese            4.0.0        rbm0407            Rodrigo Borges
 pt-BR     Brazilian             4.0.0        natanfelles        Natan Felles
 ru        Russian               4.0.0        DigitalWolf98      Vladislav Rykhtikov
 sk        Slovak                4.0.0        xbotkaj            Jozef Botka
