@@ -50,6 +50,7 @@ claims no expertise beyond English.
 | pt-BR    | Brazilian            | 4.0.0       | natanfelles       | Natan Felles
 | ru       | Russian              | 4.0.0       | DigitalWolf98     | Vladislav Rykhtikov
 | sk       | Slovak               | 4.0.0       | xbotkaj           | Jozef Botka
+| sv-SE    | Swedish - Sweden     | 4.0.4       | tangix            | Mattias Sandström
 | tr       | Turkish              | 4.0.0       | obozdag           | obozdag
 | uk       | Ukrainian            | 4.0.0       | flybot            | Serhii Kosyi
 | vi       | Vietnamese           | 4.0.0       | xuandung38        | XuanDung38
