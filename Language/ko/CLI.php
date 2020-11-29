@@ -21,7 +21,7 @@ return [
    'invalidColor'    => '유효하지 않은 {0} 색상: {1}.', // CI4 기준 : {0}에는 'foreground' 또는 'background' 문자열이 들어감. // 'Invalid {0} color: {1}.',
 
 	// Generators
-	'generateClassName'   => 'class 이름', // 'Name of class',
+	'generateClassName'   => '클래스 이름', // 'Name of class',
 	'generateParentClass' => '확장할 상위 클래스의 이름', // 'Name of parent class to extend from',
 	'generateFileExists'  => '{0}는 이미 존재합니다.', // '{0} already exists.',
 	'generateFileSuccess' => '생성된 파일: ', // 'Created file: ',
