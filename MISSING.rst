@@ -22,7 +22,6 @@ km        Khmer                 Chanthoeun         Chanthoeun Kim
 ro        Romanian              CodefishRo         Cristian Robert Chiribuc
 sr        Serbian               novakurosevic      Novak Urosevic ???
 sl        Slovenian             andrejflorjancic   Andrej Florjančič
-sv        Swedish               peterdenk          Peter Denk
 ta        Tamil                 karthik-code       Karthikeyan
 th        Thai                  ?                  ?
 ur        Urdu                  codeonion          Muhammad Ali
