@@ -16,8 +16,8 @@
 
 return [
    'commandNotFound'     => 'Kunde inte hitta kommandot "{0}".',
-   'altCommandSingular'  => 'Menade du detta?',
-   'altCommandPlural'    => 'Menade du någon av dessa?',
+//   'altCommandSingular'  => 'Menade du detta?',
+//   'altCommandPlural'    => 'Menade du någon av dessa?',
    'helpUsage'           => 'Användning:',
    'helpDescription'     => 'Beskrivning:',
    'helpOptions'         => 'Optioner:',
@@ -25,10 +25,10 @@ return [
    'invalidColor'        => 'Ogiltig {0} färg: {1}.',
 
    // Generators
-   'generateClassName'   => 'Klassnamn',
-   'generateParentClass' => 'Namn på parent klass att ärva från',
-   'generateFileExists'  => '{0} finns redan.',
-   'generateFileSuccess' => 'Skapade filen: ',
-   'generateFileError'   => 'Fel när filen skapades: ',
-   'namespaceNotDefined' => 'Namespace "{0}" är inte definierat.',
+//   'generateClassName'   => 'Klassnamn',
+//   'generateParentClass' => 'Namn på klass att ärva från',
+//   'generateFileExists'  => '{0} finns redan.',
+//   'generateFileSuccess' => 'Skapade filen: ',
+//   'generateFileError'   => 'Fel när filen skapades: ',
+//   'namespaceNotDefined' => 'Namespace "{0}" är inte definierat.',
 ];

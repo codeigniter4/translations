@@ -53,6 +53,7 @@ pt        Portugese             4.0.0        rbm0407            Rodrigo Borges
 pt-BR     Brazilian             4.0.0        natanfelles        Natan Felles
 ru        Russian               4.0.0        DigitalWolf98      Vladislav Rykhtikov
 sk        Slovak                4.0.0        xbotkaj            Jozef Botka
+sv-SE     Swedish               4.0.4        tangix             Mattias Sandström
 tr        Turkish               4.0.0        obozdag            obozdag
 vi        Vietnamese            4.0.0        xuandung38         XuanDung38
 zh-CN     Simple Chinese        4.0.0        bangbangda         bangbangda
