@@ -57,8 +57,6 @@ return [
    'migHelpSeed'       => "\tKör seeder:n med namnet [name].",
    'migCreate'         => "\tSkapar en ny seered med namnet [name]",
    'nameMigration'     => 'Namnge migreringsfilen',
-//   'badCreateName'     => 'Du måste ge migreringsfilen ett namn.',
-//   'writeError'        => 'Kunde inte skapa filen {0}, kontrollera att sökvägen är skrivbar.',
    'migNumberError'    => 'Migreringens nummer måste vara tre siffor och det får inte vara luckor i sekvensen.',
    'rollBackConfirm'   => 'Är du säker på att du vill göra en rollback?',
    'refreshConfirm'    => 'Är du säker på att du vill göra en refresh?',
