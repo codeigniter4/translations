@@ -11,5 +11,5 @@
 
 // Log language settings
 return [
-   'invalidLogLevel' => '{0} es un nivel de log inválido.',
+	'invalidLogLevel' => '{0} es un nivel de log inválido.',
 ];

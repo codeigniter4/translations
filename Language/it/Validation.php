@@ -12,11 +12,11 @@
 // Validation language settings
 return [
 	// Core Messages
-	'noRuleSets'            => 'Nessun set di regole è stato specificato nella configurazione della Validazione.',
-	'ruleNotFound'          => '{0} non è una regola valida.',
-	'groupNotFound'         => '{0} non è un gruppo di regole di validazione.',
-	'groupNotArray'         => '{0} il gruppo di regole deve essere un array.',
-	'invalidTemplate'       => '{0} non è un valido template di Validazione.',
+	'noRuleSets'      => 'Nessun set di regole è stato specificato nella configurazione della Validazione.',
+	'ruleNotFound'    => '{0} non è una regola valida.',
+	'groupNotFound'   => '{0} non è un gruppo di regole di validazione.',
+	'groupNotArray'   => '{0} il gruppo di regole deve essere un array.',
+	'invalidTemplate' => '{0} non è un valido template di Validazione.',
 
 	// Rule Messages
 	'alpha'                 => 'Il campo {field} può contenere solamente caratteri dell\'alfabeto.',
@@ -24,7 +24,7 @@ return [
 	'alpha_numeric'         => 'Il campo {field} può contenere solamente caratteri alfanumerici.',
 	'alpha_numeric_punct'   => 'The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.',
 	'alpha_numeric_space'   => 'Il campo {field} può contenere solamente caratteri alfanumerici e spazi.',
-	'alpha_space'  		=> 'Il campo {field} può contenere solamente caratteri dell\'alfabeto e spazi.',
+	'alpha_space'           => 'Il campo {field} può contenere solamente caratteri dell\'alfabeto e spazi.',
 	'decimal'               => 'Il campo {field} deve contenere un numero decimale.',
 	'differs'               => 'Il campo {field} deve essere diverso dal campo {param}.',
 	'equals'                => 'The {field} field must be exactly: {param}.',
@@ -36,7 +36,7 @@ return [
 	'integer'               => 'Il campo {field} deve contenere un intero.',
 	'is_natural'            => 'Il campo {field} deve contenere solo caratteri numerici.',
 	'is_natural_no_zero'    => 'Il campo {field} deve contenere solo caratteri numerici e deve essere maggiore di zero.',
-   'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
+	'is_not_unique'         => 'The {field} field must contain a previously existing value in the database.',
 	'is_unique'             => 'Il campo {field} deve contenere un valore univoco.',
 	'less_than'             => 'Il campo {field} deve contenere un numero minore di {param}.',
 	'less_than_equal_to'    => 'Il campo {field} deve contenere un numero minore o uguale a {param}.',
@@ -59,13 +59,13 @@ return [
 	'valid_date'            => 'Il campo {field} deve contenere una data valida.',
 
 	// Credit Cards
-	'valid_cc_num'          => '{field} non sembra essere un numero di carta di credito valido.',
+	'valid_cc_num' => '{field} non sembra essere un numero di carta di credito valido.',
 
 	// Files
-	'uploaded'              => 'Il file {field} non è valido.',
-	'max_size'              => 'Il file {field} supera le dimensioni consentite.',
-	'is_image'              => 'Il file {field} non è un\'immagine valida.',
-	'mime_in'               => 'Il file {field} non ha un mime consentito.',
-	'ext_in'                => 'Il file {field} non ha una estesione valida.',
-	'max_dims'              => 'Il file {field} o non è una immagine oppure l\'immagine ha dimensioni troppo grandi.',
+	'uploaded' => 'Il file {field} non è valido.',
+	'max_size' => 'Il file {field} supera le dimensioni consentite.',
+	'is_image' => 'Il file {field} non è un\'immagine valida.',
+	'mime_in'  => 'Il file {field} non ha un mime consentito.',
+	'ext_in'   => 'Il file {field} non ha una estesione valida.',
+	'max_dims' => 'Il file {field} o non è una immagine oppure l\'immagine ha dimensioni troppo grandi.',
 ];

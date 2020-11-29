@@ -12,14 +12,14 @@
 // Migration language settings
 return [
 	// Migration Runner
-	'missingTable'    => 'Göç tablosu belirtilmeli.',
-	'disabled'        => 'Göçler yüklendi fakat etkinleştirilmedi veya yanlış kuruldu.',
-	'notFound'        => 'Göç dosyası bulunamadı: ',
-	'batchNotFound'     => 'Target batch not found: ',
-	'empty'           => 'Herhangi bir göç dosyası bulunamadı.',
-	'gap'             => 'Göç kuyruğunda şu sürüm numarası yakınında bir boşluk var: ',
-	'classNotFound'   => 'Göç sınıfı "%s" bulunamadı.',
-	'missingMethod'   => 'Göç sınıfının "%s" metodu eksik.',
+	'missingTable'  => 'Göç tablosu belirtilmeli.',
+	'disabled'      => 'Göçler yüklendi fakat etkinleştirilmedi veya yanlış kuruldu.',
+	'notFound'      => 'Göç dosyası bulunamadı: ',
+	'batchNotFound' => 'Target batch not found: ',
+	'empty'         => 'Herhangi bir göç dosyası bulunamadı.',
+	'gap'           => 'Göç kuyruğunda şu sürüm numarası yakınında bir boşluk var: ',
+	'classNotFound' => 'Göç sınıfı "%s" bulunamadı.',
+	'missingMethod' => 'Göç sınıfının "%s" metodu eksik.',
 
 	// Migration Command
 	'migHelpLatest'   => "\t\tVeri tabanını son göç sürümüne taşır.",
@@ -32,9 +32,9 @@ return [
 	'nameMigration'   => 'Göç dosyasına bir isim verin.',
 	'badCreateName'   => 'Bir göç dosyası adı belirtmelisiniz.',
 	'writeError'      => 'Yazma hatası nedeniyle dosya oluşturulamadı.',
-	'migNumberError'    => 'Migration number must be three digits, and there must not be any gaps in the sequence.',
-	'rollBackConfirm'   => 'Are you sure you want to rollback?',
-	'refreshConfirm'    => 'Are you sure you want to refresh?',
+	'migNumberError'  => 'Migration number must be three digits, and there must not be any gaps in the sequence.',
+	'rollBackConfirm' => 'Are you sure you want to rollback?',
+	'refreshConfirm'  => 'Are you sure you want to refresh?',
 
 	'latest'            => 'Running all new migrations...',
 	'generalFault'      => 'Migration failed!',
@@ -49,6 +49,6 @@ return [
 	'removed'           => 'Geri alınıyor: ',
 	'added'             => 'Çalıştırılıyor: ',
 
-	'version'           => 'Sürüm',
-	'filename'          => 'Dosya adı',
+	'version'  => 'Sürüm',
+	'filename' => 'Dosya adı',
 ];

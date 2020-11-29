@@ -11,6 +11,6 @@
 
 // Format language settings
 return [
-   'invalidJSON'      => 'JSON-String konnte nicht geparst werden. Fehler: "{0}".',
-   'missingExtension' => 'Die SimpleXML Extension wird zum Formatieren von XML benötigt.',
+	'invalidJSON'      => 'JSON-String konnte nicht geparst werden. Fehler: "{0}".',
+	'missingExtension' => 'Die SimpleXML Extension wird zum Formatieren von XML benötigt.',
 ];

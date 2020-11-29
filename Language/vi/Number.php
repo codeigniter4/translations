@@ -11,16 +11,16 @@
 
 // Number language settings
 return [
-   'terabyteAbbr' => 'TB',
-   'gigabyteAbbr' => 'GB',
-   'megabyteAbbr' => 'MB',
-   'kilobyteAbbr' => 'KB',
-   'bytes'        => 'Bytes',
+	'terabyteAbbr' => 'TB',
+	'gigabyteAbbr' => 'GB',
+	'megabyteAbbr' => 'MB',
+	'kilobyteAbbr' => 'KB',
+	'bytes'        => 'Bytes',
 
 	// don't forget the space in front of these!
-   'thousand'     => ' ngàn',
-   'million'      => ' triệu',
-   'billion'      => ' tỷ',
-   'trillion'     => ' ngìn tỷ',
-   'quadrillion'  => ' triệu tỷ',
+	'thousand'    => ' ngàn',
+	'million'     => ' triệu',
+	'billion'     => ' tỷ',
+	'trillion'    => ' ngìn tỷ',
+	'quadrillion' => ' triệu tỷ',
 ];

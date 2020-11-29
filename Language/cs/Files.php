@@ -11,6 +11,6 @@
 
 // Files language settings
 return [
-   'fileNotFound' => 'Soubor nebyl nalezen: {0}',
-   'cannotMove'   => 'Soubor {0} nebylo možné přesunout do {1} ({2})',
+	'fileNotFound' => 'Soubor nebyl nalezen: {0}',
+	'cannotMove'   => 'Soubor {0} nebylo možné přesunout do {1} ({2})',
 ];

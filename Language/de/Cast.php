@@ -11,10 +11,10 @@
 
 // Cast language settings
 return [
-   'jsonErrorDepth'         => 'Die maximale Stacktiefe wurde überschritten',
-   'jsonErrorStateMismatch' => 'Unterlauf oder State-Mismatch',
-   'jsonErrorCtrlChar'      => 'Steuerzeichenfehler, möglicherweise falsch kodiert',
-   'jsonErrorSyntax'        => 'Syntaxfehler, fehlerhaftes JSON',
-   'jsonErrorUtf8'          => 'Ungültiges UTF-8 Zeichen, möglicherweise falsch kodiert',
-   'jsonErrorUnknown'       => 'Unbekannter Fehler',
+	'jsonErrorDepth'         => 'Die maximale Stacktiefe wurde überschritten',
+	'jsonErrorStateMismatch' => 'Unterlauf oder State-Mismatch',
+	'jsonErrorCtrlChar'      => 'Steuerzeichenfehler, möglicherweise falsch kodiert',
+	'jsonErrorSyntax'        => 'Syntaxfehler, fehlerhaftes JSON',
+	'jsonErrorUtf8'          => 'Ungültiges UTF-8 Zeichen, möglicherweise falsch kodiert',
+	'jsonErrorUnknown'       => 'Unbekannter Fehler',
 ];

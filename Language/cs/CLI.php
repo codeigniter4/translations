@@ -11,10 +11,10 @@
 
 // CLI language settings
 return [
-   'commandNotFound' => 'Příkaz "{0}" nebyl nalezen.',
-   'helpUsage'       => 'Použití:',
-   'helpDescription' => 'Popis:',
-   'helpOptions'     => 'Možnosti:',
-   'helpArguments'   => 'Argumenty:',
-   'invalidColor'    => 'Neplatná {0} barva: {1}.',
+	'commandNotFound' => 'Příkaz "{0}" nebyl nalezen.',
+	'helpUsage'       => 'Použití:',
+	'helpDescription' => 'Popis:',
+	'helpOptions'     => 'Možnosti:',
+	'helpArguments'   => 'Argumenty:',
+	'invalidColor'    => 'Neplatná {0} barva: {1}.',
 ];

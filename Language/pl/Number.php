@@ -18,9 +18,9 @@ return [
 	'bytes'        => 'Bajty',
 
 	// don't forget the space in front of these!
-	'thousand'     => ' tysiąc',
-	'million'      => ' milion',
-	'billion'      => ' miliard',
-	'trillion'     => ' kwintylion',
-	'quadrillion'  => ' kwadrylion',
+	'thousand'    => ' tysiąc',
+	'million'     => ' milion',
+	'billion'     => ' miliard',
+	'trillion'    => ' kwintylion',
+	'quadrillion' => ' kwadrylion',
 ];

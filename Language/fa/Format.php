@@ -11,6 +11,6 @@
 
 // Format language settings
 return [
-   'invalidJSON'      => 'مشکلی در بررسی JSON وجود داشت: "{0}".',
-   'missingExtension' => 'افزونه‌ی SimpleXML برای فرمت‌دهی XML ضروری است.',
+	'invalidJSON'      => 'مشکلی در بررسی JSON وجود داشت: "{0}".',
+	'missingExtension' => 'افزونه‌ی SimpleXML برای فرمت‌دهی XML ضروری است.',
 ];

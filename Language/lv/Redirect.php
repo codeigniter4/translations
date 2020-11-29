@@ -11,5 +11,5 @@
 
 // Redirect language settings
 return [
-   'forUnableToRedirect' => 'Nevar novirzīt uz "{0}". Kļūdas statusa kods "{1}"',
+	'forUnableToRedirect' => 'Nevar novirzīt uz "{0}". Kļūdas statusa kods "{1}"',
 ];

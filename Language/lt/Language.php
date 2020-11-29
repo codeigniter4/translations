@@ -11,5 +11,5 @@
 
 // Language system language settings
 return [
-   'languageGetLineInvalidArgumentException' => 'Get eilutė turi būti eilutės arba eilučių masyvo tipo.',
+	'languageGetLineInvalidArgumentException' => 'Get eilutė turi būti eilutės arba eilučių masyvo tipo.',
 ];

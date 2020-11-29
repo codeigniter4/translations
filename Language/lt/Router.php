@@ -11,6 +11,6 @@
 
 // Router language settings
 return [
-   'invalidParameter'    => 'Parametras neatitinka laukiamo tipo.',
-   'missingDefaultRoute' => 'Nepavyksta nustatyti, kas turi būti rodoma. Maršrutizavimo faile nėra nustatytas numatytasis maršrutas.',
+	'invalidParameter'    => 'Parametras neatitinka laukiamo tipo.',
+	'missingDefaultRoute' => 'Nepavyksta nustatyti, kas turi būti rodoma. Maršrutizavimo faile nėra nustatytas numatytasis maršrutas.',
 ];

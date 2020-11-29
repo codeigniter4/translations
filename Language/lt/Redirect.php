@@ -11,5 +11,5 @@
 
 // Redirect language settings
 return [
-   'forUnableToRedirect' => ' Nepavyksta nukreipti „{0}“. Klaidos kodas „{1}“',
+	'forUnableToRedirect' => ' Nepavyksta nukreipti „{0}“. Klaidos kodas „{1}“',
 ];

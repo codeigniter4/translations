@@ -11,10 +11,10 @@
 
 // CLI language settings
 return [
-   'commandNotFound' => 'Команда "{0}" не найдена.',
-   'helpUsage'       => 'Использование:',
-   'helpDescription' => 'Описание:',
-   'helpOptions'     => 'Опции:',
-   'helpArguments'   => 'Аргументы:',
-   'invalidColor'    => 'Недопустимый {0} цвет: {1}.',
+	'commandNotFound' => 'Команда "{0}" не найдена.',
+	'helpUsage'       => 'Использование:',
+	'helpDescription' => 'Описание:',
+	'helpOptions'     => 'Опции:',
+	'helpArguments'   => 'Аргументы:',
+	'invalidColor'    => 'Недопустимый {0} цвет: {1}.',
 ];

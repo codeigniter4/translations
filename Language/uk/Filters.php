@@ -11,6 +11,6 @@
 
 // Filters language settings
 return [
-   'noFilter'           => '{0} фільтр мусить мати відповідний аліас.',
-   'incorrectInterface' => '{0} слід реалізувати CodeIgniter\Filters\FilterInterface.',
+	'noFilter'           => '{0} фільтр мусить мати відповідний аліас.',
+	'incorrectInterface' => '{0} слід реалізувати CodeIgniter\Filters\FilterInterface.',
 ];

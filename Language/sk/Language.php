@@ -11,5 +11,5 @@
 
 // Language system language settings
 return [
-   'languageGetLineInvalidArgumentException' => 'Get line musí byť reťazec alebo pole reťazcov.',
+	'languageGetLineInvalidArgumentException' => 'Get line musí byť reťazec alebo pole reťazcov.',
 ];

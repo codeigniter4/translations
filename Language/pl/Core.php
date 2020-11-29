@@ -11,9 +11,9 @@
 
 // Core language settings
 return [
-	'copyError'        => 'Napotkano błąd podczas próby zastąpienia pliku. Upewnij się, że twój katalog plików jest zapisywalny.',
+	'copyError'                    => 'Napotkano błąd podczas próby zastąpienia pliku. Upewnij się, że twój katalog plików jest zapisywalny.',
 	'enabledZlibOutputCompression' => 'Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.',
-	'invalidFile'      => 'Nieprawidłowy plik: {0}',
-	'missingExtension' => 'Rozszerzenie {0} nie zostało załadowane.',
-	'noHandlers'       => '{0} musi zapewniać co najmniej jeden Handler.',
+	'invalidFile'                  => 'Nieprawidłowy plik: {0}',
+	'missingExtension'             => 'Rozszerzenie {0} nie zostało załadowane.',
+	'noHandlers'                   => '{0} musi zapewniać co najmniej jeden Handler.',
 ];

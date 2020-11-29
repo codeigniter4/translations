@@ -11,10 +11,10 @@
 
 // View language settings
 return [
-   'invalidCellMethod'     => '{class}::{method} неприпустимий метод.',
-   'missingCellParameters' => '{class}::{method} не має параметрів.',
-   'invalidCellParameter'  => '{0}неприпустиме ім’я параметра.',
-   'noCellClass'           => 'Не вказано клас комірки виду.',
-   'invalidCellClass'      => 'Не вдається знайти клас {0} комірок виду.',
-   'tagSyntaxError'        => 'Маєте синтаксичну помилку в теґах парсеру: {0}',
+	'invalidCellMethod'     => '{class}::{method} неприпустимий метод.',
+	'missingCellParameters' => '{class}::{method} не має параметрів.',
+	'invalidCellParameter'  => '{0}неприпустиме ім’я параметра.',
+	'noCellClass'           => 'Не вказано клас комірки виду.',
+	'invalidCellClass'      => 'Не вдається знайти клас {0} комірок виду.',
+	'tagSyntaxError'        => 'Маєте синтаксичну помилку в теґах парсеру: {0}',
 ];

@@ -11,6 +11,6 @@
 
 // Language system language settings
 return [
-    'languageGetLineInvalidArgumentException' => 'Get line moet een string of array van strings zijn.',
+	'languageGetLineInvalidArgumentException' => 'Get line moet een string of array van strings zijn.',
 ];
 

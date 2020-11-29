@@ -11,10 +11,10 @@
 
 // Encryption language settings
 return [
-   'noDriverRequested'    => 'Draiveris nav pieprasīts.',
-   'noHandlerAvailable'   => 'Nevar atrast pieejamu {0} šifrēšanas apstrādātāju.',
-   'unKnownHandler'       => '"{0}" nevar nokonfigurēt.',
-   'starterKeyNeeded'     => 'Šifrētājam ir nepieciešama slepena atslēga.',
-   'authenticationFailed' => 'Atšifrēšana: autentifikācija neizdevās.',
-   'encryptionFailed'     => 'Šifrēšana neizdevās.',
+	'noDriverRequested'    => 'Draiveris nav pieprasīts.',
+	'noHandlerAvailable'   => 'Nevar atrast pieejamu {0} šifrēšanas apstrādātāju.',
+	'unKnownHandler'       => '"{0}" nevar nokonfigurēt.',
+	'starterKeyNeeded'     => 'Šifrētājam ir nepieciešama slepena atslēga.',
+	'authenticationFailed' => 'Atšifrēšana: autentifikācija neizdevās.',
+	'encryptionFailed'     => 'Šifrēšana neizdevās.',
 ];

@@ -11,16 +11,16 @@
 
 // Number language settings
 return [
-   'terabyteAbbr' => 'ТБ',
-   'gigabyteAbbr' => 'ГБ',
-   'megabyteAbbr' => 'МБ',
-   'kilobyteAbbr' => 'КБ',
-   'bytes'        => 'Байтов',
+	'terabyteAbbr' => 'ТБ',
+	'gigabyteAbbr' => 'ГБ',
+	'megabyteAbbr' => 'МБ',
+	'kilobyteAbbr' => 'КБ',
+	'bytes'        => 'Байтов',
 
 	// don't forget the space in front of these!
-   'thousand'     => ' тысяча',
-   'million'      => ' миллион',
-   'billion'      => ' миллиард',
-   'trillion'     => ' триллион',
-   'quadrillion'  => ' квадралион',
+	'thousand'    => ' тысяча',
+	'million'     => ' миллион',
+	'billion'     => ' миллиард',
+	'trillion'    => ' триллион',
+	'quadrillion' => ' квадралион',
 ];

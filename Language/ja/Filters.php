@@ -11,6 +11,6 @@
 
 // Filters language settings
 return [
-   'noFilter'           => '{0} フィルタには、一致するエイリアスが定義されていなければなりません。', //{0} filter must have a matching alias defined.
-   'incorrectInterface' => '{0} は CodeIgniter\Filters\FilterInterface を実装する必要があります。', //{0} must implement CodeIgniter\Filters\FilterInterface.
+	'noFilter'           => '{0} フィルタには、一致するエイリアスが定義されていなければなりません。', //{0} filter must have a matching alias defined.
+	'incorrectInterface' => '{0} は CodeIgniter\Filters\FilterInterface を実装する必要があります。', //{0} must implement CodeIgniter\Filters\FilterInterface.
 ];

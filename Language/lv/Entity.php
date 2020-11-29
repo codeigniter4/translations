@@ -11,5 +11,5 @@
 
 // Entity language settings
 return [
-   'tryingToAccessNonExistentProperty' => 'Mēģina piekļūt neeksistējošai īpašībai {0} no {1}',
+	'tryingToAccessNonExistentProperty' => 'Mēģina piekļūt neeksistējošai īpašībai {0} no {1}',
 ];

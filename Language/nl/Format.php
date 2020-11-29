@@ -11,6 +11,6 @@
 
 // Format language settings
 return [
-    'invalidJSON'      => 'Parsen van JSON string gefaald, fout: "{0}".',
-    'missingExtension' => 'De SimpleXML extension is verplicht voor het formateren van XML.',
+	'invalidJSON'      => 'Parsen van JSON string gefaald, fout: "{0}".',
+	'missingExtension' => 'De SimpleXML extension is verplicht voor het formateren van XML.',
 ];

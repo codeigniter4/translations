@@ -11,6 +11,6 @@
 
 // Files language settings
 return [
-   'fileNotFound' => 'Không tìm thấy tệp: {0} ',
-   'cannotMove'   => 'Không thể di chuyển tệp {0} sang {1} ({2})',
+	'fileNotFound' => 'Không tìm thấy tệp: {0} ',
+	'cannotMove'   => 'Không thể di chuyển tệp {0} sang {1} ({2})',
 ];

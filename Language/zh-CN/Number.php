@@ -11,16 +11,16 @@
 
 // Number language settings
 return [
-   'terabyteAbbr' => 'TB',
-   'gigabyteAbbr' => 'GB',
-   'megabyteAbbr' => 'MB',
-   'kilobyteAbbr' => 'KB',
-   'bytes'        => 'Bytes',
+	'terabyteAbbr' => 'TB',
+	'gigabyteAbbr' => 'GB',
+	'megabyteAbbr' => 'MB',
+	'kilobyteAbbr' => 'KB',
+	'bytes'        => 'Bytes',
 
 	// don't forget the space in front of these!
-   'thousand'     => ' 千',
-   'million'      => ' 百万',
-   'billion'      => ' 亿',
-   'trillion'     => ' 兆',
-   'quadrillion'  => ' 万亿',
+	'thousand'    => ' 千',
+	'million'     => ' 百万',
+	'billion'     => ' 亿',
+	'trillion'    => ' 兆',
+	'quadrillion' => ' 万亿',
 ];

@@ -11,10 +11,10 @@
 
 // CLI language settings
 return [
-   'commandNotFound' => 'Lệnh "{0}" không tìm thấy.',
-   'helpUsage'       => 'Sử dụng:',
-   'helpDescription' => 'Mô tả:',
-   'helpOptions'     => 'Tùy chọn:',
-   'helpArguments'   => 'Thuộc tính:',
-   'invalidColor'    => 'Màu {0} không hợp lệ: {1}.',
+	'commandNotFound' => 'Lệnh "{0}" không tìm thấy.',
+	'helpUsage'       => 'Sử dụng:',
+	'helpDescription' => 'Mô tả:',
+	'helpOptions'     => 'Tùy chọn:',
+	'helpArguments'   => 'Thuộc tính:',
+	'invalidColor'    => 'Màu {0} không hợp lệ: {1}.',
 ];

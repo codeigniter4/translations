@@ -11,6 +11,6 @@
 
 // Format language settings
 return [
-   'invalidJSON'      => 'Parsovanie JSON reťazca zlyhalo, chyba: "{0}".',
-   'missingExtension' => 'Rozšírenie SimpleXML je nevyhnutné pre XML formát.',
+	'invalidJSON'      => 'Parsovanie JSON reťazca zlyhalo, chyba: "{0}".',
+	'missingExtension' => 'Rozšírenie SimpleXML je nevyhnutné pre XML formát.',
 ];

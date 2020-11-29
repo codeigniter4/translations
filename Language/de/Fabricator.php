@@ -11,6 +11,6 @@
 
 // Fabricator language strings
 return [
-    'invalidModel'      => 'Ungültiges Model zum Fabricator geliefert.',
-    'missingFormatters' => 'Kein gültiger Formatierer definiert.',
+	'invalidModel'      => 'Ungültiges Model zum Fabricator geliefert.',
+	'missingFormatters' => 'Kein gültiger Formatierer definiert.',
 ];

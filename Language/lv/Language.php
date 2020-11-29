@@ -11,5 +11,5 @@
 
 // Language system language settings
 return [
-   'languageGetLineInvalidArgumentException' => 'Iegūstamajai līnijai ir jābūt virknei vai virkņu masīvam.',
+	'languageGetLineInvalidArgumentException' => 'Iegūstamajai līnijai ir jābūt virknei vai virkņu masīvam.',
 ];

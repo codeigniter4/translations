@@ -11,10 +11,10 @@
 
 // Session language settings
 return [
-   'missingDatabaseTable'   => 'Lai datu bāzes sesijas apstrādātājs varētu darboties, iestatījumā `sessionSavePath` ir jānorāda tabulas nosaukums.',
-   'invalidSavePath'        => 'Sesija: Iestatījumos norādītais saglabāšanas ceļš "{0}" nav direktorija, neeksistē vai to nevar izveidot.',
-   'writeProtectedSavePath' => 'Sesija: Iestatījumos norādītais saglabāšanas ceļš "{0}" PHP procesam nav pieejams ierakstīšanai.',
-   'emptySavePath'          => 'Sesija: Iestatījumos nav norādīts saglabāšanas ceļš.',
-   'invalidSavePathFormat'  => 'Sesija: nederīgs Redis saglabāšanas ceļa formāts: {0}',
-   //'invalidSameSiteSetting' => 'Sesija: iestatījumam SameSite jābūt: None, Lax, Strict vai tukšai virknei. Norādīts: {0}',
+	'missingDatabaseTable'   => 'Lai datu bāzes sesijas apstrādātājs varētu darboties, iestatījumā `sessionSavePath` ir jānorāda tabulas nosaukums.',
+	'invalidSavePath'        => 'Sesija: Iestatījumos norādītais saglabāšanas ceļš "{0}" nav direktorija, neeksistē vai to nevar izveidot.',
+	'writeProtectedSavePath' => 'Sesija: Iestatījumos norādītais saglabāšanas ceļš "{0}" PHP procesam nav pieejams ierakstīšanai.',
+	'emptySavePath'          => 'Sesija: Iestatījumos nav norādīts saglabāšanas ceļš.',
+	'invalidSavePathFormat'  => 'Sesija: nederīgs Redis saglabāšanas ceļa formāts: {0}',
+	'invalidSameSiteSetting' => 'Sesija: iestatījumam SameSite jābūt: None, Lax, Strict vai tukšai virknei. Norādīts: {0}',
 ];

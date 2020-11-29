@@ -11,5 +11,5 @@
 
 // Log language settings
 return [
-   'invalidLogLevel' => '{0} - это недопустимый уровень ведения журнала.',
+	'invalidLogLevel' => '{0} - это недопустимый уровень ведения журнала.',
 ];

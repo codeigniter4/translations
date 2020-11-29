@@ -11,11 +11,11 @@
 
 // Cast language settings
 return [
-    'jsonErrorDepth'         => 'Maximale stack diepte overschreden',
-    'jsonErrorStateMismatch' => 'Underflow of de modus komen niet overeen',
-    'jsonErrorCtrlChar'      => 'ONverwacht controle karakter gevonden',
-    'jsonErrorSyntax'        => 'Syntax fout, foutieve JSON',
-    'jsonErrorUtf8'          => 'Foutieve UTF-8 karakters, mogelijk foutieve encoding',
-    'jsonErrorUnknown'       => 'Ongekende fout',
+	'jsonErrorDepth'         => 'Maximale stack diepte overschreden',
+	'jsonErrorStateMismatch' => 'Underflow of de modus komen niet overeen',
+	'jsonErrorCtrlChar'      => 'ONverwacht controle karakter gevonden',
+	'jsonErrorSyntax'        => 'Syntax fout, foutieve JSON',
+	'jsonErrorUtf8'          => 'Foutieve UTF-8 karakters, mogelijk foutieve encoding',
+	'jsonErrorUnknown'       => 'Ongekende fout',
 ];
 

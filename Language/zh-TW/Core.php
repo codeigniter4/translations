@@ -11,9 +11,9 @@
 
 // Core language settings
 return [
-   'copyError'        => '嘗試替換檔案({0})時遇到錯誤. 請確定檔案目錄具有可寫入的權限。',
-   'enabledZlibOutputCompression' => 'Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.',
-   'invalidFile'      => '無效的檔案: {0}',
-   'missingExtension' => '尚未載入 {0} 擴充元件。',
-   'noHandlers'       => '{0} 最少必須提供一個處理器（handler）。',
+	'copyError'                    => '嘗試替換檔案({0})時遇到錯誤. 請確定檔案目錄具有可寫入的權限。',
+	'enabledZlibOutputCompression' => 'Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.',
+	'invalidFile'                  => '無效的檔案: {0}',
+	'missingExtension'             => '尚未載入 {0} 擴充元件。',
+	'noHandlers'                   => '{0} 最少必須提供一個處理器（handler）。',
 ];

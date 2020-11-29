@@ -11,6 +11,6 @@
 
 // Files language settings
 return [
-   'fileNotFound' => 'Súbor nebol nájdený: {0}',
-   'cannotMove'   => 'Súbor {0} nebolo možné presunúť do {1} ({2})',
+	'fileNotFound' => 'Súbor nebol nájdený: {0}',
+	'cannotMove'   => 'Súbor {0} nebolo možné presunúť do {1} ({2})',
 ];

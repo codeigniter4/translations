@@ -11,6 +11,6 @@
 
 // Files language settings
 return [
-   'fileNotFound' => 'Fails nav atrasts: {0}',
-   'cannotMove'   => 'Nevarēja pārvietot failu {0} uz {1} ({2})',
+	'fileNotFound' => 'Fails nav atrasts: {0}',
+	'cannotMove'   => 'Nevarēja pārvietot failu {0} uz {1} ({2})',
 ];

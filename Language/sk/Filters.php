@@ -11,6 +11,6 @@
 
 // Filters language settings
 return [
-   'noFilter'           => '{0} filter musí mať definovaný zhodujúci sa alias.',
-   'incorrectInterface' => '{0} musí implementovať CodeIgniter\Filters\FilterInterface.',
+	'noFilter'           => '{0} filter musí mať definovaný zhodujúci sa alias.',
+	'incorrectInterface' => '{0} musí implementovať CodeIgniter\Filters\FilterInterface.',
 ];

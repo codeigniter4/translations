@@ -1,8 +1,6 @@
 <?php
 
 /**
- * Language system language strings.
- *
  * This file is part of the CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
@@ -11,6 +9,7 @@
  * file that was distributed with this source code.
  */
 
+// Language system language strings
 return [
-   'languageGetLineInvalidArgumentException' => 'Отриманий рядок повинен бути рядком або масивом рядків.',
+	'languageGetLineInvalidArgumentException' => 'Отриманий рядок повинен бути рядком або масивом рядків.',
 ];

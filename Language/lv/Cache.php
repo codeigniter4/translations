@@ -11,8 +11,8 @@
 
 // Cache language settings
 return [
-   'unableToWrite'   => 'Kešatmiņu nevar ierakstīt {0}',
-   'invalidHandlers' => 'Kešatmiņas konfigurācijā jābūt masīvam $validHandlers.',
-   'noBackup'        => 'Kešatmiņas konfigurācijā jābūt iestatītam apstrādātājam un rezerves apstrādātājam.',
-   'handlerNotFound' => 'Kešatmiņas konfigurācijā ir norādīts nederīgs apstrādātājs vai rezerves apstrādātājs.',
+	'unableToWrite'   => 'Kešatmiņu nevar ierakstīt {0}',
+	'invalidHandlers' => 'Kešatmiņas konfigurācijā jābūt masīvam $validHandlers.',
+	'noBackup'        => 'Kešatmiņas konfigurācijā jābūt iestatītam apstrādātājam un rezerves apstrādātājam.',
+	'handlerNotFound' => 'Kešatmiņas konfigurācijā ir norādīts nederīgs apstrādātājs vai rezerves apstrādātājs.',
 ];

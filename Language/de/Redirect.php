@@ -11,5 +11,5 @@
 
 // Redirect language settings
 return [
-   'forUnableToRedirect' => 'Umleitung auf "{0}" nicht möglich. Error status code "{1}"',
+	'forUnableToRedirect' => 'Umleitung auf "{0}" nicht möglich. Error status code "{1}"',
 ];

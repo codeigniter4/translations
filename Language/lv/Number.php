@@ -11,16 +11,16 @@
 
 // Number language settings
 return [
-   'terabyteAbbr' => 'TB',
-   'gigabyteAbbr' => 'GB',
-   'megabyteAbbr' => 'MB',
-   'kilobyteAbbr' => 'KB',
-   'bytes'        => 'Baiti',
+	'terabyteAbbr' => 'TB',
+	'gigabyteAbbr' => 'GB',
+	'megabyteAbbr' => 'MB',
+	'kilobyteAbbr' => 'KB',
+	'bytes'        => 'Baiti',
 
 	// don't forget the space in front of these!
-   'thousand'     => ' tūkstotis',
-   'million'      => ' miljons',
-   'billion'      => ' miljards',
-   'trillion'     => ' triljons',
-   'quadrillion'  => ' kvadriljons',
+	'thousand'    => ' tūkstotis',
+	'million'     => ' miljons',
+	'billion'     => ' miljards',
+	'trillion'    => ' triljons',
+	'quadrillion' => ' kvadriljons',
 ];

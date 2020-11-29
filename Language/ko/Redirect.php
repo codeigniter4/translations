@@ -11,5 +11,5 @@
 
 // Redirect language settings
 return [
-   'forUnableToRedirect' => '{0} 쪽으로 페이지 전환을 할 수 없습니다. 에러 상태 코드 : "{1}"', // 'Unable to redirect to "{0}". Error status code "{1}"',
+	'forUnableToRedirect' => '{0} 쪽으로 페이지 전환을 할 수 없습니다. 에러 상태 코드 : "{1}"', // 'Unable to redirect to "{0}". Error status code "{1}"',
 ];

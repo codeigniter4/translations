@@ -11,10 +11,10 @@
 
 // Cast language settings
 return [
-   'jsonErrorDepth'         => 'Viršytas maksimalus dėklo gylis',
-   'jsonErrorStateMismatch' => 'Nepakankama tėkmė arba režimų neatitiimas',
-   'jsonErrorCtrlChar'      => 'Aptiktas nelauktas kontrolės simbolis',
-   'jsonErrorSyntax'        => 'Sintaksės klaida, netesingai suformuotas JSON',
-   'jsonErrorUtf8'          => 'Neteisingi UTF-8 simboliai, JSON gali būti neteisingai užkoduotas',
-   'jsonErrorUnknown'       => 'Nežinoma klaida',
+	'jsonErrorDepth'         => 'Viršytas maksimalus dėklo gylis',
+	'jsonErrorStateMismatch' => 'Nepakankama tėkmė arba režimų neatitiimas',
+	'jsonErrorCtrlChar'      => 'Aptiktas nelauktas kontrolės simbolis',
+	'jsonErrorSyntax'        => 'Sintaksės klaida, netesingai suformuotas JSON',
+	'jsonErrorUtf8'          => 'Neteisingi UTF-8 simboliai, JSON gali būti neteisingai užkoduotas',
+	'jsonErrorUnknown'       => 'Nežinoma klaida',
 ];

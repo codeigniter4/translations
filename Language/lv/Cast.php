@@ -11,10 +11,10 @@
 
 // Cast language settings
 return [
-   'jsonErrorDepth'         => 'Maksimālais kaudzes dziļums ir pārsniegts',
-   'jsonErrorStateMismatch' => 'Nepietiekama plūsma vai režīmi neatbilst',
-   'jsonErrorCtrlChar'      => 'Atrasts negaidīts kontroles simbols',
-   'jsonErrorSyntax'        => 'Sintakses kļūda, nepareizi veidots JSON',
-   'jsonErrorUtf8'          => 'Nepareizi veidotas UTF-8 rakstzīmes, iespējams, ka nepareizi kodētas.',
-   'jsonErrorUnknown'       => 'Nezināma kļūda',
+	'jsonErrorDepth'         => 'Maksimālais kaudzes dziļums ir pārsniegts',
+	'jsonErrorStateMismatch' => 'Nepietiekama plūsma vai režīmi neatbilst',
+	'jsonErrorCtrlChar'      => 'Atrasts negaidīts kontroles simbols',
+	'jsonErrorSyntax'        => 'Sintakses kļūda, nepareizi veidots JSON',
+	'jsonErrorUtf8'          => 'Nepareizi veidotas UTF-8 rakstzīmes, iespējams, ka nepareizi kodētas.',
+	'jsonErrorUnknown'       => 'Nezināma kļūda',
 ];

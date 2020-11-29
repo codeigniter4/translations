@@ -11,8 +11,8 @@
 
 // Cache language settings
 return [
-   'unableToWrite'   => 'Не вдається записати кеш в {0}',
-   'invalidHandlers' => 'Змінна $validHandlers в конфігурації кешу повинна містити масив.',
-   'noBackup'        => 'В конфігурації кешування не вказаний обробник $backupHandler.',
-   'handlerNotFound' => 'В конфігурації кешування вказаний недопустимий обробник.',
+	'unableToWrite'   => 'Не вдається записати кеш в {0}',
+	'invalidHandlers' => 'Змінна $validHandlers в конфігурації кешу повинна містити масив.',
+	'noBackup'        => 'В конфігурації кешування не вказаний обробник $backupHandler.',
+	'handlerNotFound' => 'В конфігурації кешування вказаний недопустимий обробник.',
 ];

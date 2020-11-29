@@ -11,13 +11,13 @@
 
 // Pager language settings
 return [
-   'pageNavigation'         => 'Sidenavigasjon',
-   'first'                  => 'første',
-   'previous'               => 'siste',
-   'next'                   => 'mer',
-   'last'                   => 'tilbake',
-   'older'                  => 'eldre',
-   'newer'                  => 'ny',
-   'invalidTemplate'        => '{0} er ikke en gyldig mal.',
-   'invalidPaginationGroup' => '{0} er ikke en gyldig sidegruppe.',
+	'pageNavigation'         => 'Sidenavigasjon',
+	'first'                  => 'første',
+	'previous'               => 'siste',
+	'next'                   => 'mer',
+	'last'                   => 'tilbake',
+	'older'                  => 'eldre',
+	'newer'                  => 'ny',
+	'invalidTemplate'        => '{0} er ikke en gyldig mal.',
+	'invalidPaginationGroup' => '{0} er ikke en gyldig sidegruppe.',
 ];

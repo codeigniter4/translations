@@ -11,5 +11,5 @@
 
 // Language system language settings
 return [
-   'languageGetLineInvalidArgumentException' => 'Get line muss ein String oder ein Array mit Strings sein.',
+	'languageGetLineInvalidArgumentException' => 'Get line muss ein String oder ein Array mit Strings sein.',
 ];
