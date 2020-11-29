@@ -44,6 +44,7 @@ return [
 	'max_length'            => 'Bidang {field} tidak bisa melebihi {param} panjang karakter.',
 	'min_length'            => 'Bidang {field} setidaknya harus {param} panjang karakter.',
 	'not_equals'            => 'Bidang {field} tidak boleh: {param}.',
+	'not_in_list'           => 'Bidang {field} tidak boleh salah satu dari: {param}.',
 	'numeric'               => 'Bidang {field} hanya boleh mengandung angka.',
 	'regex_match'           => 'Bidang {field} tidak dalam format yang benar.',
 	'required'              => 'Bidang {field} diperlukan.',
