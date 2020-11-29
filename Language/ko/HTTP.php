@@ -71,4 +71,7 @@ return [
    'uploadErrNoTmpDir'          => '(업로드 에러) 파일을 업로드할 수 없습니다: 임시 디렉터리가 없습니다.', // 'File could not be uploaded: missing temporary directory.',
    'uploadErrExtension'         => '업로드 에러: PHP 확장에 의해 파일 업로드가 중지되었습니다.', // 'File upload was stopped by a PHP extension.',
    'uploadErrUnknown'           => '업로드 에러: 해당 파일 "%s"의 경우, 알 수 없는 에러로 인해 업로드할 수 없습니다.', // 'The file "%s" was not uploaded due to an unknown error.',
+
+	// SameSite setting
+	'invalidSameSiteSetting'     => 'SameSite 설정은 None, Lax, Strict 또는 빈 문자열이어야합니다. 주어진 값 : {0}', // 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

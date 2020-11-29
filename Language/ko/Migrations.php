@@ -30,11 +30,9 @@ return [
    'migHelpSeed'       => "\t[name]이라고 명명된 seeder를 실행합니다.", // "\tRuns the seeder named [name].",
    'migCreate'         => "\t[name]이라고 명명된 새로운 마이그레이션을 생성합니다.", // "\tCreates a new migration named [name]",
    'nameMigration'     => '마이그레이션 파일 이름 지정', // 'Name the migration file',
-   'badCreateName'     => '반드시 마이그레이션 파일명이 지정되어야 합니다.', // 'You must provide a migration file name.',
-   'writeError'        => '파일 생성 시도 중에 에러 발생', // 'Error trying to create file.',
    'migNumberError'    => '마이그레이션 숫자 값은 반드시 세 자리 숫자 값이어야 합니다. 그리고 순차적인 마이그레이션 값에 간격이 없어야 합니다.', // 'Migration number must be three digits, and there must not be any gaps in the sequence.',
-   'rollBackConfirm'   => 'Are you sure you want to rollback?',
-   'refreshConfirm'    => 'Are you sure you want to refresh?',
+   'rollBackConfirm'   => '롤백 하시겠습니까?',
+   'refreshConfirm'    => '새로고침 하시겠습니까?',
 
    'latest'            => '새로운 모든 마이그레이션들을 실행 중...', // 'Running all new migrations...',
    'generalFault'      => '마이그레이션 실패!', // 'Migration failed!',
@@ -43,12 +41,17 @@ return [
    'toVersion'         => '현재 버전으로 마이그레이션 중...', // 'Migrating to current version...',
    'rollingBack'       => '일괄적으로 마이그레이션을 되돌리는 중: ', // 'Rolling back migrations to batch: ',
    'noneFound'         => '마이그레이션을 찾지 못했습니다.', // 'No migrations were found.',
-   'on'                => '마이그레이션 대상: ', // 'Migrated On: ',
    'migSeeder'         => 'Seeder 명', // 'Seeder name',
    'migMissingSeeder'  => '반드시 Seeder 명을 지정하여야 합니다.', // 'You must provide a seeder name.',
+   'nameSeeder'        => '파일 seeder 이름',
    'removed'           => '되돌리기: ', // 'Rolling back: ',
    'added'             => '실행 중: ', // 'Running: ',
-
+   
+	// Migrate Status
+   'namespace'         => '네임스페이스',
    'version'           => '버전', // 'Version',
    'filename'          => '파일명', // 'Filename',
+	'group'             => '그룹',
+   'on'                => '마이그레이션 대상: ', // 'Migrated On: ',
+	'batch'             => 'Batch',
 ];
