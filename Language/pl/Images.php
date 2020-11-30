@@ -28,7 +28,7 @@ return [
 	'invalidPath'            => 'Ścieżka do obrazu jest nieprawidłowa.',
 	'copyFailed'             => 'Procedura kopiowania obrazów nie powiodła się.',
 	'missingFont'            => 'Nie można znaleźć czcionki do użycia.',
-	'saveFailed'             => 'Nie można zapisać obrazu. Upewnij się, że obraz i katalog plików są zapisywalne.',
+	'saveFailed'             => 'Nie można zapisać obrazu. Upewnij się, że obraz i katalog plików ma prawa do zapisu.',
 	'invalidDirection'       => 'Kierunek odwrócenia może być tylko "pionowy" lub "poziomy". Podano: {0}',
-	'exifNotSupported'       => 'Odczytywanie danych EXIF nie jest obsługiwane przez tę instalację PHP.',
+	'exifNotSupported'       => 'Odczytywanie danych EXIF nie jest obsługiwane przez tą konfigurację PHP.',
 ];

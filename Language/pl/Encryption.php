@@ -11,10 +11,10 @@
 
 // Encryption language settings
 return [
-	'noDriverRequested'    => 'No driver requested; Miss Daisy will be so upset!',
-	'noHandlerAvailable'   => 'Unable to find an available {0} encryption handler.',
-	'unKnownHandler'       => '"{0}" cannot be configured.',
-	'starterKeyNeeded'     => 'Encrypter needs a starter key.',
-	'authenticationFailed' => 'Decrypting: authentication failed.',
-	'encryptionFailed'     => 'Encryption failed.',
+	'noDriverRequested'    => 'Nie wybrałeś sterownika; Miss Daisy będzie bardzo smutna!',
+	'noHandlerAvailable'   => 'Nie można odnaleźć dostępnego {0} uchwytu szyfrowania.',
+	'unKnownHandler'       => '"{0}" nie może być skonfigurowany.',
+	'starterKeyNeeded'     => 'Szyfrator wymaga klucza.',
+	'authenticationFailed' => 'Deszyfrowanie: autoryzacja nie powiodła się.',
+	'encryptionFailed'     => 'Szyfrowanie nie powiodło się.',
 ];

@@ -11,6 +11,6 @@
 
 // Fabricator language strings
 return [
-	'invalidModel'      => 'Invalid model supplied for fabrication.',
-	'missingFormatters' => 'No valid formatters defined.',
+	'invalidModel'      => 'Niepoprawny model do fabrykacji.',
+	'missingFormatters' => 'Brak poprawnego formatu.',
 ];

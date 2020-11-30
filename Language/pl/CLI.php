@@ -11,10 +11,10 @@
 
 // CLI language settings
 return [
-	'commandNotFound' => 'Command "{0}" not found.',
+	'commandNotFound' => 'Polecenie "{0}" nie zostało znalezione.',
 	'helpUsage'       => 'Zastosowanie:',
 	'helpDescription' => 'Opis:',
 	'helpOptions'     => 'Opcje:',
-	'helpArguments'   => 'Argumentty:',
+	'helpArguments'   => 'Argumenty:',
 	'invalidColor'    => 'Nieprawidłowy kolor {0}: {1}.',
 ];

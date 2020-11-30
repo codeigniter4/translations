@@ -18,6 +18,6 @@ return [
 	'last'                   => 'Ostatni',
 	'older'                  => 'Starszy',
 	'newer'                  => 'Nowszy',
-	'invalidTemplate'        => '{0} nie jest prawidłowym szablonem Pager.',
-	'invalidPaginationGroup' => '{0} nie jest prawidłową grupą Pager.',
+	'invalidTemplate'        => '{0} nie jest prawidłowym szablonem.',
+	'invalidPaginationGroup' => '{0} nie jest prawidłową grupą.',
 ];

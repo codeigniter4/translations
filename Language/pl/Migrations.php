@@ -12,14 +12,14 @@
 // Migration language settings
 return [
 	// Migration Runner
-	'missingTable'  => 'Tabela migracji musi zostać ustawiona.',
-	'disabled'      => 'Migracje zostały załadowane, ale są wyłączone lub niepoprawnie skonfigurowane.',
-	'notFound'      => 'Nie znaleziono pliku migracji: ',
-	'batchNotFound' => 'Target batch not found: ',
-	'empty'         => 'Nie znaleziono plików migracji',
-	'gap'           => 'W sekwencji migracji znajduje się luka w pobliżu numeru wersji: ',
-	'classNotFound' => 'Nie można znaleźć klasy migracji "%s".',
-	'missingMethod' => 'W klasie migracji brakuje metody "%s".',
+	'missingTable'    => 'Tabela migracji musi zostać ustawiona.',
+	'disabled'        => 'Migracje zostały załadowane, ale są wyłączone lub niepoprawnie skonfigurowane.',
+	'notFound'        => 'Nie znaleziono pliku migracji: ',
+	'batchNotFound'   => 'Target batch not found: ',
+	'empty'           => 'Nie znaleziono plików migracji',
+	'gap'             => 'W sekwencji migracji znajduje się luka w pobliżu numeru wersji: ',
+	'classNotFound'   => 'Nie można znaleźć klasy migracji "%s".',
+	'missingMethod'   => 'W klasie migracji brakuje metody "%s".',
 
 	// Migration Command
 	'migHelpLatest'   => "\t\tPrzeprowadza migrację bazy danych do najnowszej dostępnej migracji.",
@@ -32,12 +32,12 @@ return [
 	'nameMigration'   => 'Nazwij plik migracji',
 	'badCreateName'   => 'Musisz podać nazwę pliku migracji.',
 	'writeError'      => 'Błąd podczas próby utworzenia pliku.',
-	'migNumberError'  => 'Migration number must be three digits, and there must not be any gaps in the sequence.',
-	'rollBackConfirm' => 'Are you sure you want to rollback?',
-	'refreshConfirm'  => 'Are you sure you want to refresh?',
+	'migNumberError'  => 'Numer migracji musi mieć 3 cyfry, nie może też być przerw w numeracji.',
+	'rollBackConfirm' => 'Na pewno chce przywrócić poprzednią wersję?',
+	'refreshConfirm'  => 'Na pewno chcesz odświeżyć?',
 
-	'latest'            => 'Running all new migrations...',
-	'generalFault'      => 'Migration failed!',
+	'latest'            => 'Uruchamianie nowych migracji...',
+	'generalFault'      => 'Migracja nie powiodła się!',
 	'migInvalidVersion' => 'Podano nieprawidłowy numer wersji.',
 	'toVersionPH'       => 'Migrowanie do wersji %s...',
 	'toVersion'         => 'Migracja do bieżącej wersji...',
