@@ -15,7 +15,7 @@ return [
 	'invalidArgument'                  => 'Musisz podać poprawną {0}.',
 	'invalidAllowedFields'             => 'Dozwolone pola muszą być określone dla modelu: {0}',
 	'emptyDataset'                     => 'Brak danych do {0}.',
-	'emptyPrimaryKey'                  => 'Brak klucz głównego przy tworzeniu {0}.',
+	'emptyPrimaryKey'                  => 'Brak klucza głównego przy tworzeniu {0}.',
 	'failGetFieldData'                 => 'Błąd przy pobieraniu pola z bazy.',
 	'failGetIndexData'                 => 'Błąd przy pobieraniu indeksu z bazy.',
 	'failGetForeignKeyData'            => 'Błąd przy pobieraniu klucza obcego z bazy.',
@@ -25,6 +25,6 @@ return [
 	'noPrimaryKey'                     => '`{0}` model nie wskazuje klucza głównego.',
 	'noDateFormat'                     => '`{0}` model nie ma poprawnego formatu daty.',
 	'fieldNotExists'                   => 'Pole `{0}` nie znalezione.',
-	'forEmptyInputGiven'               => 'Empty statement is given for the field `{0}`',
+	'forEmptyInputGiven'               => 'Puste wyrażenie dla pola `{0}`',
 	'forFindColumnHaveMultipleColumns' => 'Tylko pojedyncza nazwa kolumny jest dozwolona w tym polu.',
 ];
