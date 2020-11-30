@@ -72,5 +72,5 @@ return [
 	'uploadErrUnknown'   => 'Die Datei "%s" konnte wegen eines unbekannten Fehlers nicht hochgeladen werden.',
 
 	// SameSite setting
-	'invalidSameSiteSetting' => 'Die SameSite Einstellung kann nur None, Lax, Strict, oder ein leerer String sein. Erhaltener Wert: {0}',
+	'invalidSameSiteSetting' => 'Die SameSite-Einstellung kann nur None, Lax, Strict, oder ein leerer String sein. Erhaltener Wert: {0}',
 ];
