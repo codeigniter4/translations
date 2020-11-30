@@ -44,6 +44,7 @@ return [
 	'max_length'            => 'Das {field}-Formularfeld darf die Länge von {param} Zeichen nicht überschreiten.',
 	'min_length'            => 'Das {field}-Formularfeld muss mindestens {param} Zeichen lang sein.',
 	'not_equals'            => 'Das {field}-Formularfeld darf nicht {param} entsprechen.',
+	'not_in_list'           => 'Das {field}-Formularfeld muss ein Element dieser Liste sein: {param}.',
 	'numeric'               => 'Das {field}-Formularfeld darf nur Zahlen enthalten.',
 	'regex_match'           => 'Das {field}-Formularfeld ist nicht im richtigen Format.',
 	'required'              => 'Das {field}-Formularfeld ist erforderlich.',

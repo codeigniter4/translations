@@ -13,4 +13,5 @@
 return [
 	'invalidModel'      => 'Ungültiges Model zum Fabricator geliefert.',
 	'missingFormatters' => 'Kein gültiger Formatierer definiert.',
+	'createFailed'      => 'Der Fabricator konnte {1} nicht in Tabelle {0} einfügen.',
 ];

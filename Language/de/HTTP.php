@@ -70,4 +70,7 @@ return [
 	'uploadErrNoTmpDir'  => 'Fehler beim Hochladen: Temporäres Verzeichnis fehlt.',
 	'uploadErrExtension' => 'Der Datei-Upload wurde von einer PHP-extension gestoppt.',
 	'uploadErrUnknown'   => 'Die Datei "%s" konnte wegen eines unbekannten Fehlers nicht hochgeladen werden.',
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'Die SameSite Einstellung kann nur None, Lax, Strict, oder ein leerer String sein. Erhaltener Wert: {0}',
 ];

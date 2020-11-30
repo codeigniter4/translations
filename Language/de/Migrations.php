@@ -44,9 +44,15 @@ return [
 	'on'                => 'Migriert nach: ',
 	'migSeeder'         => 'Beispieldaten-Name',
 	'migMissingSeeder'  => 'Es muss ein Beispieldaten-Name angegeben werden.',
+	'nameSeeder'        => 'Benennen der Beispieldatendatei',
 	'removed'           => 'Zurückrollen nach: ',
 	'added'             => 'Ausführen: ',
 
-	'version'  => 'Version',
-	'filename' => 'Dateiname',
+	// Migrate Status
+	'namespace' => 'Namespace',
+	'filename'  => 'Dateiname',
+	'version'   => 'Version',
+	'group'     => 'Gruppe',
+	'on'        => 'Migriert am: ',
+	'batch'     => 'Batch',
 ];
