@@ -29,35 +29,35 @@ Each ICU locale is maintained by a community member, per the table below. The ro
 provide a single authority for vetting translations for a given language, since the framework team
 claims no expertise beyond English.
 
-| Locale | Language             | As of** | Github User          | Maintainer
-| ------ | -------------------- | ------- | -------------------- | --------------------
-| ar     | Arabic               | 4.0.0   | [daif][ar]           | Daif Alotaibi
-| cs     | Czech                | 4.x     | [PavelTajdus][cs]    | Pavel Tajduš
-| de     | German               | 4.0.0   | [sba][de]            | Stefan Bauer
-| en     | English              | 4.0.0   | **N/A**              | CI team
-| es     | Spanish              | 4.0.0   | [nachoaguirre][es]   | Ignacio Aguirre
-| fa     | Farsi                | 4.0.0   | [smhnaji][fa]        | Mohammad Naji
-| fr     | French               | 4.0.0   | [amuratet][fr]       | Amuratet?
-| id     | Indonesian           | 4.0.0   | [ridho1991][id]      | Mutasim Ridlo
-| it     | Italian              | 4.0.0   | [luk3b8][it]         | Luca Rasia
-| ja     | Japanese             | 4.x     | [kohenji01][ja]      | Shoji Ogura
-| ko     | Korean               | 4.0.2   | [codeigniter-kr][kr] | codeigniter-kr
-| lt     | Lithuanian           | 4.0.2   | [dgvirtual][lt]      | Donatas Glodenis
-| lv     | Latvian              | 4.x     | [davislasis][lv]     | Dāvis Lasis
-| ml     | Malayalam            | 4.x     | [rakheshthayyur][ml] | Rakhesh Thayyur
-| nl     | Dutch                | 4.x     | [JohanSmolders][nl]  | JohanSmolders
-| no     | Norwegian            | 4.0.0   | [LA3QMA][no]         | Kai Günter Brandt
-| pl     | Polish               | 4.0.0   | [DEVELPL][pl]        | Maciej Jasiewicz
-| pt     | Portuguese           | 4.0.0   | [rbm0407][pt]        | Rodrigo Borges
-| pt-BR  | Brazilian            | 4.0.0   | [natanfelles][pt-BR] | Natan Felles
-| ru     | Russian              | 4.0.0   | [DigitalWolf98][ru]  | Vladislav Rykhtikov
-| sk     | Slovak               | 4.0.0   | [xbotkaj][sk]        | Jozef Botka
-| sv-SE  | Swedish - Sweden     | 4.x     | [tangix][sv-SE]      | Mattias Sandström
-| tr     | Turkish              | 4.0.0   | [obozdag][tr]        | obozdag
-| uk     | Ukrainian            | 4.x     | [flybot][uk]         | Serhii Kosyi
-| vi     | Vietnamese           | 4.x     | [xuandung38][vi]     | XuanDung38
-| zh-CN  | Simple Chinese       | 4.0.0   | [bangbangda][zh-CN]  | bangbangda
-| zh-TW  | Traditional Chinese  | 4.0.0   | [monkenWu][zh-TW]    | monkenWu
+| Locale | Language             | As of** | Github User              | Maintainer
+| ------ | -------------------- | ------- | ------------------------ | --------------------
+| ar     | Arabic               | 4.0.0   | [daif][ar]               | Daif Alotaibi
+| cs     | Czech                | 4.x     | [PavelTajdus][cs]        | Pavel Tajduš
+| de     | German               | 4.0.0   | [sba][de]                | Stefan Bauer
+| en     | English              | 4.0.0   | **N/A**                  | CI team
+| es     | Spanish              | 4.0.0   | [nachoaguirre][es]       | Ignacio Aguirre
+| fa     | Farsi                | 4.0.0   | [smhnaji][fa]            | Mohammad Naji
+| fr     | French               | 4.0.0   | [amuratet][fr]           | Amuratet?
+| id     | Indonesian           | 4.0.0   | [ridho1991][id]          | Mutasim Ridlo
+| it     | Italian              | 4.0.0   | [luk3b8][it]             | Luca Rasia
+| ja     | Japanese             | 4.x     | [kohenji01][ja]          | Shoji Ogura
+| ko     | Korean               | 4.0.2   | [codeigniter-kr][kr]     | codeigniter-kr
+| lt     | Lithuanian           | 4.0.2   | [dgvirtual][lt]          | Donatas Glodenis
+| lv     | Latvian              | 4.x     | [davislasis][lv]         | Dāvis Lasis
+| ml     | Malayalam            | 4.x     | [rakheshthayyur][ml]     | Rakhesh Thayyur
+| nl     | Dutch                | 4.x     | [JohanSmolders][nl]      | JohanSmolders
+| no     | Norwegian            | 4.0.0   | [LA3QMA][no]             | Kai Günter Brandt
+| pl     | Polish               | 4.x     | [codeigniter-polska][pl] | Slawomir Jasinski
+| pt     | Portuguese           | 4.0.0   | [rbm0407][pt]            | Rodrigo Borges
+| pt-BR  | Brazilian            | 4.0.0   | [natanfelles][pt-BR]     | Natan Felles
+| ru     | Russian              | 4.0.0   | [DigitalWolf98][ru]      | Vladislav Rykhtikov
+| sk     | Slovak               | 4.0.0   | [xbotkaj][sk]            | Jozef Botka
+| sv-SE  | Swedish - Sweden     | 4.x     | [tangix][sv-SE]          | Mattias Sandström
+| tr     | Turkish              | 4.0.0   | [obozdag][tr]            | obozdag
+| uk     | Ukrainian            | 4.x     | [flybot][uk]             | Serhii Kosyi
+| vi     | Vietnamese           | 4.x     | [xuandung38][vi]         | XuanDung38
+| zh-CN  | Simple Chinese       | 4.0.0   | [bangbangda][zh-CN]      | bangbangda
+| zh-TW  | Traditional Chinese  | 4.0.0   | [monkenWu][zh-TW]        | monkenWu
 
 _**Version where the locale was released. 4.x denotes `Unreleased`._
 
