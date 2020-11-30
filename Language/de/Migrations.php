@@ -30,8 +30,6 @@ return [
 	'migHelpSeed'     => "\tSpeichert Beispieldaten mit dem Namen [name].",
 	'migCreate'       => "\tErstellt eine neue Migration mit dem Namen [name]",
 	'nameMigration'   => 'Benennen der Migrationsdatei',
-	'badCreateName'   => 'Es muss ein gültiger Migrations-Dateiname angegeben werden.',
-	'writeError'      => 'Fehler beim Erstellen der Datei.',
 	'migNumberError'  => 'Die Migrationsnummer muss dreistellig sein, und es dürfen keine Lücken in der Sequenz sein.',
 	'rollBackConfirm' => 'Soll der Datenbank-Rollback ausgeführt werden?',
 	'refreshConfirm'  => 'Soll die Datenbank wirklich aktualisiert werden?',
