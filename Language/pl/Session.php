@@ -16,4 +16,5 @@ return [
 	'writeProtectedSavePath' => 'Sesja: Skonfigurowana ścieżka zapisu "{0}" nie jest zapisywalna w procesie PHP.',
 	'emptySavePath'          => 'Sesja: Nie skonfigurowano żadnej ścieżki zapisu.',
 	'invalidSavePathFormat'  => 'Session: Nieprawidłowy format zapisu zapisu Redis: {0}',
+	'invalidSameSiteSetting' => 'Session: The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

@@ -13,4 +13,5 @@
 return [
 	'invalidModel'      => 'Niepoprawny model do fabrykacji.',
 	'missingFormatters' => 'Brak poprawnego formatu.',
+	'createFailed'      => 'Fabricator failed to insert on table {0}: {1}.',
 ];

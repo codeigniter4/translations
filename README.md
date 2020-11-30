@@ -47,7 +47,7 @@ claims no expertise beyond English.
 | ml     | Malayalam            | 4.x     | [rakheshthayyur][ml]     | Rakhesh Thayyur
 | nl     | Dutch                | 4.x     | [JohanSmolders][nl]      | JohanSmolders
 | no     | Norwegian            | 4.0.0   | [LA3QMA][no]             | Kai Günter Brandt
-| pl     | Polish               | 4.x     | [codeigniter-polska][pl] | Slawomir Jasinski
+| pl     | Polish               | 4.0.0   | [codeigniter-polska][pl] | Slawomir Jasinski
 | pt     | Portuguese           | 4.0.0   | [rbm0407][pt]            | Rodrigo Borges
 | pt-BR  | Brazilian            | 4.0.0   | [natanfelles][pt-BR]     | Natan Felles
 | ru     | Russian              | 4.0.0   | [DigitalWolf98][ru]      | Vladislav Rykhtikov
@@ -76,7 +76,7 @@ _**Version where the locale was released. 4.x denotes `Unreleased`._
 [ml]: https://github.com/rakheshthayyur
 [nl]: https://github.com/JohanSmolders
 [no]: https://github.com/LA3QMA
-[pl]: https://github.com/DEVELPL
+[pl]: https://github.com/codeigniter-polska
 [pt]: https://github.com/rbm0407
 [pt-BR]: https://github.com/natanfelles
 [ru]: https://github.com/DigitalWolf98

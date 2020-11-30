@@ -30,8 +30,6 @@ return [
 	'migHelpSeed'     => "\tUruchamia siewnik o nazwie [name].",
 	'migCreate'       => "\tTworzy nową migrację o nazwie [name]",
 	'nameMigration'   => 'Nazwij plik migracji',
-	'badCreateName'   => 'Musisz podać nazwę pliku migracji.',
-	'writeError'      => 'Błąd podczas próby utworzenia pliku.',
 	'migNumberError'  => 'Numer migracji musi mieć 3 cyfry, nie może też być przerw w numeracji.',
 	'rollBackConfirm' => 'Na pewno chce przywrócić poprzednią wersję?',
 	'refreshConfirm'  => 'Na pewno chcesz odświeżyć?',
@@ -43,12 +41,17 @@ return [
 	'toVersion'         => 'Migracja do bieżącej wersji...',
 	'rollingBack'       => 'Wycofuję wszystkie migracje...',
 	'noneFound'         => 'Nie znaleziono migracji.',
-	'on'                => 'Migracja włączona: ',
 	'migSeeder'         => 'Nazwa Seedera',
 	'migMissingSeeder'  => 'Musisz podać nazwę seedera.',
+	'nameSeeder'        => 'Name the seeder file',
 	'removed'           => 'Wycofywanie: ',
 	'added'             => 'Uruchomienie: ',
 
-	'version'  => 'Wersja',
+	// Migrate Status
+	'namespace'         => 'Namespace',
 	'filename' => 'Nazwa pliku',
+	'version'  => 'Wersja',
+	'group'             => 'Group',
+	'on'                => 'Migrated On: ',
+	'batch'             => 'Batch',
 ];

@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => 'Musisz podać poprawną {0}.',
 	'invalidAllowedFields'             => 'Dozwolone pola muszą być określone dla modelu: {0}',
 	'emptyDataset'                     => 'Brak danych do {0}.',
+	'emptyPrimaryKey'                  => 'There is no primary key defined when trying to make {0}.',
 	'failGetFieldData'                 => 'Błąd przy pobieraniu pola z bazy.',
 	'failGetIndexData'                 => 'Błąd przy pobieraniu indeksu z bazy.',
 	'failGetForeignKeyData'            => 'Błąd przy pobieraniu klucza obcego z bazy.',

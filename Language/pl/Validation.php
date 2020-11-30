@@ -44,6 +44,7 @@ return [
 	'max_length'            => 'Pole {field} nie może przekraczać długości znaków {param}.',
 	'min_length'            => 'Pole {field} musi mieć przynajmniej {param} długości.',
 	'not_equals'            => 'Pole {field} nie może być równe: {param}.',
+	'not_in_list'           => 'Pole {field} musi znajdować się na liście: {param}.',
 	'numeric'               => 'Pole {field} musi zawierać tylko liczby.',
 	'regex_match'           => 'Pole {field} ma niepoprawny format.',
 	'required'              => 'Pole {field} jest wymagane',
