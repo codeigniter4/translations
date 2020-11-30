@@ -11,5 +11,5 @@
 
 // RESTful language settings
 return [
-   'notImplemented' => "'{0}' 動詞（action）未執行。",
+	'notImplemented' => "'{0}' 動詞（action）未執行。",
 ];

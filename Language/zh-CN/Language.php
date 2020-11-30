@@ -11,5 +11,5 @@
 
 // Language system language settings
 return [
-   'languageGetLineInvalidArgumentException' => '获取行必须是字符或字符串数组。',
+	'languageGetLineInvalidArgumentException' => '获取行必须是字符或字符串数组。',
 ];

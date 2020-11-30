@@ -11,10 +11,10 @@
 
 // Encryption language settings
 return [
-    'noDriverRequested'    => 'Geen driver bevraagd; Miss Daisy zal overstuur zijn',
-    'noHandlerAvailable'   => 'Kon geen geldige {0} encryptie handler vinden.',
-    'unKnownHandler'       => '"{0}" kan niet worden geconfigureerd.',
-    'starterKeyNeeded'     => 'Encrypter heeft een starter key nodig.',
-    'authenticationFailed' => 'Decrypting: authenticatie gefaald.',
-    'encryptionFailed'     => 'Encryptie gefaald.',
+	'noDriverRequested'    => 'Geen driver bevraagd; Miss Daisy zal overstuur zijn',
+	'noHandlerAvailable'   => 'Kon geen geldige {0} encryptie handler vinden.',
+	'unKnownHandler'       => '"{0}" kan niet worden geconfigureerd.',
+	'starterKeyNeeded'     => 'Encrypter heeft een starter key nodig.',
+	'authenticationFailed' => 'Decrypting: authenticatie gefaald.',
+	'encryptionFailed'     => 'Encryptie gefaald.',
 ];

@@ -11,6 +11,6 @@
 
 // Router language settings
 return [
-   'invalidParameter'    => 'Ein Parameter stimmt nicht mit dem erwarteten Typ überein.',
-   'missingDefaultRoute' => 'Es konnte nicht bestimmt werden, was angezeigt werden soll. In der Routingdatei wurde keine Standardroute angegeben.',
+	'invalidParameter'    => 'Ein Parameter stimmt nicht mit dem erwarteten Typ überein.',
+	'missingDefaultRoute' => 'Es konnte nicht bestimmt werden, was angezeigt werden soll. In der Routingdatei wurde keine Standardroute angegeben.',
 ];

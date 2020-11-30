@@ -11,5 +11,5 @@
 
 // Language system language settings
 return [
-   'languageGetLineInvalidArgumentException' => '한 줄 가져오기는 문자열 또는 문자열이 들어있는 배열이 되어야 합니다.', // 'Get line must be a string or array of strings.',
+	'languageGetLineInvalidArgumentException' => '한 줄 가져오기는 문자열 또는 문자열이 들어있는 배열이 되어야 합니다.', // 'Get line must be a string or array of strings.',
 ];

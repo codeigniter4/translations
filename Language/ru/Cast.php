@@ -11,10 +11,10 @@
 
 // Cast language settings
 return [
-   'jsonErrorDepth'         => 'Превышена максимальная глубина стека.',
-   'jsonErrorStateMismatch' => 'Недостаточный поток или несоответствие режимов.',
-   'jsonErrorCtrlChar'      => 'Найден неожиданный управляющий символ.',
-   'jsonErrorSyntax'        => 'В JSON найдена синтаксическая ошибка.',
-   'jsonErrorUtf8'          => 'Возможно ваш JSON закодирован не в UTF-8.',
-   'jsonErrorUnknown'       => 'Неизвестная ошибка.',
+	'jsonErrorDepth'         => 'Превышена максимальная глубина стека.',
+	'jsonErrorStateMismatch' => 'Недостаточный поток или несоответствие режимов.',
+	'jsonErrorCtrlChar'      => 'Найден неожиданный управляющий символ.',
+	'jsonErrorSyntax'        => 'В JSON найдена синтаксическая ошибка.',
+	'jsonErrorUtf8'          => 'Возможно ваш JSON закодирован не в UTF-8.',
+	'jsonErrorUnknown'       => 'Неизвестная ошибка.',
 ];

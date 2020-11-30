@@ -11,5 +11,5 @@
 
 // Entity language settings
 return [
-   'tryingToAccessNonExistentProperty' => 'Mencoba mengakses properti yang tidak ada {0} dari {1}',
+	'tryingToAccessNonExistentProperty' => 'Mencoba mengakses properti yang tidak ada {0} dari {1}',
 ];

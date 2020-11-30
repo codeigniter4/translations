@@ -11,5 +11,5 @@
 
 // RESTful language settings
 return [
-   'notImplemented' => '"{0}" പ്രവർത്തനം നടപ്പിലാക്കിയില്ല.',
+	'notImplemented' => '"{0}" പ്രവർത്തനം നടപ്പിലാക്കിയില്ല.',
 ];

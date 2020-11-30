@@ -12,11 +12,11 @@
 // Validation language settings
 return [
 	// Core Messages
-	'noRuleSets'            => 'Nenhum conjunto de regras especificado na configuração de validação.',
-	'ruleNotFound'          => '{0} não é uma regra válida.',
-	'groupNotFound'         => '{0} não é um grupo de regras de validação.',
-	'groupNotArray'         => '{0} grupo de regras deve ser uma array.',
-	'invalidTemplate'       => '{0} não é um template de Validação válido.',
+	'noRuleSets'      => 'Nenhum conjunto de regras especificado na configuração de validação.',
+	'ruleNotFound'    => '{0} não é uma regra válida.',
+	'groupNotFound'   => '{0} não é um grupo de regras de validação.',
+	'groupNotArray'   => '{0} grupo de regras deve ser uma array.',
+	'invalidTemplate' => '{0} não é um template de Validação válido.',
 
 	// Rule Messages
 	'alpha'                 => 'O campo {field} pode conter apenas caracteres alfabéticos.',
@@ -24,7 +24,7 @@ return [
 	'alpha_numeric'         => 'O campo {field} pode conter apenas caracteres alfanuméricos.',
 	'alpha_numeric_punct'   => 'The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.',
 	'alpha_numeric_space'   => 'O campo {field} pode conter apenas caracteres alfanuméricos e espaços.',
-	'alpha_space'  			=> 'O campo {field} pode conter apenas caracteres alfabéticos e espaços.',
+	'alpha_space'           => 'O campo {field} pode conter apenas caracteres alfabéticos e espaços.',
 	'decimal'               => 'O campo {field} deve conter um número decimal.',
 	'differs'               => 'O campo {field} deve ser diferente do campo {param}.',
 	'equals'                => 'The {field} field must be exactly: {param}.',
@@ -59,13 +59,13 @@ return [
 	'valid_date'            => 'O campo {field} deve conter uma data válida.',
 
 	// Credit Cards
-	'valid_cc_num'          => '{field} não parece ser um número de cartão de crédito válido.',
+	'valid_cc_num' => '{field} não parece ser um número de cartão de crédito válido.',
 
 	// Files
-	'uploaded'              => '{field} não é um arquivo válido.',
-	'max_size'              => '{field} é um arquivo muito grande.',
-	'is_image'              => '{field} não é um arquivo de imagem.',
-	'mime_in'               => '{field} não tem um tipo mime válido.',
-	'ext_in'                => '{field} não tem uma extensão de arquivo válida.',
-	'max_dims'              => '{field} não é uma imagem ou é muito larga ou alta.',
+	'uploaded' => '{field} não é um arquivo válido.',
+	'max_size' => '{field} é um arquivo muito grande.',
+	'is_image' => '{field} não é um arquivo de imagem.',
+	'mime_in'  => '{field} não tem um tipo mime válido.',
+	'ext_in'   => '{field} não tem uma extensão de arquivo válida.',
+	'max_dims' => '{field} não é uma imagem ou é muito larga ou alta.',
 ];

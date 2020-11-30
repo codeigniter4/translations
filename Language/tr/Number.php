@@ -18,9 +18,9 @@ return [
 	'bytes'        => 'Bayt',
 
 	// don't forget the space in front of these!
-	'thousand'     => ' bin',
-	'million'      => ' milyon',
-	'billion'      => ' milyar',
-	'trillion'     => ' trilyon',
-	'quadrillion'  => ' katrilyon',
+	'thousand'    => ' bin',
+	'million'     => ' milyon',
+	'billion'     => ' milyar',
+	'trillion'    => ' trilyon',
+	'quadrillion' => ' katrilyon',
 ];

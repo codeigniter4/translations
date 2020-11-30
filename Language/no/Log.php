@@ -11,5 +11,5 @@
 
 // Log language settings
 return [
-   'invalidLogLevel' => '{0} er et ugyldig loggenivå.',
+	'invalidLogLevel' => '{0} er et ugyldig loggenivå.',
 ];

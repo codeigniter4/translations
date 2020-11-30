@@ -11,5 +11,5 @@
 
 // Entity language settings
 return [
-   'tryingToAccessNonExistentProperty' => '{1}의 존재하지 않는 속성 {0}에 접근을 시도 중입니다.', // 'Trying to access non existent property {0} of {1}',
+	'tryingToAccessNonExistentProperty' => '{1}의 존재하지 않는 속성 {0}에 접근을 시도 중입니다.', // 'Trying to access non existent property {0} of {1}',
 ];

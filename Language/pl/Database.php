@@ -11,10 +11,10 @@
 
 // Database language settings
 return [
-	'invalidEvent'         => '{0} nie jest prawidłowym wywołaniem wywołania modelu.',
-	'invalidArgument'      => 'Musisz podać poprawną {0}.',
-	'invalidAllowedFields' => 'Dozwolone pola muszą być określone dla modelu: {0}',
-	'emptyDataset'         => 'Brak danych do {0}.',
+	'invalidEvent'                     => '{0} nie jest prawidłowym wywołaniem wywołania modelu.',
+	'invalidArgument'                  => 'Musisz podać poprawną {0}.',
+	'invalidAllowedFields'             => 'Dozwolone pola muszą być określone dla modelu: {0}',
+	'emptyDataset'                     => 'Brak danych do {0}.',
 	'failGetFieldData'                 => 'Failed to get field data from database.',
 	'failGetIndexData'                 => 'Failed to get index data from database.',
 	'failGetForeignKeyData'            => 'Failed to get foreign key data from database.',

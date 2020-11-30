@@ -11,5 +11,5 @@
 
 // Language system language settings
 return [
-   'languageGetLineInvalidArgumentException' => 'خط Get باید رشته یا آرایه‌ای از رشته‌ها باشد.',
+	'languageGetLineInvalidArgumentException' => 'خط Get باید رشته یا آرایه‌ای از رشته‌ها باشد.',
 ];

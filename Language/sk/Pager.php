@@ -11,13 +11,13 @@
 
 // Pager language settings
 return [
-   'pageNavigation'         => 'Navigácia stránky',
-   'first'                  => 'Prvá',
-   'previous'               => 'Predošlá',
-   'next'                   => 'Ďalšia',
-   'last'                   => 'Posledná',
-   'older'                  => 'Staršie',
-   'newer'                  => 'Novšie',
-   'invalidTemplate'        => '{0} je neplatná Pager predloha.',
-   'invalidPaginationGroup' => '{0} je neplatná skupina pre Pagination.',
+	'pageNavigation'         => 'Navigácia stránky',
+	'first'                  => 'Prvá',
+	'previous'               => 'Predošlá',
+	'next'                   => 'Ďalšia',
+	'last'                   => 'Posledná',
+	'older'                  => 'Staršie',
+	'newer'                  => 'Novšie',
+	'invalidTemplate'        => '{0} je neplatná Pager predloha.',
+	'invalidPaginationGroup' => '{0} je neplatná skupina pre Pagination.',
 ];

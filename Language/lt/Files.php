@@ -11,6 +11,6 @@
 
 // Files language settings
 return [
-   'fileNotFound' => 'Failo rasti nepavyko: {0}',
-   'cannotMove'   => 'Nepavyko perkelti failo {0} į {1} ({2})',
+	'fileNotFound' => 'Failo rasti nepavyko: {0}',
+	'cannotMove'   => 'Nepavyko perkelti failo {0} į {1} ({2})',
 ];

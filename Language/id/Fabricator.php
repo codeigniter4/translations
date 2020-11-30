@@ -11,6 +11,7 @@
 
 // Fabricator language strings
 return [
-    'invalidModel'      => 'Model tidak valid disediakan untuk fabrikasi.',
-    'missingFormatters' => 'Tidak ada pemformat valid yang ditentukan.',
+	'invalidModel'      => 'Model tidak valid disediakan untuk fabrikasi.',
+	'missingFormatters' => 'Tidak ada pemformat valid yang ditentukan.',
+	'createFailed'      => 'Fabricator gagal dimasukkan ke dalam tabel {0}: {1}.',
 ];

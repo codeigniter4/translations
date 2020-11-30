@@ -11,10 +11,10 @@
 
 // CLI language settings
 return [
-   'commandNotFound' => 'الأمر "{0}" غير موجود.',
-   'helpUsage'       => 'الاستخدام:',
-   'helpDescription' => 'الوصف:',
-   'helpOptions'     => 'الخيارات:',
-   'helpArguments'   => 'الوسائط:',
-   'invalidColor'    => 'اللون {0} غير صالح: {1}.',
+	'commandNotFound' => 'الأمر "{0}" غير موجود.',
+	'helpUsage'       => 'الاستخدام:',
+	'helpDescription' => 'الوصف:',
+	'helpOptions'     => 'الخيارات:',
+	'helpArguments'   => 'الوسائط:',
+	'invalidColor'    => 'اللون {0} غير صالح: {1}.',
 ];

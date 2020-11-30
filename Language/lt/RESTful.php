@@ -11,5 +11,5 @@
 
 // RESTful language settings
 return [
-   'notImplemented' => '"{0}" veiksmas neįgyvendintas.',
+	'notImplemented' => '"{0}" veiksmas neįgyvendintas.',
 ];

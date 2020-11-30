@@ -11,16 +11,16 @@
 
 // Number language settings
 return [
-   'terabyteAbbr' => 'To',
-   'gigabyteAbbr' => 'Go',
-   'megabyteAbbr' => 'Mo',
-   'kilobyteAbbr' => 'Ko',
-   'bytes'        => 'Octets',
+	'terabyteAbbr' => 'To',
+	'gigabyteAbbr' => 'Go',
+	'megabyteAbbr' => 'Mo',
+	'kilobyteAbbr' => 'Ko',
+	'bytes'        => 'Octets',
 
 	// don't forget the space in front of these!
-   'thousand'     => ' millier',
-   'million'      => ' million',
-   'billion'      => ' milliard',
-   'trillion'     => ' billion',
-   'quadrillion'  => ' quadrillion',
+	'thousand'    => ' millier',
+	'million'     => ' million',
+	'billion'     => ' milliard',
+	'trillion'    => ' billion',
+	'quadrillion' => ' quadrillion',
 ];

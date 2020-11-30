@@ -11,6 +11,6 @@
 
 // Filters language settings
 return [
-   'noFilter'           => '{0} filtras turi turėti nustatytą slapyvardį.',
-   'incorrectInterface' => '{0} turi įgyvendinti CodeIgniter\Filters\FilterInterface.',
+	'noFilter'           => '{0} filtras turi turėti nustatytą slapyvardį.',
+	'incorrectInterface' => '{0} turi įgyvendinti CodeIgniter\Filters\FilterInterface.',
 ];

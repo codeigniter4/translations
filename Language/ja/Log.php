@@ -11,5 +11,5 @@
 
 // Log language settings
 return [
-   'invalidLogLevel' => '{0} は無効なログレベルです。', //{0} is an invalid log level.
+	'invalidLogLevel' => '{0} は無効なログレベルです。', //{0} is an invalid log level.
 ];

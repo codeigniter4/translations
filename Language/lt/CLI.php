@@ -11,10 +11,10 @@
 
 // CLI language settings
 return [
-   'commandNotFound' => 'Komandos „{0}“ rasti nepavyko.',
-   'helpUsage'       => 'Naudojimas:',
-   'helpDescription' => 'Aprašymas:',
-   'helpOptions'     => 'Parinktys:',
-   'helpArguments'   => 'Argumentai:',
-   'invalidColor'    => 'Neteisinga {0} spalva: {1}.',
+	'commandNotFound' => 'Komandos „{0}“ rasti nepavyko.',
+	'helpUsage'       => 'Naudojimas:',
+	'helpDescription' => 'Aprašymas:',
+	'helpOptions'     => 'Parinktys:',
+	'helpArguments'   => 'Argumentai:',
+	'invalidColor'    => 'Neteisinga {0} spalva: {1}.',
 ];

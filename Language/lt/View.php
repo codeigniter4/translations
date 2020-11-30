@@ -11,10 +11,10 @@
 
 // View language settings
 return [
-   'invalidCellMethod'     => '{class}::{method} nėra teisingas metodas.',
-   'missingCellParameters' => '{class}::{method} neturi parametrų.',
-   'invalidCellParameter'  => '{0} nėra teisingas parametro pavadinimas.',
-   'noCellClass'           => 'Nenurodyta peržiūros užklausos klasė.',
-   'invalidCellClass'      => 'Nepavyksta rasti peržiūros užklausos klasės: {0}.',
-   'tagSyntaxError'        => 'Analizatoriaus žymose yra sintaksės klaida: {0}',
+	'invalidCellMethod'     => '{class}::{method} nėra teisingas metodas.',
+	'missingCellParameters' => '{class}::{method} neturi parametrų.',
+	'invalidCellParameter'  => '{0} nėra teisingas parametro pavadinimas.',
+	'noCellClass'           => 'Nenurodyta peržiūros užklausos klasė.',
+	'invalidCellClass'      => 'Nepavyksta rasti peržiūros užklausos klasės: {0}.',
+	'tagSyntaxError'        => 'Analizatoriaus žymose yra sintaksės klaida: {0}',
 ];

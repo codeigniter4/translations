@@ -12,11 +12,11 @@
 // Validation language settings
 return [
 	// Core Messages
-	'noRuleSets'            => 'Doğrulama ayarlarında kural kümesi tanımlanmamış.',
-	'ruleNotFound'          => '{0} geçerli bir kural değil.',
-	'groupNotFound'         => '{0} geçerli bir kural grubu değil.',
-	'groupNotArray'         => '{0} kural grubu bir dizi olmalı.',
-	'invalidTemplate'       => '{0} geçerli bir doğrulama şablonu değil.',
+	'noRuleSets'      => 'Doğrulama ayarlarında kural kümesi tanımlanmamış.',
+	'ruleNotFound'    => '{0} geçerli bir kural değil.',
+	'groupNotFound'   => '{0} geçerli bir kural grubu değil.',
+	'groupNotArray'   => '{0} kural grubu bir dizi olmalı.',
+	'invalidTemplate' => '{0} geçerli bir doğrulama şablonu değil.',
 
 	// Rule Messages
 	'alpha'                 => '{field} alanı yalnız alfabetik karakterler içerebilir.',
@@ -59,13 +59,13 @@ return [
 	'valid_date'            => '{field} alanı geçerli bir tarih içermeli.',
 
 	// Credit Cards
-	'valid_cc_num'          => '{field} geçerli bir kredi kartı numarası değil.',
+	'valid_cc_num' => '{field} geçerli bir kredi kartı numarası değil.',
 
 	// Files
-	'uploaded'              => '{field} geçerli bir yüklenen dosya değil.',
-	'max_size'              => '{field} çok büyük dosya.',
-	'is_image'              => '{field} geçerli bir yüklenen resim dosyası değil.',
-	'mime_in'               => '{field} alanında geçerli bir dosya türü yok.',
-	'ext_in'                => '{field} alanında geçerli bir dosya uzantısı yok.',
-	'max_dims'              => '{field} bir resim değil veya çok geniş ya da uzun.',
+	'uploaded' => '{field} geçerli bir yüklenen dosya değil.',
+	'max_size' => '{field} çok büyük dosya.',
+	'is_image' => '{field} geçerli bir yüklenen resim dosyası değil.',
+	'mime_in'  => '{field} alanında geçerli bir dosya türü yok.',
+	'ext_in'   => '{field} alanında geçerli bir dosya uzantısı yok.',
+	'max_dims' => '{field} bir resim değil veya çok geniş ya da uzun.',
 ];

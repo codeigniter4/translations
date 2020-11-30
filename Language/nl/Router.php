@@ -11,6 +11,6 @@
 
 // Router language settings
 return [
-    'invalidParameter'    => 'Een parameter komt niet overeen met het verwachte type.',
-    'missingDefaultRoute' => 'Konden niet bepalen wat er getoond moet worden. Er is geen standaard-route in de route-configuratie.',
+	'invalidParameter'    => 'Een parameter komt niet overeen met het verwachte type.',
+	'missingDefaultRoute' => 'Konden niet bepalen wat er getoond moet worden. Er is geen standaard-route in de route-configuratie.',
 ];

@@ -11,5 +11,5 @@
 
 // Language system language settings
 return [
-   'languageGetLineInvalidArgumentException' => 'Get line må være en streng eller en rekke strenger.',
+	'languageGetLineInvalidArgumentException' => 'Get line må være en streng eller en rekke strenger.',
 ];

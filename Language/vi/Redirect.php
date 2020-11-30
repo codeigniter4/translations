@@ -11,5 +11,5 @@
 
 // Redirect language settings
 return [
-   'forUnableToRedirect' => 'Không thể chuyển hướng đến "{0}". Mã trạng thái lỗi "{1}"',
+	'forUnableToRedirect' => 'Không thể chuyển hướng đến "{0}". Mã trạng thái lỗi "{1}"',
 ];

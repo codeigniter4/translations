@@ -11,6 +11,6 @@
 
 // Router language settings
 return [
-   'invalidParameter'    => 'パラメータが予想される型と一致しません。', //A parameter does not match the expected type.
-   'missingDefaultRoute' => '何を表示するか決定できません。デフォルトルートがルーティングファイルで指定されていません。', //Unable to determine what should be displayed. A default route has not been specified in the routing file.
+	'invalidParameter'    => 'パラメータが予想される型と一致しません。', //A parameter does not match the expected type.
+	'missingDefaultRoute' => '何を表示するか決定できません。デフォルトルートがルーティングファイルで指定されていません。', //Unable to determine what should be displayed. A default route has not been specified in the routing file.
 ];

@@ -11,5 +11,5 @@
 
 // Entity language settings
 return [
-   'tryingToAccessNonExistentProperty' => 'Спроба доступу до відсутньої властивості {0} з {1}',
+	'tryingToAccessNonExistentProperty' => 'Спроба доступу до відсутньої властивості {0} з {1}',
 ];

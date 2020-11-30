@@ -12,11 +12,11 @@
 // Validation language settings
 return [
 	// Core Messages
-	'noRuleSets'            => 'Brak zestawów reguł określonych w konfiguracji sprawdzania poprawności.',
-	'ruleNotFound'          => '{0} nie jest prawidłową regułą.',
-	'groupNotFound'         => '{0} nie jest grupą reguł sprawdzania poprawności.',
-	'groupNotArray'         => 'Grupa reguł {0} musi być tablicą.',
-	'invalidTemplate'       => '{0} nie jest prawidłowym szablonem sprawdzania poprawności.',
+	'noRuleSets'      => 'Brak zestawów reguł określonych w konfiguracji sprawdzania poprawności.',
+	'ruleNotFound'    => '{0} nie jest prawidłową regułą.',
+	'groupNotFound'   => '{0} nie jest grupą reguł sprawdzania poprawności.',
+	'groupNotArray'   => 'Grupa reguł {0} musi być tablicą.',
+	'invalidTemplate' => '{0} nie jest prawidłowym szablonem sprawdzania poprawności.',
 
 	// Rule Messages
 	'alpha'                 => 'Pole {field} może zawierać tylko znaki alfabetyczne.',
@@ -24,7 +24,7 @@ return [
 	'alpha_numeric'         => 'Pole {field} może zawierać tylko znaki alfanumeryczne.',
 	'alpha_numeric_punct'   => 'The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.',
 	'alpha_numeric_space'   => 'Pole {field} może zawierać tylko znaki alfanumeryczne i spacje.',
-	'alpha_space'  			=> 'Pole {field} może zawierać tylko znaki alfabetyczne i spacje.',
+	'alpha_space'           => 'Pole {field} może zawierać tylko znaki alfabetyczne i spacje.',
 	'decimal'               => 'Pole {field} musi zawierać liczbę dziesiętną.',
 	'differs'               => 'Pole {field} musi różnić się od pola {param}.',
 	'equals'                => 'The {field} field must be exactly: {param}.',
@@ -52,7 +52,6 @@ return [
 	'string'                => 'The {field} field must be a valid string.',
 	'timezone'              => 'Pole {field} musi być prawidłową strefą czasową.',
 	'valid_base64'          => 'Pole {field} musi być poprawnym łańcuchem base64.',
-	// 'valid_json'            => 'Pole {field} musi być w formacie JSON.',
 	'valid_email'           => 'Pole {field} musi zawierać poprawny adres e-mail.',
 	'valid_emails'          => 'Pole {field} musi zawierać wszystkie prawidłowe adresy e-mail.',
 	'valid_ip'              => 'Pole {field} musi zawierać poprawny adres IP.',
@@ -60,13 +59,13 @@ return [
 	'valid_date'            => 'Pole {field} musi zawierać poprawną datę.',
 
 	// Credit Cards
-	'valid_cc_num'          => '{field} nie wydaje się być prawidłowym numerem karty kredytowej.',
+	'valid_cc_num' => '{field} nie wydaje się być prawidłowym numerem karty kredytowej.',
 
 	// Files
-	'uploaded'              => '{field} nie jest prawidłowym przesłanym plikiem.',
-	'max_size'              => '{field} jest zbyt dużym plikiem.',
-	'is_image'              => '{field} nie jest prawidłowym, przesłanym plikiem graficznym.',
-	'mime_in'               => '{field} nie ma prawidłowego typu MIME.',
-	'ext_in'                => '{field} nie ma poprawnego rozszerzenia pliku.',
-	'max_dims'              => '{field} nie jest obrazem lub jest zbyt szeroki lub wysoki.',
+	'uploaded' => '{field} nie jest prawidłowym przesłanym plikiem.',
+	'max_size' => '{field} jest zbyt dużym plikiem.',
+	'is_image' => '{field} nie jest prawidłowym, przesłanym plikiem graficznym.',
+	'mime_in'  => '{field} nie ma prawidłowego typu MIME.',
+	'ext_in'   => '{field} nie ma poprawnego rozszerzenia pliku.',
+	'max_dims' => '{field} nie jest obrazem lub jest zbyt szeroki lub wysoki.',
 ];

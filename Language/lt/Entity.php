@@ -11,5 +11,5 @@
 
 // Entity language settings
 return [
-   'tryingToAccessNonExistentProperty' => 'Bandoma pasiekti neegzistuojančią {1} savybę {0}',
+	'tryingToAccessNonExistentProperty' => 'Bandoma pasiekti neegzistuojančią {1} savybę {0}',
 ];

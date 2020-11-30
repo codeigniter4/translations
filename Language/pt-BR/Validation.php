@@ -12,11 +12,11 @@
 // Validation language settings
 return [
 	// Core Messages
-	'noRuleSets'            => 'Nenhum conjunto de regras especificado na configuração de Validação.',
-	'ruleNotFound'          => '{0} não é uma regra válida.',
-	'groupNotFound'         => '{0} não é um grupo de regras de validação.',
-	'groupNotArray'         => 'O grupo de regras {0} deve ser um array.',
-	'invalidTemplate'       => '{0} não é um template de Validation válido.',
+	'noRuleSets'      => 'Nenhum conjunto de regras especificado na configuração de Validação.',
+	'ruleNotFound'    => '{0} não é uma regra válida.',
+	'groupNotFound'   => '{0} não é um grupo de regras de validação.',
+	'groupNotArray'   => 'O grupo de regras {0} deve ser um array.',
+	'invalidTemplate' => '{0} não é um template de Validation válido.',
 
 	// Rule Messages
 	'alpha'                 => 'O campo {field} pode conter apenas caracteres alfabéticos.',
@@ -44,7 +44,7 @@ return [
 	'max_length'            => 'O campo {field} não pode exceder {param} caracteres no tamanho.',
 	'min_length'            => 'O campo {field} deve conter pelo menos {param} caracteres no tamanho.',
 	'not_equals'            => 'O campo {field} não pode ser: {param}.',
-	// 'not_in_list'           => 'O campo {field} não deve ser um desses: {param}.',
+	'not_in_list'           => 'O campo {field} não deve ser um desses: {param}.',
 	'numeric'               => 'O campo {field} deve conter apenas números.',
 	'regex_match'           => 'O campo {field} não está no formato correto.',
 	'required'              => 'O campo {field} é requerido.',
@@ -60,13 +60,13 @@ return [
 	'valid_date'            => 'O campo {field} deve conter uma data válida.',
 
 	// Credit Cards
-	'valid_cc_num'          => '{field} não parece ser um número de cartão de crédito válido.',
+	'valid_cc_num' => '{field} não parece ser um número de cartão de crédito válido.',
 
 	// Files
-	'uploaded'              => '{field} não é um arquivo de upload válido.',
-	'max_size'              => '{field} é um arquivo muito grande.',
-	'is_image'              => '{field} não é um arquivo de imagem válida do upload.',
-	'mime_in'               => '{field} não tem um tipo mime válido.',
-	'ext_in'                => '{field} não tem uma extensão de arquivo válida.',
-	'max_dims'              => '{field} não é uma imagem, ou ela é muito larga ou muito grande.',
+	'uploaded' => '{field} não é um arquivo de upload válido.',
+	'max_size' => '{field} é um arquivo muito grande.',
+	'is_image' => '{field} não é um arquivo de imagem válida do upload.',
+	'mime_in'  => '{field} não tem um tipo mime válido.',
+	'ext_in'   => '{field} não tem uma extensão de arquivo válida.',
+	'max_dims' => '{field} não é uma imagem, ou ela é muito larga ou muito grande.',
 ];

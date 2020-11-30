@@ -11,13 +11,13 @@
 
 // Pager language settings
 return [
-   'pageNavigation'         => 'ناوبری صفحه',
-   'first'                  => 'اولین',
-   'previous'               => 'قبلی',
-   'next'                   => 'بعدی',
-   'last'                   => 'آخرین',
-   'older'                  => 'قدیمی‌تر',
-   'newer'                  => 'جدیدتر',
-   'invalidTemplate'        => '{0} قالب صفحه‌ی معتبری نیست.',
-   'invalidPaginationGroup' => '{0} گروه ناوربری معتبری نیست.',
+	'pageNavigation'         => 'ناوبری صفحه',
+	'first'                  => 'اولین',
+	'previous'               => 'قبلی',
+	'next'                   => 'بعدی',
+	'last'                   => 'آخرین',
+	'older'                  => 'قدیمی‌تر',
+	'newer'                  => 'جدیدتر',
+	'invalidTemplate'        => '{0} قالب صفحه‌ی معتبری نیست.',
+	'invalidPaginationGroup' => '{0} گروه ناوربری معتبری نیست.',
 ];

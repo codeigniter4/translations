@@ -12,11 +12,11 @@
 // Validation language settings
 return [
 	// Core Messages
-	'noRuleSets'            => 'Tidak ada aturan yang ditentukan dalam konfigurasi Validasi.',
-	'ruleNotFound'          => '{0} bukan sebuah aturan yang valid.',
-	'groupNotFound'         => '{0} bukan sebuah grup aturan validasi.',
-	'groupNotArray'         => '{0} grup aturan harus berupa sebuah array.',
-	'invalidTemplate'       => '{0} bukan sebuah template Validasi yang valid.',
+	'noRuleSets'      => 'Tidak ada aturan yang ditentukan dalam konfigurasi Validasi.',
+	'ruleNotFound'    => '{0} bukan sebuah aturan yang valid.',
+	'groupNotFound'   => '{0} bukan sebuah grup aturan validasi.',
+	'groupNotArray'   => '{0} grup aturan harus berupa sebuah array.',
+	'invalidTemplate' => '{0} bukan sebuah template Validasi yang valid.',
 
 	// Rule Messages
 	'alpha'                 => 'Bidang {field} hanya boleh mengandung karakter alfabet.',
@@ -44,6 +44,7 @@ return [
 	'max_length'            => 'Bidang {field} tidak bisa melebihi {param} panjang karakter.',
 	'min_length'            => 'Bidang {field} setidaknya harus {param} panjang karakter.',
 	'not_equals'            => 'Bidang {field} tidak boleh: {param}.',
+	'not_in_list'           => 'Bidang {field} tidak boleh salah satu dari: {param}.',
 	'numeric'               => 'Bidang {field} hanya boleh mengandung angka.',
 	'regex_match'           => 'Bidang {field} tidak dalam format yang benar.',
 	'required'              => 'Bidang {field} diperlukan.',
@@ -59,13 +60,13 @@ return [
 	'valid_url'             => 'Bidang {field} harus berisi sebuah URL yang valid.',
 
 	// Credit Cards
-	'valid_cc_num'          => '{field} tidak tampak sebagai sebuah nomor kartu kredit yang valid.',
+	'valid_cc_num' => '{field} tidak tampak sebagai sebuah nomor kartu kredit yang valid.',
 
 	// Files
-	'uploaded'              => '{field} bukan sebuah berkas diunggah yang valid.',
-	'max_size'              => '{field} terlalu besar dari sebuah berkas.',
-	'is_image'              => '{field} bukan berkas gambar diunggah yang valid.',
-	'mime_in'               => '{field} tidak memiliki sebuah tipe mime yang valid.',
-	'ext_in'                => '{field} tidak memiliki sebuah ekstensi berkas yang valid.',
-	'max_dims'              => '{field} bukan gambar, atau terlalu lebar atau tinggi.',
+	'uploaded' => '{field} bukan sebuah berkas diunggah yang valid.',
+	'max_size' => '{field} terlalu besar dari sebuah berkas.',
+	'is_image' => '{field} bukan berkas gambar diunggah yang valid.',
+	'mime_in'  => '{field} tidak memiliki sebuah tipe mime yang valid.',
+	'ext_in'   => '{field} tidak memiliki sebuah ekstensi berkas yang valid.',
+	'max_dims' => '{field} bukan gambar, atau terlalu lebar atau tinggi.',
 ];

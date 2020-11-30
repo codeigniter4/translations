@@ -11,8 +11,6 @@
 
 // Files language settings
 return [
-	'fileNotFound'		 => 'Nie znaleziono pliku: {0}',
-	'cannotMove'		 => 'Nie można przenieść pliku {0} do {1} ({2})',
-//	'invalidFilename'	 => 'Brak docelowej nazwy pliku lub jest on nieprawidłowy: {0}',
-//	'cannotCopy'		 => 'Nie można skopiować do {0} - upewnij się, że folder jest zapisywalny',
+	'fileNotFound' => 'Nie znaleziono pliku: {0}',
+	'cannotMove'   => 'Nie można przenieść pliku {0} do {1} ({2})',
 ];

@@ -1,8 +1,6 @@
 <?php
 
 /**
- * Fabricator language strings.
- *
  * This file is part of the CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
@@ -11,7 +9,8 @@
  * file that was distributed with this source code.
  */
 
+// Fabricator language strings
 return [
-   'invalidModel'      => 'Недійсна модель, надана для виготовлення.',
-   'missingFormatters' => 'Не визначені допустимі форматування.',
+	'invalidModel'      => 'Недійсна модель, надана для виготовлення.',
+	'missingFormatters' => 'Не визначені допустимі форматування.',
 ];

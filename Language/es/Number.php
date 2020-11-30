@@ -18,9 +18,9 @@ return [
 	'bytes'        => 'Bytes',
 
 	// don't forget the space in front of these!
-	'thousand'     => ' miles',
-	'million'      => ' millones',
-	'billion'      => ' billones',
-	'trillion'     => ' trillones',
-	'quadrillion'  => ' quadrillones',
+	'thousand'    => ' miles',
+	'million'     => ' millones',
+	'billion'     => ' billones',
+	'trillion'    => ' trillones',
+	'quadrillion' => ' quadrillones',
 ];

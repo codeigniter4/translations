@@ -11,6 +11,6 @@
 
 // Router language settings
 return [
-   'invalidParameter'    => 'En parameter samsvarer ikke med den forventede typen.',
-   'missingDefaultRoute' => 'Det kunne ikke bestemmes hva som skal vises. Ingen standardrute ble spesifisert i rutefilen.',
+	'invalidParameter'    => 'En parameter samsvarer ikke med den forventede typen.',
+	'missingDefaultRoute' => 'Det kunne ikke bestemmes hva som skal vises. Ingen standardrute ble spesifisert i rutefilen.',
 ];

@@ -11,10 +11,10 @@
 
 // Encryption language settings
 return [
-   'noDriverRequested'    => 'Потрібно підключити драйвер шифрування.',
-   'noHandlerAvailable'   => 'Не вдається знайти доступний обробник шифрування {0}.',
-   'unKnownHandler'       => 'Обробник "{0}" неможливо налаштувати.',
-   'starterKeyNeeded'     => 'Для шифрування слід вказати секретний ключ',
-   'authenticationFailed' => 'Помилка: Автентифікація не вдалась.',
-   'encryptionFailed'     => 'Збій шифрування.',
+	'noDriverRequested'    => 'Потрібно підключити драйвер шифрування.',
+	'noHandlerAvailable'   => 'Не вдається знайти доступний обробник шифрування {0}.',
+	'unKnownHandler'       => 'Обробник "{0}" неможливо налаштувати.',
+	'starterKeyNeeded'     => 'Для шифрування слід вказати секретний ключ',
+	'authenticationFailed' => 'Помилка: Автентифікація не вдалась.',
+	'encryptionFailed'     => 'Збій шифрування.',
 ];

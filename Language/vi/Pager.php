@@ -11,13 +11,13 @@
 
 // Pager language settings
 return [
-   'pageNavigation'         => 'Điều hướng trang',
-   'first'                  => 'Đầu tiên',
-   'previous'               => 'Trước',
-   'next'                   => 'Kế tiếp',
-   'last'                   => 'Cuối cùng',
-   'older'                  => 'Lớn hơn',
-   'newer'                  => 'Mới hơn',
-   'invalidTemplate'        => '{0} không phải là mẫu Pager hợp lệ.',
-   'invalidPaginationGroup' => '{0} không phải là một nhóm phân trang hợp lệ.',
+	'pageNavigation'         => 'Điều hướng trang',
+	'first'                  => 'Đầu tiên',
+	'previous'               => 'Trước',
+	'next'                   => 'Kế tiếp',
+	'last'                   => 'Cuối cùng',
+	'older'                  => 'Lớn hơn',
+	'newer'                  => 'Mới hơn',
+	'invalidTemplate'        => '{0} không phải là mẫu Pager hợp lệ.',
+	'invalidPaginationGroup' => '{0} không phải là một nhóm phân trang hợp lệ.',
 ];

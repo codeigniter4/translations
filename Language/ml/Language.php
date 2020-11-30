@@ -11,5 +11,5 @@
 
 // Language system language settings
 return [
-   'languageGetLineInvalidArgumentException' => 'ഗെറ്റ് ലൈൻ ഒരു സ്ട്രിംഗ് അല്ലെങ്കിൽ സ്ട്രിംഗുകളുടെ നിരയായിരിക്കണം.',
+	'languageGetLineInvalidArgumentException' => 'ഗെറ്റ് ലൈൻ ഒരു സ്ട്രിംഗ് അല്ലെങ്കിൽ സ്ട്രിംഗുകളുടെ നിരയായിരിക്കണം.',
 ];

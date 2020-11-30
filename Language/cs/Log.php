@@ -11,5 +11,5 @@
 
 // Log language settings
 return [
-   'invalidLogLevel' => '{0} je neplatná úroveň logu.',
+	'invalidLogLevel' => '{0} je neplatná úroveň logu.',
 ];

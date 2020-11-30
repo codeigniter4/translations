@@ -11,5 +11,5 @@
 
 // Entity language settings
 return [
-    'tryingToAccessNonExistentProperty' => 'Poging om een niet bestaande property op te vragen {0} van {1}',
+	'tryingToAccessNonExistentProperty' => 'Poging om een niet bestaande property op te vragen {0} van {1}',
 ];

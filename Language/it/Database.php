@@ -11,10 +11,10 @@
 
 // Database language settings
 return [
-	'invalidEvent'         => '{0} non è una valida chiamata dell\'evento del Model.',
-	'invalidArgument'      => 'Devi fornire un valido {0}.',
-	'invalidAllowedFields' => 'I campi autorizzati devono essere specificati per il model: {0}',
-	'emptyDataset'         => 'Nessun dato presente in {0}.',
+	'invalidEvent'                     => '{0} non è una valida chiamata dell\'evento del Model.',
+	'invalidArgument'                  => 'Devi fornire un valido {0}.',
+	'invalidAllowedFields'             => 'I campi autorizzati devono essere specificati per il model: {0}',
+	'emptyDataset'                     => 'Nessun dato presente in {0}.',
 	'failGetFieldData'                 => 'Failed to get field data from database.',
 	'failGetIndexData'                 => 'Failed to get index data from database.',
 	'failGetForeignKeyData'            => 'Failed to get foreign key data from database.',
