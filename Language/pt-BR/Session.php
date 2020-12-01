@@ -16,5 +16,5 @@ return [
 	'writeProtectedSavePath' => 'Sessão: O save path "{0}" configurado não é gravável pelo processo do PHP.',
 	'emptySavePath'          => 'Sessão: Nenhum save path configurado.',
 	'invalidSavePathFormat'  => 'Sessão: Formato do Redis save path é inválido: {0}',
-	// 	'invalidSameSiteSetting' => 'Sessão: A configuração SameSite deve ser None, Lax, Strict, ou uma string vazia. Dado: {0}',
+	'invalidSameSiteSetting' => 'Sessão: A configuração SameSite deve ser None, Lax, Strict, ou uma string vazia. Dado: {0}',
 ];
