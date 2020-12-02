@@ -13,4 +13,5 @@
 return [
 	'invalidModel'      => 'Model fornecido para fabricação é inválido.',
 	'missingFormatters' => 'Nenhum formatador válido definido.',
+	'createFailed'      => 'Fabricator falhou ao inserir na tabela {0}: {1}.',
 ];

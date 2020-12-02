@@ -30,8 +30,6 @@ return [
 	'migHelpSeed'     => "\tRoda o seeder nomeado [name].",
 	'migCreate'       => "\tCria uma nova migração nomeada [name]",
 	'nameMigration'   => 'Nomeie o arquivo de migração',
-	'badCreateName'   => 'Você deve fornecer um nome de arquivo de migração.',
-	'writeError'      => 'Erro ao tentar criar arquivo.',
 	'migNumberError'  => 'O número da migração deve ter três dígitos e não deve haver lacunas na sequência.',
 	'rollBackConfirm' => 'Você tem certeza que deseja reverter?',
 	'refreshConfirm'  => 'Você tem certeza que deseja atualizar?',
