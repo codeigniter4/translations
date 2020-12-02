@@ -30,8 +30,6 @@ return [
 	'migHelpSeed'     => "\tExecuta o semeador chamado [name].",
 	'migCreate'       => "\tCria uma nova migração chamada [name]",
 	'nameMigration'   => 'Nomeie o arquivo de migração',
-	'badCreateName'   => 'Deve fornecer um nome de arquivo de migração.',
-	'writeError'      => 'Erro ao tentar criar o arquivo.',
 	'migNumberError'  => 'O número da migração deve ter três dígitos e não deve haver lacunas na sequência.',
 	'rollBackConfirm' => 'Are you sure you want to rollback?',
 	'refreshConfirm'  => 'Are you sure you want to refresh?',

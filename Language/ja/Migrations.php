@@ -30,8 +30,6 @@ return [
 	'migHelpSeed'     => "\t[name]というseederを実行します。", //\tRuns the seeder named [name].
 	'migCreate'       => "\t[name]という名前の新しいマイグレーションを作成します。", //\tCreates a new migration named [name]
 	'nameMigration'   => 'マイグレーション・ファイルの名前', //Name the migration file
-	'badCreateName'   => 'マイグレーション・ファイル名を指定する必要があります。', //You must provide a migration file name.
-	'writeError'      => '{0} ファイルを作成しようとするとエラーが発生します。ディレクトリが書き込み可能かどうかを確認してください。', //Error trying to create {0} file, check if the directory is writable.
 	'migNumberError'  => 'マイグレーション・ナンバーは3桁でなければならず、シーケンスに飛びがあってはなりません。', //Migration number must be three digits, and there must not be any gaps in the sequence.
 	'rollBackConfirm' => '本当にロールバックしますか？', //Are you sure you want to rollback?
 	'refreshConfirm'  => '本当にリフレッシュしますか？', //Are you sure you want to refresh?

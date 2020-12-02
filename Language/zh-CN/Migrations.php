@@ -30,8 +30,6 @@ return [
 	'migHelpSeed'       => "\t运行填充程序，名称：[name]",
 	'migCreate'         => "\t创建一个新的迁移，名称：[name]",
 	'nameMigration'     => '命名迁移文件。',
-	'badCreateName'     => '你必须提供迁移文件名。',
-	'writeError'        => '尝试创建文件时出错。',
 	'migNumberError'    => '迁移号必须为3位数字且中间不能有任何空格。',
 	'rollBackConfirm'   => 'Are you sure you want to rollback?',
 	'refreshConfirm'    => 'Are you sure you want to refresh?',

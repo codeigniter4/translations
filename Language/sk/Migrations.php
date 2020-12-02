@@ -30,8 +30,6 @@ return [
 	'migHelpSeed'       => "\tSpustí seeder s menom [ name ].",
 	'migCreate'         => "\tVytvorí novú migráciu s názvom [ name ]",
 	'nameMigration'     => 'Pomenujte migračný súbor',
-	'badCreateName'     => 'Musíte zadať názov migračného súboru.',
-	'writeError'        => 'Chyba pri vytváraní súboru.',
 	'migNumberError'    => 'Migračné číslo musí byť tri číslice a v sekvencii nesmú byť medzery.',
 	'rollBackConfirm'   => 'Are you sure you want to rollback?',
 	'refreshConfirm'    => 'Are you sure you want to refresh?',

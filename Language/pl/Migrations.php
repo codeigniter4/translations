@@ -30,8 +30,6 @@ return [
 	'migHelpSeed'     => "\tUruchamia siewnik o nazwie [name].",
 	'migCreate'       => "\tTworzy nową migrację o nazwie [name]",
 	'nameMigration'   => 'Nazwij plik migracji',
-	'badCreateName'   => 'Musisz podać nazwę pliku migracji.',
-	'writeError'      => 'Błąd podczas próby utworzenia pliku.',
 	'migNumberError'  => 'Migration number must be three digits, and there must not be any gaps in the sequence.',
 	'rollBackConfirm' => 'Are you sure you want to rollback?',
 	'refreshConfirm'  => 'Are you sure you want to refresh?',

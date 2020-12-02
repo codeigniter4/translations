@@ -30,8 +30,6 @@ return [
 	'migHelpSeed'       => "\tIzpilda SEEDER ar nosaukumu [name].",
 	'migCreate'         => "\tIzveido jaunu migrāciju ar nosaukumu [name]",
 	'nameMigration'     => 'Nosauciet migrācijas failu',
-	'badCreateName'     => 'Jums jānorāda migrācijas faila nosaukums.',
-	'writeError'        => 'Kļūda izveidojot failu.',
 	'migNumberError'    => 'Migrācijas numuram ir jābūt trīs cipariem, un virknē nedrīkst būt atstarpes.',
 	'rollBackConfirm'   => 'Vai tiešām vēlaties atcelt?',
 	'refreshConfirm'    => 'Vai tiešām vēlaties atjaunot?',
