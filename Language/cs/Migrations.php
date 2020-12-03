@@ -41,12 +41,17 @@ return [
 	'toVersion'         => 'Probíhá migrace na aktuální verzi ...',
 	'rollingBack'       => 'Vracejí se zpět všechny migrace ...',
 	'noneFound'         => 'Nenašly se žádné migrace.',
-	'on'                => 'Zmigrováno na: ',
 	'migSeeder'         => 'Jméno seederu',
 	'migMissingSeeder'  => 'Musíte zadat jméno seederu.',
+	'nameSeeder'        => 'Name the seeder file',
 	'removed'           => 'Vracím: ',
 	'added'             => 'Běží: ',
 
-	'version'  => 'Verze',
-	'filename' => 'Název souboru',
+	// Migrate Status
+	'namespace' => 'Namespace',
+	'filename'  => 'Název souboru',
+	'version'   => 'Verze',
+	'group'     => 'Group',
+	'on'        => 'Zmigrováno na: ',
+	'batch'     => 'Batch',
 ];

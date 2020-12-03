@@ -22,18 +22,17 @@ return [
 	'missingMethod' => 'マイグレーション・クラスには "%s" メソッドがありません。', //The migration class is missing an "%s" method.
 
 	// Migration Command
-	'migHelpLatest'   => "\t\tデータベースを最新の利用可能なマイグレーションに移行します。", //\t\tMigrates database to latest available migration.
-	'migHelpCurrent'  => "\t\t'current'設定のバージョンにデータベースを移行します。", //\t\tMigrates database to version set as 'current' in configuration.
-	'migHelpVersion'  => "\tデータベースをバージョン {v} に移行します。", //\tMigrates database to version {v}.
-	'migHelpRollback' => "\tすべてのマイグレーションをバージョン0に「ダウン」します", //\tRuns all migrations 'down' to version 0.
-	'migHelpRefresh'  => "\t\tデータベースを一新するためにすべての移行をアンインストールして再実行します。", //\t\tUninstalls and re-runs all migrations to freshen database.
-	'migHelpSeed'     => "\t[name]というseederを実行します。", //\tRuns the seeder named [name].
-	'migCreate'       => "\t[name]という名前の新しいマイグレーションを作成します。", //\tCreates a new migration named [name]
-	'nameMigration'   => 'マイグレーション・ファイルの名前', //Name the migration file
-	'migNumberError'  => 'マイグレーション・ナンバーは3桁でなければならず、シーケンスに飛びがあってはなりません。', //Migration number must be three digits, and there must not be any gaps in the sequence.
-	'rollBackConfirm' => '本当にロールバックしますか？', //Are you sure you want to rollback?
-	'refreshConfirm'  => '本当にリフレッシュしますか？', //Are you sure you want to refresh?
-
+	'migHelpLatest'     => "\t\tデータベースを最新の利用可能なマイグレーションに移行します。", //\t\tMigrates database to latest available migration.
+	'migHelpCurrent'    => "\t\t'current'設定のバージョンにデータベースを移行します。", //\t\tMigrates database to version set as 'current' in configuration.
+	'migHelpVersion'    => "\tデータベースをバージョン {v} に移行します。", //\tMigrates database to version {v}.
+	'migHelpRollback'   => "\tすべてのマイグレーションをバージョン0に「ダウン」します", //\tRuns all migrations 'down' to version 0.
+	'migHelpRefresh'    => "\t\tデータベースを一新するためにすべての移行をアンインストールして再実行します。", //\t\tUninstalls and re-runs all migrations to freshen database.
+	'migHelpSeed'       => "\t[name]というseederを実行します。", //\tRuns the seeder named [name].
+	'migCreate'         => "\t[name]という名前の新しいマイグレーションを作成します。", //\tCreates a new migration named [name]
+	'nameMigration'     => 'マイグレーション・ファイルの名前', //Name the migration file
+	'migNumberError'    => 'マイグレーション・ナンバーは3桁でなければならず、シーケンスに飛びがあってはなりません。', //Migration number must be three digits, and there must not be any gaps in the sequence.
+	'rollBackConfirm'   => '本当にロールバックしますか？', //Are you sure you want to rollback?
+	'refreshConfirm'    => '本当にリフレッシュしますか？', //Are you sure you want to refresh?
 	'latest'            => 'すべての新しいマイグレーションを実行しています...', //Running all new migrations...
 	'generalFault'      => 'マイグレーション失敗！', //Migration failed!
 	'migInvalidVersion' => '無効なバージョン番号です。', //Invalid version number provided.
@@ -41,12 +40,17 @@ return [
 	'toVersion'         => 'currentバージョンに移行しています...', //Migrating to current version...
 	'rollingBack'       => 'バッチへのマイグレーションをロールバック: ', //Rolling back migrations to batch:
 	'noneFound'         => 'マイグレーションは見つかりませんでした。', //No migrations were found.
-	'on'                => '移行先: ', //Migrated On:
 	'migSeeder'         => 'seeder名', //Seeder name
 	'migMissingSeeder'  => 'seeder名が必要です。', //You must provide a seeder name.
+	'nameSeeder'        => 'Name the seeder file',
 	'removed'           => 'ロールバック: ', //Rolling back:
 	'added'             => '実行中: ', //Running:
 
-	'version'  => 'バージョン', //Version
-	'filename' => 'ファイル名', //Filename
+	// Migrate Status
+	'namespace' => 'Namespace',
+	'filename'  => 'ファイル名', //Filename
+	'version'   => 'バージョン', //Version
+	'group'     => 'Group',
+	'on'        => '移行先: ', //Migrated On:
+	'batch'     => 'Batch',
 ];

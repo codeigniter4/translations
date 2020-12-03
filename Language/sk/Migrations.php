@@ -40,12 +40,17 @@ return [
 	'toVersion'         => 'Prebieha migrácia na aktuálnu verziu ...',
 	'rollingBack'       => 'Vracajú sa späť všetky migrácie ...',
 	'noneFound'         => 'Nenašli sa žiadne migrácie.',
-	'on'                => 'Zmigraované na: ',
 	'migSeeder'         => 'Meno seederu',
 	'migMissingSeeder'  => 'Musíte zadať meno seederu.',
+	'nameSeeder'        => 'Name the seeder file',
 	'removed'           => 'Vraciam: ',
 	'added'             => 'Beží: ',
 
-	'version'  => 'Verzia',
-	'filename' => 'Názov súboru',
+	// Migrate Status
+	'namespace' => 'Namespace',
+	'filename'  => 'Názov súboru',
+	'version'   => 'Verzia',
+	'group'     => 'Group',
+	'on'        => 'Zmigraované na: ',
+	'batch'     => 'Batch',
 ];

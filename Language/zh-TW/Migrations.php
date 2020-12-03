@@ -40,12 +40,17 @@ return [
 	'toVersion'         => '正在遷移至當前（current）版本...',
 	'rollingBack'       => '還原所有遷移: ',
 	'noneFound'         => '找不到遷移。',
-	'on'                => '遷移到: ',
 	'migSeeder'         => '資料填充器（Seeder） 名稱：',
 	'migMissingSeeder'  => '您必須提供一個資料填充器（Seeder）名稱。',
+	'nameSeeder'        => 'Name the seeder file',
 	'removed'           => '還原至: ',
 	'added'             => '執行: ',
 
-	'version'  => '版本',
-	'filename' => '檔案名稱',
+	// Migrate Status
+	'namespace' => 'Namespace',
+	'filename'  => '檔案名稱',
+	'version'   => '版本',
+	'group'     => 'Group',
+	'on'        => '遷移到: ',
+	'batch'     => 'Batch',
 ];

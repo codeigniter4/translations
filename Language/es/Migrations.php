@@ -41,12 +41,17 @@ return [
 	'toVersion'         => 'Migrando a la versión actual...',
 	'rollingBack'       => 'Deshaciendo todas las migraciones...',
 	'noneFound'         => 'No se han encontrado migraciones.',
-	'on'                => 'Migrado en: ',
 	'migSeeder'         => 'Nombre de semilla',
 	'migMissingSeeder'  => 'Debe indicar un nombre de semilla.',
+	'nameSeeder'        => 'Name the seeder file',
 	'removed'           => 'Desinstalando: ',
 	'added'             => 'Ejecutando: ',
 
-	'version'  => 'Versión',
-	'filename' => 'Nombre de archivo',
+	// Migrate Status
+	'namespace' => 'Namespace',
+	'filename'  => 'Nombre de archivo',
+	'version'   => 'Versión',
+	'group'     => 'Group',
+	'on'        => 'Migrado en: ',
+	'batch'     => 'Batch',
 ];

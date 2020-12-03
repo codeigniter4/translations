@@ -40,12 +40,17 @@ return [
 	'toVersion'         => '迁移至当前（current）版本...',
 	'rollingBack'       => '回滚所有迁移...',
 	'noneFound'         => '没有发现任何迁移。',
-	'on'                => '迁移: ',
 	'migSeeder'         => '填充（seeder）名',
 	'migMissingSeeder'  => '必须提供一个填充（seeder）名',
+	'nameSeeder'        => 'Name the seeder file',
 	'removed'           => '回滚操作: ',
 	'added'             => '执行操作: ',
 
-	'version'  => '版本',
-	'filename' => '文件名',
+	// Migrate Status
+	'namespace' => 'Namespace',
+	'filename'  => '文件名',
+	'version'   => '版本',
+	'group'     => 'Group',
+	'on'        => '迁移: ',
+	'batch'     => 'Batch',
 ];

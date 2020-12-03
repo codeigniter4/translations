@@ -41,12 +41,17 @@ return [
 	'toVersion'         => 'Migrating to current version...',
 	'rollingBack'       => 'Rolling back migrations to batch: ',
 	'noneFound'         => 'No migrations were found.',
-	'on'                => 'Migrated On: ',
 	'migSeeder'         => 'Seeder name',
 	'migMissingSeeder'  => 'You must provide a seeder name.',
+	'nameSeeder'        => 'Name the seeder file',
 	'removed'           => 'Rolling back: ',
 	'added'             => 'Running: ',
 
-	'version'  => 'Version',
-	'filename' => 'Filename',
+	// Migrate Status
+	'namespace' => 'Namespace',
+	'filename'  => 'Filename',
+	'version'   => 'Version',
+	'group'     => 'Group',
+	'on'        => 'Migrated On: ',
+	'batch'     => 'Batch',
 ];

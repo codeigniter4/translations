@@ -40,12 +40,17 @@ return [
 	'toVersion'         => 'Перехід до поточної версії...',
 	'rollingBack'       => 'Відкат міграції в: ',
 	'noneFound'         => 'Міграцій не знайдено.',
-	'on'                => 'Міграція на: ',
 	'migSeeder'         => 'Ім’я сівалки',
 	'migMissingSeeder'  => 'Слід вказати ім’я сівалки.',
+	'nameSeeder'        => 'Name the seeder file',
 	'removed'           => 'Відкат: ',
 	'added'             => 'Запуск: ',
 
-	'version'  => 'Версія',
-	'filename' => 'Ім’я файлу',
+	// Migrate Status
+	'namespace' => 'Namespace',
+	'filename'  => 'Ім’я файлу',
+	'version'   => 'Версія',
+	'group'     => 'Group',
+	'on'        => 'Міграція на: ',
+	'batch'     => 'Batch',
 ];
