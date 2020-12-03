@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => 'Ugyldig argument: {0}.',
 	'invalidAllowedFields'             => 'Det er ingen tillatte felt for modellen: {0}',
 	'emptyDataset'                     => 'Ingen data funnet for: {0}.',
+	'emptyPrimaryKey'                  => 'There is no primary key defined when trying to make {0}.',
 	'failGetFieldData'                 => 'Ingen feltdata kunne hentes fra databasen.',
 	'failGetIndexData'                 => 'Indeksdata kunne ikke hentes fra databasen.',
 	'failGetForeignKeyData'            => 'De fremmede nøklene kunne ikke hentes fra databasen.',

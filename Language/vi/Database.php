@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => 'Bạn phải cung cấp {0} hợp lệ.',
 	'invalidAllowedFields'             => 'Các trường được phép phải được chỉ định cho mô hình: {0}',
 	'emptyDataset'                     => 'Không có dữ liệu cho {0}.',
+	'emptyPrimaryKey'                  => 'There is no primary key defined when trying to make {0}.',
 	'failGetFieldData'                 => 'Không thể lấy dữ liệu thực địa từ cơ sở dữ liệu.',
 	'failGetIndexData'                 => 'Không thể lấy dữ liệu chỉ mục từ cơ sở dữ liệu.',
 	'failGetForeignKeyData'            => 'Không thể lấy dữ liệu khóa ngoại từ cơ sở dữ liệu.',

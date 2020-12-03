@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => '必須提供有效的： {0}.',
 	'invalidAllowedFields'             => '必須為模型指定允許的欄位： {0}',
 	'emptyDataset'                     => '{0} 中沒有資料。',
+	'emptyPrimaryKey'                  => 'There is no primary key defined when trying to make {0}.',
 	'failGetFieldData'                 => '無法從資料庫中取得欄位資料。',
 	'failGetIndexData'                 => '無法從資料庫中取得索引資料。',
 	'failGetForeignKeyData'            => '無法從資料庫中取得外來鍵資料。',

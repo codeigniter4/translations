@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => 'Musisz podać poprawną {0}.',
 	'invalidAllowedFields'             => 'Dozwolone pola muszą być określone dla modelu: {0}',
 	'emptyDataset'                     => 'Brak danych do {0}.',
+	'emptyPrimaryKey'                  => 'There is no primary key defined when trying to make {0}.',
 	'failGetFieldData'                 => 'Failed to get field data from database.',
 	'failGetIndexData'                 => 'Failed to get index data from database.',
 	'failGetForeignKeyData'            => 'Failed to get foreign key data from database.',

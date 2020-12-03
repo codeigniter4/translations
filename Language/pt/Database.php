@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => 'Você deve fornecer um {0} válido.',
 	'invalidAllowedFields'             => 'Os campos permitidos devem ser especificados para o model: {0}',
 	'emptyDataset'                     => 'Não há dados para {0}.',
+	'emptyPrimaryKey'                  => 'There is no primary key defined when trying to make {0}.',
 	'failGetFieldData'                 => 'Não foi possível receber informação da base de dados.',
 	'failGetIndexData'                 => 'Não foi possível receber o index da base de dados.',
 	'failGetForeignKeyData'            => 'Não foi possível receber a Chave Forasteira da base de dados.',

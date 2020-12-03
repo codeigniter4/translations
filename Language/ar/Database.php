@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => 'يجب ارسال قيمة صالحة {0}.',
 	'invalidAllowedFields'             => 'يجب تحديد الحقول المسموح بها في نموذج البيانات: {0}',
 	'emptyDataset'                     => 'لا يوجد بيانات في {0}.',
+	'emptyPrimaryKey'                  => 'There is no primary key defined when trying to make {0}.',
 	'failGetFieldData'                 => 'Failed to get field data from database.',
 	'failGetIndexData'                 => 'Failed to get index data from database.',
 	'failGetForeignKeyData'            => 'Failed to get foreign key data from database.',

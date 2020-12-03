@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => 'Необходимо указать допустимое значение {0}.',
 	'invalidAllowedFields'             => 'Должны быть указаны допустимые поля для модели: {0}',
 	'emptyDataset'                     => 'Нет данных в {0}.',
+	'emptyPrimaryKey'                  => 'There is no primary key defined when trying to make {0}.',
 	'failGetFieldData'                 => 'Не удалось получить данные поля из базы данных.',
 	'failGetIndexData'                 => 'Не удалось получить данные индекса из базы данных.',
 	'failGetForeignKeyData'            => 'Не удалось получить данные внешнего ключа из базы данных.',

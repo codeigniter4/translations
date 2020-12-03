@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => '必须提供有效的 {0}。',
 	'invalidAllowedFields'             => '模型中必须有指定的允许字段: {0}。',
 	'emptyDataset'                     => '{0} 没有任何数据。',
+	'emptyPrimaryKey'                  => 'There is no primary key defined when trying to make {0}.',
 	'failGetFieldData'                 => '无法在数据库中获取字段数据。',
 	'failGetIndexData'                 => '无法在数据库中获取索引数据。',
 	'failGetForeignKeyData'            => '无法在数据库中获取外键数据。',

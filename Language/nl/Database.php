@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => 'U moet een geldige {0} voorzien.',
 	'invalidAllowedFields'             => 'Toegelaten velden moeten opgegeven worden voor Model: {0}',
 	'emptyDataset'                     => 'Geen data voor {0}.',
+	'emptyPrimaryKey'                  => 'There is no primary key defined when trying to make {0}.',
 	'failGetFieldData'                 => 'Kon geen veld-data ophalen uit de database.',
 	'failGetIndexData'                 => 'Kon geen index-data ophalen uit de database.',
 	'failGetForeignKeyData'            => 'Kon geen foreign-key-data ophalen uit de database.',

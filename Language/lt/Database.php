@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => 'Turite pateikti teisingą {0}.',
 	'invalidAllowedFields'             => 'Leidžiami laukai turi būti nurodyti modeliui: {0}',
 	'emptyDataset'                     => '{0} Nėra duomenų.',
+	'emptyPrimaryKey'                  => 'There is no primary key defined when trying to make {0}.',
 	'failGetFieldData'                 => 'Nepavyko gauti lauko duomenų iš duomenų bazės.',
 	'failGetIndexData'                 => 'Iš duomenų bazės nepavyko gauti indekso duomenų.',
 	'failGetForeignKeyData'            => 'Nepavyko gauti svetimojo rakto duomenų iš duomenų bazės.',

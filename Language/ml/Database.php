@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => 'നിങ്ങൾ സാധുവായ {0} നൽകണം.',
 	'invalidAllowedFields'             => 'മോഡലിനായി അനുവദനീയമായ ഫീൽഡുകൾ വ്യക്തമാക്കണം: {0}',
 	'emptyDataset'                     => '{0} ലേക്ക് ഡാറ്റയൊന്നുമില്.',
+	'emptyPrimaryKey'                  => 'There is no primary key defined when trying to make {0}.',
 	'failGetFieldData'                 => 'ഡാറ്റാബേസിൽ നിന്ന് ഫീൽഡ് ഡാറ്റ നേടുന്നതിൽ പരാജയപ്പെട്ടു.',
 	'failGetIndexData'                 => 'ഡാറ്റാബേസിൽ നിന്ന് സൂചിക ഡാറ്റ നേടുന്നതിൽ പരാജയപ്പെട്ടു.',
 	'failGetForeignKeyData'            => 'ഡാറ്റാബേസിൽ നിന്ന് വിദേശ കീ ഡാറ്റ നേടുന്നതിൽ പരാജയപ്പെട്ടു.',

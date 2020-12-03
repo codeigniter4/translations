@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => 'Musíte zadať platný {0}.',
 	'invalidAllowedFields'             => 'Povolené polia musia byť špecifikované pre model: {0}',
 	'emptyDataset'                     => 'Žiadne dáta pre {0}.',
+	'emptyPrimaryKey'                  => 'There is no primary key defined when trying to make {0}.',
 	'failGetFieldData'                 => 'Zlyhalo získanie údajov poľa z databáze.',
 	'failGetIndexData'                 => 'Zlyhalo získanie údajov indexu z databáze.',
 	'failGetForeignKeyData'            => 'Zlyhalo získanie údajov cudzieho kľúča z databáze.',

@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => 'لطفا {0} معتبری وارد کنید.',
 	'invalidAllowedFields'             => 'فیلدهای مجاز برای مدل باید تعیین شوند: {0}',
 	'emptyDataset'                     => 'داده‌ای در {0} وجود ندارد.',
+	'emptyPrimaryKey'                  => 'There is no primary key defined when trying to make {0}.',
 	'failGetFieldData'                 => 'مشکلی در گرفتن اطلاعات فیلد از دیتابیس به وجود آمده است.',
 	'failGetIndexData'                 => 'مشکلی در گرفتن اطلاعات ایندکس از دیتابیس به وجود آمده است.',
 	'failGetForeignKeyData'            => 'مشکلی در گرفتن اطلاعات کلید خارجی از دیتابیس به وجود آمده است.',

@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => 'Geçerli bir {0} belirtmelisiniz.',
 	'invalidAllowedFields'             => 'Modelde izin verilen alanlar belirtilmeli: {0}',
 	'emptyDataset'                     => '{0} içinde veri yok.',
+	'emptyPrimaryKey'                  => 'There is no primary key defined when trying to make {0}.',
 	'failGetFieldData'                 => 'Failed to get field data from database.',
 	'failGetIndexData'                 => 'Failed to get index data from database.',
 	'failGetForeignKeyData'            => 'Failed to get foreign key data from database.',
