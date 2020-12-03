@@ -16,4 +16,5 @@ return [
 	'writeProtectedSavePath' => 'Session: 設定された保存パス"{0}"はPHPプロセスから書き込みができません。', //Session: Configured save path "{0}" is not writable by the PHP process.
 	'emptySavePath'          => 'Session: 保存パスが存在しません。', //Session: No save path configured.
 	'invalidSavePathFormat'  => 'Session: 無効な Redis 保存パス形式です。: {0}', //Session: Invalid Redis save path format: {0}
+	'invalidSameSiteSetting' => 'Session: The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

@@ -17,4 +17,5 @@ return [
 	'emptySavePath'          => 'Session: 저장 경로가 설정되어 있지 않습니다.', // 'Session: No save path configured.',
 	'invalidSavePathFormat'  => 'Session: 유효하지 않는 Redis 세션 저장 경로 형식: {0}', // 'Session: Invalid Redis save path format: {0}',
 	'invalidSameSiteSetting' => 'Session : SameSite 설정은 None, Lax, Strict 또는 빈 문자열이어야합니다. 주어진 값 : {0}', // 'Session: The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
+	'invalidSameSiteSetting' => 'Session: The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

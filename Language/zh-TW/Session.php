@@ -16,4 +16,5 @@ return [
 	'writeProtectedSavePath' => "Session: PHP 無法寫入您所設定的儲存路徑 '{0}' 。",
 	'emptySavePath'          => 'Session: 沒有設定儲存路徑。',
 	'invalidSavePathFormat'  => 'Session: 無效的Redis儲存路徑: {0}',
+	'invalidSameSiteSetting' => 'Session: The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

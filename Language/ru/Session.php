@@ -16,4 +16,5 @@ return [
 	'writeProtectedSavePath' => 'Ошибка: Настроенный путь сохранения "{0}" не доступен для записи процессом PHP.',
 	'emptySavePath'          => 'Ошибка: Не настроен путь сохранения сессий.',
 	'invalidSavePathFormat'  => 'Ошибка: Недопустимый формат пути сохранения для Redis: {0}.',
+	'invalidSameSiteSetting' => 'Session: The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

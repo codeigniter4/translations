@@ -16,4 +16,5 @@ return [
 	'writeProtectedSavePath' => 'Hurtiglager: Den konfigurerte lagringsstien "{0}" kan ikke beskrives av PHP-prosessen.',
 	'emptySavePath'          => 'Hurtiglager: Ingen lagringsbane konfigurert.',
 	'invalidSavePathFormat'  => 'Hurtiglager: Ugyldig Redis lagringsbaneformat: {0}',
+	'invalidSameSiteSetting' => 'Session: The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

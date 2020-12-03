@@ -16,4 +16,5 @@ return [
 	'writeProtectedSavePath' => 'Session: Đường dẫn lưu được định cấu hình "{0}" không thể ghi được bằng PHP.',
 	'emptySavePath'          => 'Session: Không lưu đường dẫn được cấu hình.',
 	'invalidSavePathFormat'  => 'Session: Định dạng đường dẫn Redis không hợp lệ: {0}',
+	'invalidSameSiteSetting' => 'Session: The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

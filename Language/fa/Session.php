@@ -16,4 +16,5 @@ return [
 	'writeProtectedSavePath' => 'Session: مسیر ذخیره سازی سشن: "{0}" قابل نوشتن نیست.',
 	'emptySavePath'          => 'Session: مسیری برای سشن مشخص نشده است.',
 	'invalidSavePathFormat'  => 'Session: فرمت مسیر ذخیره سازی ردیس نامعتبر است: {0}',
+	'invalidSameSiteSetting' => 'Session: The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

@@ -16,4 +16,5 @@ return [
 	'writeProtectedSavePath' => 'Sessão: O caminho configurado "{0}" não tem permissões de escrita pelo processo do PHP.',
 	'emptySavePath'          => 'Sessão: Nenhum caminho configurado.',
 	'invalidSavePathFormat'  => 'Sessão: Formato de caminho Redis inválido: {0}',
+	'invalidSameSiteSetting' => 'Session: The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

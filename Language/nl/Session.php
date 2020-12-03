@@ -16,4 +16,5 @@ return [
 	'writeProtectedSavePath' => 'Session: Pad "{0}" is niet schrijfbaar voor het PHP proces.',
 	'emptySavePath'          => 'Session: Geen "save" pad opgegeven.',
 	'invalidSavePathFormat'  => 'Session: Ongeldig Redis pad formaat: {0}',
+	'invalidSameSiteSetting' => 'Session: The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

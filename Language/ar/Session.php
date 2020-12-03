@@ -16,4 +16,5 @@ return [
 	'writeProtectedSavePath' => 'نظام الجلسة: المسار المحدد "{0}" غير قابل للكتابة.',
 	'emptySavePath'          => 'نظام الجلسة: لا يوجد مسار للحفظ.',
 	'invalidSavePathFormat'  => 'نظام الجلسة: مسار خادم  Redis غير صحيح: {0}',
+	'invalidSameSiteSetting' => 'Session: The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

@@ -16,4 +16,5 @@ return [
 	'writeProtectedSavePath' => 'Session: കോൺഫിഗർ ചെയ്ത സേവ് പാത്ത് "{0}" പി‌എച്ച്പി പ്രോസസ്സ് എഴുതാൻ കഴിയില്ല.',
 	'emptySavePath'          => 'Session: സേവ് പാത്ത് ക്രമീകരിച്ചിട്ടില്ല.',
 	'invalidSavePathFormat'  => 'Session: അസാധുവായ റെഡിസ് പാത്ത് ഫോർമാറ്റ് സംരക്ഷിക്കുക: {0}',
+	'invalidSameSiteSetting' => 'Session: The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

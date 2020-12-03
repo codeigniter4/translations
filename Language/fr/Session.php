@@ -16,4 +16,5 @@ return [
 	'writeProtectedSavePath' => 'Session : le chemin de sauvegarde configuré "{0}" ne permet pas l\'écriture par le processus PHP.',
 	'emptySavePath'          => 'Session : aucun chemin de sauvegarde configuré.',
 	'invalidSavePathFormat'  => 'Session : format du chemin de sauvegarde Redis invalide : {0}',
+	'invalidSameSiteSetting' => 'Session: The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

@@ -16,4 +16,5 @@ return [
 	'writeProtectedSavePath' => 'Sesija: konfigūracijoje nustatytas įrašymo kelias „{0}“ nėra prieinamas php procesui įrašymui.',
 	'emptySavePath'          => 'Sesija: konfigūracijoje nenustatytas įrašymo kelias.',
 	'invalidSavePathFormat'  => 'Sesija: negaliojantis Redis įrašymo kelio formatas: {0}',
+	'invalidSameSiteSetting' => 'Session: The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

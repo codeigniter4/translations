@@ -16,4 +16,5 @@ return [
 	'writeProtectedSavePath' => 'Oturum: Ayarlarda belirtilen kayıt yolu "{0}" PHP işlemi tarafından yazılabilir değil.',
 	'emptySavePath'          => 'Oturum: Kayıt yolu belirtilmemiş.',
 	'invalidSavePathFormat'  => 'Oturum: Geçersiz Redis kayıt yolu biçimi: {0}',
+	'invalidSameSiteSetting' => 'Session: The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

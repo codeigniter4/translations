@@ -16,4 +16,5 @@ return [
 	'writeProtectedSavePath' => 'Session: 配置的保存路径 "{0}" , PHP 程序无法写入。',
 	'emptySavePath'          => 'Session: 没有配置保存路径。',
 	'invalidSavePathFormat'  => 'Session: 无效的 Redis 保存路径: {0}',
+	'invalidSameSiteSetting' => 'Session: The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];
