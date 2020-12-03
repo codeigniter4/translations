@@ -225,6 +225,45 @@ abstract class AbstractTranslationTestCase extends TestCase
 		));
 	}
 
+	/**
+	 * This tests that all included language keys in a language file for the current
+	 * locale that have corresponding keys in the main CI4 repository are really translated
+	 * and do not only copy the main repository's value.
+	 *
+	 * @dataProvider localesProvider
+	 *
+	 * @param string $locale
+	 *
+	 * @return void
+	 */
+	final public function testAllIncludedLanguageKeysAreTranslated(string $locale): void
+	{
+		$availableSets     = array_intersect($this->expectedSets(), $this->foundSets($locale));
+		$keysNotTranslated = [];
+
+		foreach ($availableSets as $file)
+		{
+			$originalStrings = $this->loadFile($file);
+			foreach($this->loadFile($file, $locale) as $key => $translation)
+			{
+				if(array_key_exists($key, $originalStrings) && $originalStrings[$key] === $translation)
+				{
+					$keysNotTranslated[] = substr($file, 0, -4) . '.' . $key;
+				}
+			}
+		}
+
+		sort($keysNotTranslated);
+		$count = count($keysNotTranslated);
+
+		$this->assertEmpty($keysNotTranslated, sprintf(
+			'Failed asserting that the translated language %s "%s" in "%s" locale differ from the original keys in the main repository.',
+			$count > 1 ? 'keys' : 'key',
+			implode('", "', $keysNotTranslated),
+			$locale
+		));
+	}
+
 	final public function localesProvider(): iterable
 	{
 		helper('filesystem');
