@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "CodeIgniter\\Language\\": "Language/"
+            "Translations\\": ""
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CodeIgniter\\Language\\": "tests/Language/"
+            "Translations\\Tests\\": "tests/Language/"
         }
     },
     "repositories": [
