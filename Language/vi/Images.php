@@ -30,5 +30,5 @@ return [
 	'missingFont'            => 'Không thể tìm thấy phông chữ để sử dụng.',
 	'saveFailed'             => 'Không thể lưu hình ảnh. Hãy chắc chắn rằng thư mục hình ảnh và tập tin có thể ghi.',
 	'invalidDirection'       => 'Hướng lật chỉ có thể là `dọc` hoặc` ngang`. Đã nhập: {0}',
-	'exifNotSupported'       => 'Môi trường PHP không hỗ trợ đọc dữ liệu EXIF ​​cho hình ảnh.',
+	'exifNotSupported'       => 'Môi trường PHP không hỗ trợ đọc dữ liệu EXIF cho hình ảnh.',
 ];

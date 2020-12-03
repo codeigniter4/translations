@@ -68,5 +68,5 @@ return [
 	'uploadErrCantWrite' => 'Plik "%s" nie może być zapisany na dysku.',
 	'uploadErrNoTmpDir'  => 'Plik nie może zostać wysłany. Brak katalogu tymczasowego.',
 	'uploadErrExtension' => 'Wysyłka pliku została zablokowana przez PHP.',
-	'uploadErrUnknown'   => 'Plik "%s" nie został wysłany z nieznanego powodu.'
+	'uploadErrUnknown'   => 'Plik "%s" nie został wysłany z nieznanego powodu.',
 ];

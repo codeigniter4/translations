@@ -16,5 +16,5 @@ return [
 	'jsonErrorCtrlChar'      => 'Caractere de controlo inesperado encontrado',
 	'jsonErrorSyntax'        => 'Erro de sintaxe, JSON formatado incorretamente',
 	'jsonErrorUtf8'          => 'Caracteres UTF-8 formatados incorretamente, possivelmente codificação errada',
-	'jsonErrorUnknown'       => 'Erro desconhecido'
+	'jsonErrorUnknown'       => 'Erro desconhecido',
 ];
