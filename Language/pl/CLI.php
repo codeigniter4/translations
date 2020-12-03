@@ -11,10 +11,20 @@
 
 // CLI language settings
 return [
-	'commandNotFound' => 'Command "{0}" not found.',
-	'helpUsage'       => 'Zastosowanie:',
-	'helpDescription' => 'Opis:',
-	'helpOptions'     => 'Opcje:',
-	'helpArguments'   => 'Argumentty:',
-	'invalidColor'    => 'Nieprawidłowy kolor {0}: {1}.',
+	'commandNotFound'    => 'Command "{0}" not found.',
+	'altCommandSingular' => 'Did you mean this?',
+	'altCommandPlural'   => 'Did you mean one of these?',
+	'helpUsage'          => 'Zastosowanie:',
+	'helpDescription'    => 'Opis:',
+	'helpOptions'        => 'Opcje:',
+	'helpArguments'      => 'Argumentty:',
+	'invalidColor'       => 'Nieprawidłowy kolor {0}: {1}.',
+
+	// Generators
+	'generateClassName'   => 'Name of class',
+	'generateParentClass' => 'Name of parent class to extend from',
+	'generateFileExists'  => '{0} already exists.',
+	'generateFileSuccess' => 'Created file: ',
+	'generateFileError'   => 'Error in creating file: ',
+	'namespaceNotDefined' => 'Namespace "{0}" is not defined.',
 ];

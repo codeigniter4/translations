@@ -11,10 +11,20 @@
 
 // CLI language settings
 return [
-	'commandNotFound' => 'Příkaz "{0}" nebyl nalezen.',
-	'helpUsage'       => 'Použití:',
-	'helpDescription' => 'Popis:',
-	'helpOptions'     => 'Možnosti:',
-	'helpArguments'   => 'Argumenty:',
-	'invalidColor'    => 'Neplatná {0} barva: {1}.',
+	'commandNotFound'    => 'Příkaz "{0}" nebyl nalezen.',
+	'altCommandSingular' => 'Did you mean this?',
+	'altCommandPlural'   => 'Did you mean one of these?',
+	'helpUsage'          => 'Použití:',
+	'helpDescription'    => 'Popis:',
+	'helpOptions'        => 'Možnosti:',
+	'helpArguments'      => 'Argumenty:',
+	'invalidColor'       => 'Neplatná {0} barva: {1}.',
+
+	// Generators
+	'generateClassName'   => 'Name of class',
+	'generateParentClass' => 'Name of parent class to extend from',
+	'generateFileExists'  => '{0} already exists.',
+	'generateFileSuccess' => 'Created file: ',
+	'generateFileError'   => 'Error in creating file: ',
+	'namespaceNotDefined' => 'Namespace "{0}" is not defined.',
 ];

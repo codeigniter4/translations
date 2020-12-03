@@ -11,10 +11,20 @@
 
 // CLI language settings
 return [
-	'commandNotFound' => 'Command "{0}" not found.',
-	'helpUsage'       => 'bruke:',
-	'helpDescription' => 'Beskrivelse:',
-	'helpOptions'     => 'alternativer:',
-	'helpArguments'   => 'argumenter:',
-	'invalidColor'    => 'Ugyldig {0} farge: {1}.',
+	'commandNotFound'    => 'Command "{0}" not found.',
+	'altCommandSingular' => 'Did you mean this?',
+	'altCommandPlural'   => 'Did you mean one of these?',
+	'helpUsage'          => 'bruke:',
+	'helpDescription'    => 'Beskrivelse:',
+	'helpOptions'        => 'alternativer:',
+	'helpArguments'      => 'argumenter:',
+	'invalidColor'       => 'Ugyldig {0} farge: {1}.',
+
+	// Generators
+	'generateClassName'   => 'Name of class',
+	'generateParentClass' => 'Name of parent class to extend from',
+	'generateFileExists'  => '{0} already exists.',
+	'generateFileSuccess' => 'Created file: ',
+	'generateFileError'   => 'Error in creating file: ',
+	'namespaceNotDefined' => 'Namespace "{0}" is not defined.',
 ];
