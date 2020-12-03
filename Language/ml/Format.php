@@ -11,6 +11,8 @@
 
 // Format language settings
 return [
+	'invalidFormatter' => '"{0}" is not a valid Formatter class.',
 	'invalidJSON'      => 'Json സ്ട്രിംഗ് പാഴ്‌സുചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു, പിശക്: "{0}".',
+	'invalidMime'      => 'No Formatter defined for mime type: "{0}".',
 	'missingExtension' => 'എക്സ്എം‌എൽ ഫോർമാറ്റ് ചെയ്യുന്നതിന് സിമ്പിൾ എക്സ്എം‌എൽ വിപുലീകരണം ആവശ്യമാണ്.',
 ];

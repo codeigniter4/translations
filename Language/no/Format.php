@@ -11,6 +11,8 @@
 
 // Format language settings
 return [
+	'invalidFormatter' => '"{0}" is not a valid Formatter class.',
 	'invalidJSON'      => 'JSON-streng kunne ikke tolkes. Feil: "{0}".',
+	'invalidMime'      => 'No Formatter defined for mime type: "{0}".',
 	'missingExtension' => 'SimpleXML-utvidelsen er nødvendig for å formatere XML.',
 ];
