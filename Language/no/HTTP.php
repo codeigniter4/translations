@@ -71,4 +71,7 @@ return [
 	'uploadErrNoTmpDir'  => 'Feil med opplasting: Midlertidig katalog mangler.',
 	'uploadErrExtension' => 'Filopplastningen ble stoppet av en PHP-utvidelse.',
 	'uploadErrUnknown'   => 'Filen "%s" kunne ikke lastes opp på grunn av en ukjent feil.',
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

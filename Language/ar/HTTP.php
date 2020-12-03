@@ -70,4 +70,7 @@ return [
 	'uploadErrNoTmpDir'  => 'تعذر تحميل الملف: مفقود دليل مؤقت.',
 	'uploadErrExtension' => 'تم إيقاف تحميل الملف بواسطة امتداد PHP.',
 	'uploadErrUnknown'   => 'لم يتم تحميل الملف "٪ s" بسبب خطأ غير معروف.',
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

@@ -70,4 +70,7 @@ return [
 	'uploadErrNoTmpDir'  => 'O arquivo não pôde ser enviado: falta diretório temporário.',
 	'uploadErrExtension' => 'O envio do arquivo foi interrompido por uma extensão PHP.',
 	'uploadErrUnknown'   => 'O arquivo "%s" não foi enviado devido a um erro desconhecido.',
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

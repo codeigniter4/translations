@@ -70,4 +70,7 @@ return [
 	'uploadErrNoTmpDir'  => 'Не вдалося завантажити файл: Відсутній тимчасовий каталог.',
 	'uploadErrExtension' => 'Завантаження файлу було зупинено розширенням PHP.',
 	'uploadErrUnknown'   => 'Файл "%s" не завантажився через невідому помилку.',
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

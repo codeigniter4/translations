@@ -70,4 +70,7 @@ return [
 	'uploadErrNoTmpDir'  => 'Bestand kon niet worden geüpload: ontbrekende tijdelijke folder.',
 	'uploadErrExtension' => 'Bestand upload werd gestopt door een PHP extensie.',
 	'uploadErrUnknown'   => 'Het bestand "%s" kon niet worden geüpload door een ongekende fout.',
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

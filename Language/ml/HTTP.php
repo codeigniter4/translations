@@ -70,4 +70,7 @@ return [
 	'uploadErrNoTmpDir'  => 'ഫയൽ അപ്‌ലോഡുചെയ്യാനായില്ല: താൽക്കാലിക ഡയറക്‌ടറി നഷ്‌ടമായി.',
 	'uploadErrExtension' => 'ഒരു പി‌എച്ച്പി വിപുലീകരണം ഫയൽ അപ്‌ലോഡ് നിർത്തി.',
 	'uploadErrUnknown'   => 'അജ്ഞാതമായ ഒരു പിശക് കാരണം "%s" ഫയൽ അപ്‌ലോഡ് ചെയ്തിട്ടില്ല.',
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

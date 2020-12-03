@@ -70,4 +70,7 @@ return [
 	'uploadErrNoTmpDir'  => 'soubor se nepodařilo nahrát: chybí dočasný adresář.',
 	'uploadErrExtension' => 'Nahrávání souborů bylo zastaveno rozšířením PHP.',
 	'uploadErrUnknown'   => 'soubor "%s" nebyl nahrán z důvodu neznámé chyby.',
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

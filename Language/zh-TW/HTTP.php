@@ -70,4 +70,7 @@ return [
 	'uploadErrNoTmpDir'  => '無法上傳檔案：缺少暫存資料夾',
 	'uploadErrExtension' => '檔案上傳被停止，因為被PHP擴充元件停止。',
 	'uploadErrUnknown'   => '檔案 "%s" 因為未知的錯誤上傳失敗。',
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

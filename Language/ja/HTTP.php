@@ -70,4 +70,7 @@ return [
 	'uploadErrNoTmpDir'  => 'ファイルをアップロードできませんでした。: 一時ディレクトリが見つかりません。', //File could not be uploaded: missing temporary directory.
 	'uploadErrExtension' => 'ファイルアップロードはPHP機能拡張により停止されました。', //File upload was stopped by a PHP extension.
 	'uploadErrUnknown'   => 'ファイル "%s" は未知のエラーのためアップロードされませんでした。', //The file "%s" was not uploaded due to an unknown error.
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

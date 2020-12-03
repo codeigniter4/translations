@@ -70,4 +70,7 @@ return [
 	'uploadErrNoTmpDir'  => 'Failo įkelti nepavyko: nėra laikinosios direktorijos.',
 	'uploadErrExtension' => 'Failo įkėlimą sustabdė PHP išplėtimas.',
 	'uploadErrUnknown'   => 'Failo „%s“ nepavyko įkelti dėl nežinomos klaidos.',
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

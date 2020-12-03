@@ -70,4 +70,7 @@ return [
 	'uploadErrNoTmpDir'  => 'El archivo no se pudo cargar: falta el directorio temporal.', // 'File could not be uploaded: missing temporary directory.',
 	'uploadErrExtension' => 'La carga de archivos fue detenida por una extensión PHP.', // 'File upload was stopped by a PHP extension.',
 	'uploadErrUnknown'   => 'El archivo "%s" no se cargó debido a un error desconocido.', //'The file "%s" was not uploaded due to an unknown error.',
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

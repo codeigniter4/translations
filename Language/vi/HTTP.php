@@ -70,4 +70,7 @@ return [
 	'uploadErrNoTmpDir'  => 'Không thể tải lên tệp: thiếu thư mục tạm thời.',
 	'uploadErrExtension' => 'Tải lên tệp đã bị dừng bởi một extension PHP.',
 	'uploadErrUnknown'   => 'Tệp "%s" không được tải lên do lỗi không xác định.',
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

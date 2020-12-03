@@ -70,4 +70,7 @@ return [
 	'uploadErrNoTmpDir'  => 'Не удалось загрузить файл: Отсутствует временный каталог.',
 	'uploadErrExtension' => 'Загрузка файла была остановлена расширением PHP.',
 	'uploadErrUnknown'   => 'Файл "%s" не был загружен из-за неизвестной ошыибки.',
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];
