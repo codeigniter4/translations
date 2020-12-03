@@ -30,8 +30,6 @@ return [
 	'migHelpSeed'     => "\t[name] isimli tohumlayıcıyı çalıştırır.",
 	'migCreate'       => "\t[name] isimli yeni bir göç oluşturur.",
 	'nameMigration'   => 'Göç dosyasına bir isim verin.',
-	'badCreateName'   => 'Bir göç dosyası adı belirtmelisiniz.',
-	'writeError'      => 'Yazma hatası nedeniyle dosya oluşturulamadı.',
 	'migNumberError'  => 'Migration number must be three digits, and there must not be any gaps in the sequence.',
 	'rollBackConfirm' => 'Are you sure you want to rollback?',
 	'refreshConfirm'  => 'Are you sure you want to refresh?',

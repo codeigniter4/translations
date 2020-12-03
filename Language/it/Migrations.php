@@ -30,8 +30,6 @@ return [
 	'migHelpSeed'       => "\tAvvia il seminatore denominato [name].",
 	'migCreate'         => "\tCrea una nuova migrazione denominata [name]",
 	'nameMigration'     => 'Denomina il file di migrazione',
-	'badCreateName'     => 'Devi fornire un nome al file di migrazione.',
-	'writeError'        => 'Si è verificato un errore tentando di creare il file.',
 	'migNumberError'    => 'Migration number must be three digits, and there must not be any gaps in the sequence.',
 	'rollBackConfirm'   => 'Are you sure you want to rollback?',
 	'refreshConfirm'    => 'Are you sure you want to refresh?',

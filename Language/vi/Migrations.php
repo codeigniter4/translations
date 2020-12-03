@@ -30,8 +30,6 @@ return [
 	'migHelpSeed'     => "\tChạy seeder có tên [name].",
 	'migCreate'       => "\tTạo một migration mới có tên [name]",
 	'nameMigration'   => 'Đặt tên cho tệp migration',
-	'badCreateName'   => 'Bạn phải cung cấp tên tệp migration.',
-	'writeError'      => 'Lỗi khi tạo tệp {0}, kiểm tra xem thư mục có thể ghi được không.',
 	'migNumberError'  => 'Số di chuyển phải có ba chữ số và không được có bất kỳ khoảng trống nào trong chuỗi.',
 	'rollBackConfirm' => 'Bạn có chắc chắn muốn quay trở lại?',
 	'refreshConfirm'  => 'Bạn có chắc chắn muốn làm mới?',

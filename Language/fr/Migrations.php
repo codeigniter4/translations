@@ -30,8 +30,6 @@ return [
 	'migHelpSeed'     => "\tLance le 'seeder' nommé [name].",
 	'migCreate'       => "\tCrée une nouvelle migration nommée [name]",
 	'nameMigration'   => 'Nomme le fichier de migration',
-	'badCreateName'   => 'Vous devez fournir un nom pour le fichier de migration.',
-	'writeError'      => 'Erreur durant la création du fichier.',
 	'migNumberError'  => 'Le numéro de migration doit comporter trois chiffres, et ne doit pas comporter de trous dans la séquence.',
 	'rollBackConfirm' => 'Are you sure you want to rollback?',
 	'refreshConfirm'  => 'Are you sure you want to refresh?',
