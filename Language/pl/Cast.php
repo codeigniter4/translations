@@ -16,5 +16,5 @@ return [
 	'jsonErrorCtrlChar'      => 'Znaleziono nieoczekiwany znak kontrolny',
 	'jsonErrorSyntax'        => 'Błąd składniowy, źle sformułowany JSON',
 	'jsonErrorUtf8'          => 'Zniekształcone znaki UTF-8, prawdopodobnie niepoprawnie zakodowane',
-	'jsonErrorUnknown'       => 'Nieznany błąd'
+	'jsonErrorUnknown'       => 'Nieznany błąd',
 ];
