@@ -13,4 +13,5 @@
 return [
 	'invalidModel'      => 'Постовляемая модель недопустима для изготовления.',
 	'missingFormatters' => 'Действительные форматеры не определены.',
+	'createFailed'      => 'Fabricator failed to insert on table {0}: {1}.',
 ];

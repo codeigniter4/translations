@@ -13,4 +13,5 @@
 return [
 	'invalidModel'      => 'Недійсна модель, надана для виготовлення.',
 	'missingFormatters' => 'Не визначені допустимі форматування.',
+	'createFailed'      => 'Fabricator failed to insert on table {0}: {1}.',
 ];

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-// Fabricator language strings
+// Fabricator language settings
 return [
 	'invalidModel'      => 'Invalid model supplied for fabrication.',
 	'missingFormatters' => 'No valid formatters defined.',
