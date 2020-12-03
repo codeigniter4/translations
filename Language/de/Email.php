@@ -11,7 +11,7 @@
 
 // Email language settings
 return [
-	'mustBeArray'          => 'Die E-Mail-Validierungsmethode muss ein Array übergeben werden.',
+	'mustBeArray'          => 'Der E-Mail-Validierungsmethode muss ein Array übergeben werden.',
 	'invalidAddress'       => 'Ungültige E-Mailadresse: {0}',
 	'attachmentMissing'    => 'Der folgende E-Mail-Anhang konnte nicht gefunden werden: {0}',
 	'attachmentUnreadable' => 'Fehler beim Öffnen des Anhangs: {0}',
