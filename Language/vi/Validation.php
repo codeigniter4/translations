@@ -44,6 +44,7 @@ return [
 	'max_length'            => 'Trường {field} không thể vượt quá {param} ký tự.',
 	'min_length'            => 'Trường {field} phải có ít nhất {param} ký tự.',
 	'not_equals'            => 'Trường {field} không thể là: {param}.',
+	'not_in_list'           => 'The {field} field must not be one of: {param}.',
 	'numeric'               => 'Trường {field} chỉ được chứa số.',
 	'regex_match'           => 'Trường {field} không đúng định dạng',
 	'required'              => 'Trường {field} bắt buộc.',

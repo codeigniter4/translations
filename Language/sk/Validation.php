@@ -44,6 +44,7 @@ return [
 	'max_length'            => 'Pole {field} nemôže prekročiť počet znakov: {param}.',
 	'min_length'            => 'Pole {field} musí byť dlhšie ako {param} znaky.',
 	'not_equals'            => 'Pole {field} nemôže byť: {param}.',
+	'not_in_list'           => 'The {field} field must not be one of: {param}.',
 	'numeric'               => 'Pole {field} musí obsahovať iba čísla.',
 	'regex_match'           => 'Pole {field} má nesprávny formát.',
 	'required'              => 'Pole {field} je povinné.',

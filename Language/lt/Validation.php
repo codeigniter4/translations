@@ -44,6 +44,7 @@ return [
 	'max_length'            => 'Laukas {field} negali būti ilgesnis, nei {param} ženklai/-ų.',
 	'min_length'            => 'Lauke {field} negali būti mažiau nei {param} ženklų.',
 	'not_equals'            => 'Lauko {field} reikšmė negali būti {param}.',
+	'not_in_list'           => 'The {field} field must not be one of: {param}.',
 	'numeric'               => 'Lauke {field} gali būti tik skaičiai.',
 	'regex_match'           => 'Laulas {field} yra neteisingo formato.',
 	'required'              => 'Laukas {field} yra privalomas.',

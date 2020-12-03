@@ -44,6 +44,7 @@ return [
 	'max_length'            => 'Het veld {field} mag niet meer dan {param} karakters lang zijn.',
 	'min_length'            => 'Het veld {field} moet minstens {param} karakters lang zijn.',
 	'not_equals'            => 'Het veld {field} mag niet zijn: {param}.',
+	'not_in_list'           => 'The {field} field must not be one of: {param}.',
 	'numeric'               => 'Het veld {field} mag enkel nummer bevatten.',
 	'regex_match'           => 'Het veld {field} is geen correct formaat.',
 	'required'              => 'Het veld {field} is verplicht.',

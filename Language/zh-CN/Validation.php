@@ -44,6 +44,7 @@ return [
 	'max_length'            => '{field} 字段长度不能超过 {param} 个字符。',
 	'min_length'            => '{field} 字段长度至少是 {param} 个字符。',
 	'not_equals'            => 'The {field} field cannot be: {param}.',
+	'not_in_list'           => 'The {field} field must not be one of: {param}.',
 	'numeric'               => '{field} 字段只能包含数字。',
 	'regex_match'           => '{field} 字段格式不正确。',
 	'required'              => '{field} 是必填字段。',

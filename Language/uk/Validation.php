@@ -44,6 +44,7 @@ return [
 	'max_length'            => 'Довжина поля {field} не може перевищувати {param} символів.',
 	'min_length'            => 'Довжина поля {field} має містити не менше {param} символів.',
 	'not_equals'            => 'Поле {field} не може бути: {param}.',
+	'not_in_list'           => 'The {field} field must not be one of: {param}.',
 	'numeric'               => 'Поле {field} має містити лише цифри.',
 	'regex_match'           => 'Поле {field} має неправильний формат.',
 	'required'              => 'Поле {field} є обов’язковим.',

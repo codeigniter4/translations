@@ -44,6 +44,7 @@ return [
 	'max_length'            => 'طول فیلد {field} نباید بیشتر از {param} کاراکتر باشد.',
 	'min_length'            => 'طول فیلد {field} باید حداقل {param} کاراکتر باشد.',
 	'not_equals'            => 'The {field} field cannot be: {param}.',
+	'not_in_list'           => 'The {field} field must not be one of: {param}.',
 	'numeric'               => 'فیلد {field} باید یک عدد باشد.',
 	'regex_match'           => 'فرمت فیلد {field} رعایت نشده است.',
 	'required'              => 'فیلد {field} اجباری است.',

@@ -44,6 +44,7 @@ return [
 	'max_length'            => 'الحقل {field} يجب أن لا يتجاوز أكثر من {param} حرف.',
 	'min_length'            => 'الحقل {field} يجب أن لا يقل عن {param} حرف.',
 	'not_equals'            => 'The {field} field cannot be: {param}.',
+	'not_in_list'           => 'The {field} field must not be one of: {param}.',
 	'numeric'               => 'الحقل {field} يجب أن يحتوى على أرقام فقط.',
 	'regex_match'           => 'الحقل {field} يجب أن يحتوى على الصيغة الصحيحة.',
 	'required'              => 'الحقل {field} إجباري.',

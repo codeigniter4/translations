@@ -44,6 +44,7 @@ return [
 	'max_length'            => '{field} ഫീൽഡിന് {param} പ്രതീകങ്ങളുടെ ദൈർഘ്യം കവിയാൻ പാടില്ല.',
 	'min_length'            => '{field} ഫീൽഡ് കുറഞ്ഞത് {param} പ്രതീകങ്ങളെങ്കിലും ആയിരിക്കണം.',
 	'not_equals'            => '{field} ഫീൽഡ് ആകരുത്: {param}.',
+	'not_in_list'           => 'The {field} field must not be one of: {param}.',
 	'numeric'               => '{field} ഫീൽഡിൽ അക്കങ്ങൾ മാത്രം അടങ്ങിയിരിക്കണം.',
 	'regex_match'           => '{field} ഫീൽഡ് ശരിയായ ഫോർമാറ്റിലല്ല.',
 	'required'              => '{field} ഫീൽഡ് ആവശ്യമാണ്.',

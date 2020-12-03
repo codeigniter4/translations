@@ -44,6 +44,7 @@ return [
 	'max_length'            => '欄位 {field} 的長度不能超過 {param} 個字元。',
 	'min_length'            => '欄位 {field} 的長度必須至少是 {param} 的字元。',
 	'not_equals'            => '欄位 {field} 不能是： {param}.',
+	'not_in_list'           => 'The {field} field must not be one of: {param}.',
 	'numeric'               => '欄位 {field} 必須包含數字。',
 	'regex_match'           => '欄位 {field} 的格式不正確。',
 	'required'              => '欄位 {field} 是必填欄位。',

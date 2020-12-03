@@ -44,6 +44,7 @@ return [
 	'max_length'            => '{field} alanı {param} karakterden fazla olamaz.',
 	'min_length'            => '{field} alanı en az {param} karakter olmalı.',
 	'not_equals'            => '{field} alanı {param} alanı ile eşit olmamalı.',
+	'not_in_list'           => 'The {field} field must not be one of: {param}.',
 	'numeric'               => '{field} alanı yalnız sayı içermeli.',
 	'regex_match'           => '{field} alanı doğru biçimde değil.',
 	'required'              => '{field} alanı gerekli.',

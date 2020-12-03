@@ -44,6 +44,7 @@ return [
 	'max_length'            => 'Skjemafeltet {field} kan ikke overstige lengden på {param} tegn.',
 	'min_length'            => 'Skjemafeltet {field} må være minst {param} tegn langt.',
 	'not_equals'            => 'Skjemafeltet {field} kan ikke være: {param}.',
+	'not_in_list'           => 'The {field} field must not be one of: {param}.',
 	'numeric'               => 'Skjemafeltet {field} kan bare inneholde tall.',
 	'regex_match'           => 'Skjemafeltet {field} er ikke i riktig format.',
 	'required'              => 'Skjemafeltet {field} er obligatorisk.',
