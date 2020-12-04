@@ -40,8 +40,6 @@ return [
 	'toVersionPH'       => 'Chuyển sang phiên bản %s...',
 	'toVersion'         => 'Chuyển sang phiên bản hiện tại...',
 	'rollingBack'       => 'Di chuyển trở lại hàng loạt: ',
-	'noneFound'         => 'No migrations were found.',
-	'on'                => 'Migrated On: ',
 	'migSeeder'         => 'Tên Seeder',
 	'migMissingSeeder'  => 'Bạn phải cung cấp một tên seeder.',
 	'removed'           => 'Quay trở lại: ',

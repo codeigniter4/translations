@@ -31,8 +31,6 @@ return [
 	'migCreate'       => "\tVytvoří novou migraci s názvem [ name ]",
 	'nameMigration'   => 'Pojmenujte migrační soubor',
 	'migNumberError'  => 'migrační číslo musí být tři číslice a v sekvenci nesmí být mezery.',
-	'rollBackConfirm' => 'Are you sure you want to rollback?',
-	'refreshConfirm'  => 'Are you sure you want to refresh?',
 
 	'latest'            => 'Spouštění všech nových migrací...',
 	'generalFault'      => 'Migrace selhala!',

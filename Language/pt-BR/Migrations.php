@@ -43,7 +43,6 @@ return [
 	'noneFound'         => 'Nenhuma migração foi encontrada.',
 	'migSeeder'         => 'Nome do seeder',
 	'migMissingSeeder'  => 'Você deve fornecer o nome de um seeder.',
-	'nameSeeder'        => 'Name the seeder file',
 	'removed'           => 'Revertendo: ',
 	'added'             => 'Rodando: ',
 

@@ -29,13 +29,6 @@ return [
 	// RedirectResponse
 	'invalidRoute' => '{0} geçersiz rota.',
 
-	// DownloadResponse
-	'cannotSetBinary'        => 'When setting filepath can not set binary.',
-	'cannotSetFilepath'      => 'When setting binary can not set filepath: {0}',
-	'notFoundDownloadSource' => 'Not found download body source.',
-	'cannotSetCache'         => 'It does not supported caching for downloading.',
-	'cannotSetStatusCode'    => 'It does not supported chnage status code for downloading. code: {0}, reason: {1}',
-
 	// Response
 	'missingResponseStatus' => 'HTTP Response durum kodu eksik.',
 	'invalidStatusCode'     => '{0} geçersiz HTTP cevap durum kodu',
@@ -60,14 +53,4 @@ return [
 	'alreadyMoved' => 'Yüklenen dosya zaten taşınmış.',
 	'invalidFile'  => 'Orijinal dosya geçersiz bir dosya.',
 	'moveFailed'   => '{0} dosyası {1} ({2}) ye taşınamıyor.',
-
-	'uploadErrOk'        => 'The file uploaded with success.',
-	'uploadErrIniSize'   => 'The file "%s" exceeds your upload_max_filesize ini directive.',
-	'uploadErrFormSize'  => 'The file "%s" exceeds the upload limit defined in your form.',
-	'uploadErrPartial'   => 'The file "%s" was only partially uploaded.',
-	'uploadErrNoFile'    => 'No file was uploaded.',
-	'uploadErrCantWrite' => 'The file "%s" could not be written on disk.',
-	'uploadErrNoTmpDir'  => 'File could not be uploaded: missing temporary directory.',
-	'uploadErrExtension' => 'File upload was stopped by a PHP extension.',
-	'uploadErrUnknown'   => 'The file "%s" was not uploaded due to an unknown error.',
 ];

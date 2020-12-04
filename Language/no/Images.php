@@ -17,8 +17,6 @@ return [
 	'gifNotSupported'        => 'GIF-bilder støttes ofte ikke på grunn av lisensbegrensninger. Du må kanskje bruke JPG- eller PNG-bilder i stedet.',
 	'jpgNotSupported'        => 'JPG-bilder støttes ikke.',
 	'pngNotSupported'        => 'PNG-bilder støttes ikke.',
-	'webpNotSupported'       => 'WEBP images are not supported.',
-	'fileNotSupported'       => 'The supplied file is not a supported image type.',
 	'unsupportedImageCreate' => 'Serveren støtter ikke GD-funksjonen som kreves for å behandle denne typen bilder.',
 	'jpgOrPngRequired'       => 'Endringsprotokoll for bildestørrelse som er spesifisert i innstillingene, fungerer bare med JPEG- eller PNG-bildetyper.',
 	'rotateUnsupported'      => 'Bildrotasjon ser ikke ut til å være støttet av serveren.',

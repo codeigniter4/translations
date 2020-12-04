@@ -10,7 +10,6 @@
  */
 
 return [
-	'pageNavigation'         => 'Page navigation',
 	'first'                  => 'Första',
 	'previous'               => 'Föregående',
 	'next'                   => 'Nästa',

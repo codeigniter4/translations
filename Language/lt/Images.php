@@ -17,8 +17,6 @@ return [
 	'gifNotSupported'        => 'GIF paveikslėliai dažnai nėra palaikomi dėl licenzijavimo apribojimų. Vietoje jų gali tekti naudoti JPG arba PNG paveikslėlius.',
 	'jpgNotSupported'        => 'JPG paveikslėliai nepalaikomi.',
 	'pngNotSupported'        => 'PNG paveikslėliai nepalaikomi.',
-	'webpNotSupported'       => 'WEBP images are not supported.',
-	'fileNotSupported'       => 'The supplied file is not a supported image type.',
 	'unsupportedImageCreate' => 'Serveris nepalaiko GD funkcijos, kurios reikia šio paveikslėlio apdorojimui.',
 	'jpgOrPngRequired'       => 'Paveikslėlių dydžio keitimo protokolas, nurodytas Jūsų nustatymuose, veikia tik su JPG arba PNG paveikslėlių tipais.',
 	'rotateUnsupported'      => 'Paveikslėlių sukimas atrodo nėra palaikomas serverio.',

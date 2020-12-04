@@ -17,8 +17,6 @@ return [
 	'gifNotSupported'        => 'Obrázky GIF často nie sú podporované kvôli licenčným obmedzeniam. Možno budete musieť namiesto toho použiť obrázky JPG alebo PNG.',
 	'jpgNotSupported'        => 'Obrázky JPG nie sú podporované.',
 	'pngNotSupported'        => 'Obrázky PNG nie sú podporované.',
-	'webpNotSupported'       => 'WEBP images are not supported.',
-	'fileNotSupported'       => 'The supplied file is not a supported image type.',
 	'unsupportedImageCreate' => 'Váš server nepodporuje funkciu GD potrebnú na spracovanie tohto typu obrázka.',
 	'jpgOrPngRequired'       => 'Protokol o zmene veľkosti obrázka špecifikovaný vo vašich preferenciách funguje iba pre typy obrázkov JPEG alebo PNG.',
 	'rotateUnsupported'      => 'Zdá sa, že váš server nepodporuje rotáciu obrázkov.',
