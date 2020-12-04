@@ -16,4 +16,15 @@ namespace Translations\Tests;
  */
 final class JapaneseTranslationTest extends AbstractTranslationTestCase
 {
+	protected function setUp(): void
+	{
+		// The keys of this locale that do not differ from the english value even if translated.
+		$this->excludedLocaleKeyTranslations = [
+			'Number.thousand',
+			'Number.million',
+			'Number.billion',
+			'Number.trillion',
+			'Number.quadrillion',
+		];
+	}
 }

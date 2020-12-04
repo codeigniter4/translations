@@ -64,6 +64,18 @@ abstract class AbstractTranslationTestCase extends TestCase
 		SimpleChineseTranslationTest::class      => 'zh-CN',
 		TraditionalChineseTranslationTest::class => 'zh-TW',
 	];
+	
+	/**
+	 * A list of language keys that do not differ from
+	 * the untranslated string even if translated correctly.
+	 *
+	 * This array will be filled in each locale's test
+	 * class and the contained values will be skipped in
+	 * testAllIncludedLanguageKeysAreTranslated.
+	 *
+	 * @var array<string, string>
+	 */
+	protected $excludedLocaleKeyTranslations = [];
 
 	//-------------------------------------------------------------------------
 	// TESTS
@@ -202,6 +214,63 @@ abstract class AbstractTranslationTestCase extends TestCase
 			implode('", "', $keysNotConfigured),
 			$locale,
 			$count > 1 ? 'are' : 'is'
+		));
+	}
+
+	/**
+	 * This tests that all included language keys in a language file for the current
+	 * locale that have corresponding keys in the main CI4 repository are really translated
+	 * and do not only copy the main repository's value.
+	 *
+	 * @dataProvider localesProvider
+	 *
+	 * @param string $locale
+	 *
+	 * @return void
+	 */
+	final public function testAllIncludedLanguageKeysAreTranslated(string $locale): void
+	{
+		// These keys are usually not translated because they contain either
+		// universal abbreviations or simply combine parameters with signs.
+		static $excludedKeyTranslations = [
+			'HTTP.curlError',
+			'Number.terabyteAbbr',
+			'Number.gigabyteAbbr',
+			'Number.megabyteAbbr',
+			'Number.kilobyteAbbr',
+			'Number.bytes',
+		];
+
+		// Merge the locales excluded key list
+		$localeTestClassName = array_flip(self::$locales)[$locale];
+		$localeTestClass = new $localeTestClassName();
+		$excludedKeys = array_unique(array_merge($excludedKeyTranslations, $this->excludedLocaleKeyTranslations));
+
+		$availableSets     = array_intersect($this->expectedSets(), $this->foundSets($locale));
+		$keysNotTranslated = [];
+
+		foreach ($availableSets as $file)
+		{
+			$originalStrings = $this->loadFile($file);
+			foreach($this->loadFile($file, $locale) as $key => $translation)
+			{
+				$keyName = substr($file, 0, -4) . '.' . $key;
+				if(!in_array($keyName, $excludedKeys, true) && ((array_key_exists($key, $originalStrings) && $originalStrings[$key] === $translation) || $translation === ''))
+				{
+					$keysNotTranslated[] = $keyName;
+				}
+			}
+		}
+
+		sort($keysNotTranslated);
+		$count = count($keysNotTranslated);
+
+		$this->assertEmpty($keysNotTranslated, sprintf(
+			'Failed asserting that the translated language %s "%s" in "%s" locale %s from the original keys in the main repository.',
+			$count > 1 ? 'keys' : 'key',
+			implode('", "', $keysNotTranslated),
+			$locale,
+			$count > 1 ? 'differ' : 'differs'
 		));
 	}
 
