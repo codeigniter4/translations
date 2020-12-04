@@ -38,25 +38,25 @@ show which files are missing or extra or which language strings are missing or e
 
 For instance, a test error showing that the `de` translation has extra files not found in the framework:
 
-    1) CodeIgniter\Language\GermanTranslationTest::testAllTranslatedLanguageFilesAreConfigured with data set "de" ('de')
+    1) Translations\Tests\GermanTranslationTest::testAllTranslatedLanguageFilesAreConfigured with data set "de" ('de')
     Failed asserting that translated language file "Seed.php" in "de" locale is configured in the main repository.
     Failed asserting that an array is empty.
 
 Another example showing missing files in the `de` translation set:
 
-    2) CodeIgniter\Language\GermanTranslationTest::testAllConfiguredLanguageFilesAreTranslated with data set "de" ('de')
+    2) Translations\Tests\GermanTranslationTest::testAllConfiguredLanguageFilesAreTranslated with data set "de" ('de')
     Failed asserting that language file "CLI.php" in the main repository is translated in "de" locale.
     Failed asserting that an array is empty.
 
 An example showing missing keys for the `de` translation set:
 
-    3) CodeIgniter\Language\GermanTranslationTest::testAllConfiguredLanguageKeysAreIncluded with data set "de" ('de')
+    3) Translations\Tests\GermanTranslationTest::testAllConfiguredLanguageKeysAreIncluded with data set "de" ('de')
     Failed asserting that the language keys "CLI.altCommandPlural", "CLI.altCommandSingular", "CLI.generateClassName", "CLI.generateFileError", "CLI.generateFileExists", "CLI.generateFileSuccess", "CLI.generateParentClass", "CLI.namespaceNotDefined", "Database.emptyDataset", "Database.emptyPrimaryKey", "Email.sent", "Fabricator.createFailed", "Format.invalidFormatter", "Format.invalidMime", "HTTP.invalidSameSiteSetting", "Migrations.batch", "Migrations.group", "Migrations.missingTable", "Migrations.nameSeeder", "Migrations.namespace", "Session.invalidSameSiteSetting", "Validation.not_in_list" in the main repository are included for translation in "de" locale.
     Failed asserting that an array is empty.
 
 Lastly, an example showing extra keys for the `de` translation set:
 
-    4) CodeIgniter\Language\GermanTranslationTest::testAllIncludedLanguageKeysAreConfigured with data set "de" ('de')
+    4) Translations\Tests\GermanTranslationTest::testAllIncludedLanguageKeysAreConfigured with data set "de" ('de')
     Failed asserting that the translated language keys "Migrations.badCreateName", "Migrations.writeError" in "de" locale are configured in the main repository.
     Failed asserting that an array is empty.
 
@@ -66,7 +66,7 @@ The failure messages are fully descriptive of what went wrong in the translation
 
 Each language locale in this repository has a corresponding test class located in `tests/Language/` folder.
 These test classes test individually the language sets for its completeness and precision. However, the test
-class `CodeIgniter\Language\AllLocalesTranslationTest` tests **ALL** locales at once. This is used for a
+class `Translations\Tests\AllLocalesTranslationTest` tests **ALL** locales at once. This is used for a
 full-blown testing of all language sets.
 
 When adding a new locale for translation, the following steps should be followed strictly:
@@ -75,7 +75,7 @@ When adding a new locale for translation, the following steps should be followed
 2. Create a new test class in `tests/Language` folder. For example, the new locale is Canadian French
 (fr-CA), then a test class named `CanadianFrenchTranslationTest` will be created. The pattern for naming is
 the full name of the new locale followed by `TranslationTest`.
-3. This new test class should be extending `CodeIgniter\Language\AbstractTranslationTestCase` and be marked
+3. This new test class should be extending `Translations\Tests\AbstractTranslationTestCase` and be marked
 as a final class. This would not contain any new methods or properties as its sole purpose is to extend
 `AbstractTranslationTestCase` for testing the specific locale.
 4. In the static `$locales` array of `AbstractTranslationTestCase` this new class should be added. The name

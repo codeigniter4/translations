@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace CodeIgniter\Language;
+namespace Translations\Tests;
 
 use PHPUnit\Framework\TestCase;
 
@@ -107,7 +107,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 		sort($filesNotTranslated);
 		$count = count($filesNotTranslated);
 
-		$this->assertEmpty($filesNotTranslated, sprintf(
+		self::assertEmpty($filesNotTranslated, sprintf(
 			'Failed asserting that language %s "%s" in the main repository %s translated in "%s" locale.',
 			$count > 1 ? 'files' : 'file',
 			implode('", "', $filesNotTranslated),
@@ -136,7 +136,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 		sort($filesNotConfigured);
 		$count = count($filesNotConfigured);
 
-		$this->assertEmpty($filesNotConfigured, sprintf(
+		self::assertEmpty($filesNotConfigured, sprintf(
 			'Failed asserting that translated language %s "%s" in "%s" locale %s configured in the main repository.',
 			$count > 1 ? 'files' : 'file',
 			implode('", "', $filesNotConfigured),
@@ -157,7 +157,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 	 */
 	final public function testAllConfiguredLanguageKeysAreIncluded(string $locale): void
 	{
-		$availableSets   = array_intersect($this->expectedSets(), $this->foundSets($locale));
+		$availableSets = array_intersect($this->expectedSets(), $this->foundSets($locale));
 		$keysNotIncluded = [];
 
 		foreach ($availableSets as $file)
@@ -176,7 +176,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 		sort($keysNotIncluded);
 		$count = count($keysNotIncluded);
 
-		$this->assertEmpty($keysNotIncluded, sprintf(
+		self::assertEmpty($keysNotIncluded, sprintf(
 			'Failed asserting that the language %s "%s" in the main repository %s included for translation in "%s" locale.',
 			$count > 1 ? 'keys' : 'key',
 			implode('", "', $keysNotIncluded),
@@ -197,7 +197,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 	 */
 	final public function testAllIncludedLanguageKeysAreConfigured(string $locale): void
 	{
-		$availableSets     = array_intersect($this->expectedSets(), $this->foundSets($locale));
+		$availableSets = array_intersect($this->expectedSets(), $this->foundSets($locale));
 		$keysNotConfigured = [];
 
 		foreach ($availableSets as $file)
@@ -216,7 +216,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 		sort($keysNotConfigured);
 		$count = count($keysNotConfigured);
 
-		$this->assertEmpty($keysNotConfigured, sprintf(
+		self::assertEmpty($keysNotConfigured, sprintf(
 			'Failed asserting that the translated language %s "%s" in "%s" locale %s configured in the main repository.',
 			$count > 1 ? 'keys' : 'key',
 			implode('", "', $keysNotConfigured),
@@ -248,7 +248,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 		sort($untestedLocales);
 		$count = count($untestedLocales);
 
-		$this->assertEmpty($untestedLocales, sprintf(
+		self::assertEmpty($untestedLocales, sprintf(
 			'Failed asserting that %s "%s" %s corresponding test %s in %s::$locales array.',
 			$count > 1 ? 'locales' : 'locale',
 			implode('", "', $untestedLocales),
@@ -267,7 +267,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 	 */
 	final public function testAllLocalesHaveCorrespondingTestCaseFiles(string $class): void
 	{
-		$this->assertTrue(class_exists($class, false), sprintf(
+		self::assertTrue(class_exists($class, false), sprintf(
 			'Failed asserting that test class "%s" is existing.',
 			$class
 		));
@@ -301,7 +301,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 
 		foreach ($dirs as $dir)
 		{
-			$dir        = trim($dir, '\\/');
+			$dir = trim($dir, '\\/');
 			$sets[$dir] = [$dir];
 		}
 
@@ -339,7 +339,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 	/**
 	 * Gets the set of language files for each location.
 	 *
-	 * @param string|null $locale
+	 * @param null|string $locale
 	 *
 	 * @return array
 	 */
@@ -349,7 +349,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 			? getcwd() . "/Language/{$locale}/"
 			: getcwd() . self::MAIN_LANGUAGE_REPO;
 
-		$sets  = [];
+		$sets = [];
 		$files = directory_map($location, 1);
 
 		foreach ($files as $file)
