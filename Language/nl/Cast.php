@@ -18,4 +18,3 @@ return [
 	'jsonErrorUtf8'          => 'Foutieve UTF-8 karakters, mogelijk foutieve encoding',
 	'jsonErrorUnknown'       => 'Ongekende fout',
 ];
-

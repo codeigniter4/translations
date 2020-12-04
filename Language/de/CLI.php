@@ -11,14 +11,14 @@
 
 // CLI language settings
 return [
-	'commandNotFound'     => 'Befehl "{0}" nicht gefunden.',
-	'altCommandSingular'  => 'War dieser Befehl gemeint?',
-	'altCommandPlural'    => 'War einer dieser Befehle gemeint?',
-	'helpUsage'           => 'Verwendung:',
-	'helpDescription'     => 'Beschreibung:',
-	'helpOptions'         => 'Optionen:',
-	'helpArguments'       => 'Argumente:',
-	'invalidColor'        => 'Ungültige {0} Farbe: {1}.',
+	'commandNotFound'    => 'Befehl "{0}" nicht gefunden.',
+	'altCommandSingular' => 'War dieser Befehl gemeint?',
+	'altCommandPlural'   => 'War einer dieser Befehle gemeint?',
+	'helpUsage'          => 'Verwendung:',
+	'helpDescription'    => 'Beschreibung:',
+	'helpOptions'        => 'Optionen:',
+	'helpArguments'      => 'Argumente:',
+	'invalidColor'       => 'Ungültige {0} Farbe: {1}.',
 
 	// Generators
 	'generateClassName'   => 'Name der Klasse',

@@ -69,5 +69,5 @@ return [
 	'uploadErrCantWrite' => '文件 "%s" 无法写入磁盘。',
 	'uploadErrNoTmpDir'  => '文件无法被上传: 缺少临时目录。',
 	'uploadErrExtension' => '文件上传因为 PHP 扩展被停止了。',
-	'uploadErrUnknown'   => '文件 "%s" 因未知原因而上传失败了。'
+	'uploadErrUnknown'   => '文件 "%s" 因未知原因而上传失败了。',
 ];
