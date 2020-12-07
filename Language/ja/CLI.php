@@ -11,7 +11,7 @@
 
 // CLI language settings
 return [
-	'commandNotFound' => '"{0}"というコマンドはありません。', //Command "{0}" not found.
+	'commandNotFound' => '"{0}" というコマンドはありません。', //Command "{0}" not found.
 	'altCommandSingular'  => 'これですか？', //Did you mean this?
 	'altCommandPlural'    => 'この中の1つですか？', //Did you mean one of these?
 	'helpUsage'       => '使用法:', //Usage:
