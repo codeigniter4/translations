@@ -46,7 +46,7 @@ return [
 	'not_equals'            => '{field} を {param} にすることはできません。', //The {field} field cannot be: {param}.
 	'numeric'               => '{field} は半角の数値のみを入力してください。.', //The {field} field must contain only numbers.
 	'regex_match'           => '{field} は正しいフォーマットではありません。', //The {field} field is not in the correct format.
-	'required'              => '{field} 必須項目です。', //The {field} field is required.
+	'required'              => '{field} は必須項目です。', //The {field} field is required.
 	'required_with'         => '{field} は {param} が存在する場合には必須項目です。', //The {field} field is required when {param} is present.
 	'required_without'      => '{field} は {param} が存在しない場合には必須項目です。', //The {field} field is required when {param} is not present.
 	'string'                => '{field} には、有効な文字列入力してください。', //The {field} field must be a valid string.
