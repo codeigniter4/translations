@@ -44,6 +44,7 @@ return [
 	'max_length'            => '{field} は {param} 文字以内で入力してください。', //The {field} field cannot exceed {param} characters in length.
 	'min_length'            => '{field} は {param} 文字以上で入力してください。', //The {field} field must be at least {param} characters in length.
 	'not_equals'            => '{field} を {param} にすることはできません。', //The {field} field cannot be: {param}.
+	'not_in_list'           => '{field} は {param} の中の1つを入力してください。', //The {field} field must not be one of: {param}.
 	'numeric'               => '{field} は半角の数値のみを入力してください。.', //The {field} field must contain only numbers.
 	'regex_match'           => '{field} は正しいフォーマットではありません。', //The {field} field is not in the correct format.
 	'required'              => '{field} は必須項目です。', //The {field} field is required.

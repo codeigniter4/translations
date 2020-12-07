@@ -44,9 +44,15 @@ return [
 	'on'                => '移行先: ', //Migrated On:
 	'migSeeder'         => 'seeder名', //Seeder name
 	'migMissingSeeder'  => 'seeder名が必要です。', //You must provide a seeder name.
+	'nameSeeder'        => 'seederファイル名', //Name the seeder file
 	'removed'           => 'ロールバック: ', //Rolling back:
 	'added'             => '実行中: ', //Running:
 
 	'version'  => 'バージョン', //Version
+	// Migrate Status
+	'namespace'         => '名前空間', //Namespace
 	'filename' => 'ファイル名', //Filename
+	'group'             => 'グループ', //Group
+	'on'                => '移行先: ', //Migrated On:
+	'batch'             => 'バッチ', //Batch
 ];

@@ -13,4 +13,5 @@
 return [
 	'invalidModel'      => 'Invalid model supplied for fabrication.',
 	'missingFormatters' => 'No valid formatters defined.',
+	'createFailed'      => 'Fabricator は {0} テーブルへの挿入に失敗しました: {1}.', //Fabricator failed to insert on table {0}: {1}.
 ];
