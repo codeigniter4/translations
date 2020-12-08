@@ -13,10 +13,10 @@
 return [
 	// Core Messages
 	'noRuleSets'      => 'バリデーション構成で指定されたルールセットはありません。', //No rulesets specified in Validation configuration.
-	'ruleNotFound'    => '{0}は有効なルールではありません。', //{0} is not a valid rule.
-	'groupNotFound'   => '{0}はバリデーションルールグループではありません。', //{0} is not a validation rules group.
-	'groupNotArray'   => '{0}ルールグループは配列でなければなりません。', //{0} rule group must be an array.
-	'invalidTemplate' => '{0}は有効なバリデーションテンプレートではありません。', //{0} is not a valid Validation template.
+	'ruleNotFound'    => '{0} は有効なルールではありません。', //{0} is not a valid rule.
+	'groupNotFound'   => '{0} はバリデーションルールグループではありません。', //{0} is not a validation rules group.
+	'groupNotArray'   => '{0} ルールグループは配列でなければなりません。', //{0} rule group must be an array.
+	'invalidTemplate' => '{0} は有効なバリデーションテンプレートではありません。', //{0} is not a valid Validation template.
 
 	// Rule Messages
 	'alpha'                 => '{field} は半角英字のみ利用可能です。', //The {field} field may only contain alphabetical characters.
@@ -44,6 +44,7 @@ return [
 	'max_length'            => '{field} は {param} 文字以内で入力してください。', //The {field} field cannot exceed {param} characters in length.
 	'min_length'            => '{field} は {param} 文字以上で入力してください。', //The {field} field must be at least {param} characters in length.
 	'not_equals'            => '{field} を {param} にすることはできません。', //The {field} field cannot be: {param}.
+	'not_in_list'           => '{field} は {param} の中の1つを入力してください。', //The {field} field must not be one of: {param}.
 	'numeric'               => '{field} は半角の数値のみを入力してください。.', //The {field} field must contain only numbers.
 	'regex_match'           => '{field} は正しいフォーマットではありません。', //The {field} field is not in the correct format.
 	'required'              => '{field} は必須項目です。', //The {field} field is required.

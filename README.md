@@ -40,7 +40,7 @@ claims no expertise beyond English.
 | fr     | French               | 4.0.0   | [amuratet][fr]       | Amuratet?
 | id     | Indonesian           | 4.0.0   | [ridho1991][id]      | Mutasim Ridlo
 | it     | Italian              | 4.0.0   | [luk3b8][it]         | Luca Rasia
-| ja     | Japanese             | 4.x     | [kohenji01][ja]      | Shoji Ogura
+| ja     | Japanese             | 4.x     | [kenjis][ja]         | Kenji Suzuki
 | ko     | Korean               | 4.0.2   | [codeigniter-kr][kr] | codeigniter-kr
 | lt     | Lithuanian           | 4.0.2   | [dgvirtual][lt]      | Donatas Glodenis
 | lv     | Latvian              | 4.x     | [davislasis][lv]     | Dāvis Lasis
@@ -69,7 +69,7 @@ _**Version where the locale was released. 4.x denotes `Unreleased`._
 [fr]: https://github.com/amuratet
 [id]: https://github.com/ridho1991
 [it]: https://github.com/luk3b8
-[ja]: https://github.com/kohenji01
+[ja]: https://github.com/kenjis
 [kr]: https://github.com/codeigniter-kr
 [lt]: https://github.com/dgvirtual
 [lv]: https://github.com/davislasis

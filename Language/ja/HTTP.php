@@ -18,10 +18,10 @@ return [
 	'curlError'       => '{0} : {1}', //{0} : {1}
 
 	// IncomingRequest
-	'invalidNegotiationType' => '{0} は有効なネゴシエーションタイプではありません。値は次のいずれかでなければなりません:media, charset, encoding, language', //{0} is not a valid negotiation type. Must be one of: media, charset, encoding, language.
+	'invalidNegotiationType' => '{0} は有効なネゴシエーションタイプではありません。値は次のいずれかでなければなりません: media, charset, encoding, language', //{0} is not a valid negotiation type. Must be one of: media, charset, encoding, language.
 
 	// Message
-	'invalidHTTPProtocol' => 'HTTP プロトコルのバージョンが無効です。値は次のいずれかでなければなりません:{0}', //Invalid HTTP Protocol Version. Must be one of: {0}
+	'invalidHTTPProtocol' => 'HTTP プロトコルのバージョンが無効です。値は次のいずれかでなければなりません: {0}', //Invalid HTTP Protocol Version. Must be one of: {0}
 
 	// Negotiate
 	'emptySupportedNegotiations' => 'すべてのネゴシエーションにサポートされている値の配列を設定する必要があります。', //You must provide an array of supported values to all Negotiations.
@@ -59,7 +59,7 @@ return [
 	// Uploaded file moving
 	'alreadyMoved' => 'アップロードしたファイルは既に移動済みです。', //The uploaded file has already been moved.
 	'invalidFile'  => 'オリジナルファイルは有効なファイルではありません。', //The original file is not a valid file.
-	'moveFailed'   => 'ファイル{0}を{1}に移動できませんでした。({2})', //Could not move file {0} to {1} ({2})
+	'moveFailed'   => 'ファイル {0} を {1} に移動できませんでした。({2})', //Could not move file {0} to {1} ({2})
 
 	'uploadErrOk'        => 'ファイルのアップロードに成功しました。', //The file uploaded with success.
 	'uploadErrIniSize'   => 'ファイル "%s" がupload_max_filesize ini ディレクティブの値を超えています。', //The file "%s" exceeds your upload_max_filesize ini directive.
@@ -70,4 +70,7 @@ return [
 	'uploadErrNoTmpDir'  => 'ファイルをアップロードできませんでした。: 一時ディレクトリが見つかりません。', //File could not be uploaded: missing temporary directory.
 	'uploadErrExtension' => 'ファイルアップロードはPHP機能拡張により停止されました。', //File upload was stopped by a PHP extension.
 	'uploadErrUnknown'   => 'ファイル "%s" は未知のエラーのためアップロードされませんでした。', //The file "%s" was not uploaded due to an unknown error.
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'SameSite 設定には None、Lax、Strict または空文字列を指定する必要がありますが、「{0}」が指定されました。', //The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}
 ];
