@@ -81,7 +81,7 @@ as a final class. This would not contain any new methods or properties as its so
 4. In the static `$locales` array of `AbstractTranslationTestCase` this new class should be added. The name
 of the new class would be the key and its corresponding locale would be the value. The `$locales` array
 should be sorted on the basis of values.
-5. Add the details of new locale in [README](README.rst). If the details is originally in
+5. Add the details of new locale in [README](README.md). If the details is originally in
 the [MISSING](MISSING.rst), remove the details from there.
 6. After that, run the unit tests for your new locale:
 
