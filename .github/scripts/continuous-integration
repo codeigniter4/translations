@@ -6,18 +6,15 @@ ini_set('display_errors', '1');
 
 require __DIR__ . '/../../vendor/autoload.php';
 
-use CodeIgniter\Language\AbstractTranslationTestCase;
+use Translations\Tests\AbstractTranslationTestCase;
 
-$args = $_SERVER['argv'];
-
-if (! isset($args[1]))
+if (! isset($argv[1]))
 {
 	fwrite(STDERR, 'Changed files are not provided. Aborting...');
 	exit(1);
 }
 
-$files = $args[1];
-unset($args);
+$files = $argv[1];
 
 $files = explode(' ', trim($files));
 
@@ -35,7 +32,7 @@ $locales = [];
 
 foreach ($stagedPhpFiles as $file)
 {
-	if (preg_match('/^Language\/(.*)\/.*\.php$/', $file, $matches))
+	if (preg_match('/^Language\/(.+)\/.+\.php$/', $file, $matches))
 	{
 		$locales[] = $matches[1];
 	}
@@ -55,8 +52,8 @@ if ($count === 0)
 if ($count === count(AbstractTranslationTestCase::$locales))
 {
 	$return = 0;
-	fwrite(STDOUT, "Testing all language files in all locales.\n\n");
-	passthru('vendor/bin/phpunit --filter AllLocalesTranslationTest', $return);
+	fwrite(STDOUT, "\nTesting all language files in all locales.\n\n");
+	passthru('vendor/bin/phpunit --color=always', $return);
 
 	exit($return);
 }
@@ -67,9 +64,9 @@ $return  = 0;
 foreach ($locales as $locale)
 {
 	$localeMap = array_flip(AbstractTranslationTestCase::$locales);
-	$class     = preg_replace('/^CodeIgniter\\\\Language\\\\(.*)$/u', '$1', $localeMap[$locale]);
+	$class     = preg_replace('/^Translations\\\\Tests\\\\(.+)$/u', '$1', $localeMap[$locale]);
 
-	fwrite(STDOUT, 'Executing vendor/bin/phpunit --color=always --filter ' . $class . "\n\n");
+	fwrite(STDOUT, "\nExecuting vendor/bin/phpunit --color=always --filter {$class}\n\n");
 	passthru("vendor/bin/phpunit --color=always --filter {$class}", $return);
 
 	$returns += $return;

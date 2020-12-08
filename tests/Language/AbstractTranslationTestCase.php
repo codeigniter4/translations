@@ -34,9 +34,6 @@ abstract class AbstractTranslationTestCase extends TestCase
 	 * Collection of all locale codes mapped from the
 	 * individual locale translation test case.
 	 *
-	 * **NOTE: Do not include `AllLocalesTranslationTest` in
-	 * this collection.**
-	 *
 	 * @var array<string, string>
 	 */
 	public static $locales = [
@@ -84,25 +81,10 @@ abstract class AbstractTranslationTestCase extends TestCase
 	 */
 	final public function testAllConfiguredLanguageFilesAreTranslated(string $locale): void
 	{
-		// These localisation variants are usually independent on their own and have no single
-		// parent locale to compare with so they are treated as if a parent locale
-		static $excludedLocales = [
-			'pt-BR',
-			'sv-SE',
-			'sv-FI',
-			'zh-CN',
-			'zh-TW',
-		];
-
-		$filesNotTranslated = [];
-
-		if (strlen($locale) === 2 || (strlen($locale) > 2 && in_array($locale, $excludedLocales, true)))
-		{
-			$filesNotTranslated = array_diff(
-				$this->expectedSets(),
-				$this->foundSets($locale)
-			);
-		}
+		$filesNotTranslated = array_diff(
+			$this->expectedSets(),
+			$this->foundSets($locale)
+		);
 
 		sort($filesNotTranslated);
 		$count = count($filesNotTranslated);
@@ -157,10 +139,9 @@ abstract class AbstractTranslationTestCase extends TestCase
 	 */
 	final public function testAllConfiguredLanguageKeysAreIncluded(string $locale): void
 	{
-		$availableSets = array_intersect($this->expectedSets(), $this->foundSets($locale));
 		$keysNotIncluded = [];
 
-		foreach ($availableSets as $file)
+		foreach ($this->foundSets($locale) as $file)
 		{
 			$missing = array_diff_key(
 				$this->loadFile($file),
@@ -197,10 +178,9 @@ abstract class AbstractTranslationTestCase extends TestCase
 	 */
 	final public function testAllIncludedLanguageKeysAreConfigured(string $locale): void
 	{
-		$availableSets = array_intersect($this->expectedSets(), $this->foundSets($locale));
 		$keysNotConfigured = [];
 
-		foreach ($availableSets as $file)
+		foreach ($this->foundSets($locale) as $file)
 		{
 			$extra = array_diff_key(
 				$this->loadFile($file, $locale),
@@ -228,61 +208,31 @@ abstract class AbstractTranslationTestCase extends TestCase
 	final public function localesProvider(): iterable
 	{
 		helper('filesystem');
-		$locale = self::$locales[static::class] ?? $this->translationKeys();
+		$locale = self::$locales[static::class] ?? null;
 
-		if (! is_array($locale))
+		if (null === $locale)
 		{
-			$locale = [$locale => [$locale]];
+			$this->fail('The locale code should be defined in the $locales property.');
 		}
 
-		return $locale;
-	}
-
-	final public function testAllLocalesHaveCorrespondingTestCaseInArray(): void
-	{
-		$untestedLocales = array_diff(
-			array_keys($this->translationKeys()),
-			array_values(self::$locales)
-		);
-
-		sort($untestedLocales);
-		$count = count($untestedLocales);
-
-		self::assertEmpty($untestedLocales, sprintf(
-			'Failed asserting that %s "%s" %s corresponding test %s in %s::$locales array.',
-			$count > 1 ? 'locales' : 'locale',
-			implode('", "', $untestedLocales),
-			$count > 1 ? 'have' : 'has a',
-			$count > 1 ? 'cases' : 'case',
-			self::class
-		));
+		return [$locale => [$locale]];
 	}
 
 	/**
-	 * @dataProvider localeTestCaseProvider
+	 * @dataProvider localesProvider
 	 *
-	 * @param string $class
+	 * @param string $locale
 	 *
 	 * @return void
 	 */
-	final public function testAllLocalesHaveCorrespondingTestCaseFiles(string $class): void
+	final public function testLocaleHasCorrespondingTestCaseFile(string $locale): void
 	{
+		$class = array_flip(self::$locales)[$locale];
+
 		self::assertTrue(class_exists($class, false), sprintf(
 			'Failed asserting that test class "%s" is existing.',
 			$class
 		));
-	}
-
-	final public function localeTestCaseProvider(): iterable
-	{
-		$set = [];
-
-		foreach (self::$locales as $class => $locale)
-		{
-			$set[$locale] = [$class];
-		}
-
-		return $set;
 	}
 
 	//-------------------------------------------------------------------------
