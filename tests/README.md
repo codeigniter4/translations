@@ -22,11 +22,11 @@ If running under OS X or Linux, you can create a symbolic link to make running t
 
 The entire test suite can be ran by simply running the command below:
 
-	./phpunit --filter AllLocalesTranslationTest
+	vendor/bin/phpunit
 
 To run the specific test suite for a locale, simply provide the class name of the locale-specific test:
 
-	./phpunit --filter FrenchTranslationTest
+	vendor/bin/phpunit --filter FrenchTranslationTest
 
 Locale-specific test class names follow the named regex pattern `/^(?P<locale>[A-Za-z]+)TranslationTest$/`.
 

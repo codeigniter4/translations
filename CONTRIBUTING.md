@@ -7,9 +7,6 @@ locally, and then create a new branch (from `develop`) for each set of related c
 or for a complete language pack. Once your branch is complete, create a pull
 request to merge it into the develop branch of this repository.
 
-If you are contributing a variant of a main locale (e.g. "en-CA"), you
-only need to provide those translations that differ from it.
-
 Each translation set would go inside a folder named following the two-letter ISO-639-1 language code.
 Localization variants would have folders named with the two-letter ISO 639-1 language code in lowercase,
 followed by the two-letter ISO 3166 country code capitalized,
