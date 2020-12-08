@@ -49,10 +49,10 @@ return [
 	'added'             => '実行中: ', //Running:
 
 	// Migrate Status
-	'namespace'         => '名前空間', //Namespace
-	'filename' => 'ファイル名', //Filename
-	'version'  => 'バージョン', //Version
-	'group'             => 'グループ', //Group
-	'on'                => '移行先: ', //Migrated On:
-	'batch'             => 'バッチ', //Batch
+	'namespace' => '名前空間', //Namespace
+	'filename'  => 'ファイル名', //Filename
+	'version'   => 'バージョン', //Version
+	'group'     => 'グループ', //Group
+	'on'        => '移行先: ', //Migrated On:
+	'batch'     => 'バッチ', //Batch
 ];

@@ -72,5 +72,5 @@ return [
 	'uploadErrUnknown'   => 'ファイル "%s" は未知のエラーのためアップロードされませんでした。', //The file "%s" was not uploaded due to an unknown error.
 
 	// SameSite setting
-	'invalidSameSiteSetting'     => 'SameSite 設定には None、Lax、Strict または空文字列を指定する必要がありますが、「{0}」が指定されました。', //The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}
+	'invalidSameSiteSetting' => 'SameSite 設定には None、Lax、Strict または空文字列を指定する必要がありますが、「{0}」が指定されました。', //The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}
 ];
