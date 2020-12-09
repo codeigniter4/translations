@@ -43,9 +43,15 @@ return [
 	'on'                => 'Migrato a: ',
 	'migSeeder'         => 'Nome seminatrice',
 	'migMissingSeeder'  => 'Devi fornire un nome seminatrice.',
+	'nameSeeder'        => 'Nome del file seeder',
 	'removed'           => 'Tornando indietro: ',
 	'added'             => 'Elaborazione: ',
 
-	'version'  => 'Versione',
-	'filename' => 'Nome file',
+	// Migrate Status
+	'namespace'         => 'Namespace',
+	'filename'          => 'Filename',
+	'version'           => 'Version',
+	'group'             => 'Group',
+	'on'                => 'Migrated On: ',
+	'batch'             => 'Batch',
 ];

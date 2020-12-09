@@ -70,4 +70,7 @@ return [
 	'uploadErrNoTmpDir'  => 'Impossibile caricare il file: è necessaria una directory temporanea.',
 	'uploadErrExtension' => 'Il caricamento del file è stato interrotto da un\'estensione PHP.',
 	'uploadErrUnknown'   => 'Non è stato possibile caricare il file "%s" a causa di un errore sconosciuto.',
+
+	// SameSite setting
+	'invalidSameSiteSetting'     => 'La proprietà SameSite deve essere None, Lax, Strict, oppure una stringa vuota. Rilevata: {0}',
 ];

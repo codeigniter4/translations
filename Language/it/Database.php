@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => 'Devi fornire un valido {0}.',
 	'invalidAllowedFields'             => 'I campi autorizzati devono essere specificati per il model: {0}',
 	'emptyDataset'                     => 'Nessun dato presente in {0}.',
+	'emptyPrimaryKey'                  => 'Non è stata definita alcuna Primary Key durante la creazione di {0}.',
 	'failGetFieldData'                 => 'Impossibile recuperare i dati del campo dal database.',
 	'failGetIndexData'                 => 'Impossibile recuperare i dati dell\'indice dal database.',
 	'failGetForeignKeyData'            => 'Impossibile recuperare i dati della Foreign Key dal database.',
