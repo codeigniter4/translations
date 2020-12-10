@@ -50,8 +50,8 @@ return [
 	// Migrate Status
 	'namespace'         => 'Namespace',
 	'filename'          => 'Filename',
-	'version'           => 'Version',
-	'group'             => 'Group',
-	'on'                => 'Migrated On: ',
+	'version'           => 'Versione',
+	'group'             => 'Gruppo',
+	'on'                => 'Migrato su: ',
 	'batch'             => 'Batch',
 ];
