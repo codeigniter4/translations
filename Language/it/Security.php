@@ -9,7 +9,8 @@
  * file that was distributed with this source code.
  */
 
-// RESTful language settings
+// Security language settings
 return [
-	'notImplemented' => 'L\'azione "{0}" non è stata implementata.',
+	'disallowedAction' => 'L\'azione richiesta non è permessa.',
+	'invalidSameSite'  => 'Il valore della proprietà SameSite deve essere None, Lax, Strict, oppure una stringa vuota. Rilevato: {0}',
 ];

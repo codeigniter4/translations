@@ -30,11 +30,11 @@ return [
 	'invalidRoute' => '{0} non è un percorso valido.',
 
 	// DownloadResponse
-	'cannotSetBinary'        => 'When setting filepath can not set binary.',
-	'cannotSetFilepath'      => 'When setting binary can not set filepath: {0}',
-	'notFoundDownloadSource' => 'Not found download body source.',
-	'cannotSetCache'         => 'It does not supported caching for downloading.',
-	'cannotSetStatusCode'    => 'It does not supported chnage status code for downloading. code: {0}, reason: {1}',
+	'cannotSetBinary'        => 'Se si imposta un filepath, non è possibile impostare un valore binario.',
+	'cannotSetFilepath'      => 'Se si imposta un valore binario, non è possibile impostare il filepath: {0}',
+	'notFoundDownloadSource' => 'Impossibile trovare il body del responso.',
+	'cannotSetCache'         => 'Il caching per il download non è supportato.',
+	'cannotSetStatusCode'    => 'Impossibile impostare il cambio di codice di stato per il download. codice: {0}, motivo: {1}',
 
 	// Response
 	'missingResponseStatus' => 'Alla risposta HTTP manca un codice di stato',
@@ -61,13 +61,16 @@ return [
 	'invalidFile'  => 'Il file originale non è un file valido.',
 	'moveFailed'   => 'Non si può spostare il file {0} verso {1} ({2})',
 
-	'uploadErrOk'        => 'The file uploaded with success.',
-	'uploadErrIniSize'   => 'The file "%s" exceeds your upload_max_filesize ini directive.',
-	'uploadErrFormSize'  => 'The file "%s" exceeds the upload limit defined in your form.',
-	'uploadErrPartial'   => 'The file "%s" was only partially uploaded.',
-	'uploadErrNoFile'    => 'No file was uploaded.',
-	'uploadErrCantWrite' => 'The file "%s" could not be written on disk.',
-	'uploadErrNoTmpDir'  => 'File could not be uploaded: missing temporary directory.',
-	'uploadErrExtension' => 'File upload was stopped by a PHP extension.',
-	'uploadErrUnknown'   => 'The file "%s" was not uploaded due to an unknown error.',
+	'uploadErrOk'        => 'Il file è stato caricato con successo.',
+	'uploadErrIniSize'   => 'La dimensione del file "%s" supera il limite impostato dalla direttiva upload_max_filesize presente nel file php.ini.',
+	'uploadErrFormSize'  => 'La dimensione del file "%s" supera il limite impostato nel form.',
+	'uploadErrPartial'   => 'Il file "%s" è stato caricato solo parzialmente.',
+	'uploadErrNoFile'    => 'Nessun file è stato caricato.',
+	'uploadErrCantWrite' => 'Impossibile scrivere il file "%s" su disco.',
+	'uploadErrNoTmpDir'  => 'Impossibile caricare il file: è necessaria una directory temporanea.',
+	'uploadErrExtension' => 'Il caricamento del file è stato interrotto da un\'estensione PHP.',
+	'uploadErrUnknown'   => 'Non è stato possibile caricare il file "%s" a causa di un errore sconosciuto.',
+
+	// SameSite setting
+	'invalidSameSiteSetting'     => 'La proprietà SameSite deve essere None, Lax, Strict, oppure una stringa vuota. Rilevata: {0}',
 ];
