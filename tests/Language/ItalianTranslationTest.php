@@ -16,4 +16,20 @@ namespace Translations\Tests;
  */
 final class ItalianTranslationTest extends AbstractTranslationTestCase
 {
+	protected function setUp(): void
+	{
+		// The keys of this locale that do not differ from the english value even if translated.
+		$this->excludedLocaleKeyTranslations = [
+			'Migrations.batch',
+			'Migrations.namespace',
+			'Migrations.filename',
+			'Time.years',
+			'Time.months',
+			'Time.weeks',
+			'Time.days',
+			'Time.hours',
+			'Time.minutes',
+			'Time.seconds',
+		];
+	}
 }
