@@ -12,7 +12,6 @@
 // Core language settings
 return [
 	'copyError'                    => 'Er heeft zich een fout voorgedaan bij het vervangen van bestand({0}). Verifieer of de folder schrijfbaar is.',
-	'enabledZlibOutputCompression' => 'Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.',
 	'invalidFile'                  => 'Ongeldig bestand: {0}',
 	'missingExtension'             => '{0} extensie niet geladen.',
 	'noHandlers'                   => '{0} moet minstens één Handler voorzien.',

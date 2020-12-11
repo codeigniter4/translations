@@ -17,8 +17,6 @@ return [
 	'gifNotSupported'        => 'Obrazy GIF często nie są obsługiwane ze względu na ograniczenia licencyjne. Może być konieczne użycie obrazów JPG lub PNG.',
 	'jpgNotSupported'        => 'Obrazy JPG nie są obsługiwane.',
 	'pngNotSupported'        => 'Obrazy PNG nie są obsługiwane.',
-	'webpNotSupported'       => 'WEBP images are not supported.',
-	'fileNotSupported'       => 'The supplied file is not a supported image type.',
 	'unsupportedImageCreate' => 'Twój serwer nie obsługuje funkcji GD wymaganej do przetwarzania tego typu obrazu.',
 	'jpgOrPngRequired'       => 'Protokół zmiany rozmiaru obrazu określony w preferencjach działa tylko z obrazami JPEG lub PNG.',
 	'rotateUnsupported'      => 'Obracanie obrazu nie jest obsługiwane przez Twój serwer.',

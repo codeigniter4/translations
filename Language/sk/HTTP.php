@@ -32,7 +32,6 @@ return [
 	// DownloadResponse
 	'cannotSetBinary'        => 'Pri nastavovaní filepath nie je možné nastaviť binary.',
 	'cannotSetFilepath'      => 'Pri nastavovaní binary nie je možné nastaviť filepath: {0}',
-	'notFoundDownloadSource' => 'Not found download body source.',
 	'cannotSetCache'         => 'Nepodporuje ukladanie do vyrovnávacej pamäte pre sťahovanie.',
 	'cannotSetStatusCode'    => 'Nepodporuje stavový kód chnage na stiahnutie. kód: {0}, dôvod: {1}',
 

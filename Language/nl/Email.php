@@ -29,5 +29,4 @@ return [
 	'SMTPAuthUsername'     => 'Authenticatie gebruikersnaam gefaald. Fout: {0}',
 	'SMTPAuthPassword'     => 'Authenticatie wachtwoord gefaald. Fout: {0}',
 	'SMTPDataFailure'      => 'Kon geen data versturen: {0}',
-	'exitStatus'           => 'Exit status code: {0}',
 ];

@@ -49,7 +49,6 @@ return [
 	'required'              => 'Trường {field} bắt buộc.',
 	'required_with'         => 'Trường {field} bắt buộc khi {param} tồn tại.',
 	'required_without'      => 'Trường {field} bắt buộc khi {param} không tồn tại.',
-	'string'                => 'The {field} field must be a valid string.',
 	'timezone'              => 'Trường {field} phải là múi giờ hợp lệ. ',
 	'valid_base64'          => 'Trường {field} phải là một chuỗi base64 hợp lệ.',
 	'valid_email'           => 'Trường {field} phải là địa chỉ email hợp lệ.',

@@ -50,7 +50,6 @@ return [
 	'required'              => '{field} 필드가 있어야 합니다.', // 'The {field} field is required.',
 	'required_with'         => '{field} 필드는 {param} 값이 있을 때, 해당 필드가 있어야 합니다.', // 'The {field} field is required when {param} is present.',
 	'required_without'      => '{field} 필드는 {param} 값이 없을 때, 해당 필드가 있어야 합니다.', // 'The {field} field is required when {param} is not present.',
-	'string'                => 'The {field} field must be a valid string.',
 	'timezone'              => '{field} 필드는 반드시 유효한 시간대(timezone)이어야 합니다.', // 'The {field} field must be a valid timezone.',
 	'valid_base64'          => '{field} 필드는 유효한 base64문자열이어야 합니다.', // 'The {field} field must be a valid base64 string.',
 	'valid_email'           => '{field} 필드 값은 유효한 이메일 주소이어야 합니다.', // 'The {field} field must contain a valid email address.',

@@ -16,4 +16,14 @@ namespace Translations\Tests;
  */
 final class FrenchTranslationTest extends AbstractTranslationTestCase
 {
+	protected function setUp(): void
+	{
+		// The keys of this locale that do not differ from the english value even if translated.
+		$this->excludedLocaleKeyTranslations = [
+			'Migrations.version',
+			'Number.million',
+			'Number.quadrillion',
+			'Time.minutes',
+		];
+	}
 }

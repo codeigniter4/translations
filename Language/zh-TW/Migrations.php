@@ -31,8 +31,6 @@ return [
 	'migCreate'         => "\t新建一個名為 [name] 的遷移。",
 	'nameMigration'     => '命名遷移檔案。',
 	'migNumberError'    => '遷移版本號碼必須為三位數字，且序列中不能有任何空格。',
-	'rollBackConfirm'   => 'Are you sure you want to rollback?',
-	'refreshConfirm'    => 'Are you sure you want to refresh?',
 	'latest'            => '遷移到最新版本...',
 	'generalFault'      => '遷移失敗!',
 	'migInvalidVersion' => '提供了無效的版本號碼。',

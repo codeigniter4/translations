@@ -17,7 +17,6 @@ return [
 	'gifNotSupported'        => 'Зображення GIF часто не підтримується через ліцензійні обмеження.',
 	'jpgNotSupported'        => 'Зображення JPG не підтримується.',
 	'pngNotSupported'        => 'Зображення PNG не підтримується.',
-	'webpNotSupported'       => 'WEBP images are not supported.',
 	'fileNotSupported'       => 'Тип зображення наданого файлу не підтримується.',
 	'unsupportedImageCreate' => 'Ваш сервер не підтримує функцию GD, необхідну для обробки цього типу зображень.',
 	'jpgOrPngRequired'       => 'Протокол зміни розміру зображення, вказаний в налаштуваннях, працює тільки з типами зображень JPEG або PNG.',

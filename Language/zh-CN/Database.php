@@ -20,10 +20,4 @@ return [
 	'failGetForeignKeyData'            => '无法在数据库中获取外键数据。',
 	'parseStringFail'                  => '解析密钥字符串失败。',
 	'featureUnavailable'               => '您正在使用的数据库不适用本功能。',
-	'tableNotFound'                    => 'Table `{0}` was not found in the current database.',
-	'noPrimaryKey'                     => '`{0}` model class does not specify a Primary Key.',
-	'noDateFormat'                     => '`{0}` model class does not have a valid dateFormat.',
-	'fieldNotExists'                   => 'Field `{0}` not found.',
-	'forEmptyInputGiven'               => 'Empty statement is given for the field `{0}`',
-	'forFindColumnHaveMultipleColumns' => 'Only single column allowed in Column name.',
 ];
