@@ -41,6 +41,8 @@ foreach ($stagedPhpFiles as $file)
 $locales = array_unique($locales);
 $count   = count($locales);
 
+$failures = $passed = [];
+
 chdir(__DIR__ . '/../../');
 
 if ($count === 0)
@@ -49,27 +51,79 @@ if ($count === 0)
 	exit(0);
 }
 
+// All locales have been edited
 if ($count === count(AbstractTranslationTestCase::$locales))
 {
-	$return = 0;
+	// Buffer output for summary
+	ob_start();
+
+	$returns = 0;
 	fwrite(STDOUT, "\nTesting all language files in all locales.\n\n");
 	passthru('vendor/bin/phpunit --color=always', $return);
 
-	exit($return);
+	// Store results
+	$result = ob_get_clean();
+	
+	// Extract failed locales
+	$failures = [];
+	if (preg_match_all('/\(\'(.+)\'\)/', $result, $failures))
+	{
+		$failures = array_unique($failures[1]);
+	}
+	$passed = array_values(array_diff(AbstractTranslationTestCase::$locales, $failures));
+
+	
+	fwrite(STDOUT, $result);
 }
 
-$returns = 0;
-$return  = 0;
-
-foreach ($locales as $locale)
+// Only some locales have been edited
+if($count < count(AbstractTranslationTestCase::$locales))
 {
-	$localeMap = array_flip(AbstractTranslationTestCase::$locales);
-	$class     = preg_replace('/^Translations\\\\Tests\\\\(.+)$/u', '$1', $localeMap[$locale]);
+	$returns = 0;
+	$return  = 0;
 
-	fwrite(STDOUT, "\nExecuting vendor/bin/phpunit --color=always --filter {$class}\n\n");
-	passthru("vendor/bin/phpunit --color=always --filter {$class}", $return);
+	foreach ($locales as $locale)
+	{
+		$localeMap = array_flip(AbstractTranslationTestCase::$locales);
+		$class     = preg_replace('/^Translations\\\\Tests\\\\(.+)$/u', '$1', $localeMap[$locale]);
 
-	$returns += $return;
+		fwrite(STDOUT, "\nExecuting vendor/bin/phpunit --color=always --filter {$class}\n\n");
+		passthru("vendor/bin/phpunit --color=always --filter {$class}", $return);
+
+		// Store result for summary
+		if($return)
+		{
+			$failures[] = $locale;
+		}
+		else
+		{
+			$passed[] = $locale;
+		}
+
+		$returns += $return;
+	}
 }
 
+// Output general information
+if([] === $failures)
+{
+	// All locales passed
+	fwrite(STDOUT, "\nAll tested locales passed. Wonderful!");
+}
+elseif($count === count($failures))
+{
+	// All locales failed
+	fwrite(STDOUT, "\nAll tested locales have failed! Please revisit your changes.");
+}
+else
+{
+	// Some locales failed
+	fwrite(STDOUT, "\nSome locales have failed the tests! Please see summary below.");
+}
+
+// Output locale's summary
+fwrite(STDOUT, "\nPassed locales (".count($passed)." of {$count}): ".implode(', ', $passed));
+fwrite(STDOUT, "\nFailed locales (".count($failures)." of {$count}): ".implode(', ', $failures));
+
+// Exit with exit code
 exit($returns ? 1 : 0);
