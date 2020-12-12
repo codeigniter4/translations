@@ -64,4 +64,4 @@ jobs:
         run: composer update --ansi --no-scripts --no-interaction
 
       - name: Run PHP-CS-Fixer
-        run: vendor/bin/php-cs-fixer fix --ansi --verbose --dry-run
+        run: vendor/bin/php-cs-fixer fix --ansi --verbose --dry-run --using-cache=no
