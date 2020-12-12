@@ -5,8 +5,8 @@
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
 // HTTP language settings
@@ -30,10 +30,10 @@ return [
 	'invalidRoute' => '{0} trasu nemožno nájsť pri spätnom smerovaní.',
 
 	// DownloadResponse
-	'cannotSetBinary'        => 'Pri nastavovaní filepath nie je možné nastaviť binary.',
-	'cannotSetFilepath'      => 'Pri nastavovaní binary nie je možné nastaviť filepath: {0}',
-	'cannotSetCache'         => 'Nepodporuje ukladanie do vyrovnávacej pamäte pre sťahovanie.',
-	'cannotSetStatusCode'    => 'Nepodporuje stavový kód chnage na stiahnutie. kód: {0}, dôvod: {1}',
+	'cannotSetBinary'     => 'Pri nastavovaní filepath nie je možné nastaviť binary.',
+	'cannotSetFilepath'   => 'Pri nastavovaní binary nie je možné nastaviť filepath: {0}',
+	'cannotSetCache'      => 'Nepodporuje ukladanie do vyrovnávacej pamäte pre sťahovanie.',
+	'cannotSetStatusCode' => 'Nepodporuje stavový kód chnage na stiahnutie. kód: {0}, dôvod: {1}',
 
 	// Response
 	'missingResponseStatus' => 'V odpovedi HTTP chýba stavový kód',

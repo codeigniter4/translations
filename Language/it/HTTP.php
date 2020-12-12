@@ -5,8 +5,8 @@
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
 // HTTP language settings
@@ -72,5 +72,5 @@ return [
 	'uploadErrUnknown'   => 'Non è stato possibile caricare il file "%s" a causa di un errore sconosciuto.',
 
 	// SameSite setting
-	'invalidSameSiteSetting'     => 'La proprietà SameSite deve essere None, Lax, Strict, oppure una stringa vuota. Rilevata: {0}',
+	'invalidSameSiteSetting' => 'La proprietà SameSite deve essere None, Lax, Strict, oppure una stringa vuota. Rilevata: {0}',
 ];

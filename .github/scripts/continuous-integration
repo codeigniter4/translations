@@ -63,21 +63,22 @@ if ($count === count(AbstractTranslationTestCase::$locales))
 
 	// Store results
 	$result = ob_get_clean();
-	
+
 	// Extract failed locales
 	$failures = [];
+
 	if (preg_match_all('/\(\'(.+)\'\)/', $result, $failures))
 	{
 		$failures = array_unique($failures[1]);
 	}
+
 	$passed = array_values(array_diff(AbstractTranslationTestCase::$locales, $failures));
 
-	
 	fwrite(STDOUT, $result);
 }
 
 // Only some locales have been edited
-if($count < count(AbstractTranslationTestCase::$locales))
+if ($count < count(AbstractTranslationTestCase::$locales))
 {
 	$returns = 0;
 	$return  = 0;
@@ -91,7 +92,7 @@ if($count < count(AbstractTranslationTestCase::$locales))
 		passthru("vendor/bin/phpunit --color=always --filter {$class}", $return);
 
 		// Store result for summary
-		if($return)
+		if ($return)
 		{
 			$failures[] = $locale;
 		}
@@ -105,12 +106,12 @@ if($count < count(AbstractTranslationTestCase::$locales))
 }
 
 // Output general information
-if([] === $failures)
+if ([] === $failures)
 {
 	// All locales passed
 	fwrite(STDOUT, "\nAll tested locales passed. Wonderful!");
 }
-elseif($count === count($failures))
+elseif ($count === count($failures))
 {
 	// All locales failed
 	fwrite(STDOUT, "\nAll tested locales have failed! Please revisit your changes.");
@@ -122,8 +123,8 @@ else
 }
 
 // Output locale's summary
-fwrite(STDOUT, "\nPassed locales (".count($passed)." of {$count}): ".implode(', ', $passed));
-fwrite(STDOUT, "\nFailed locales (".count($failures)." of {$count}): ".implode(', ', $failures));
+fwrite(STDOUT, "\nPassed locales (" . count($passed) . " of {$count}): " . implode(', ', $passed));
+fwrite(STDOUT, "\nFailed locales (" . count($failures) . " of {$count}): " . implode(', ', $failures));
 
 // Exit with exit code
 exit($returns ? 1 : 0);
