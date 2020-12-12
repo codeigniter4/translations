@@ -24,7 +24,7 @@ jobs:
 
   main:
     name: Code Style Check [PHP ${{ matrix.php-versions }}]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     if: "!contains(github.event.head_commit.message, '[ci skip]')"
 
     strategy:
