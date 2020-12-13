@@ -41,7 +41,6 @@ return [
 	'toVersion'         => 'currentバージョンに移行しています...', //Migrating to current version...
 	'rollingBack'       => 'バッチへのマイグレーションをロールバック: ', //Rolling back migrations to batch:
 	'noneFound'         => 'マイグレーションは見つかりませんでした。', //No migrations were found.
-	'on'                => '移行先: ', //Migrated On:
 	'migSeeder'         => 'seeder名', //Seeder name
 	'migMissingSeeder'  => 'seeder名が必要です。', //You must provide a seeder name.
 	'nameSeeder'        => 'seederファイル名', //Name the seeder file

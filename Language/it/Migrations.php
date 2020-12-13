@@ -40,7 +40,6 @@ return [
 	'toVersion'         => 'Migrazione verso la versione corrente...',
 	'rollingBack'       => 'Ritorna indietro tutte le migrazioni...',
 	'noneFound'         => 'Nessuna migrazione è stata trovata.',
-	'on'                => 'Migrato a: ',
 	'migSeeder'         => 'Nome seminatrice',
 	'migMissingSeeder'  => 'Devi fornire un nome seminatrice.',
 	'nameSeeder'        => 'Nome del file seeder',
