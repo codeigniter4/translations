@@ -5,8 +5,8 @@
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
 // HTTP language settings
@@ -48,7 +48,7 @@ return [
 	'malformedQueryString' => 'Query string نمی‌تواند شامل قسمت‌های URI باشد.',
 
 	// Page Not Found
-	'pageNotFound'       => 'صفحه پیدا نشد',
+	'pageNotFound' => 'صفحه پیدا نشد',
 
 	// CSRF
 	'disallowedAction' => 'Action درخواستی شما مجاز نیست.',

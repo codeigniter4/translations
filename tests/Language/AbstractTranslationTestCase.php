@@ -5,8 +5,8 @@
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
 namespace Translations\Tests;
@@ -64,7 +64,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 		SimpleChineseTranslationTest::class      => 'zh-CN',
 		TraditionalChineseTranslationTest::class => 'zh-TW',
 	];
-	
+
 	/**
 	 * A list of language keys that do not differ from
 	 * the untranslated string even if translated correctly.
@@ -241,9 +241,6 @@ abstract class AbstractTranslationTestCase extends TestCase
 			'Number.bytes',
 		];
 
-		// Merge the locales excluded key list
-		$localeTestClassName = array_flip(self::$locales)[$locale];
-		$localeTestClass = new $localeTestClassName();
 		$excludedKeys = array_unique(array_merge($excludedKeyTranslations, $this->excludedLocaleKeyTranslations));
 
 		$availableSets     = array_intersect($this->expectedSets(), $this->foundSets($locale));
@@ -252,10 +249,12 @@ abstract class AbstractTranslationTestCase extends TestCase
 		foreach ($availableSets as $file)
 		{
 			$originalStrings = $this->loadFile($file);
-			foreach($this->loadFile($file, $locale) as $key => $translation)
+
+			foreach ($this->loadFile($file, $locale) as $key => $translation)
 			{
 				$keyName = substr($file, 0, -4) . '.' . $key;
-				if(!in_array($keyName, $excludedKeys, true) && ((array_key_exists($key, $originalStrings) && $originalStrings[$key] === $translation) || $translation === ''))
+
+				if (! in_array($keyName, $excludedKeys, true) && ((array_key_exists($key, $originalStrings) && $originalStrings[$key] === $translation) || $translation === ''))
 				{
 					$keysNotTranslated[] = $keyName;
 				}
@@ -265,7 +264,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 		sort($keysNotTranslated);
 		$count = count($keysNotTranslated);
 
-		$this->assertEmpty($keysNotTranslated, sprintf(
+		self::assertEmpty($keysNotTranslated, sprintf(
 			'Failed asserting that the translated language %s "%s" in "%s" locale %s from the original keys in the main repository.',
 			$count > 1 ? 'keys' : 'key',
 			implode('", "', $keysNotTranslated),
@@ -281,7 +280,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 
 		if (null === $locale)
 		{
-			$this->fail('The locale code should be defined in the $locales property.');
+			self::fail('The locale code should be defined in the $locales property.');
 		}
 
 		return [$locale => [$locale]];
@@ -320,7 +319,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 
 		foreach ($dirs as $dir)
 		{
-			$dir = trim($dir, '\\/');
+			$dir        = trim($dir, '\\/');
 			$sets[$dir] = [$dir];
 		}
 
@@ -344,7 +343,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 		return $this->translationSets($locale);
 	}
 
-	final public function loadFile(string $file, ?string $locale = null): array
+	final public function loadFile(string $file, string $locale = null): array
 	{
 		$folder = $locale
 			? getcwd() . "/Language/{$locale}/"
@@ -362,13 +361,13 @@ abstract class AbstractTranslationTestCase extends TestCase
 	 *
 	 * @return array
 	 */
-	private function translationSets(?string $locale = null): array
+	private function translationSets(string $locale = null): array
 	{
 		$location = $locale
 			? getcwd() . "/Language/{$locale}/"
 			: getcwd() . self::MAIN_LANGUAGE_REPO;
 
-		$sets = [];
+		$sets  = [];
 		$files = directory_map($location, 1);
 
 		foreach ($files as $file)

@@ -5,8 +5,8 @@
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
 // Migration language settings
@@ -21,7 +21,7 @@ return [
 	'classNotFound' => 'മൈഗ്രേഷൻ ക്ലാസ് "%s" കണ്ടെത്താനായില്ല.',
 	'missingMethod' => 'മൈഗ്രേഷൻ ക്ലാസിന് "%s" രീതി കാണുന്നില്ല.',
 
-	'added'             => 'പ്രവർത്തിക്കുന്നു: ',
+	'added' => 'പ്രവർത്തിക്കുന്നു: ',
 
 	'version'  => 'പതിപ്പ്',
 	'filename' => 'ഫയൽനാമം',

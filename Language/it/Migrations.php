@@ -5,8 +5,8 @@
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
 // Migration language settings
@@ -48,10 +48,10 @@ return [
 	'added'             => 'Elaborazione: ',
 
 	// Migrate Status
-	'namespace'         => 'Namespace',
-	'filename'          => 'Filename',
-	'version'           => 'Versione',
-	'group'             => 'Gruppo',
-	'on'                => 'Migrato su: ',
-	'batch'             => 'Batch',
+	'namespace' => 'Namespace',
+	'filename'  => 'Filename',
+	'version'   => 'Versione',
+	'group'     => 'Gruppo',
+	'on'        => 'Migrato su: ',
+	'batch'     => 'Batch',
 ];
