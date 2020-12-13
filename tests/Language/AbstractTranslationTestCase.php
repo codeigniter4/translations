@@ -296,14 +296,16 @@ abstract class AbstractTranslationTestCase extends TestCase
 
 			// No need to check the order if the number of keys is already different
 			// This is handled by the other tests
-			if(count($original) === count($translated)){
+			if (count($original) === count($translated))
+			{
 				// Check if the order is correct
-				foreach($original as $key1 => $val1)
+				foreach ($original as $key1 => $val1)
 				{
 					$val2 = $translated[$key1] ?? null;
-					if($val2 && $val2 !== $val1)
+
+					if ($val2 && $val2 !== $val1)
 					{
-						$diffs[] = '"'.$file.'" '.'index "'.$key1.'" is "'.$val2.'", should be "'.$val1.'".';
+						$diffs[] = '"' . $file . '" ' . 'index "' . $key1 . '" is "' . $val2 . '", should be "' . $val1 . '".';
 						break;
 					}
 				}
@@ -316,7 +318,6 @@ abstract class AbstractTranslationTestCase extends TestCase
 			implode(' ', $diffs)
 		));
 	}
-
 
 	final public function localesProvider(): iterable
 	{
