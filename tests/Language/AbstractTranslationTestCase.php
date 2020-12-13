@@ -273,6 +273,52 @@ abstract class AbstractTranslationTestCase extends TestCase
 		));
 	}
 
+	/**
+	 * This tests that the order of all language keys defined by a translation language file
+	 * resembles the order in the main CI4 repository.
+	 * It also tests, whether have corresponding keys in the current locale.
+	 *
+	 * @dataProvider localesProvider
+	 *
+	 * @param string $locale
+	 *
+	 * @return void
+	 */
+	final public function testAllConfiguredLanguageKeysOrder(string $locale): void
+	{
+		$diffs = [];
+
+		foreach ($this->foundSets($locale) as $file)
+		{
+			// Get the keys of original and translated language strings
+			$original   = array_keys($this->loadFile($file));
+			$translated = array_keys($this->loadFile($file, $locale));
+
+			// No need to check the order if the number of keys is already different
+			// This is handled by the other tests
+			if (count($original) === count($translated))
+			{
+				// Check if the order is correct
+				foreach ($original as $key1 => $val1)
+				{
+					$val2 = $translated[$key1] ?? null;
+
+					if ($val2 && $val2 !== $val1)
+					{
+						$diffs[] = "{$file}:\n  - {$key1} => '{$val1}'\n  + {$key1} => '{$val2}'";
+						break;
+					}
+				}
+			}
+		}
+
+		self::assertEmpty($diffs, sprintf(
+			"Failed asserting that the translated language keys in \"%s\" locale are ordered correctly.\n%s",
+			$locale,
+			implode("\n", $diffs)
+		));
+	}
+
 	final public function localesProvider(): iterable
 	{
 		helper('filesystem');
