@@ -298,12 +298,14 @@ abstract class AbstractTranslationTestCase extends TestCase
 			// This is handled by the other tests
 			if(count($original) === count($translated)){
 				// Check if the order is correct
-				$diff = $this->arrayDiffOrder($original, $translated);
-				
-				// Store result if failed
-				if($diff !== '')
+				foreach($original as $key1 => $val1)
 				{
-					$diffs[] = '"'.$file.'" '.$diff.'.';
+					$val2 = $translated[$key1] ?? null;
+					if($val2 && $val2 !== $val1)
+					{
+						$diffs[] = '"'.$file.'" '.'index "'.$key1.'" is "'.$val2.'", should be "'.$val1.'".';
+						break;
+					}
 				}
 			}
 		}
@@ -419,28 +421,5 @@ abstract class AbstractTranslationTestCase extends TestCase
 		}
 
 		return $sets;
-	}
-
-	/**
-	 * Checks if the order of array keys in two arrays is equal.
-	 *
-	 * @param array<string, string> $array1
-	 * @param array<string, string> $array2
-	 *
-	 * 
-	 * @return string
-	 */
-	private function arrayDiffOrder(array $array1, array $array2): string
-	{
-		foreach($array1 as $key1 => $val1)
-		{
-			$val2 = $array2[$key1] ?? null;
-			if($val2 && $val2 !== $val1)
-			{
-				return 'index "'.$key1.'" is "'.$val2.'", should be "'.$val1.'"';
-			}
-		}
-
-		return '';
 	}
 }
