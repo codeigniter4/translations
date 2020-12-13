@@ -273,6 +273,49 @@ abstract class AbstractTranslationTestCase extends TestCase
 		));
 	}
 
+	/**
+	 * This tests that the order of all language keys defined by a translation language file
+	 * resembles the order in the main CI4 repository.
+	 * It also tests, whether have corresponding keys in the current locale.
+	 *
+	 * @dataProvider localesProvider
+	 *
+	 * @param string $locale
+	 *
+	 * @return void
+	 */
+	final public function testAllConfiguredLanguageKeysOrder(string $locale): void
+	{
+		$diffs = [];
+
+		foreach ($this->foundSets($locale) as $file)
+		{
+			// Get the keys of original and translated language strings
+			$original   = array_keys($this->loadFile($file));
+			$translated = array_keys($this->loadFile($file, $locale));
+
+			// No need to check the order if the number of keys is already different
+			// This is handled by the other tests
+			if(count($original) === count($translated)){
+				// Check if the order is correct
+				$diff = $this->arrayDiffOrder($original, $translated);
+				
+				// Store result if failed
+				if($diff !== '')
+				{
+					$diffs[] = '"'.$file.'" '.$diff.'.';
+				}
+			}
+		}
+
+		self::assertEmpty($diffs, sprintf(
+			'Failed asserting that the translated language keys in "%s" locale are ordered correctly. %s',
+			$locale,
+			implode(' ', $diffs)
+		));
+	}
+
+
 	final public function localesProvider(): iterable
 	{
 		helper('filesystem');
@@ -376,5 +419,28 @@ abstract class AbstractTranslationTestCase extends TestCase
 		}
 
 		return $sets;
+	}
+
+	/**
+	 * Checks if the order of array keys in two arrays is equal.
+	 *
+	 * @param array<string, string> $array1
+	 * @param array<string, string> $array2
+	 *
+	 * 
+	 * @return string
+	 */
+	private function arrayDiffOrder(array $array1, array $array2): string
+	{
+		foreach($array1 as $key1 => $val1)
+		{
+			$val2 = $array2[$key1] ?? null;
+			if($val2 && $val2 !== $val1)
+			{
+				return 'index "'.$key1.'" is "'.$val2.'", should be "'.$val1.'"';
+			}
+		}
+
+		return '';
 	}
 }
