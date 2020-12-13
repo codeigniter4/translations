@@ -305,7 +305,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 
 					if ($val2 && $val2 !== $val1)
 					{
-						$diffs[] = '"' . $file . '" ' . 'index "' . $key1 . '" is "' . $val2 . '", should be "' . $val1 . '".';
+						$diffs[] = "{$file}:\n  - {$key1} => '{$val1}'\n  + {$key1} => '{$val2}'";
 						break;
 					}
 				}
@@ -313,9 +313,9 @@ abstract class AbstractTranslationTestCase extends TestCase
 		}
 
 		self::assertEmpty($diffs, sprintf(
-			'Failed asserting that the translated language keys in "%s" locale are ordered correctly. %s',
+			"Failed asserting that the translated language keys in \"%s\" locale are ordered correctly.\n%s",
 			$locale,
-			implode(' ', $diffs)
+			implode("\n", $diffs)
 		));
 	}
 
