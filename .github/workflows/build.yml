@@ -31,10 +31,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
 
       - name: Checkout other refs
         run: |
-          git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
+          git fetch --no-tags --prune --depth=2 origin +refs/heads/*:refs/remotes/origin/*
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
