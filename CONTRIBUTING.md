@@ -31,33 +31,75 @@ are in the framework repository's `system/Language/en/ folder`, and for settings
 in a translation set that are not in that folder.
 
 Unit tests for a specific locale should pass. Failures would be thrown to clearly
-show which files are missing or extra or which language strings are missing or extra.
+show which files have deficiencies. The following tests are being asserted at each run:
 
-For instance, a test error showing that the `de` translation has extra files not found in the framework:
+### All configured language files from the main repository are translated in the locale.
 
-    1) Translations\Tests\GermanTranslationTest::testAllTranslatedLanguageFilesAreConfigured with data set "de" ('de')
-    Failed asserting that translated language file "Seed.php" in "de" locale is configured in the main repository.
+If this is not satisfied, the error message would be:
+
+    1) Translations\Tests\ArabicTranslationTest::testAllConfiguredLanguageFilesAreTranslated with data set "ar" ('ar')
+    Failed asserting that language file "CLI.php" in the main repository is translated in "ar" locale.
     Failed asserting that an array is empty.
 
-Another example showing missing files in the `de` translation set:
+### All translated language files in the locale are existing in the main repository.
 
-    2) Translations\Tests\GermanTranslationTest::testAllConfiguredLanguageFilesAreTranslated with data set "de" ('de')
-    Failed asserting that language file "CLI.php" in the main repository is translated in "de" locale.
+If not true, then this message will be given:
+
+    1) Translations\Tests\ArabicTranslationTest::testAllTranslatedLanguageFilesAreConfigured with data set "ar" ('ar')
+    Failed asserting that translated language file "Seed.php" in "ar" locale is configured in the main repository.
     Failed asserting that an array is empty.
 
-An example showing missing keys for the `de` translation set:
+### All array keys of a language file from the main repository are included for translation in the locale.
 
-    3) Translations\Tests\GermanTranslationTest::testAllConfiguredLanguageKeysAreIncluded with data set "de" ('de')
-    Failed asserting that the language keys "CLI.altCommandPlural", "CLI.altCommandSingular", "CLI.generateClassName", "CLI.generateFileError", "CLI.generateFileExists", "CLI.generateFileSuccess", "CLI.generateParentClass", "CLI.namespaceNotDefined", "Database.emptyDataset", "Database.emptyPrimaryKey", "Email.sent", "Fabricator.createFailed", "Format.invalidFormatter", "Format.invalidMime", "HTTP.invalidSameSiteSetting", "Migrations.batch", "Migrations.group", "Migrations.missingTable", "Migrations.nameSeeder", "Migrations.namespace", "Session.invalidSameSiteSetting", "Validation.not_in_list" in the main repository are included for translation in "de" locale.
+If not, this will be thrown:
+
+    3) Translations\Tests\ArabicTranslationTest::testAllConfiguredLanguageKeysAreIncluded with data set "ar" ('ar')
+    Failed asserting that the language keys "CLI.altCommandPlural", "CLI.altCommandSingular", "CLI.generateClassName", "CLI.generateFileError", "CLI.generateFileExists", "CLI.generateFileSuccess", "CLI.generateParentClass", "CLI.namespaceNotDefined", "Database.emptyDataset", "Database.emptyPrimaryKey", "Email.sent", "Fabricator.createFailed", "Format.invalidFormatter", "Format.invalidMime", "HTTP.invalidSameSiteSetting", "Migrations.batch", "Migrations.group", "Migrations.missingTable", "Migrations.nameSeeder", "Migrations.namespace", "Session.invalidSameSiteSetting", "Validation.not_in_list" in the main repository are included for translation in "ar" locale.
     Failed asserting that an array is empty.
 
-Lastly, an example showing extra keys for the `de` translation set:
+### All translated array keys in the locale are existing in the main repository.
 
-    4) Translations\Tests\GermanTranslationTest::testAllIncludedLanguageKeysAreConfigured with data set "de" ('de')
-    Failed asserting that the translated language keys "Migrations.badCreateName", "Migrations.writeError" in "de" locale are configured in the main repository.
+The error message if not passed would be:
+
+    4) Translations\Tests\ArabicTranslationTest::testAllIncludedLanguageKeysAreConfigured with data set "ar" ('ar')
+    Failed asserting that the translated language keys "Migrations.badCreateName", "Migrations.writeError" in "ar" locale are configured in the main repository.
     Failed asserting that an array is empty.
 
-The failure messages are fully descriptive of what went wrong in the translation process.
+### All array keys included for translation in the locale are really translated by the locale.
+
+If not, then this error is shown:
+
+    5) Translations\Tests\ArabicTranslationTest::testAllIncludedLanguageKeysAreTranslated with data set "ar" (ar)
+    Failed asserting that the translated language key "CLI.commandNotFound" in "ar" locale differs from the original keys in the main repository.
+    Failed asserting that an array is empty.
+
+### All translated array keys from a locale appears in the order similar to the order with the main repository.
+
+If the assertion was failed, the following error is shown:
+
+```diff
+6) Translations\Tests\ItalianTranslationTest::testAllConfiguredLanguageKeysAreInOrder with data set "it" ('it')
+Failed asserting that the translated language keys in "it" locale are ordered correctly.
+--- Original
++++ Translated
+
+Migrations.php:
+-'migSeeder' => 'Seeder name';
++'on' => 'Migrato su: ';
+
+Validation.php:
+-'matches' => 'The {field} field does not match the {param} field.';
++'string' => 'Il campo {field} deve essere una stringa valida.';
+Failed asserting that an array is empty.
+```
+
+### All locales have their own specific test suite and is configured in `AbstractTranslationTestCase::$locales`.
+
+The error below is shown if not passed:
+
+    7) Translations\Test\ItalianTranslationTest::testLocaleHasCorrespondingTestCaseFile with data set "it" ('it')
+    Failed asserting that test class "Translations\Test\ItalianoTranslationTest" is existing.
+    Failed asserting that false is true.
 
 ## Extending Unit Tests
 
