@@ -11,6 +11,7 @@
 
 namespace Translations\Tests;
 
+use CodeIgniter\CLI\CLI;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -241,9 +242,9 @@ abstract class AbstractTranslationTestCase extends TestCase
 			'Number.bytes',
 		];
 
-		$excludedKeys = array_unique(array_merge($excludedKeyTranslations, $this->excludedLocaleKeyTranslations));
+		$excludedKeys  = array_unique(array_merge($excludedKeyTranslations, $this->excludedLocaleKeyTranslations));
+		$availableSets = array_intersect($this->expectedSets(), $this->foundSets($locale));
 
-		$availableSets     = array_intersect($this->expectedSets(), $this->foundSets($locale));
 		$keysNotTranslated = [];
 
 		foreach ($availableSets as $file)
@@ -254,7 +255,12 @@ abstract class AbstractTranslationTestCase extends TestCase
 			{
 				$keyName = substr($file, 0, -4) . '.' . $key;
 
-				if (! in_array($keyName, $excludedKeys, true) && ((array_key_exists($key, $originalStrings) && $originalStrings[$key] === $translation) || $translation === ''))
+				if (in_array($keyName, $excludedKeys, true))
+				{
+					continue;
+				}
+
+				if ((array_key_exists($key, $originalStrings) && $originalStrings[$key] === $translation) || $translation === '')
 				{
 					$keysNotTranslated[] = $keyName;
 				}
@@ -276,7 +282,6 @@ abstract class AbstractTranslationTestCase extends TestCase
 	/**
 	 * This tests that the order of all language keys defined by a translation language file
 	 * resembles the order in the main CI4 repository.
-	 * It also tests, whether have corresponding keys in the current locale.
 	 *
 	 * @dataProvider localesProvider
 	 *
@@ -284,28 +289,33 @@ abstract class AbstractTranslationTestCase extends TestCase
 	 *
 	 * @return void
 	 */
-	final public function testAllConfiguredLanguageKeysOrder(string $locale): void
+	final public function testAllConfiguredLanguageKeysAreInOrder(string $locale): void
 	{
 		$diffs = [];
 
 		foreach ($this->foundSets($locale) as $file)
 		{
-			// Get the keys of original and translated language strings
-			$original   = array_keys($this->loadFile($file));
-			$translated = array_keys($this->loadFile($file, $locale));
+			$original   = $this->loadFile($file);
+			$translated = $this->loadFile($file, $locale);
 
-			// No need to check the order if the number of keys is already different
+			// No need to check the order if the number is already different
 			// This is handled by the other tests
 			if (count($original) === count($translated))
 			{
-				// Check if the order is correct
-				foreach ($original as $key1 => $val1)
-				{
-					$val2 = $translated[$key1] ?? null;
+				$trans = array_keys($translated);
 
-					if ($val2 && $val2 !== $val1)
+				foreach (array_keys($original) as $index => $expectedKey)
+				{
+					$actualKey = $trans[$index] ?? null;
+
+					if ($actualKey !== null && $expectedKey !== $actualKey)
 					{
-						$diffs[] = "{$file}:\n  - {$key1} => '{$val1}'\n  + {$key1} => '{$val2}'";
+						$diffs[] = sprintf(
+							"\n%s:\n%s\n%s",
+							$file,
+							CLI::color("-'{$expectedKey}' => '{$original[$expectedKey]}';", 'red'),
+							CLI::color("+'{$actualKey}' => '{$translated[$actualKey]}';", 'green')
+						);
 						break;
 					}
 				}
@@ -313,15 +323,16 @@ abstract class AbstractTranslationTestCase extends TestCase
 		}
 
 		self::assertEmpty($diffs, sprintf(
-			"Failed asserting that the translated language keys in \"%s\" locale are ordered correctly.\n%s",
+			"Failed asserting that the translated language keys in \"%s\" locale are ordered correctly.\n%s\n%s",
 			$locale,
+			CLI::color('--- Original', 'red') . "\n" . CLI::color('+++ Translated', 'green'),
 			implode("\n", $diffs)
 		));
 	}
 
+	/** @return string[][] */
 	final public function localesProvider(): iterable
 	{
-		helper('filesystem');
 		$locale = self::$locales[static::class] ?? null;
 
 		if (null === $locale)
@@ -360,6 +371,8 @@ abstract class AbstractTranslationTestCase extends TestCase
 	 */
 	final public function translationKeys(): array
 	{
+		helper('filesystem');
+
 		$sets = [];
 		$dirs = directory_map(getcwd() . '/Language', 1);
 
@@ -372,6 +385,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 		return $sets;
 	}
 
+	/** @return array<string, string> */
 	final public function expectedSets(): array
 	{
 		static $expected;
@@ -384,11 +398,24 @@ abstract class AbstractTranslationTestCase extends TestCase
 		return $expected;
 	}
 
+	/**
+	 * @param string $locale
+	 *
+	 * @return array<string, string>
+	 */
 	final public function foundSets(string $locale): array
 	{
 		return $this->translationSets($locale);
 	}
 
+	/**
+	 * Loads the language keys and translation equivalents.
+	 *
+	 * @param string $file
+	 * @param string $locale
+	 *
+	 * @return array<string, string>
+	 */
 	final public function loadFile(string $file, string $locale = null): array
 	{
 		$folder = $locale
@@ -405,10 +432,12 @@ abstract class AbstractTranslationTestCase extends TestCase
 	 *
 	 * @param null|string $locale
 	 *
-	 * @return array
+	 * @return array<string, string>
 	 */
 	private function translationSets(string $locale = null): array
 	{
+		helper('filesystem');
+
 		$location = $locale
 			? getcwd() . "/Language/{$locale}/"
 			: getcwd() . self::MAIN_LANGUAGE_REPO;
