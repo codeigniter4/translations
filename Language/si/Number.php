@@ -11,16 +11,16 @@
 
 // Number language settings
 return [
-	'terabyteAbbr' => 'TB',
-	'gigabyteAbbr' => 'GB',
-	'megabyteAbbr' => 'MB',
-	'kilobyteAbbr' => 'KB',
-	'bytes'        => 'Bytes',
+	'terabyteAbbr' => 'TB', // TB
+	'gigabyteAbbr' => 'GB', // GB
+	'megabyteAbbr' => 'MB', // MB
+	'kilobyteAbbr' => 'KB', // KB
+	'bytes'        => 'Bytes', // Bytes
 
 	// don't forget the space in front of these!
-	'thousand'     => ' දහසක්',
-	'million'      => ' මිලියන',
-	'billion'      => ' බිලියන',
-	'trillion'     => ' ට්‍රිලියන',
-	'quadrillion'  => ' ක්වොඩ්රිලියන',
+	'thousand'     => ' දහසක්', // thousand
+	'million'      => ' මිලියන', // million
+	'billion'      => ' බිලියන', // billion
+	'trillion'     => ' ට්‍රිලියන', // trillion
+	'quadrillion'  => ' ක්වොඩ්රිලියන', // quadrillion
 ];
