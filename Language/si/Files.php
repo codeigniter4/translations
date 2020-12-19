@@ -11,6 +11,6 @@
 
 // Files language settings
 return [
-	'fileNotFound' => 'File not found: {0}',
-	'cannotMove'   => 'Could not move file {0} to {1} ({2})',
+	'fileNotFound' => 'ගොනුව හමු නොවිණි: {0}',
+	'cannotMove'   => 'ගොනුව ගෙනයාමට නොහැකි විය {0} සිට {1} ({2})',
 ];
