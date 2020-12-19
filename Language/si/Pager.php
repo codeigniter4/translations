@@ -11,13 +11,13 @@
 
 // Pager language settings
 return [
-	'pageNavigation'         => 'Page navigation',
-	'first'                  => 'First',
-	'previous'               => 'Previous',
-	'next'                   => 'Next',
-	'last'                   => 'Last',
-	'older'                  => 'Older',
-	'newer'                  => 'Newer',
-	'invalidTemplate'        => '{0} is not a valid Pager template.',
-	'invalidPaginationGroup' => '{0} is not a valid Pagination group.',
+	'pageNavigation'         => 'පේජ් නැවිගේෂන්',
+	'first'                  => 'පළමු',
+	'previous'               => 'කලින්',
+	'next'                   => 'ඊළඟ',
+	'last'                   => 'අවසන්',
+	'older'                  => 'පැරණි',
+	'newer'                  => 'අලුත්ම',
+	'invalidTemplate'        => '{0} වලංගු Pager ටෙම්ප්ලේටයක් නොවේ.',
+	'invalidPaginationGroup' => '{0} වලංගු Pagination කණ්ඩායමක් නොවේ.',
 ];
