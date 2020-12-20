@@ -11,6 +11,6 @@
 
 // Filters language settings
 return [
-	'noFilter'           => '{0} filter must have a matching alias defined.', // {0} filter must have a matching alias defined.
-	'incorrectInterface' => '{0} must implement CodeIgniter\Filters\FilterInterface.', // {0} must implement CodeIgniter\Filters\FilterInterface.
+	'noFilter'           => '{0} filter යට ගැලපෙන අන්වර්ථ නාමයක් අර්ථ දක්වා තිබිය යුතුය.', // {0} filter must have a matching alias defined.
+	'incorrectInterface' => '{0} මගින් CodeIgniter\Filters\FilterInterface භාවිතා කල යුතුය.', // {0} must implement CodeIgniter\Filters\FilterInterface.
 ];
