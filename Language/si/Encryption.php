@@ -11,10 +11,10 @@
 
 // Encryption language settings
 return [
-	'noDriverRequested'    => 'No driver requested; Miss Daisy will be so upset!', // No driver requested; Miss Daisy will be so upset!
-	'noHandlerAvailable'   => 'Unable to find an available {0} encryption handler.', // Unable to find an available {0} encryption handler.
-	'unKnownHandler'       => '"{0}" cannot be configured.', // "{0}" cannot be configured.
-	'starterKeyNeeded'     => 'Encrypter needs a starter key.', // Encrypter needs a starter key.
-	'authenticationFailed' => 'Decrypting: authentication failed.', // Decrypting: authentication failed.
-	'encryptionFailed'     => 'Encryption failed.', // Encryption failed.
+	'noDriverRequested'    => 'Driver එකක් ඉල්ලා නැත.', // No driver requested; Miss Daisy will be so upset!
+	'noHandlerAvailable'   => 'තිබෙන {0} සංකේතන handler එකක් සොයාගත නොහැක.', // Unable to find an available {0} encryption handler.
+	'unKnownHandler'       => '"{0}" configure කළ නොහැක.', // "{0}" cannot be configured.
+	'starterKeyNeeded'     => 'සංකේතකය සඳහා ආරම්භක යතුරක් අවශ්‍යයි.', // Encrypter needs a starter key.
+	'authenticationFailed' => 'විකේතනය කිරීම: සත්‍යාපනය අසාර්ථක විය.', // Decrypting: authentication failed.
+	'encryptionFailed'     => 'සංකේතනය අසාර්තක විය.', // Encryption failed.
 ];
