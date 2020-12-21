@@ -17,6 +17,7 @@ return [
 	'gifNotSupported'        => 'ライセンスの制限により、GIF画像はサポートされないことがよくあります。代わりに JPG または PNG 画像を使用する必要があるかもしれません。', //GIF images are often not supported due to licensing restrictions. You may have to use JPG or PNG images instead.
 	'jpgNotSupported'        => 'JPG画像には対応していません。', //JPG images are not supported.
 	'pngNotSupported'        => 'PNG画像には対応していません。', //PNG images are not supported.
+	'webpNotSupported'       => 'WEBP images are not supported.',
 	'fileNotSupported'       => '与えられたファイルはサポートされている画像の種類ではありません。', //The supplied file is not a supported image type.
 	'unsupportedImageCreate' => 'お使いのサーバーは、このタイプの画像を処理するために必要なGDファンクションをサポートしていません。', //Your server does not support the GD function required to process this type of image.
 	'jpgOrPngRequired'       => '環境設定で指定された画像サイズ変更プロトコルは、JPEGまたはPNG画像でのみ動作します。', //The image resize protocol specified in your preferences only works with JPEG or PNG image types.
