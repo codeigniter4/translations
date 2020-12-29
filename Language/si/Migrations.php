@@ -12,7 +12,7 @@
 // Migration language settings
 return [
 	// Migration Runner
-	'missingTable'      => 'Migrations table එක සැකසිය යුතුය.', // Migrations table must be set.
+	'missingTable'      => 'Migrations ටේබල් එක සැකසිය යුතුය.', // Migrations table must be set.
 	'disabled'          => 'Migrations load කර ඇති නමුත් අක්‍රීය හෝ වැරදි ලෙස සකසා ඇත.', // Migrations have been loaded but are disabled or setup incorrectly.
 	'notFound'          => 'Migration ගොනුව සොයාගත නොහැක: ', // Migration file not found: 
 	'batchNotFound'     => 'Target batch එක සොයාගත නොහැක: ', // Target batch not found: 
