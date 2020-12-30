@@ -52,6 +52,7 @@ claims no expertise beyond English.
 | pt     | Portuguese           | 4.0.0   | [rbm0407][pt]        | Rodrigo Borges
 | pt-BR  | Brazilian            | 4.0.0   | [natanfelles][pt-BR] | Natan Felles
 | ru     | Russian              | 4.0.0   | [DigitalWolf98][ru]  | Vladislav Rykhtikov
+| si     | Sinhala              | 4.x     | [npwsamarasinghe][si]| Nalaka Prasad
 | sk     | Slovak               | 4.0.0   | [xbotkaj][sk]        | Jozef Botka
 | sv-SE  | Swedish - Sweden     | 4.x     | [tangix][sv-SE]      | Mattias Sandström
 | tr     | Turkish              | 4.0.0   | [obozdag][tr]        | obozdag
@@ -81,6 +82,7 @@ _**Version where the locale was released. 4.x denotes `Unreleased`._
 [pt]: https://github.com/rbm0407
 [pt-BR]: https://github.com/natanfelles
 [ru]: https://github.com/DigitalWolf98
+[si]: https://github.com/npwsamarasinghe
 [sk]: https://github.com/xbotkaj
 [sv-SE]: https://github.com/tangix
 [tr]: https://github.com/obozdag
