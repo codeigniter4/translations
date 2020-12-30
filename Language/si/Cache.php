@@ -11,8 +11,8 @@
 
 // Cache language settings
 return [
-	'unableToWrite'   => 'Cache unable to write to {0}', // Cache unable to write to {0}
-	'invalidHandlers' => 'Cache config must have an array of $validHandlers.', // Cache config must have an array of $validHandlers.
-	'noBackup'        => 'Cache config must have a handler and backupHandler set.', // Cache config must have a handler and backupHandler set.
-	'handlerNotFound' => 'Cache config has an invalid handler or backup handler specified.', // Cache config has an invalid handler or backup handler specified.
+	'unableToWrite'   => 'Cache හට {0} ට ලිවිය නොහැක', // Cache unable to write to {0}
+	'invalidHandlers' => 'Cache config හට $validHandlers array එකක් තිබිය යුතුය.', // Cache config must have an array of $validHandlers.
+	'noBackup'        => 'Cache config හට handler එකක් සහ backupHandler කට්ටලයක් තිබිය යුතුය.', // Cache config must have a handler and backupHandler set.
+	'handlerNotFound' => 'Cache config හි අවලංගු handler එකක් හෝ backup handler එකක් specify කර ඇත.', // Cache config has an invalid handler or backup handler specified.
 ];
