@@ -11,10 +11,10 @@
 
 // Cast language settings
 return [
-	'jsonErrorDepth'         => 'Maximum stack depth exceeded', // Maximum stack depth exceeded
-	'jsonErrorStateMismatch' => 'Underflow or the modes mismatch', // Underflow or the modes mismatch
-	'jsonErrorCtrlChar'      => 'Unexpected control character found', // Unexpected control character found
-	'jsonErrorSyntax'        => 'Syntax error, malformed JSON', // Syntax error, malformed JSON
-	'jsonErrorUtf8'          => 'Malformed UTF-8 characters, possibly incorrectly encoded', // Malformed UTF-8 characters, possibly incorrectly encoded
-	'jsonErrorUnknown'       => 'Unknown error', // Unknown error
+	'jsonErrorDepth'         => 'උපරිම stack depth ඉක්මවා ඇත', // Maximum stack depth exceeded
+	'jsonErrorStateMismatch' => 'Underflow හෝ modes නොගැලපීම', // Underflow or the modes mismatch
+	'jsonErrorCtrlChar'      => 'අනපේක්ෂිත control character එකක් හමු විය', // Unexpected control character found
+	'jsonErrorSyntax'        => 'සින්ටැක්ස් දෝෂයක්, විකෘති JSON', // Syntax error, malformed JSON
+	'jsonErrorUtf8'          => 'විකෘති UTF-8 අක්ෂර, සමහර විට වැරදි ලෙස encode කර ඇත', // Malformed UTF-8 characters, possibly incorrectly encoded
+	'jsonErrorUnknown'       => 'නොදන්නා දෝෂයකි', // Unknown error
 ];
