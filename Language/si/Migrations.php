@@ -17,7 +17,7 @@ return [
 	'notFound'      => 'Migration ගොනුව සොයාගත නොහැක: ', // Migration file not found:
 	'batchNotFound' => 'Target batch එක සොයාගත නොහැක: ', // Target batch not found:
 	'empty'         => 'Migration ගොනු කිසිවක් සොයාගත නොහැක', // No Migration files found
-	'gap'           => 'Version number එක අසල migration sequence හි පරතරයක් ඇත: ', // There is a gap in the migration sequence near version number: 
+	'gap'           => 'Version number එක අසල migration sequence හි පරතරයක් ඇත: ', // There is a gap in the migration sequence near version number:
 	'classNotFound' => 'Migration class "%s" සොයාගත නොහැක.', // The migration class "%s" could not be found.
 	'missingMethod' => 'Migration class හි "%s" method එකක් නොමැත.', // The migration class is missing an "%s" method.
 
