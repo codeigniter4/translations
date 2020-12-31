@@ -73,43 +73,22 @@ chdir(__DIR__ . '/../../');
 if ($count === 0 && ! ($isCIAffected || $isTestAffected))
 {
 	CLI::write('No language files to test.', 'black', 'green');
+	CLI::newLine();
 	exit(0);
 }
 
-if ($count === count(AbstractTranslationTestCase::$locales) || $isCIAffected || $isTestAffected)
-{
-	$count = count(AbstractTranslationTestCase::$locales);
-
-	ob_start();
-
-	$returns = 0;
-	CLI::write("Testing all language files in all locales.\n");
-	passthru("{$phpunit} --color=always", $returns);
-
-	$result = ob_get_clean();
-	$failed = [];
-
-	if (preg_match_all('/\(\'(.+)\'\)/', $result, $failed))
-	{
-		$failed = array_unique($failed[1]);
-	}
-
-	$passed = array_values(array_diff(AbstractTranslationTestCase::$locales, $failed));
-
-	CLI::write($result);
-}
-
-if ($count < count(AbstractTranslationTestCase::$locales))
+// Check this first to account for new ICU locale additions
+if ($count > 0 && $count < count(AbstractTranslationTestCase::$locales))
 {
 	$returns = 0;
 	$return  = 0;
 
 	foreach ($locales as $locale)
 	{
-		$localeMap = array_flip(AbstractTranslationTestCase::$locales);
-		$class     = preg_replace('/^Translations\\\\Tests\\\\(.+)$/u', '$1', $localeMap[$locale]);
+		$class = (string) array_search($locale, AbstractTranslationTestCase::$locales, true);
+		$class = preg_replace('/^Translations\\\\Tests\\\\(.+)$/u', '$1', $class);
 
-		CLI::write("Executing vendor/bin/phpunit --color=always --filter {$class}\n");
+		CLI::write("Executing vendor/bin/phpunit --color=always --filter {$class}\n", 'black', 'yellow');
 		passthru("{$phpunit} --color=always --filter {$class}", $return);
 
 		if ($return !== 0)
@@ -123,6 +102,54 @@ if ($count < count(AbstractTranslationTestCase::$locales))
 
 		$returns += $return;
 	}
+}
+elseif ($count === count(AbstractTranslationTestCase::$locales) || $isCIAffected || $isTestAffected)
+{
+	$reasons = [
+		[
+			$count === count(AbstractTranslationTestCase::$locales),
+			'All ICU locales have been modified.',
+		],
+		[
+			$isCIAffected,
+			'The continuous integration script has been modified.',
+		],
+		[
+			$isTestAffected,
+			'A test suite file has been modified.',
+		],
+	];
+
+	// Assign the locale count in case the first reason is false
+	$count = count(AbstractTranslationTestCase::$locales);
+
+	ob_start();
+
+	$returns = 0;
+	CLI::write('Testing all language files in all locales.', 'black', 'yellow');
+
+	foreach ($reasons as [$reason, $explanation])
+	{
+		if ($reason)
+		{
+			CLI::write('Reason: ' . $explanation . "\n", 'black', 'yellow');
+			break;
+		}
+	}
+
+	passthru("{$phpunit} --color=always", $returns);
+
+	$result = ob_get_clean();
+	$failed = [];
+
+	if (preg_match_all('/\(\'(.+)\'\)/', $result, $failed))
+	{
+		$failed = array_unique($failed[1]);
+	}
+
+	$passed = array_values(array_diff(AbstractTranslationTestCase::$locales, $failed));
+
+	CLI::write($result);
 }
 
 if ($failed === [])
@@ -142,8 +169,8 @@ sort($passed);
 sort($failed);
 
 CLI::newLine();
-CLI::write(sprintf('Passed locales (%d of %d): %s', count($passed), $count, implode(', ', $passed)), 'green');
-CLI::write(sprintf('Failed locales (%d of %d): %s', count($failed), $count, implode(', ', $failed)), 'red');
+CLI::write(sprintf('Passed locales (%d of %d): %s', count($passed), $count, implode(', ', $passed) ?: '--'), 'green');
+CLI::write(sprintf('Failed locales (%d of %d): %s', count($failed), $count, implode(', ', $failed) ?: '--'), 'red');
 CLI::newLine();
 
 exit($returns ? 1 : 0);
