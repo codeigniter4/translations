@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - lv (Latvian)
 - ml (Malayalam)
 - nl (Dutch)
+- si (Sinhala)
 - sv-SE (Swedish - Sweden)
 - uk (Ukrainian)
 - vi (Vietnamese)
