@@ -5,8 +5,8 @@
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * For the full copyright and license information, please view
- * the LICENSE file that was distributed with this source code.
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
 // Number language settings
@@ -18,9 +18,9 @@ return [
 	'bytes'        => 'Bajtov',
 
 	// don't forget the space in front of these!
-	'thousand'    => ' tisíc',
-	'million'     => ' milión',
-	'billion'     => ' miliarda',
-	'trillion'    => ' trilión',
-	'quadrillion' => ' kvadrilión',
+	'thousand'     => ' tisíc',
+	'million'      => ' milión',
+	'billion'      => ' miliarda',
+	'trillion'     => ' trilión',
+	'quadrillion'  => ' kvadrilión',
 ];

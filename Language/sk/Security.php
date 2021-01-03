@@ -9,8 +9,8 @@
  * file that was distributed with this source code.
  */
 
-// Filters language settings
+// Security language settings
 return [
-	'noFilter'           => '{0} filter musí mať definovaný zhodujúci sa alias.',
-	'incorrectInterface' => '{0} musí implementovať CodeIgniter\Filters\FilterInterface.',
+	'disallowedAction' => 'Požadovaná akcia nie je povolená.',
+	'invalidSameSite'  => 'SameSite hodnota musí byť None, Lax, Strict, alebo prázdny reťazec. Zadaný: {0}',
 ];

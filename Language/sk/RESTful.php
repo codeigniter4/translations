@@ -9,8 +9,7 @@
  * file that was distributed with this source code.
  */
 
-// Filters language settings
+// RESTful language settings
 return [
-	'noFilter'           => '{0} filter musí mať definovaný zhodujúci sa alias.',
-	'incorrectInterface' => '{0} musí implementovať CodeIgniter\Filters\FilterInterface.',
+	'notImplemented' => '"{0}" akcia nie je implementovaná.',
 ];

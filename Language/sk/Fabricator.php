@@ -9,8 +9,9 @@
  * file that was distributed with this source code.
  */
 
-// Filters language settings
+// Fabricator language settings
 return [
-	'noFilter'           => '{0} filter musí mať definovaný zhodujúci sa alias.',
-	'incorrectInterface' => '{0} musí implementovať CodeIgniter\Filters\FilterInterface.',
+	'invalidModel'      => 'Na výrobu bol dodaný neplatný model.',
+	'missingFormatters' => 'Nie sú definované žiadne platné formátory.',
+	'createFailed'      => 'Výrobcu sa nepodarilo vložiť do tabuľky {0}: {1}.',
 ];
