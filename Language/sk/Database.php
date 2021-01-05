@@ -5,8 +5,8 @@
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
 // Database language settings
@@ -15,7 +15,7 @@ return [
 	'invalidArgument'                  => 'Musíte zadať platný {0}.',
 	'invalidAllowedFields'             => 'Povolené polia musia byť špecifikované pre model: {0}',
 	'emptyDataset'                     => 'Žiadne dáta pre {0}.',
-    'emptyPrimaryKey'                  => 'Pri pokuse o vykonanie {0} nie je definovaný žiadny primárny kľúč.',
+	'emptyPrimaryKey'                  => 'Pri pokuse o vykonanie {0} nie je definovaný žiadny primárny kľúč.',
 	'failGetFieldData'                 => 'Zlyhalo získanie údajov poľa z databáze.',
 	'failGetIndexData'                 => 'Zlyhalo získanie údajov indexu z databáze.',
 	'failGetForeignKeyData'            => 'Zlyhalo získanie údajov cudzieho kľúča z databáze.',
