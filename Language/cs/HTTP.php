@@ -18,13 +18,13 @@ return [
 	'curlError'       => '{0} : {1}',
 
 	// IncomingRequest
-	'invalidNegotiationType' => '{0} není platný typ vyjednávání. Musí to být: médium, znaková sada, kódování nebo jazyk.',
+	'invalidNegotiationType' => '{0} není platný typ vyjednávání. Musí to být: media, charset, encoding nebo language.',
 
 	// Message
 	'invalidHTTPProtocol' => 'Neplatná verze protokolu HTTP. Musí to být jedno z: {0}',
 
 	// Negotiate
-	'emptySupportedNegotiations' => 'Musíte poskytnout pole podporovaných hodnot pro všechny negotiations.',
+	'emptySupportedNegotiations' => 'Musíte poskytnout pole podporovaných hodnot pro všechny Negotiations.',
 
 	// RedirectResponse
 	'invalidRoute' => '{0} trasu není možné najít při zpětném směrování.',
@@ -61,13 +61,16 @@ return [
 	'invalidFile'  => 'Pôvodný soubor není platný.',
 	'moveFailed'   => 'Nepodařilo se přesunout soubor z {0} do {1} ({2})',
 
-	'uploadErrOk'        => 'soubor byl úspěšně nahrán.',
-	'uploadErrIniSize'   => 'soubor "%s" překračuje vaše nastavení upload_max_filesize.',
-	'uploadErrFormSize'  => 'soubor "%s" překračuje limit pro upload nastavený ve vašem formuláři.',
-	'uploadErrPartial'   => 'soubor "%s" byl nahrán pouze částečně.',
+	'uploadErrOk'        => 'Soubor byl úspěšně nahrán.',
+	'uploadErrIniSize'   => 'Soubor "%s" překračuje vaše nastavení upload_max_filesize.',
+	'uploadErrFormSize'  => 'Soubor "%s" překračuje limit pro upload nastavený ve vašem formuláři.',
+	'uploadErrPartial'   => 'Soubor "%s" byl nahrán pouze částečně.',
 	'uploadErrNoFile'    => 'Nebyl nahrán žádný soubor.',
-	'uploadErrCantWrite' => 'soubor "%s" se nepodařilo zapsat na disk.',
-	'uploadErrNoTmpDir'  => 'soubor se nepodařilo nahrát: chybí dočasný adresář.',
+	'uploadErrCantWrite' => 'Soubor "%s" se nepodařilo zapsat na disk.',
+	'uploadErrNoTmpDir'  => 'Soubor se nepodařilo nahrát: chybí dočasný adresář.',
 	'uploadErrExtension' => 'Nahrávání souborů bylo zastaveno rozšířením PHP.',
-	'uploadErrUnknown'   => 'soubor "%s" nebyl nahrán z důvodu neznámé chyby.',
+	'uploadErrUnknown'   => 'Soubor "%s" nebyl nahrán z důvodu neznámé chyby.',
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'SameSite nastavení musí být None, Lax, Strict nebo prázdný řetězec. Zadané: {0}',
 ];

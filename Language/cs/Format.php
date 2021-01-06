@@ -11,6 +11,8 @@
 
 // Format language settings
 return [
+	'invalidFormatter' => '"{0} "není platná Formatter třída.',
 	'invalidJSON'      => 'Parsování JSON řetězce selhalo, chyba: "{0}".',
+	'invalidMime'      => 'Není definován žádný Formatter pro mime type: "{0}".',
 	'missingExtension' => 'Rozšíření SimpleXML je nezbytné pro XML formát.',
 ];
