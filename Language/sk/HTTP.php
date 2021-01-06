@@ -18,22 +18,23 @@ return [
 	'curlError'       => '{0} : {1}',
 
 	// IncomingRequest
-	'invalidNegotiationType' => '{0} nie je platný typ vyjednávania. Musí to byť: médium, znaková sada, kódovanie alebo jazyk.',
+	'invalidNegotiationType' => '{0} nie je platný typ vyjednávania. Musí to byť: media, charset, encoding, language.',
 
 	// Message
 	'invalidHTTPProtocol' => 'Neplatná verzia protokolu HTTP. Musí to byť jedno z: {0}',
 
 	// Negotiate
-	'emptySupportedNegotiations' => 'Musíte poskytnúť pole podporovaných hodnôt pre všetky negotiations.',
+	'emptySupportedNegotiations' => 'Musíte poskytnúť pole podporovaných hodnôt pre všetky Negotiations.',
 
 	// RedirectResponse
 	'invalidRoute' => '{0} trasu nemožno nájsť pri spätnom smerovaní.',
 
 	// DownloadResponse
-	'cannotSetBinary'     => 'Pri nastavovaní filepath nie je možné nastaviť binary.',
-	'cannotSetFilepath'   => 'Pri nastavovaní binary nie je možné nastaviť filepath: {0}',
-	'cannotSetCache'      => 'Nepodporuje ukladanie do vyrovnávacej pamäte pre sťahovanie.',
-	'cannotSetStatusCode' => 'Nepodporuje stavový kód chnage na stiahnutie. kód: {0}, dôvod: {1}',
+	'cannotSetBinary'        => 'Pri nastavovaní filepath nie je možné nastaviť binary.',
+	'cannotSetFilepath'      => 'Pri nastavovaní binary nie je možné nastaviť filepath: {0}',
+	'notFoundDownloadSource' => 'Nenašiel sa zdroj tela sťahovania.',
+	'cannotSetCache'         => 'Nepodporuje ukladanie do vyrovnávacej pamäte pre sťahovanie.',
+	'cannotSetStatusCode'    => 'Nepodporuje stavový kód chnage na stiahnutie. kód: {0}, dôvod: {1}',
 
 	// Response
 	'missingResponseStatus' => 'V odpovedi HTTP chýba stavový kód',
@@ -60,7 +61,7 @@ return [
 	'invalidFile'  => 'Pôvodný súbor nie je platný.',
 	'moveFailed'   => 'Nepodarilo sa presunúť súbor z {0} do {1} ({2})',
 
-	'uploadErrOk'        => 'Súbor bol úspešne odovzdaný.',
+	'uploadErrOk'        => 'Súbor bol úspešne nahratý.',
 	'uploadErrIniSize'   => 'Súbor "%s" prekračuje vašu direktívu upload_max_filesize ini.',
 	'uploadErrFormSize'  => 'Súbor "%s" prekračuje limit pre upload stanovený vo vašom formulári.',
 	'uploadErrPartial'   => 'Súbor "%s" bol nahraný iba čiastočne.',
@@ -69,4 +70,7 @@ return [
 	'uploadErrNoTmpDir'  => 'Súbor sa nepodarilo nahrať: chýba dočasný adresár.',
 	'uploadErrExtension' => 'Nahrávanie súborov bolo zastavené rozšírením PHP.',
 	'uploadErrUnknown'   => 'Súbor "%s" nebol nahraný kvôli neznámej chybe.',
+
+	// SameSite setting
+	'invalidSameSiteSetting' => 'Nastavenie SameSite nastavenie musí byť None, Lax, Strict, alebo prázdny reťazec. Zadaný: {0}',
 ];
