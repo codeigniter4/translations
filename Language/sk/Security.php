@@ -12,5 +12,5 @@
 // Security language settings
 return [
 	'disallowedAction' => 'Požadovaná akcia nie je povolená.',
-	'invalidSameSite'  => 'SameSite hodnota musí byť None, Lax, Strict, alebo prázdny reťazec. Zadaný: {0}',
+	'invalidSameSite'  => 'SameSite hodnota musí byť None, Lax, Strict, alebo prázdny reťazec. Zadané: {0}',
 ];

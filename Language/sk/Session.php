@@ -16,5 +16,5 @@ return [
 	'writeProtectedSavePath' => 'Session: Nastavená cesta uloženia "{0}" nie je zapisovateľná cez PHP proces.',
 	'emptySavePath'          => 'Session: Nie je nastavená cesta na uloženie.',
 	'invalidSavePathFormat'  => 'Session: Neplatný formát Redis cesty: {0}',
-	'invalidSameSiteSetting' => 'Session: SameSite nastavenie musí byť None, Lax, Strict, alebo prázdny reťazec. Zadané: {0}',
+	'invalidSameSiteSetting' => 'Session: SameSite nastavení musí být None, Lax, Strict nebo prázdný řetězec. Zadané: {0}',
 ];

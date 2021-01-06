@@ -19,5 +19,5 @@ return [
 	'older'                  => 'Staršie',
 	'newer'                  => 'Novšie',
 	'invalidTemplate'        => '{0} je neplatná Pager predloha.',
-	'invalidPaginationGroup' => '{0} je neplatná skupina pre Pagination.',
+	'invalidPaginationGroup' => '{0} je neplatná skupina pre stránkovanie (Pagination).',
 ];
