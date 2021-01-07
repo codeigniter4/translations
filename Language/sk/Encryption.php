@@ -15,6 +15,6 @@ return [
 	'noHandlerAvailable'   => 'Nepodarilo sa nájsť dostupný {0} šifrovací handler.',
 	'unKnownHandler'       => '"{0}" nie je možné nakonfigurovať.',
 	'starterKeyNeeded'     => 'Šifrovač potrebuje štartovací kľúč.',
-	'authenticationFailed' => 'Dešifrovanie: autentifikácia zlyhala.',
+	'authenticationFailed' => 'Dešifrovanie: autentizácia zlyhala.',
 	'encryptionFailed'     => 'Šifrovanie zlyhalo.',
 ];

@@ -44,7 +44,7 @@ return [
 	// URI
 	'cannotParseURI'       => 'Nemožno analyzovať URI: {0}',
 	'segmentOutOfRange'    => 'Segment URI žiadosti je mimo rozsahu: {0}',
-	'invalidPort'          => 'Porty musia byť medzi 0 a 65535. Zadaný: {0}',
+	'invalidPort'          => 'Porty musia byť medzi 0 a 65535. Zadané: {0}',
 	'malformedQueryString' => 'Reťazce dopytov nemusia obsahovať fragmenty URI.',
 
 	// Page Not Found
@@ -72,5 +72,5 @@ return [
 	'uploadErrUnknown'   => 'Súbor "%s" nebol nahraný kvôli neznámej chybe.',
 
 	// SameSite setting
-	'invalidSameSiteSetting' => 'Nastavenie SameSite nastavenie musí byť None, Lax, Strict, alebo prázdny reťazec. Zadaný: {0}',
+	'invalidSameSiteSetting' => 'SameSite nastavenie musí byť None, Lax, Strict, alebo prázdny reťazec. Zadané: {0}',
 ];

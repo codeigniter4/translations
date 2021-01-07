@@ -15,7 +15,7 @@ return [
 	'invalidAddress'       => 'Neplatná emailová adresa: {0}',
 	'attachmentMissing'    => 'Nasledujúca príloha e-mailu sa nepodarilo nájsť: {0}',
 	'attachmentUnreadable' => 'Túto prílohu nie je možné otvoriť: {0}',
-	'noFrom'               => 'Nemožno poslať mail bez hlavičky "Od".',
+	'noFrom'               => 'Nemožno poslať mail bez hlavičky (header) "From".',
 	'noRecipients'         => 'Musíte zadať príjemcov: To, Cc, alebo Bcc',
 	'sendFailurePHPMail'   => 'Nepodarilo sa odoslať email pomocou PHP mail(). Váš server nemusí byť nakonfigurovaný na odosielanie pošty pomocou tejto metódy.',
 	'sendFailureSendmail'  => 'Nepodarilo sa odoslať email pomocou PHP Sendmail. Váš server nemusí byť nakonfigurovaný na odosielanie pošty pomocou tejto metódy.',
@@ -29,5 +29,5 @@ return [
 	'SMTPAuthUsername'     => 'Nepodarilo sa overiť používateľské meno. Chyba: {0}',
 	'SMTPAuthPassword'     => 'Nepodarilo sa overiť heslo. Chyba: {0}',
 	'SMTPDataFailure'      => 'Nie je možné odoslať údaje: {0}',
-	'exitStatus'           => 'Výstupný stavový kód: {0}',
+	'exitStatus'           => 'Stavový kód Exit: {0}',
 ];
