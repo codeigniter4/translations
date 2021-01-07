@@ -32,7 +32,7 @@ return [
 	'migNumberError'    => 'Migreringens nummer måste vara tre siffor och det får inte vara luckor i sekvensen.',
 	'rollBackConfirm'   => 'Är du säker på att du vill göra en rollback?',
 	'refreshConfirm'    => 'Är du säker på att du vill göra en refresh?',
-	
+
 	'latest'            => 'Kör alla nya migreringar...',
 	'generalFault'      => 'Migreringen misslyckades!',
 	'migInvalidVersion' => 'Felaktigt versionsnummer angivet.',
