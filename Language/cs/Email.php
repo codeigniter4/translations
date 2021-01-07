@@ -20,7 +20,7 @@ return [
 	'sendFailurePHPMail'   => 'Nepodařilo se odeslat email skrze PHP mail(). Váš server zřejmě není nakonfigurován pro odesílání e-mailů touto metodou.',
 	'sendFailureSendmail'  => 'Nepodařilo se odeslat email skrze PHP Sendmail. Váš server zřejmě není nakonfigurován pro odesílání e-mailů touto metodou.',
 	'sendFailureSmtp'      => 'Nepodařilo se odeslat email skrze PHP SMTP. Váš server zřejmě není nakonfigurován pro odesílání e-mailů touto metodou.',
-	'sent'                 => 'Vaše zpráva byla úspěšně odeslána použitím protokou: {0}',
+	'sent'                 => 'Vaše zpráva byla úspěšně odeslána použitím protokolu: {0}',
 	'noSocket'             => 'Nepodařilo se otevřít socket pro Sendmail. Zkontrolujte prosím nastavení.',
 	'noHostname'           => 'Nespecifikovali jste SMTP hostname.',
 	'SMTPError'            => 'Nastala tato SMTP chyba: {0}',
