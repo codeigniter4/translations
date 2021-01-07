@@ -11,14 +11,14 @@
 
 return [
 	// Migration Runner
-	'missingTable'  => 'Migrationstabellen måste anges.',
-	'disabled'      => 'Migrationer har laddats men är antingen deaktiverade eller felaktigt inställda.',
-	'notFound'      => 'Migrationsfilen hittade inte: ',
-	'batchNotFound' => 'Target batch hittade inte: ',
-	'empty'         => 'Ingen migrationsfil hittades',
-	'gap'           => 'Det finns en lucka i migrationssekvens nära version: ',
-	'classNotFound' => 'Migrationsklassen "%s" kunde inte hittas.',
-	'missingMethod' => 'Migrationsklassen saknar funktionen "%s".',
+	'missingTable'      => 'Migrationstabellen måste anges.',
+	'disabled'          => 'Migrationer har laddats men är antingen deaktiverade eller felaktigt inställda.',
+	'notFound'          => 'Migrationsfilen hittade inte: ',
+	'batchNotFound'     => 'Target batch hittade inte: ',
+	'empty'             => 'Ingen migrationsfil hittades',
+	'gap'               => 'Det finns en lucka i migrationssekvens nära version: ',
+	'classNotFound'     => 'Migrationsklassen "%s" kunde inte hittas.',
+	'missingMethod'     => 'Migrationsklassen saknar funktionen "%s".',
 
 	// Migration Command
 	'migHelpLatest'     => "\t\tMigrerar databasen till senaste tillgängliga nivå.",
@@ -47,10 +47,10 @@ return [
 	'added'             => 'Kör: ',
 
 	// Migrate Status
-	'namespace' => 'Namespace',
-	'filename'  => 'Filnamn',
-	'version'   => 'Version',
-	'group'     => 'Grupp',
-	'on'        => 'Migrerad: ',
-	'batch'     => 'Batch',
+	'namespace'         => 'Namespace',
+	'filename'          => 'Filnamn',
+	'version'           => 'Version',
+	'group'             => 'Grupp',
+	'on'                => 'Migrerad: ',
+	'batch'             => 'Batch',
 ];
