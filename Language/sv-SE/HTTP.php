@@ -71,5 +71,6 @@ return [
 	'uploadErrUnknown'   => 'Filen "%s" laddades inte upp på grund av ett okänt fel.',
 
 	// SameSite setting
+	// @deprecated use `Security.invalidSameSiteSetting`
 	'invalidSameSiteSetting' => 'Inställningen SameSite måste vara None, Lax, Strict, eller en blank sträng. Angivet: {0}',
 ];
