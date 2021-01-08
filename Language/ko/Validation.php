@@ -12,11 +12,11 @@
 // Validation language settings
 return [
 	// Core Messages
-	'noRuleSets'            => 'Validation 설정에서 지정된 규칙 집합이 없습니다.', // 'No rulesets specified in Validation configuration.',
-	'ruleNotFound'          => '{0} 경우는 유효한 규칙이 아닙니다.', // '{0} is not a valid rule.',
-	'groupNotFound'         => '{0} 경우는 유효성 규칙 그룹이 아닙니다.', // '{0} is not a validation rules group.',
-	'groupNotArray'         => '{0} 규칙 그룹은 반드시 배열이어야 합니다.', // '{0} rule group must be an array.',
-	'invalidTemplate'       => '{0} 경우는 유효한 Validation 템플릿이 아닙니다.', // '{0} is not a valid Validation template.',
+	'noRuleSets'      => 'Validation 설정에서 지정된 규칙 집합이 없습니다.', // 'No rulesets specified in Validation configuration.',
+	'ruleNotFound'    => '{0} 경우는 유효한 규칙이 아닙니다.', // '{0} is not a valid rule.',
+	'groupNotFound'   => '{0} 경우는 유효성 규칙 그룹이 아닙니다.', // '{0} is not a validation rules group.',
+	'groupNotArray'   => '{0} 규칙 그룹은 반드시 배열이어야 합니다.', // '{0} rule group must be an array.',
+	'invalidTemplate' => '{0} 경우는 유효한 Validation 템플릿이 아닙니다.', // '{0} is not a valid Validation template.',
 
 	// Rule Messages
 	'alpha'                 => '{field} 필드에는 알파벳 문자만 포함시킬 수 있습니다.', // 'The {field} field may only contain alphabetical characters.',
@@ -60,13 +60,13 @@ return [
 	'valid_date'            => '{field} 필드 값은 유효한 날짜여야 합니다.', // 'The {field} field must contain a valid date.',
 
 	// Credit Cards
-	'valid_cc_num'          => '{field}의 값은 잘못된 신용카드 번호입니다.', // '{field} does not appear to be a valid credit card number.',
+	'valid_cc_num' => '{field}의 값은 잘못된 신용카드 번호입니다.', // '{field} does not appear to be a valid credit card number.',
 
 	// Files
-	'uploaded'              => '{field} 업로드 파일이 올바르지 않습니다.', // '{field} is not a valid uploaded file.',
-	'max_size'              => '{field} 파일이 너무 큽니다.', // '{field} is too large of a file.',
-	'is_image'              => '{field} 파일이 유효한 이미지 파일이 아닙니다.', // '{field} is not a valid, uploaded image file.',
-	'mime_in'               => '{field} 경우, 유효한 MIME 타입을 갖고 있지 않습니다.', // '{field} does not have a valid mime type.',
-	'ext_in'                => '{field} 경우, 유효한 파일 확장자를 갖고 있지 않습니다.', // '{field} does not have a valid file extension.',
-	'max_dims'              => '{field} 경우, 이미지가 아니거나 이미지의 크기가 너무 넓거나 큽니다.', // '{field} is either not an image, or it is too wide or tall.',
+	'uploaded' => '{field} 업로드 파일이 올바르지 않습니다.', // '{field} is not a valid uploaded file.',
+	'max_size' => '{field} 파일이 너무 큽니다.', // '{field} is too large of a file.',
+	'is_image' => '{field} 파일이 유효한 이미지 파일이 아닙니다.', // '{field} is not a valid, uploaded image file.',
+	'mime_in'  => '{field} 경우, 유효한 MIME 타입을 갖고 있지 않습니다.', // '{field} does not have a valid mime type.',
+	'ext_in'   => '{field} 경우, 유효한 파일 확장자를 갖고 있지 않습니다.', // '{field} does not have a valid file extension.',
+	'max_dims' => '{field} 경우, 이미지가 아니거나 이미지의 크기가 너무 넓거나 큽니다.', // '{field} is either not an image, or it is too wide or tall.',
 ];

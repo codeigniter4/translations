@@ -12,14 +12,14 @@
 // Migration language settings
 return [
 	// Migration Runner
-	'missingTable'      => '마이그레이션 테이블은 반드시 설정되어야 합니다.', // 'Migrations table must be set.',
-	'disabled'          => '마이그레이션이 로드되었지만, 사용할 수 없거나 설정이 잘못되었습니다.', //'Migrations have been loaded but are disabled or setup incorrectly.',
-	'notFound'          => '마이그레이션 파일 찾기 실패: ', // 'Migration file not found: ',
-	'batchNotFound'     => '대상이 되는 batch 찾기 실패: ', // 'Target batch not found: ',
-	'empty'             => '마이그레이션 파일을 찾을 수 없습니다.', // 'No Migration files found',
-	'gap'               => '순차적인 마이그레이션 sequence 값 부근의 버전 번호 값에 차이가 있습니다.', // 'There is a gap in the migration sequence near version number: ',
-	'classNotFound'     => '해당 마이그레이션 클래스 "%s" 찾기 실패', // 'The migration class "%s" could not be found.',
-	'missingMethod'     => '해당 마이그레이션 클래스의 "%s" 메서드를 찾을 수 없습니다.', // 'The migration class is missing an "%s" method.',
+	'missingTable'  => '마이그레이션 테이블은 반드시 설정되어야 합니다.', // 'Migrations table must be set.',
+	'disabled'      => '마이그레이션이 로드되었지만, 사용할 수 없거나 설정이 잘못되었습니다.', //'Migrations have been loaded but are disabled or setup incorrectly.',
+	'notFound'      => '마이그레이션 파일 찾기 실패: ', // 'Migration file not found: ',
+	'batchNotFound' => '대상이 되는 batch 찾기 실패: ', // 'Target batch not found: ',
+	'empty'         => '마이그레이션 파일을 찾을 수 없습니다.', // 'No Migration files found',
+	'gap'           => '순차적인 마이그레이션 sequence 값 부근의 버전 번호 값에 차이가 있습니다.', // 'There is a gap in the migration sequence near version number: ',
+	'classNotFound' => '해당 마이그레이션 클래스 "%s" 찾기 실패', // 'The migration class "%s" could not be found.',
+	'missingMethod' => '해당 마이그레이션 클래스의 "%s" 메서드를 찾을 수 없습니다.', // 'The migration class is missing an "%s" method.',
 
 	// Migration Command
 	'migHelpLatest'     => "\t\t데이터베이스를 사용이 가능한 최신 마이그레이션으로 마이그레이트합니다.", // "\t\tMigrates database to latest available migration.",
@@ -47,10 +47,10 @@ return [
 	'added'             => '실행 중: ', // 'Running: ',
 
 	// Migrate Status
-	'namespace'         => '네임스페이스',
-	'filename'          => '파일명', // 'Filename',
-	'version'           => '버전', // 'Version',
-	'group'             => '그룹',
-	'on'                => '마이그레이션 대상: ', // 'Migrated On: ',
-	'batch'             => 'Batch',
+	'namespace' => '네임스페이스',
+	'filename'  => '파일명', // 'Filename',
+	'version'   => '버전', // 'Version',
+	'group'     => '그룹',
+	'on'        => '마이그레이션 대상: ', // 'Migrated On: ',
+	'batch'     => 'Batch',
 ];
