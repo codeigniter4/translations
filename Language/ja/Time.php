@@ -11,6 +11,7 @@
 
 // Time language settings
 return [
+	'invalidFormat'  => '"{0}" は無効な日時です', //"{0}" is not a valid datetime format
 	'invalidMonth'   => '月は1から12を指定してください。 入力された値: {0}', //Months must be between 1 and 12. Given: {0}
 	'invalidDay'     => '日は1から31を指定してください。 入力された値: {0}', //Days must be between 1 and 31. Given: {0}
 	'invalidOverDay' => '日は1から{0}を指定してください。 入力された値: {1}', //Days must be between 1 and {0}. Given: {1}
