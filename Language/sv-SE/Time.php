@@ -10,6 +10,7 @@
  */
 
 return [
+	'invalidFormat'  => '"{0}" är inte ett giltigt tidsformat',
 	'invalidMonth'   => 'Månader måste anges mellan 1 och 12. Givet: {0}',
 	'invalidDay'     => 'Dagar måste anges mellan 1 och 31. Givet: {0}',
 	'invalidOverDay' => 'Dagar måste anges mellan 1 och {0}. Givet: {1}',
