@@ -11,20 +11,27 @@
 
 // CLI language settings
 return [
-	'commandNotFound'    => 'Comando "{0}" não foi encontrado.',
-	'altCommandSingular' => 'Você quis dizer isso?',
 	'altCommandPlural'   => 'Você quis dizer um desses?',
-	'helpUsage'          => 'Uso:',
-	'helpDescription'    => 'Descrição:',
-	'helpOptions'        => 'Opções:',
-	'helpArguments'      => 'Argumentos:',
-	'invalidColor'       => 'Cor de {0} inválida: {1}.',
-
-	// Generators
-	'generateClassName'   => 'Nome da classe',
-	'generateParentClass' => 'Nome da classe pai para estender desde',
-	'generateFileExists'  => '{0} já existe.',
-	'generateFileSuccess' => 'Criar arquivo: ',
-	'generateFileError'   => 'Erro ao criar arquivo: ',
+	'altCommandSingular' => 'Você quis dizer isso?',
+	'commandNotFound'    => 'Comando "{0}" não foi encontrado.',
+	'generator'          => [
+		'cancelOperation'  => 'Operação foi cancelada.',
+		'className'        => 'Nome da classe',
+		'commandType'      => 'Tipo de comando',
+		'databaseGroup'    => 'Grupo do banco de dados',
+		'fileCreate'       => 'Arquivo criado: {0}',
+		'fileError'        => 'Erro enquanto criando arquivo: {0}',
+		'fileExist'        => 'Arquivo existe: {0}',
+		'fileOverwrite'    => 'Arquivo sobrescrito: {0}',
+		'parentClass'      => 'Classe pai',
+		'returnType'       => 'Tipo de retorno',
+		'tableName'        => 'Nome da tabela',
+		'usingCINamespace' => 'Atenção: Usar o namespace "CodeIgniter" irá gerar o arquivo no diretório system.',
+	],
+	'helpArguments'       => 'Argumentos:',
+	'helpDescription'     => 'Descrição:',
+	'helpOptions'         => 'Opções:',
+	'helpUsage'           => 'Uso:',
+	'invalidColor'        => 'Cor de {0} inválida: {1}.',
 	'namespaceNotDefined' => 'Namespace "{0}" não está definido.',
 ];
