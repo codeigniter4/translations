@@ -11,6 +11,7 @@
 
 // Time language settings
 return [
+	'invalidFormat'  => '"{0}" não é um formato datetime válido',
 	'invalidMonth'   => 'Meses devem ser entre 1 e 12. Dado: {0}',
 	'invalidDay'     => 'Dias devem ser entre 1 e 31. Dado: {0}',
 	'invalidOverDay' => 'Dias devem ser entre 1 e {0}. Dado: {1}',
