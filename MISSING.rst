@@ -14,7 +14,7 @@ bg        Bulgarian             ivantcholakov      Ivan Tcholakov
 ca        Catalan               Ignasimg           Ignasi Molsosa
 hr        Croatian              PaleRider981       Mario Ljubicic
 da        Danish                janhansson*        Jan Hansson
-fil       filipino              dzerium            Edzer Josh V. Padilla ... See note below
+fil       Filipino              dzerium            Edzer Josh V. Padilla ... See note below
 gu        Gujarati              sajid19991         Sajid Mathupotra
 hi        Hindi                 shindesushilkumar  Sushilkumar Shinde
 hu        Hungarian             orionstar          László Bóra
