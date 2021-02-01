@@ -33,7 +33,7 @@ claims no expertise beyond English.
 | Locale | Language             | As of** | Github User          | Maintainer
 | ------ | -------------------- | ------- | -------------------- | --------------------
 | ar     | Arabic               | 4.0.0   | [daif][ar]           | Daif Alotaibi
-| cs     | Czech                | 4.x     | [PavelTajdus][cs]    | Pavel Tajduš
+| cs     | Czech                | 4.0.3   | [PavelTajdus][cs]    | Pavel Tajduš
 | de     | German               | 4.0.0   | [sba][de]            | Stefan Bauer
 | en     | English              | 4.0.0   | **N/A**              | CI team
 | es     | Spanish              | 4.0.0   | [nachoaguirre][es]   | Ignacio Aguirre
@@ -41,23 +41,23 @@ claims no expertise beyond English.
 | fr     | French               | 4.0.0   | [amuratet][fr]       | Amuratet?
 | id     | Indonesian           | 4.0.0   | [ridho1991][id]      | Mutasim Ridlo
 | it     | Italian              | 4.0.0   | [luk3b8][it]         | Luca Rasia
-| ja     | Japanese             | 4.x     | [kenjis][ja]         | Kenji Suzuki
+| ja     | Japanese             | 4.0.3   | [kenjis][ja]         | Kenji Suzuki
 | ko     | Korean               | 4.0.2   | [codeigniter-kr][kr] | codeigniter-kr
 | lt     | Lithuanian           | 4.0.2   | [dgvirtual][lt]      | Donatas Glodenis
-| lv     | Latvian              | 4.x     | [davislasis][lv]     | Dāvis Lasis
-| ml     | Malayalam            | 4.x     | [rakheshthayyur][ml] | Rakhesh Thayyur
-| nl     | Dutch                | 4.x     | [JohanSmolders][nl]  | JohanSmolders
+| lv     | Latvian              | 4.0.3   | [davislasis][lv]     | Dāvis Lasis
+| ml     | Malayalam            | 4.0.3   | [rakheshthayyur][ml] | Rakhesh Thayyur
+| nl     | Dutch                | 4.0.3   | [JohanSmolders][nl]  | JohanSmolders
 | no     | Norwegian            | 4.0.0   | [LA3QMA][no]         | Kai Günter Brandt
 | pl     | Polish               | 4.0.0   | [DEVELPL][pl]        | Maciej Jasiewicz
 | pt     | Portuguese           | 4.0.0   | [rbm0407][pt]        | Rodrigo Borges
 | pt-BR  | Brazilian            | 4.0.0   | [natanfelles][pt-BR] | Natan Felles
 | ru     | Russian              | 4.0.0   | [DigitalWolf98][ru]  | Vladislav Rykhtikov
-| si     | Sinhala              | 4.x     | [npwsamarasinghe][si]| Nalaka Prasad
+| si     | Sinhala              | 4.0.3   | [npwsamarasinghe][si]| Nalaka Prasad
 | sk     | Slovak               | 4.0.0   | [xbotkaj][sk]        | Jozef Botka
-| sv-SE  | Swedish - Sweden     | 4.x     | [tangix][sv-SE]      | Mattias Sandström
+| sv-SE  | Swedish - Sweden     | 4.0.3   | [tangix][sv-SE]      | Mattias Sandström
 | tr     | Turkish              | 4.0.0   | [obozdag][tr]        | obozdag
-| uk     | Ukrainian            | 4.x     | [flybot][uk]         | Serhii Kosyi
-| vi     | Vietnamese           | 4.x     | [xuandung38][vi]     | XuanDung38
+| uk     | Ukrainian            | 4.0.3   | [flybot][uk]         | Serhii Kosyi
+| vi     | Vietnamese           | 4.0.3   | [xuandung38][vi]     | XuanDung38
 | zh-CN  | Simple Chinese       | 4.0.0   | [bangbangda][zh-CN]  | bangbangda
 | zh-TW  | Traditional Chinese  | 4.0.0   | [monkenWu][zh-TW]    | monkenWu
 
