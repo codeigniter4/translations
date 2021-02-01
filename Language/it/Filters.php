@@ -1,18 +1,15 @@
 <?php
 
 /**
- * Filters language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package      CodeIgniter
- * @author       Luca Marco Rasia
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 4.0.0
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @filesource
- * 
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
+
+// Filters language settings
 return [
 	'noFilter'           => '\'{0}\' il filtro deve avere un alias di riferimento definito.',
 	'incorrectInterface' => '{0} deve implementare CodeIgniter\Filters\FilterInterface.',

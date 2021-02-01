@@ -1,20 +1,16 @@
 <?php
 
 /**
- * Router language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package    CodeIgniter
- * @author     Jozef Botka - xbotkaj on Github
- * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// Router language settings
 return [
-   'invalidParameter'    => 'Parameter sa nezhoduje s očakávaným typom.',
-   'missingDefaultRoute' => 'Nemôžné určiť, čo by malo byť zobrazené. Predvolená cesta nebola špecifikovaná v routing súbore.',
+	'invalidParameter'    => 'Parameter sa nezhoduje s očakávaným typom.',
+	'missingDefaultRoute' => 'Nemôžné určiť, čo by malo byť zobrazené. Predvolená cesta nebola špecifikovaná v routing súbore.',
 ];

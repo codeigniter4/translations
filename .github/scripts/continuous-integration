@@ -1,0 +1,176 @@
+#!/usr/bin/env php
+<?php
+
+require __DIR__ . '/../../vendor/codeigniter4/codeigniter4/system/Test/bootstrap.php';
+
+use CodeIgniter\CLI\CLI;
+use Translations\Tests\AbstractTranslationTestCase;
+
+if (! isset($argv[1]))
+{
+	CLI::error('No GitHub Event provided.', 'light_gray', 'red');
+	exit(1);
+}
+
+$event = (string) $argv[1];
+
+if (! in_array($event, ['--pull-request', '--push'], true))
+{
+	CLI::error('Invalid GitHub Event provided.', 'light_gray', 'red');
+	exit(1);
+}
+
+if ($event === '--pull-request')
+{
+	$files = shell_exec('git diff --name-only --diff-filter=ACMRTUXB origin/develop..HEAD');
+}
+else
+{
+	$files = shell_exec('git diff --name-only --diff-filter=ACMRTUXB HEAD~..HEAD');
+}
+
+$isCIAffected   = strpos((string) $files, '.github/scripts/continuous-integration') !== false;
+$isTestAffected = preg_match('/tests\/Language\/(.+)Test(?:|Case)\.php/', $files) === 1;
+
+$files = str_replace(["\r\n", "\r"], "\n", $files);
+$files = explode("\n", trim($files));
+
+$stagedPhpFiles = [];
+
+foreach ($files as $file)
+{
+	if (substr($file, -4) === '.php')
+	{
+		$stagedPhpFiles[] = $file;
+	}
+}
+
+$locales = [];
+
+foreach ($stagedPhpFiles as $file)
+{
+	if (preg_match('/^Language\/(.+)\/.+\.php$/', $file, $matches))
+	{
+		$locales[] = $matches[1];
+	}
+}
+
+$locales = array_unique($locales);
+$count   = count($locales);
+
+$passed = [];
+$failed = [];
+
+$phpunit = 'vendor/bin/phpunit';
+
+if (CLI::isWindows())
+{
+	$phpunit = strtr($phpunit, '/', '\\');
+}
+
+chdir(__DIR__ . '/../../');
+
+if ($count === 0 && ! ($isCIAffected || $isTestAffected))
+{
+	CLI::write('No language files to test.', 'black', 'green');
+	CLI::newLine();
+	exit(0);
+}
+
+// Check this first to account for new ICU locale additions
+if ($count > 0 && $count < count(AbstractTranslationTestCase::$locales))
+{
+	$returns = 0;
+	$return  = 0;
+
+	foreach ($locales as $locale)
+	{
+		$class = (string) array_search($locale, AbstractTranslationTestCase::$locales, true);
+		$class = preg_replace('/^Translations\\\\Tests\\\\(.+)$/u', '$1', $class);
+
+		CLI::write("Executing vendor/bin/phpunit --color=always --filter {$class}\n", 'black', 'yellow');
+		passthru("{$phpunit} --color=always --filter {$class}", $return);
+
+		if ($return !== 0)
+		{
+			$failed[] = $locale;
+		}
+		else
+		{
+			$passed[] = $locale;
+		}
+
+		$returns += $return;
+	}
+}
+elseif ($count === count(AbstractTranslationTestCase::$locales) || $isCIAffected || $isTestAffected)
+{
+	$reasons = [
+		[
+			$count === count(AbstractTranslationTestCase::$locales),
+			'All ICU locales have been modified.',
+		],
+		[
+			$isCIAffected,
+			'The continuous integration script has been modified.',
+		],
+		[
+			$isTestAffected,
+			'A test suite file has been modified.',
+		],
+	];
+
+	// Assign the locale count in case the first reason is false
+	$count = count(AbstractTranslationTestCase::$locales);
+
+	ob_start();
+
+	$returns = 0;
+	CLI::write('Testing all language files in all locales.', 'black', 'yellow');
+
+	foreach ($reasons as [$reason, $explanation])
+	{
+		if ($reason)
+		{
+			CLI::write('Reason: ' . $explanation . "\n", 'black', 'yellow');
+			break;
+		}
+	}
+
+	passthru("{$phpunit} --color=always", $returns);
+
+	$result = ob_get_clean();
+	$failed = [];
+
+	if (preg_match_all('/\(\'(.+)\'\)/', $result, $failed))
+	{
+		$failed = array_unique($failed[1]);
+	}
+
+	$passed = array_values(array_diff(AbstractTranslationTestCase::$locales, $failed));
+
+	CLI::write($result);
+}
+
+if ($failed === [])
+{
+	CLI::write('All tested locales passed!', 'black', 'green');
+}
+elseif ($count === count($failed))
+{
+	CLI::write('All tested locales have failed!', 'light_gray', 'red');
+}
+else
+{
+	CLI::write('Some locales have failed the tests!', 'black', 'yellow');
+}
+
+sort($passed);
+sort($failed);
+
+CLI::newLine();
+CLI::write(sprintf('Passed locales (%d of %d): %s', count($passed), $count, implode(', ', $passed) ?: '--'), 'green');
+CLI::write(sprintf('Failed locales (%d of %d): %s', count($failed), $count, implode(', ', $failed) ?: '--'), 'red');
+CLI::newLine();
+
+exit($returns ? 1 : 0);

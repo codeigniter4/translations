@@ -1,23 +1,20 @@
 <?php
+
 /**
- * View language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// View language settings
 return [
-   'invalidCellMethod'     => '{class}::{method} не является допустимым методом.',
-   'missingCellParameters' => '{class}::{method} не имеет параметров.',
-   'invalidCellParameter'  => '{0} не является допустимым именем параметра.',
-   'noCellClass'           => 'Не предоставлен класс ячейки представления.',
-   'invalidCellClass'      => 'Не удается найти класс {0} ячеек представления.',
-   'tagSyntaxError'        => 'У вас есть синтаксическая ошибка в тегах парсера: {0}',
+	'invalidCellMethod'     => '{class}::{method} не является допустимым методом.',
+	'missingCellParameters' => '{class}::{method} не имеет параметров.',
+	'invalidCellParameter'  => '{0} не является допустимым именем параметра.',
+	'noCellClass'           => 'Не предоставлен класс ячейки представления.',
+	'invalidCellClass'      => 'Не удается найти класс {0} ячеек представления.',
+	'tagSyntaxError'        => 'У вас есть синтаксическая ошибка в тегах парсера: {0}',
 ];

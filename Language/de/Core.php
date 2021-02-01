@@ -1,22 +1,19 @@
 <?php
 
 /**
- * Core language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 3.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// Core language settings
 return [
-   'invalidFile'      => 'Ungültige Datei: {0}',
-   'copyError'        => 'Beim Versuch, die Datei zu ersetzen, ist ein Fehler aufgetreten. Bitte sicherstellen, dass das Verzeichnis beschreibbar ist.',
-   'missingExtension' => 'Erweiterung {0} konte nicht geladen werden.',
-   'noHandlers'       => '{0} muss mindestes einen Handler bereitstellen.',
+	'copyError'                    => 'Beim Versuch, die Datei ({0}) zu ersetzen, ist ein Fehler aufgetreten. Bitte sicherstellen, dass das Verzeichnis beschreibbar ist.',
+	'enabledZlibOutputCompression' => 'Die zlib.output_compression ini Direktive ist aktiviert. Dies funktioniert nicht gut mit Ausgabe-Pufferung.',
+	'invalidFile'                  => 'Ungültige Datei: {0}',
+	'missingExtension'             => 'Für das Framework müssen die folgende(n) Erweiterung(en) installiert und geladen werden: {0}.',
+	'noHandlers'                   => '{0} muss mindestens einen Handler bereitstellen.',
 ];

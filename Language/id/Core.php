@@ -1,21 +1,19 @@
 <?php
 
 /**
- * Core language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package      CodeIgniter
- * @author       CodeIgniter Dev Team
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 3.0.0
- * @filesource
- * 
- * @codeCoverageIgnore
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
+ *
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
+
+// Core language settings
 return [
-	'invalidFile'      => 'Berkas tidak valid: {0}',
-	'copyError'        => 'Sebuah kesalahan terjadi saat mencoba mengganti berkas. Pastikan direktori berkas anda dapat ditulis.',
-	'missingExtension' => 'Ekstensi {0} tidak dimuat.',
-	'noHandlers'       => '{0} harus menyediakan setidaknya satu Handler.',
+	'copyError'                    => 'Sebuah kesalahan terjadi saat mencoba mengganti berkas. Pastikan direktori berkas Anda dapat ditulis.',
+	'enabledZlibOutputCompression' => 'Perintah zlib.output_compression ini diaktifkan. Ini tidak akan berjalan baik dengan output buffer.',
+	'invalidFile'                  => 'Berkas tidak valid: {0}',
+	'missingExtension'             => 'Ekstensi {0} tidak dimuat.',
+	'noHandlers'                   => '{0} harus menyediakan setidaknya satu Handler.',
 ];

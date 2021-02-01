@@ -1,22 +1,19 @@
 <?php
 
 /**
- * Core language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package    CodeIgniter
- * @author     Jozef Botka - xbotkaj on Github
- * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// Core language settings
 return [
-   'invalidFile'      => 'Neplatný súbor: {0}',
-   'copyError'        => 'Vyskytla sa chyba pri pokuse nahradiť súbor ({0}). Prosím uistite sa, že zložka so súbormi je zapisovateľná..',
-   'missingExtension' => '{0} rozšírenie nebolo načítané.',
-   'noHandlers'       => '{0} musí poskytnúť aspoň jeden Handler.',
+	'copyError'                    => 'Vyskytla sa chyba pri pokuse nahradiť súbor ({0}). Prosím uistite sa, že zložka so súbormi je zapisovateľná.',
+	'enabledZlibOutputCompression' => 'Vaša zlib.output_compression ini direktíva je zapnutá. S výstupnými vyrovnávacími pamäťami to nebude fungovať dobre.',
+	'invalidFile'                  => 'Neplatný súbor: {0}',
+	'missingExtension'             => 'Tieto rozšírenia musia byť nainštalované a načítané: {0}',
+	'noHandlers'                   => '{0} musí poskytnúť aspoň jeden Handler.',
 ];

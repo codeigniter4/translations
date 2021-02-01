@@ -1,18 +1,15 @@
 <?php
+
 /**
- * Image language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package      CodeIgniter
- * @author       CodeIgniter Dev Team
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 3.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// Images language settings
 return [
 	'sourceImageRequired'    => 'Você deve especificar uma imagem de origem em suas preferências.',
 	'gdRequired'             => 'A biblioteca de imagens GD é necessária para usar este recurso.',
@@ -20,6 +17,8 @@ return [
 	'gifNotSupported'        => 'Imagens GIF geralmente não são suportadas devido a restrições de licenciamento. Você pode ter que usar imagens JPG ou PNG em vez disso',
 	'jpgNotSupported'        => 'Imagens JPG não são suportadas.',
 	'pngNotSupported'        => 'Imagens PNG não são suportadas.',
+	'webpNotSupported'       => 'Imagens WEBP não são suportadas.',
+	'fileNotSupported'       => 'O arquivo fornecido não é de um tipo de imagem suportado.',
 	'unsupportedImageCreate' => 'Seu servidor não suporta a função GD necessária para processar este tipo de imagem.',
 	'jpgOrPngRequired'       => 'O protocolo de redimensionamento de imagem especificado nas suas preferências só funciona com os tipos de imagem JPEG ou PNG.',
 	'rotateUnsupported'      => 'A rotação de imagem não parece ser suportada pelo seu servidor.',

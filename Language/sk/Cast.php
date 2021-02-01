@@ -1,23 +1,20 @@
 <?php
+
 /**
- * Cast language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package    CodeIgniter
- * @author     Jozef Botka - xbotkaj on Github
- * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// Cast language settings
 return [
-   'jsonErrorDepth'         => 'Bola prekročená maximálna veľkosť zásobníku',
-   'jsonErrorStateMismatch' => 'Neplatný alebo poškodený JSON',
-   'jsonErrorCtrlChar'      => 'Nájdený neočakáavaný kontrolný znak',
-   'jsonErrorSyntax'        => 'Chyba syntaxe, poškodený JSON',
-   'jsonErrorUtf8'          => 'Poškodené UTF-8 znaky, možné nesprávne kódovanie',
-   'jsonErrorUnknown'       => 'Neznáma chyba',
+	'jsonErrorDepth'         => 'Bola prekročená maximálna veľkosť zásobníku',
+	'jsonErrorStateMismatch' => 'Neplatný alebo poškodený JSON',
+	'jsonErrorCtrlChar'      => 'Nájdený neočakáavaný kontrolný znak',
+	'jsonErrorSyntax'        => 'Chyba syntaxe, poškodený JSON',
+	'jsonErrorUtf8'          => 'Poškodené UTF-8 znaky, možné nesprávne kódovanie',
+	'jsonErrorUnknown'       => 'Neznáma chyba',
 ];

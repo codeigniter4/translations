@@ -1,23 +1,37 @@
 <?php
+
 /**
- * CLI language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package      CodeIgniter
- * @author       CodeIgniter Dev Team
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 3.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// CLI language settings
 return [
-	'commandNotFound' => 'Comando "{0}" não foi encontrado.',
-	'helpUsage'       => 'Uso:',
-	'helpDescription' => 'Descrição:',
-	'helpOptions'     => 'Opções:',
-	'helpArguments'   => 'Argumentos:',
-	'invalidColor'    => 'Cor de {0} inválida: {1}.',
+	'altCommandPlural'   => 'Você quis dizer um desses?',
+	'altCommandSingular' => 'Você quis dizer isso?',
+	'commandNotFound'    => 'Comando "{0}" não foi encontrado.',
+	'generator'          => [
+		'cancelOperation'  => 'Operação foi cancelada.',
+		'className'        => 'Nome da classe',
+		'commandType'      => 'Tipo de comando',
+		'databaseGroup'    => 'Grupo do banco de dados',
+		'fileCreate'       => 'Arquivo criado: {0}',
+		'fileError'        => 'Erro enquanto criando arquivo: {0}',
+		'fileExist'        => 'Arquivo existe: {0}',
+		'fileOverwrite'    => 'Arquivo sobrescrito: {0}',
+		'parentClass'      => 'Classe pai',
+		'returnType'       => 'Tipo de retorno',
+		'tableName'        => 'Nome da tabela',
+		'usingCINamespace' => 'Atenção: Usar o namespace "CodeIgniter" irá gerar o arquivo no diretório system.',
+	],
+	'helpArguments'       => 'Argumentos:',
+	'helpDescription'     => 'Descrição:',
+	'helpOptions'         => 'Opções:',
+	'helpUsage'           => 'Uso:',
+	'invalidColor'        => 'Cor de {0} inválida: {1}.',
+	'namespaceNotDefined' => 'Namespace "{0}" não está definido.',
 ];

@@ -1,19 +1,16 @@
 <?php
+
 /**
- * Files language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 3.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// Files language settings
 return [
-   'fileNotFound'    => 'Datei nicht gefunden: {0}',
-   'cannotMove'      => 'Datei konnte nicht von {0} nach {1} verschoben werden ({2})',
+	'fileNotFound' => 'Datei nicht gefunden: {0}',
+	'cannotMove'   => 'Datei konnte nicht von {0} nach {1} verschoben werden ({2}).',
 ];

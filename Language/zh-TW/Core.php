@@ -1,22 +1,18 @@
 <?php
 
 /**
- * Core language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2019 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// Core language settings
 return [
-   'invalidFile'      => '無效的檔案: {0}',
-   'copyError'        => '嘗試替換檔案({0})時遇到錯誤. 請確定檔案目錄具有可寫入的權限。',
-   'missingExtension' => '尚未載入 {0} 擴充元件。',
-   'noHandlers'       => '{0} 最少必須提供一個處理器（handler）。',
+	'copyError'        => '嘗試替換檔案({0})時遇到錯誤. 請確定檔案目錄具有可寫入的權限。',
+	'invalidFile'      => '無效的檔案: {0}',
+	'missingExtension' => '尚未載入 {0} 擴充元件。',
+	'noHandlers'       => '{0} 最少必須提供一個處理器（handler）。',
 ];

@@ -1,29 +1,24 @@
 <?php
 
 /**
- * Migration language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package      CodeIgniter
- * @author       CodeIgniter Dev Team
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 3.0.0
- * @filesource
- * 
- * @codeCoverageIgnore
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
+ *
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
+
+// Migration language settings
 return [
 	// Migration Runner
-	'missingTable'    => 'Tabela migracji musi zostać ustawiona.',
-//	'invalidType'     => 'Określono niepoprawny typ numerowania migracji: {0}',
-	'disabled'        => 'Migracje zostały załadowane, ale są wyłączone lub niepoprawnie skonfigurowane.',
-	'notFound'        => 'Nie znaleziono pliku migracji: ',
-	'batchNotFound'     => 'Target batch not found: ',
-	'empty'           => 'Nie znaleziono plików migracji',
-	'gap'             => 'W sekwencji migracji znajduje się luka w pobliżu numeru wersji: ',
-	'classNotFound'   => 'Nie można znaleźć klasy migracji "%s".',
-	'missingMethod'   => 'W klasie migracji brakuje metody "%s".',
+	'missingTable'  => 'Tabela migracji musi zostać ustawiona.',
+	'disabled'      => 'Migracje zostały załadowane, ale są wyłączone lub niepoprawnie skonfigurowane.',
+	'notFound'      => 'Nie znaleziono pliku migracji: ',
+	'empty'         => 'Nie znaleziono plików migracji',
+	'gap'           => 'W sekwencji migracji znajduje się luka w pobliżu numeru wersji: ',
+	'classNotFound' => 'Nie można znaleźć klasy migracji "%s".',
+	'missingMethod' => 'W klasie migracji brakuje metody "%s".',
 
 	// Migration Command
 	'migHelpLatest'   => "\t\tPrzeprowadza migrację bazy danych do najnowszej dostępnej migracji.",
@@ -34,13 +29,7 @@ return [
 	'migHelpSeed'     => "\tUruchamia siewnik o nazwie [name].",
 	'migCreate'       => "\tTworzy nową migrację o nazwie [name]",
 	'nameMigration'   => 'Nazwij plik migracji',
-	'badCreateName'   => 'Musisz podać nazwę pliku migracji.',
-	'writeError'      => 'Błąd podczas próby utworzenia pliku.',
-	'migNumberError'    => 'Migration number must be three digits, and there must not be any gaps in the sequence.',
 
-	'latest'            => 'Running all new migrations...',
-	'generalFault'      => 'Migration failed!', 
-//	'toLatest'          => 'Migrowanie do najnowszej wersji...',
 	'migInvalidVersion' => 'Podano nieprawidłowy numer wersji.',
 	'toVersionPH'       => 'Migrowanie do wersji %s...',
 	'toVersion'         => 'Migracja do bieżącej wersji...',
@@ -52,6 +41,6 @@ return [
 	'removed'           => 'Wycofywanie: ',
 	'added'             => 'Uruchomienie: ',
 
-	'version'           => 'Wersja',
-	'filename'          => 'Nazwa pliku',
+	'version'  => 'Wersja',
+	'filename' => 'Nazwa pliku',
 ];

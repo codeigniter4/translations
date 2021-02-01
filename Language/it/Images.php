@@ -1,25 +1,24 @@
 <?php
 
 /**
- * Image language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package      CodeIgniter
- * @author       Luca Marco Rasia
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 4.0.0
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @filesource
- *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
+
+// Images language settings
 return [
 	'sourceImageRequired'    => 'Devi specificare una sorgente immagine nelle tue preferenze.',
 	'gdRequired'             => 'La libreria GD di gestione immagini è richiesta per poter utilizzare questa caratteristica.',
 	'gdRequiredForProps'     => 'Il tuo server deve supportare la libreria GD di gestione immagini per determinare le proprietà dell\'immagine.',
 	'gifNotSupported'        => 'Le immagini GIF spesso non sono supportate a causa delle restrizioni di licenza. Potresti, invece, dover usare immagini JPG or PNG.',
-	'jpgNotSupported'        => 'Immagini JPG non sono supportate.',
-	'pngNotSupported'        => 'Immagini PNG non sono supportate.',
+	'jpgNotSupported'        => 'Le immagini JPG non sono supportate.',
+	'pngNotSupported'        => 'Le immagini PNG non sono supportate.',
+	'webpNotSupported'       => 'Le immagini WEBP non sono supportate.',
+	'fileNotSupported'       => 'Il file non è un tipo immagine supportato.',
 	'unsupportedImageCreate' => 'Il tuo server non supporta la funzione GD richiesta per processare questo tipo di immagine.',
 	'jpgOrPngRequired'       => 'Il protocollo di ridimensionamento dell\'immagine specificato nelle tue preferenze funziona solo con i tipi di immagine JPEG o PNG.',
 	'rotateUnsupported'      => 'La rotazione dell\'immagine sembra non essere supportata dal tuo server.',

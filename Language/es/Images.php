@@ -1,18 +1,15 @@
 <?php
 
 /**
- * Image language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package      CodeIgniter
- * @author       Fernán Castro Asensio
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 4.0.0
- * @filesource
- * 
- * @codeCoverageIgnore
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
+ *
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
+
+// Images language settings
 return [
 	'sourceImageRequired'    => 'Debe especificar el origen de la imagen en las preferencias.',
 	'gdRequired'             => 'Se requiere la librería de imágenes GD para esta funcionalidad.',

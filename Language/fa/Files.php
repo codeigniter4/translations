@@ -1,20 +1,18 @@
 <?php
+
 /**
- * Files language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 3.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
+
+// Files language settings
 return [
-   'fileNotFound'    => 'فایل {0} پیدا نشد.',
-   'cannotMove'      => 'انتقال فایل از {0} به {1} به مشکل خورد ({2}).',
-//   'invalidFilename' => 'فایل مقصد وجود ندارد، یا نامعتبر است: {0}.',
-//   'cannotCopy'      => 'امکان کپی به فایل {0} وجود ندارد - لطفا مطمئن شوید که دسترسی نوشتن در مقصد وجود دارد.',
+	'fileNotFound' => 'فایل {0} پیدا نشد.',
+	'cannotMove'   => 'انتقال فایل از {0} به {1} به مشکل خورد ({2}).',
+	//   'invalidFilename' => 'فایل مقصد وجود ندارد، یا نامعتبر است: {0}.',
+	//   'cannotCopy'      => 'امکان کپی به فایل {0} وجود ندارد - لطفا مطمئن شوید که دسترسی نوشتن در مقصد وجود دارد.',
 ];

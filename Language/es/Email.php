@@ -1,18 +1,15 @@
 <?php
 
 /**
- * Email language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package      CodeIgniter
- * @author       Fernán Castro Asensio
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 4.0.0
- * @filesource
- * 
- * @codeCoverageIgnore
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
+ *
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
+
+// Email language settings
 return [
 	'mustBeArray'          => 'El método de validación del email debe ser pasado en array.',
 	'invalidAddress'       => 'Dirección de email inválida: {0}',
@@ -23,7 +20,7 @@ return [
 	'sendFailurePHPMail'   => 'Incapaz de enviar email usando PHP mail(). Su servidor puede no estar configurado para enviar correos usando este método.',
 	'sendFailureSendmail'  => 'Incapaz de enviar email usando PHP Sendmail. Su servidor puede no estar configurado para enviar correos usando este método.',
 	'sendFailureSmtp'      => 'Incapaz de enviar email usando PHP SMTP. Su servidor puede no estar configurado para enviar correos usando este método.',
-	'sent'                 => 'Su mensaje ha sido enviado correctamente utilizando el siguiente protocolo: {0, string}',
+	'sent'                 => 'Su mensaje ha sido enviado correctamente utilizando el siguiente protocolo: {0}',
 	'noSocket'             => 'Incapaz de abrir un socket a Sendmail. Compruebe la configuración.',
 	'noHostname'           => 'No ha especificado un nombre de host SMTP.',
 	'SMTPError'            => 'Se han encontrado los siguientes errores SMTP: {0}',

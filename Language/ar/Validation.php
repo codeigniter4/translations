@@ -1,36 +1,31 @@
 <?php
 
 /**
- * Validation language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2019 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// Validation language settings
 return [
 	// Core Messages
-	'noRuleSets'            => 'لم يتم تحديد مجموعة قواعد التحقق في الاعدادات.',
-	'ruleNotFound'          => '{0} هذه القاعدة غير صالحة.',
-	'groupNotFound'         => '{0} مجموعة التحقق هذه غير صالحة.',
-	'groupNotArray'         => '{0} مجموعة التحقق يجب أن تكون مصفوفة.',
-	'invalidTemplate'       => '{0} ليس قالب تحقق صالح.',
+	'noRuleSets'      => 'لم يتم تحديد مجموعة قواعد التحقق في الاعدادات.',
+	'ruleNotFound'    => '{0} هذه القاعدة غير صالحة.',
+	'groupNotFound'   => '{0} مجموعة التحقق هذه غير صالحة.',
+	'groupNotArray'   => '{0} مجموعة التحقق يجب أن تكون مصفوفة.',
+	'invalidTemplate' => '{0} ليس قالب تحقق صالح.',
 
 	// Rule Messages
 	'alpha'                 => 'الحقل {field} يمكن أن يحتوى على أحرف.',
 	'alpha_dash'            => 'الحقل {field} يمكن أن يحتوى على أحرف وأرقام أو شرطة أو شرطة سفلية.',
 	'alpha_numeric'         => 'الحقل {field} يمكن أن يحتوى على أحرف وأرقام.',
 	'alpha_numeric_space'   => 'الحقل {field} يمكن أن يحتوى على أحرف وأرقام و فراغات.',
-	'alpha_space'  			=> 'الحقل {field} يمكن أن يحتوى على أحرف و فراغات.',
+	'alpha_space'           => 'الحقل {field} يمكن أن يحتوى على أحرف و فراغات.',
 	'decimal'               => 'الحقل {field} يجب أن يحتوى على رقم عشري.',
 	'differs'               => 'الحقل {field} يجب أن يكون مختلف عن الحقل {param}.',
-	'equals'                => 'The {field} field must be exactly: {param}.',
 	'exact_length'          => 'الحقل {field} يجب أن يكون بطول {param} حرف.',
 	'greater_than'          => 'الحقل {field} يجب أن يحتوى على قيمة أكبر من {param}.',
 	'greater_than_equal_to' => 'الحقل {field} يجب أن يحتوى على قيمة أكبر من او يساوي {param}.',
@@ -44,7 +39,6 @@ return [
 	'matches'               => 'الحقل {field} لا يساوي الحقل {param}.',
 	'max_length'            => 'الحقل {field} يجب أن لا يتجاوز أكثر من {param} حرف.',
 	'min_length'            => 'الحقل {field} يجب أن لا يقل عن {param} حرف.',
-	'not_equals'            => 'The {field} field cannot be: {param}.',
 	'numeric'               => 'الحقل {field} يجب أن يحتوى على أرقام فقط.',
 	'regex_match'           => 'الحقل {field} يجب أن يحتوى على الصيغة الصحيحة.',
 	'required'              => 'الحقل {field} إجباري.',
@@ -59,13 +53,13 @@ return [
 	'valid_date'            => 'الحقل {field} يجب أن يحتوى على تاريخ صحيح.',
 
 	// Credit Cards
-	'valid_cc_num'          => 'الحقل {field} يجب أن يحتوى على رقم بطاقة الائتمان صحيح.',
+	'valid_cc_num' => 'الحقل {field} يجب أن يحتوى على رقم بطاقة الائتمان صحيح.',
 
 	// Files
-	'uploaded'              => 'الملف {field} ليس ملف مرفوع صحيح.',
-	'max_size'              => 'حجم الملف {field} كبير جدا.',
-	'is_image'              => 'الملف {field} ليس ملف صورة.',
-	'mime_in'               => 'نوع الملف {field} ليس نوع صحيح.',
-	'ext_in'                => 'امتداد الملف {field} ليس امتداد صحيح.',
-	'max_dims'              => 'الملف {field} اما انه ليس صورة او صورة ذات ارتفاع او عرض كبير جدا.',
+	'uploaded' => 'الملف {field} ليس ملف مرفوع صحيح.',
+	'max_size' => 'حجم الملف {field} كبير جدا.',
+	'is_image' => 'الملف {field} ليس ملف صورة.',
+	'mime_in'  => 'نوع الملف {field} ليس نوع صحيح.',
+	'ext_in'   => 'امتداد الملف {field} ليس امتداد صحيح.',
+	'max_dims' => 'الملف {field} اما انه ليس صورة او صورة ذات ارتفاع او عرض كبير جدا.',
 ];

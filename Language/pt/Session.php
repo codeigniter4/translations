@@ -1,22 +1,19 @@
 <?php
 
 /**
- * Session language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package      CodeIgniter
- * @author       CodeIgniter Dev Team
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 3.0.0
- * @filesource
- * 
- * @codeCoverageIgnore
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
+ *
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
+
+// Session language settings
 return [
-	'missingDatabaseTable'   => '`sessionSavePath` deve ter o nome da tabela para o manipulador de sessão de banco de dados funcionar.',
+	'missingDatabaseTable'   => '`sessionSavePath` deve ter o nome da tabela para o manipulador de sessão de base de dados funcionar.',
 	'invalidSavePath'        => 'Sessão: O caminho configurado "{0}" não é um diretório, não existe ou não pode ser criado.',
-	'writeProtectedSavePath' => 'Sessão: O caminho configurado "{0}" não é gravável pelo processo do PHP.',
+	'writeProtectedSavePath' => 'Sessão: O caminho configurado "{0}" não tem permissões de escrita pelo processo do PHP.',
 	'emptySavePath'          => 'Sessão: Nenhum caminho configurado.',
 	'invalidSavePathFormat'  => 'Sessão: Formato de caminho Redis inválido: {0}',
 ];

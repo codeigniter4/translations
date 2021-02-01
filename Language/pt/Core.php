@@ -1,21 +1,18 @@
 <?php
 
 /**
- * Core language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package      CodeIgniter
- * @author       CodeIgniter Dev Team
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 3.0.0
- * @filesource
- * 
- * @codeCoverageIgnore
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
+ *
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
+
+// Core language settings
 return [
+	'copyError'        => 'Um erro foi encontrado ao tentar substituir o arquivo. Por favor, certifique-se de que seu diretório tem permissões de escrita.',
 	'invalidFile'      => 'Arquivo inválido: {0}',
-	'copyError'        => 'Um erro foi encontrado ao tentar substituir o arquivo. Por favor, certifique-se de que seu diretório de arquivos é gravável.',
 	'missingExtension' => 'A extensão {0} não está carregada.',
 	'noHandlers'       => '{0} deve fornecer pelo menos um handler.',
 ];

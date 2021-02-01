@@ -1,30 +1,29 @@
 <?php
 
 /**
- * Image language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package      CodeIgniter
- * @author       CodeIgniter Dev Team
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 3.0.0
- * @filesource
- * 
- * @codeCoverageIgnore
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
+ *
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
+
+// Images language settings
 return [
-	'sourceImageRequired'    => 'Anda harus menentukan sebuah sumber gambar dalam preferensi anda.',
+	'sourceImageRequired'    => 'Anda harus menentukan sebuah sumber gambar dalam preferensi Anda.',
 	'gdRequired'             => 'Pustaka gambar GD diperlukan untuk menggunakan fitur ini....',
-	'gdRequiredForProps'     => 'Server anda harus mendukung pustaka gambar GD untuk menentukan properti gambar.',
-	'gifNotSupported'        => 'Gambar GIF sering tidak didukung karena pembatasan perizinan. anda mungkin harus menggunakan gambar JPG atau PNG sebagai gantinya.',
+	'gdRequiredForProps'     => 'Server Anda harus mendukung pustaka gambar GD untuk menentukan properti gambar.',
+	'gifNotSupported'        => 'Gambar GIF sering tidak didukung karena pembatasan perizinan. Anda mungkin harus menggunakan gambar JPG atau PNG sebagai gantinya.',
 	'jpgNotSupported'        => 'Gambar JPG tidak didukung.',
 	'pngNotSupported'        => 'Gambar PNG tidak didukung.',
-	'unsupportedImageCreate' => 'Server anda tidak mendukung fungsi GD yang diperlukan untuk memproses jenis gambar ini.',
-	'jpgOrPngRequired'       => 'Protokol pengubahan ukuran gambar yang ditentukan dalam preferensi anda hanya berfungsi dengan jenis gambar JPEG atau PNG.',
-	'rotateUnsupported'      => 'Rotasi gambar sepertinya tidak didukung oleh server anda.',
-	'libPathInvalid'         => 'Jalur ke pustaka gambar anda tidak benar. Silakan mengatur jalur yang benar dalam preferensi gambar anda. {0, string)',
-	'imageProcessFailed'     => 'Pemrosesan gambar gagal. Harap verifikasi bahwa server anda mendukung protokol yang dipilih dan jalur ke pustaka gambar anda sudah benar.',
+	'webpNotSupported'       => 'Gambar WEBP tidak didukung.',
+	'fileNotSupported'       => 'Berkas yang diberikan bukan jenis gambar yang didukung.',
+	'unsupportedImageCreate' => 'Server Anda tidak mendukung fungsi GD yang diperlukan untuk memproses jenis gambar ini.',
+	'jpgOrPngRequired'       => 'Protokol pengubahan ukuran gambar yang ditentukan dalam preferensi Anda hanya berfungsi dengan jenis gambar JPEG atau PNG.',
+	'rotateUnsupported'      => 'Rotasi gambar sepertinya tidak didukung oleh server Anda.',
+	'libPathInvalid'         => 'Jalur ke pustaka gambar Anda tidak benar. Silakan mengatur jalur yang benar dalam preferensi gambar Anda. {0, string)',
+	'imageProcessFailed'     => 'Pemrosesan gambar gagal. Harap verifikasi bahwa server Anda mendukung protokol yang dipilih dan jalur ke pustaka gambar Anda sudah benar.',
 	'rotationAngleRequired'  => 'Sudut rotasi diperlukan untuk memutar gambar.',
 	'invalidPath'            => 'Jalur menuju gambar tidak benar.',
 	'copyFailed'             => 'Salinan gambar gagal.',

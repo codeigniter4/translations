@@ -1,20 +1,18 @@
 <?php
 
 /**
- * Format language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package    CodeIgniter
- * @author     Jozef Botka - xbotkaj on Github
- * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// Format language settings
 return [
-   'invalidJSON'      => 'Parsovanie JSON reťazca zlyhalo, chyba: "{0}".',
-   'missingExtension' => 'Rozšírenie SimpleXML je nevyhnutné pre XML formát.',
+	'invalidFormatter' => '"{0}" nie je platná Formatter trieda.',
+	'invalidJSON'      => 'Parsovanie JSON reťazca zlyhalo, chyba: "{0}".',
+	'invalidMime'      => 'Nie je definovaný žiadny Formatter pre mime type: "{0}".',
+	'missingExtension' => 'Rozšírenie SimpleXML je nevyhnutné pre XML formát.',
 ];

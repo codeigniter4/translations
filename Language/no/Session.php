@@ -1,23 +1,19 @@
 <?php
 
 /**
- * Session language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 3.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// Session language settings
 return [
-   'missingDatabaseTable'   => 'I `sessionSavePath` må tabellnavnet spesifiseres slik at økthåndteringen fungerer via databasen.',
-   'invalidSavePath'        => 'Hurtiglager: Den konfigurerte lagringsstien "{0}" er ikke en katalog, eksisterer ikke eller kan ikke opprettes.',
-   'writeProtectedSavePath' => 'Hurtiglager: Den konfigurerte lagringsstien "{0}" kan ikke beskrives av PHP-prosessen.',
-   'emptySavePath'          => 'Hurtiglager: Ingen lagringsbane konfigurert.',
-   'invalidSavePathFormat'  => 'Hurtiglager: Ugyldig Redis lagringsbaneformat: {0}',
+	'missingDatabaseTable'   => 'I `sessionSavePath` må tabellnavnet spesifiseres slik at økthåndteringen fungerer via databasen.',
+	'invalidSavePath'        => 'Hurtiglager: Den konfigurerte lagringsstien "{0}" er ikke en katalog, eksisterer ikke eller kan ikke opprettes.',
+	'writeProtectedSavePath' => 'Hurtiglager: Den konfigurerte lagringsstien "{0}" kan ikke beskrives av PHP-prosessen.',
+	'emptySavePath'          => 'Hurtiglager: Ingen lagringsbane konfigurert.',
+	'invalidSavePathFormat'  => 'Hurtiglager: Ugyldig Redis lagringsbaneformat: {0}',
 ];

@@ -1,27 +1,23 @@
 <?php
 
 /**
- * Pager language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 3.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// Pager language settings
 return [
-   'pageNavigation'         => '页面导航',
-   'first'                  => '首页',
-   'previous'               => '上一页',
-   'next'                   => '下一页',
-   'last'                   => '尾页',
-   'older'                  => '旧',
-   'newer'                  => '新',
-   'invalidTemplate'        => '{0} 不是有效的分页模板。',
-   'invalidPaginationGroup' => '{0} 不是有效的分页分组。',
+	'pageNavigation'         => '页面导航',
+	'first'                  => '首页',
+	'previous'               => '上一页',
+	'next'                   => '下一页',
+	'last'                   => '尾页',
+	'older'                  => '旧',
+	'newer'                  => '新',
+	'invalidTemplate'        => '{0} 不是有效的分页模板。',
+	'invalidPaginationGroup' => '{0} 不是有效的分页分组。',
 ];

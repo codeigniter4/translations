@@ -1,19 +1,16 @@
 <?php
+
 /**
- * Files language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2019 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// Files language settings
 return [
-   'fileNotFound' => '파일을 찾을 수 없습니다: {0}', // 'File not found: {0}',
-   'cannotMove'   => '파일 {0} 경우에 {1} ({2}) 쪽으로 이동할 수 없습니다.', // 'Could not move file {0} to {1} ({2})',
+	'fileNotFound' => '파일을 찾을 수 없습니다: {0}', // 'File not found: {0}',
+	'cannotMove'   => '파일 {0} 경우에 {1} ({2}) 쪽으로 이동할 수 없습니다.', // 'Could not move file {0} to {1} ({2})',
 ];

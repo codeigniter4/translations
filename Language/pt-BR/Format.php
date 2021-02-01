@@ -1,19 +1,18 @@
 <?php
+
 /**
- * Format language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package      CodeIgniter
- * @author       CodeIgniter Dev Team
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 3.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// Format language settings
 return [
+	'invalidFormatter' => '"{0}" não é uma classe Formatter válida.',
 	'invalidJSON'      => 'Falha ao analisar a string json, erro: "{0}".',
+	'invalidMime'      => 'Nenhum Formatter definido para o tipo mime: "{0}".',
 	'missingExtension' => 'A extensão SimpleXML é necessária para formatar XML.',
 ];

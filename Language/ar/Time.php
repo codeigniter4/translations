@@ -1,22 +1,19 @@
 <?php
 
 /**
- * Time language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package      CodeIgniter
- * @author       CodeIgniter Dev Team
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 3.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
+
+// Time language settings
 return [
 	'invalidMonth'   => 'الأشهر يجب ان تكون بين 1 و 12. المعطى: {0}',
-       'invalidDay'     => 'الأيام يجب ان تكون بين 1 و 31. المعطى: {0}',
-       'invalidOverDay' => 'الأيام يجب ان تكون بين 1 و {0}. المعطى: {1}',
+	'invalidDay'     => 'الأيام يجب ان تكون بين 1 و 31. المعطى: {0}',
+	'invalidOverDay' => 'الأيام يجب ان تكون بين 1 و {0}. المعطى: {1}',
 	'invalidHours'   => 'الساعات يجب ان تكون بين0 و 23. المعطى: {0}',
 	'invalidMinutes' => 'الدقائق يجب ان تكون بين 0 و 59. المعطى: {0}',
 	'invalidSeconds' => 'الثواني يجب ان تكون بين 0 و 59. المعطى: {0}',

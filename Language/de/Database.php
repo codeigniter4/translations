@@ -1,33 +1,30 @@
 <?php
 
 /**
- * Database language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 3.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// Database language settings
 return [
-   'invalidEvent'          => '{0} ist kein gültiger Model Event Callback.',
-   'invalidArgument'       => 'Ungültiges Argument: {0}.',
-   'invalidAllowedFields'  => 'Es sind keine zulässigen Felder angegeben für das Model: {0}',
-   'emptyDataset'          => 'Keine Daten gefunden für: {0}.',
-   'failGetFieldData'      => 'Es konnten keine Felddaten aus der Datenbank abgerufen werden.',
-   'failGetIndexData'      => 'Es konnten keine Indexdaten aus der Datenbank abgerufen werden.',
-   'failGetForeignKeyData' => 'Die Fremdschlüssel konnten nicht aus der Datenbank abgerufen werden.',
-   'parseStringFail'       => 'Parsen des Key-Strings fehlgeschlagen.',
-   'featureUnavailable'    => 'Diese Funktion ist in der verwendeten Datenbank nicht verfügbar.',
-   'tableNotFound'                    => 'Table `{0}` was not found in the current database.',
-   'noPrimaryKey'                     => '`{0}` model class does not specify a Primary Key.',
-   'noDateFormat'                     => '`{0}` model class does not have a valid dateFormat.',
-   'fieldNotExists'                   => 'Field `{0}` not found.',
-   'forEmptyInputGiven'               => 'Empty statement is given for the field `{0}`',
-   'forFindColumnHaveMultipleColumns' => 'Only single column allowed in Column name.',
+	'invalidEvent'                     => '{0} ist kein gültiger Model Event Callback.',
+	'invalidArgument'                  => 'Ungültiges Argument: {0}.',
+	'invalidAllowedFields'             => 'Es sind keine zulässigen Felder angegeben für das Model: {0}',
+	'emptyDataset'                     => 'Keine Daten gefunden für: {0}.',
+	'emptyPrimaryKey'                  => 'Es ist kein Primärschlüssel definiert für die Erstellung von {0}.',
+	'failGetFieldData'                 => 'Es konnten keine Felddaten aus der Datenbank abgerufen werden.',
+	'failGetIndexData'                 => 'Es konnten keine Indexdaten aus der Datenbank abgerufen werden.',
+	'failGetForeignKeyData'            => 'Die Fremdschlüssel konnten nicht aus der Datenbank abgerufen werden.',
+	'parseStringFail'                  => 'Parsen des Key-Strings fehlgeschlagen.',
+	'featureUnavailable'               => 'Diese Funktion ist für die verwendete Datenbank nicht verfügbar.',
+	'tableNotFound'                    => 'Die Tabelle `{0}` konnte in der aktuellen Datenbank nicht gefunden werden.',
+	'noPrimaryKey'                     => 'Das Model `{0}` definiert keinen Primärschlüssel.',
+	'noDateFormat'                     => 'Das Model `{0}` hat kein valides Datumsformat ($dateFormat).',
+	'fieldNotExists'                   => 'Feld `{0}` nicht gefunden.',
+	'forEmptyInputGiven'               => 'Leere Anweisung für Feld `{0}`.',
+	'forFindColumnHaveMultipleColumns' => 'Es darf nur ein einzelner Feldname definiert werden.',
 ];

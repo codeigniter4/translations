@@ -1,21 +1,19 @@
 <?php
 
 /**
- * Core language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package      CodeIgniter
- * @author       Luca Marco Rasia
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 4.0.0
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @filesource
- * 
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
+
+// Core language settings
 return [
-	'invalidFile'      => 'Non valido il file: {0}',
-	'copyError'        => 'Riscontrato un errore nel tentativo di riposizionare il file. Si prega di assicurarsi che la cartella dei file sia scrivibile.',
-	'missingExtension' => '{0} estensione non è caricata.',
-	'noHandlers'       => '{0} deve prevedere almeno un Gestore.',
+	'copyError'                    => 'Riscontrato un errore nel tentativo di riposizionare il file. Si prega di assicurarsi che la cartella dei file sia scrivibile.',
+	'enabledZlibOutputCompression' => 'La direttiva zlib.output_compression presente nel file php.ini è abilitata. Questa impostazione potrebbe causare dei conflitti con altri tipi di output buffer.',
+	'invalidFile'                  => 'Non valido il file: {0}',
+	'missingExtension'             => '{0} estensione non è caricata.',
+	'noHandlers'                   => '{0} deve prevedere almeno un Gestore.',
 ];

@@ -1,18 +1,15 @@
 <?php
 
 /**
- * Email language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package      CodeIgniter
- * @author       CodeIgniter Dev Team
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 3.0.0
- * @filesource
- * 
- * @codeCoverageIgnore
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
+ *
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
+
+// Email language settings
 return [
 	'mustBeArray'          => 'Il metodo di validazione della email deve essere passato come array.',
 	'invalidAddress'       => 'Indirizzo email non valido: {0}',
@@ -20,10 +17,10 @@ return [
 	'attachmentUnreadable' => 'Impossibile aprire questo allegato: {0}',
 	'noFrom'               => 'Non si può inviare una mail senza "Da" nella intestazione.',
 	'noRecipients'         => 'Devi inserire i destinatari: A, Cc, o Ccn',
-	'sendFailurePHPMail'   => 'Impossibile inviare email usando PHP mail(). Il tuo server potrebbe non essere configurato per inviare email usando questo methodo.',
-	'sendFailureSendmail'  => 'Impossibile inviare email usando PHP Sendmail. Il tuo server potrebbe non essere configurato per inviare email usando questo methodo.',
-	'sendFailureSmtp'      => 'Impossibile inviare email usando PHP SMTP. Il tuo server potrebbe non essere configurato per inviare email usando questo methodo.',
-	'sent'                 => 'Il tuo messaggio è stato inviato con successo utilizzando il seguente protocollo: {0, string}',
+	'sendFailurePHPMail'   => 'Impossibile inviare email usando PHP mail(). Il tuo server potrebbe non essere configurato per inviare email usando questo metodo.',
+	'sendFailureSendmail'  => 'Impossibile inviare email usando PHP Sendmail. Il tuo server potrebbe non essere configurato per inviare email usando questo metodo.',
+	'sendFailureSmtp'      => 'Impossibile inviare email usando PHP SMTP. Il tuo server potrebbe non essere configurato per inviare email usando questo metodo.',
+	'sent'                 => 'Il tuo messaggio è stato inviato con successo utilizzando il seguente protocollo: {0}',
 	'noSocket'             => 'Non possibile aprire un socket a Sendmail. Prego verifica le configurazioni.',
 	'noHostname'           => 'Non hai specificato alcun hostname SMTP.',
 	'SMTPError'            => 'Si è verificato il seguente errore SMTP: {0}',

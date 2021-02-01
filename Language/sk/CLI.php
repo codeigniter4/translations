@@ -1,24 +1,30 @@
 <?php
 
 /**
- * CLI language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package    CodeIgniter
- * @author     Jozef Botka - xbotkaj on Github
- * @copyright  2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// CLI language settings
 return [
-   'commandNotFound' => 'Príkaz "{0}" nebol nájdený.',
-   'helpUsage'       => 'Použitie:',
-   'helpDescription' => 'Popis:',
-   'helpOptions'     => 'Možnosti:',
-   'helpArguments'   => 'Argumenty:',
-   'invalidColor'    => 'Neplatná {0} farba: {1}.',
+	'commandNotFound'    => 'Príkaz "{0}" nebol nájdený.',
+	'altCommandSingular' => 'Mali ste na mysli toto?',
+	'altCommandPlural'   => 'Mali ste na mysli niečo z tohto?',
+	'helpUsage'          => 'Použitie:',
+	'helpDescription'    => 'Popis:',
+	'helpOptions'        => 'Možnosti:',
+	'helpArguments'      => 'Argumenty:',
+	'invalidColor'       => 'Neplatná {0} farba: {1}.',
+
+	// Generators
+	'generateClassName'   => 'Názov triedy',
+	'generateParentClass' => 'Názov nadradenej triedy, z ktorej sa má rozšíriť',
+	'generateFileExists'  => '{0} už existuje.',
+	'generateFileSuccess' => 'Vytvorený súbor: ',
+	'generateFileError'   => 'Chyba pri vytváraní súboru: ',
+	'namespaceNotDefined' => 'Namespace "{0}" nie je definovaný.',
 ];

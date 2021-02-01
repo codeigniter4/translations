@@ -1,21 +1,18 @@
 <?php
 
 /**
- * Core language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package      CodeIgniter
- * @author       CodeIgniter Dev Team
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 3.0.0
- * @filesource
- * 
- * @codeCoverageIgnore
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
+ *
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
+
+// Core language settings
 return [
-	'invalidFile'      => 'Geçersiz dosya: {0}',
 	'copyError'        => 'Dosyayı değiştirmeye çalışırken bir hata oluştu. Lütfen klasörün yazılabilir olduğundan emin olunuz',
+	'invalidFile'      => 'Geçersiz dosya: {0}',
 	'missingExtension' => '{0} uzantısı yüklenemedi.',
 	'noHandlers'       => '{0} en azından bir işleyici belirtilmeli.',
 ];

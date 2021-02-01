@@ -1,18 +1,15 @@
 <?php
 
 /**
- * Email language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package      CodeIgniter
- * @author       CodeIgniter Dev Team
- * @copyright    2014-2019 British Columbia Institute of Technology (https://bcit.ca/)
- * @license      https://opensource.org/licenses/MIT	MIT License
- * @link         https://codeigniter.com
- * @since        Version 3.0.0
- * @filesource
- * 
- * @codeCoverageIgnore
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
+ *
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
+
+// Email language settings
 return [
 	'mustBeArray'          => 'Email doğrulama işlevine bir dizi verilmeli.',
 	'invalidAddress'       => 'Geçersiz email adresi: {0}',
@@ -23,7 +20,7 @@ return [
 	'sendFailurePHPMail'   => 'PHP mail() yöntemi kullanılarak email gönderilemiyor. Sunucunuz bu yöntemle email gönderecek şekilde ayarlanmamış olabilir.',
 	'sendFailureSendmail'  => 'PHP Sendmail yöntemi kullanılarak email gönderilemiyor. Sunucunuz bu yöntemle email gönderecek şekilde ayarlanmamış olabilir.',
 	'sendFailureSmtp'      => 'PHP SMTP yöntemi kullanılarak email gönderilemiyor. Sunucunuz bu yöntemle email gönderecek şekilde ayarlanmamış olabilir.',
-	'sent'                 => 'Mesajınız {0, string} protokolü kullanılarak başarıyla gönderildi.',
+	'sent'                 => 'Mesajınız {0} protokolü kullanılarak başarıyla gönderildi.',
 	'noSocket'             => 'Sendmail soketi açılamıyor. Lütfen ayarlarınızı kontrol edin.',
 	'noHostname'           => 'SMTP sunucu adı belirtmeniz gerekiyor.',
 	'SMTPError'            => 'SMTP hatası alındı: {0}',

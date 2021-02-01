@@ -1,22 +1,18 @@
 <?php
 
 /**
- * Core language strings.
+ * This file is part of the CodeIgniter 4 framework.
  *
- * @package    CodeIgniter
- * @author     CodeIgniter Dev Team
- * @copyright  2019 CodeIgniter Foundation
- * @license    https://opensource.org/licenses/MIT	MIT License
- * @link       https://codeigniter.com
- * @since      Version 4.0.0
- * @filesource
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * @codeCoverageIgnore
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
+// Core language settings
 return [
-   'invalidFile'      => 'Neteisingas failas: {0}',
-   'copyError'        => 'Bandant pakeisti failą ({0}) susidurta su klaida. Prašome patikrinti, ar galima rašyti į direktoriją, kurioje yra failas.',
-   'missingExtension' => '{0} praplėtimas nėra įkeltas.',
-   'noHandlers'       => '{0} turi teikti bent vieną doroklį.',
+	'copyError'        => 'Bandant pakeisti failą ({0}) susidurta su klaida. Prašome patikrinti, ar galima rašyti į direktoriją, kurioje yra failas.',
+	'invalidFile'      => 'Neteisingas failas: {0}',
+	'missingExtension' => '{0} praplėtimas nėra įkeltas.',
+	'noHandlers'       => '{0} turi teikti bent vieną doroklį.',
 ];
