@@ -5,6 +5,13 @@ All notable changes to this library will be documented in this file:
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v4.1.1](https://github.com/codeigniter4/translations/compare/v4.0.3..v4.1.1) - 2021-02-02
+
+### Fixed
+
+- Re-release of `v4.0.3` to make the commit history of `master` the same with `develop`
+- Catch-up of release version to current framework release
+
 ## [v4.0.3](https://github.com/codeigniter4/translations/compare/v4.0.2..v4.0.3) - 2021-02-01
 
 ### Added
