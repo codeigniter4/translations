@@ -10,20 +10,27 @@
  */
 
 return [
-	'commandNotFound'    => 'Kunde inte hitta kommandot "{0}".',
-	'altCommandSingular' => 'Menade du detta?',
 	'altCommandPlural'   => 'Menade du någon av dessa?',
-	'helpUsage'          => 'Användning:',
-	'helpDescription'    => 'Beskrivning:',
-	'helpOptions'        => 'Optioner:',
-	'helpArguments'      => 'Argument:',
-	'invalidColor'       => 'Ogiltig {0} färg: {1}.',
-
-	// Generators
-	'generateClassName'   => 'Klassnamn',
-	'generateParentClass' => 'Namn på klass att ärva från',
-	'generateFileExists'  => '{0} finns redan.',
-	'generateFileSuccess' => 'Skapade filen: ',
-	'generateFileError'   => 'Fel när filen skapades: ',
+	'altCommandSingular' => 'Menade du detta?',
+	'commandNotFound'    => 'Kunde inte hitta kommandot "{0}".',
+	'generator'          => [
+		'cancelOperation'  => 'Operationen har avbrutits.',
+		'className'        => 'Klassnamn',
+		'commandType'      => 'Typ av kommando',
+		'databaseGroup'    => 'Databasgrupp',
+		'fileCreate'       => 'Skapade filen: {0}',
+		'fileError'        => 'Fel då filen skulle skapas: {0}',
+		'fileExist'        => 'Filen finns redan: {0}',
+		'fileOverwrite'    => 'Skrev över filen: {0}',
+		'parentClass'      => 'Föräldraklass',
+		'returnType'       => 'Returtyp',
+		'tableName'        => 'Tabellnamn',
+		'usingCINamespace' => 'Varning: Om namespace "CodeIgniter" används kommer filen att skapas i katalogen system.',
+	],
+	'helpArguments'       => 'Argument:',
+	'helpDescription'     => 'Beskrivning:',
+	'helpOptions'         => 'Optioner:',
+	'helpUsage'           => 'Användning:',
+	'invalidColor'        => 'Ogiltig {0} färg: {1}.',
 	'namespaceNotDefined' => 'Namespace "{0}" är inte definierat.',
 ];
