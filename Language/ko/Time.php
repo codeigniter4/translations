@@ -11,6 +11,7 @@
 
 // Time language settings
 return [
+	'invalidFormat'  => '"{0}"은 유효한 날짜/시간 형식이 아닙니다.', // "{0}" is not a valid datetime format
 	'invalidMonth'   => '"월"은 1에서 12가 되어야 합니다. 지정한 값: {0}', // 'Months must be between 1 and 12. Given: {0}',
 	'invalidDay'     => '"일"은 1에서 31이 되어야 합니다. 지정한 값: {0}', // 'Days must be between 1 and 31. Given: {0}',
 	'invalidOverDay' => '"일"은 1에서 {0}경우가 되어야 합니다. 지정한 값: {1}', // 'Days must be between 1 and {0}. Given: {1}',

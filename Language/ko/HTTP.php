@@ -55,6 +55,7 @@ return [
 	'methodNotFound'     => '컨트롤러 메서드를 찾을 수 없습니다: {0}', // 'Controller method is not found: {0}',
 
 	// CSRF
+	// @deprecated use `Security.disallowedAction`
 	'disallowedAction' => '해당 요청은 허용되지 않습니다.', // 'The action you requested is not allowed.',
 
 	// Uploaded file moving
@@ -73,5 +74,6 @@ return [
 	'uploadErrUnknown'   => '업로드 에러: 해당 파일 "%s"의 경우, 알 수 없는 에러로 인해 업로드할 수 없습니다.', // 'The file "%s" was not uploaded due to an unknown error.',
 
 	// SameSite setting
+	// @deprecated
 	'invalidSameSiteSetting' => 'SameSite 설정은 None, Lax, Strict 또는 빈 문자열이어야합니다. 주어진 값 : {0}', // 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];
