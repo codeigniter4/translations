@@ -37,7 +37,7 @@ return [
 	'is_natural'            => '{field} には、半角数字のみを入力してください。', //The {field} field must only contain digits.
 	'is_natural_no_zero'    => '{field} には、半角数字で0より大きな数値を入力してください。', //The {field} field must only contain digits and must be greater than zero.
 	'is_not_unique'         => '{field} には、データベース内に存在する値を入力してください。', //The {field} field must contain a previously existing value in the database.
-	'is_unique'             => '{field} はユニークな値でなければなりません。', //The {field} field must contain a unique value.
+	'is_unique'             => '{field} は他と重複しない値でなければなりません。', //The {field} field must contain a unique value.
 	'less_than'             => '{field} は {param} より小さな半角数値を入力してください。', //The {field} field must contain a number less than {param}.
 	'less_than_equal_to'    => '{field} は {param} 以下の半角数値を入力してください。', //The {field} field must contain a number less than or equal to {param}.
 	'matches'               => '{field} と {param} が一致しません。.', //The {field} field does not match the {param} field.
