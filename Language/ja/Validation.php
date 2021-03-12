@@ -40,12 +40,12 @@ return [
 	'is_unique'             => '{field} は他と重複しない値を入力してください。', //The {field} field must contain a unique value.
 	'less_than'             => '{field} は {param} より小さな半角数値を入力してください。', //The {field} field must contain a number less than {param}.
 	'less_than_equal_to'    => '{field} は {param} 以下の半角数値を入力してください。', //The {field} field must contain a number less than or equal to {param}.
-	'matches'               => '{field} と {param} が一致しません。.', //The {field} field does not match the {param} field.
+	'matches'               => '{field} と {param} が一致しません。', //The {field} field does not match the {param} field.
 	'max_length'            => '{field} は {param} 文字以内で入力してください。', //The {field} field cannot exceed {param} characters in length.
 	'min_length'            => '{field} は {param} 文字以上で入力してください。', //The {field} field must be at least {param} characters in length.
 	'not_equals'            => '{field} を {param} にすることはできません。', //The {field} field cannot be: {param}.
 	'not_in_list'           => '{field} は {param} のいずれかにすることはできません。', //The {field} field must not be one of: {param}.
-	'numeric'               => '{field} は半角の数値のみを入力してください。.', //The {field} field must contain only numbers.
+	'numeric'               => '{field} は半角の数値のみを入力してください。', //The {field} field must contain only numbers.
 	'regex_match'           => '{field} は正しいフォーマットではありません。', //The {field} field is not in the correct format.
 	'required'              => '{field} は必須項目です。', //The {field} field is required.
 	'required_with'         => '{field} は {param} が存在する場合には必須項目です。', //The {field} field is required when {param} is present.
