@@ -29,8 +29,9 @@ else
 	$files = shell_exec('git diff --name-only --diff-filter=ACMRTUXB HEAD~..HEAD');
 }
 
-$isCIAffected   = strpos((string) $files, '.github/scripts/continuous-integration') !== false;
-$isTestAffected = preg_match('/tests\/Language\/(.+)Test(?:|Case)\.php/', $files) === 1;
+$isCIAffected    = strpos((string) $files, '.github/scripts/continuous-integration') !== false;
+$isBuildAffected = strpos((string) $files, '.github/workflows/build.yml') !== false;
+$isTestAffected  = preg_match('/tests\/Language\/(.+)Test(?:|Case)\.php/', $files) === 1;
 
 $files = str_replace(["\r\n", "\r"], "\n", $files);
 $files = explode("\n", trim($files));
@@ -49,7 +50,7 @@ $locales = [];
 
 foreach ($stagedPhpFiles as $file)
 {
-	if (preg_match('/^Language\/(.+)\/.+\.php$/', $file, $matches))
+	if (preg_match('/^Language\/(.+)\/.+\.php$/', $file, $matches) === 1)
 	{
 		$locales[] = $matches[1];
 	}
@@ -70,7 +71,7 @@ if (CLI::isWindows())
 
 chdir(__DIR__ . '/../../');
 
-if ($count === 0 && ! ($isCIAffected || $isTestAffected))
+if ($count === 0 && ! ($isCIAffected || $isBuildAffected || $isTestAffected))
 {
 	CLI::write('No language files to test.', 'black', 'green');
 	CLI::newLine();
@@ -103,7 +104,7 @@ if ($count > 0 && $count < count(AbstractTranslationTestCase::$locales))
 		$returns += $return;
 	}
 }
-elseif ($count === count(AbstractTranslationTestCase::$locales) || $isCIAffected || $isTestAffected)
+elseif ($count === count(AbstractTranslationTestCase::$locales) || $isCIAffected || $isBuildAffected || $isTestAffected)
 {
 	$reasons = [
 		[
@@ -113,6 +114,10 @@ elseif ($count === count(AbstractTranslationTestCase::$locales) || $isCIAffected
 		[
 			$isCIAffected,
 			'The continuous integration script has been modified.',
+		],
+		[
+			$isBuildAffected,
+			'The build action workflow has been modified.',
 		],
 		[
 			$isTestAffected,
