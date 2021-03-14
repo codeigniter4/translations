@@ -27,7 +27,7 @@ return [
 	'alpha_space'           => '{field} は半角の英字と空白のみ利用可能です。', //The {field} field may only contain alphabetical characters and spaces.
 	'decimal'               => '{field} は半角数値を入力してください。', //The {field} field must contain a decimal number.
 	'differs'               => '{field} には {param} と異なる値を入力してください。', //The {field} field must differ from the {param} field.
-	'equals'                => '{field} は {param} と同じ値でなければなりません。', //The {field} field must be exactly: {param}.
+	'equals'                => '{field} は {param} と同じ値を入力してください。', //The {field} field must be exactly: {param}.
 	'exact_length'          => '{field} の文字数は、{param}文字で入力してください。', //The {field} field must be exactly {param} characters in length.
 	'greater_than'          => '{field} には {param} より大きな半角数値を入力してください。', //The {field} field must contain a number greater than {param}.
 	'greater_than_equal_to' => '{field} には {param} 以上の半角数値を入力してください。', //The {field} field must contain a number greater than or equal to {param}.
@@ -37,20 +37,20 @@ return [
 	'is_natural'            => '{field} には、半角数字のみを入力してください。', //The {field} field must only contain digits.
 	'is_natural_no_zero'    => '{field} には、半角数字で0より大きな数値を入力してください。', //The {field} field must only contain digits and must be greater than zero.
 	'is_not_unique'         => '{field} には、データベース内に存在する値を入力してください。', //The {field} field must contain a previously existing value in the database.
-	'is_unique'             => '{field} はユニークな値でなければなりません。', //The {field} field must contain a unique value.
+	'is_unique'             => '{field} は他と重複しない値を入力してください。', //The {field} field must contain a unique value.
 	'less_than'             => '{field} は {param} より小さな半角数値を入力してください。', //The {field} field must contain a number less than {param}.
 	'less_than_equal_to'    => '{field} は {param} 以下の半角数値を入力してください。', //The {field} field must contain a number less than or equal to {param}.
-	'matches'               => '{field} と {param} が一致しません。.', //The {field} field does not match the {param} field.
+	'matches'               => '{field} と {param} が一致しません。', //The {field} field does not match the {param} field.
 	'max_length'            => '{field} は {param} 文字以内で入力してください。', //The {field} field cannot exceed {param} characters in length.
 	'min_length'            => '{field} は {param} 文字以上で入力してください。', //The {field} field must be at least {param} characters in length.
 	'not_equals'            => '{field} を {param} にすることはできません。', //The {field} field cannot be: {param}.
-	'not_in_list'           => '{field} は {param} の中の1つを入力してください。', //The {field} field must not be one of: {param}.
-	'numeric'               => '{field} は半角の数値のみを入力してください。.', //The {field} field must contain only numbers.
+	'not_in_list'           => '{field} は {param} のいずれかにすることはできません。', //The {field} field must not be one of: {param}.
+	'numeric'               => '{field} は半角の数値のみを入力してください。', //The {field} field must contain only numbers.
 	'regex_match'           => '{field} は正しいフォーマットではありません。', //The {field} field is not in the correct format.
 	'required'              => '{field} は必須項目です。', //The {field} field is required.
 	'required_with'         => '{field} は {param} が存在する場合には必須項目です。', //The {field} field is required when {param} is present.
 	'required_without'      => '{field} は {param} が存在しない場合には必須項目です。', //The {field} field is required when {param} is not present.
-	'string'                => '{field} には、有効な文字列入力してください。', //The {field} field must be a valid string.
+	'string'                => '{field} には、有効な文字列を入力してください。', //The {field} field must be a valid string.
 	'timezone'              => '{field} には、有効なタイムゾーンを入力してください。', //The {field} field must be a valid timezone.
 	'valid_base64'          => '{field} には、有効なbase64文字列を入力してください。', //The {field} field must be a valid base64 string.
 	'valid_email'           => '{field} には、有効なメールアドレスを入力してください。', //The {field} field must contain a valid email address.
@@ -68,5 +68,5 @@ return [
 	'is_image' => '{field} には画像ファイルを指定してください。', //{field} is not a valid, uploaded image file.
 	'mime_in'  => '{field} は有効なMIMEタイプではありません。', //{field} does not have a valid mime type.
 	'ext_in'   => '{field} は有効なファイル拡張子ではありません。', //{field} does not have a valid file extension.
-	'max_dims' => '{field} は画像ではないか、幅が広すぎるか高すぎるかのどちらかです。', //{field} is either not an image, or it is too wide or tall.
+	'max_dims' => '{field} は画像ではないか、幅や高さが大きすぎます。', //{field} is either not an image, or it is too wide or tall.
 ];
