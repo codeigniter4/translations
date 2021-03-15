@@ -15,7 +15,7 @@ return [
 	'invalidAddress'       => '無効なメールアドレス: {0}', //Invalid email address: {0}
 	'attachmentMissing'    => '次のメールの添付ファイルを見つけることができません。: {0}', //Unable to locate the following email attachment: {0}
 	'attachmentUnreadable' => 'この添付ファイルを開くことができません。: {0}', //Unable to open this attachment: {0}
-	'noFrom'               => '"From"ヘッダの無いメールは送信できません。', //Cannot send mail with no "From" header.
+	'noFrom'               => '"From" ヘッダの無いメールは送信できません。', //Cannot send mail with no "From" header.
 	'noRecipients'         => 'To, Cc, または Bccを受信者に含める必要があります。', //You must include recipients: To, Cc, or Bcc
 	'sendFailurePHPMail'   => 'PHP関数mail()がメール送信に利用できません。この方法でメールを送信するようにサーバーが設定されていない可能性があります。', //Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
 	'sendFailureSendmail'  => 'PHPでSendmailコマンドがメール送信に利用できません。この方法でメールを送信するようにサーバーが設定されていない可能性があります。', //Unable to send email using PHP Sendmail. Your server might not be configured to send mail using this method.

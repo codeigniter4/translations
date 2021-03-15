@@ -59,10 +59,10 @@ return [
 	// Uploaded file moving
 	'alreadyMoved' => 'アップロードしたファイルは既に移動済みです。', //The uploaded file has already been moved.
 	'invalidFile'  => 'オリジナルファイルは有効なファイルではありません。', //The original file is not a valid file.
-	'moveFailed'   => 'ファイル {0} を {1} に移動できませんでした。({2})', //Could not move file {0} to {1} ({2})
+	'moveFailed'   => 'ファイル {0} を {1} に移動できませんでした({2})。', //Could not move file {0} to {1} ({2})
 
 	'uploadErrOk'        => 'ファイルのアップロードに成功しました。', //The file uploaded with success.
-	'uploadErrIniSize'   => 'ファイル "%s" がupload_max_filesize ini ディレクティブの値を超えています。', //The file "%s" exceeds your upload_max_filesize ini directive.
+	'uploadErrIniSize'   => 'ファイル "%s" が upload_max_filesize ini ディレクティブの値を超えています。', //The file "%s" exceeds your upload_max_filesize ini directive.
 	'uploadErrFormSize'  => 'ファイル "%s" がフォームに定義されたアップロード制限を超えました。', //The file "%s" exceeds the upload limit defined in your form.
 	'uploadErrPartial'   => 'ファイル "%s" が部分的にしかアップロードされていませんでした。', //The file "%s" was only partially uploaded.
 	'uploadErrNoFile'    => 'ファイルはアップロードされませんでした。', //No file was uploaded.
