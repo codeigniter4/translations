@@ -11,10 +11,9 @@
 
 // CLI language settings
 return [
-	'commandNotFound'    => '"{0}" というコマンドはありません。', //Command "{0}" not found.
-	'altCommandSingular' => 'これですか？', //Did you mean this?
 	'altCommandPlural'   => 'この中の1つですか？', //Did you mean one of these?
-	'helpUsage'          => '使用法:', //Usage:
+	'altCommandSingular' => 'これですか？', //Did you mean this?
+	'commandNotFound'    => '"{0}" というコマンドはありません。', //Command "{0}" not found.
 	'generator'           => [
 		'cancelOperation'  => '操作はキャンセルされました。', //'Operation has been cancelled.',
 		'className'        => [
@@ -40,9 +39,10 @@ return [
 		'tableName'        => 'テーブル名', //'Table name',
 		'usingCINamespace' => '警告: 名前空間 "CodeIgniter" を使用すると system ディレクトリにファイルが生成されます。', //'Warning: Using the "CodeIgniter" namespace will generate the file in the system directory.'
 	],
+	'helpArguments'      => '引数:', //Arguments:
 	'helpDescription'    => '説明:', //Description:
 	'helpOptions'        => 'オプション:', //Options:
-	'helpArguments'      => '引数:', //Arguments:
+	'helpUsage'          => '使用法:', //Usage:
 	'invalidColor'       => '「{1}」は無効な {0} カラーです。', //Invalid {0} color: {1}.
 	'namespaceNotDefined' => '名前空間 "{0}" は定義されていません。', //Namespace "{0}" is not defined.
 ];
