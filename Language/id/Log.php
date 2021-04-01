@@ -11,5 +11,6 @@
 
 // Log language settings
 return [
-	'invalidLogLevel' => '{0} adalah sebuah level log yang tidak valid.',
+	'invalidLogLevel'    => '{0} adalah sebuah level log yang tidak valid.',
+	'invalidMessageType' => 'Jenis pesan yang diberikan "{0}" tidak didukung.',
 ];
