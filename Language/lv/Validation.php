@@ -5,18 +5,18 @@
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
 // Validation language settings
 return [
 	// Core Messages
-	'noRuleSets'      		=> 'Validācijas iestatījumos nav norādīts noteikumu kopums.', // 'No rulesets specified in Validation configuration.'
-	'ruleNotFound'    		=> '{0} nav derīgs noteikums.', // '{0} is not a valid rule.'
-	'groupNotFound'   		=> '{0} nav validācijas noteikumu grupa.', // '{0} is not a validation rules group.'
-	'groupNotArray'   		=> '{0} noteikumu grupai ir jābūt masīvam.', // '{0} rule group must be an array.'
-	'invalidTemplate' 		=> '{0} nav derīga validācijas veidne.', // '{0} is not a valid Validation template.'
+	'noRuleSets'      => 'Validācijas iestatījumos nav norādīts noteikumu kopums.', // 'No rulesets specified in Validation configuration.'
+	'ruleNotFound'    => '{0} nav derīgs noteikums.', // '{0} is not a valid rule.'
+	'groupNotFound'   => '{0} nav validācijas noteikumu grupa.', // '{0} is not a validation rules group.'
+	'groupNotArray'   => '{0} noteikumu grupai ir jābūt masīvam.', // '{0} rule group must be an array.'
+	'invalidTemplate' => '{0} nav derīga validācijas veidne.', // '{0} is not a valid Validation template.'
 
 	// Rule Messages
 	'alpha'                 => 'Lauka {field} vērtība drīkst saturēt tikai alfabētiskas rakstzīmes.', // 'The {field} field may only contain alphabetical characters.'
@@ -60,13 +60,13 @@ return [
 	'valid_date'            => 'Lauka {field} vērtībai ir jābūt datumam.', // 'The {field} field must contain a valid date.'
 
 	// Credit Cards
-	'valid_cc_num' 			=> 'Lauka {field} vērtība nav derīgs bankas kartes numurs.', // '{field} does not appear to be a valid credit card number.'
+	'valid_cc_num' => 'Lauka {field} vērtība nav derīgs bankas kartes numurs.', // '{field} does not appear to be a valid credit card number.'
 
 	// Files
-	'uploaded' 				=> 'Lauka {field} vērtība nav augšupielādēts fails.', // '{field} is not a valid uploaded file.'
-	'max_size' 				=> 'Lauka {field} vērtība ir pārāk liels faila izmērs.', // '{field} is too large of a file.'
-	'is_image' 				=> 'Lauka {field} vērtība nav augšupielādēts attēls.', // '{field} is not a valid, uploaded image file.'
-	'mime_in'  				=> 'Lauka {field} vērtība nav derīgs `mime` tips.', // '{field} does not have a valid mime type.'
-	'ext_in'   				=> 'Lauka {field} vērtība nesatur derīgu faila paplašinājumu.', // '{field} does not have a valid file extension.'
-	'max_dims' 				=> 'Lauka {field} vērtība vai nu nav attēls vai tā izmērs ir pārāks plats vai garš.', // '{field} is either not an image, or it is too wide or tall.'
+	'uploaded' => 'Lauka {field} vērtība nav augšupielādēts fails.', // '{field} is not a valid uploaded file.'
+	'max_size' => 'Lauka {field} vērtība ir pārāk liels faila izmērs.', // '{field} is too large of a file.'
+	'is_image' => 'Lauka {field} vērtība nav augšupielādēts attēls.', // '{field} is not a valid, uploaded image file.'
+	'mime_in'  => 'Lauka {field} vērtība nav derīgs `mime` tips.', // '{field} does not have a valid mime type.'
+	'ext_in'   => 'Lauka {field} vērtība nesatur derīgu faila paplašinājumu.', // '{field} does not have a valid file extension.'
+	'max_dims' => 'Lauka {field} vērtība vai nu nav attēls vai tā izmērs ir pārāks plats vai garš.', // '{field} is either not an image, or it is too wide or tall.'
 ];

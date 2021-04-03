@@ -44,7 +44,7 @@ claims no expertise beyond English.
 | ja     | Japanese             | 4.0.3   | [kenjis][ja]         | Kenji Suzuki
 | ko     | Korean               | 4.0.2   | [codeigniter-kr][kr] | codeigniter-kr
 | lt     | Lithuanian           | 4.0.2   | [dgvirtual][lt]      | Donatas Glodenis
-| lv     | Latvian              | 4.1.1   | [davislasis][lv]     | Dāvis Lasis
+| lv     | Latvian              | 4.0.3   | [davislasis][lv]     | Dāvis Lasis
 | ml     | Malayalam            | 4.0.3   | [rakheshthayyur][ml] | Rakhesh Thayyur
 | nl     | Dutch                | 4.0.3   | [JohanSmolders][nl]  | JohanSmolders
 | no     | Norwegian            | 4.0.0   | [LA3QMA][no]         | Kai Günter Brandt
