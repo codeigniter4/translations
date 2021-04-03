@@ -24,8 +24,7 @@ if ($event === '--pull-request')
 {
 	$files = shell_exec('git diff --name-only --diff-filter=ACMRTUXB origin/develop..HEAD');
 }
-else
-{
+else {
 	$files = shell_exec('git diff --name-only --diff-filter=ACMRTUXB HEAD~..HEAD');
 }
 
@@ -96,8 +95,7 @@ if ($count > 0 && $count < count(AbstractTranslationTestCase::$locales))
 		{
 			$failed[] = $locale;
 		}
-		else
-		{
+		else {
 			$passed[] = $locale;
 		}
 
@@ -165,8 +163,7 @@ elseif ($count === count($failed))
 {
 	CLI::write('All tested locales have failed!', 'light_gray', 'red');
 }
-else
-{
+else {
 	CLI::write('Some locales have failed the tests!', 'black', 'yellow');
 }
 
