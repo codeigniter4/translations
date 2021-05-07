@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.4/phpunit.xsd"
+         xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
          bootstrap="vendor/codeigniter4/codeigniter4/system/Test/bootstrap.php"
          cacheResultFile=".phpunit.cache/test-results"
          backupGlobals="false"
@@ -14,8 +14,11 @@
          stopOnSkipped="false"
          verbose="true">
     <testsuites>
-        <testsuite name="default">
+        <testsuite name="Language TestSuite">
             <directory suffix="Test.php">tests/Language</directory>
+        </testsuite>
+        <testsuite name="Utils TestSuite">
+            <directory suffix="Test.php">tests/utils</directory>
         </testsuite>
     </testsuites>
 

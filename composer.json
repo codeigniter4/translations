@@ -8,17 +8,11 @@
         "php": "^7.2 || ^8.0",
         "ext-intl": "*"
     },
-    "replace": {
-        "symfony/polyfill-intl-grapheme": "*",
-        "symfony/polyfill-intl-normalizer": "*",
-        "symfony/polyfill-php70": "*",
-        "symfony/polyfill-php72": "*"
-    },
     "require-dev": {
         "ext-tokenizer": "*",
         "codeigniter4/codeigniter4": "dev-develop",
-        "friendsofphp/php-cs-fixer": "^2.18",
-        "nexusphp/cs-config": "^2.1",
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "nexusphp/cs-config": "^3.0",
         "phpunit/phpunit": "^9.4"
     },
     "config": {
@@ -34,7 +28,8 @@
     "autoload-dev": {
         "psr-4": {
             "Translations\\Tests\\": "tests/Language/",
-            "Utils\\": "utils"
+            "Utils\\": "utils",
+            "Utils\\Tests\\": "tests/utils/"
         }
     },
     "repositories": [

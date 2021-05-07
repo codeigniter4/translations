@@ -20,7 +20,7 @@ final class CodeIgniter4 extends AbstractRuleset
 {
 	public function __construct()
 	{
-		$this->name  = 'CodeIgniter4';
+		$this->name  = 'CodeIgniter4 Translations';
 		$this->rules = [
 			'align_multiline_comment' => ['comment_type' => 'all_multiline'],
 			'array_indentation'       => true,
@@ -38,7 +38,6 @@ final class CodeIgniter4 extends AbstractRuleset
 			],
 			'blank_line_after_namespace'   => true,
 			'blank_line_after_opening_tag' => true,
-			'blank_line_before_return'     => false, // deprecated
 			'blank_line_before_statement'  => [
 				'statements' => [
 					'continue',
@@ -61,9 +60,9 @@ final class CodeIgniter4 extends AbstractRuleset
 			'cast_spaces'                 => ['space' => 'single'],
 			'class_attributes_separation' => [
 				'elements' => [
-					'const',
-					'method',
-					'property',
+					'const'    => 'one',
+					'method'   => 'one',
+					'property' => 'one',
 				],
 			],
 			'class_definition' => [
@@ -111,7 +110,6 @@ final class CodeIgniter4 extends AbstractRuleset
 			'final_class'                            => false, // risky
 			'final_internal_class'                   => true, // risky
 			'final_public_method_for_abstract_class' => false, // risky
-			'final_static_access'                    => false, // deprecated
 			'fopen_flag_order'                       => true, // risky
 			'fopen_flags'                            => ['b_mode' => true], // risky
 			'full_opening_tag'                       => true,
@@ -143,7 +141,6 @@ final class CodeIgniter4 extends AbstractRuleset
 			],
 			'global_namespace_import'     => ['import_classes' => true],
 			'group_import'                => false,
-			'hash_to_slash_comment'       => false, // deprecated
 			'header_comment'              => false,
 			'heredoc_indentation'         => false,
 			'heredoc_to_nowdoc'           => true,
@@ -158,7 +155,6 @@ final class CodeIgniter4 extends AbstractRuleset
 			'list_syntax'                 => ['syntax' => 'short'],
 			'logical_operators'           => true, // risky
 			'lowercase_cast'              => true,
-			'lowercase_constants'         => false, // deprecated
 			'lowercase_keywords'          => true,
 			'lowercase_static_reference'  => true,
 			'magic_constant_casing'       => true,
@@ -166,12 +162,10 @@ final class CodeIgniter4 extends AbstractRuleset
 			'mb_str_functions'            => false, // risky
 			'method_argument_space'       => [
 				'after_heredoc'                    => true,
-				'ensure_fully_multiline'           => true,
 				'keep_multiple_spaces_after_comma' => false,
 				'on_multiline'                     => 'ensure_fully_multiline',
 			],
 			'method_chaining_indentation'             => true,
-			'method_separation'                       => false, // deprecated
 			'modernize_types_casting'                 => true, // risky
 			'multiline_comment_opening_closing'       => true,
 			'multiline_whitespace_before_semicolons'  => ['strategy' => 'no_multi_line'],
@@ -209,17 +203,14 @@ final class CodeIgniter4 extends AbstractRuleset
 					'default',
 				],
 			],
-			'no_extra_consecutive_blank_lines'            => false, // deprecated
 			'no_homoglyph_names'                          => true, // risky
 			'no_leading_import_slash'                     => true,
 			'no_leading_namespace_whitespace'             => true,
 			'no_mixed_echo_print'                         => ['use' => 'echo'],
 			'no_multiline_whitespace_around_double_arrow' => true,
-			'no_multiline_whitespace_before_semicolons'   => false, // deprecated
 			'no_null_property_initialization'             => true,
 			'no_php4_constructor'                         => true, // risky
 			'no_short_bool_cast'                          => true,
-			'no_short_echo_tag'                           => false, // deprecated
 			'no_singleline_whitespace_before_semicolons'  => true,
 			'no_spaces_after_function_name'               => true,
 			'no_spaces_around_offset'                     => [
@@ -293,7 +284,6 @@ final class CodeIgniter4 extends AbstractRuleset
 			'php_unit_mock_short_will_return'        => true, // risky
 			'php_unit_namespaced'                    => true, // risky
 			'php_unit_no_expectation_annotation'     => true, // risky
-			'php_unit_ordered_covers'                => false, // deprecated
 			'php_unit_set_up_tear_down_visibility'   => true, // risky
 			'php_unit_size_class'                    => false,
 			'php_unit_strict'                        => true, // risky
@@ -304,7 +294,6 @@ final class CodeIgniter4 extends AbstractRuleset
 			'phpdoc_align'                           => true,
 			'phpdoc_annotation_without_dot'          => true,
 			'phpdoc_indent'                          => true,
-			'phpdoc_inline_tag'                      => false, // deprecated
 			'phpdoc_inline_tag_normalizer'           => true,
 			'phpdoc_line_span'                       => [
 				'const'    => 'single',
@@ -327,6 +316,7 @@ final class CodeIgniter4 extends AbstractRuleset
 			'phpdoc_tag_type'                               => true,
 			'phpdoc_to_comment'                             => true,
 			'phpdoc_to_param_type'                          => false, // risky
+			'phpdoc_to_property_type'                       => false, // risky, for PHP 7.4+
 			'phpdoc_to_return_type'                         => false, // risky
 			'phpdoc_trim'                                   => true,
 			'phpdoc_trim_consecutive_blank_line_separation' => true,
@@ -335,10 +325,7 @@ final class CodeIgniter4 extends AbstractRuleset
 			'phpdoc_var_annotation_correct_order'           => true,
 			'phpdoc_var_without_name'                       => true,
 			'pow_to_exponentiation'                         => true,
-			'pre_increment'                                 => false, // deprecated
 			'protected_to_private'                          => true,
-			'psr0'                                          => false,
-			'psr4'                                          => false, // deprecated
 			'psr_autoloading'                               => ['dir' => null],
 			'random_api_migration'                          => true,
 			'regular_callable_call'                         => true, // risky
@@ -349,7 +336,6 @@ final class CodeIgniter4 extends AbstractRuleset
 			'semicolon_after_instruction'                   => true,
 			'set_type_to_cast'                              => true, // risky
 			'short_scalar_cast'                             => true,
-			'silenced_deprecation_error'                    => false, // deprecated
 			'simple_to_complex_string_variable'             => true,
 			'simplified_if_return'                          => true,
 			'simplified_null_return'                        => false,
@@ -376,11 +362,14 @@ final class CodeIgniter4 extends AbstractRuleset
 			'ternary_operator_spaces'                       => true,
 			'ternary_to_elvis_operator'                     => true, // risky
 			'ternary_to_null_coalescing'                    => true,
-			'trailing_comma_in_multiline_array'             => true,
-			'trim_array_spaces'                             => true,
-			'unary_operator_spaces'                         => true,
-			'use_arrow_functions'                           => false, // risky
-			'visibility_required'                           => [
+			'trailing_comma_in_multiline'                   => [
+				'after_heredoc' => false,
+				'elements'      => ['arrays'],
+			],
+			'trim_array_spaces'     => true,
+			'unary_operator_spaces' => true,
+			'use_arrow_functions'   => false, // risky
+			'visibility_required'   => [
 				'elements' => [
 					'const',
 					'method',
