@@ -104,9 +104,7 @@ The error below is shown if not passed:
 ## Extending Unit Tests
 
 Each language locale in this repository has a corresponding test class located in `tests/Language/` folder.
-These test classes test individually the language sets for its completeness and precision. However, the test
-class `Translations\Tests\AllLocalesTranslationTest` tests **ALL** locales at once. This is used for a
-full-blown testing of all language sets.
+These test classes test individually the language sets for its completeness and precision.
 
 When adding a new locale for translation, the following steps should be followed strictly:
 
@@ -122,8 +120,12 @@ of the new class would be the key and its corresponding locale would be the valu
 should be sorted on the basis of values.
 5. Add the details of new locale in [README](README.md). If the details is originally in
 the [MISSING](MISSING.rst), remove the details from there.
-6. After that, run the unit tests for your new locale:
+6. Run the code style check:
+
+        vendor/bin/php-cs-fixer fix --verbose
+
+7. After that, run the unit tests for your new locale:
 
         vendor/bin/phpunit --filter CanadianFrenchTranslationTest
 
-7. When tests all pass, go create a pull request!
+8. When tests all pass, go create a pull request!
