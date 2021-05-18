@@ -1,0 +1,11 @@
+*.php text eol=lf
+
+# git files
+.gitattributes export-ignore
+.github/ export-ignore
+
+# test files
+tests/ export-ignore
+utils/ export-ignore
+phpunit.xml.dist
+.php-cs-fixer.dist.php
