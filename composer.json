@@ -10,7 +10,7 @@
     },
     "require-dev": {
         "ext-tokenizer": "*",
-        "codeigniter4/codeigniter4": "dev-develop",
+        "codeigniter4/codeigniter4": "4.x-dev",
         "friendsofphp/php-cs-fixer": "^3.0",
         "nexusphp/cs-config": "^3.0",
         "phpunit/phpunit": "^9.4"
@@ -19,6 +19,11 @@
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "4.x-dev"
+        }
     },
     "autoload": {
         "psr-4": {
