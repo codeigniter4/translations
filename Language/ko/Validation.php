@@ -5,18 +5,18 @@
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * For the full copyright and license information, please view
- * the LICENSE file that was distributed with this source code.
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
 // Validation language settings
 return [
 	// Core Messages
-	'noRuleSets'      => 'Validation 설정에서 지정된 규칙 집합이 없습니다.', // 'No rulesets specified in Validation configuration.',
-	'ruleNotFound'    => '{0} 경우는 유효한 규칙이 아닙니다.', // '{0} is not a valid rule.',
-	'groupNotFound'   => '{0} 경우는 유효성 규칙 그룹이 아닙니다.', // '{0} is not a validation rules group.',
-	'groupNotArray'   => '{0} 규칙 그룹은 반드시 배열이어야 합니다.', // '{0} rule group must be an array.',
-	'invalidTemplate' => '{0} 경우는 유효한 Validation 템플릿이 아닙니다.', // '{0} is not a valid Validation template.',
+	'noRuleSets'            => 'Validation 설정에서 지정된 규칙 집합이 없습니다.', // 'No rulesets specified in Validation configuration.',
+	'ruleNotFound'          => '{0} 경우는 유효한 규칙이 아닙니다.', // '{0} is not a valid rule.',
+	'groupNotFound'         => '{0} 경우는 유효성 규칙 그룹이 아닙니다.', // '{0} is not a validation rules group.',
+	'groupNotArray'         => '{0} 규칙 그룹은 반드시 배열이어야 합니다.', // '{0} rule group must be an array.',
+	'invalidTemplate'       => '{0} 경우는 유효한 Validation 템플릿이 아닙니다.', // '{0} is not a valid Validation template.',
 
 	// Rule Messages
 	'alpha'                 => '{field} 필드에는 알파벳 문자만 포함시킬 수 있습니다.', // 'The {field} field may only contain alphabetical characters.',
