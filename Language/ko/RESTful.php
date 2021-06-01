@@ -11,5 +11,5 @@
 
 // RESTful language settings
 return [
-	'notImplemented' => '"{0}" 동작이 구현되지 않았습니다.', // '"{0}" action not implemented.',
+    'notImplemented' => '"{0}" 동작이 구현되지 않았습니다.', // '"{0}" action not implemented.',
 ];
