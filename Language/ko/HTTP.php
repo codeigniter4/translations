@@ -31,11 +31,11 @@ return [
 	'invalidRoute' => '(유효하지 않은 route). 리버스 라우팅을 하는 동안에, 페이지 redirect를 위한 {0} route는 발견되지 않았습니다.', // '{0} route cannot be found while reverse-routing.',
 
 	// DownloadResponse
-	'cannotSetBinary'        => '다운로드 에러: 파일 경로를 설정할 때에 바이너리로 설정할 수 없습니다.', // DownloadResponse.php setBinary() : 바이너리 문자열을 위한 다운로드 설정 실패. // 'When setting filepath can not set binary.',
-	'cannotSetFilepath'      => '다운로드 에러: 바이너리 설정 중에 파일 경로를 설정할 수 없습니다.', // 'When setting binary can not set filepath: {0}',
+	'cannotSetBinary'        => '다운로드 에러: 파일 경로를 설정할 때에 바이너리로 설정할 수 없습니다.', // DownloadResponse.php setBinary() : 바이너리 문자열을 위한 다운로드 설정 실패. // 'When setting filepath cannot set binary.',
+	'cannotSetFilepath'      => '다운로드 에러: 바이너리 설정 시, 파일 경로를 설정할 수 없는 경우: {0}', // 'When setting binary cannot set filepath: {0}',
 	'notFoundDownloadSource' => '다운로드 에러: 다운로드 본문 소스를 찾을 수 없음.', // 'Not found download body source.',
-	'cannotSetCache'         => '다운로드 에러: 다운로드를 위해 지원되는 caching이 아닙니다.', // 'It does not supported caching for downloading.',
-	'cannotSetStatusCode'    => '다운로드 에러: 다운로드를 위해 상태 코드를 변경하는 것을 지원하지 않습니다. code: {0}, reason: {1}', // 'It does not supported change status code for downloading. code: {0}, reason: {1}',
+	'cannotSetCache'         => '다운로드 에러: 다운로드를 위해 지원되는 caching이 아닙니다.', // 'It does not support caching for downloading.',
+	'cannotSetStatusCode'    => '다운로드 에러: 다운로드를 위해 상태 코드를 변경하는 것을 지원하지 않습니다. code: {0}, reason: {1}', // 'It does not support change status code for downloading. code: {0}, reason: {1}',
 
 	// Response
 	'missingResponseStatus' => 'HTTP 응답에 HTTP 상태 코드가 누락되어 있습니다.', // 'HTTP Response is missing a status code',
@@ -44,7 +44,7 @@ return [
 
 	// URI
 	'cannotParseURI'       => '구문 분석을 할 수 없는 URI: {0}', // 'Unable to parse URI: {0}',
-	'segmentOutOfRange'    => '요청한 URL 세그먼트가 범위를 벗어났습니다: {0}', // 'Request URI segment is our of range: {0}',
+	'segmentOutOfRange'    => '요청한 URL 세그먼트가 범위를 벗어났습니다: {0}', // 'Request URI segment is out of range: {0}',
 	'invalidPort'          => '포트 값은 0에서 65535 사이의 값을 사용해야 합니다. 사용된 값: {0}', // 'Ports must be between 0 and 65535. Given: {0}',
 	'malformedQueryString' => 'URI 요청 문자열에 URI fragments가 포함되어 있지 않을 수 있습니다.', // 'Query strings may not include URI fragments.',
 
