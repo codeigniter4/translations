@@ -42,7 +42,7 @@ claims no expertise beyond English.
 | id     | Indonesian           | 4.0.0   | [ridho1991][id]      | Mutasim Ridlo
 | it     | Italian              | 4.0.0   | [luk3b8][it]         | Luca Rasia
 | ja     | Japanese             | 4.0.3   | [kenjis][ja]         | Kenji Suzuki
-| ko     | Korean               | 4.0.2   | [codeigniter-kr][kr] | codeigniter-kr
+| ko     | Korean               | 4.1.2   | [codeigniter-kr][kr] | codeigniter-kr
 | lt     | Lithuanian           | 4.0.2   | [dgvirtual][lt]      | Donatas Glodenis
 | lv     | Latvian              | 4.0.3   | [davislasis][lv]     | Dāvis Lasis
 | ml     | Malayalam            | 4.0.3   | [rakheshthayyur][ml] | Rakhesh Thayyur

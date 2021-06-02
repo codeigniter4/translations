@@ -5,8 +5,8 @@
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
  */
 
 // Number language settings
@@ -18,9 +18,9 @@ return [
 	'bytes'        => 'Bytes',
 
 	// don't forget the space in front of these!
-	'thousand'     => ' 천', // ' thousand',
-	'million'      => ' 백만', // ' million',
-	'billion'      => ' 십억', // ' billion',
-	'trillion'     => ' 조', // ' trillion',
-	'quadrillion'  => ' 천조', // ' quadrillion',
+	'thousand'    => ' 천', // ' thousand',
+	'million'     => ' 백만', // ' million',
+	'billion'     => ' 십억', // ' billion',
+	'trillion'    => ' 조', // ' trillion',
+	'quadrillion' => ' 천조', // ' quadrillion',
 ];
