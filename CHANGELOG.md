@@ -5,8 +5,12 @@ All notable changes to this library will be documented in this file:
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/codeigniter4/translations/compare/v4.1.2...HEAD) - Not released
+## [v4.1.3](https://github.com/codeigniter4/translations/compare/v4.1.2...v4.1.3) - 2021-06-06
 
+### Changed
+
+- ko (Korean)
+- Limit running actions to this repository
 
 ## [v4.1.2](https://github.com/codeigniter4/translations/compare/v4.1.1...v4.1.2) - 2021-05-18
 
