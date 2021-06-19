@@ -431,7 +431,7 @@ abstract class AbstractTranslationTestCase extends TestCase
 	/**
 	 * Gets the set of language files for each location.
 	 *
-	 * @param null|string $locale
+	 * @param string|null $locale
 	 *
 	 * @return array<string, string>
 	 */
