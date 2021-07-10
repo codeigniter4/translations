@@ -17,7 +17,7 @@ return [
     'jsonErrorCtrlChar'      => 'Steuerzeichenfehler, möglicherweise falsch kodiert',
     'jsonErrorDepth'         => 'Die maximale Stacktiefe wurde überschritten',
     'jsonErrorStateMismatch' => 'Unterlauf oder State-Mismatch',
-	'jsonErrorSyntax'        => 'Syntaxfehler, fehlerhaftes JSON',
-	'jsonErrorUtf8'          => 'Ungültiges UTF-8 Zeichen, möglicherweise falsch kodiert',
-	'jsonErrorUnknown'       => 'Unbekannter Fehler',
+    'jsonErrorSyntax'        => 'Syntaxfehler, fehlerhaftes JSON',
+    'jsonErrorUtf8'          => 'Ungültiges UTF-8 Zeichen, möglicherweise falsch kodiert',
+    'jsonErrorUnknown'       => 'Unbekannter Fehler',
 ];
