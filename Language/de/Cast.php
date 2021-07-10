@@ -18,6 +18,6 @@ return [
 	'jsonErrorDepth'         => 'Die maximale Stacktiefe wurde überschritten',
 	'jsonErrorStateMismatch' => 'Unterlauf oder State-Mismatch',
 	'jsonErrorSyntax'        => 'Syntaxfehler, fehlerhaftes JSON',
-	'jsonErrorUtf8'          => 'Ungültiges UTF-8 Zeichen, möglicherweise falsch kodiert',
 	'jsonErrorUnknown'       => 'Unbekannter Fehler',
+	'jsonErrorUtf8'          => 'Ungültiges UTF-8 Zeichen, möglicherweise falsch kodiert',
 ];
