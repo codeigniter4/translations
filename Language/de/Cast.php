@@ -11,10 +11,13 @@
 
 // Cast language settings
 return [
+	'baseCastMissing'        => 'Die Klasse "{0}" muss von der Klasse "CodeIgniter\Entity\Cast\BaseCast" erben.',
+	'invalidCastMethod'      => '"{0}" ist ungültige Cast-Methode, gültige Methoden sind: ["get", "set"].',
+	'invalidTimestamp'       => 'Type-Casting "timestamp" erwartet einen gültigen Timestamp.',
+	'jsonErrorCtrlChar'      => 'Steuerzeichenfehler, möglicherweise falsch kodiert',
 	'jsonErrorDepth'         => 'Die maximale Stacktiefe wurde überschritten',
 	'jsonErrorStateMismatch' => 'Unterlauf oder State-Mismatch',
-	'jsonErrorCtrlChar'      => 'Steuerzeichenfehler, möglicherweise falsch kodiert',
 	'jsonErrorSyntax'        => 'Syntaxfehler, fehlerhaftes JSON',
-	'jsonErrorUtf8'          => 'Ungültiges UTF-8 Zeichen, möglicherweise falsch kodiert',
 	'jsonErrorUnknown'       => 'Unbekannter Fehler',
+	'jsonErrorUtf8'          => 'Ungültiges UTF-8 Zeichen, möglicherweise falsch kodiert',
 ];
