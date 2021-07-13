@@ -9,8 +9,9 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// Fabricator language settings
 return [
-	'invalidLogLevel'    => '{0} 是無效的紀錄層級（log level）。',
-	'invalidMessageType' => '不支援給定的 "{0}" 訊息類型。',
+	'invalidModel'      => '提供了無效的模型給 fabrication 。',
+	'missingFormatters' => '並沒有宣告有效的 formatters 。',
+	'createFailed'      => 'Fabricator 無法在表 {0} 上插入 {1} 。',
 ];
