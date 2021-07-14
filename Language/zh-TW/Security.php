@@ -9,8 +9,10 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// Security language settings
 return [
-	'invalidLogLevel'    => '{0} 是無效的紀錄層級（log level）。',
-	'invalidMessageType' => '不支援給定的 "{0}" 訊息類型。',
+	'disallowedAction' => '您請求了不允許的行動（action）。',
+
+	// @deprecated
+	'invalidSameSite' => 'SameSite 必須設定為 None、Lax、Strict 或是空字串，而數值卻是：{0} 。',
 ];

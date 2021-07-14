@@ -24,7 +24,7 @@ return [
 	'invalidHTTPProtocol' => '無效的HTTP協議版本，其版本只能是下列之一： {0}',
 
 	// Negotiate
-	'emptySupportedNegotiations' => '您必須以陣列的形式，替所有協商（Negotiation）提供支持的值。',
+	'emptySupportedNegotiations' => '您必須以陣列的形式，替所有內容協商（Negotiation）提供支援的數值。',
 
 	// RedirectResponse
 	'invalidRoute' => '執行反向路由（reverse-routing）時找不到 {0} 此路由',
@@ -54,6 +54,7 @@ return [
 	'methodNotFound'     => '找不到控制器中的方法： {0}',
 
 	// CSRF
+	// @deprecated use `Security.disallowedAction`
 	'disallowedAction' => '您請求的操作是不允許的。',
 
 	// Uploaded file moving
@@ -70,4 +71,8 @@ return [
 	'uploadErrNoTmpDir'  => '無法上傳檔案：缺少暫存資料夾',
 	'uploadErrExtension' => '檔案上傳被停止，因為被PHP擴充元件停止。',
 	'uploadErrUnknown'   => '檔案 "%s" 因為未知的錯誤上傳失敗。',
+
+	// SameSite setting
+	// @deprecated
+	'invalidSameSiteSetting' => 'SameSite 必須設定為 None、Lax、Strict 或是空字串，而數值卻是：{0} 。',
 ];
