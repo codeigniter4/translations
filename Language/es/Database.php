@@ -12,7 +12,7 @@
 // Database language settings
 return [
 	'invalidEvent'                     => '{0} no es una llamada válida a un Evento de Modelo.', // '{0} is not a valid Model Event callback.',
-	'invalidArgument'                  => 'Debes proporcionar un {0} valido.', // 'You must provide a valid {0}.',
+	'invalidArgument'                  => 'Debes proporcionar un {0} válido.', // 'You must provide a valid {0}.',
 	'invalidAllowedFields'             => 'Los campos permitidos deben especificarse para el modelo: {0}', // 'Allowed fields must be specified for model: {0}',
 	'emptyDataset'                     => 'No hay datos para {0}', // 'There is no data to {0}.',
 	'failGetFieldData'                 => 'No se pudieron obtener datos del campo de la base de datos.', // 'Failed to get field data from database.',
