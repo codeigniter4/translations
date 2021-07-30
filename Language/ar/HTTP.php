@@ -58,7 +58,7 @@ return [
 
 	// Uploaded file moving
 	'alreadyMoved' => 'الملف المرفوع تم نقلة بالفعل.',
-	'invalidFile'  => 'الملف الأصل ليس ملفا صالح.',
+	'invalidFile'  => 'الملف الأصلي ليس ملفا صالح.',
 	'moveFailed'   => 'فشل في نقل الملف من {0} إلى {1} ({2})',
 
 	'uploadErrOk'        => 'تم تحميل الملف بنجاح.',
@@ -70,4 +70,8 @@ return [
 	'uploadErrNoTmpDir'  => 'تعذر تحميل الملف: مفقود دليل مؤقت.',
 	'uploadErrExtension' => 'تم إيقاف تحميل الملف بواسطة امتداد PHP.',
 	'uploadErrUnknown'   => 'لم يتم تحميل الملف "٪ s" بسبب خطأ غير معروف.',
+
+	// SameSite setting
+	// @deprecated
+	'invalidSameSiteSetting' => 'يجب أن يحتوي إعداد SameSite على إحدى القيم التالية: ["None", "Lax", "Strict"] أو نص فارغ. القيمة التي تم وضعها هي {0}.'
 ];
