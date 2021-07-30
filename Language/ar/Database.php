@@ -11,7 +11,7 @@
 
 // Database language settings
 return [
-	'invalidEvent'         => 'القيمة {0} ليست حدث يمكن استدعاة.',
+	'invalidEvent'         => 'القيمة {0} ليست حدث يمكن استدعائه.',
 	'invalidArgument'      => 'يجب ارسال قيمة صالحة {0}.',
 	'invalidAllowedFields' => 'يجب تحديد الحقول المسموح بها في نموذج البيانات: {0}',
 	'emptyDataset'         => 'لا يوجد بيانات في {0}.',
