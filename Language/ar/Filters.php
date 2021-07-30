@@ -12,5 +12,5 @@
 // Filters language settings
 return [
 	'noFilter'           => 'الفلتر \'{0}\' يجب أن يكون له إسم مستعار معرف.',
-	'incorrectInterface' => '{0} يجب أن يكون معتمد على CodeIgniter\Filters\FilterInterface.',
+	'incorrectInterface' => 'يجب على {0} أن ينفذ الواجهة CodeIgniter\Filters\FilterInterface.',
 ];

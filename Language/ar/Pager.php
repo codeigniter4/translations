@@ -17,7 +17,7 @@ return [
 	'next'                   => 'التالي',
 	'last'                   => 'الأخيرة',
 	'older'                  => 'الأقدم',
-	'newer'                  => 'الأجد',
-	'invalidTemplate'        => '{0} ليس قال صفحات صحيح.',
-	'invalidPaginationGroup' => '{0} ليس مجموعة صفحات صحيح.',
+	'newer'                  => 'الأحدث',
+	'invalidTemplate'        => '{0} ليس قالب صفحات صحيح.',
+	'invalidPaginationGroup' => '{0} ليست مجموعة صفحات صحيحة.',
 ];
