@@ -13,7 +13,7 @@
 return [
     'baseCastMissing'        => 'คลาส "{0}" จะต้องสืบทอดคุณสมบัติจากคลาส "CodeIgniter\Entity\Cast\BaseCast"',
     'invalidCastMethod'      => 'แคสต์เมธอด "{0}" ไม่ถูกต้อง เมธอดที่ถูกต้องคือ: ["get", "set"]',
-    'invalidTimestamp'       => 'การแคสต์ข้อมูลประเภท "timestamp" จะต้องใช้ค่า timestamp ที่ถูกต้อง',
+    'invalidTimestamp'       => 'การแปลงข้อมูลประเภท "timestamp" จะต้องใช้ค่า timestamp ที่ถูกต้อง',
     'jsonErrorCtrlChar'      => 'พบอักขระควบคุมที่ไม่ถูกต้อง',
     'jsonErrorDepth'         => 'เกินความลึกสูงสุดของ stack',
     'jsonErrorStateMismatch' => 'จำนวนโหมดน้อยเกินไปหรือโหมดไม่ตรงกัน',
