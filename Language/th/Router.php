@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of CodeIgniter 4 framework.
+ * This file is part of the CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Router language settings
 return [
-    'invalidParameter'    => 'พารามิเตอร์ไม่ตรงกับประเภทที่คาดไว้',
-    'missingDefaultRoute' => 'ไม่สามารถระบุได้ว่าควรแสดงอะไร ไม่ได้ระบุเส้นทางเริ่มต้นในไฟล์เส้นทาง',
+	'invalidParameter'    => 'พารามิเตอร์ไม่ตรงกับประเภทที่คาดไว้',
+	'missingDefaultRoute' => 'ไม่สามารถระบุได้ว่าควรแสดงอะไร ไม่ได้ระบุเส้นทางเริ่มต้นในไฟล์เส้นทาง',
 ];

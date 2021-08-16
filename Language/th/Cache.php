@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of CodeIgniter 4 framework.
+ * This file is part of the CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Cache language settings
 return [
-    'unableToWrite'   => 'ไม่สามารถเขียนแคชไปยัง {0}',
-    'invalidHandlers' => 'การกำหนดค่าแคชจะต้องมีอาร์เรย์ของ $validHandlers อยู่ด้วย',
-    'noBackup'        => 'การกำหนดค่าแคชจะต้อมีการกำหนด handler และ backupHandler',
-    'handlerNotFound' => 'การกำหนดค่าแคชจะต้องมีตัวรับ (handler) ที่ถูกต้องหรือมีการระบุตัวรับสำรอง(backup handler)',
+	'unableToWrite'   => 'ไม่สามารถเขียนแคชไปยัง {0}',
+	'invalidHandlers' => 'การกำหนดค่าแคชจะต้องมีอาร์เรย์ของ $validHandlers อยู่ด้วย',
+	'noBackup'        => 'การกำหนดค่าแคชจะต้อมีการกำหนด handler และ backupHandler',
+	'handlerNotFound' => 'การกำหนดค่าแคชจะต้องมีตัวรับ (handler) ที่ถูกต้องหรือมีการระบุตัวรับสำรอง(backup handler)',
 ];
