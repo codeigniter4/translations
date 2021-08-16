@@ -55,6 +55,7 @@ claims no expertise beyond English.
 | si     | Sinhala              | 4.0.3   | [npwsamarasinghe][si]| Nalaka Prasad
 | sk     | Slovak               | 4.0.0   | [xbotkaj][sk]        | Jozef Botka
 | sv-SE  | Swedish - Sweden     | 4.0.3   | [tangix][sv-SE]      | Mattias Sandström
+| th     | Thai                 | 4.0.3   | [karidoe][th]        | Anuchit Thiamuan
 | tr     | Turkish              | 4.0.0   | [obozdag][tr]        | obozdag
 | uk     | Ukrainian            | 4.0.3   | [flybot][uk]         | Serhii Kosyi
 | vi     | Vietnamese           | 4.0.3   | [xuandung38][vi]     | XuanDung38
@@ -85,6 +86,7 @@ _**Version where the locale was released. 4.x denotes `Unreleased`._
 [si]: https://github.com/npwsamarasinghe
 [sk]: https://github.com/xbotkaj
 [sv-SE]: https://github.com/tangix
+[th]: https://github.com/karidoe
 [tr]: https://github.com/obozdag
 [uk]: https://github.com/flybot
 [vi]: https://github.com/xuandung38

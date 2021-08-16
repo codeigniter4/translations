@@ -23,7 +23,6 @@ ro        Romanian              CodefishRo         Cristian Robert Chiribuc
 sr        Serbian               novakurosevic      Novak Urosevic ???
 sl        Slovenian             andrejflorjancic   Andrej Florjančič
 ta        Tamil                 karthik-code       Karthikeyan
-th        Thai                  karidoe            Anuchit Thiamuan
 ur        Urdu                  codeonion          Muhammad Ali
 ========  ====================  =================  =========================
 
