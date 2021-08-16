@@ -60,12 +60,12 @@ abstract class AbstractTranslationTestCase extends TestCase
 		SinhalaTranslationTest::class            => 'si',
 		SlovakTranslationTest::class             => 'sk',
 		SwedishTranslationTest::class            => 'sv-SE',
+		ThaiTranslationTest::class               => 'th',
 		TurkishTranslationTest::class            => 'tr',
 		UkrainianTranslationTest::class          => 'uk',
 		VietnameseTranslationTest::class         => 'vi',
 		SimpleChineseTranslationTest::class      => 'zh-CN',
 		TraditionalChineseTranslationTest::class => 'zh-TW',
-		ThaiTranslationsTest::class              => 'th',
 	];
 
 	/**
