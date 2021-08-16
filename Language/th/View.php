@@ -18,4 +18,3 @@ return [
 	'invalidCellClass'      => 'ไม่พบคลาสเซลล์วิว: {0}',
 	'tagSyntaxError'        => 'คุณมีข้อผิดพลาดทางไวยากรณ์ในแท็ก Parser ของคุณ: {0}',
 ];
-
