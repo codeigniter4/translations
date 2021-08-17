@@ -31,6 +31,8 @@ return [
 	'migCreate'       => "\tCrea una nueva migración llamada [name]",
 	'nameMigration'   => 'Nombre el archivo de migración',
 	'migNumberError'  => 'El número de migración debe tener tres dígitos y no debe haber espacios en la secuencia.',
+	'rollBackConfirm'   => 'Are you sure you want to rollback?',
+	'refreshConfirm'    => 'Are you sure you want to refresh?',
 
 	'latest'            => 'Migrando a la última versión...',
 	'generalFault'      => '¡La migración falló!',
@@ -39,12 +41,17 @@ return [
 	'toVersion'         => 'Migrando a la versión actual...',
 	'rollingBack'       => 'Deshaciendo todas las migraciones...',
 	'noneFound'         => 'No se han encontrado migraciones.',
-	'on'                => 'Migrado en: ',
 	'migSeeder'         => 'Nombre de semilla',
 	'migMissingSeeder'  => 'Debe indicar un nombre de semilla.',
+	'nameSeeder'        => 'Nombra el archivo de la sembradora', // 'Name the seeder file',
 	'removed'           => 'Desinstalando: ',
 	'added'             => 'Ejecutando: ',
 
-	'version'  => 'Versión',
-	'filename' => 'Nombre de archivo',
+	// Migrate Status
+	'namespace'         => 'Espacio de nombres',
+	'filename'          => 'Nombre de archivo',
+	'version'           => 'Versión',
+	'group'             => 'Grupo',
+	'on'                => 'Migrado el: ',
+	'batch'             => 'Lote',
 ];

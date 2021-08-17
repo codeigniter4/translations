@@ -15,6 +15,7 @@ return [
 	'invalidArgument'                  => 'Debes proporcionar un {0} válido.', // 'You must provide a valid {0}.',
 	'invalidAllowedFields'             => 'Los campos permitidos deben especificarse para el modelo: {0}', // 'Allowed fields must be specified for model: {0}',
 	'emptyDataset'                     => 'No hay datos para {0}', // 'There is no data to {0}.',
+	'emptyPrimaryKey'                  => 'No hay una clave principal definida al intentar hacer {0}', // 'There is no primary key defined when trying to make {0}.',
 	'failGetFieldData'                 => 'No se pudieron obtener datos del campo de la base de datos.', // 'Failed to get field data from database.',
 	'failGetIndexData'                 => 'No se pudieron obtener datos de índice de la base de datos.', // 'Failed to get index data from database.',
 	'failGetForeignKeyData'            => 'No se pudieron obtener datos de clave externa de la base de datos.', // 'Failed to get foreign key data from database.',

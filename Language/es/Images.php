@@ -17,6 +17,8 @@ return [
 	'gifNotSupported'        => 'Las imágnes GIF no suelen ser soportadas por restricciones de licencia. Puede utilizar imágenes JPG o PNG en su lugar.',
 	'jpgNotSupported'        => 'No se soportan imágenes JPG.',
 	'pngNotSupported'        => 'No se soportan imágenes PNG.',
+	'webpNotSupported'       => 'No se soportan imágenes WEBP.',
+	'fileNotSupported'       => 'El archivo proporcionado no es un tipo de imagen compatible.', // 'The supplied file is not a supported image type.',
 	'unsupportedImageCreate' => 'Su servidor no soporta la función GD necesaria para procesar este tipo de imagen.',
 	'jpgOrPngRequired'       => 'El protocolo de escalado especificado en sus preferencias solo funciona con imágenes JPEG o PNG.',
 	'rotateUnsupported'      => 'La rotación de imágenes no parece estar soportada por su servidor.',
