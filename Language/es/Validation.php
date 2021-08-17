@@ -66,7 +66,7 @@ return [
 	'uploaded'              => '{field} no es un campo de subida de archivo válido.',
 	'max_size'              => '{field} es demasiado grande para un archivo.',
 	'is_image'              => '{field} no es válido, subido archivo de imagen.',
-	'mime_in'  				=> '{field} no tiene un tipo válido de mime.',
-	'ext_in'   				=> '{field} no tiene una extensión de archivo válida.',
-	'max_dims' 				=> '{field} no es una imagen o tiene demasiado alto o ancho.',
+	'mime_in'               => '{field} no tiene un tipo válido de mime.',
+	'ext_in'                => '{field} no tiene una extensión de archivo válida.',
+	'max_dims'              => '{field} no es una imagen o tiene demasiado alto o ancho.',
 ];
