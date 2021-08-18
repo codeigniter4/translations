@@ -12,11 +12,11 @@
 // Validation language settings
 return [
 	// Core Messages
-	'noRuleSets'            => 'No se han establecido reglas en la configuración de validación.',
-	'ruleNotFound'          => '{0} no es una regla de validación válida.',
-	'groupNotFound'         => '{0} no es un grupo de reglas de validación.',
-	'groupNotArray'         => '{0} el grupo de validación debe ser un array.',
-	'invalidTemplate'       => '{0} no es un modelo de validación válido.',
+	'noRuleSets'      => 'No se han establecido reglas en la configuración de validación.',
+	'ruleNotFound'    => '{0} no es una regla de validación válida.',
+	'groupNotFound'   => '{0} no es un grupo de reglas de validación.',
+	'groupNotArray'   => '{0} el grupo de validación debe ser un array.',
+	'invalidTemplate' => '{0} no es un modelo de validación válido.',
 
 	// Rule Messages
 	'alpha'                 => 'El campo {field} solo puede contener caracteres alfabéticos.',
@@ -60,13 +60,13 @@ return [
 	'valid_date'            => 'El campo {field} debe contener una fecha válida.',
 
 	// Credit Cards
-	'valid_cc_num'          => '{field} no parece ser un número de tarjeta de crédito válida.',
+	'valid_cc_num' => '{field} no parece ser un número de tarjeta de crédito válida.',
 
 	// Files
-	'uploaded'              => '{field} no es un campo de subida de archivo válido.',
-	'max_size'              => '{field} es demasiado grande para un archivo.',
-	'is_image'              => '{field} no es válido, subido archivo de imagen.',
-	'mime_in'               => '{field} no tiene un tipo válido de mime.',
-	'ext_in'                => '{field} no tiene una extensión de archivo válida.',
-	'max_dims'              => '{field} no es una imagen o tiene demasiado alto o ancho.',
+	'uploaded' => '{field} no es un campo de subida de archivo válido.',
+	'max_size' => '{field} es demasiado grande para un archivo.',
+	'is_image' => '{field} no es válido, subido archivo de imagen.',
+	'mime_in'  => '{field} no tiene un tipo válido de mime.',
+	'ext_in'   => '{field} no tiene una extensión de archivo válida.',
+	'max_dims' => '{field} no es una imagen o tiene demasiado alto o ancho.',
 ];

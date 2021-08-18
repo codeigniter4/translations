@@ -11,12 +11,12 @@
 
 // CLI language settings
 return [
-	'altCommandPlural'    => '¿Te refieres a uno de estos?', // Did you mean one of these?',
-	'altCommandSingular'  => '¿Te refieres a esto?', // 'Did you mean this?',
-	'commandNotFound'     => 'Comando "{0}" no encontrado.', // 'Command "{0}" not found.',
-	'generator'           => [
-		'cancelOperation'  => 'La operación ha sido cancelada.', // 'Operation has been cancelled.',
-		'className'        => [
+	'altCommandPlural'   => '¿Te refieres a uno de estos?', // Did you mean one of these?',
+	'altCommandSingular' => '¿Te refieres a esto?', // 'Did you mean this?',
+	'commandNotFound'    => 'Comando "{0}" no encontrado.', // 'Command "{0}" not found.',
+	'generator'          => [
+		'cancelOperation' => 'La operación ha sido cancelada.', // 'Operation has been cancelled.',
+		'className'       => [
 			'command'    => 'Nombre de la clase Command', // 'Command class name',
 			'config'     => 'Nombre de la clase Config', // 'Config class name',
 			'controller' => 'Nombre de la clase Controller', // 'Controller class name',
@@ -42,7 +42,7 @@ return [
 	'helpArguments'       => 'Argumentos:', // 'Arguments:',
 	'helpDescription'     => 'Descripción:', // 'Description:',
 	'helpOptions'         => 'Opciones:', // 'Options:',
-	'helpUsage'           => 'Uso:', // 'Usage:',	
+	'helpUsage'           => 'Uso:', // 'Usage:',
 	'invalidColor'        => 'Inválido {0} color: {1}.', // 'Invalid {0} color: {1}.',
 	'namespaceNotDefined' => 'El espacio de nombres "{0}" no está definido', // 'Namespace "{0}" is not defined.',
 ];
