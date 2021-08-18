@@ -62,7 +62,7 @@ return [
 	'moveFailed'   => 'No se pudo mover el archivo {0} a {1} ({2})', // 'Could not move file {0} to {1} ({2})',
 
 	'uploadErrOk'        => 'Archivo cargado con éxito.', // 'The file uploaded with success.',
-	'uploadErrIniSize'   => 'El archivo "%s" excede la directiva inic upload_max_filesize.', // 'The file "%s" exceeds your upload_max_filesize ini directive.',
+	'uploadErrIniSize'   => 'El archivo "%s" excede la directiva ini upload_max_filesize.', // 'The file "%s" exceeds your upload_max_filesize ini directive.',
 	'uploadErrFormSize'  => 'El archivo "%s" excede el límite de carga definido en su formulario.', // 'The file "%s" exceeds the upload limit defined in your form.',
 	'uploadErrPartial'   => 'El archivo "%s" solo se cargó parcialmente.', // 'The file "%s" was only partially uploaded.',
 	'uploadErrNoFile'    => 'Ningún archivo fue cargado.', // 'No file was uploaded.',
@@ -70,4 +70,8 @@ return [
 	'uploadErrNoTmpDir'  => 'El archivo no se pudo cargar: falta el directorio temporal.', // 'File could not be uploaded: missing temporary directory.',
 	'uploadErrExtension' => 'La carga de archivos fue detenida por una extensión PHP.', // 'File upload was stopped by a PHP extension.',
 	'uploadErrUnknown'   => 'El archivo "%s" no se cargó debido a un error desconocido.', //'The file "%s" was not uploaded due to an unknown error.',
+
+	// SameSite setting
+	// @deprecated
+	'invalidSameSiteSetting' => 'La configuración de SameSite debe ser None, Lax, Strict o una cadena en blanco. Dado: {0}', //'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];
