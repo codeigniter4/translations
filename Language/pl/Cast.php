@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,10 +11,10 @@
 
 // Cast language settings
 return [
-	'jsonErrorDepth'         => 'Przekroczono maksymalną głębokość stosu',
-	'jsonErrorStateMismatch' => 'Niedopełnienie lub niedopasowanie trybów',
-	'jsonErrorCtrlChar'      => 'Znaleziono nieoczekiwany znak kontrolny',
-	'jsonErrorSyntax'        => 'Błąd składniowy, źle sformułowany JSON',
-	'jsonErrorUtf8'          => 'Zniekształcone znaki UTF-8, prawdopodobnie niepoprawnie zakodowane',
-	'jsonErrorUnknown'       => 'Nieznany błąd',
+    'jsonErrorDepth'         => 'Przekroczono maksymalną głębokość stosu',
+    'jsonErrorStateMismatch' => 'Niedopełnienie lub niedopasowanie trybów',
+    'jsonErrorCtrlChar'      => 'Znaleziono nieoczekiwany znak kontrolny',
+    'jsonErrorSyntax'        => 'Błąd składniowy, źle sformułowany JSON',
+    'jsonErrorUtf8'          => 'Zniekształcone znaki UTF-8, prawdopodobnie niepoprawnie zakodowane',
+    'jsonErrorUnknown'       => 'Nieznany błąd',
 ];

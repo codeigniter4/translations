@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,13 +11,13 @@
 
 // Pager language settings
 return [
-	'pageNavigation'         => 'Pagina navigatie',
-	'first'                  => 'Eerste',
-	'previous'               => 'Vorige',
-	'next'                   => 'Volgende',
-	'last'                   => 'Laatste',
-	'older'                  => 'Ouder',
-	'newer'                  => 'Nieuwer',
-	'invalidTemplate'        => '{0} is geen geldig Pager template.',
-	'invalidPaginationGroup' => '{0} is geen geldige Pagination group.',
+    'pageNavigation'         => 'Pagina navigatie',
+    'first'                  => 'Eerste',
+    'previous'               => 'Vorige',
+    'next'                   => 'Volgende',
+    'last'                   => 'Laatste',
+    'older'                  => 'Ouder',
+    'newer'                  => 'Nieuwer',
+    'invalidTemplate'        => '{0} is geen geldig Pager template.',
+    'invalidPaginationGroup' => '{0} is geen geldige Pagination group.',
 ];

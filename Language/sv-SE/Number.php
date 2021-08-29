@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -10,16 +10,16 @@
  */
 
 return [
-	'terabyteAbbr' => 'TB',
-	'gigabyteAbbr' => 'GB',
-	'megabyteAbbr' => 'MB',
-	'kilobyteAbbr' => 'KB',
-	'bytes'        => 'Bytes',
+    'terabyteAbbr' => 'TB',
+    'gigabyteAbbr' => 'GB',
+    'megabyteAbbr' => 'MB',
+    'kilobyteAbbr' => 'KB',
+    'bytes'        => 'Bytes',
 
-	// don't forget the space in front of these!
-	'thousand'    => ' tusen',
-	'million'     => ' miljoner',
-	'billion'     => ' miljarder',
-	'trillion'    => ' biljon',
-	'quadrillion' => ' biljard',
+    // don't forget the space in front of these!
+    'thousand'    => ' tusen',
+    'million'     => ' miljoner',
+    'billion'     => ' miljarder',
+    'trillion'    => ' biljon',
+    'quadrillion' => ' biljard',
 ];

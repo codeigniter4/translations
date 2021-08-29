@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Security language settings
 return [
-	'disallowedAction' => 'Tindakan yang Anda minta tidak diperbolehkan.',
-	'invalidSameSite'  => 'Nilai SameSite harus None, Lax, Strict, atau string kosong. Diberikan: {0}',
+    'disallowedAction' => 'Tindakan yang Anda minta tidak diperbolehkan.',
+    'invalidSameSite'  => 'Nilai SameSite harus None, Lax, Strict, atau string kosong. Diberikan: {0}',
 ];

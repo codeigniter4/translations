@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,7 +11,7 @@
 
 // Fabricator language settings
 return [
-	'invalidModel'      => '提供了無效的模型給 fabrication 。',
-	'missingFormatters' => '並沒有宣告有效的 formatters 。',
-	'createFailed'      => 'Fabricator 無法在表 {0} 上插入 {1} 。',
+    'invalidModel'      => '提供了無效的模型給 fabrication 。',
+    'missingFormatters' => '並沒有宣告有效的 formatters 。',
+    'createFailed'      => 'Fabricator 無法在表 {0} 上插入 {1} 。',
 ];

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,10 +11,10 @@
 
 // View language settings
 return [
-	'invalidCellMethod'     => '{class}::{method} is geen geldige methode.',
-	'missingCellParameters' => '{class}::{method} heeft geen methode.',
-	'invalidCellParameter'  => '{0} is geen geldige parameter naam.',
-	'noCellClass'           => 'Geen view cell class opgegeven.',
-	'invalidCellClass'      => 'Kon view cell class niet vinden: {0}.',
-	'tagSyntaxError'        => 'Syntax fout in uw Parser tags: {0}',
+    'invalidCellMethod'     => '{class}::{method} is geen geldige methode.',
+    'missingCellParameters' => '{class}::{method} heeft geen methode.',
+    'invalidCellParameter'  => '{0} is geen geldige parameter naam.',
+    'noCellClass'           => 'Geen view cell class opgegeven.',
+    'invalidCellClass'      => 'Kon view cell class niet vinden: {0}.',
+    'tagSyntaxError'        => 'Syntax fout in uw Parser tags: {0}',
 ];

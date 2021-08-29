@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,13 +11,13 @@
 
 // Migration language settings
 return [
-	// Migration Runner
-	'missingTable' => 'جدول مایگریشن تنظیم نشده است.',
-	//   'invalidType'       => 'یک نوع شماره گذاری نامعتبر برای مایگریشن مشخص شده است: {0}',
-	'disabled'      => 'مایگریشن‌ها لارگزاری شده‌اند، اما غیرفعالند یا درست تنظیم نشده اند.',
-	'notFound'      => 'فایل مایگریشن پیدا نشد: ',
-	'empty'         => 'هیچ فایل مایگریشنی پیدا نشد.',
-	'gap'           => 'فاصله ای در دنباله‌ی مایگریشن در نزدیک این ورژن وجود دارد: ',
-	'classNotFound' => 'کلاس مایگریشن "%s" پیدا نشد.',
-	'missingMethod' => 'کلاس مایگریشن متد "%s" را ندارد.',
+    // Migration Runner
+    'missingTable' => 'جدول مایگریشن تنظیم نشده است.',
+    //   'invalidType'       => 'یک نوع شماره گذاری نامعتبر برای مایگریشن مشخص شده است: {0}',
+    'disabled'      => 'مایگریشن‌ها لارگزاری شده‌اند، اما غیرفعالند یا درست تنظیم نشده اند.',
+    'notFound'      => 'فایل مایگریشن پیدا نشد: ',
+    'empty'         => 'هیچ فایل مایگریشنی پیدا نشد.',
+    'gap'           => 'فاصله ای در دنباله‌ی مایگریشن در نزدیک این ورژن وجود دارد: ',
+    'classNotFound' => 'کلاس مایگریشن "%s" پیدا نشد.',
+    'missingMethod' => 'کلاس مایگریشن متد "%s" را ندارد.',
 ];

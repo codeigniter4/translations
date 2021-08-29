@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Format language settings
 return [
-	'invalidJSON'      => 'Nepavyko nuskaityti json eilutės, klaida: „{0}“.',
-	'missingExtension' => 'XML formatavimui reikalingas SimpleXML praplėtimas.',
+    'invalidJSON'      => 'Nepavyko nuskaityti json eilutės, klaida: „{0}“.',
+    'missingExtension' => 'XML formatavimui reikalingas SimpleXML praplėtimas.',
 ];

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,5 +11,5 @@
 
 // RESTful language settings
 return [
-	'notImplemented' => '"{0}" akce nebyla implementována.',
+    'notImplemented' => '"{0}" akce nebyla implementována.',
 ];

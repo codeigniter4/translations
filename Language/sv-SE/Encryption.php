@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -10,10 +10,10 @@
  */
 
 return [
-	'noDriverRequested'    => 'Ingen driver angiven.',
-	'noHandlerAvailable'   => 'Kunde inte hitta någon tillgänglig {0} krypteringshanterare.',
-	'unKnownHandler'       => '"{0}" kan inte konfigureras.',
-	'starterKeyNeeded'     => 'Krypterigen kräver en initieringsnyckel.',
-	'authenticationFailed' => 'Dekryptering: autentiseringen misslyckades.',
-	'encryptionFailed'     => 'Krypteringen misslyckades.',
+    'noDriverRequested'    => 'Ingen driver angiven.',
+    'noHandlerAvailable'   => 'Kunde inte hitta någon tillgänglig {0} krypteringshanterare.',
+    'unKnownHandler'       => '"{0}" kan inte konfigureras.',
+    'starterKeyNeeded'     => 'Krypterigen kräver en initieringsnyckel.',
+    'authenticationFailed' => 'Dekryptering: autentiseringen misslyckades.',
+    'encryptionFailed'     => 'Krypteringen misslyckades.',
 ];

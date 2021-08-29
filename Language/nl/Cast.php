@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,10 +11,10 @@
 
 // Cast language settings
 return [
-	'jsonErrorDepth'         => 'Maximale stack diepte overschreden',
-	'jsonErrorStateMismatch' => 'Underflow of de modus komen niet overeen',
-	'jsonErrorCtrlChar'      => 'ONverwacht controle karakter gevonden',
-	'jsonErrorSyntax'        => 'Syntax fout, foutieve JSON',
-	'jsonErrorUtf8'          => 'Foutieve UTF-8 karakters, mogelijk foutieve encoding',
-	'jsonErrorUnknown'       => 'Ongekende fout',
+    'jsonErrorDepth'         => 'Maximale stack diepte overschreden',
+    'jsonErrorStateMismatch' => 'Underflow of de modus komen niet overeen',
+    'jsonErrorCtrlChar'      => 'ONverwacht controle karakter gevonden',
+    'jsonErrorSyntax'        => 'Syntax fout, foutieve JSON',
+    'jsonErrorUtf8'          => 'Foutieve UTF-8 karakters, mogelijk foutieve encoding',
+    'jsonErrorUnknown'       => 'Ongekende fout',
 ];

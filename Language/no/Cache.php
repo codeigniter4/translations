@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,7 +11,7 @@
 
 // Cache language settings
 return [
-	'invalidHandlers' => '$validHandlers må inneholde en matrise for hurtigbufferkonfigurasjon.',
-	'noBackup'        => 'Cache-konfigurasjonen må ha en behandler og en backup-håndterer.',
-	'handlerNotFound' => 'Cache-konfigurasjonen spesifiserer en ugyldig behandler eller backup-håndterer.',
+    'invalidHandlers' => '$validHandlers må inneholde en matrise for hurtigbufferkonfigurasjon.',
+    'noBackup'        => 'Cache-konfigurasjonen må ha en behandler og en backup-håndterer.',
+    'handlerNotFound' => 'Cache-konfigurasjonen spesifiserer en ugyldig behandler eller backup-håndterer.',
 ];

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Router language settings
 return [
-	'invalidParameter'    => 'Параметр не відповідає очікуваному типу.',
-	'missingDefaultRoute' => 'Неможливо визначити, що слід відображати. Маршрут за замовчуванням не вказаний у файлі маршрутизації.',
+    'invalidParameter'    => 'Параметр не відповідає очікуваному типу.',
+    'missingDefaultRoute' => 'Неможливо визначити, що слід відображати. Маршрут за замовчуванням не вказаний у файлі маршрутизації.',
 ];

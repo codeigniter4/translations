@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Format language settings
 return [
-	'invalidJSON'      => 'Không thể phân tích chuỗi json, lỗi: "{0}".',
-	'missingExtension' => 'Phần mở rộng SimpleXML là bắt buộc để định dạng XML.',
+    'invalidJSON'      => 'Không thể phân tích chuỗi json, lỗi: "{0}".',
+    'missingExtension' => 'Phần mở rộng SimpleXML là bắt buộc để định dạng XML.',
 ];

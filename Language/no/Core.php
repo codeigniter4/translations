@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Core language settings
 return [
-	'copyError'        => 'Det oppstod en feil under forsøket på å erstatte filen. Forsikre deg om at katalogen er skrivbar.',
-	'invalidFile'      => 'Ugyldig fil: {0}',
-	'missingExtension' => 'Utvidelsen {0} kunne ikke lastes.',
-	'noHandlers'       => '{0} må tilby minst en behandler.',
+    'copyError'        => 'Det oppstod en feil under forsøket på å erstatte filen. Forsikre deg om at katalogen er skrivbar.',
+    'invalidFile'      => 'Ugyldig fil: {0}',
+    'missingExtension' => 'Utvidelsen {0} kunne ikke lastes.',
+    'noHandlers'       => '{0} må tilby minst en behandler.',
 ];

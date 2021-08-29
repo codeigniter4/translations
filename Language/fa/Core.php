@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Core language settings
 return [
-	'copyError'        => 'مشکلی در هنگام جایگزینی فایل بوجود آمده است. لطفا اطمینان حاصل کنید که شاخه‌ی فایل قابل نوشتن است.',
-	'invalidFile'      => 'فایل نامعتبر: {0}',
-	'missingExtension' => 'افزونه‌ی {0} بارگزاری نشده است.',
-	'noHandlers'       => '{0} باید حداقل یک Handler داشته باشد.',
+    'copyError'        => 'مشکلی در هنگام جایگزینی فایل بوجود آمده است. لطفا اطمینان حاصل کنید که شاخه‌ی فایل قابل نوشتن است.',
+    'invalidFile'      => 'فایل نامعتبر: {0}',
+    'missingExtension' => 'افزونه‌ی {0} بارگزاری نشده است.',
+    'noHandlers'       => '{0} باید حداقل یک Handler داشته باشد.',
 ];

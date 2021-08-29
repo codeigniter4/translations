@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -10,13 +10,13 @@
  */
 
 return [
-	'pageNavigation'         => 'Sidnavigering',
-	'first'                  => 'Första',
-	'previous'               => 'Föregående',
-	'next'                   => 'Nästa',
-	'last'                   => 'Sista',
-	'older'                  => 'Äldre',
-	'newer'                  => 'Nyare',
-	'invalidTemplate'        => '{0} är inte en giltig Pager template.',
-	'invalidPaginationGroup' => '{0} är inte en giltig Pagination group.',
+    'pageNavigation'         => 'Sidnavigering',
+    'first'                  => 'Första',
+    'previous'               => 'Föregående',
+    'next'                   => 'Nästa',
+    'last'                   => 'Sista',
+    'older'                  => 'Äldre',
+    'newer'                  => 'Nyare',
+    'invalidTemplate'        => '{0} är inte en giltig Pager template.',
+    'invalidPaginationGroup' => '{0} är inte en giltig Pagination group.',
 ];

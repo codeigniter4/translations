@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,9 +11,9 @@
 
 // Cast language settings
 return [
-	'jsonErrorDepth'    => 'Vượt quá độ sâu xếp chồng tối đa.',
-	'jsonErrorCtrlChar' => 'Tìm thấy ký tự kiểm soát không mong muốn',
-	'jsonErrorSyntax'   => 'Lỗi cú pháp, lỗi định dạng JSON.',
-	'jsonErrorUtf8'     => 'Các ký tự UTF-8 không đúng định dạng, có thể được mã hóa không chính xác',
-	'jsonErrorUnknown'  => 'Không thể nhận biết lỗi',
+    'jsonErrorDepth'    => 'Vượt quá độ sâu xếp chồng tối đa.',
+    'jsonErrorCtrlChar' => 'Tìm thấy ký tự kiểm soát không mong muốn',
+    'jsonErrorSyntax'   => 'Lỗi cú pháp, lỗi định dạng JSON.',
+    'jsonErrorUtf8'     => 'Các ký tự UTF-8 không đúng định dạng, có thể được mã hóa không chính xác',
+    'jsonErrorUnknown'  => 'Không thể nhận biết lỗi',
 ];

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Core language settings
 return [
-	'copyError'        => 'Dosyayı değiştirmeye çalışırken bir hata oluştu. Lütfen klasörün yazılabilir olduğundan emin olunuz',
-	'invalidFile'      => 'Geçersiz dosya: {0}',
-	'missingExtension' => '{0} uzantısı yüklenemedi.',
-	'noHandlers'       => '{0} en azından bir işleyici belirtilmeli.',
+    'copyError'        => 'Dosyayı değiştirmeye çalışırken bir hata oluştu. Lütfen klasörün yazılabilir olduğundan emin olunuz',
+    'invalidFile'      => 'Geçersiz dosya: {0}',
+    'missingExtension' => '{0} uzantısı yüklenemedi.',
+    'noHandlers'       => '{0} en azından bir işleyici belirtilmeli.',
 ];

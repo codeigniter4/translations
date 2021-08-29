@@ -104,4 +104,4 @@ read on the tests' [README](tests/README.md) on running unit tests.
 
 ## License
 
-These translations are licensed under the [LICENSE](LICENSE).
+These translations are licensed under the [MIT License](LICENSE).

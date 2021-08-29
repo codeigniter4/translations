@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,10 +11,10 @@
 
 // Core language settings
 return [
-	'copyError'                    => 'Sebuah kesalahan terjadi saat mencoba mengganti berkas. Pastikan direktori berkas Anda dapat ditulis.',
-	'enabledZlibOutputCompression' => 'Perintah zlib.output_compression ini diaktifkan. Ini tidak akan berjalan baik dengan output buffer.',
-	'invalidFile'                  => 'Berkas tidak valid: {0}',
-	'invalidPhpVersion'            => 'Versi PHP harus {0} atau lebih tinggi untuk menjalankan CodeIgniter. Versi sekarang: {1}',
-	'missingExtension'             => 'Ekstensi {0} tidak dimuat.',
-	'noHandlers'                   => '{0} harus menyediakan setidaknya satu Handler.',
+    'copyError'                    => 'Sebuah kesalahan terjadi saat mencoba mengganti berkas. Pastikan direktori berkas Anda dapat ditulis.',
+    'enabledZlibOutputCompression' => 'Perintah zlib.output_compression ini diaktifkan. Ini tidak akan berjalan baik dengan output buffer.',
+    'invalidFile'                  => 'Berkas tidak valid: {0}',
+    'invalidPhpVersion'            => 'Versi PHP harus {0} atau lebih tinggi untuk menjalankan CodeIgniter. Versi sekarang: {1}',
+    'missingExtension'             => 'Ekstensi {0} tidak dimuat.',
+    'noHandlers'                   => '{0} harus menyediakan setidaknya satu Handler.',
 ];

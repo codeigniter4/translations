@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // CLI language settings
 return [
-	'fileNotFound' => 'ഫയൽ കാണുന്നില്ല: {0}',
-	'cannotMove'   => '{0} മുതൽ {1} വരെ ഫയൽ നീക്കാൻ കഴിഞ്ഞില്ല({2})',
+    'fileNotFound' => 'ഫയൽ കാണുന്നില്ല: {0}',
+    'cannotMove'   => '{0} മുതൽ {1} വരെ ഫയൽ നീക്കാൻ കഴിഞ്ഞില്ല({2})',
 ];

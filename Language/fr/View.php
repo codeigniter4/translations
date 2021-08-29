@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,10 +11,10 @@
 
 // View language settings
 return [
-	'invalidCellMethod'     => '{class}::{method} n\'est pas une méthode valide.',
-	'missingCellParameters' => '{class}::{method} n\'a pas de paramètres.',
-	'invalidCellParameter'  => '{0} n\'est pas un nom de paramètre valide.',
-	'noCellClass'           => 'Pas de class view cell fournie.',
-	'invalidCellClass'      => 'Impossible de localiser la class view cell: {0}.',
-	'tagSyntaxError'        => 'Il y a une erreur dans le tag Parser: {0}',
+    'invalidCellMethod'     => '{class}::{method} n\'est pas une méthode valide.',
+    'missingCellParameters' => '{class}::{method} n\'a pas de paramètres.',
+    'invalidCellParameter'  => '{0} n\'est pas un nom de paramètre valide.',
+    'noCellClass'           => 'Pas de class view cell fournie.',
+    'invalidCellClass'      => 'Impossible de localiser la class view cell: {0}.',
+    'tagSyntaxError'        => 'Il y a une erreur dans le tag Parser: {0}',
 ];

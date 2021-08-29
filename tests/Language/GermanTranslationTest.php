@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -16,14 +16,14 @@ namespace Translations\Tests;
  */
 final class GermanTranslationTest extends AbstractTranslationTestCase
 {
-	protected function setUp(): void
-	{
-		// The keys of this locale that do not differ from the english value even if translated.
-		$this->excludedLocaleKeyTranslations = [
-			'Migrations.batch',
-			'Migrations.namespace',
-			'Migrations.version',
-			'Time.inFuture',
-		];
-	}
+    protected function setUp(): void
+    {
+        // The keys of this locale that do not differ from the english value even if translated.
+        $this->excludedLocaleKeyTranslations = [
+            'Migrations.batch',
+            'Migrations.namespace',
+            'Migrations.version',
+            'Time.inFuture',
+        ];
+    }
 }

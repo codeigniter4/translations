@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Files language settings
 return [
-	'fileNotFound' => 'ファイルがありません: {0}', //File not found: {0}
-	'cannotMove'   => '{0} から {1} へファイルの移動ができません。 ({2})', //Could not move file {0} to {1} ({2})
+    'fileNotFound' => 'ファイルがありません: {0}', // File not found: {0}
+    'cannotMove'   => '{0} から {1} へファイルの移動ができません。 ({2})', // Could not move file {0} to {1} ({2})
 ];

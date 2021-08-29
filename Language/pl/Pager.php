@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,13 +11,13 @@
 
 // Pager language settings
 return [
-	'pageNavigation'         => 'Nawigacja strony',
-	'first'                  => 'Pierwszy',
-	'previous'               => 'Poprzedni',
-	'next'                   => 'Następny',
-	'last'                   => 'Ostatni',
-	'older'                  => 'Starszy',
-	'newer'                  => 'Nowszy',
-	'invalidTemplate'        => '{0} nie jest prawidłowym szablonem Pager.',
-	'invalidPaginationGroup' => '{0} nie jest prawidłową grupą Pager.',
+    'pageNavigation'         => 'Nawigacja strony',
+    'first'                  => 'Pierwszy',
+    'previous'               => 'Poprzedni',
+    'next'                   => 'Następny',
+    'last'                   => 'Ostatni',
+    'older'                  => 'Starszy',
+    'newer'                  => 'Nowszy',
+    'invalidTemplate'        => '{0} nie jest prawidłowym szablonem Pager.',
+    'invalidPaginationGroup' => '{0} nie jest prawidłową grupą Pager.',
 ];

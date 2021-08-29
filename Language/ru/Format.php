@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Format language settings
 return [
-	'invalidJSON'      => 'Не удалось разобрать строку в JSON, Ошибка: "{0}".',
-	'missingExtension' => 'Расширение SimpleXML требуется для форматирования XML.',
+    'invalidJSON'      => 'Не удалось разобрать строку в JSON, Ошибка: "{0}".',
+    'missingExtension' => 'Расширение SimpleXML требуется для форматирования XML.',
 ];

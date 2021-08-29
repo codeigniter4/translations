@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,7 +11,7 @@
 
 // Cache language settings
 return [
-	'invalidHandlers' => 'Önbellek ayarlarının bir $validHandlers dizisi içermesi gerekir.',
-	'noBackup'        => 'Önbellek ayarlarının bir işleyicisinin olması ve backupHandler\'inin belirlenmesi gerekir.',
-	'handlerNotFound' => 'Önbellek ayarlarının işleyicisi veya yedek işleyicisi geçersiz.',
+    'invalidHandlers' => 'Önbellek ayarlarının bir $validHandlers dizisi içermesi gerekir.',
+    'noBackup'        => 'Önbellek ayarlarının bir işleyicisinin olması ve backupHandler\'inin belirlenmesi gerekir.',
+    'handlerNotFound' => 'Önbellek ayarlarının işleyicisi veya yedek işleyicisi geçersiz.',
 ];

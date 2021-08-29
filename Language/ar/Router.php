@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Router language settings
 return [
-	'invalidParameter'    => 'المدخلات لا تطابق النوع المتوقع.',
-	'missingDefaultRoute' => 'لا يمكن عرض الصفحة. لم يتم وضع مسار افتراضي للتوجيه له.',
+    'invalidParameter'    => 'المدخلات لا تطابق النوع المتوقع.',
+    'missingDefaultRoute' => 'لا يمكن عرض الصفحة. لم يتم وضع مسار افتراضي للتوجيه له.',
 ];

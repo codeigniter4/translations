@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -10,6 +10,6 @@
  */
 
 return [
-	'noFilter'           => 'Filtret {0} måste ha ett matchande alias definierat.',
-	'incorrectInterface' => '{0} måste implementera CodeIgniter\Filters\FilterInterface.',
+    'noFilter'           => 'Filtret {0} måste ha ett matchande alias definierat.',
+    'incorrectInterface' => '{0} måste implementera CodeIgniter\Filters\FilterInterface.',
 ];

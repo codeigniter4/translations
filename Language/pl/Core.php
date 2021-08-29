@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Core language settings
 return [
-	'copyError'        => 'Napotkano błąd podczas próby zastąpienia pliku. Upewnij się, że twój katalog plików jest zapisywalny.',
-	'invalidFile'      => 'Nieprawidłowy plik: {0}',
-	'missingExtension' => 'Rozszerzenie {0} nie zostało załadowane.',
-	'noHandlers'       => '{0} musi zapewniać co najmniej jeden Handler.',
+    'copyError'        => 'Napotkano błąd podczas próby zastąpienia pliku. Upewnij się, że twój katalog plików jest zapisywalny.',
+    'invalidFile'      => 'Nieprawidłowy plik: {0}',
+    'missingExtension' => 'Rozszerzenie {0} nie zostało załadowane.',
+    'noHandlers'       => '{0} musi zapewniać co najmniej jeden Handler.',
 ];

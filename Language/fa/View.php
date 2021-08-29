@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,7 +11,7 @@
 
 // View language settings
 return [
-	'invalidCellMethod'     => '{class}::{method} تابع معتبری نیست.',
-	'missingCellParameters' => '{class}::{method} پارامتری ندارد.',
-	'invalidCellParameter'  => '{0} نام پارامتر معتبری نیست.',
+    'invalidCellMethod'     => '{class}::{method} تابع معتبری نیست.',
+    'missingCellParameters' => '{class}::{method} پارامتری ندارد.',
+    'invalidCellParameter'  => '{0} نام پارامتر معتبری نیست.',
 ];

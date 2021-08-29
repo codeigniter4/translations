@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Security language settings
 return [
-	'disallowedAction' => '您請求了不允許的行動（action）。',
+    'disallowedAction' => '您請求了不允許的行動（action）。',
 
-	// @deprecated
-	'invalidSameSite' => 'SameSite 必須設定為 None、Lax、Strict 或是空字串，而數值卻是：{0} 。',
+    // @deprecated
+    'invalidSameSite' => 'SameSite 必須設定為 None、Lax、Strict 或是空字串，而數值卻是：{0} 。',
 ];

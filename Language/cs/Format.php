@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Format language settings
 return [
-	'invalidFormatter' => '"{0} "není platná Formatter třída.',
-	'invalidJSON'      => 'Parsování JSON řetězce selhalo, chyba: "{0}".',
-	'invalidMime'      => 'Není definován žádný Formatter pro mime type: "{0}".',
-	'missingExtension' => 'Rozšíření SimpleXML je nezbytné pro XML formát.',
+    'invalidFormatter' => '"{0} "není platná Formatter třída.',
+    'invalidJSON'      => 'Parsování JSON řetězce selhalo, chyba: "{0}".',
+    'invalidMime'      => 'Není definován žádný Formatter pro mime type: "{0}".',
+    'missingExtension' => 'Rozšíření SimpleXML je nezbytné pro XML formát.',
 ];

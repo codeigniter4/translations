@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,7 +11,7 @@
 
 // Fabricator language strings
 return [
-	'invalidModel'      => 'Ungültiges Model an Fabricator übergeben.',
-	'missingFormatters' => 'Kein gültiger Formatierer definiert.',
-	'createFailed'      => 'Der Fabricator konnte {1} nicht in Tabelle {0} einfügen.',
+    'invalidModel'      => 'Ungültiges Model an Fabricator übergeben.',
+    'missingFormatters' => 'Kein gültiger Formatierer definiert.',
+    'createFailed'      => 'Der Fabricator konnte {1} nicht in Tabelle {0} einfügen.',
 ];

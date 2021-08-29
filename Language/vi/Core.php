@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Core language settings
 return [
-	'copyError'        => 'Đã xảy ra lỗi khi cố gắng thay thế tệp ({0}). Hãy chắc chắn rằng thư mục tập tin của bạn có quyền ghi.',
-	'invalidFile'      => 'Tập tin không hợp lệ:{0}',
-	'missingExtension' => '{0} tiện ích mở rộng không được tải.',
-	'noHandlers'       => '{0} phải cung cấp ít nhất một Handler.',
+    'copyError'        => 'Đã xảy ra lỗi khi cố gắng thay thế tệp ({0}). Hãy chắc chắn rằng thư mục tập tin của bạn có quyền ghi.',
+    'invalidFile'      => 'Tập tin không hợp lệ:{0}',
+    'missingExtension' => '{0} tiện ích mở rộng không được tải.',
+    'noHandlers'       => '{0} phải cung cấp ít nhất một Handler.',
 ];
