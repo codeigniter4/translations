@@ -11,6 +11,6 @@
 
 // Log language settings
 return [
-	'invalidLogLevel' 		=> '{0} ليس مستوى تسجيل اخطاء صحيح.',
-	'invalidMessageType' 	=> 'نوع الرسالة المقدم "{0}" ليس مدعوماً.',
+	'invalidLogLevel'    => '{0} ليس مستوى تسجيل اخطاء صحيح.',
+	'invalidMessageType' => 'نوع الرسالة المقدم "{0}" ليس مدعوماً.',
 ];

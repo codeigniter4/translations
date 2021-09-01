@@ -73,5 +73,5 @@ return [
 
 	// SameSite setting
 	// @deprecated
-	'invalidSameSiteSetting' => 'يجب أن يحتوي إعداد SameSite على إحدى القيم التالية: ["None", "Lax", "Strict"] أو نص فارغ. القيمة التي تم وضعها هي {0}.'
+	'invalidSameSiteSetting' => 'يجب أن يحتوي إعداد SameSite على إحدى القيم التالية: ["None", "Lax", "Strict"] أو نص فارغ. القيمة التي تم وضعها هي {0}.',
 ];
