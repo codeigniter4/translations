@@ -9,7 +9,8 @@
  * the LICENSE file that was distributed with this source code.
  */
 
+// Files language settings
 return [
-	'invalidLogLevel'    => '{0} är inte en giltig loggnivå.',
-	'invalidMessageType' => 'Det givna meddelandet av typen "{0}" stödjs inte.',
+	'fileNotFound' => 'ไม่พบไฟล์: {0}',
+	'cannotMove'   => 'ไม่สามารถย้ายไฟล์ {0} ไปยัง {1} ({2})',
 ];

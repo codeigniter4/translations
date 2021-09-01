@@ -9,7 +9,8 @@
  * the LICENSE file that was distributed with this source code.
  */
 
+// Log language settings
 return [
-	'invalidLogLevel'    => '{0} är inte en giltig loggnivå.',
-	'invalidMessageType' => 'Det givna meddelandet av typen "{0}" stödjs inte.',
+	'invalidLogLevel'    => '{0} เป็นระดับบันทึกที่ไม่ถูกต้อง',
+	'invalidMessageType' => 'ไม่รองรับประเภทข้อความที่ระบุ "{0}"',
 ];

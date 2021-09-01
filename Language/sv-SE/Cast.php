@@ -10,10 +10,13 @@
  */
 
 return [
+	'baseCastMissing'        => 'Klassen "{0}" måste ärva från "CodeIgniter\Entity\Cast\BaseCast".',
+	'invalidCastMethod'      => '"{0}" är en otillåten metod, tillåtna metoder är: ["get", "set"].',
+	'invalidTimestamp'       => 'Cast av "timestamp" förväntar en korrekt timestamp.',
+	'jsonErrorCtrlChar'      => 'Hittade ett oväntat kontrolltecken',
 	'jsonErrorDepth'         => 'Maximalt stack-djup överträddes',
 	'jsonErrorStateMismatch' => 'För lite data eller modes som inte stämmer',
-	'jsonErrorCtrlChar'      => 'Hittade ett oväntat kontrolltecken',
 	'jsonErrorSyntax'        => 'Syntax fel, felaktigt formatterad JSON',
-	'jsonErrorUtf8'          => 'Felaktigt UTF-8 tecken, möjligtvis felaktig kodning',
 	'jsonErrorUnknown'       => 'Okänt fel',
+	'jsonErrorUtf8'          => 'Felaktigt UTF-8 tecken, möjligtvis felaktig kodning',
 ];

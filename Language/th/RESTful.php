@@ -9,7 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
+// RESTful language settings
 return [
-	'invalidLogLevel'    => '{0} är inte en giltig loggnivå.',
-	'invalidMessageType' => 'Det givna meddelandet av typen "{0}" stödjs inte.',
+	'notImplemented' => 'ไม่ได้ใช้งานการดำเนินการ "{0}"',
 ];

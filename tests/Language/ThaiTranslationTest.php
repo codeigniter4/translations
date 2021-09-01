@@ -9,7 +9,11 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-return [
-	'invalidLogLevel'    => '{0} är inte en giltig loggnivå.',
-	'invalidMessageType' => 'Det givna meddelandet av typen "{0}" stödjs inte.',
-];
+namespace Translations\Tests;
+
+/**
+ * @internal
+ */
+final class ThaiTranslationTest extends AbstractTranslationTestCase
+{
+}
