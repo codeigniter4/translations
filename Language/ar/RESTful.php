@@ -9,8 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Filters language settings
+// RESTful language settings
 return [
-	'noFilter'           => 'الفلتر \'{0}\' يجب أن يكون له إسم مستعار معرف.',
-	'incorrectInterface' => 'يجب على {0} أن ينفذ الواجهة CodeIgniter\Filters\FilterInterface.',
+	'notImplemented' => 'إن الحدث "{0}" غير منفذ بعد.',
 ];
