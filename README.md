@@ -55,7 +55,7 @@ claims no expertise beyond English.
 | si     | Sinhala              | 4.0.3   | [npwsamarasinghe][si]| Nalaka Prasad
 | sk     | Slovak               | 4.0.0   | [xbotkaj][sk]        | Jozef Botka
 | sv-SE  | Swedish - Sweden     | 4.0.3   | [tangix][sv-SE]      | Mattias Sandström
-| th     | Thai                 | 4.x     | [karidoe][th]        | Anuchit Thiamuan
+| th     | Thai                 | 4.1.4   | [karidoe][th]        | Anuchit Thiamuan
 | tr     | Turkish              | 4.0.0   | [obozdag][tr]        | obozdag
 | uk     | Ukrainian            | 4.0.3   | [flybot][uk]         | Serhii Kosyi
 | vi     | Vietnamese           | 4.0.3   | [xuandung38][vi]     | XuanDung38
