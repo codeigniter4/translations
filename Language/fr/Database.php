@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,5 +11,5 @@
 
 // Database language settings
 return [
-	'featureUnavailable' => 'Cette fonctionnalité n\'est pas disponible pour la base de données que vous utilisez.',
+    'featureUnavailable' => 'Cette fonctionnalité n\'est pas disponible pour la base de données que vous utilisez.',
 ];

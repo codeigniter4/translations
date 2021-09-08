@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Log language settings
 return [
-	'invalidLogLevel'    => '{0} es un nivel de log inválido.',
-	'invalidMessageType' => 'El tipo de mensaje especificado "{0}" no es compatible.', // 'The given message type "{0}" is not supported.',
+    'invalidLogLevel'    => '{0} es un nivel de log inválido.',
+    'invalidMessageType' => 'El tipo de mensaje especificado "{0}" no es compatible.', // 'The given message type "{0}" is not supported.',
 ];

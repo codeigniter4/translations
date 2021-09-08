@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Format language settings
 return [
-	'invalidFormatter' => 'إن "{0}" ليس صنف منسق صالح.',
-	'invalidJSON'      => 'فشل في معالجة نص json, الخطأ: "{0}".',
-	'invalidMime'      => 'لا يوجد منسق معرف للنوع: "{0}".',
-	'missingExtension' => 'مكتبة SimpleXML مطلوبة لمعالجة نص XML.',
+    'invalidFormatter' => 'إن "{0}" ليس صنف منسق صالح.',
+    'invalidJSON'      => 'فشل في معالجة نص json, الخطأ: "{0}".',
+    'invalidMime'      => 'لا يوجد منسق معرف للنوع: "{0}".',
+    'missingExtension' => 'مكتبة SimpleXML مطلوبة لمعالجة نص XML.',
 ];

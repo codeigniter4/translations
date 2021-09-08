@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,13 +11,13 @@
 
 // Pager language settings
 return [
-	'pageNavigation'         => 'Puslapio navigacija',
-	'first'                  => 'pirmas',
-	'previous'               => 'ankstesnis',
-	'next'                   => 'kitas',
-	'last'                   => 'paskutinis',
-	'older'                  => 'senesnis',
-	'newer'                  => 'naujesnis',
-	'invalidTemplate'        => '{0} nėra teisingas puslapiuotojo šablonas.',
-	'invalidPaginationGroup' => '{0} nėra teisinga puslapiavimo grupė.',
+    'pageNavigation'         => 'Puslapio navigacija',
+    'first'                  => 'pirmas',
+    'previous'               => 'ankstesnis',
+    'next'                   => 'kitas',
+    'last'                   => 'paskutinis',
+    'older'                  => 'senesnis',
+    'newer'                  => 'naujesnis',
+    'invalidTemplate'        => '{0} nėra teisingas puslapiuotojo šablonas.',
+    'invalidPaginationGroup' => '{0} nėra teisinga puslapiavimo grupė.',
 ];

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,9 +11,9 @@
 
 // CLI language settings
 return [
-	'helpUsage'       => 'Kullanım:',
-	'helpDescription' => 'Açıklama:',
-	'helpOptions'     => 'Seçenekler:',
-	'helpArguments'   => 'Değişkenler:',
-	'invalidColor'    => 'Geçersiz {0} rengi: {1}.',
+    'helpUsage'       => 'Kullanım:',
+    'helpDescription' => 'Açıklama:',
+    'helpOptions'     => 'Seçenekler:',
+    'helpArguments'   => 'Değişkenler:',
+    'invalidColor'    => 'Geçersiz {0} rengi: {1}.',
 ];

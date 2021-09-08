@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Format language settings
 return [
-	'invalidFormatter' => '"{0}" não é uma classe Formatter válida.',
-	'invalidJSON'      => 'Falha ao analisar a string json, erro: "{0}".',
-	'invalidMime'      => 'Nenhum Formatter definido para o tipo mime: "{0}".',
-	'missingExtension' => 'A extensão SimpleXML é necessária para formatar XML.',
+    'invalidFormatter' => '"{0}" não é uma classe Formatter válida.',
+    'invalidJSON'      => 'Falha ao analisar a string json, erro: "{0}".',
+    'invalidMime'      => 'Nenhum Formatter definido para o tipo mime: "{0}".',
+    'missingExtension' => 'A extensão SimpleXML é necessária para formatar XML.',
 ];

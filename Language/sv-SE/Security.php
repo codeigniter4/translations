@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -10,6 +10,6 @@
  */
 
 return [
-	'disallowedAction' => 'Funktionen du efterfrågade är inte tillåten.',
-	'invalidSameSite'  => 'Inställningen SameSite måste vara None, Lax, Strict, eller en blank sträng. Angivet: {0}',
+    'disallowedAction' => 'Funktionen du efterfrågade är inte tillåten.',
+    'invalidSameSite'  => 'Inställningen SameSite måste vara None, Lax, Strict, eller en blank sträng. Angivet: {0}',
 ];

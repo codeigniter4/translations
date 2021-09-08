@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Router language settings
 return [
-	'invalidParameter'    => 'Parameter sa nezhoduje s očakávaným typom.',
-	'missingDefaultRoute' => 'Nemôžné určiť, čo by malo byť zobrazené. Predvolená cesta nebola špecifikovaná v routing súbore.',
+    'invalidParameter'    => 'Parameter sa nezhoduje s očakávaným typom.',
+    'missingDefaultRoute' => 'Nemôžné určiť, čo by malo byť zobrazené. Predvolená cesta nebola špecifikovaná v routing súbore.',
 ];

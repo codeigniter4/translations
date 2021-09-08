@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,10 +11,10 @@
 
 // CLI language settings
 return [
-	'commandNotFound' => 'Commando "{0}" niet gevonden.',
-	'helpUsage'       => 'Gebruik:',
-	'helpDescription' => 'Omschrijving:',
-	'helpOptions'     => 'Opties:',
-	'helpArguments'   => 'Argumenten:',
-	'invalidColor'    => 'Foutieve {0} kleur: {1}.',
+    'commandNotFound' => 'Commando "{0}" niet gevonden.',
+    'helpUsage'       => 'Gebruik:',
+    'helpDescription' => 'Omschrijving:',
+    'helpOptions'     => 'Opties:',
+    'helpArguments'   => 'Argumenten:',
+    'invalidColor'    => 'Foutieve {0} kleur: {1}.',
 ];

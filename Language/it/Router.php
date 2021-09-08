@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Router language settings
 return [
-	'invalidParameter'    => 'Un parametro non rientra nella tipologia attesa.',
-	'missingDefaultRoute' => 'Impossibile determinare cosa si dovrebbe mostrare. Non è stato specificato un percorso di default nel file percorsi (routing).',
+    'invalidParameter'    => 'Un parametro non rientra nella tipologia attesa.',
+    'missingDefaultRoute' => 'Impossibile determinare cosa si dovrebbe mostrare. Non è stato specificato un percorso di default nel file percorsi (routing).',
 ];

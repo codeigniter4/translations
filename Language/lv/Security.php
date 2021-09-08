@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Security language settings
 return [
-	'disallowedAction' => 'Jūsu pieprasītā darbība nav atļauta.', // 'The action you requested is not allowed.'
+    'disallowedAction' => 'Jūsu pieprasītā darbība nav atļauta.', // 'The action you requested is not allowed.'
 
-	// @deprecated
-	'invalidSameSite' => 'Vērtībai SameSite ir jābūt: `None`, `Lax`, `Strict` vai tukšai virknei. Norādīts: {0}', // 'The SameSite value must be None, Lax, Strict, or a blank string. Given: {0}'
+    // @deprecated
+    'invalidSameSite' => 'Vērtībai SameSite ir jābūt: `None`, `Lax`, `Strict` vai tukšai virknei. Norādīts: {0}', // 'The SameSite value must be None, Lax, Strict, or a blank string. Given: {0}'
 ];

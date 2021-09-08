@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Filters language settings
 return [
-	'noFilter'           => 'الفلتر \'{0}\' يجب أن يكون له إسم مستعار معرف.',
-	'incorrectInterface' => 'يجب على {0} أن ينفذ الواجهة CodeIgniter\Filters\FilterInterface.',
+    'noFilter'           => 'الفلتر \'{0}\' يجب أن يكون له إسم مستعار معرف.',
+    'incorrectInterface' => 'يجب على {0} أن ينفذ الواجهة CodeIgniter\Filters\FilterInterface.',
 ];

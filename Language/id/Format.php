@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Format language settings
 return [
-	'invalidFormatter' => '"{0}" bukan kelas Pemformat yang valid.',
-	'invalidJSON'      => 'Gagal menguraikan string json, kesalahan: "{0}".',
-	'invalidMime'      => 'Tidak ada Formatter didefinisikan untuk jenis mime: "{0}".',
-	'missingExtension' => 'Ekstensi SimpleXML diperlukan untuk memformat XML.',
+    'invalidFormatter' => '"{0}" bukan kelas Pemformat yang valid.',
+    'invalidJSON'      => 'Gagal menguraikan string json, kesalahan: "{0}".',
+    'invalidMime'      => 'Tidak ada Formatter didefinisikan untuk jenis mime: "{0}".',
+    'missingExtension' => 'Ekstensi SimpleXML diperlukan untuk memformat XML.',
 ];

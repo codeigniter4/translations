@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Router language settings
 return [
-	'invalidParameter'    => 'Một tham số không phù hợp với loại dự kiến.',
-	'missingDefaultRoute' => 'Không thể xác định những gì sẽ được hiển thị. Một tuyến mặc định chưa được chỉ định trong tệp định tuyến (route).',
+    'invalidParameter'    => 'Một tham số không phù hợp với loại dự kiến.',
+    'missingDefaultRoute' => 'Không thể xác định những gì sẽ được hiển thị. Một tuyến mặc định chưa được chỉ định trong tệp định tuyến (route).',
 ];

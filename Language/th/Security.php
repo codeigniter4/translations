@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Security language settings
 return [
-	'disallowedAction' => 'การกระทำที่คุณร้องขอไม่ได้รับอนุญาต',
+    'disallowedAction' => 'การกระทำที่คุณร้องขอไม่ได้รับอนุญาต',
 
-	// @deprecated
-	'invalidSameSite' => 'ค่า SameSite ต้องเป็น None, Lax, Strict หรือสตริงว่าง ให้: {0}',
+    // @deprecated
+    'invalidSameSite' => 'ค่า SameSite ต้องเป็น None, Lax, Strict หรือสตริงว่าง ให้: {0}',
 ];

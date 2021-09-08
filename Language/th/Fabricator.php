@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,7 +11,7 @@
 
 // Fabricator language settings
 return [
-	'invalidModel'      => 'โมเดลสำรับการสร้างข้อมูลที่ระบุไม่ถูกต้อง',
-	'missingFormatters' => 'ไม่มีการกำหนดรูปแบบที่ถูกต้อง',
-	'createFailed'      => 'ตัวสร้างข้อมูลไม่สามารถแทรกขอมูลลงในตาราง {0}: {1}',
+    'invalidModel'      => 'โมเดลสำรับการสร้างข้อมูลที่ระบุไม่ถูกต้อง',
+    'missingFormatters' => 'ไม่มีการกำหนดรูปแบบที่ถูกต้อง',
+    'createFailed'      => 'ตัวสร้างข้อมูลไม่สามารถแทรกขอมูลลงในตาราง {0}: {1}',
 ];

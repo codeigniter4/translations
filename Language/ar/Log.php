@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Log language settings
 return [
-	'invalidLogLevel'    => '{0} ليس مستوى تسجيل اخطاء صحيح.',
-	'invalidMessageType' => 'نوع الرسالة المقدم "{0}" ليس مدعوماً.',
+    'invalidLogLevel'    => '{0} ليس مستوى تسجيل اخطاء صحيح.',
+    'invalidMessageType' => 'نوع الرسالة المقدم "{0}" ليس مدعوماً.',
 ];

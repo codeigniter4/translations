@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Files language settings
 return [
-	'fileNotFound' => 'Filen ble ikke funnet: {0}',
-	'cannotMove'   => 'Filen kunne ikke flyttes fra {0} til {1} ({2})',
+    'fileNotFound' => 'Filen ble ikke funnet: {0}',
+    'cannotMove'   => 'Filen kunne ikke flyttes fra {0} til {1} ({2})',
 ];

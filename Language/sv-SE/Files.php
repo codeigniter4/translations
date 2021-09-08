@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -10,6 +10,6 @@
  */
 
 return [
-	'fileNotFound' => 'Kunde inte hitta filen: {0}',
-	'cannotMove'   => 'Kunde inte flytta filen {0} till {1} ({2})',
+    'fileNotFound' => 'Kunde inte hitta filen: {0}',
+    'cannotMove'   => 'Kunde inte flytta filen {0} till {1} ({2})',
 ];

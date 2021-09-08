@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,10 +11,10 @@
 
 // Encryption language settings
 return [
-	'noDriverRequested'    => 'Nessun driver richiesto.',
-	'noHandlerAvailable'   => 'Impossibile trovare un handler di codifica {0} disponibile.',
-	'unKnownHandler'       => 'Impossibile configurare "{0}"',
-	'starterKeyNeeded'     => 'È necessario fornire una chiave di partenza per l\'encrypter.',
-	'authenticationFailed' => 'Autenticazione fallita per l\'operazione di decifrazione',
-	'encryptionFailed'     => 'Crittografia non riuscita.',
+    'noDriverRequested'    => 'Nessun driver richiesto.',
+    'noHandlerAvailable'   => 'Impossibile trovare un handler di codifica {0} disponibile.',
+    'unKnownHandler'       => 'Impossibile configurare "{0}"',
+    'starterKeyNeeded'     => 'È necessario fornire una chiave di partenza per l\'encrypter.',
+    'authenticationFailed' => 'Autenticazione fallita per l\'operazione di decifrazione',
+    'encryptionFailed'     => 'Crittografia non riuscita.',
 ];

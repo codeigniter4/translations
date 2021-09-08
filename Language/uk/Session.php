@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,9 +11,9 @@
 
 // Session language settings
 return [
-	'missingDatabaseTable'   => '`sessionSavePath` повинно бути назвою таблиці для роботи сесій з базою даних.',
-	'invalidSavePath'        => 'Помилка: Налаштований шлях збереження "{0}" не є каталогом, не існує або не може бути створений.',
-	'writeProtectedSavePath' => 'Помилка: Налаштований шлях збереження "{0}" не доступний для запису процесом PHP.',
-	'emptySavePath'          => 'Помилка: Не налаштований шлях збереження сесій.',
-	'invalidSavePathFormat'  => 'Помилка: Недопустимий формат шляху збереження для Redis: {0}.',
+    'missingDatabaseTable'   => '`sessionSavePath` повинно бути назвою таблиці для роботи сесій з базою даних.',
+    'invalidSavePath'        => 'Помилка: Налаштований шлях збереження "{0}" не є каталогом, не існує або не може бути створений.',
+    'writeProtectedSavePath' => 'Помилка: Налаштований шлях збереження "{0}" не доступний для запису процесом PHP.',
+    'emptySavePath'          => 'Помилка: Не налаштований шлях збереження сесій.',
+    'invalidSavePathFormat'  => 'Помилка: Недопустимий формат шляху збереження для Redis: {0}.',
 ];

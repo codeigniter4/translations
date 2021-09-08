@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,13 +11,13 @@
 
 // Pager language settings
 return [
-	'pageNavigation'         => 'Navigace stránky',
-	'first'                  => 'První',
-	'previous'               => 'Předchozí',
-	'next'                   => 'Další',
-	'last'                   => 'Poslední',
-	'older'                  => 'Starší',
-	'newer'                  => 'Novější',
-	'invalidTemplate'        => '{0} je neplatná šablona pro Pager.',
-	'invalidPaginationGroup' => '{0} je neplatná skupina pro stránkování (Pagination).',
+    'pageNavigation'         => 'Navigace stránky',
+    'first'                  => 'První',
+    'previous'               => 'Předchozí',
+    'next'                   => 'Další',
+    'last'                   => 'Poslední',
+    'older'                  => 'Starší',
+    'newer'                  => 'Novější',
+    'invalidTemplate'        => '{0} je neplatná šablona pro Pager.',
+    'invalidPaginationGroup' => '{0} je neplatná skupina pro stránkování (Pagination).',
 ];

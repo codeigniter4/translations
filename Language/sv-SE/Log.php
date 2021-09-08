@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -10,6 +10,6 @@
  */
 
 return [
-	'invalidLogLevel'    => '{0} är inte en giltig loggnivå.',
-	'invalidMessageType' => 'Det givna meddelandet av typen "{0}" stödjs inte.',
+    'invalidLogLevel'    => '{0} är inte en giltig loggnivå.',
+    'invalidMessageType' => 'Det givna meddelandet av typen "{0}" stödjs inte.',
 ];

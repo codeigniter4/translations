@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Security language settings
 return [
-	'disallowedAction' => 'Die von Ihnen gewünschte Aktion ist nicht zulässig.',
-	'invalidSameSite'  => 'Der SameSite-Wert muss None, Lax, Strict, oder ein leerer String sein. Aktueller Wert: {0}',
+    'disallowedAction' => 'Die von Ihnen gewünschte Aktion ist nicht zulässig.',
+    'invalidSameSite'  => 'Der SameSite-Wert muss None, Lax, Strict, oder ein leerer String sein. Aktueller Wert: {0}',
 ];

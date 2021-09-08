@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Router language settings
 return [
-	'invalidParameter'    => 'Un paramètre ne correspond pas au type attendu.',
-	'missingDefaultRoute' => 'Impossible de déterminer ce qui doit être affiché. Aucune route par défaut n\'a été spécifiée dans le fichier de routage.',
+    'invalidParameter'    => 'Un paramètre ne correspond pas au type attendu.',
+    'missingDefaultRoute' => 'Impossible de déterminer ce qui doit être affiché. Aucune route par défaut n\'a été spécifiée dans le fichier de routage.',
 ];

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,10 +11,10 @@
 
 // Encryption language settings
 return [
-	'noDriverRequested'    => 'ไม่มีการร้องขอไดรเวอร์ Miss Daisy จะอารมณ์เสียมาก!',
-	'noHandlerAvailable'   => 'ไม่พบฟังก์ชั่นสำหรับจัดการการเข้ารหัส {0} ที่พร้อมใช้งาน',
-	'unKnownHandler'       => '"{0}" ไม่สามารถกำหนดค่าได้',
-	'starterKeyNeeded'     => 'ตัวเข้ารหัสต้องการคีย์เริ่มต้น',
-	'authenticationFailed' => 'การถอดรหัส: การตรวจสอบสิทธิ์ล้มเหลว',
-	'encryptionFailed'     => 'การเข้ารหัสล้มเหลว',
+    'noDriverRequested'    => 'ไม่มีการร้องขอไดรเวอร์ Miss Daisy จะอารมณ์เสียมาก!',
+    'noHandlerAvailable'   => 'ไม่พบฟังก์ชั่นสำหรับจัดการการเข้ารหัส {0} ที่พร้อมใช้งาน',
+    'unKnownHandler'       => '"{0}" ไม่สามารถกำหนดค่าได้',
+    'starterKeyNeeded'     => 'ตัวเข้ารหัสต้องการคีย์เริ่มต้น',
+    'authenticationFailed' => 'การถอดรหัส: การตรวจสอบสิทธิ์ล้มเหลว',
+    'encryptionFailed'     => 'การเข้ารหัสล้มเหลว',
 ];

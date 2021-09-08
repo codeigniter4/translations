@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Cache language settings
 return [
-	'unableToWrite'   => 'Cache nelze uložit do {0}',
-	'invalidHandlers' => 'Cache config musí mít pole z $validHandlers.',
-	'noBackup'        => 'Cache config musí mít nastavený handler a backupHandler.',
-	'handlerNotFound' => 'Cache config má neplatný specifikovaný handler nebo záložní handler.',
+    'unableToWrite'   => 'Cache nelze uložit do {0}',
+    'invalidHandlers' => 'Cache config musí mít pole z $validHandlers.',
+    'noBackup'        => 'Cache config musí mít nastavený handler a backupHandler.',
+    'handlerNotFound' => 'Cache config má neplatný specifikovaný handler nebo záložní handler.',
 ];

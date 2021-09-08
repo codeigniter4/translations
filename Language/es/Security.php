@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Security language settings
 return [
-	'disallowedAction' => 'La acción que solicitaste no está permitida', // 'The action you requested is not allowed.',
+    'disallowedAction' => 'La acción que solicitaste no está permitida', // 'The action you requested is not allowed.',
 
-	// @deprecated
-	'invalidSameSite' => 'El valor de SameSite debe ser None, Lax, Strict o una cadena en blanco. Dado: {0}', // 'The SameSite value must be None, Lax, Strict, or a blank string. Given: {0}',
+    // @deprecated
+    'invalidSameSite' => 'El valor de SameSite debe ser None, Lax, Strict o una cadena en blanco. Dado: {0}', // 'The SameSite value must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

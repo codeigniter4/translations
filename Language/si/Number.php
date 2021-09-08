@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,16 +11,16 @@
 
 // Number language settings
 return [
-	'terabyteAbbr' => 'TB', // TB
-	'gigabyteAbbr' => 'GB', // GB
-	'megabyteAbbr' => 'MB', // MB
-	'kilobyteAbbr' => 'KB', // KB
-	'bytes'        => 'Bytes', // Bytes
+    'terabyteAbbr' => 'TB', // TB
+    'gigabyteAbbr' => 'GB', // GB
+    'megabyteAbbr' => 'MB', // MB
+    'kilobyteAbbr' => 'KB', // KB
+    'bytes'        => 'Bytes', // Bytes
 
-	// don't forget the space in front of these!
-	'thousand'    => ' දහසක්', // thousand
-	'million'     => ' මිලියන', // million
-	'billion'     => ' බිලියන', // billion
-	'trillion'    => ' ට්‍රිලියන', // trillion
-	'quadrillion' => ' ක්වොඩ්රිලියන', // quadrillion
+    // don't forget the space in front of these!
+    'thousand'    => ' දහසක්', // thousand
+    'million'     => ' මිලියන', // million
+    'billion'     => ' බිලියන', // billion
+    'trillion'    => ' ට්‍රිලියන', // trillion
+    'quadrillion' => ' ක්වොඩ්රිලියන', // quadrillion
 ];

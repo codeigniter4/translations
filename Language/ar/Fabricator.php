@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,7 +11,7 @@
 
 // Fabricator language settings
 return [
-	'invalidModel'      => 'تم تقديم نموذج خاطئ للمزيف.',
-	'missingFormatters' => 'لم يتم تعريف أي تنسيقات صالحة.',
-	'createFailed'      => 'فشل المزيف بالإضافة على الجدول {0} : {1}',
+    'invalidModel'      => 'تم تقديم نموذج خاطئ للمزيف.',
+    'missingFormatters' => 'لم يتم تعريف أي تنسيقات صالحة.',
+    'createFailed'      => 'فشل المزيف بالإضافة على الجدول {0} : {1}',
 ];

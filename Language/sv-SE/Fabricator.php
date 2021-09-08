@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -10,7 +10,7 @@
  */
 
 return [
-	'invalidModel'      => 'Ogiltig modell angiven.',
-	'missingFormatters' => 'Ingen giltig formatterare definierad.',
-	'createFailed'      => 'Fabricator kunde inte göra insert i tabellen {0}: {1}.',
+    'invalidModel'      => 'Ogiltig modell angiven.',
+    'missingFormatters' => 'Ingen giltig formatterare definierad.',
+    'createFailed'      => 'Fabricator kunde inte göra insert i tabellen {0}: {1}.',
 ];

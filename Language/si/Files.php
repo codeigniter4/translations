@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Files language settings
 return [
-	'fileNotFound' => 'ගොනුව හමු නොවිණි: {0}', // File not found: {0}
-	'cannotMove'   => 'ගොනුව ගෙනයාමට නොහැකි විය {0} සිට {1} ({2})', // Could not move file {0} to {1} ({2})
+    'fileNotFound' => 'ගොනුව හමු නොවිණි: {0}', // File not found: {0}
+    'cannotMove'   => 'ගොනුව ගෙනයාමට නොහැකි විය {0} සිට {1} ({2})', // Could not move file {0} to {1} ({2})
 ];

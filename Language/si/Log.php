@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,5 +11,5 @@
 
 // Log language settings
 return [
-	'invalidLogLevel' => '{0} අවලංගු ලොග් මට්ටමකි.', // {0} is an invalid log level.
+    'invalidLogLevel' => '{0} අවලංගු ලොග් මට්ටමකි.', // {0} is an invalid log level.
 ];

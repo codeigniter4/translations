@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Files language settings
 return [
-	'fileNotFound' => 'Soubor nebyl nalezen: {0}',
-	'cannotMove'   => 'Soubor {0} nebylo možné přesunout do {1} ({2})',
+    'fileNotFound' => 'Soubor nebyl nalezen: {0}',
+    'cannotMove'   => 'Soubor {0} nebylo možné přesunout do {1} ({2})',
 ];

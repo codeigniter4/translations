@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Format language settings
 return [
-	'invalidJSON'      => 'Falha ao analisar o texto json, erro: "{0}".',
-	'missingExtension' => 'A extensão SimpleXML é necessária para formatar XML.',
+    'invalidJSON'      => 'Falha ao analisar o texto json, erro: "{0}".',
+    'missingExtension' => 'A extensão SimpleXML é necessária para formatar XML.',
 ];

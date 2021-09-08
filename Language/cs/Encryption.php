@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,10 +11,10 @@
 
 // Encryption language settings
 return [
-	'noDriverRequested'    => 'Žádný driver nebyl vyžádán.',
-	'noHandlerAvailable'   => 'Nelze najít dostupný {0} handler pro šifrování.',
-	'unKnownHandler'       => '"{0}"nelze kofigurovat.',
-	'starterKeyNeeded'     => 'Šifrování potřebuje počáteční klíč.',
-	'authenticationFailed' => 'Dešifrování: autentizace selhala.',
-	'encryptionFailed'     => 'Šifrování selhalo.',
+    'noDriverRequested'    => 'Žádný driver nebyl vyžádán.',
+    'noHandlerAvailable'   => 'Nelze najít dostupný {0} handler pro šifrování.',
+    'unKnownHandler'       => '"{0}"nelze kofigurovat.',
+    'starterKeyNeeded'     => 'Šifrování potřebuje počáteční klíč.',
+    'authenticationFailed' => 'Dešifrování: autentizace selhala.',
+    'encryptionFailed'     => 'Šifrování selhalo.',
 ];

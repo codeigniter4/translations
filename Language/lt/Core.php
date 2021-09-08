@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Core language settings
 return [
-	'copyError'        => 'Bandant pakeisti failą ({0}) susidurta su klaida. Prašome patikrinti, ar galima rašyti į direktoriją, kurioje yra failas.',
-	'invalidFile'      => 'Neteisingas failas: {0}',
-	'missingExtension' => '{0} praplėtimas nėra įkeltas.',
-	'noHandlers'       => '{0} turi teikti bent vieną doroklį.',
+    'copyError'        => 'Bandant pakeisti failą ({0}) susidurta su klaida. Prašome patikrinti, ar galima rašyti į direktoriją, kurioje yra failas.',
+    'invalidFile'      => 'Neteisingas failas: {0}',
+    'missingExtension' => '{0} praplėtimas nėra įkeltas.',
+    'noHandlers'       => '{0} turi teikti bent vieną doroklį.',
 ];

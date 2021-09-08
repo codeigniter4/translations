@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -10,10 +10,10 @@
  */
 
 return [
-	'invalidCellMethod'     => '{class}::{method} är inte en giltig metod.',
-	'missingCellParameters' => '{class}::{method} har inga parametrar.',
-	'invalidCellParameter'  => '{0} är inte ett giltig parameternamn.',
-	'noCellClass'           => 'Ingen view cell class angiven.',
-	'invalidCellClass'      => 'Kunde inte hitta view cell class: {0}.',
-	'tagSyntaxError'        => 'Det är ett syntaxfel i dessa taggarna för Parser: {0}',
+    'invalidCellMethod'     => '{class}::{method} är inte en giltig metod.',
+    'missingCellParameters' => '{class}::{method} har inga parametrar.',
+    'invalidCellParameter'  => '{0} är inte ett giltig parameternamn.',
+    'noCellClass'           => 'Ingen view cell class angiven.',
+    'invalidCellClass'      => 'Kunde inte hitta view cell class: {0}.',
+    'tagSyntaxError'        => 'Det är ett syntaxfel i dessa taggarna för Parser: {0}',
 ];

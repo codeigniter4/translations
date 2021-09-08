@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Security language settings
 return [
-	'disallowedAction' => 'إن الحدث المطلوب غير مسموح به.',
+    'disallowedAction' => 'إن الحدث المطلوب غير مسموح به.',
 
-	// @deprecated
-	'invalidSameSite' => 'يجب أن يحتوي إعداد SameSite على إحدى القيم التالية: ["None", "Lax", "Strict"] أو نص فارغ. القيمة التي تم وضعها هي {0}.',
+    // @deprecated
+    'invalidSameSite' => 'يجب أن يحتوي إعداد SameSite على إحدى القيم التالية: ["None", "Lax", "Strict"] أو نص فارغ. القيمة التي تم وضعها هي {0}.',
 ];

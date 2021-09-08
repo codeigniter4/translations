@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,7 +11,7 @@
 
 // Fabricator language strings
 return [
-	'invalidModel'      => 'Model tidak valid disediakan untuk fabrikasi.',
-	'missingFormatters' => 'Tidak ada pemformat valid yang ditentukan.',
-	'createFailed'      => 'Fabricator gagal dimasukkan ke dalam tabel {0}: {1}.',
+    'invalidModel'      => 'Model tidak valid disediakan untuk fabrikasi.',
+    'missingFormatters' => 'Tidak ada pemformat valid yang ditentukan.',
+    'createFailed'      => 'Fabricator gagal dimasukkan ke dalam tabel {0}: {1}.',
 ];

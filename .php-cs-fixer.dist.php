@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -9,28 +9,35 @@
  * the LICENSE file that was distributed with this source code.
  */
 
+use CodeIgniter\CodingStandard\CodeIgniter4;
 use Nexus\CsConfig\Factory;
+use Nexus\CsConfig\Fixer\Comment\NoCodeSeparatorCommentFixer;
+use Nexus\CsConfig\Fixer\Comment\SpaceAfterCommentStartFixer;
+use Nexus\CsConfig\FixerGenerator;
 use PhpCsFixer\Finder;
-use Utils\PhpCsFixer\CodeIgniter4;
 
 $finder = Finder::create()
-	->files()
-	->in([__DIR__])
-	->append([
-		__FILE__,
-		'.github/scripts/continuous-integration',
-	]);
+    ->files()
+    ->in([__DIR__])
+    ->append([
+        __FILE__,
+        '.github/scripts/continuous-integration',
+    ]);
 
 $overrides = [];
 
 $options = [
-	'finder'     => $finder,
-	'indent'     => "\t",
-	'lineEnding' => "\n",
+    'finder'       => $finder,
+    'usingCache'   => true,
+    'customFixers' => FixerGenerator::create('vendor/nexusphp/cs-config/src/Fixer', 'Nexus\\CsConfig\\Fixer'),
+    'customRules'  => [
+        NoCodeSeparatorCommentFixer::name() => true,
+        SpaceAfterCommentStartFixer::name() => true,
+    ],
 ];
 
 return Factory::create(new CodeIgniter4(), $overrides, $options)->forLibrary(
-	'the CodeIgniter 4 framework',
-	'CodeIgniter Foundation',
-	'admin@codeigniter.com'
+    'CodeIgniter 4 framework',
+    'CodeIgniter Foundation',
+    'admin@codeigniter.com'
 );

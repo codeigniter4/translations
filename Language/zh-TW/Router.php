@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Router language settings
 return [
-	'invalidParameter'    => '參數與預期型別不匹配。',
-	'missingDefaultRoute' => '尚未在路由檔案中指定預設路由，導致無法顯示內容。',
+    'invalidParameter'    => '參數與預期型別不匹配。',
+    'missingDefaultRoute' => '尚未在路由檔案中指定預設路由，導致無法顯示內容。',
 ];

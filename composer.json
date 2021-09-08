@@ -10,10 +10,11 @@
     },
     "require-dev": {
         "ext-tokenizer": "*",
+        "codeigniter/coding-standard": "^1.1",
         "codeigniter4/codeigniter4": "4.x-dev",
-        "friendsofphp/php-cs-fixer": "^3.0",
-        "nexusphp/cs-config": "^3.0",
-        "phpunit/phpunit": "^9.4"
+        "friendsofphp/php-cs-fixer": "^3.1",
+        "nexusphp/cs-config": "^3.3",
+        "phpunit/phpunit": "^9.5"
     },
     "config": {
         "optimize-autoloader": true,
@@ -32,9 +33,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Translations\\Tests\\": "tests/Language/",
-            "Utils\\": "utils",
-            "Utils\\Tests\\": "tests/utils/"
+            "Translations\\Tests\\": "tests/Language/"
         }
     },
     "repositories": [

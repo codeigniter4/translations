@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,13 +11,13 @@
 
 // Pager language settings
 return [
-	'pageNavigation'         => 'Selezione Pagina',
-	'first'                  => 'Primo',
-	'previous'               => 'Precedente',
-	'next'                   => 'Prossimo',
-	'last'                   => 'Ultimo',
-	'older'                  => 'Più datato',
-	'newer'                  => 'Più recente',
-	'invalidTemplate'        => '{0} non è un valido Pager template.',
-	'invalidPaginationGroup' => '{0} non è un valido gruppo di Paginazione.',
+    'pageNavigation'         => 'Selezione Pagina',
+    'first'                  => 'Primo',
+    'previous'               => 'Precedente',
+    'next'                   => 'Prossimo',
+    'last'                   => 'Ultimo',
+    'older'                  => 'Più datato',
+    'newer'                  => 'Più recente',
+    'invalidTemplate'        => '{0} non è un valido Pager template.',
+    'invalidPaginationGroup' => '{0} non è un valido gruppo di Paginazione.',
 ];

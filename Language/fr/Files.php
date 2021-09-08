@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,7 +11,7 @@
 
 // Files language settings
 return [
-	'fileNotFound' => 'Fichier non trouvé : {0}',
-	'cannotMove'   => 'Impossible de déplacer le fichier {0} vers {1} ({2})',
-	//   'cannotCopy'      => 'Impossible de copier vers {0} - vérifiez que votre répertoire est accessible en écriture',
+    'fileNotFound' => 'Fichier non trouvé : {0}',
+    'cannotMove'   => 'Impossible de déplacer le fichier {0} vers {1} ({2})',
+    //   'cannotCopy'      => 'Impossible de copier vers {0} - vérifiez que votre répertoire est accessible en écriture',
 ];

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,9 +11,9 @@
 
 // CLI language settings
 return [
-	'helpUsage'       => 'bruke:',
-	'helpDescription' => 'Beskrivelse:',
-	'helpOptions'     => 'alternativer:',
-	'helpArguments'   => 'argumenter:',
-	'invalidColor'    => 'Ugyldig {0} farge: {1}.',
+    'helpUsage'       => 'bruke:',
+    'helpDescription' => 'Beskrivelse:',
+    'helpOptions'     => 'alternativer:',
+    'helpArguments'   => 'argumenter:',
+    'invalidColor'    => 'Ugyldig {0} farge: {1}.',
 ];

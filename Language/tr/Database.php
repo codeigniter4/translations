@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Database language settings
 return [
-	'invalidEvent'         => '{0} geçersiz Model Event geri çağrısı.',
-	'invalidArgument'      => 'Geçerli bir {0} belirtmelisiniz.',
-	'invalidAllowedFields' => 'Modelde izin verilen alanlar belirtilmeli: {0}',
-	'emptyDataset'         => '{0} içinde veri yok.',
+    'invalidEvent'         => '{0} geçersiz Model Event geri çağrısı.',
+    'invalidArgument'      => 'Geçerli bir {0} belirtmelisiniz.',
+    'invalidAllowedFields' => 'Modelde izin verilen alanlar belirtilmeli: {0}',
+    'emptyDataset'         => '{0} içinde veri yok.',
 ];

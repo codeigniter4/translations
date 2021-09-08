@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,9 +11,9 @@
 
 // Core language settings
 return [
-	'copyError'                    => 'Трапилась помилка при спробі замінити файл ({0}). Будь ласка, переконайтесь, що ваш каталог файлів доступний для запису.',
-	'enabledZlibOutputCompression' => 'INI директива zlib.output_compression увімкнута. Це не буде працювати бездоганно із вихідними буферами.',
-	'invalidFile'                  => 'Неприпустимий файл: {0}',
-	'missingExtension'             => '{0} розширення не завантажується.',
-	'noHandlers'                   => '{0} повинен мати не менш ніж один обробник.',
+    'copyError'                    => 'Трапилась помилка при спробі замінити файл ({0}). Будь ласка, переконайтесь, що ваш каталог файлів доступний для запису.',
+    'enabledZlibOutputCompression' => 'INI директива zlib.output_compression увімкнута. Це не буде працювати бездоганно із вихідними буферами.',
+    'invalidFile'                  => 'Неприпустимий файл: {0}',
+    'missingExtension'             => '{0} розширення не завантажується.',
+    'noHandlers'                   => '{0} повинен мати не менш ніж один обробник.',
 ];

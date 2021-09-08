@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Security language settings
 return [
-	'disallowedAction' => 'Požadovaná akce není povolena.',
-	'invalidSameSite'  => 'SameSite hodnota musí být None, Lax, Strict nebo prázdný řetězec. Zadané: {0}',
+    'disallowedAction' => 'Požadovaná akce není povolena.',
+    'invalidSameSite'  => 'SameSite hodnota musí být None, Lax, Strict nebo prázdný řetězec. Zadané: {0}',
 ];

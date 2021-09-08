@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,16 +11,16 @@
 
 // Number language settings
 return [
-	'terabyteAbbr' => 'To',
-	'gigabyteAbbr' => 'Go',
-	'megabyteAbbr' => 'Mo',
-	'kilobyteAbbr' => 'Ko',
-	'bytes'        => 'Octets',
+    'terabyteAbbr' => 'To',
+    'gigabyteAbbr' => 'Go',
+    'megabyteAbbr' => 'Mo',
+    'kilobyteAbbr' => 'Ko',
+    'bytes'        => 'Octets',
 
-	// don't forget the space in front of these!
-	'thousand'    => ' millier',
-	'million'     => ' million',
-	'billion'     => ' milliard',
-	'trillion'    => ' billion',
-	'quadrillion' => ' quadrillion',
+    // don't forget the space in front of these!
+    'thousand'    => ' millier',
+    'million'     => ' million',
+    'billion'     => ' milliard',
+    'trillion'    => ' billion',
+    'quadrillion' => ' quadrillion',
 ];

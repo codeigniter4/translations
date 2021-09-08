@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -10,13 +10,13 @@
  */
 
 return [
-	'baseCastMissing'        => 'Klassen "{0}" måste ärva från "CodeIgniter\Entity\Cast\BaseCast".',
-	'invalidCastMethod'      => '"{0}" är en otillåten metod, tillåtna metoder är: ["get", "set"].',
-	'invalidTimestamp'       => 'Cast av "timestamp" förväntar en korrekt timestamp.',
-	'jsonErrorCtrlChar'      => 'Hittade ett oväntat kontrolltecken',
-	'jsonErrorDepth'         => 'Maximalt stack-djup överträddes',
-	'jsonErrorStateMismatch' => 'För lite data eller modes som inte stämmer',
-	'jsonErrorSyntax'        => 'Syntax fel, felaktigt formatterad JSON',
-	'jsonErrorUnknown'       => 'Okänt fel',
-	'jsonErrorUtf8'          => 'Felaktigt UTF-8 tecken, möjligtvis felaktig kodning',
+    'baseCastMissing'        => 'Klassen "{0}" måste ärva från "CodeIgniter\Entity\Cast\BaseCast".',
+    'invalidCastMethod'      => '"{0}" är en otillåten metod, tillåtna metoder är: ["get", "set"].',
+    'invalidTimestamp'       => 'Cast av "timestamp" förväntar en korrekt timestamp.',
+    'jsonErrorCtrlChar'      => 'Hittade ett oväntat kontrolltecken',
+    'jsonErrorDepth'         => 'Maximalt stack-djup överträddes',
+    'jsonErrorStateMismatch' => 'För lite data eller modes som inte stämmer',
+    'jsonErrorSyntax'        => 'Syntax fel, felaktigt formatterad JSON',
+    'jsonErrorUnknown'       => 'Okänt fel',
+    'jsonErrorUtf8'          => 'Felaktigt UTF-8 tecken, möjligtvis felaktig kodning',
 ];

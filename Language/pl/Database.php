@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,8 +11,8 @@
 
 // Database language settings
 return [
-	'invalidEvent'         => '{0} nie jest prawidłowym wywołaniem wywołania modelu.',
-	'invalidArgument'      => 'Musisz podać poprawną {0}.',
-	'invalidAllowedFields' => 'Dozwolone pola muszą być określone dla modelu: {0}',
-	'emptyDataset'         => 'Brak danych do {0}.',
+    'invalidEvent'         => '{0} nie jest prawidłowym wywołaniem wywołania modelu.',
+    'invalidArgument'      => 'Musisz podać poprawną {0}.',
+    'invalidAllowedFields' => 'Dozwolone pola muszą być określone dla modelu: {0}',
+    'emptyDataset'         => 'Brak danych do {0}.',
 ];

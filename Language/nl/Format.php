@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the CodeIgniter 4 framework.
+ * This file is part of CodeIgniter 4 framework.
  *
  * (c) CodeIgniter Foundation <admin@codeigniter.com>
  *
@@ -11,6 +11,6 @@
 
 // Format language settings
 return [
-	'invalidJSON'      => 'Parsen van JSON string gefaald, fout: "{0}".',
-	'missingExtension' => 'De SimpleXML extension is verplicht voor het formateren van XML.',
+    'invalidJSON'      => 'Parsen van JSON string gefaald, fout: "{0}".',
+    'missingExtension' => 'De SimpleXML extension is verplicht voor het formateren van XML.',
 ];
