@@ -20,7 +20,7 @@ return [
 	// don't forget the space in front of these!
 	'thousand'    => ' ribu',
 	'million'     => ' juta',
-	'billion'     => ' milyar',
+	'billion'     => ' miliar',
 	'trillion'    => ' triliun',
 	'quadrillion' => ' kuadriliun',
 ];

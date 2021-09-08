@@ -11,8 +11,8 @@
 
 // Format language settings
 return [
-	'invalidFormatter' => '"{0}" bukan kelas Pemformat yang valid.',
+	'invalidFormatter' => '"{0}" bukan kelas pemformat yang valid.',
 	'invalidJSON'      => 'Gagal menguraikan string json, kesalahan: "{0}".',
-	'invalidMime'      => 'Tidak ada Formatter didefinisikan untuk jenis mime: "{0}".',
+	'invalidMime'      => 'Tidak ada pemformat didefinisikan untuk jenis mime: "{0}".',
 	'missingExtension' => 'Ekstensi SimpleXML diperlukan untuk memformat XML.',
 ];
