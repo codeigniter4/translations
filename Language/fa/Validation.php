@@ -35,7 +35,7 @@ return [
     'is_natural_no_zero'    => 'فیلد {field} باید عددی بزرگتر از صفر باشد.',
     'is_unique'             => 'فیلد {field} باید مقداری یکتا داشته باشد.',
     'less_than'             => 'فیلد {field} باید عددی کوچکتر از {param} باشد.',
-    'less_than_equal_to'    => 'فیلد {field} باید عددی کوکیتر یا مساوی {param} باشد.',
+    'less_than_equal_to'    => 'فیلد {field} باید عددی کوچکتر یا مساوی {param} باشد.',
     'matches'               => 'فیلد {field} با فیلد {param} همخوانی ندارد.',
     'max_length'            => 'طول فیلد {field} نباید بیشتر از {param} کاراکتر باشد.',
     'min_length'            => 'طول فیلد {field} باید حداقل {param} کاراکتر باشد.',

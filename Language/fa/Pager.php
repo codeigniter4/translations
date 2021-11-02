@@ -19,5 +19,5 @@ return [
     'older'                  => 'قدیمی‌تر',
     'newer'                  => 'جدیدتر',
     'invalidTemplate'        => '{0} قالب صفحه‌ی معتبری نیست.',
-    'invalidPaginationGroup' => '{0} گروه ناوربری معتبری نیست.',
+    'invalidPaginationGroup' => '{0} گروه ناوبری معتبری نیست.',
 ];
