@@ -9,8 +9,10 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// Security language settings
 return [
-    'invalidLogLevel' => '{0} jest nieprawidłowym poziomem zapisywania Logów.',
-    'invalidMessageType' => 'Przekazany typ komunikatu "{0}" nie jest obsługiwany.',
+    'disallowedAction' => 'Żądana akcja nie jest dozwolona.',
+
+    // @deprecated
+    'invalidSameSite' => 'Wartość SameSite musi mieć wartość "None", "Lax", "Strict" lub być pustym ciągiem. Podano: {0}',
 ];

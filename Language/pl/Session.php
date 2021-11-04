@@ -13,7 +13,10 @@
 return [
     'missingDatabaseTable'   => '`sessionSavePath` musi mieć nazwę tabeli dla obsługi sesji bazy danych.',
     'invalidSavePath'        => 'Sesja: Skonfigurowana ścieżka zapisu "{0}" nie jest katalogiem, nie istnieje lub nie można jej utworzyć.',
-    'writeProtectedSavePath' => 'Sesja: Skonfigurowana ścieżka zapisu "{0}" nie jest zapisywalna w procesie PHP.',
+    'writeProtectedSavePath' => 'Sesja: Skonfigurowana ścieżka zapisu "{0}" nie ma prawa do zapisu przez proces PHP.',
     'emptySavePath'          => 'Sesja: Nie skonfigurowano żadnej ścieżki zapisu.',
     'invalidSavePathFormat'  => 'Session: Nieprawidłowy format zapisu zapisu Redis: {0}',
+
+    // @deprecated
+    'invalidSameSiteSetting' => 'Sesja: Wartość SameSite musi mieć wartość "None", "Lax", "Strict" lub być pustym ciągiem. Podano: {0}',
 ];

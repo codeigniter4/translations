@@ -11,6 +11,8 @@
 
 // Files language settings
 return [
-    'fileNotFound' => 'Nie znaleziono pliku: {0}',
-    'cannotMove'   => 'Nie można przenieść pliku {0} do {1} ({2})',
+    'fileNotFound'      => 'Nie znaleziono pliku: {0}',
+    'cannotMove'        => 'Nie można przenieść pliku {0} do {1} ({2})',
+    'expectedDirectory' => '{0} oczekiwał prawidłowego katalogu.',
+    'expectedFile'      => '{0} oczekiwał prawidłowego pliku.',
 ];

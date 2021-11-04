@@ -29,6 +29,13 @@ return [
     // RedirectResponse
     'invalidRoute' => '{0} nie jest prawidłową trasą.',
 
+    // DownloadResponse
+    'cannotSetBinary'        => 'Nie udało się ustawić trybu binarnego podczas ustawiania ścieżki.',
+    'cannotSetFilepath'      => 'Nie udało się ustawić ścieżki pliku dla trybu binarnego: {0}',
+    'notFoundDownloadSource' => 'Nie znaleziono źródła do pobierania.',
+    'cannotSetCache'         => 'Nie można ustawić cache dla pobierana.',
+    'cannotSetStatusCode'    => 'Nie można ustawić statusu odpowiedzi dla pobierania. Kod: {0}, przyczyna: {1}',
+
     // Response
     'missingResponseStatus' => 'W odpowiedzi HTTP brakuje kodu statusu',
     'invalidStatusCode'     => '{0} nie jest prawidłowym kodem statusu zwrotu HTTP',
@@ -62,4 +69,8 @@ return [
     'uploadErrNoTmpDir'  => 'Plik nie może zostać wysłany. Brak katalogu tymczasowego.',
     'uploadErrExtension' => 'Wysyłka pliku została zablokowana przez PHP.',
     'uploadErrUnknown'   => 'Plik "%s" nie został wysłany z nieznanego powodu.',
+
+    // SameSite setting
+    // @deprecated
+    'invalidSameSiteSetting' => 'Wartość SameSite musi mieć wartość "None", "Lax", "Strict" lub być pustym ciągiem. Podano: {0}',
 ];

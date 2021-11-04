@@ -17,6 +17,8 @@ return [
     'gifNotSupported'        => 'Obrazy GIF często nie są obsługiwane ze względu na ograniczenia licencyjne. Może być konieczne użycie obrazów JPG lub PNG.',
     'jpgNotSupported'        => 'Obrazy JPG nie są obsługiwane.',
     'pngNotSupported'        => 'Obrazy PNG nie są obsługiwane.',
+    'webpNotSupported'       => 'Obrazy WEBP nie są obsługiwane.',
+    'fileNotSupported'       => 'Przekazany format pliku nie jest obsługiwany.',
     'unsupportedImageCreate' => 'Twój serwer nie obsługuje funkcji GD wymaganej do przetwarzania tego typu obrazu.',
     'jpgOrPngRequired'       => 'Protokół zmiany rozmiaru obrazu określony w preferencjach działa tylko z obrazami JPEG lub PNG.',
     'rotateUnsupported'      => 'Obracanie obrazu nie jest obsługiwane przez Twój serwer.',
@@ -26,7 +28,7 @@ return [
     'invalidPath'            => 'Ścieżka do obrazu jest nieprawidłowa.',
     'copyFailed'             => 'Procedura kopiowania obrazów nie powiodła się.',
     'missingFont'            => 'Nie można znaleźć czcionki do użycia.',
-    'saveFailed'             => 'Nie można zapisać obrazu. Upewnij się, że obraz i katalog plików są zapisywalne.',
+    'saveFailed'             => 'Nie można zapisać obrazu. Upewnij się, że obraz i katalog plików posiadają prawa do zapisu.',
     'invalidDirection'       => 'Kierunek odwrócenia może być tylko "pionowy" lub "poziomy". Podano: {0}',
     'exifNotSupported'       => 'Odczytywanie danych EXIF nie jest obsługiwane przez tę instalację PHP.',
 ];
