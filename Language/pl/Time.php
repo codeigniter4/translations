@@ -11,6 +11,7 @@
 
 // Time language settings
 return [
+    'invalidFormat'  => '"{0}" nie jest prawidłowym formatem typu datetime',
     'invalidMonth'   => 'Miesiące muszą mieć wartość od 1 do 12. Biorąc pod uwagę: {0}',
     'invalidDay'     => 'Dni muszą należeć do przedziału od 1 do 31. Biorąc pod uwagę: {0}',
     'invalidOverDay' => 'Dni muszą wynosić od 1 do {0}. Biorąc pod uwagę: {1}',

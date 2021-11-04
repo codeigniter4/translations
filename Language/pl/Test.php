@@ -9,8 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// Testing language settings
 return [
-    'invalidLogLevel'    => '{0} jest nieprawidłowym poziomem zapisywania Logów.',
-    'invalidMessageType' => 'Przekazany typ komunikatu "{0}" nie jest obsługiwany.',
+    'invalidMockClass' => '{0} nie jest prawidłową klasą Mock',
 ];
