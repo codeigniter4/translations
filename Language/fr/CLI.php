@@ -11,7 +11,7 @@
 
 // CLI language settings
 return [
-    'commandNotFound' => 'Commande "{0}" untrouvable.',
+    'commandNotFound' => 'Commande "{0}" introuvable.',
     'helpUsage'       => 'Utilisation :',
     'helpDescription' => 'Description :',
     'helpOptions'     => 'Options :',
