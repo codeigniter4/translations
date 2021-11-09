@@ -11,12 +11,12 @@
 
 // Publisher language settings
 return [
-    'collision'             => 'Publisher encountered an unexpected {0} while copying {1} to {2}.',
-    'destinationNotAllowed' => 'Destination is not on the allowed list of Publisher directories: {0}',
-    'fileNotAllowed'        => '{0} fails the following restriction for {1}: {2}',
+    'collision'             => 'Le Publisher a rencontré un {0} inattendu en copiant {1} vers {2}.',
+    'destinationNotAllowed' => 'La destination ne figure pas dans la liste de répertoires de Publisher autorisés : {0}',
+    'fileNotAllowed'        => '{0} ne répond pas à la restriction suivante pour {1} : {2}',
 
     // Publish Command
-    'publishMissing' => 'No Publisher classes detected in {0} across all namespaces.',
-    'publishSuccess' => '{0} published {1} file(s) to {2}.',
-    'publishFailure' => '{0} failed to publish to {1}!',
+    'publishMissing' => 'Aucune classe Publisher détectée dans {0} dans tous les namespaces.',
+    'publishSuccess' => '{0} a publié {1} fichier(s) vers {2}.',
+    'publishFailure' => '{0} n\'a pas réussi à publier vers {1} !',
 ];

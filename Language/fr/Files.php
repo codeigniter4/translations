@@ -11,7 +11,8 @@
 
 // Files language settings
 return [
-    'fileNotFound' => 'Fichier non trouvé : {0}',
-    'cannotMove'   => 'Impossible de déplacer le fichier {0} vers {1} ({2})',
-    //   'cannotCopy'      => 'Impossible de copier vers {0} - vérifiez que votre répertoire est accessible en écriture',
+    'fileNotFound'      => 'Fichier non trouvé : {0}',
+    'cannotMove'        => 'Impossible de déplacer le fichier {0} vers {1} ({2})',
+    'expectedDirectory' => '{0} attend un répertoire valide.',
+    'expectedFile'      => '{0} attend un fichier valide.',
 ];

@@ -11,8 +11,8 @@
 
 // Cache language settings
 return [
-    'unableToWrite'   => 'La cache est incapable d\'écrire dans {0}.',
-    'invalidHandlers' => 'La configuration de la cache doit avoir un tableau de $validHandlers.',
-    'noBackup'        => 'Cache config must have a handler and backupHandler set.',
-    'handlerNotFound' => 'Cache config has an invalid handler or backup handler specified.',
+    'unableToWrite'   => 'Le cache est incapable d\'écrire dans {0}.',
+    'invalidHandlers' => 'La configuration du cache doit avoir un tableau de $validHandlers.',
+    'noBackup'        => 'La configuration du cache doit avoir un gestionnaire de cache (handler) et un gestionnaire de relève (backup handler) définis.',
+    'handlerNotFound' => 'La configuration du cache contient un gestionnaire de cache (handler) ou un gestionnaire de relève (backup handler) invalide.',
 ];

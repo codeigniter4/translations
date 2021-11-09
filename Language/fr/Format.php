@@ -11,8 +11,8 @@
 
 // Format language settings
 return [
-    'invalidFormatter' => '"{0}" is not a valid Formatter class.',
-    'invalidJSON'      => 'Failed to parse json string, error: "{0}".',
-    'invalidMime'      => 'No Formatter defined for mime type: "{0}".',
-    'missingExtension' => 'The SimpleXML extension is required to format XML.',
+    'invalidFormatter' => '"{0}" n\'est pas une classe Formatter valide.',
+    'invalidJSON'      => 'Échec de l\'analyse de la chaîne json, erreur : "{0}".',
+    'invalidMime'      => 'Aucun Formatter défini pour le type mime : "{0}".',
+    'missingExtension' => 'L\'extension SimpleXML est nécessaire pour formater le XML.',
 ];

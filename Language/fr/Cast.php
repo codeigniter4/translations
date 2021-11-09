@@ -11,13 +11,13 @@
 
 // Cast language settings
 return [
-    'baseCastMissing'        => 'The "{0}" class must inherit the "CodeIgniter\Entity\Cast\BaseCast" class.',
-    'invalidCastMethod'      => 'The "{0}" is invalid cast method, valid methods are: ["get", "set"].',
-    'invalidTimestamp'       => 'Type casting "timestamp" expects a correct timestamp.',
-    'jsonErrorCtrlChar'      => 'Unexpected control character found.',
-    'jsonErrorDepth'         => 'Maximum stack depth exceeded.',
-    'jsonErrorStateMismatch' => 'Underflow or the modes mismatch.',
-    'jsonErrorSyntax'        => 'Syntax error, malformed JSON.',
-    'jsonErrorUnknown'       => 'Unknown error.',
-    'jsonErrorUtf8'          => 'Malformed UTF-8 characters, possibly incorrectly encoded.',
+    'baseCastMissing'        => 'La classe "{0}" doit hériter de la classe "CodeIgniter\Entity\Cast\BaseCast".',
+    'invalidCastMethod'      => 'Le "{0}" est une méthode de cast invalide, les méthodes valides sont : ["get", "set"].',
+    'invalidTimestamp'       => 'Le casting de type "timestamp" attend un timestamp correct.',
+    'jsonErrorCtrlChar'      => 'Un caractère de contrôle inattendu a été trouvé.',
+    'jsonErrorDepth'         => 'La profondeur maximale de la pile est dépassée.',
+    'jsonErrorStateMismatch' => 'Dépassement de capacité ou incompatibilité des modes.',
+    'jsonErrorSyntax'        => 'Erreur de syntaxe, JSON malformé.',
+    'jsonErrorUnknown'       => 'Erreur inconnue.',
+    'jsonErrorUtf8'          => 'Caractères UTF-8 malformés, peut-être mal encodés.',
 ];
