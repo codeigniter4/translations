@@ -9,8 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Filters language settings
+// RESTful language settings
 return [
-    'noFilter'           => 'Le filtre {0} doit avoir un alias correspondant défini.',
-    'incorrectInterface' => '{0} doit implémenter CodeIgniter\Filters\FilterInterface.',
+    'notImplemented' => 'L\'action "{0}" n\'est pas implementée.',
 ];

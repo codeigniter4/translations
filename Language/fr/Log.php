@@ -11,5 +11,6 @@
 
 // Log language settings
 return [
-    'invalidLogLevel' => '{0} est un niveau de log invalide.',
+    'invalidLogLevel'    => '{0} est un niveau de log invalide.',
+    'invalidMessageType' => 'Le type de message "{0}" n\'est pas pris en charge.',
 ];
