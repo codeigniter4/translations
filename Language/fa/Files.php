@@ -12,7 +12,12 @@
 // Files language settings
 return [
     'fileNotFound' => 'فایل {0} پیدا نشد.',
-    'cannotMove'   => 'انتقال فایل از {0} به {1} به مشکل خورد ({2}).',
-    //   'invalidFilename' => 'فایل مقصد وجود ندارد، یا نامعتبر است: {0}.',
-    //   'cannotCopy'      => 'امکان کپی به فایل {0} وجود ندارد - لطفا مطمئن شوید که دسترسی نوشتن در مقصد وجود دارد.',
+    // File not found: {0}
+
+    'cannotMove'   => 'انتقال فایل از {0} به {1} به مشکل خورد ({2}).', // Could not move file {0} to {1} ({2}).
+    'expectedDirectory' => '{0} یک فهرست معتبر را انتظار دارد.', 
+    // {0} expects a valid directory.
+
+    'expectedFile'      => '{0} یک فایل معتبر را انتظار دارد.', 
+    // {0} expects a valid file.',
 ];
