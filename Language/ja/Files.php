@@ -13,4 +13,6 @@
 return [
     'fileNotFound' => 'ファイルがありません: {0}', // File not found: {0}
     'cannotMove'   => '{0} から {1} へファイルの移動ができません。 ({2})', // Could not move file {0} to {1} ({2})
+    'expectedDirectory' => '{0} expects a valid directory.',
+    'expectedFile'      => '{0} expects a valid file.',
 ];
