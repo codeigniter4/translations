@@ -11,13 +11,13 @@
 
 // Cast language settings
 return [
+    'baseCastMissing'        => 'Kelas "{0}" harus mewarisi kelas "CodeIgniter\Entity\Cast\BaseCast".',
+    'invalidCastMethod'      => '"{0}" adalah metode cast yang tidak valid, metode yang valid adalah: ["get", "set"].',
+    'invalidTimestamp'       => 'Ketik casting "timestamp" mengharapkan timestamp yang benar.',
+    'jsonErrorCtrlChar'      => 'Karakter kontrol tak terduga ditemukan.',
     'jsonErrorDepth'         => 'Kedalaman tumpukan maksimum terlampaui.',
-    'jsonErrorStateMismatch' => 'Di bawah aliran atau mode tidak cocok.',
-    'jsonErrorCtrlChar'      => 'Ditemukan karakter kontrol tak terduga.',
-    'jsonErrorSyntax'        => 'Kesalahan sintaksis, JSON salah format.',
-    'jsonErrorUtf8'          => 'Karakter UTF-8 salah bentuk, mungkin disandikan salah.',
+    'jsonErrorStateMismatch' => 'Underflow atau mode tidak cocok.',
+    'jsonErrorSyntax'        => 'Kesalahan sintaks, JSON salah format.',
     'jsonErrorUnknown'       => 'Kesalahan yang tidak diketahui.',
-    'abstractCastMissing'    => 'Kelas {0} harus menurunkan kelas CodeIgniter\EntityCast\AbstractCast.',
-    'wrongCastMethod'        => 'Metode yang diizinkan untuk cast adalah "get" dan "set".',
-    'invalidTimestamp'       => 'Jenis casting "timestamp" mengharapkan timestamp yang benar.',
+    'jsonErrorUtf8'          => 'Karakter UTF-8 salah format, mungkin salah dikodekan.',
 ];
