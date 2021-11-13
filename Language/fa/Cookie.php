@@ -20,7 +20,7 @@ return [
     'invalidSameSite'       => 'مقدار SameSite باید None، Lax، Strict یا یک رشته خالی، {0} داده شده باشد.', // The SameSite value must be None, Lax, Strict or a blank string, {0} given.
     'invalidSameSiteNone'   => 'استفاده از ویژگی "SameSite = None" مستلزم تنظیم ویژگی "Secure" است.', // Using the "SameSite=None" attribute requires setting the "Secure" attribute.
 
-    'invalidCookieInstance' => 'کلاس "{0}" انتظار داشت که آرایه کوکی ها نمونه هایی از "{1}" باشند، اما در نمایه {3} "{2}" دریافت کردند.', 
+    'invalidCookieInstance' => 'کلاس "{0}" انتظار داشت که آرایه کوکی ها نمونه هایی از "{1}" باشند، اما در نمایه {3} "{2}" دریافت کردند.',
     // "{0}" class expected cookies array to be instances of "{1}" but got "{2}" at index {3}.
 
     'unknownCookieInstance' => 'شی کوکی با نام "{0}" و پیشوند "{1}" در مجموعه یافت نشد.', // Cookie object with name "{0}" and prefix "{1}" was not found in the collection.

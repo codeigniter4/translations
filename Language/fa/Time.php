@@ -11,7 +11,7 @@
 
 // Time language settings
 return [
-    'invalidFormat'  => '"{0}" یک فرمت تاریخ معتبر نیست', 
+    'invalidFormat'  => '"{0}" یک فرمت تاریخ معتبر نیست',
     // "{0}" is not a valid datetime format.
 
     'invalidMonth'   => 'ماه باید بین 1 تا 12 باشد. مقدار وارد شده: {0}',

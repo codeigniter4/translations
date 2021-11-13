@@ -31,10 +31,10 @@ return [
     'featureUnavailable'    => 'این قابلیت برای بانک اطلاعاتی که شما در حال استفاده از آن هستید، فراهم نیست.', // This feature is not available for the database you are using.
     'tableNotFound'         => 'جدول «{0}» در پایگاه داده فعلی یافت نشد.', // Table `{0}` was not found in the current database.
 
-    'noPrimaryKey'          => 'کلاس مدل `{0}` کلید اصلی را مشخص نمی کند.', 
+    'noPrimaryKey'          => 'کلاس مدل `{0}` کلید اصلی را مشخص نمی کند.',
     // `{0}` model class does not specify a Primary Key.
 
-    'noDateFormat'          => 'کلاس مدل `{0}` یک dateFormat معتبر ندارد.', 
+    'noDateFormat'          => 'کلاس مدل `{0}` یک dateFormat معتبر ندارد.',
     // `{0}` model class does not have a valid dateFormat.
 
     'fieldNotExists'        => 'فیلد «{0}» یافت نشد.', // Field `{0}` not found.

@@ -11,7 +11,7 @@
 
 // Validation language settings
 return [
-    
+
     // Core Messages
     'noRuleSets'      => 'در تنظیمات اعتبارسنجی هیچ سری قانونی تعریف نشده است.', // No rulesets specified in Validation configuration.
 

@@ -19,7 +19,7 @@ return [
     'older'                  => 'قدیمی‌تر', // Older.
     'newer'                  => 'جدیدتر', // Newer.
 
-    'invalidTemplate'        => '{0} قالب صفحه‌ی معتبری نیست.', 
+    'invalidTemplate'        => '{0} قالب صفحه‌ی معتبری نیست.',
     // {0} is not a valid Pager template.
 
     'invalidPaginationGroup' => '{0} گروه ناوبری معتبری نیست.',

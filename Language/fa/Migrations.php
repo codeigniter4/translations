@@ -14,10 +14,10 @@ return [
     // Migration Runner
     'missingTable' => 'جدول مایگریشن تنظیم نشده است.', // Migrations table must be set.
     'disabled'      => 'مایگریشن‌ها بارگزاری شده‌اند، اما غیرفعالند یا درست تنظیم نشده اند.', // Migrations have been loaded but are disabled or setup incorrectly.
-    'notFound'      => 'فایل مایگریشن پیدا نشد: ', // Migration file not found: 
+    'notFound'      => 'فایل مایگریشن پیدا نشد: ', // Migration file not found:
     'batchNotFound' => 'دسته هدف پیدا نشد: ', // Target batch not found:
     'empty'         => 'هیچ فایل مایگریشنی پیدا نشد.', // No Migration files found.
-    'gap'           => 'فاصله ای در دنباله‌ی مایگریشن در نزدیک این ورژن وجود دارد: ', // There is a gap in the migration sequence near version number: 
+    'gap'           => 'فاصله ای در دنباله‌ی مایگریشن در نزدیک این ورژن وجود دارد: ', // There is a gap in the migration sequence near version number:
     'classNotFound' => 'کلاس مایگریشن "%s" پیدا نشد.', // The migration class "%s" could not be found.
     'missingMethod' => 'کلاس مایگریشن متد "%s" را ندارد.', // The migration class is missing an "%s" method.
 
@@ -45,13 +45,13 @@ return [
     'migMissingSeeder'  => 'شما باید یک نام Seeder ارائه کنید.', // You must provide a seeder name.
     'nameSeeder'        => 'فایل seder را نام ببرید', // Name the seeder file
     'removed'           => 'برگشتن:', // Rolling back:
-    'added'             => 'در حال اجرا:', // Running: 
+    'added'             => 'در حال اجرا:', // Running:
 
     // Migrate Status
     'namespace' => 'فضای نام',
     'filename'  => 'نام فایل',
     'version'   => 'نسخه',
     'group'     => 'گروه',
-    'on'        => 'Migrated در: ', // Migrated On: 
+    'on'        => 'Migrated در: ', // Migrated On:
     'batch'     => 'دسته',
 ];

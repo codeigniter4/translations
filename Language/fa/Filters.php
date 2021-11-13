@@ -14,6 +14,6 @@ return [
     'noFilter'           => 'فیلتر {0} باید یک نام مستعار منطبق تعریف شده داشته باشد.',
     // {0} filter must have a matching alias defined.
 
-    'incorrectInterface' => '{0} باید CodeIgniter\Filters\FilterInterface را پیاده سازی کند.', 
+    'incorrectInterface' => '{0} باید CodeIgniter\Filters\FilterInterface را پیاده سازی کند.',
     // {0} must implement CodeIgniter\Filters\FilterInterface.
 ];

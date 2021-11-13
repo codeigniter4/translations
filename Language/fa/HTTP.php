@@ -19,62 +19,62 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '{0} نوع ورودی معتبری نیست. باید یکی از media, charset, encoding, language باشد.',
-                                                                                                        // {0} is not a valid negotiation type. Must be one of: media, charset, encoding, language.
+    // {0} is not a valid negotiation type. Must be one of: media, charset, encoding, language.
 
 
 
     // Message
     'invalidHTTPProtocol' => 'نسخه HTTP Protocol معتبر نیست. گزینه‌های معتبر: {0}',
-                                                                        // Invalid HTTP Protocol Version. Must be one of: {0}
+    // Invalid HTTP Protocol Version. Must be one of: {0}
 
 
 
     // Negotiate
     'emptySupportedNegotiations' => 'برای انجام Negotiations شما باید آرایه‌ای از مقادیر مجاز را وارد کنید.',
-                                                                                        // You must provide an array of supported values to all Negotiations.
+    // You must provide an array of supported values to all Negotiations.
 
 
 
     // RedirectResponse
     'invalidRoute' => 'مسیر {0} در هنگام مسیریابی وارونه (reverse-routing) پیدا نشد.',
-                                                                        // {0} route cannot be found while reverse-routing.
+    // {0} route cannot be found while reverse-routing.
 
 
 
     // DownloadResponse
     'cannotSetBinary'        => 'وقتی که مسیر فایل را تنظیم می‌کنید، نمی‌توانید یک مقدار باینری وارد کنید.', // When setting filepath cannot set binary.
     'cannotSetFilepath'      => 'وقتی که باینری را انتخاب می‌کید، نمی‌توانید مسیر فایل ارسال کنید: {0}',
-                                                                                // When setting binary cannot set filepath: {0}
+    // When setting binary cannot set filepath: {0}
 
     'notFoundDownloadSource' => 'منبع دانلود پیدا نشد.', // Not found download body source.
     'cannotSetCache'         => 'سیستم Caching برای دانلود پشتیبانی نمی‌شود.', // It does not support caching for downloading.
     'cannotSetStatusCode'    => 'تغییر status code برای دانلود پشتیبانی نمی‌شود. کد: {0}, دلیل: {1}',
-                                                                                    // It does not support change status code for downloading. code: {0}
+    // It does not support change status code for downloading. code: {0}
 
 
 
     // Response
     'missingResponseStatus' => 'Status code در پاسخ HTTP وجود ندارد', // HTTP Response is missing a status code.
     'invalidStatusCode'     => '{0} یک Status Code صحیح نیست.',
-                                                            // {0} is not a valid HTTP return status code.
+    // {0} is not a valid HTTP return status code.
 
     'unknownStatusCode'     => 'Status Code نامعلوم با هیچ پیامی مرتبط نیست: {0}',
-                                                                        // Unknown HTTP status code provided with no message: {0}.
+    // Unknown HTTP status code provided with no message: {0}.
 
 
 
     // URI
     'cannotParseURI'       => 'پارس کردن و فهمیدن URI ممکن نیست: {0}',
-                                                             // Unable to parse URI: {0}
+    // Unable to parse URI: {0}
 
     'segmentOutOfRange'    => 'بخش Request URI خارج از محدوده است: {0}',
-                                                                 // Request URI segment is out of range: {0}
+    // Request URI segment is out of range: {0}
 
     'invalidPort'          => 'پورت باید بین 0 و 65535 باشد. مقدار ورودی: {0}',
-                                                                    // Ports must be between 0 and 65535. Given: {0}
+    // Ports must be between 0 and 65535. Given: {0}
 
     'malformedQueryString' => 'Query string نمی‌تواند شامل قسمت‌های URI باشد.',
-                                                                    // Query strings may not include URI fragments.
+    // Query strings may not include URI fragments.
 
 
 

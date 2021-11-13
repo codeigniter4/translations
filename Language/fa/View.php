@@ -13,7 +13,7 @@
 return [
     'invalidCellMethod'     => '{class}::{method} تابع معتبری نیست.', // {class}::{method} is not a valid method.
     'missingCellParameters' => '{class}::{method} پارامتری ندارد.', // {class}::{method} has no params.
-    
+
     'invalidCellParameter'  => '{0} نام پارامتر معتبری نیست.',
     // {0} is not a valid param name.
 
