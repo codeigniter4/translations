@@ -14,10 +14,10 @@ return [
     'fileNotFound' => 'فایل {0} پیدا نشد.',
     // File not found: {0}
 
-    'cannotMove'   => 'انتقال فایل از {0} به {1} به مشکل خورد ({2}).', // Could not move file {0} to {1} ({2}).
+    'cannotMove' => 'انتقال فایل از {0} به {1} به مشکل خورد ({2}).', // Could not move file {0} to {1} ({2}).
     'expectedDirectory' => '{0} یک فهرست معتبر را انتظار دارد.',
     // {0} expects a valid directory.
 
-    'expectedFile'      => '{0} یک فایل معتبر را انتظار دارد.',
+    'expectedFile' => '{0} یک فایل معتبر را انتظار دارد.',
     // {0} expects a valid file.',
 ];

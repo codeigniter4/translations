@@ -15,12 +15,12 @@ return [
     'gigabyteAbbr' => 'GB',
     'megabyteAbbr' => 'MB',
     'kilobyteAbbr' => 'KB',
-    'bytes'        => 'Bytes',
+    'bytes' => 'Bytes',
 
     // don't forget the space in front of these!
-    'thousand'    => ' هزار',
-    'million'     => ' میلیون',
-    'billion'     => ' میلیارد',
-    'trillion'    => ' تریلیون',
+    'thousand' => ' هزار',
+    'million' => ' میلیون',
+    'billion' => ' میلیارد',
+    'trillion' => ' تریلیون',
     'quadrillion' => ' کوادریلیون',
 ];

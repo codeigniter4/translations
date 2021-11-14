@@ -11,7 +11,7 @@
 
 // Fabricator language settings
 return [
-    'invalidModel'      => 'مدل نامعتبر برای ساخت ارائه شده است.', // Invalid model supplied for fabrication.
+    'invalidModel' => 'مدل نامعتبر برای ساخت ارائه شده است.', // Invalid model supplied for fabrication.
     'missingFormatters' => 'هیچ فرمتر معتبری تعریف نشده است.', // No valid formatters defined.
-    'createFailed'      => 'Fabricator در جدول {0} درج نشد: {1}', // Fabricator failed to insert on table {0}: {1}
+    'createFailed' => 'Fabricator در جدول {0} درج نشد: {1}', // Fabricator failed to insert on table {0}: {1}
 ];

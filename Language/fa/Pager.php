@@ -11,15 +11,15 @@
 
 // Pager language settings
 return [
-    'pageNavigation'         => 'ناوبری صفحه', // Page navigation.
-    'first'                  => 'اولین', // First.
-    'previous'               => 'قبلی', // Previous.
-    'next'                   => 'بعدی', // Next.
-    'last'                   => 'آخرین', // Last.
-    'older'                  => 'قدیمی‌تر', // Older.
-    'newer'                  => 'جدیدتر', // Newer.
+    'pageNavigation' => 'ناوبری صفحه', // Page navigation.
+    'first' => 'اولین', // First.
+    'previous' => 'قبلی', // Previous.
+    'next' => 'بعدی', // Next.
+    'last' => 'آخرین', // Last.
+    'older' => 'قدیمی‌تر', // Older.
+    'newer' => 'جدیدتر', // Newer.
 
-    'invalidTemplate'        => '{0} قالب صفحه‌ی معتبری نیست.',
+    'invalidTemplate' => '{0} قالب صفحه‌ی معتبری نیست.',
     // {0} is not a valid Pager template.
 
     'invalidPaginationGroup' => '{0} گروه ناوبری معتبری نیست.',
