@@ -9,8 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// Testing language settings
 return [
-    'invalidLogLevel'    => '{0} é um level de log inválido.',
-    'invalidMessageType' => 'O tipo "{0}" fornecido na mensagem não é suportado.',
+    'invalidMockClass' => '{0} não é uma classe Mock válida',
 ];
