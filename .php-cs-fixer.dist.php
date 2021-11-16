@@ -22,6 +22,7 @@ $finder = Finder::create()
     ->append([
         __FILE__,
         '.github/scripts/continuous-integration',
+        'bin/test',
     ]);
 
 $overrides = [];
