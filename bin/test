@@ -54,7 +54,7 @@ if ($argc === 2) {
 
 CLI::write(
     'The following locales have untranslated items:',
-    'white',
+    'light_gray',
     'red'
 );
 exec($phpunit, $output, $resultCode);
