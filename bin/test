@@ -25,17 +25,17 @@ CLI::write();
 $testCase = new class () extends AbstractTranslationTestCase {
     public function getTestCaseClassname(string $locale): string
     {
-        foreach (self::$locales as $classname => $localCode) {
-            if ($localCode === $locale) {
-                $namespaces = explode('\\', $classname);
+        $classname = array_flip(self::$locales)[$locale] ?? null;
 
-                return end($namespaces);
-            }
+        if ($classname === null) {
+            CLI::write('Locale "' . $locale . '" not found.', 'light_gray', 'red');
+
+            exit(1);
         }
 
-        CLI::write('Locale "' . $locale . '" not found.', 'light_gray', 'red');
+        $namespaces = explode('\\', $classname);
 
-        exit(1);
+        return end($namespaces);
     }
 };
 
