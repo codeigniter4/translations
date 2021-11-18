@@ -19,9 +19,7 @@ passthru('composer update --ansi');
 CLI::write();
 
 CLI::write('Fixing coding style...', 'black', 'green');
-passthru(
-    "{$phpCsFixer} fix --verbose --diff"
-);
+passthru("{$phpCsFixer} fix --verbose --diff");
 CLI::write();
 
 $testCase = new class () extends AbstractTranslationTestCase {
