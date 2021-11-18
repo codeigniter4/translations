@@ -74,3 +74,5 @@ ksort($untranslatedLocales);
 foreach ($untranslatedLocales as $locale) {
     CLI::write($locale);
 }
+
+exit($resultCode);
