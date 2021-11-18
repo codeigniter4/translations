@@ -14,7 +14,7 @@ if (CLI::isWindows()) {
 }
 
 CLI::write('Running `composer update`...', 'black', 'green');
-passthru('composer update');
+passthru('composer update --ansi');
 CLI::write();
 
 CLI::write('Fixing coding style...', 'black', 'green');
