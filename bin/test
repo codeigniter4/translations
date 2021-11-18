@@ -57,11 +57,7 @@ CLI::write(
     'white',
     'red'
 );
-exec(
-    $phpunit,
-    $output,
-    $resultCode
-);
+exec($phpunit, $output, $resultCode);
 
 $untranslatedLocales = [];
 
