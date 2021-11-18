@@ -45,7 +45,7 @@ if ($argc === 2) {
     $testClassname = $testCase->getTestCaseClassname($locale);
 
     CLI::write('Running test...', 'black', 'green');
-    $command = "{$phpunit} --filter {$testClassname}";
+    $command = "{$phpunit} --filter {$testClassname} --color=always";
     CLI::write($command);
     passthru($command, $resultCode);
 
