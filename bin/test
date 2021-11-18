@@ -33,7 +33,7 @@ $testCase = new class () extends AbstractTranslationTestCase {
             }
         }
 
-        CLI::write('Locale "' . $locale . '" not found.', 'white', 'red');
+        CLI::write('Locale "' . $locale . '" not found.', 'light_gray', 'red');
 
         exit(1);
     }
