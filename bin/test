@@ -1,0 +1,78 @@
+#!/usr/bin/env php
+<?php declare(strict_types=1);
+
+require __DIR__ . '/../vendor/codeigniter4/codeigniter4/system/Test/bootstrap.php';
+
+use CodeIgniter\CLI\CLI;
+use Translations\Tests\AbstractTranslationTestCase;
+
+$phpCsFixer = 'vendor/bin/php-cs-fixer';
+$phpunit    = 'vendor/bin/phpunit';
+
+if (CLI::isWindows()) {
+    $phpCsFixer = strtr($phpCsFixer, '/', '\\');
+    $phpunit    = strtr($phpunit, '/', '\\');
+}
+
+CLI::write('Running `composer update`...', 'black', 'green');
+passthru('composer update --ansi');
+CLI::write();
+
+CLI::write('Fixing coding style...', 'black', 'green');
+passthru("{$phpCsFixer} fix --verbose --diff");
+CLI::write();
+
+$testCase = new class () extends AbstractTranslationTestCase {
+    public function getTestCaseClassname(string $locale): string
+    {
+        $classname = array_flip(self::$locales)[$locale] ?? null;
+
+        if ($classname === null) {
+            CLI::write('Locale "' . $locale . '" not found.', 'light_gray', 'red');
+
+            exit(1);
+        }
+
+        $namespaces = explode('\\', $classname);
+
+        return end($namespaces);
+    }
+};
+
+if ($argc === 2) {
+    $locale = $argv[1];
+
+    $testClassname = $testCase->getTestCaseClassname($locale);
+
+    CLI::write('Running test...', 'black', 'green');
+    $command = "{$phpunit} --filter {$testClassname} --color=always";
+    CLI::write($command);
+    passthru($command, $resultCode);
+
+    exit($resultCode);
+}
+
+CLI::write(
+    'The following locales have untranslated items:',
+    'light_gray',
+    'red'
+);
+exec($phpunit, $output, $resultCode);
+
+$untranslatedLocales = [];
+
+foreach ($output as $line) {
+    $pattern = '/\A\d+\) Translations\\\\(.*)"(.+?)"/';
+    if (preg_match($pattern, $line, $matches) === 1) {
+        $locale                       = $matches[2];
+        $untranslatedLocales[$locale] = $locale;
+    }
+}
+
+ksort($untranslatedLocales);
+
+foreach ($untranslatedLocales as $locale) {
+    CLI::write($locale);
+}
+
+exit($resultCode);

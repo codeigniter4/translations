@@ -9,3 +9,6 @@ tests/ export-ignore
 utils/ export-ignore
 phpunit.xml.dist export-ignore
 .php-cs-fixer.dist.php export-ignore
+
+# development tools
+bin/test
