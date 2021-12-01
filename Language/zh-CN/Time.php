@@ -19,7 +19,7 @@ return [
     'invalidMinutes' => '分钟必须在 0 至 59 之间。 现在是: {0}',
     'invalidSeconds' => '秒数必须在 0 至 59 之间。 现在是: {0}',
     'years'          => '{0, plural, =1{# 年} other{# 年}}',
-    'months'         => '{0, plural, =1{# 月} other{# 月}}',
+    'months'         => '{0, plural, =1{# 个月} other{# 个月}}',
     'weeks'          => '{0, plural, =1{# 周} other{# 周}}',
     'days'           => '{0, plural, =1{# 天} other{# 天}}',
     'hours'          => '{0, plural, =1{# 小时} other{# 小时}}',
