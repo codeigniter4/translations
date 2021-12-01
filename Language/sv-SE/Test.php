@@ -9,9 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
+// Testing language settings
 return [
-    'fileNotFound'      => 'Kunde inte hitta filen: {0}',
-    'cannotMove'        => 'Kunde inte flytta filen {0} till {1} ({2})',
-    'expectedDirectory' => '{0} kräver en giltig katalog.',
-    'expectedFile'      => '{0} kräver en giltig fil.',
+    'invalidMockClass' => '{0} är inte en giltig Mock-klass',
 ];
