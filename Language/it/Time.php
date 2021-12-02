@@ -29,4 +29,10 @@ return [
     'yesterday'      => 'Ieri',
     'tomorrow'       => 'Domani',
     'now'            => 'Adesso',
+    
+    //Format strings by date and time
+    'dateTimeFormat'        => 'dd/MM/yyyy HH:mm:ss',
+    'dateFormat'            => 'dd/MM/yyyy',
+    'timeFormat'            => 'HH:mm:ss',
+    'formattedDateFormat'   => 'd MMM yyyy',  
 ];
