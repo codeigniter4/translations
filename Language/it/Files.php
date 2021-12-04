@@ -13,6 +13,6 @@
 return [
     'fileNotFound'      => 'File non trovato: {0}',
     'cannotMove'        => 'Non è possibile spostare il file {0} in {1} ({2})',
-    'expectedDirectory' => '{0} si aspetta una directory valida.' ,
-    'expectedFile'      => '{0} si aspetta un file valido.',        
+    'expectedDirectory' => '{0} si aspetta una directory valida.',
+    'expectedFile'      => '{0} si aspetta un file valido.',
 ];
