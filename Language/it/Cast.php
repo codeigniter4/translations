@@ -21,4 +21,3 @@ return [
     'jsonErrorUnknown'       => 'Errore JSON sconosciuto',
     'jsonErrorUtf8'          => 'Sono stati rilevati dei caratteri UTF-8 non codificati correttamente',
 ];
-
