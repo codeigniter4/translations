@@ -16,5 +16,5 @@ return [
     'invalidFile'                  => 'Non valido il file: {0}',
     'invalidPhpVersion'            => 'Per eseguire CodeIgniter, la tua versione di PHP deve essere {0} o superiore. Versione attuale: {1}',
     'missingExtension'             => '{0} estensione non è caricata.',
-    'noHandlers'                   => '{0} deve prevedere almeno un Gestore.',   
+    'noHandlers'                   => '{0} deve prevedere almeno un Gestore.',
 ];
