@@ -16,5 +16,5 @@ return [
     'unKnownHandler'       => '未知的加密处理程序 "{0}"。',
     'starterKeyNeeded'     => '加密器需要一个密钥。',
     'authenticationFailed' => '解密: 认证失败。',
-    'encryptionFailed'     => '加密失败。,
+    'encryptionFailed'     => '加密失败。',
 ];

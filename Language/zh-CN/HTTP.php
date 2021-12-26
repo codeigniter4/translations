@@ -62,15 +62,15 @@ return [
     'invalidFile'  => '原始文件不是有效的文件。',
     'moveFailed'   => '无法将文件 {0} 移动到 {1} ({2})。',
 
-    'uploadErrOk'        => 'The file uploaded with success.',
-    'uploadErrIniSize'   => 'The file "%s" exceeds your upload_max_filesize ini directive.',
-    'uploadErrFormSize'  => 'The file "%s" exceeds the upload limit defined in your form.',
-    'uploadErrPartial'   => 'The file "%s" was only partially uploaded.',
-    'uploadErrNoFile'    => 'No file was uploaded.',
-    'uploadErrCantWrite' => 'The file "%s" could not be written on disk.',
-    'uploadErrNoTmpDir'  => 'File could not be uploaded: missing temporary directory.',
-    'uploadErrExtension' => 'File upload was stopped by a PHP extension.',
-    'uploadErrUnknown'   => 'The file "%s" was not uploaded due to an unknown error.',
+    'uploadErrOk'        => '文件上传成功。',
+    'uploadErrIniSize'   => '文件大小 "%s" 超过了 upload_max_filesize 配置中的限制。',
+    'uploadErrFormSize'  => '文件数量 "%s" 超过了表单中的上传限制。',
+    'uploadErrPartial'   => '文件 "%s" 只是部分上传。',
+    'uploadErrNoFile'    => '没有上传文件。',
+    'uploadErrCantWrite' => '文件 "%s" 不能被写入硬盘。',
+    'uploadErrNoTmpDir'  => '文件不能被上传: 缺少临时目录。',
+    'uploadErrExtension' => '文件上传被一个 PHP 扩展程序阻止。',
+    'uploadErrUnknown'   => '由于一个未知的错误，文件 "%s" 没有被上传。',
 
     // SameSite setting
     // @deprecated
