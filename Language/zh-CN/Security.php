@@ -9,8 +9,10 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Filters language settings
+// Security language settings
 return [
-    'noFilter'           => '过滤器 {0} 必须有一个匹配的别名定义。',
-    'incorrectInterface' => '{0} 必须实现 CodeIgniter\Filters\FilterInterface。',
+    'disallowedAction' => '当前请求操作不被允许。',
+
+    // @deprecated
+    'invalidSameSite' => 'SameSite 的值必须是 None, Lax, Strict 或者空白字符串。当前是 {0}。',
 ];
