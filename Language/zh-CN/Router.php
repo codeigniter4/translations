@@ -11,6 +11,6 @@
 
 // Router language settings
 return [
-    'invalidParameter'    => '参数与预期类型不一致。',
-    'missingDefaultRoute' => '无法确定显示内容，因为路由文件中没有指定默认的路由。',
+    'invalidParameter'    => '一个参数不符合预期的类型。',
+    'missingDefaultRoute' => '无法确定应显示的内容。路由文件中没有指定默认路由。',
 ];

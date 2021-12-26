@@ -11,8 +11,10 @@
 
 // Core language settings
 return [
-    'copyError'        => '尝试替换文件时发生错误，请确认文件路径是否有写权限。',
-    'invalidFile'      => '无效的文件: {0}。',
-    'missingExtension' => '未加载 {0} 扩展。',
-    'noHandlers'       => '{0} 必须提供至少一个处理程序。',
+    'copyError'                    => '替换文件 ({0}) 时发生错误. 请确保你的文件目录可以写入。',
+    'enabledZlibOutputCompression' => '你的 zlib.output_compression ini 选项已启用，该选项和输出缓冲功能无法很好的配合使用。',
+    'invalidFile'                  => '无效的文件: {0}',
+    'invalidPhpVersion'            => '要运行 CodeIgniter，你的 PHP 版本必须是 {0} 或更高。当前版本: {1}',
+    'missingExtension'             => '要运行 CodeIgniter，以下扩展必须要安装并启用: {0}。',
+    'noHandlers'                   => '{0} 必须提供至少一个处理器 (Handler)。',
 ];

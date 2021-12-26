@@ -11,8 +11,8 @@
 
 // Cache language settings
 return [
-    'unableToWrite'   => '{0} 缓存无法写入。',
-    'invalidHandlers' => '缓存配置必须含有 $validHandlers 数组。',
-    'noBackup'        => '缓存配置必须含有 handler 和 backup handler。',
-    'handlerNotFound' => '缓存配置指定了无效的 handler 或 backup handler。',
+    'unableToWrite'   => '无法将缓存写入到 {0}。',
+    'invalidHandlers' => '缓存必须配置有 $validHandlers 数组。',
+    'noBackup'        => '缓存必须配置有处理器 (handler) 和备用处理器 (backupHandler)。',
+    'handlerNotFound' => '缓存配置了无效的处理器 (handler) 或备用处理器 (backupHandler)。',
 ];

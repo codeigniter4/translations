@@ -20,7 +20,7 @@ return [
     // don't forget the space in front of these!
     'thousand'    => ' 千',
     'million'     => ' 百万',
-    'billion'     => ' 亿',
-    'trillion'    => ' 兆',
-    'quadrillion' => ' 万亿',
+    'billion'     => ' 十亿',
+    'trillion'    => ' 万亿',
+    'quadrillion' => ' 十万亿',
 ];
