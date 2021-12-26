@@ -12,7 +12,7 @@
 // Validation language settings
 return [
     // Core Messages
-    'noRuleSets'      => '驗證設定中沒有指定任何規則。',
+    'noRuleSets'      => '驗證設定中沒有指定任何規則。',
     'ruleNotFound'    => '{0} 不是一個有效的規則。',
     'groupNotFound'   => '{0} 不是一個驗證規則群組。',
     'groupNotArray'   => '{0} 規則群組的型別必須是陣列。',
