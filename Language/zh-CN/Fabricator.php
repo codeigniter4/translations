@@ -9,8 +9,9 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Filters language settings
+// Fabricator language settings
 return [
-    'noFilter'           => '过滤器 {0} 必须有一个匹配的别名定义。',
-    'incorrectInterface' => '{0} 必须实现 CodeIgniter\Filters\FilterInterface。',
+    'invalidModel'      => '给构造器提供的模型无效。',
+    'missingFormatters' => '没有定义有效的格式化器',
+    'createFailed'      => '构造器在表 {0} 中插入数据失败。错误: {1}',
 ];

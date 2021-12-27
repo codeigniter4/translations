@@ -11,5 +11,6 @@
 
 // Log language settings
 return [
-    'invalidLogLevel' => '{0} 是无效的日志级别。',
+    'invalidLogLevel'    => '{0} 是一个无效的日志级别。',
+    'invalidMessageType' => '不支持给定的消息类别 "{0}"。',
 ];

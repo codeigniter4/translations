@@ -9,8 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Filters language settings
+// RESTful language settings
 return [
-    'noFilter'           => '过滤器 {0} 必须有一个匹配的别名定义。',
-    'incorrectInterface' => '{0} 必须实现 CodeIgniter\Filters\FilterInterface。',
+    'notImplemented' => '操作 "{0}" 未实现。',
 ];
