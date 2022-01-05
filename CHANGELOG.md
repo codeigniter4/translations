@@ -19,7 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - it (Italian)
 - pt-BR (Brazilian)
 - sv-SE (Swedish-Sweden)
-- zh-CN (Simple Chinese)
+- zh-CN (Simplified Chinese)
 - zh-TW (Traditional Chinese)
 
 ## [v4.1.5](https://github.com/codeigniter4/translations/compare/v4.1.4...v4.1.5) - 2021-11-10

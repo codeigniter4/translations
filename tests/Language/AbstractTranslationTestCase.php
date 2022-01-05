@@ -64,7 +64,7 @@ abstract class AbstractTranslationTestCase extends TestCase
         TurkishTranslationTest::class            => 'tr',
         UkrainianTranslationTest::class          => 'uk',
         VietnameseTranslationTest::class         => 'vi',
-        SimpleChineseTranslationTest::class      => 'zh-CN',
+        SimplifiedChineseTranslationTest::class  => 'zh-CN',
         TraditionalChineseTranslationTest::class => 'zh-TW',
     ];
 

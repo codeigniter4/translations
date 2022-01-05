@@ -14,6 +14,6 @@ namespace Translations\Tests;
 /**
  * @internal
  */
-final class SimpleChineseTranslationTest extends AbstractTranslationTestCase
+final class SimplifiedChineseTranslationTest extends AbstractTranslationTestCase
 {
 }

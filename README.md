@@ -59,7 +59,7 @@ claims no expertise beyond English.
 | tr     | Turkish              | 4.0.0   | [obozdag][tr]        | obozdag
 | uk     | Ukrainian            | 4.0.3   | [flybot][uk]         | Serhii Kosyi
 | vi     | Vietnamese           | 4.0.3   | [xuandung38][vi]     | XuanDung38
-| zh-CN  | Simple Chinese       | 4.0.0   | [bangbangda][zh-CN]  | bangbangda
+| zh-CN  | Simplified Chinese   | 4.0.0   | [bangbangda][zh-CN]  | bangbangda
 | zh-TW  | Traditional Chinese  | 4.0.0   | [monkenWu][zh-TW]    | monkenWu
 
 _**Version where the locale was released. 4.x denotes `Unreleased`._
