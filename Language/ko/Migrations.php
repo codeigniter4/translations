@@ -36,6 +36,7 @@ return [
 
     'latest'            => '새로운 모든 마이그레이션들을 실행 중...', // 'Running all new migrations...',
     'generalFault'      => '마이그레이션 실패!', // 'Migration failed!',
+    'migrated'          => '마이그레이션 성공.', // 'Migrations complete.',
     'migInvalidVersion' => '유효하지 않은 숫자 버전 값이 지정되었습니다.', // 'Invalid version number provided.',
     'toVersionPH'       => '버전 %s 경우로 마이그레이션 중...', // 'Migrating to version %s...',
     'toVersion'         => '현재 버전으로 마이그레이션 중...', // 'Migrating to current version...',
