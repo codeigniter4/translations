@@ -28,7 +28,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        php-versions: ['7.3', '7.4', '8.0']
+        php-versions: ['7.4', '8.0', '8.1']
 
     steps:
       - name: Checkout code
@@ -65,7 +65,7 @@ jobs:
         run: composer config --global github-oauth.github.com ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install dependencies
-        run: composer update --ansi --no-scripts --no-interaction
+        run: composer update --ansi
 
       - name: Run Translations Test Suite
         run: |
