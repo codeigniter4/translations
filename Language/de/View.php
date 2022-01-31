@@ -14,7 +14,8 @@ return [
     'invalidCellMethod'     => '{class}::{method} ist keine gültige Methode.',
     'missingCellParameters' => '{class}::{method} hat keine Parameter.',
     'invalidCellParameter'  => '{0} ist kein gültiger Parameter-Name.',
-    'noCellClass'           => 'Es ist keine View cell Klasse angegeben',
+    'noCellClass'           => 'Es ist keine View cell Klasse angegeben.',
     'invalidCellClass'      => 'View cell Klasse konnte nicht gefunden werden: {0}.',
     'tagSyntaxError'        => 'Syntaxfehler in den Parser-tags: {0}',
+    'invalidDecoratorClass' => '{0} ist kein gültiger View Decorator.',
 ];
