@@ -27,4 +27,5 @@ return [
     'fieldNotExists'                   => 'Feld `{0}` nicht gefunden.',
     'forEmptyInputGiven'               => 'Leere Anweisung für Feld `{0}`.',
     'forFindColumnHaveMultipleColumns' => 'Es darf nur ein einzelner Feldname definiert werden.',
+    'methodNotAvailable' => '`{1}` kann nicht in `{0}` verwendet werden. Dies ist eine Methode der Klasse `Query Builder`.',
 ];
