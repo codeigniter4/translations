@@ -17,4 +17,5 @@ return [
     'noCellClass'           => 'ビューセルクラスは提供されていません。', // No view cell class provided.
     'invalidCellClass'      => 'ビューセルクラス「{0}」を見つけることができません。', // Unable to locate view cell class: {0}.
     'tagSyntaxError'        => 'パーサータグ「{0}」に構文エラーがあります。', // You have a syntax error in your Parser tags: {0}
+    'invalidDecoratorClass' => '{0} は有効なビューデコレーターではありません。', // '{0} is not a valid View Decorator.'
 ];
