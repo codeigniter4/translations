@@ -27,7 +27,7 @@ return [
     'alpha_space'           => 'A(z) {field} mező csak az angol abc karaktereit és szóközöket tartalmazhat.',
     'decimal'               => 'A(z) {field} mező csak tizedes számokat tartalmazhat.',
     'differs'               => 'A(z) {field} mezőnek különböznie kell a(z) {param} mezőtől.',
-    'equals'                => 'A(z) {field} mező értékének pontosan ennyinek kelllennie: {param}.',
+    'equals'                => 'A(z) {field} mező értékének pontosan ennyinek kell lennie: {param}.',
     'exact_length'          => 'A(z) {field} mezőnek pontosan {param} karakter hosszúságúnak kelllennie.',
     'greater_than'          => 'A(z) {field} mező értékének nagyobbnak kell lennie, mint {param}.',
     'greater_than_equal_to' => 'A(z) {field} mező értékének nagyobbnak vagy egyenlőnek kell lennie, mint {param}.',
