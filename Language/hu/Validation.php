@@ -66,7 +66,7 @@ return [
     'uploaded' => '{field} nem egy érvényes feltöltött állomány.',
     'max_size' => '{field} állománymérete túl nagy.',
     'is_image' => '{field} nem egy érvényes feltöltött képfájl.',
-    'mime_in'  => '{field} nem tartalmaz érvényes mime típust.',
+    'mime_in'  => '{field} nem tartalmaz érvényes MIME típust.',
     'ext_in'   => '{field} nem tartalmaz érvényes kiterjesztést.',
     'max_dims' => '{field} vagy nem kép vagy túl széles vagy magas.',
 ];
