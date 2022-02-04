@@ -74,5 +74,5 @@ return [
 
     // SameSite setting
     // @deprecated
-    'invalidSameSiteSetting' => 'A SameSite beállítás egyike kel legyen a következőknek: None, Lax, Strict, vagy üres. Megadva: {0}',
+    'invalidSameSiteSetting' => 'A SameSite értékének None, Lax, Strict vagy egy üres karakterláncnak kell lennie, megadva: {0}.',
 ];

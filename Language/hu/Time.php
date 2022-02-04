@@ -27,7 +27,7 @@ return [
     'seconds'        => '{0, plural, =1{# second} egyéb{# seconds}}',
     'ago'            => '{0} óta',
     'inFuture'       => '{0} múlva',
-    'yesterday'      => 'Tegnap',
-    'tomorrow'       => 'Holnap',
-    'now'            => 'Most',
+    'yesterday'      => 'tegnap',
+    'tomorrow'       => 'holnap',
+    'now'            => 'most',
 ];
