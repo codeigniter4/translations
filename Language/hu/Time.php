@@ -11,7 +11,7 @@
 
 // Time language settings
 return [
-    'invalidFormat'  => '"{0}" is not a valid datetime format',
+    'invalidFormat'  => 'A "{0}" nem érvényes dátum- és időformátum',
     'invalidMonth'   => 'A hónapoknak 1 és 12 közé kell esniük. Megadva: {0}',
     'invalidDay'     => 'A napoknak 1 és 31 közé kell esniük. Megadva: {0}',
     'invalidOverDay' => 'A napoknak 1 és {0} közé kell esniük. Megadva: {1}',

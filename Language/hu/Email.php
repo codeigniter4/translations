@@ -27,7 +27,7 @@ return [
     'noSMTPAuth'           => 'Hiba: SMTP felhasználót és jelszót kell hozzárendelnie.',
     'failedSMTPLogin'      => 'Nem sikerült elküldeni az AUTH LOGIN parancsot. Hiba: {0}',
     'SMTPAuthUsername'     => 'Nem sikerült hitelesíteni a felhasználónevet. Hiba: {0}',
-    'SMTPAuthPassword'     => 'Failed to authenticate password. Error: {0}',
+    'SMTPAuthPassword'     => 'Nem sikerült hitelesíteni a jelszót. Hiba: {0}',
     'SMTPDataFailure'      => 'Nem lehet adatokat küldeni: {0}',
     'exitStatus'           => 'Kilépési állapotkód: {0}',
 ];

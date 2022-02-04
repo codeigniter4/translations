@@ -17,9 +17,9 @@ return [
     'notFound'      => 'A migrációs állomány nem található: ',
     'batchNotFound' => 'A célköteg nem található: ',
     'empty'         => 'Nem található migrációs állomány',
-    'gap'           => 'There is a gap in the migration sequence near version number: ',
-    'classNotFound' => 'The migration class "%s" could not be found.',
-    'missingMethod' => 'The migration class is missing an "%s" method.',
+    'gap'           => 'Hiány van az migrációs sorrendben a verziószám közelében: ',
+    'classNotFound' => 'A(z) "%s" migrációs osztály nem található.',
+    'missingMethod' => 'Az migrációs osztályból hiányzik a(z) "%s" metódus.',
 
     // Migration Command
     'migHelpLatest'   => "\t\tMigrálja az adatbázist a legutolsó elérhető állapotra.",
@@ -28,7 +28,7 @@ return [
     'migHelpRollback' => "\tVisszaállítja a migrációt 0-dik verzióra.",
     'migHelpRefresh'  => "\t\tEltávolítja és újra migrálja az adatokat az adatbázis frissítéséhez.",
     'migHelpSeed'     => "\tA következő nevű Seeder futtatása: [name]",
-    'migCreate'       => "\tCreates a new migration named [name]",
+    'migCreate'       => "\tÚj migrációt hoz létre [name] néven",
     'nameMigration'   => 'Migrációs fájl elnevezése',
     'migNumberError'  => 'A migrációs számnak három számjegynek kell lennie és nem ugorhat át  verziószámot.',
     'rollBackConfirm' => 'Biztosan visszaállítja a korábbit?',
@@ -49,7 +49,7 @@ return [
     'added'             => 'Folyamatban: ',
 
     // Migrate Status
-    'namespace' => 'Namespace',
+    'namespace' => 'Névtér',
     'filename'  => 'Fájlnév',
     'version'   => 'Verzió',
     'group'     => 'Csoport',

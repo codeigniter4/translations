@@ -12,7 +12,7 @@
 // CLI language settings
 return [
     'altCommandPlural'   => 'Ezekre gondoltál?',
-    'altCommandSingular' => 'Erre gondoltad?',
+    'altCommandSingular' => 'Erre gondoltál?',
     'commandNotFound'    => 'A(z) "{0}" parancs nem található.',
     'generator'          => [
         'cancelOperation' => 'A művelet megszakítva.',
@@ -44,5 +44,5 @@ return [
     'helpOptions'         => 'Opciók:',
     'helpUsage'           => 'Használat:',
     'invalidColor'        => 'Érvénytelen {0} szín: {1}.',
-    'namespaceNotDefined' => 'Namespace "{0}" is not defined.',
+    'namespaceNotDefined' => 'A(z) "{0}" névtér nincs megadva.',
 ];
