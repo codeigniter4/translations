@@ -33,7 +33,7 @@ claims no expertise beyond English.
 | Locale | Language            | As of** | Github User           | Maintainer
 |--------|---------------------| ------- |-----------------------| --------------------
 | ar     | Arabic              | 4.0.0   | [daif][ar]            | Daif Alotaibi
-| bs     | Bosnian             | 4.0.0   | [demirkaric][bs]      | Demir Karić
+| bs     | Bosnian             | 4.x     | [demirkaric][bs]      | Demir Karić
 | cs     | Czech               | 4.0.3   | [PavelTajdus][cs]     | Pavel Tajduš
 | de     | German              | 4.0.0   | [sba][de]             | Stefan Bauer
 | en     | English             | 4.0.0   | **N/A**               | CI team
