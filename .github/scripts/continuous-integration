@@ -76,8 +76,16 @@ if ($count > 0 && $count < count(AbstractTranslationTestCase::$locales)) {
     $return  = 0;
 
     foreach ($locales as $locale) {
-        $class = (string) array_search($locale, AbstractTranslationTestCase::$locales, true);
-        $class = preg_replace('/^Translations\\\\Tests\\\\(.+)$/u', '$1', $class);
+        $class = array_search($locale, AbstractTranslationTestCase::$locales, true);
+
+        if ($class === false) {
+            CLI::error(sprintf('The locale "%s" has no corresponding test case yet.', $locale), 'light_gray', 'red');
+            CLI::error('You can read on the Contributing Guide for details on adding test cases.', 'light_gray', 'red');
+
+            exit(1);
+        }
+
+        $class = preg_replace('/^Translations\\\\Tests\\\\(.+)$/u', '$1', (string) $class);
 
         CLI::write("Executing vendor/bin/phpunit --color=always --filter {$class}\n", 'black', 'yellow');
         passthru("{$phpunit} --color=always --filter {$class}", $return);
