@@ -33,7 +33,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Translations\\Tests\\": "tests/Language/"
+            "Translations\\Tests\\": "tests/Language/",
+            "Translations\\Tests\\AutoReview\\": "tests/AutoReview"
         }
     },
     "repositories": [
