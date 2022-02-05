@@ -16,7 +16,7 @@ namespace Translations\Tests;
  */
 final class BosnianTranslationTest extends AbstractTranslationTestCase
 {
-     protected array $excludedLocaleKeyTranslations = [
+    protected array $excludedLocaleKeyTranslations = [
         'Migrations.batch',
         'Migrations.namespace',
     ];
