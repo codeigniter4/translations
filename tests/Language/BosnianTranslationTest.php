@@ -16,4 +16,8 @@ namespace Translations\Tests;
  */
 final class BosnianTranslationTest extends AbstractTranslationTestCase
 {
+     protected array $excludedLocaleKeyTranslations = [
+        'Migrations.batch',
+        'Migrations.namespace',
+    ];
 }

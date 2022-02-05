@@ -49,10 +49,10 @@ return [
     'added'             => 'Radim: ',
 
     // Migrate Status
-    'namespace' => 'Nejmspejs',
+    'namespace' => 'Namespace',
     'filename'  => 'Ime datoteke',
     'version'   => 'Verzija',
     'group'     => 'Grupa',
     'on'        => 'Migrirano na: ',
-    'batch'     => 'Skupina',
+    'batch'     => 'Batch',
 ];
