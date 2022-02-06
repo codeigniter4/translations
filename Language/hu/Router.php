@@ -12,5 +12,5 @@
 // Router language settings
 return [
     'invalidParameter'    => 'Egy paraméter nem felel meg a várt típusnak.',
-    'missingDefaultRoute' => 'Nincs meghatározva, hogy mit kellene megjeleníteni. Az alap útvonal nincs meghatározva az útvonal leíró fájlban.',
+    'missingDefaultRoute' => 'Nincs meghatározva, hogy mit kellene megjeleníteni. Az alap útvonal nincs meghatározva az útvonalleíró fájlban.',
 ];

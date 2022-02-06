@@ -11,5 +11,5 @@
 
 // RESTful language settings
 return [
-    'notImplemented' => '"{0}" művelet nincs kivitelezve.',
+    'notImplemented' => '"{0}" művelet nincs megvalósítva.',
 ];

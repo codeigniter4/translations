@@ -12,8 +12,8 @@
 // Cast language settings
 return [
     'baseCastMissing'        => 'A "{0}" osztálynak örökölnie kell a "CodeIgniter\Entity\Cast\BaseCast" osztályt.',
-    'invalidCastMethod'      => 'A "{0}" érvénytelen szerep módszer, az érvényes metódusok: ["get", "set"].',
-    'invalidTimestamp'       => 'Az "időbélyeg" típusú szerep megfelelő időbélyeget vár.',
+    'invalidCastMethod'      => 'A "{0}" érvénytelen Cast módszer, az érvényes metódusok: ["get", "set"].',
+    'invalidTimestamp'       => 'Az "időbélyeg" típusú Cast megfelelő időbélyeget vár.',
     'jsonErrorCtrlChar'      => 'Váratlan vezérlőkarakter található.',
     'jsonErrorDepth'         => 'Túllépte a verem maximális mélységét.',
     'jsonErrorStateMismatch' => 'Alulcsordulás vagy a módok nem egyeznek.',
