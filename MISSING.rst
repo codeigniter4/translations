@@ -17,7 +17,6 @@ da        Danish                janhansson*        Jan Hansson
 fil       Filipino              dzerium            Edzer Josh V. Padilla ... See note below
 gu        Gujarati              sajid19991         Sajid Mathupotra
 hi        Hindi                 shindesushilkumar  Sushilkumar Shinde
-hu        Hungarian             orionstar          László Bóra
 km        Khmer                 Chanthoeun         Chanthoeun Kim
 ro        Romanian              CodefishRo         Cristian Robert Chiribuc
 sr        Serbian               novakurosevic      Novak Urosevic ???
