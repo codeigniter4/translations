@@ -15,6 +15,9 @@
          stopOnSkipped="false"
          verbose="true">
     <testsuites>
+        <testsuite name="Automatic Review Test Suite">
+            <directory suffix="Test.php">tests/AutoReview</directory>
+        </testsuite>
         <testsuite name="Language Test Suite">
             <directory suffix="Test.php">tests/Language</directory>
         </testsuite>

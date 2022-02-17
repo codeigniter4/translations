@@ -142,7 +142,7 @@ if ($count > 0 && $count < count(AbstractTranslationTestCase::$locales)) {
         }
     }
 
-    passthru("{$phpunit} --color=always", $returns);
+    passthru("{$phpunit} --color=always --exclude-group=auto-review", $returns);
 
     $result = ob_get_clean();
     $failed = [];
