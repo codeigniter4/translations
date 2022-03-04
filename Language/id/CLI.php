@@ -28,7 +28,7 @@ return [
             'seeder'     => 'Nama kelas Seeder',
             'validation' => 'Nama kelas Validation',
         ],
-        'commandType'      => 'Jenis Command',
+        'commandType'      => 'Jenis Perintah',
         'databaseGroup'    => 'Grup Basisdata',
         'fileCreate'       => 'Berkas dibuat: {0}',
         'fileError'        => 'Kesalahan ketika membuat berkas: {0}',
