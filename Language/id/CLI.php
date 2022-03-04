@@ -37,7 +37,7 @@ return [
         'parentClass'      => 'Kelas Parent',
         'returnType'       => 'Jenis Return',
         'tableName'        => 'Nama tabel',
-        'usingCINamespace' => 'Peringatan: Menggunalan namespace "CodeIgniter" akan menghasilkan berkas ke directori sistem.',
+        'usingCINamespace' => 'Peringatan: Menggunakan namespace "CodeIgniter" akan menghasilkan berkas ke direktori sistem.',
     ],
     'helpArguments'       => 'Argumen:',
     'helpDescription'     => 'Deskripsi:',
