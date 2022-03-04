@@ -15,7 +15,7 @@ return [
     'altCommandSingular' => 'Apakah yang Anda maksud ini?',
     'commandNotFound'    => 'Perintah "{0}" tidak ditemukan.',
     'generator'          => [
-        'cancelOperation' => 'Operation has been cancelled.',
+        'cancelOperation' => 'Operasi telah dibatalkan.',
         'className'       => [
             'command'    => 'Nama kelas Command',
             'config'     => 'Nama kelas Config',
