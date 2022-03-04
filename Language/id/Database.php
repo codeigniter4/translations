@@ -27,4 +27,5 @@ return [
     'fieldNotExists'                   => 'Bidang `{0}` tidak ditemukan.',
     'forEmptyInputGiven'               => 'Pernyataan kosong diberikan untuk bidang `{0}`',
     'forFindColumnHaveMultipleColumns' => 'Hanya satu kolom yang diizinkan dalam nama Kolom.',
+    'methodNotAvailable'               => 'Metode `{1}` dalam `{0}` tidak dapat digunakan. Ini adalah metode kelas `Query Builder`.',
 ];

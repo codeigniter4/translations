@@ -36,6 +36,7 @@ return [
 
     'latest'            => 'Menjalankan semua migrasi baru...',
     'generalFault'      => 'Migrasi gagal!',
+    'migrated'          => 'Migrasi selesai.',
     'migInvalidVersion' => 'Nomor versi tidak valid diberikan.',
     'toVersionPH'       => 'Migrasi ke versi %s...',
     'toVersion'         => 'Migrasi ke versi saat ini...',

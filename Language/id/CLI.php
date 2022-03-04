@@ -15,7 +15,7 @@ return [
     'altCommandSingular' => 'Apakah yang Anda maksud ini?',
     'commandNotFound'    => 'Perintah "{0}" tidak ditemukan.',
     'generator'          => [
-        'cancelOperation' => 'Operation has been cancelled.',
+        'cancelOperation' => 'Operasi telah dibatalkan.',
         'className'       => [
             'command'    => 'Nama kelas Command',
             'config'     => 'Nama kelas Config',
@@ -28,7 +28,7 @@ return [
             'seeder'     => 'Nama kelas Seeder',
             'validation' => 'Nama kelas Validation',
         ],
-        'commandType'      => 'Jenis Command',
+        'commandType'      => 'Jenis Perintah',
         'databaseGroup'    => 'Grup Basisdata',
         'fileCreate'       => 'Berkas dibuat: {0}',
         'fileError'        => 'Kesalahan ketika membuat berkas: {0}',
@@ -37,7 +37,7 @@ return [
         'parentClass'      => 'Kelas Parent',
         'returnType'       => 'Jenis Return',
         'tableName'        => 'Nama tabel',
-        'usingCINamespace' => 'Peringatan: Menggunalan namespace "CodeIgniter" akan menghasilkan berkas ke directori sistem.',
+        'usingCINamespace' => 'Peringatan: Menggunakan namespace "CodeIgniter" akan menghasilkan berkas ke direktori sistem.',
     ],
     'helpArguments'       => 'Argumen:',
     'helpDescription'     => 'Deskripsi:',
