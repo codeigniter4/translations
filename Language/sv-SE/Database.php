@@ -26,4 +26,5 @@ return [
     'fieldNotExists'                   => 'Fältet `{0}` kunde inte hittas.',
     'forEmptyInputGiven'               => 'Blankt data angivet för fältet `{0}`',
     'forFindColumnHaveMultipleColumns' => 'Enbart en enda kolumn är tillåten som kolumnnamn.',
+    'methodNotAvailable'               => 'Du kan inte använda `{1}` i `{0}`. Det är en funktion i klassen `Query Builder`.',
 ];
