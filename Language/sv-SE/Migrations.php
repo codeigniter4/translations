@@ -35,6 +35,7 @@ return [
 
     'latest'            => 'Kör alla nya migreringar...',
     'generalFault'      => 'Migreringen misslyckades!',
+    'migrated'          => 'Migreringen slutförd.',
     'migInvalidVersion' => 'Felaktigt versionsnummer angivet.',
     'toVersionPH'       => 'Migrerar till version %s...',
     'toVersion'         => 'Migrerar till senaste version...',
