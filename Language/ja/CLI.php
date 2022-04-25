@@ -19,7 +19,7 @@ return [
         'className'       => [
             'command'    => 'コマンドクラス名', // 'Command class name',
             'config'     => '設定クラス名', // 'Config class name',
-            'controller' => 'コントローラークラス名', // 'Controller class name',
+            'controller' => 'コントローラクラス名', // 'Controller class name',
             'default'    => 'クラス名', // 'Class name',
             'entity'     => 'エンティティクラス名', // 'Entity class name',
             'filter'     => 'フィルタークラス名', // 'Filter class name',
