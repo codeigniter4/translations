@@ -53,6 +53,6 @@ return [
     'filename'  => 'ファイル名', // Filename
     'version'   => 'バージョン', // Version
     'group'     => 'グループ', // Group
-    'on'        => '移行先: ', // Migrated On:
+    'on'        => '移行日: ', // Migrated On:
     'batch'     => 'バッチ', // Batch
 ];
