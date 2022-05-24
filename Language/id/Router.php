@@ -11,6 +11,8 @@
 
 // Router language settings
 return [
-    'invalidParameter'    => 'Sebuah parameter tidak cocok dengan tipe yang diharapkan.',
-    'missingDefaultRoute' => 'Tidak dapat menentukan apa yang harus ditampilkan. Sebuah rute default belum ditentukan dalam berkas routing.',
+    'invalidParameter'         => 'Sebuah parameter tidak cocok dengan tipe yang diharapkan.',
+    'missingDefaultRoute'      => 'Tidak dapat menentukan apa yang harus ditampilkan. Sebuah rute default belum ditentukan dalam berkas routing.',
+    'invalidDynamicController' => 'Terkait keamanan pengontrol dinamis tidak dizinkan. Rute penangan: {0}',
+    'invalidControllerName'    => 'Sebuah pembatas namespace adalah backslash (\), bukan slash (/). Rute penangan: {0}',
 ];
