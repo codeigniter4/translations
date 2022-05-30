@@ -36,6 +36,7 @@ return [
 
     'latest'            => 'Executando todas as novas migrações...',
     'generalFault'      => 'Migração falhou!',
+    'migrated'          => 'Migrações concluídas.',
     'migInvalidVersion' => 'Número da versão fornecida é inválido.',
     'toVersionPH'       => 'Migrando para a versão %s...',
     'toVersion'         => 'Migrando para a versão atual...',
