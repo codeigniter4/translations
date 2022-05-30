@@ -27,4 +27,5 @@ return [
     'fieldNotExists'                   => 'Campo `{0}` não encontrado.',
     'forEmptyInputGiven'               => 'Declaração vazia passada para o campo `{0}`',
     'forFindColumnHaveMultipleColumns' => 'Apenas uma coluna é permitida no nome da coluna.',
+    'methodNotAvailable'               => 'Você não pode usar `{1}` em `{0}`. Este é um método da classe `Query Builder`.',
 ];

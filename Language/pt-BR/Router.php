@@ -11,6 +11,8 @@
 
 // Router language settings
 return [
-    'invalidParameter'    => 'Um parâmetro não corresponde ao tipo esperado.',
-    'missingDefaultRoute' => 'Não é possível determinar o que deve ser exibido. Uma rota padrão não foi especificada no arquivo de roteamento.',
+    'invalidParameter'         => 'Um parâmetro não corresponde ao tipo esperado.',
+    'missingDefaultRoute'      => 'Não é possível determinar o que deve ser exibido. Uma rota padrão não foi especificada no arquivo de roteamento.',
+    'invalidDynamicController' => 'Um controller dinâmico não é permitido por motivos de segurança. Gerenciador de rota: {0}',
+    'invalidControllerName'    => 'O delimitador de namespace é uma barra invertida (\), não uma barra (/). Gerenciador de rota: {0}',
 ];
