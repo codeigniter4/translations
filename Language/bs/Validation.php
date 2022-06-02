@@ -57,6 +57,7 @@ return [
     'valid_emails'          => '{field} polje mora sadržavati sve validne email adrese.',
     'valid_ip'              => '{field} polje mora sadržavati validan IP.',
     'valid_url'             => '{field} polje mora sadržavati validan URL.',
+    'valid_url_strict'      => '{field} polje mora sadržavati validan URL.',
     'valid_date'            => '{field} polje mora sadržavati validan datum.',
 
     // Credit Cards

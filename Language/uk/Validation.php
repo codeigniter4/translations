@@ -56,6 +56,7 @@ return [
     'valid_emails'          => 'Поле {field} має містити всі дійсні адреси електронної пошти.',
     'valid_ip'              => 'Поле {field} має містити дійсну IP-адресу.',
     'valid_url'             => 'Поле {field} має містити дійсну URL-адресу.',
+    'valid_url_strict'      => 'Поле {field} має містити дійсну URL-адресу.',
     'valid_date'            => 'Поле {field} має містити дійсну дату.',
 
     // Credit Cards

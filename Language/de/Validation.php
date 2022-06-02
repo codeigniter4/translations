@@ -57,6 +57,7 @@ return [
     'valid_emails'          => 'Das {field}-Formularfeld muss gültige E-Mail-Adressen enthalten.',
     'valid_ip'              => 'Das {field}-Formularfeld muss eine gültige IP enthalten.',
     'valid_url'             => 'Das {field}-Formularfeld muss eine gültige URL enthalten.',
+    'valid_url_strict'      => 'Das {field}-Formularfeld muss eine gültige URL enthalten.',
     'valid_date'            => 'Das {field}-Formularfeld muss ein gültiges Datum enthalten.',
 
     // Credit Cards

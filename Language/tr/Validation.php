@@ -53,6 +53,7 @@ return [
     'valid_emails'          => '{field} alanı geçerli email adresleri içermeli.',
     'valid_ip'              => '{field} alanı geçerli bir IP içermeli.',
     'valid_url'             => '{field} alanı geçerli bir URL içermeli.',
+    'valid_url_strict'      => '{field} alanı geçerli bir URL içermeli.',
     'valid_date'            => '{field} alanı geçerli bir tarih içermeli.',
 
     // Credit Cards

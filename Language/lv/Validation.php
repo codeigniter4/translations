@@ -57,6 +57,7 @@ return [
     'valid_emails'          => 'Lauka {field} vērtībai ir jābūt visām e-pasta adresēm.', // 'The {field} field must contain all valid email addresses.'
     'valid_ip'              => 'Lauka {field} vērtībai ir jābūt IP adresei.', // 'The {field} field must contain a valid IP.'
     'valid_url'             => 'Lauka {field} vērtībai ir jābūt URL adresei.', // 'The {field} field must contain a valid URL.'
+    'valid_url_strict'      => 'Lauka {field} vērtībai ir jābūt URL adresei.', // 'The {field} field must contain a valid URL.'
     'valid_date'            => 'Lauka {field} vērtībai ir jābūt datumam.', // 'The {field} field must contain a valid date.'
 
     // Credit Cards

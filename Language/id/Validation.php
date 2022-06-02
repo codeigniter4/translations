@@ -57,6 +57,7 @@ return [
     'valid_emails'          => 'Bidang {field} harus berisi semua alamat email yang valid.',
     'valid_ip'              => 'Bidang {field} harus berisi sebuah IP yang valid.',
     'valid_url'             => 'Bidang {field} harus berisi sebuah URL yang valid.',
+    'valid_url_strict'      => 'Bidang {field} harus berisi sebuah URL yang valid.',
     'valid_date'            => 'Bidang {field} harus berisi sebuah tanggal yang valid.',
 
     // Credit Cards

@@ -52,6 +52,7 @@ return [
     'valid_emails'          => 'Skjemafeltet {field} må inneholde gyldige e-postadresser.',
     'valid_ip'              => 'Skjemafeltet {field} må inneholde en gyldig IP.',
     'valid_url'             => 'Skjemafeltet {field} må inneholde en gyldig URL.',
+    'valid_url_strict'      => 'Skjemafeltet {field} må inneholde en gyldig URL.',
     'valid_date'            => 'Skjemafeltet {field} må inneholde en gyldig dato.',
 
     // Credit Cards

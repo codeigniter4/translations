@@ -57,6 +57,7 @@ return [
     'valid_emails'          => '{field} 필드의 값들은 유효한 이메일 주소이어야 합니다.', // 'The {field} field must contain all valid email addresses.',
     'valid_ip'              => '{field} 필드 값은 유효한 IP 주소이어야 합니다.', // 'The {field} field must contain a valid IP.',
     'valid_url'             => '{field} 필드 값은 유효한 URL 주소이어야 합니다.', // 'The {field} field must contain a valid URL.',
+    'valid_url_strict'      => '{field} 필드 값은 유효한 URL 주소이어야 합니다.', // 'The {field} field must contain a valid URL.',
     'valid_date'            => '{field} 필드 값은 유효한 날짜여야 합니다.', // 'The {field} field must contain a valid date.',
 
     // Credit Cards

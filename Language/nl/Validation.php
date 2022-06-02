@@ -55,6 +55,7 @@ return [
     'valid_emails'          => 'Het veld {field} mag enkel geldige emailadressen bevatten.',
     'valid_ip'              => 'Het veld {field} moet een geldig IP-adres bevatten.',
     'valid_url'             => 'Het veld {field} moet een geldige URL bevatten.',
+    'valid_url_strict'      => 'Het veld {field} moet een geldige URL bevatten.',
     'valid_date'            => 'Het veld {field} moet een geldige datum bevatten.',
 
     // Credit Cards
