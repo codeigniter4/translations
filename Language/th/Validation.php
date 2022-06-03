@@ -57,6 +57,7 @@ return [
     'valid_emails'          => 'ฟิลด์ {field} ต้องมีที่อยู่อีเมลที่ถูกต้องทั้งหมด',
     'valid_ip'              => 'ฟิลด์ {field} ต้องมี IP ที่ถูกต้อง',
     'valid_url'             => 'ฟิลด์ {field} ต้องมี URL ที่ถูกต้อง',
+    'valid_url_strict'      => 'ฟิลด์ {field} ต้องมี URL ที่ถูกต้อง',
     'valid_date'            => 'ฟิลด์ {field} ต้องมีวันที่ที่ถูกต้อง',
 
     // Credit Cards

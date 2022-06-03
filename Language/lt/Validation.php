@@ -52,6 +52,7 @@ return [
     'valid_emails'          => 'Lauke {field} visi el. pašto adresai turi būti teisyklingi.',
     'valid_ip'              => 'Lauke {field} turi būti taisyklingas IP adresas.',
     'valid_url'             => 'Lauke {field} turi būti taisyklingas URL.',
+    'valid_url_strict'      => 'Lauke {field} turi būti taisyklingas URL.',
     'valid_date'            => 'Lauke {field} turi būti taisyklinga data.',
 
     // Credit Cards

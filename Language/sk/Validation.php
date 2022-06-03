@@ -57,6 +57,7 @@ return [
     'valid_emails'          => 'Pole {field} musí obsahovať iba platné emailové adresy.',
     'valid_ip'              => 'Pole {field} musí obsahovať platnú IP adresu.',
     'valid_url'             => 'Pole {field} musí obsahovať platnú URL adresu.',
+    'valid_url_strict'      => 'Pole {field} musí obsahovať platnú URL adresu.',
     'valid_date'            => 'Pole {field} musí obsahovať platný dátum.',
 
     // Credit Cards

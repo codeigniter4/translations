@@ -57,6 +57,7 @@ return [
     'valid_emails'          => '{field} には、すべて有効なメールアドレスを入力してください。', // The {field} field must contain all valid email addresses.
     'valid_ip'              => '{field} には、有効なIPアドレスを入力してください。', // The {field} field must contain a valid IP.
     'valid_url'             => '{field} には、有効なURLを入力してください。', // The {field} field must contain a valid URL.
+    'valid_url_strict'      => '{field} には、有効なURLを入力してください。', // The {field} field must contain a valid URL.
     'valid_date'            => '{field} には、有効な日付を入力してください。', // The {field} field must contain a valid date.
 
     // Credit Cards

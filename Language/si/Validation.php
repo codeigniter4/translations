@@ -57,6 +57,7 @@ return [
     'valid_emails'          => '{field} field එකෙහි අඩංගු සියලුම ඊමේල් ලිපින වලංගු ඒවා විය යුතුය.', // The {field} field must contain all valid email addresses.
     'valid_ip'              => '{field} field එකෙහි වලංගු IP එකක් අඩංගු විය යුතුය.', // The {field} field must contain a valid IP.
     'valid_url'             => '{field} field එකෙහි වලංගු URL එකක් අඩංගු විය යුතුය.', // The {field} field must contain a valid URL.
+    'valid_url_strict'      => '{field} field එකෙහි වලංගු URL එකක් අඩංගු විය යුතුය.', // The {field} field must contain a valid URL.
     'valid_date'            => '{field} field එකෙහි වලංගු දිනයක් අඩංගු විය යුතුය.', // The {field} field must contain a valid date.
 
     // Credit Cards

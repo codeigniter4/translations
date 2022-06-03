@@ -57,6 +57,7 @@ return [
     'valid_emails'          => 'A(z) {field} mezőnek érvényes email címeket kell tartalmaznia.',
     'valid_ip'              => 'A(z) {field} mezőnek érvényes IP címet kell tartalmaznia.',
     'valid_url'             => 'A(z) {field} mezőnek érvényes URL címet kell tartalmaznia.',
+    'valid_url_strict'      => 'A(z) {field} mezőnek érvényes URL címet kell tartalmaznia.',
     'valid_date'            => 'A(z) {field} mezőnek érvényes dátumot kell tartalmaznia.',
 
     // Credit Cards

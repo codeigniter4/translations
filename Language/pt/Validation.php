@@ -51,6 +51,7 @@ return [
     'valid_emails'          => 'O campo {field} deve conter apenas emails válidos.',
     'valid_ip'              => 'O campo {field} deve conter um IP válido.',
     'valid_url'             => 'O campo {field} deve conter uma URL válida.',
+    'valid_url_strict'      => 'O campo {field} deve conter uma URL válida.',
     'valid_date'            => 'O campo {field} deve conter uma data válida.',
 
     // Credit Cards

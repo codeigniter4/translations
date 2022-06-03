@@ -55,6 +55,7 @@ return [
     'valid_emails'          => 'Trường {field} phải chứa tất cả các địa chỉ email hợp lệ.',
     'valid_ip'              => 'Trường {field} phải là một địa chỉ IP hợp lệ.',
     'valid_url'             => 'Trường {field} phải là một đường dẫn URL hợp lệ.',
+    'valid_url_strict'      => 'Trường {field} phải là một đường dẫn URL hợp lệ.',
     'valid_date'            => 'Trường {field} phải là một ngày hợp lệ.',
 
     // Credit Cards

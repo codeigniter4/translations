@@ -57,6 +57,7 @@ return [
     'valid_emails'          => '{field} 字段的值必须均是有效的邮箱地址。',
     'valid_ip'              => '{field} 字段的值必须是有效的 IP。',
     'valid_url'             => '{field} 字段的值必须是有效的 URL。',
+    'valid_url_strict'      => '{field} 字段的值必须是有效的 URL。',
     'valid_date'            => '{field} 字段的值必须是有效的日期。',
 
     // Credit Cards

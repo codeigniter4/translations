@@ -56,6 +56,7 @@ return [
     'valid_emails'          => 'Värdena i fältet {field} måste alla vara giltiga epost-adresser.',
     'valid_ip'              => 'Värdet i fältet {field} måste vara en giltig IP-adress.',
     'valid_url'             => 'Värdet i fältet {field} måste vara en giltig URL.',
+    'valid_url_strict'      => 'Värdet i fältet {field} måste vara en giltig URL.',
     'valid_date'            => 'Värdet i fältet {field} måste vara ett giltigt datum.',
 
     // Credit Cards

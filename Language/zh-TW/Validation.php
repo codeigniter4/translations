@@ -57,6 +57,7 @@ return [
     'valid_emails'          => '欄位 {field} 中的 email 必須都是有效的email。',
     'valid_ip'              => '欄位 {field} 必須是有效的 IP。',
     'valid_url'             => '欄位 {field} 必須是有效的 URL.',
+    'valid_url_strict'      => '欄位 {field} 必須是有效的 URL.',
     'valid_date'            => '欄位 {field} 必須是有效的日期格式',
 
     // Credit Cards

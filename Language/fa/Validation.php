@@ -50,6 +50,7 @@ return [
     'valid_emails'          => 'تمام موارد {field} باید آدرس ای‌میل‌های معتبر باشند.',
     'valid_ip'              => 'فیلد {field} باید یک IP معتبر باشد.',
     'valid_url'             => 'فیلد {field} باید یک URL (آدرس اینترنتی) معتبر باشد.',
+    'valid_url_strict'      => 'فیلد {field} باید یک URL (آدرس اینترنتی) معتبر باشد.',
     'valid_date'            => 'فیلد {field} باید یک تاریخ معتبر باشد.',
 
     // Credit Cards
