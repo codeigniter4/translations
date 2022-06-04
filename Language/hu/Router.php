@@ -13,4 +13,6 @@
 return [
     'invalidParameter'    => 'Egy paraméter nem felel meg a várt típusnak.',
     'missingDefaultRoute' => 'Nincs meghatározva, hogy mit kellene megjeleníteni. Az alap útvonal nincs meghatározva az útvonalleíró fájlban.',
+    'invalidDynamicController' => 'Biztonsági okokból nem engedélyezett a dinamikus vezérlő. Útvonalkezelő: {0}',
+    'invalidControllerName'    => 'A névtér határolója fordított perjel (\), nem pedig perjel (/). Útvonalkezelő: {0}',
 ];
