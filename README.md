@@ -33,14 +33,14 @@ claims no expertise beyond English.
 | Locale | Language            | As of** | Github User           | Maintainer
 |--------|---------------------| ------- |-----------------------| --------------------
 | ar     | Arabic              | 4.0.0   | [daif][ar]            | Daif Alotaibi
-| bs     | Bosnian             | 4.x     | [demirkaric][bs]      | Demir Karić
+| bs     | Bosnian             | 4.2.0   | [demirkaric][bs]      | Demir Karić
 | cs     | Czech               | 4.0.3   | [PavelTajdus][cs]     | Pavel Tajduš
 | de     | German              | 4.0.0   | [sba][de]             | Stefan Bauer
 | en     | English             | 4.0.0   | **N/A**               | CI team
 | es     | Spanish             | 4.0.0   | [nachoaguirre][es]    | Ignacio Aguirre
 | fa     | Farsi               | 4.0.0   | [smhnaji][fa]         | Mohammad Naji
 | fr     | French              | 4.0.0   | [amuratet][fr]        | Amuratet?
-| hu     | Hungarian           | 4.x     | [kzolee1][hu]         | Zoltan Kovacs
+| hu     | Hungarian           | 4.2.0   | [kzolee1][hu]         | Zoltan Kovacs
 | id     | Indonesian          | 4.0.0   | [ridho1991][id]       | Mutasim Ridlo
 | it     | Italian             | 4.0.0   | [luk3b8][it]          | Luca Rasia
 | ja     | Japanese            | 4.0.3   | [kenjis][ja]          | Kenji Suzuki
