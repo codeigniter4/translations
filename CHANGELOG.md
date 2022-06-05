@@ -5,6 +5,35 @@ All notable changes to this library will be documented in this file:
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v4.2.0](https://github.com/codeigniter4/translations/compare/v4.1.6...v4.2.0) - 2022-06-04
+
+### Added
+
+- bs (Bosnian)
+- hu (Hungarian)
+- Added automatic review tests
+
+### Changed
+
+- Minimum PHP version bump to PHP 7.4
+
+### Changed locales (except for `Validation.valid_url_strict` string)
+
+- de (German)
+- id (Indonesian)
+- ja (Japanese)
+- ko (Korean)
+- sv-SE (Swedish-Sweden)
+- pt-BR (Brazilian)
+
+### Changed locales for `Validation.valid_url_strict` string
+
+- all locales
+
+### Fixed
+
+- Fixed `Simple Chinese` to `Simplified Chinese`
+
 ## [v4.1.6](https://github.com/codeigniter4/translations/compare/v4.1.5...v4.1.6) - 2022-01-05
 
 ### Added
