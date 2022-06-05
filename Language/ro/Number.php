@@ -19,7 +19,7 @@ return [
 
     // don't forget the space in front of these!
     'thousand'    => ' mii',
-    'million'     => ' million',
+    'million'     => ' milion',
     'billion'     => ' miliard',
     'trillion'    => ' trilion',
     'quadrillion' => ' cvadrilion',

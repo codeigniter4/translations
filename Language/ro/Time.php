@@ -26,7 +26,7 @@ return [
     'minutes'        => '{0, plural, =1{# minut} alta{# minute}}',
     'seconds'        => '{0, plural, =1{# secundă} alta{# secunde}}',
     'ago'            => '{0} acum',
-    'inFuture'       => 'in {0}',
+    'inFuture'       => 'în {0}',
     'yesterday'      => 'Ieri',
     'tomorrow'       => 'Mâine',
     'now'            => 'Chiar acum',
