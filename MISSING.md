@@ -14,7 +14,6 @@ The following languages have translations for CodeIgniter 3, but not yet for Cod
 | hr     | Croatian           | PaleRider981      | Mario Ljubicic
 | hy     | Armenian           | tgrnmrdn          | Tigran Muradyan
 | km     | Khmer              | Chanthoeun        | Chanthoeun Kim
-| ro     | Romanian           | CodefishRo        | Cristian Robert Chiribuc
 | sl     | Slovenian          | andrejflorjancic  | Andrej Florjančič
 | sr     | Serbian            | novakurosevic     | Novak Urosevic
 | ta     | Tamil              | karthik-code      | Karthikeyan

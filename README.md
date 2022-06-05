@@ -31,7 +31,7 @@ provide a single authority for vetting translations for a given language, since 
 claims no expertise beyond English.
 
 | Locale | Language            | As of** | Github User           | Maintainer
-|--------|---------------------| ------- |-----------------------| --------------------
+|--------|---------------------|---------|-----------------------| --------------------
 | ar     | Arabic              | 4.0.0   | [daif][ar]            | Daif Alotaibi
 | bs     | Bosnian             | 4.2.0   | [demirkaric][bs]      | Demir Karić
 | cs     | Czech               | 4.0.3   | [PavelTajdus][cs]     | Pavel Tajduš
@@ -53,6 +53,7 @@ claims no expertise beyond English.
 | pl     | Polish              | 4.0.0   | [DEVELPL][pl]         | Maciej Jasiewicz
 | pt     | Portuguese          | 4.0.0   | [rbm0407][pt]         | Rodrigo Borges
 | pt-BR  | Brazilian           | 4.0.0   | [natanfelles][pt-BR]  | Natan Felles
+| ro     | Romanian            | 4.2.0   | [ed3][ro]             | Ed
 | ru     | Russian             | 4.0.0   | [DigitalWolf98][ru]   | Vladislav Rykhtikov
 | si     | Sinhala             | 4.0.3   | [npwsamarasinghe][si] | Nalaka Prasad
 | sk     | Slovak              | 4.0.0   | [xbotkaj][sk]         | Jozef Botka
