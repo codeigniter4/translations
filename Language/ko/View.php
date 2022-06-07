@@ -17,4 +17,5 @@ return [
     'noCellClass'           => '지원되는 뷰 셀 클래스가 아닙니다.', // 'No view cell class provided.',
     'invalidCellClass'      => '뷰 셀 클래스의 위치를 찾을 수 없습니다: {0}', // 'Unable to locate view cell class: {0}.',
     'tagSyntaxError'        => 'Parse 태그에 구문 오류가 있습니다: {0}', // 'You have a syntax error in your Parser tags: {0}',
+    'invalidDecoratorClass' => '{0}은(는) 유효한 view 데코레이터가 아닙니다.', // {0} is not a valid View Decorator.
 ];
