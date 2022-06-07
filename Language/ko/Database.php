@@ -27,4 +27,5 @@ return [
     'fieldNotExists'                   => '`{0}` 필드를 찾을 수 없습니다.', // Field `{0}` not found.
     'forEmptyInputGiven'               => '필드 `{0}`에 빈 값이 들어있습니다.', // Empty statement is given for the field `{0}`
     'forFindColumnHaveMultipleColumns' => '열 이름에는 하나의 열만 허용됩니다.', // Only single column allowed in Column name.
+    'methodNotAvailable'               => '`Query Builder` 클래스 `{0}` 메소드에서 `{1}`을(를) 사용할 수 없습니다.', // You cannot use `{1}` in `{0}`. This is a method of the `Query Builder` class.
 ];
