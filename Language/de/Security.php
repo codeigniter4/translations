@@ -12,5 +12,7 @@
 // Security language settings
 return [
     'disallowedAction' => 'Die von Ihnen gewünschte Aktion ist nicht zulässig.',
-    'invalidSameSite'  => 'Der SameSite-Wert muss None, Lax, Strict, oder ein leerer String sein. Aktueller Wert: {0}',
+
+    // @deprecated
+    'invalidSameSite' => 'Der SameSite-Wert muss None, Lax, Strict, oder ein leerer String sein. Aktueller Wert: {0}',
 ];
