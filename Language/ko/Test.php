@@ -11,5 +11,5 @@
 
 // Testing language settings
 return [
-    'invalidMockClass' => '{0}는 유효하지 않은 모의(Mock) 클래스입니다.', // '{0} is not a valid Mock class',
+    'invalidMockClass' => '{0}는 유효하지 않은 모의(Mock) 클래스입니다.', // '{0} is not a valid Mock class'
 ];
