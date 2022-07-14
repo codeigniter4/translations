@@ -11,16 +11,16 @@
 
 // Number language settings
 return [
-    'terabyteAbbr' => 'TB',
-    'gigabyteAbbr' => 'GB',
-    'megabyteAbbr' => 'MB',
-    'kilobyteAbbr' => 'KB',
-    'bytes'        => 'Bytes',
+    'terabyteAbbr' => 'TB', // TB
+    'gigabyteAbbr' => 'GB', // GB
+    'megabyteAbbr' => 'MB', // MB
+    'kilobyteAbbr' => 'KB', // KB
+    'bytes'        => 'Bytes', // Bytes
 
     // don't forget the space in front of these!
-    'thousand'    => ' 천', // ' thousand',
-    'million'     => ' 백만', // ' million',
-    'billion'     => ' 십억', // ' billion',
-    'trillion'    => ' 조', // ' trillion',
-    'quadrillion' => ' 천조', // ' quadrillion',
+    'thousand'    => ' 천', // ' thousand'
+    'million'     => ' 백만', // ' million'
+    'billion'     => ' 십억', // ' billion'
+    'trillion'    => ' 조', // ' trillion'
+    'quadrillion' => ' 천조', // ' quadrillion'
 ];

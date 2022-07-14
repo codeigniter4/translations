@@ -24,7 +24,7 @@ return [
             'entity'     => '엔티티 클래스 이름', // Entity class name
             'filter'     => '필터 클래스 이름', // Filter class name
             'migration'  => '마이그레이션 클래스 이름', // Migration class name
-            'model'      => '모델 클래스 이름', // Model class namel
+            'model'      => '모델 클래스 이름', // Model class name
             'seeder'     => '시더 클래스 이름', // Seeder class name
             'validation' => '벨리데이션 클래스 이름', // Validation class name
         ],
