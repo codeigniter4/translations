@@ -9,7 +9,8 @@
  * the LICENSE file that was distributed with this source code.
  */
 
+// Filters language settings
 return [
-   'noFilter' => '{0} филтърът трябва да има дефиниран съответстващ псевдоним.',
-   'incorrectInterface' => '{0} трябва да имплементира CodeIgniter\Filters\FilterInterface.',
+    'noFilter'           => '{0} филтърът трябва да има дефиниран съответстващ псевдоним.',
+    'incorrectInterface' => '{0} трябва да имплементира CodeIgniter\Filters\FilterInterface.',
 ];

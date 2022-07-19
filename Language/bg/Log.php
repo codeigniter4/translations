@@ -9,7 +9,8 @@
  * the LICENSE file that was distributed with this source code.
  */
 
+// Log language settings
 return [
-   'invalidLogLevel'    => '{0} е невалидно ниво на регистър.',
-   'invalidMessageType' => 'Даденият тип съобщение "{0}" не се поддържа.',
+    'invalidLogLevel'    => '{0} е невалидно ниво на регистър.',
+    'invalidMessageType' => 'Даденият тип съобщение "{0}" не се поддържа.',
 ];

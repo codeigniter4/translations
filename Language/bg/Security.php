@@ -13,6 +13,6 @@
 return [
     'disallowedAction' => 'Заявеното от вас действие не е разрешено.',
 
-     // @deprecated
+    // @deprecated
     'invalidSameSite' => 'Стойността SameSite трябва да бъде None, Lax, Strict или празен низ. Дадено: {0}',
 ];

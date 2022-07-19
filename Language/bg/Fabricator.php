@@ -9,8 +9,9 @@
  * the LICENSE file that was distributed with this source code.
  */
 
+// Fabricator language settings
 return [
-   'invalidModel'       => 'Невалиден модел, предоставен за производство.',
-   'missingFormatters'  => 'Няма дефинирани валидни форматиращи програми.',
-   'createFailed'       => 'Fabricator не успя да вмъкне в таблица {0}: {1}',
+    'invalidModel'       => 'Невалиден модел, предоставен за производство.',
+    'missingFormatters'  => 'Няма дефинирани валидни форматиращи програми.',
+    'createFailed'       => 'Fabricator не успя да вмъкне в таблица {0}: {1}',
 ];

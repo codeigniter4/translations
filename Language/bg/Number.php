@@ -9,17 +9,18 @@
  * the LICENSE file that was distributed with this source code.
  */
 
+// Number language settings
 return [
-   'terabyteAbbr' => 'TB',
-   'gigabyteAbbr' => 'GB',
-   'megabyteAbbr' => 'MB',
-   'kilobyteAbbr' => 'KB',
-   'bytes'        => 'байта',
+    'terabyteAbbr' => 'TB',
+    'gigabyteAbbr' => 'GB',
+    'megabyteAbbr' => 'MB',
+    'kilobyteAbbr' => 'KB',
+    'bytes'        => 'байта',
 
-	// don't forget the space in front of these!
-   'thousand'     => ' хиляди',
-   'million'      => ' милиона',
-   'billion'      => ' милиарда',
-   'trillion'     => ' трилиона',
-   'quadrillion'  => ' квадрилиона',
+    // don't forget the space in front of these!
+    'thousand'     => ' хиляди',
+    'million'      => ' милиона',
+    'billion'      => ' милиарда',
+    'trillion'     => ' трилиона',
+    'quadrillion'  => ' квадрилиона',
 ];

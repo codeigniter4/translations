@@ -9,6 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
+// RESTful language settings
 return [
-   'notImplemented' => 'Действието "{0}" не е изпълнено.',
+    'notImplemented' => 'Действието "{0}" не е изпълнено.',
 ];
