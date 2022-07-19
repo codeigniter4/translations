@@ -11,13 +11,13 @@
 
 // Pager language settings
 return [
-    'pageNavigation'           => 'Навигация на страница',
-    'first'                    => 'Първа',
-    'previous'                 => 'Предишна',
-    'next'                     => 'Напред',
-    'last'                     => 'Последна',
-    'older'                    => 'По-стари',
-    'newer'                    => 'По-нови',
-    'invalidTemplate'          => '{0} не е валиден шаблон за Pager.',
-    'invalidPaginationGroup'   => '{0} не е валидна група за странициране.',
+    'pageNavigation'         => 'Навигация на страница',
+    'first'                  => 'Първа',
+    'previous'               => 'Предишна',
+    'next'                   => 'Напред',
+    'last'                   => 'Последна',
+    'older'                  => 'По-стари',
+    'newer'                  => 'По-нови',
+    'invalidTemplate'        => '{0} не е валиден шаблон за Pager.',
+    'invalidPaginationGroup' => '{0} не е валидна група за странициране.',
 ];

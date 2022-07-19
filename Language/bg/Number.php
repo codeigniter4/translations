@@ -18,9 +18,9 @@ return [
     'bytes'        => 'байта',
 
     // don't forget the space in front of these!
-    'thousand'     => ' хиляди',
-    'million'      => ' милиона',
-    'billion'      => ' милиарда',
-    'trillion'     => ' трилиона',
-    'quadrillion'  => ' квадрилиона',
+    'thousand'    => ' хиляди',
+    'million'     => ' милиона',
+    'billion'     => ' милиарда',
+    'trillion'    => ' трилиона',
+    'quadrillion' => ' квадрилиона',
 ];
