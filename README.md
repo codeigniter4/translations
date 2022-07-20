@@ -33,6 +33,7 @@ claims no expertise beyond English.
 | Locale | Language            | As of** | Github User           | Maintainer
 |--------|---------------------|---------|-----------------------| --------------------
 | ar     | Arabic              | 4.0.0   | [daif][ar]            | Daif Alotaibi
+| bg     | Bulgarian           | 4.x     | [ivcho02][bg]         | Ivaylo Tsvetanov
 | bs     | Bosnian             | 4.2.0   | [demirkaric][bs]      | Demir Karić
 | cs     | Czech               | 4.0.3   | [PavelTajdus][cs]     | Pavel Tajduš
 | de     | German              | 4.0.0   | [sba][de]             | Stefan Bauer
@@ -68,6 +69,7 @@ claims no expertise beyond English.
 _**Version where the locale was released. 4.x denotes `Unreleased`._
 
 [ar]: https://github.com/daif
+[bg]: https://github.com/ivcho02
 [bs]: https://github.com/demirkaric
 [cs]: https://github.com/PavelTajdus
 [de]: https://github.com/sba

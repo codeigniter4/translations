@@ -5,7 +5,6 @@ The following languages have translations for CodeIgniter 3, but not yet for Cod
 | Locale | Language           | GitHub User       | CI3 Maintainer
 |--------|--------------------|-------------------|--------------------------
 | az     | Azerbaijani        | Qarakom           | Sübhan Cabbarov
-| bg     | Bulgarian          | ivantcholakov     | Ivan Tcholakov
 | bn     | Bengali            | kabircse          | Kabir Hossain
 | ca     | Catalan            | Ignasimg          | Ignasi Molsosa
 | da     | Danish             | janhansson        | Jan Hansson
