@@ -69,6 +69,7 @@ claims no expertise beyond English.
 _**Version where the locale was released. 4.x denotes `Unreleased`._
 
 [ar]: https://github.com/daif
+[bg]: https://github.com/ivcho02
 [bs]: https://github.com/demirkaric
 [cs]: https://github.com/PavelTajdus
 [de]: https://github.com/sba
