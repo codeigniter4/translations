@@ -27,7 +27,7 @@ return [
     'emptySupportedNegotiations' => 'すべてのネゴシエーションにサポートされている値の配列を設定する必要があります。', // You must provide an array of supported values to all Negotiations.
 
     // RedirectResponse
-    'invalidRoute' => 'リバースルーティング中に {0} ルートが見つかりません。', //{0} route cannot be found while reverse-routing.
+    'invalidRoute' => '"{0}" へのルートが見つかりません。', // 'The route for "{0}" cannot be found.',
 
     // DownloadResponse
     'cannotSetBinary'        => 'ファイルパスを設定する場合、バイナリを設定できません。', // When setting filepath can not set binary.
