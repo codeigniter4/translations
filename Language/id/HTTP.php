@@ -27,7 +27,7 @@ return [
     'emptySupportedNegotiations' => 'Anda harus memberikan sebuah array dari nilai yang didukung untuk semua Negosiasi.',
 
     // RedirectResponse
-    'invalidRoute' => '{0} bukan sebuah rute yang valid.',
+    'invalidRoute' => 'Rute untuk "{0}" tidak dapat ditemukan.',
 
     // DownloadResponse
     'cannotSetBinary'        => 'Saat mengatur filepath, tidak dapat mengatur binary.',
