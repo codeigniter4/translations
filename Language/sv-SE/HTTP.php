@@ -11,13 +11,13 @@
 
 return [
     // CurlRequest
-    'missingCurl'     => 'CURL måste bli aktiverat för att kunna använda klassen CURLRequest.',
+    'missingCurl'     => 'CURL måste vara aktiverat för att kunna använda klassen CURLRequest.',
     'invalidSSLKey'   => 'Kan inte konfigurera SSL Key. {0} är inte en giltig fil.',
     'sslCertNotFound' => 'SSL certifikatet kunde inte hittas: {0}',
     'curlError'       => '{0} : {1}',
 
     // IncomingRequest
-    'invalidNegotiationType' => '{0} är inte en giltig negotiation typ. Den måste bli en av: media, charset, encoding, language.',
+    'invalidNegotiationType' => '{0} är inte en giltig negotiation typ. Den måste vara en av: media, charset, encoding, language.',
 
     // Message
     'invalidHTTPProtocol' => 'Felaktigt HTTP Protocol Version. Måste bli en av: {0}',
@@ -26,7 +26,7 @@ return [
     'emptySupportedNegotiations' => 'En array med giltiga värden för alla Negotiations måste anges.',
 
     // RedirectResponse
-    'invalidRoute' => 'Routen {0} kunde inte hittas vid reverse-routing.',
+    'invalidRoute' => 'Routen "{0}" kunde inte hittas.',
 
     // DownloadResponse
     'cannotSetBinary'        => 'När sökväg anges kan inte binär sättas.',
@@ -50,7 +50,7 @@ return [
     'pageNotFound'       => 'Sidan kunde inte hittas',
     'emptyController'    => 'Ingen Controller angiven.',
     'controllerNotFound' => 'Controller eller metoden kunde inte hittas: {0}::{1}',
-    'methodNotFound'     => 'Controller-methoden kunde inte hittas: {0}',
+    'methodNotFound'     => 'Controller-metoden kunde inte hittas: {0}',
 
     // CSRF
     'disallowedAction' => 'Den önskade funktionen är inte tillåten.',

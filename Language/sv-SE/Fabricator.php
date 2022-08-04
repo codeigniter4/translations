@@ -11,6 +11,6 @@
 
 return [
     'invalidModel'      => 'Ogiltig modell angiven.',
-    'missingFormatters' => 'Ingen giltig formatterare definierad.',
+    'missingFormatters' => 'Ingen giltig formaterare definierad.',
     'createFailed'      => 'Fabricator kunde inte göra insert i tabellen {0}: {1}.',
 ];

@@ -29,5 +29,5 @@ return [
     'missingFont'            => 'Kunde inte hitta ett teckensnitt att använda.',
     'saveFailed'             => 'Kunde inte spara bilden. Kontrollera att bildfilen och filkatalogen är skrivbara.',
     'invalidDirection'       => 'Flip direction kan bara vara `vertical` eller `horizontal`. Givet: {0}',
-    'exifNotSupported'       => 'Denna PHP installation supporterar inte att läsa EXIF-data.',
+    'exifNotSupported'       => 'Denna PHP installation stödjer inte läsning av EXIF-data.',
 ];

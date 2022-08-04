@@ -19,7 +19,7 @@ return [
 
     // Rule Messages
     'alpha'                 => 'Fältet {field} får enbart innehålla bokstäver.',
-    'alpha_dash'            => 'Fältet {field} får enbart innehålla bokstäver, underscore eller streck.',
+    'alpha_dash'            => 'Fältet {field} får enbart innehålla bokstäver, understreck eller minus.',
     'alpha_numeric'         => 'Fältet {field} får enbart innehålla alfanumeriska tecken.',
     'alpha_numeric_punct'   => 'Fältet {field} får enbart innehålla alfanumeriska tecken, mellanslag och följande tecken:  ~ ! # $ % & * - _ + = | : . ',
     'alpha_numeric_space'   => 'Fältet {field} får enbart innehålla alfanumeriska tecken och mellanslag.',
@@ -37,7 +37,7 @@ return [
     'is_natural_no_zero'    => 'Värdet i fältet {field} måste vara numeriskt och större än noll.',
     'is_not_unique'         => 'Fältet {field} måste innehålla ett värde som redan finns i databasen.',
     'is_unique'             => 'Fältet {field} måste innehålla ett unikt värde.',
-    'less_than'             => 'Värdet i fältet {field} nåste vara numeriskt och mindre än {param}.',
+    'less_than'             => 'Värdet i fältet {field} måste vara numeriskt och mindre än {param}.',
     'less_than_equal_to'    => 'Värdet i fältet {field} måste vara numeriskt och mindre än eller lika med {param}.',
     'matches'               => 'Värdet i fältet {field} är inte lika med värdet i fältet {param}.',
     'max_length'            => 'Värdet i fältet {field} får inte vara längre än {param} tecken.',
@@ -45,7 +45,7 @@ return [
     'not_equals'            => 'Värdet i fältet {field} får inte vara: {param}.',
     'not_in_list'           => 'Värdet i fältet {field} får inte vara något av: {param}.',
     'numeric'               => 'Värdet i fältet {field} får enbart innehålla siffror.',
-    'regex_match'           => 'Värdet i fältet {field} är inte korrekt formatterat.',
+    'regex_match'           => 'Värdet i fältet {field} är inte korrekt formaterat.',
     'required'              => 'Fältet {field} måste anges.',
     'required_with'         => 'Ett värde i fältet {field} måste anges när {param} är angivet.',
     'required_without'      => 'Ett värde i fältet {field} måste anges när {param} inte är angiven.',
@@ -68,5 +68,5 @@ return [
     'is_image' => '{field} är inte en giltig uppladdad bild.',
     'mime_in'  => '{field} har inte en giltig mime-typ.',
     'ext_in'   => '{field} har inte en giltig filändelse.',
-    'max_dims' => '{field} är angingen inte en bild eller har för stora dimensioner.',
+    'max_dims' => '{field} är antingen inte en bild eller har för stora dimensioner.',
 ];

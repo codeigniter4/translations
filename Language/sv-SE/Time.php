@@ -26,7 +26,7 @@ return [
     'seconds'        => '{0, plural, =1{# sekund} other{# sekunder}}',
     'ago'            => '{0} sedan',
     'inFuture'       => 'om {0}',
-    'yesterday'      => 'igår',
-    'tomorrow'       => 'imorgon',
+    'yesterday'      => 'i går',
+    'tomorrow'       => 'i morgon',
     'now'            => 'nu',
 ];
