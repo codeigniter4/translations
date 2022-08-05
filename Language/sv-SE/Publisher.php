@@ -12,7 +12,7 @@
 // Publisher language settings
 return [
     'collision'             => 'Publisher hittade en oväntad {0} under kopieringen av {1} till {2}.',
-    'destinationNotAllowed' => 'Målkatalogen är inte på den tillåtna listan av Publisher kataloger: {0}',
+    'destinationNotAllowed' => 'Målkatalogen är inte med i den tillåtna listan av Publisher kataloger: {0}',
     'fileNotAllowed'        => '{0} uppfyller inte förutsättning för {1}: {2}',
 
     // Publish Command
