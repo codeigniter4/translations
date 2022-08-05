@@ -27,7 +27,7 @@ return [
     'emptySupportedNegotiations' => 'Trebuie să furnizați o serie de valori acceptate pentru toate negocierile.',
 
     // RedirectResponse
-    'invalidRoute' => 'Ruta pentru {0} nu poate fi găsită.',
+    'invalidRoute' => 'Ruta "{0}" nu poate fi găsită.',
 
     // DownloadResponse
     'cannotSetBinary'        => 'Când setați calea fișierului, nu se poate seta binar.',
