@@ -27,7 +27,7 @@ return [
     'emptySupportedNegotiations' => 'Minden kapcsolattípushoz tömbként szükséges megadni a támogatottakat.',
 
     // RedirectResponse
-    'invalidRoute' => '{0} útvonal nem található visszairányításkor.',
+    'invalidRoute' => '"{0}" útvonal nem található.',
 
     // DownloadResponse
     'cannotSetBinary'        => 'A fájlútvonal meghatározásakor nem lehet binárist állítani.',

@@ -41,7 +41,7 @@ claims no expertise beyond English.
 | es     | Spanish             | 4.0.0   | [nachoaguirre][es]    | Ignacio Aguirre
 | fa     | Farsi               | 4.0.0   | [smhnaji][fa]         | Mohammad Naji
 | fr     | French              | 4.0.0   | [amuratet][fr]        | Amuratet?
-| hu     | Hungarian           | 4.2.0   | [kzolee1][hu]         | Zoltan Kovacs
+| hu     | Hungarian           | 4.2.2   | [kzolee1][hu]         | Zoltan Kovacs
 | id     | Indonesian          | 4.0.0   | [ridho1991][id]       | Mutasim Ridlo
 | it     | Italian             | 4.0.0   | [luk3b8][it]          | Luca Rasia
 | ja     | Japanese            | 4.0.3   | [kenjis][ja]          | Kenji Suzuki
@@ -54,7 +54,7 @@ claims no expertise beyond English.
 | pl     | Polish              | 4.0.0   | [DEVELPL][pl]         | Maciej Jasiewicz
 | pt     | Portuguese          | 4.0.0   | [rbm0407][pt]         | Rodrigo Borges
 | pt-BR  | Brazilian           | 4.0.0   | [natanfelles][pt-BR]  | Natan Felles
-| ro     | Romanian            | 4.2.1   | [ed3][ro]             | Ed
+| ro     | Romanian            | 4.2.2   | [ed3][ro]             | Ed
 | ru     | Russian             | 4.0.0   | [DigitalWolf98][ru]   | Vladislav Rykhtikov
 | si     | Sinhala             | 4.0.3   | [npwsamarasinghe][si] | Nalaka Prasad
 | sk     | Slovak              | 4.0.0   | [xbotkaj][sk]         | Jozef Botka
