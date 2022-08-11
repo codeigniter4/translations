@@ -15,7 +15,7 @@ return [
     'missingCurl'     => 'CURLRequest 클래스를 사용하기 위해서 CURL이 반드시 활성화되어야 합니다.', // 'CURL must be enabled to use the CURLRequest class.'
     'invalidSSLKey'   => 'SSL Key를 설정할 수 없습니다. {0} 경우는 유효하지 않는 파일입니다.', // 'Cannot set SSL Key. {0} is not a valid file.'
     'sslCertNotFound' => '해당 파일에서 SSL 인증서를 찾을 수 없습니다: {0}', // 'SSL certificate not found at: {0}'
-    'curlError'       => '{0} : {1}',
+    'curlError'       => '{0} : {1}', // {0} : {1}
 
     // IncomingRequest
     'invalidNegotiationType' => '요청된 {0} 경우, 유효하지 않은 negotiation type입니다. 다음 중에 하나를 사용하십시오: media, charset, encoding, language.', // '{0} is not a valid negotiation type. Must be one of: media, charset, encoding, language.'
@@ -27,7 +27,7 @@ return [
     'emptySupportedNegotiations' => '모든 Negotiations에 지원되는 값의 배열이 반드시 제공되어야 합니다.', // You must provide an array of supported values to all Negotiations.
 
     // RedirectResponse
-    'invalidRoute' => '(유효하지 않은 route). 리버스 라우팅을 하는 동안에, 페이지 redirect를 위한 {0} route는 발견되지 않았습니다.', // '{0} route cannot be found while reverse-routing.'
+    'invalidRoute' => '{0}에 대한 경로를 찾을 수 없습니다.', // The route for {0} cannot be found.
 
     // DownloadResponse
     'cannotSetBinary'        => '다운로드 에러: 파일 경로를 설정할 때에 바이너리로 설정할 수 없습니다.', // 'When setting filepath cannot set binary.'
