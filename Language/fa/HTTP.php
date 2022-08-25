@@ -66,5 +66,5 @@ return [
     'uploadErrCantWrite' => 'فایل "%s" نمی‌تواند در دیسک نوشته (ذخیره) شود.',
     'uploadErrNoTmpDir'  => 'فایل آپلود نشد: دایرکتوری موقت پیدا نشد.',
     'uploadErrExtension' => 'فایل توسط یک افزونه‌ی PHP متوقف شد.',
-    'uploadErrUnknown'   => 'فایل "%s" به دلیل نامشخصی آپلود نشد.',
+    'uploadErrUnknown'   => 'فایل "%s" به علت خطای نامشخصی آپلود نشد.',
 ];
