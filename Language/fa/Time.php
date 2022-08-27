@@ -11,6 +11,7 @@
 
 // Time language settings
 return [
+    'invalidFormat'  => '"{0}" یک فرمت معتبر برای datetime نیست',
     'invalidMonth'   => 'ماه باید بین 1 تا 12 باشد. مقدار وارد شده: {0}',
     'invalidDay'     => 'روز باید بین 1 تا 31 باشد. مقدار وارد شده: {0}',
     'invalidOverDay' => 'روز باید بین 1 تا {0} باشد. مقدار وارد شده: {1}',
