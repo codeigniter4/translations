@@ -16,7 +16,7 @@ return [
     'invalidTimestamp'       => 'نوع تبدیل "timestamp" باید یک timestamp معتبر باشد.',
     'jsonErrorCtrlChar'      => 'control character غیر منتظره یافت شد.',
     'jsonErrorDepth'         => 'از حداکثر عمق stack تجاور شد.',
-    'jsonErrorStateMismatch' => 'Underflow or the modes mismatch.',
+    'jsonErrorStateMismatch' => 'عدم تطابق زیر جریان ها یا حالت ها.',
     'jsonErrorSyntax'        => 'خطای گرامری، JSON نامفهوم.',
     'jsonErrorUnknown'       => 'خطای نامشخص.',
     'jsonErrorUtf8'          => 'کاراکتر های UTF-8 نامفهوم، ممکن است به دلیل encode اشتباه باشد.',
