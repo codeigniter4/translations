@@ -27,7 +27,7 @@ return [
     'alpha_space'           => 'فیلد {field} فقط می‌تواند شامل حروف و فاصله باشد.',
     'decimal'               => 'فیلد {field} باید یک عدد اعشاری باشد.',
     'differs'               => 'فیلد {field} باید با فیلد {param} متفاوت باشد.',
-    'equals'                => 'The {field} field must be exactly: {param}.',
+    'equals'                => 'فیلد {field} باید دقیقا برابر "{param}" باشد.',
     'exact_length'          => 'طول فیلد {field} باید دقیقا {param} کاراکتر باشد.',
     'greater_than'          => 'فیلد {field} باید عددی بزرگتر از {param} باشد.',
     'greater_than_equal_to' => 'فیلد {field} باید عددی بزرگتر یا مساوی {param} باشد.',
@@ -61,8 +61,8 @@ return [
     'valid_date'            => 'فیلد {field} باید یک تاریخ معتبر باشد.',
 
     // Credit Cards
-    'valid_cc_num' => '{field} does not appear to be a valid credit card number.',
-
+    'valid_cc_num' => 'فیلد {field} به نظر یک شماره کارت اعتباری معتبر نیست.',
+    
     // Files
     'uploaded' => '{field} یک فایل آپلود شده‌ی معتبر نیست.',
     'max_size' => '{field} برای یک فایل، سایز خیلی بزرگ دارد.',
