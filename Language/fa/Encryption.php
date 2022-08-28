@@ -11,8 +11,8 @@
 
 // Encryption language settings
 return [
-    'noDriverRequested'    => 'No driver requested; Miss Daisy will be so upset!',
-    'noHandlerAvailable'   => 'Unable to find an available {0} encryption handler.',
+    'noDriverRequested'    => 'هیچ درایوری درخواست نشده؛ چرا این خانمو ناراحت میکنی؟ ها؟',
+    'noHandlerAvailable'   => 'هندلر رمزنگاری {0} دردسترسی پیدا نشد.',
     'unKnownHandler'       => 'امکان کانفیگ کردن "{0}" وجود ندارد.',
     'starterKeyNeeded'     => 'Encrypter به یک starter key نیاز دارد.',
     'authenticationFailed' => 'Decrypting: احراز هویت با خطا مواجه شد .',
