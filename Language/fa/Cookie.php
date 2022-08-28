@@ -20,6 +20,6 @@ return [
     'invalidHostPrefix'     => 'استفاده از پیشوند "__Host-" باید با حالت secure باشد، همچنین نباید ویژگی "Domain" داشته باشد و "Path" باید برابر "/" باشد.',
     'invalidSameSite'       => 'مقدار SameSite باید برای یکی از مقادیر  None, Lax, Strict یا یک رشته خالی باشد، مقدار {0} وارد شده.',
     'invalidSameSiteNone'   => 'برای استفاده از ویژگی "SameSite=None" باید ویژگی "Secure" را تنظیم کنید.',
-    'invalidCookieInstance' => '"{0}" class expected cookies array to be instances of "{1}" but got "{2}" at index {3}.',
+    'invalidCookieInstance' => 'در ایندکس {3} آرایه کوکی های داره شده به کلاس "{0}" باید از نمونه "{1}" باشد ولی "{2}" داده شده.',
     'unknownCookieInstance' => 'کوکی با نام {0} و پیشوند {1} در collection پیدا نشد.',
 ];
