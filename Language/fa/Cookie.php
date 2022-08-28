@@ -11,8 +11,7 @@
 
 // Cookie language settings
 return [
-    'invalidExpiresTime'    => 'نوع داده {0} برای ویژگی "Expires" معتبر نیست. نوع داده های معتبر: string, integer, DateTimeInterface object.
-',
+    'invalidExpiresTime'    => 'نوع داده {0} برای ویژگی "Expires" معتبر نیست. نوع داده های معتبر: string, integer, DateTimeInterface object.',
     'invalidExpiresValue'   => 'زمان وارد شده برای تاریخ انقضا کوکی معتبر نیست.',
     'invalidCookieName'     => 'کوکی با نام "{0}" دارای کاراکتر های غیرمجاز می‌باشد.',
     'emptyCookieName'       => 'نام کوکی نمیتواند خالی باشد.',
