@@ -20,4 +20,3 @@ return [
     // @deprecated
     'invalidSameSiteSetting' => 'سشن: SameSite باید یکی از مقادیر None, Lax, Strict, یا رشته‌ی خالی باشد. مقدار داده شده: {0}',
 ];
-
