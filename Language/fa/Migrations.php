@@ -12,7 +12,7 @@
 // Migration language settings
 return [
     // Migration Runner
-    'missingTable' => 'جدول مایگریشن تنظیم نشده است.',
+    'missingTable'  => 'جدول مایگریشن تنظیم نشده است.',
     'disabled'      => 'مایگریشن‌ها بارگذاری شده‌اند، اما غیرفعالند یا درست تنظیم نشده اند.',
     'notFound'      => 'فایل مایگریشن پیدا نشد: ',
     'batchNotFound' => 'batch مورد نظر پیدا نشد: ',
