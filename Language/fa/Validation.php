@@ -62,6 +62,7 @@ return [
 
     // Credit Cards
     'valid_cc_num' => 'فیلد {field} به نظر یک شماره کارت اعتباری معتبر نیست.',
+
     // Files
     'uploaded' => '{field} یک فایل آپلود شده‌ی معتبر نیست.',
     'max_size' => '{field} برای یک فایل، سایز خیلی بزرگ دارد.',
