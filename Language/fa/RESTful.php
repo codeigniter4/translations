@@ -9,8 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// RESTful language settings
 return [
-    'invalidLogLevel'    => '{0} یک log level نامعتبر است.',
-    'invalidMessageType' => 'نوع پیام "{0}" پشتیبانی نمی‌شود.',
+    'notImplemented' => 'عملیات "{0}" پیاده‌سازی نشده است.',
 ];

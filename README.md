@@ -39,7 +39,7 @@ claims no expertise beyond English.
 | de     | German              | 4.0.0   | [sba][de]             | Stefan Bauer
 | en     | English             | 4.0.0   | **N/A**               | CI team
 | es     | Spanish             | 4.0.0   | [nachoaguirre][es]    | Ignacio Aguirre
-| fa     | Farsi               | 4.0.0   | [smhnaji][fa]         | Mohammad Naji
+| fa     | Farsi               | 4.0.0   | [msalehi-d][fa]       | Mohammad Salehi
 | fr     | French              | 4.0.0   | [amuratet][fr]        | Amuratet?
 | hu     | Hungarian           | 4.2.0   | [kzolee1][hu]         | Zoltan Kovacs
 | id     | Indonesian          | 4.0.0   | [ridho1991][id]       | Mutasim Ridlo
@@ -74,7 +74,7 @@ _**Version where the locale was released. 4.x denotes `Unreleased`._
 [cs]: https://github.com/PavelTajdus
 [de]: https://github.com/sba
 [es]: https://github.com/nachoaguirre
-[fa]: https://github.com/smhnaji
+[fa]: https://github.com/msalehi-d
 [fr]: https://github.com/amuratet
 [hu]: https://github.com/kzolee1
 [id]: https://github.com/ridho1991

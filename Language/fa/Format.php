@@ -11,6 +11,8 @@
 
 // Format language settings
 return [
+    'invalidFormatter' => '"{0}" یک کلاس Formatter معتبر نیست.',
     'invalidJSON'      => 'مشکلی در بررسی JSON وجود داشت: "{0}".',
+    'invalidMime'      => 'Formatter برای نوع داده "{0}" پیدا نشد.',
     'missingExtension' => 'افزونه‌ی SimpleXML برای فرمت‌دهی XML ضروری است.',
 ];

@@ -48,7 +48,10 @@ return [
     'malformedQueryString' => 'Query string نمی‌تواند شامل قسمت‌های URI باشد.',
 
     // Page Not Found
-    'pageNotFound' => 'صفحه پیدا نشد',
+    'pageNotFound'       => 'صفحه پیدا نشد',
+    'emptyController'    => 'هیچ کنترلری مشخص نشده.',
+    'controllerNotFound' => 'کنترلر یا متد آن پیدا نشد: {0}::{1}',
+    'methodNotFound'     => 'متد کنترلر پیدا نشد: {0}',
 
     // CSRF
     'disallowedAction' => 'Action درخواستی شما مجاز نیست.',
@@ -66,5 +69,9 @@ return [
     'uploadErrCantWrite' => 'فایل "%s" نمی‌تواند در دیسک نوشته (ذخیره) شود.',
     'uploadErrNoTmpDir'  => 'فایل آپلود نشد: دایرکتوری موقت پیدا نشد.',
     'uploadErrExtension' => 'فایل توسط یک افزونه‌ی PHP متوقف شد.',
-    'uploadErrUnknown'   => 'فایل "%s" was not uploaded due to an unknown error.',
+    'uploadErrUnknown'   => 'فایل "%s" به علت خطای نامشخصی آپلود نشد.',
+
+    // SameSite setting
+    // @deprecated
+    'invalidSameSiteSetting' => 'تظیمات SameSite باید یکی از مقادیر None, Lax, Strict یا رشته خالی باشد. مقدار داده شده: {0}',
 ];

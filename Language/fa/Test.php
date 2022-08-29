@@ -9,8 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// Testing language settings
 return [
-    'invalidLogLevel'    => '{0} یک log level نامعتبر است.',
-    'invalidMessageType' => 'نوع پیام "{0}" پشتیبانی نمی‌شود.',
+    'invalidMockClass' => '{0} یک Mock class معتبر نیست ',
 ];
