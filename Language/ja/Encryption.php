@@ -11,6 +11,7 @@
 
 // Encryption language settings
 return [
+    // ダジャレは翻訳しません → Miss Daisy will be so upset!
     'noDriverRequested'    => 'ドライバは不要です。', // 'No driver requested; Miss Daisy will be so upset!'
     'noHandlerAvailable'   => '利用可能な "{0}" 暗号化ハンドラが見つかりません。', // 'Unable to find an available "{0}" encryption handler.'
     'unKnownHandler'       => '"{0}" は設定できません。', // '"{0}" cannot be configured.'
