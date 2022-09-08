@@ -12,7 +12,7 @@
 // Validation language settings
 return [
     // Core Messages
-    'noRuleSets'      => 'バリデーション構成で指定されたルールセットはありません。', // 'No rulesets specified in Validation configuration.'
+    'noRuleSets'      => 'バリデーション設定に指定されたルールセットはありません。', // 'No rule sets specified in Validation configuration.'
     'ruleNotFound'    => '"{0}" は有効なルールではありません。', // '"{0}" is not a valid rule.'
     'groupNotFound'   => '"{0}" はバリデーションルールグループではありません。', // '"{0}" is not a validation rules group.'
     'groupNotArray'   => '"{0}" ルールグループは配列でなければなりません。', // '"{0}" rule group must be an array.'
