@@ -13,12 +13,12 @@
 return [
     // CurlRequest
     'missingCurl'     => 'CURLRequestクラスを使用するには、CURLが有効になっている必要があります。', // 'CURL must be enabled to use the CURLRequest class.'
-    'invalidSSLKey'   => 'SSLキーを設定できません。{0} は有効なファイルではありません。', // 'Cannot set SSL Key. {0} is not a valid file.'
-    'sslCertNotFound' => '{0} にSSL証明書が見つかりません', // 'SSL certificate not found at: {0}'
+    'invalidSSLKey'   => 'SSLキーを設定できません。"{0}" は有効なファイルではありません。', // 'Cannot set SSL Key. "{0}" is not a valid file.'
+    'sslCertNotFound' => '"{0}" にSSL証明書が見つかりません', // 'SSL certificate not found at: "{0}"'
     'curlError'       => '{0} : {1}', // '{0} : {1}'
 
     // IncomingRequest
-    'invalidNegotiationType' => '{0} は有効なネゴシエーションタイプではありません。値は次のいずれかでなければなりません: media, charset, encoding, language', // '{0} is not a valid negotiation type. Must be one of: media, charset, encoding, language.'
+    'invalidNegotiationType' => '"{0}" は有効なネゴシエーションタイプではありません。値は次のいずれかでなければなりません: media, charset, encoding, language', // '"{0}" is not a valid negotiation type. Must be one of: media, charset, encoding, language.'
 
     // Message
     'invalidHTTPProtocol' => 'HTTP プロトコルのバージョンが無効です。値は次のいずれかでなければなりません: {0}', // 'Invalid HTTP Protocol Version. Must be one of: {0}'
@@ -31,7 +31,7 @@ return [
 
     // DownloadResponse
     'cannotSetBinary'        => 'ファイルパスを設定する場合、バイナリを設定できません。', // 'When setting filepath cannot set binary.'
-    'cannotSetFilepath'      => 'バイナリを設定するとファイルパスを設定できません: {0}', // 'When setting binary cannot set filepath: {0}'
+    'cannotSetFilepath'      => 'バイナリを設定するとファイルパスを設定できません: "{0}"', // 'When setting binary cannot set filepath: "{0}"'
     'notFoundDownloadSource' => 'ダウンロードボディのソースが見つかりません。', // 'Not found download body source.'
     'cannotSetCache'         => 'ダウンロード用のキャッシングには対応していません。', // 'It does not support caching for downloading.'
     'cannotSetStatusCode'    => 'ダウンロード用のステータスコードの変更には対応していません。 コード: {0}, 理由: {1}', // 'It does not support change status code for downloading. code: {0}, reason: {1}'
@@ -42,8 +42,8 @@ return [
     'unknownStatusCode'     => 'メッセージの無い未知のHTTPステータスコードです。: {0}', // 'Unknown HTTP status code provided with no message: {0}'
 
     // URI
-    'cannotParseURI'       => 'URI を解析できません。: {0}', // 'Unable to parse URI: {0}'
-    'segmentOutOfRange'    => 'リクエストURIセグメントが範囲外です: {0}', // 'Request URI segment is out of range: {0}'
+    'cannotParseURI'       => 'URI を解析できません: "{0}"', // 'Unable to parse URI: "{0}"'
+    'segmentOutOfRange'    => 'リクエストURIセグメントが範囲外です: "{0}"', // 'Request URI segment is out of range: "{0}"'
     'invalidPort'          => 'ポートは0～65535の間である必要があります。 値: {0}', // 'Ports must be between 0 and 65535. Given: {0}'
     'malformedQueryString' => 'クエリ文字列はURIフラグメントを含んではいけません。', // 'Query strings may not include URI fragments.'
 
@@ -51,7 +51,7 @@ return [
     'pageNotFound'       => 'ページが見つかりません。', // 'Page Not Found'
     'emptyController'    => 'コントローラが指定されていません。', // 'No Controller specified.'
     'controllerNotFound' => 'コントローラまたはそのメソッドが見つかりません。: {0}::{1}', // 'Controller or its method is not found: {0}::{1}'
-    'methodNotFound'     => 'コントローラのメソッドが見つかりません。: {0}', // 'Controller method is not found: {0}'
+    'methodNotFound'     => 'コントローラのメソッドが見つかりません: "{0}"', // 'Controller method is not found: "{0}"'
 
     // CSRF
     'disallowedAction' => '要求されたアクションは許可されていません。', // 'The action you requested is not allowed.'
@@ -59,7 +59,7 @@ return [
     // Uploaded file moving
     'alreadyMoved' => 'アップロードしたファイルは既に移動済みです。', // 'The uploaded file has already been moved.'
     'invalidFile'  => 'オリジナルファイルは有効なファイルではありません。', // 'The original file is not a valid file.'
-    'moveFailed'   => 'ファイル {0} を {1} に移動できませんでした({2})。', // 'Could not move file {0} to {1} ({2})'
+    'moveFailed'   => 'ファイル "{0}" を "{1}" に移動できませんでした。理由: {2}', // 'Could not move file "{0}" to "{1}". Reason: {2}'
 
     'uploadErrOk'        => 'ファイルのアップロードに成功しました。', // 'The file uploaded with success.'
     'uploadErrIniSize'   => 'ファイル "%s" が upload_max_filesize ini ディレクティブの値を超えています。', // 'The file "%s" exceeds your upload_max_filesize ini directive.'

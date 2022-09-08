@@ -18,6 +18,6 @@ return [
     'last'                   => '最後', // 'Last'
     'older'                  => '古い', // 'Older'
     'newer'                  => '新しい', // 'Newer'
-    'invalidTemplate'        => '{0} は有効なページャーテンプレートではありません。', // '{0} is not a valid Pager template.'
-    'invalidPaginationGroup' => '{0} は有効なページネーショングループではありません。', // '{0} is not a valid Pagination group.'
+    'invalidTemplate'        => '"{0}" は有効なページャーテンプレートではありません。', // '"{0}" is not a valid Pager template.'
+    'invalidPaginationGroup' => '"{0}" は有効なページネーショングループではありません。', // '"{0}" is not a valid Pagination group.'
 ];
