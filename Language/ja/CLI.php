@@ -37,7 +37,7 @@ return [
         'parentClass'      => '親クラス名', // 'Parent class'
         'returnType'       => '戻り値の型', // 'Return type'
         'tableName'        => 'テーブル名', // 'Table name'
-        'usingCINamespace' => '警告: 名前空間 "CodeIgniter" を使用すると system ディレクトリにファイルが生成されます。', // 'Warning: Using the "CodeIgniter" namespace will generate the file in the system directory.'
+        'usingCINamespace' => '警告: 名前空間 "CodeIgniter" を使用するとsystemディレクトリにファイルが生成されます。', // 'Warning: Using the "CodeIgniter" namespace will generate the file in the system directory.'
     ],
     'helpArguments'       => '引数:', // 'Arguments:'
     'helpDescription'     => '説明:', // 'Description:'

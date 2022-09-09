@@ -13,7 +13,7 @@
 return [
     'sourceImageRequired'    => '環境設定でソース画像を指定する必要があります。', // 'You must specify a source image in your preferences.'
     'gdRequired'             => 'この機能を利用するにはGDイメージライブラリが必要です。', // 'The GD image library is required to use this feature.'
-    'gdRequiredForProps'     => 'イメージのプロパティを決定するためには、サーバがGDイメージライブラリをサポートしている必要があります。', // 'Your server must support the GD image library in order to determine the image properties.'
+    'gdRequiredForProps'     => 'イメージのプロパティを決定するためには、サーバーがGDイメージライブラリをサポートしている必要があります。', // 'Your server must support the GD image library in order to determine the image properties.'
     'gifNotSupported'        => 'ライセンスの制限により、GIF画像はサポートされないことがよくあります。代わりに JPG または PNG 画像を使用する必要があるかもしれません。', // 'GIF images are often not supported due to licensing restrictions. You may have to use JPG or PNG images instead.'
     'jpgNotSupported'        => 'JPG画像には対応していません。', // 'JPG images are not supported.'
     'pngNotSupported'        => 'PNG画像には対応していません。', // 'PNG images are not supported.'

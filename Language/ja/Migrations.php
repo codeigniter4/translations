@@ -27,7 +27,7 @@ return [
     'migHelpVersion'  => "\tデータベースをバージョン {v} に移行します。", // "\tMigrates database to version {v}."
     'migHelpRollback' => "\tすべてのマイグレーションをバージョン0に「ダウン」します", // "\tRuns all migrations 'down' to version 0."
     'migHelpRefresh'  => "\t\tデータベースを一新するためにすべての移行をアンインストールして再実行します。", // "\t\tUninstalls and re-runs all migrations to freshen database."
-    'migHelpSeed'     => "\t[name] というseederを実行します。", // "\tRuns the seeder named [name]."
+    'migHelpSeed'     => "\t[name] というSeederを実行します。", // "\tRuns the seeder named [name]."
     'migCreate'       => "\t[name] という名前の新しいマイグレーションを作成します。", // "\tCreates a new migration named [name]"
     'nameMigration'   => 'マイグレーション・ファイルの名前', // 'Name the migration file'
     'migNumberError'  => 'マイグレーション・ナンバーは3桁でなければならず、シーケンスに飛びがあってはなりません。', // 'Migration number must be three digits, and there must not be any gaps in the sequence.'
@@ -39,12 +39,12 @@ return [
     'migrated'          => 'マイグレーションが完了しました。', // 'Migrations complete.'
     'migInvalidVersion' => '無効なバージョン番号です。', // 'Invalid version number provided.'
     'toVersionPH'       => 'バージョン %s に移行しています...', // 'Migrating to version %s...'
-    'toVersion'         => 'currentバージョンに移行しています...', // 'Migrating to current version...'
+    'toVersion'         => '現在のバージョンに移行しています...', // 'Migrating to current version...'
     'rollingBack'       => 'バッチへのマイグレーションをロールバック: ', // 'Rolling back migrations to batch: '
     'noneFound'         => 'マイグレーションは見つかりませんでした。', // 'No migrations were found.'
-    'migSeeder'         => 'seeder名', // 'Seeder name'
-    'migMissingSeeder'  => 'seeder名が必要です。', // 'You must provide a seeder name.'
-    'nameSeeder'        => 'seederファイル名', // 'Name the seeder file'
+    'migSeeder'         => 'Seeder名', // 'Seeder name'
+    'migMissingSeeder'  => 'Seeder名が必要です。', // 'You must provide a seeder name.'
+    'nameSeeder'        => 'Seederファイル名', // 'Name the seeder file'
     'removed'           => 'ロールバック: ', // 'Rolling back: '
     'added'             => '実行中: ', // 'Running: '
 
