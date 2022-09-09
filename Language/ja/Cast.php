@@ -17,7 +17,7 @@ return [
     'jsonErrorCtrlChar'      => '予期しない制御文字が見つかりました。', // 'Unexpected control character found.'
     'jsonErrorDepth'         => '最大スタックの深さを超えました。', // 'Maximum stack depth exceeded.'
     'jsonErrorStateMismatch' => 'アンダーフローまたはモードの不一致です。', // 'Underflow or the modes mismatch.'
-    'jsonErrorSyntax'        => '構文エラー、不正な JSON。', // 'Syntax error, malformed JSON.'
+    'jsonErrorSyntax'        => '構文エラー、不正なJSON。', // 'Syntax error, malformed JSON.'
     'jsonErrorUnknown'       => '未知のエラー。', // 'Unknown error.'
-    'jsonErrorUtf8'          => '不正な UTF-8 文字があり、誤ってエンコードされた可能性があります。', // 'Malformed UTF-8 characters, possibly incorrectly encoded.'
+    'jsonErrorUtf8'          => '不正なUTF-8文字があり、誤ってエンコードされた可能性があります。', // 'Malformed UTF-8 characters, possibly incorrectly encoded.'
 ];

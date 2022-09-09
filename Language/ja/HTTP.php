@@ -21,7 +21,7 @@ return [
     'invalidNegotiationType' => '"{0}" は有効なネゴシエーションタイプではありません。値は次のいずれかでなければなりません: media, charset, encoding, language', // '"{0}" is not a valid negotiation type. Must be one of: media, charset, encoding, language.'
 
     // Message
-    'invalidHTTPProtocol' => 'HTTP プロトコルのバージョンが無効です。値は次のいずれかでなければなりません: {0}', // 'Invalid HTTP Protocol Version. Must be one of: {0}'
+    'invalidHTTPProtocol' => 'HTTPプロトコルのバージョンが無効です。値は次のいずれかでなければなりません: {0}', // 'Invalid HTTP Protocol Version. Must be one of: {0}'
 
     // Negotiate
     'emptySupportedNegotiations' => 'すべてのネゴシエーションにサポートされている値の配列を設定する必要があります。', // 'You must provide an array of supported values to all Negotiations.'
@@ -34,17 +34,17 @@ return [
     'cannotSetFilepath'      => 'バイナリを設定するとファイルパスを設定できません: "{0}"', // 'When setting binary cannot set filepath: "{0}"'
     'notFoundDownloadSource' => 'ダウンロードボディのソースが見つかりません。', // 'Not found download body source.'
     'cannotSetCache'         => 'ダウンロード用のキャッシングには対応していません。', // 'It does not support caching for downloading.'
-    'cannotSetStatusCode'    => 'ダウンロード用のステータスコードの変更には対応していません。 コード: {0}, 理由: {1}', // 'It does not support change status code for downloading. code: {0}, reason: {1}'
+    'cannotSetStatusCode'    => 'ダウンロード用のステータスコードの変更には対応していません。コード: {0}, 理由: {1}', // 'It does not support change status code for downloading. code: {0}, reason: {1}'
 
     // Response
     'missingResponseStatus' => 'HTTPレスポンスにステータスコードがありません。', // 'HTTP Response is missing a status code'
-    'invalidStatusCode'     => '{0} は有効な HTTP リターンステータスコードではありません。', // '{0} is not a valid HTTP return status code'
-    'unknownStatusCode'     => 'メッセージの無い未知のHTTPステータスコードです。: {0}', // 'Unknown HTTP status code provided with no message: {0}'
+    'invalidStatusCode'     => '{0} は有効なHTTPリターンステータスコードではありません。', // '{0} is not a valid HTTP return status code'
+    'unknownStatusCode'     => 'メッセージの無い未知のHTTPステータスコードです: {0}', // 'Unknown HTTP status code provided with no message: {0}'
 
     // URI
-    'cannotParseURI'       => 'URI を解析できません: "{0}"', // 'Unable to parse URI: "{0}"'
+    'cannotParseURI'       => 'URIを解析できません: "{0}"', // 'Unable to parse URI: "{0}"'
     'segmentOutOfRange'    => 'リクエストURIセグメントが範囲外です: "{0}"', // 'Request URI segment is out of range: "{0}"'
-    'invalidPort'          => 'ポートは0～65535の間である必要があります。 値: {0}', // 'Ports must be between 0 and 65535. Given: {0}'
+    'invalidPort'          => 'ポートは0～65535の間である必要があります。値: {0}', // 'Ports must be between 0 and 65535. Given: {0}'
     'malformedQueryString' => 'クエリ文字列はURIフラグメントを含んではいけません。', // 'Query strings may not include URI fragments.'
 
     // Page Not Found
@@ -72,5 +72,5 @@ return [
     'uploadErrUnknown'   => 'ファイル "%s" は未知のエラーのためアップロードされませんでした。', // 'The file "%s" was not uploaded due to an unknown error.'
 
     // SameSite setting
-    'invalidSameSiteSetting' => 'SameSite 設定には None、Lax、Strict または空文字列を指定する必要がありますが、「{0}」が指定されました。', // 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}'
+    'invalidSameSiteSetting' => 'SameSite設定にはNone、Lax、Strict、または空文字列を指定する必要がありますが、「{0}」が指定されました。', // 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}'
 ];

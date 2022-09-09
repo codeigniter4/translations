@@ -52,7 +52,7 @@ return [
     'required_without'      => '{field} は {param} が存在しない場合には必須項目です。', // 'The {field} field is required when {param} is not present.'
     'string'                => '{field} には、有効な文字列を入力してください。', // 'The {field} field must be a valid string.'
     'timezone'              => '{field} には、有効なタイムゾーンを入力してください。', // 'The {field} field must be a valid timezone.'
-    'valid_base64'          => '{field} には、有効なbase64文字列を入力してください。', // 'The {field} field must be a valid base64 string.'
+    'valid_base64'          => '{field} には、有効なBase64文字列を入力してください。', // 'The {field} field must be a valid base64 string.'
     'valid_email'           => '{field} には、有効なメールアドレスを入力してください。', // 'The {field} field must contain a valid email address.'
     'valid_emails'          => '{field} には、すべて有効なメールアドレスを入力してください。', // 'The {field} field must contain all valid email addresses.'
     'valid_ip'              => '{field} には、有効なIPアドレスを入力してください。', // 'The {field} field must contain a valid IP.'
