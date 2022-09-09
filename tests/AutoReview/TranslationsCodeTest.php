@@ -20,6 +20,7 @@ use Translations\Tests\AbstractTranslationTestCase;
  * @internal
  *
  * @coversNothing
+ *
  * @group auto-review
  */
 final class TranslationsCodeTest extends TestCase
