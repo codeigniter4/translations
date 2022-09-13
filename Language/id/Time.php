@@ -25,7 +25,7 @@ return [
     'hours'          => '{0, plural, =1{# jam} other{# jam}}',
     'minutes'        => '{0, plural, =1{# menit} other{# menit}}',
     'seconds'        => '{0, plural, =1{# detik} other{# detik}}',
-    'ago'            => '{0} lalu',
+    'ago'            => '"{0}" lalu',
     'inFuture'       => 'di "{0}"',
     'yesterday'      => 'Kemarin',
     'tomorrow'       => 'Besok',
