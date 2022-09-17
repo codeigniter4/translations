@@ -13,6 +13,7 @@
 return [
     'altCommandPlural'   => 'Ar turėjai omenyje vieną iš šių?',
     'altCommandSingular' => 'Ar turi omenyje šį?',
+    'commandNotFound'    => 'Komandos „{0}“ rasti nepavyko.',
     'generator'          => [
         'cancelOperation' => 'Operacija atšaukta.',
         'className'       => [
@@ -38,11 +39,10 @@ return [
         'tableName'        => 'Table name',
         'usingCINamespace' => 'Warning: Using the "CodeIgniter" namespace will generate the file in the system directory.',
     ],
-    'commandNotFound' => 'Komandos „{0}“ rasti nepavyko.',
-    'helpUsage'       => 'Naudojimas:',
-    'helpDescription' => 'Aprašymas:',
-    'helpOptions'     => 'Parinktys:',
-    'helpArguments'   => 'Argumentai:',
-    'invalidColor'    => 'Neteisinga {0} spalva: {1}.',
-    'namespaceNotDefined' => 'Namespace "{0}" neapibrėžta.',
+    'helpArguments'       => 'Argumentai:',
+    'helpDescription'     => 'Aprašymas:',
+    'helpOptions'         => 'Parinktys:',
+    'helpUsage'           => 'Naudojimas:',
+    'invalidColor'        => 'Neteisinga {0} spalva: {1}.',
+    'namespaceNotDefined' => 'Namespace „{0}“ neapibrėžta.',
 ];

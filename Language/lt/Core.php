@@ -11,10 +11,10 @@
 
 // Core language settings
 return [
-    'copyError'        => 'Bandant pakeisti failą ({0}) susidurta su klaida. Prašome patikrinti, ar galima rašyti į direktoriją, kurioje yra failas.',
+    'copyError'                    => 'Bandant pakeisti failą ({0}) susidurta su klaida. Prašome patikrinti, ar galima rašyti į direktoriją, kurioje yra failas.',
     'enabledZlibOutputCompression' => 'zlib.output_compression ini nustatymas įjungtas. Ji gerai neveiks su output buffers.',
-    'invalidFile'      => 'Neteisingas failas: {0}',
+    'invalidFile'                  => 'Neteisingas failas: {0}',
     'invalidPhpVersion'            => 'Norint paleisti CodeIgniter, PHP versija turi būti {0} arba aukštesnė. Dabartinė versija: {1}',
-    'missingExtension' => '{0} praplėtimas nėra įkeltas.',
-    'noHandlers'       => '{0} turi teikti bent vieną doroklį.',
+    'missingExtension'             => '{0} praplėtimas nėra įkeltas.',
+    'noHandlers'                   => '{0} turi teikti bent vieną doroklį.',
 ];

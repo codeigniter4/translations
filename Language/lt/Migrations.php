@@ -42,7 +42,6 @@ return [
     'toVersion'         => 'Migruojama iki dabartinės versijos...',
     'rollingBack'       => 'Migracijos anuliuojamos iki paketo: ',
     'noneFound'         => 'Nerasta migracijų.',
-    'on'                => 'Migruota: ',
     'migSeeder'         => 'Sėjiko vardas',
     'migMissingSeeder'  => 'Turite nurodyti sėjimo vardą.',
     'nameSeeder'        => 'Seeder failo vardas',
@@ -51,8 +50,8 @@ return [
 
     // Migrate Status
     'namespace' => 'Namespace(vardų erdvė)',
-    'version'  => 'Versija',
-    'filename' => 'Failo pavadinimas',
+    'filename'  => 'Failo pavadinimas',
+    'version'   => 'Versija',
     'group'     => 'Grupė',
     'on'        => 'Kur migruota: ',
     'batch'     => 'Batch tipas',
