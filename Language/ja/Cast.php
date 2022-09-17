@@ -19,5 +19,5 @@ return [
     'jsonErrorStateMismatch' => 'アンダーフローまたはモードの不一致です。', // 'Underflow or the modes mismatch.',
     'jsonErrorSyntax'        => '構文エラー、不正な JSON。', // 'Syntax error, malformed JSON.',
     'jsonErrorUnknown'       => '未知のエラー。', // 'Unknown error.',
-    'jsonErrorUtf8'          => '不正な UTF-8 文字があり、誤ってエンコードされた可能性があります。', //'Malformed UTF-8 characters, possibly incorrectly encoded.',
+    'jsonErrorUtf8'          => '不正な UTF-8 文字があり、誤ってエンコードされた可能性があります。', // 'Malformed UTF-8 characters, possibly incorrectly encoded.',
 ];
