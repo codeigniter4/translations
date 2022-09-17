@@ -15,6 +15,7 @@ return [
     'invalidArgument'                  => 'Turite pateikti teisingą {0}.',
     'invalidAllowedFields'             => 'Leidžiami laukai turi būti nurodyti modeliui: {0}',
     'emptyDataset'                     => '{0} Nėra duomenų.',
+    'emptyPrimaryKey'                  => 'Nenurodytas primary key kai bandoma atlikti {0}.',
     'failGetFieldData'                 => 'Nepavyko gauti lauko duomenų iš duomenų bazės.',
     'failGetIndexData'                 => 'Iš duomenų bazės nepavyko gauti indekso duomenų.',
     'failGetForeignKeyData'            => 'Nepavyko gauti svetimojo rakto duomenų iš duomenų bazės.',
@@ -26,4 +27,5 @@ return [
     'fieldNotExists'                   => 'Nepavyko rasti lauko `{0}`.',
     'forEmptyInputGiven'               => 'Laukui `{0}` pateiktas tuščias teiginys',
     'forFindColumnHaveMultipleColumns' => 'Stulpelio pavadinimą leidžiama sudaryti iš vieno stulpelio.',
+    'methodNotAvailable'               => 'Negalima naudoti `{1}` viduje `{0}`. Tai `Query Builder` klasės metodas.',
 ];

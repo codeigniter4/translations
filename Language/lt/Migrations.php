@@ -31,9 +31,12 @@ return [
     'migCreate'       => "\tSukuria naują migraciją vardu [name]",
     'nameMigration'   => 'Įvardinkite migracijos failą',
     'migNumberError'  => 'Migracijos numerį turi sudaryti trys skaitmenys, o jų sekoje neturi būti jokių tarpų.',
+    'rollBackConfirm' => 'Ar tikrai daryti rollback?',
+    'refreshConfirm'  => 'Ar tikrai daryti refresh?',
 
     'latest'            => 'Vykdomos visos migracijos...',
     'generalFault'      => 'Migracijos nepavyko!',
+    'migrated'          => 'Migracija pavyko.',
     'migInvalidVersion' => 'Nurodytas neteisingas versijos numeris.',
     'toVersionPH'       => 'Migruojama iki versijos %s...',
     'toVersion'         => 'Migruojama iki dabartinės versijos...',
@@ -42,9 +45,15 @@ return [
     'on'                => 'Migruota: ',
     'migSeeder'         => 'Sėjiko vardas',
     'migMissingSeeder'  => 'Turite nurodyti sėjimo vardą.',
+    'nameSeeder'        => 'Seeder failo vardas',
     'removed'           => 'Anuliuojama: ',
     'added'             => 'Vykdoma: ',
 
+    // Migrate Status
+    'namespace' => 'Namespace(vardų erdvė)',
     'version'  => 'Versija',
     'filename' => 'Failo pavadinimas',
+    'group'     => 'Grupė',
+    'on'        => 'Kur migruota: ',
+    'batch'     => 'Batch tipas',
 ];

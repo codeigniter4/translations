@@ -13,4 +13,6 @@
 return [
     'invalidParameter'    => 'Parametras neatitinka laukiamo tipo.',
     'missingDefaultRoute' => 'Nepavyksta nustatyti, kas turi būti rodoma. Maršrutizavimo faile nėra nustatytas numatytasis maršrutas.',
+    'invalidDynamicController' => 'Dinaminis valdiklis neleidžiamas saugumo sumetimais. Maršruto tvarkyklė: {0}',
+    'invalidControllerName'    => 'Vardų erdvės riboženklis yra atgalinis pasvirasis brūkšnys (\), o ne pasvirasis brūkšnys (/). Maršruto tvarkyklė: {0}',
 ];
