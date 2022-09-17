@@ -22,7 +22,7 @@ return [
     'alpha'                 => '{field} は半角英字のみ利用可能です。', // The {field} field may only contain alphabetical characters.
     'alpha_dash'            => '{field} は半角の英数・アンダースコア・ハイフンのみ利用可能です。', // The {field} field may only contain alphanumeric, underscore, and dash characters.
     'alpha_numeric'         => '{field} は半角英数のみ利用可能です。', // The {field} field may only contain alphanumeric characters.
-    'alpha_numeric_punct'   => '{field} は半角の英数・空白と「~ ! # $ % & * - _ + = | : .」のみ利用可能です。', //The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.
+    'alpha_numeric_punct'   => '{field} は半角の英数・空白と「~ ! # $ % & * - _ + = | : .」のみ利用可能です。', // The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.
     'alpha_numeric_space'   => '{field} は半角の英数と空白のみ利用可能です。', // The {field} field may only contain alphanumeric and space characters.
     'alpha_space'           => '{field} は半角の英字と空白のみ利用可能です。', // The {field} field may only contain alphabetical characters and spaces.
     'decimal'               => '{field} は半角数値を入力してください。', // The {field} field must contain a decimal number.
