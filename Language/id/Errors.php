@@ -14,5 +14,5 @@ return [
     'pageNotFound'    => '404 - Halaman tidak ditemukan',
     'sorryCannotFind' => 'Maaf! Sepertinya tidak dapat menemukan halaman yang Anda cari.',
     'whoops'          => 'Upps!',
-    'weHitASnag'      => 'Tampaknya kami menemukan halangan, Silahkan coba kembali nanti...',
+    'weHitASnag'      => 'Kami menemukan adanya halangan, Silahkan coba kembali nanti...',
 ];
