@@ -9,8 +9,9 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// Fabricator language settings
 return [
-    'invalidLogLevel'    => '{0} yra netinkamas žurnalo įrašo lygmuo.',
-    'invalidMessageType' => 'Žinutės tipas "{0}" nepalaikomas.',
+    'invalidModel'      => 'Gamybai pateiktas netinkamas modelis.',
+    'missingFormatters' => 'Nėra nuistatyta galiojančių formatų.',
+    'createFailed'      => '"Fabricator" nepavyko įterpti į lentelę {0}: {1}',
 ];

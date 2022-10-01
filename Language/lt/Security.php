@@ -9,8 +9,10 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// Security language settings
 return [
-    'invalidLogLevel'    => '{0} yra netinkamas žurnalo įrašo lygmuo.',
-    'invalidMessageType' => 'Žinutės tipas "{0}" nepalaikomas.',
+    'disallowedAction' => 'Jūsų prašomas veiksmas neleidžiamas.',
+
+    // @deprecated
+    'invalidSameSite' => 'Reikšmė SameSite turi būti None, Lax, Strict arba tuščia eilutė. Pateikta: {0}',
 ];
