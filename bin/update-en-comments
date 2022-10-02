@@ -25,6 +25,7 @@ if ($argc !== 2) {
 $locale = $argv[1];
 
 $langDir = __DIR__ . '/../Language/' . $locale;
+
 if (! is_dir($langDir)) {
     CLI::error('No such directory: "' . $langDir . '"');
 
@@ -32,6 +33,7 @@ if (! is_dir($langDir)) {
 }
 
 $enDir = VENDORPATH . 'codeigniter4/CodeIgniter4/system/Language/en';
+
 if (! is_dir($enDir)) {
     CLI::error('No "Language/en" directory. Please run "composer update".');
 
