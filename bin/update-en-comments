@@ -55,7 +55,9 @@ $enFiles = get_filenames(
 );
 
 foreach ($enFiles as $enFile) {
-    $langFile = $langDir . '/' . substr($enFile, strlen($enDir) + 1);
+    $temp     = $langDir . '/' . substr($enFile, strlen($enDir) + 1);
+    $langFile = realpath($temp) ?: $temp;
+
     if (! is_file($langFile)) {
         CLI::error('No such file: "' . $langFile . '"');
 
@@ -94,7 +96,7 @@ foreach ($enFiles as $enFile) {
 
             foreach ($items as $item) {
                 if (array_key_first($item) === $key) {
-                    $newLangFile .= $indent . "'" . $key . "'" . $arrow . $value . ", // " . $item[$key] . "\n";
+                    $newLangFile .= $indent . "'" . $key . "'" . $arrow . $value . ', // ' . $item[$key] . "\n";
                     unset($item[$key]);
                 }
             }
