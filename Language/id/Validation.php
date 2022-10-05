@@ -59,6 +59,7 @@ return [
     'valid_url'             => 'Bidang {field} harus berisi sebuah URL yang valid.',
     'valid_url_strict'      => 'Bidang {field} harus berisi sebuah URL yang valid.',
     'valid_date'            => 'Bidang {field} harus berisi sebuah tanggal yang valid.',
+    'valid_json'            => 'Bidang {field} harus berisi sebuah json yang valid.',
 
     // Credit Cards
     'valid_cc_num' => '{field} tidak tampak sebagai sebuah nomor kartu kredit yang valid.',
