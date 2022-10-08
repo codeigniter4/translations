@@ -59,6 +59,7 @@ return [
     'valid_url'             => '{field} には、有効なURLを入力してください。', // The {field} field must contain a valid URL.
     'valid_url_strict'      => '{field} には、有効なURLを入力してください。', // The {field} field must contain a valid URL.
     'valid_date'            => '{field} には、有効な日付を入力してください。', // The {field} field must contain a valid date.
+    'valid_json'            => '{field} には、有効なJSONを指定してください。', // 'The {field} field must contain a valid json.'
 
     // Credit Cards
     'valid_cc_num' => '{field} は有効なクレジットカード番号ではないようです。', // {field} does not appear to be a valid credit card number.
