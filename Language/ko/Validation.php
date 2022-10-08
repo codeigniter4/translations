@@ -59,6 +59,7 @@ return [
     'valid_url'             => '{field} 필드 값은 유효한 URL 주소이어야 합니다.', // 'The {field} field must contain a valid URL.'
     'valid_url_strict'      => '{field} 필드 값은 유효한 URL 주소이어야 합니다.', // 'The {field} field must contain a valid URL.'
     'valid_date'            => '{field} 필드 값은 유효한 날짜여야 합니다.', // 'The {field} field must contain a valid date.'
+    'valid_json'            => '{field} 필드 값은 유효한 json이어야 합니다.', // The {field} field must contain a valid json.
 
     // Credit Cards
     'valid_cc_num' => '{field}의 값은 잘못된 신용카드 번호입니다.', // '{field} does not appear to be a valid credit card number.'

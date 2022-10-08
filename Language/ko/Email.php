@@ -18,13 +18,13 @@ return [
     'noFrom'               => '"From" 헤더가 없는 메일은 보낼 수 없습니다.', // Cannot send mail with no "From" header.
     'noRecipients'         => '받는 사람을 포함해야합니다(To, Cc, or Bcc)', // You must include recipients: To, Cc, or Bcc
     'sendFailurePHPMail'   => 'PHP mail()을 사용하여 이메일을 보낼 수 없습니다. 이 방법을 사용하여 메일을 보내도록 서버가 구성되지 않았을 수 있습니다.', // Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
-    'sendFailureSendmail'  => 'PHP Sendmail을 사용하여 이메일을 보낼 수 없습니다. 이 방법을 사용하여 메일을 보내도록 서버가 구성되지 않았을 수 있습니다.', // Unable to send email using PHP Sendmail. Your server might not be configured to send mail using this method.
-    'sendFailureSmtp'      => 'PHP SMTP를 사용하여 이메일을 보낼 수 없습니다. 이 방법을 사용하여 메일을 보내도록 서버가 구성되지 않았을 수 있습니다.', // Unable to send email using PHP SMTP. Your server might not be configured to send mail using this method.
+    'sendFailureSendmail'  => 'Sendmail을 사용하여 이메일을 보낼 수 없습니다. 이 방법을 사용하여 메일을 보내도록 서버가 구성되지 않았을 수 있습니다.', // Unable to send email using Sendmail. Your server might not be configured to send mail using this method.
+    'sendFailureSmtp'      => 'SMTP를 사용하여 이메일을 보낼 수 없습니다. 이 방법을 사용하여 메일을 보내도록 서버가 구성되지 않았을 수 있습니다.', // Unable to send email using SMTP. Your server might not be configured to send mail using this method.
     'sent'                 => '{0} 프로토콜을 사용하여 메시지가 성공적으로 전송되었습니다.', // Your message has been successfully sent using the following protocol: {0}
     'noSocket'             => 'Sendmail 소켓을 열 수 없습니다. 설정을 확인하십시오.', // Unable to open a socket to Sendmail. Please check settings.
     'noHostname'           => 'SMTP 호스트 이름을 지정하지 않았습니다.', // You did not specify a SMTP hostname.
     'SMTPError'            => '다음 SMTP 오류가 발생했습니다: {0}', // The following SMTP error was encountered: {0}
-    'noSMTPAuth'           => '오류: SMTP 사용자 이름과 비밀번호를 지정해야합니다.', // Error: You must assign a SMTP username and password.
+    'noSMTPAuth'           => '오류: SMTP 사용자 이름과 비밀번호를 지정해야합니다.', // Error: You must assign an SMTP username and password.
     'failedSMTPLogin'      => 'AUTH LOGIN 명령을 보내지 못했습니다. 오류: {0}', // Failed to send AUTH LOGIN command. Error: {0}
     'SMTPAuthUsername'     => '사용자 이름을 인증하지 못했습니다. 오류: {0}', // Failed to authenticate username. Error: {0}
     'SMTPAuthPassword'     => '비밀번호 인증에 실패했습니다. 오류: {0}', // Failed to authenticate password. Error: {0}
