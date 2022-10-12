@@ -11,13 +11,13 @@
 
 // Cast language settings
 return [
-    'baseCastMissing'        => 'The "{0}" class must inherit the "CodeIgniter\Entity\Cast\BaseCast" class.',
-    'invalidCastMethod'      => 'The "{0}" is invalid cast method, valid methods are: ["get", "set"].',
-    'invalidTimestamp'       => 'Type casting "timestamp" expects a correct timestamp.',
-    'jsonErrorCtrlChar'      => 'Unexpected control character found.',
-    'jsonErrorDepth'         => 'Maximum stack depth exceeded.',
-    'jsonErrorStateMismatch' => 'Underflow or the modes mismatch.',
-    'jsonErrorSyntax'        => 'Syntax error, malformed JSON.',
-    'jsonErrorUnknown'       => 'Unknown error.',
-    'jsonErrorUtf8'          => 'Malformed UTF-8 characters, possibly incorrectly encoded.',
+    'baseCastMissing'        => '"{0}" ক্লাসটি অবশ্যই "CodeIgniter\Entity\Cast\BaseCast" ক্লাসের উত্তরাধিকারী হবে।',
+    'invalidCastMethod'      => '"{0}" হল অবৈধ কাস্ট পদ্ধতি, বৈধ পদ্ধতি হল: ["get", "set"]৷',
+    'invalidTimestamp'       => 'টাইপ কাস্টিং "টাইমস্ট্যাম্প" একটি সঠিক টাইমস্ট্যাম্প আশা করে৷',
+    'jsonErrorCtrlChar'      => 'অপ্রত্যাশিত নিয়ন্ত্রণ অক্ষর পাওয়া গেছে.',
+    'jsonErrorDepth'         => 'স্ট্যাকের সর্বোচ্চ গভীরতা অতিক্রম করেছে৷',
+    'jsonErrorStateMismatch' => 'আন্ডারফ্লো বা মোড অমিল।',
+    'jsonErrorSyntax'        => 'সিনট্যাক্স ত্রুটি, বিকৃত JSON।',
+    'jsonErrorUnknown'       => 'অজানা ত্রুটি.',
+    'jsonErrorUtf8'          => 'বিকৃত UTF-8 অক্ষর, সম্ভবত ভুলভাবে এনকোড করা হয়েছে।',
 ];
