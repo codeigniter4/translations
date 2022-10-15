@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add script to add en lang strings as comments
 - Add .editorconfig
 
-## Changed
+### Changed
 
 - de (German)
 - id (Indonesian)
@@ -20,7 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - ko (Korean)
 - lt (Lithuanian)
 
-## Fixed
+### Fixed
 
 - Update action workflows
 
