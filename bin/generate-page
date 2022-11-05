@@ -13,9 +13,9 @@
 require __DIR__ . '/../vendor/codeigniter4/codeigniter4/system/Test/bootstrap.php';
 
 use CodeIgniter\CLI\CLI;
+use Translations\Tests\AbstractTranslationTestCase;
 
-$reflection = new ReflectionClass('Translations\Tests\AbstractTranslationTestCase');
-$locales    = $reflection->getStaticPropertyValue('locales') ?? [];
+$locales = AbstractTranslationTestCase::$locales;
 
 if ($locales === []) {
     CLI::error('No locales list available.');
