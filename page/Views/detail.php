@@ -10,7 +10,7 @@
         <p class="lead">
             If you see some missing translations and you speak natively in this language, we would appreciate if you could send a PR. For more detailed information about how to contribute, please check the <a href="https://github.com/codeigniter4/translations/blob/develop/CONTRIBUTING.md">Contributing Guide</a>.
         </p>
-        <a class="btn btn-primary" href="/translations">
+        <a class="btn btn-primary" href="index.html">
             Go back to the list of all languages
         </a>
     </div>
