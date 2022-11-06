@@ -22,7 +22,7 @@
         <?= $this->renderSection('content') ?>
 
         <footer class="pt-3 mt-4 text-muted border-top">
-            &copy; <?= date('Y'); ?> CodeIgniter Foundation. CodeIgniter is open source project released under the MIT open source licence.
+            &copy; 2019-<?= date('Y'); ?> CodeIgniter Foundation. CodeIgniter is open source project released under the MIT open source licence.
         </footer>
     </div>
 </main>

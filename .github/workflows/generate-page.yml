@@ -6,7 +6,7 @@ on:
       - develop
     paths:
       - Language/**
-      - tests/Language/**
+      - tests/Language/AbstractTranslationTestCase.php
       - .github/workflows/generate-page.yml
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
