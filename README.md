@@ -24,6 +24,10 @@ capitalized, and with the two parts separated by a hyphen.
 
 An example would be "en" for English, and "en-US" for the variations appropriate to the United States.
 
+## Translation Status
+
+See <https://codeigniter4.github.io/translations/>.
+
 ## Repository Information
 
 Each ICU locale is maintained by a community member, per the table below. The role of maintainers is to
