@@ -1,0 +1,131 @@
+#!/usr/bin/env php
+<?php declare(strict_types=1);
+
+/**
+ * This file is part of CodeIgniter 4 framework.
+ *
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
+ *
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
+ */
+
+require __DIR__ . '/../vendor/codeigniter4/codeigniter4/system/Test/bootstrap.php';
+
+use CodeIgniter\CLI\CLI;
+use Translations\Tests\AbstractTranslationTestCase;
+
+$locales = AbstractTranslationTestCase::$locales;
+
+if ($locales === []) {
+    CLI::error('No locales list available.');
+
+    exit(1);
+}
+
+helper('filesystem');
+
+$enDir = VENDORPATH . 'codeigniter4/codeigniter4/system/Language/en';
+
+if (! is_dir($enDir)) {
+    CLI::error('No "Language/en" directory. Please run "composer update".');
+
+    exit(1);
+}
+
+// get default "en" language for reference
+$enFiles = get_filenames(
+    $enDir,
+    true,
+    false,
+    false
+);
+
+$enItems = [];
+
+foreach ($enFiles as $enFile) {
+    $enFileLines = file($enFile);
+    $enName      = basename($enFile);
+    $pattern     = '/(.*)\'([a-zA-Z0-9_]+?)\'(\s*=>\s*)([\'"].+[\'"]),/u';
+
+    $enItems[$enName] = ['lines' => [], 'count' => 0];
+
+    foreach ($enFileLines as $line) {
+        if (preg_match($pattern, $line, $matches)) {
+            $enItems[$enName]['lines'][$matches[2]] = $matches[4];
+            $enItems[$enName]['count']++;
+        }
+    }
+}
+
+// create build directory
+$buildDir = __DIR__ . '/../page/build';
+
+if (! is_dir($buildDir) && ! mkdir($buildDir)) {
+    CLI::error('Can\'t create build directory: "' . $buildDir . '"');
+
+    exit(1);
+}
+
+// gather all others languages
+$items = [];
+
+foreach ($locales as $localeKey => $locale) {
+    $langDir = __DIR__ . '/../Language/' . $locale;
+
+    if (! is_dir($langDir)) {
+        CLI::error('No such directory: "' . $langDir . '"');
+
+        exit(1);
+    }
+
+    $files = get_filenames(
+        $langDir,
+        true,
+        false,
+        false
+    );
+
+    $items[$locale] = [
+        'language' => str_replace(['Translations\\Tests\\', 'TranslationTest'], '', $localeKey),
+        'locale'   => $locale,
+        'percent'  => 0,
+        'files'    => [],
+    ];
+
+    foreach ($files as $file) {
+        $fileLines = file($file);
+        $name      = basename($file);
+        $pattern   = '/(.*)\'([a-zA-Z0-9_]+?)\'(\s*=>\s*)([\'"].+[\'"]),/u';
+
+        $validLines = array_keys($enItems[$name]['lines']);
+
+        $items[$locale]['files'][$name] = ['lines' => [], 'count' => 0, 'percent' => 0, 'missing' => []];
+
+        foreach ($fileLines as $line) {
+            if (preg_match($pattern, $line, $matches) && in_array($matches[2], $validLines, true)) {
+                $items[$locale]['files'][$name]['lines'][$matches[2]] = $matches[4];
+                $items[$locale]['files'][$name]['count']++;
+            }
+        }
+
+        $items[$locale]['files'][$name]['missing'] = array_values(array_diff(array_keys($enItems[$name]['lines']), array_keys($items[$locale]['files'][$name]['lines'])));
+        $items[$locale]['files'][$name]['percent'] = round($items[$locale]['files'][$name]['count'] * 100 / $enItems[$name]['count'], 1);
+    }
+
+    $items[$locale]['percent'] = round(array_sum(array_column($items[$locale]['files'], 'percent')) / count($items[$locale]['files']), 1);
+
+    // save detailed info about language
+    $fileName    = sprintf('%s/../page/build/%s.html', __DIR__, $locale);
+    $fileContent = view('Translations\page\Views\detail', ['current' => $items[$locale], 'en' => $enItems]);
+    file_put_contents($fileName, $fileContent);
+
+    CLI::write('Generating details for: ' . $locale);
+}
+
+// save general info about all languages
+$fileName    = sprintf('%s/../page/build/index.html', __DIR__);
+$fileContent = view('Translations\page\Views\list', ['languages' => $items]);
+file_put_contents($fileName, $fileContent);
+
+CLI::write('Generating index file.');
