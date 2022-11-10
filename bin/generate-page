@@ -71,6 +71,8 @@ if (! is_dir($buildDir) && ! mkdir($buildDir)) {
 $items = [];
 
 foreach ($locales as $localeKey => $locale) {
+    CLI::write('Generating details for: ' . CLI::color($locale, 'green'));
+
     $langDir = __DIR__ . '/../Language/' . $locale;
 
     if (! is_dir($langDir)) {
@@ -87,10 +89,18 @@ foreach ($locales as $localeKey => $locale) {
     );
 
     $items[$locale] = [
-        'language' => str_replace(['Translations\\Tests\\', 'TranslationTest'], '', $localeKey),
-        'locale'   => $locale,
-        'percent'  => 0,
-        'files'    => [],
+        'language' => preg_replace_callback(
+            '/^Translations\\\\Tests\\\\(\S+)TranslationTest$/',
+            static fn (array $matches): string => preg_replace(
+                '/(?<!^)((?=[\p{Lu}][^\p{Lu}])|(?<![\p{Lu}])(?=[\p{Lu}]))/u',
+                ' ',
+                $matches[1]
+            ),
+            $localeKey
+        ),
+        'locale'  => $locale,
+        'percent' => 0,
+        'files'   => [],
     ];
 
     foreach ($files as $file) {
@@ -119,13 +129,11 @@ foreach ($locales as $localeKey => $locale) {
     $fileName    = sprintf('%s/../page/build/%s.html', __DIR__, $locale);
     $fileContent = view('Translations\page\Views\detail', ['current' => $items[$locale], 'en' => $enItems]);
     file_put_contents($fileName, $fileContent);
-
-    CLI::write('Generating details for: ' . $locale);
 }
+
+CLI::write('Generating index file.');
 
 // save general info about all languages
 $fileName    = sprintf('%s/../page/build/index.html', __DIR__);
 $fileContent = view('Translations\page\Views\list', ['languages' => $items]);
 file_put_contents($fileName, $fileContent);
-
-CLI::write('Generating index file.');
