@@ -59,7 +59,8 @@ return [
     'valid_url'             => 'فیلد {field} باید یک URL (آدرس اینترنتی) معتبر باشد.',
     'valid_url_strict'      => 'فیلد {field} باید یک URL (آدرس اینترنتی) معتبر باشد.',
     'valid_date'            => 'فیلد {field} باید یک تاریخ معتبر باشد.',
-
+    'valid_json'            => 'فیلد {field} باید یک json معتبر باشد.',
+    
     // Credit Cards
     'valid_cc_num' => 'فیلد {field} به نظر یک شماره کارت اعتباری معتبر نیست.',
 
