@@ -14,7 +14,7 @@ return [
     'altCommandSingular' => 'Menade du detta?',
     'commandNotFound'    => 'Kunde inte hitta kommandot "{0}".',
     'generator'          => [
-        'cancelOperation'  => 'Operationen har avbrutits.',
+        'cancelOperation' => 'Operationen har avbrutits.',
         'className'       => [
             'command'    => 'Command klassnamn',
             'config'     => 'Config klassnamn',
