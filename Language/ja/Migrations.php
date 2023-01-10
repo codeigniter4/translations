@@ -14,7 +14,7 @@ return [
     // Migration Runner
     'missingTable'  => 'マイグレーション・テーブルを設定する必要があります。', // 'Migrations table must be set.'
     'disabled'      => 'マイグレーションは読み込まれていますが、無効化されているか、設定が間違っています。', // 'Migrations have been loaded but are disabled or setup incorrectly.'
-    'notFound'      => 'マイグレーション・ファイルが見つかりません。: ', // 'Migration file not found: '
+    'notFound'      => 'マイグレーション・ファイルが見つかりません: ', // 'Migration file not found: '
     'batchNotFound' => 'ターゲットバッチが見つかりません: ', // 'Target batch not found: '
     'empty'         => 'マイグレーション・ファイルが見つかりませんでした。', // 'No Migration files found'
     'gap'           => 'バージョン番号付近のマイグレーション・シーケンスに飛びがあります: ', // 'There is a gap in the migration sequence near version number: '

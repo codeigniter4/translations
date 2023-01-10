@@ -50,7 +50,7 @@ return [
     // Page Not Found
     'pageNotFound'       => 'ページが見つかりません。', // 'Page Not Found'
     'emptyController'    => 'コントローラが指定されていません。', // 'No Controller specified.'
-    'controllerNotFound' => 'コントローラまたはそのメソッドが見つかりません。: {0}::{1}', // 'Controller or its method is not found: {0}::{1}'
+    'controllerNotFound' => 'コントローラまたはそのメソッドが見つかりません: {0}::{1}', // 'Controller or its method is not found: {0}::{1}'
     'methodNotFound'     => 'コントローラのメソッドが見つかりません: "{0}"', // 'Controller method is not found: "{0}"'
     'localeNotSupported' => 'ロケールがサポートされていません: {0}', // 'Locale is not supported: {0}'
 
@@ -68,7 +68,7 @@ return [
     'uploadErrPartial'   => 'ファイル "%s" が部分的にしかアップロードされていませんでした。', // 'The file "%s" was only partially uploaded.'
     'uploadErrNoFile'    => 'ファイルはアップロードされませんでした。', // 'No file was uploaded.'
     'uploadErrCantWrite' => 'ファイル "%s"はディスクに書き込めませんでした。', // 'The file "%s" could not be written on disk.'
-    'uploadErrNoTmpDir'  => 'ファイルをアップロードできませんでした。: 一時ディレクトリが見つかりません。', // 'File could not be uploaded: missing temporary directory.'
+    'uploadErrNoTmpDir'  => 'ファイルをアップロードできませんでした: 一時ディレクトリが見つかりません。', // 'File could not be uploaded: missing temporary directory.'
     'uploadErrExtension' => 'ファイルアップロードはPHP機能拡張により停止されました。', // 'File upload was stopped by a PHP extension.'
     'uploadErrUnknown'   => 'ファイル "%s" は未知のエラーのためアップロードされませんでした。', // 'The file "%s" was not uploaded due to an unknown error.'
 
