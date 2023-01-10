@@ -52,6 +52,7 @@ return [
     'emptyController'    => 'Tidak ada Controller yang ditentukan.',
     'controllerNotFound' => 'Controller atau metodenya tidak ditemukan: "{0}"::"{1}"',
     'methodNotFound'     => 'Metode controller tidak ditemukan: "{0}"',
+    'localeNotSupported' => 'Locale "{0}" tidak didukung',
 
     // CSRF
     'disallowedAction' => 'Tindakan yang Anda minta tidak diizinkan.',
