@@ -52,6 +52,7 @@ return [
     'emptyController'    => 'コントローラが指定されていません。', // 'No Controller specified.'
     'controllerNotFound' => 'コントローラまたはそのメソッドが見つかりません。: {0}::{1}', // 'Controller or its method is not found: {0}::{1}'
     'methodNotFound'     => 'コントローラのメソッドが見つかりません: "{0}"', // 'Controller method is not found: "{0}"'
+    'localeNotSupported' => 'ロケールがサポートされていません: {0}', // 'Locale is not supported: {0}'
 
     // CSRF
     'disallowedAction' => '要求されたアクションは許可されていません。', // 'The action you requested is not allowed.'
