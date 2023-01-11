@@ -12,9 +12,9 @@
 return [
     'invalidCellMethod'     => '{class}::{method} är inte en giltig metod.',
     'missingCellParameters' => '{class}::{method} har inga parametrar.',
-    'invalidCellParameter'  => '{0} är inte ett giltig parameternamn.',
+    'invalidCellParameter'  => '"{0}" är inte ett giltig parameternamn.',
     'noCellClass'           => 'Ingen view cell class angiven.',
-    'invalidCellClass'      => 'Kunde inte hitta view cell class: {0}.',
-    'tagSyntaxError'        => 'Det är ett syntaxfel i dessa taggarna för Parser: {0}',
-    'invalidDecoratorClass' => '{0} är inte en giltig View Decorator.',
+    'invalidCellClass'      => 'Kunde inte hitta view cell class: "{0}".',
+    'tagSyntaxError'        => 'Det är ett syntaxfel i dessa taggarna för Parser: "{0}"',
+    'invalidDecoratorClass' => '"{0}" är inte en giltig View Decorator.',
 ];

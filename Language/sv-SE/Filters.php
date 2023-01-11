@@ -10,6 +10,6 @@
  */
 
 return [
-    'noFilter'           => 'Filtret {0} måste ha ett matchande alias definierat.',
-    'incorrectInterface' => '{0} måste implementera CodeIgniter\Filters\FilterInterface.',
+    'noFilter'           => 'Filtret "{0}" måste ha ett matchande alias definierat.',
+    'incorrectInterface' => '"{0}" måste implementera CodeIgniter\Filters\FilterInterface.',
 ];

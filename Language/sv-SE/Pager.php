@@ -17,6 +17,6 @@ return [
     'last'                   => 'Sista',
     'older'                  => 'Äldre',
     'newer'                  => 'Nyare',
-    'invalidTemplate'        => '{0} är inte en giltig Pager template.',
-    'invalidPaginationGroup' => '{0} är inte en giltig Pagination group.',
+    'invalidTemplate'        => '"{0}" är inte en giltig Pager template.',
+    'invalidPaginationGroup' => '"{0}" är inte en giltig Pagination group.',
 ];

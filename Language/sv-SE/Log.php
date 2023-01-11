@@ -10,6 +10,6 @@
  */
 
 return [
-    'invalidLogLevel'    => '{0} är inte en giltig loggnivå.',
+    'invalidLogLevel'    => '"{0}" är inte en giltig loggnivå.',
     'invalidMessageType' => 'Det givna meddelandet av typen "{0}" stödjs inte.',
 ];

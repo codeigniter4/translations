@@ -10,7 +10,7 @@
  */
 
 return [
-    'unableToWrite'   => 'Cache kan ej skriva till {0}',
+    'unableToWrite'   => 'Cache kan ej skriva till "{0}"',
     'invalidHandlers' => 'Cache-inställningarna måste innehålla en array $validHandlers.',
     'noBackup'        => 'Cache-inställningarna måste ha en handler och backupHandler satt.',
     'handlerNotFound' => 'Cache-inställningarna har en felaktig handler eller backup handler satt.',
