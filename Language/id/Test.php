@@ -11,5 +11,5 @@
 
 // Testing language settings
 return [
-    'invalidMockClass' => '{0} bukan kelas Mock yang valid',
+    'invalidMockClass' => '"{0}" bukan kelas Mock yang valid',
 ];

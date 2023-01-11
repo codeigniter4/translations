@@ -17,4 +17,5 @@ return [
     'noCellClass'           => 'Nenurodyta peržiūros užklausos klasė.',
     'invalidCellClass'      => 'Nepavyksta rasti peržiūros užklausos klasės: {0}.',
     'tagSyntaxError'        => 'Analizatoriaus žymose yra sintaksės klaida: {0}',
+    'invalidDecoratorClass' => '{0} nėra teisingas View Decorator.',
 ];

@@ -11,6 +11,6 @@
 
 // Filters language settings
 return [
-    'noFilter'           => 'Filter {0} harus memiliki kecocokan dengan alias yang ditetapkan.',
-    'incorrectInterface' => '{0} harus menerapkan CodeIgniter\Filters\FilterInterface.',
+    'noFilter'           => 'Filter "{0}" harus memiliki kecocokan dengan alias yang ditetapkan.',
+    'incorrectInterface' => '"{0}" harus menerapkan CodeIgniter\Filters\FilterInterface.',
 ];

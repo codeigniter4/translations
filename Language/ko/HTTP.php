@@ -27,7 +27,7 @@ return [
     'emptySupportedNegotiations' => '모든 Negotiations에 지원되는 값의 배열이 반드시 제공되어야 합니다.', // You must provide an array of supported values to all Negotiations.
 
     // RedirectResponse
-    'invalidRoute' => '{0}에 대한 경로를 찾을 수 없습니다.', // The route for {0} cannot be found.
+    'invalidRoute' => '{0}에 대한 경로를 찾을 수 없습니다.', // The route for "{0}" cannot be found.
 
     // DownloadResponse
     'cannotSetBinary'        => '다운로드 에러: 파일 경로를 설정할 때에 바이너리로 설정할 수 없습니다.', // 'When setting filepath cannot set binary.'

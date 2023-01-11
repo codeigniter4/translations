@@ -13,10 +13,10 @@
 return [
     // Core Messages
     'noRuleSets'      => 'Tidak ada aturan yang ditentukan dalam konfigurasi Validasi.',
-    'ruleNotFound'    => '{0} bukan sebuah aturan yang valid.',
-    'groupNotFound'   => '{0} bukan sebuah grup aturan validasi.',
-    'groupNotArray'   => '{0} grup aturan harus berupa sebuah array.',
-    'invalidTemplate' => '{0} bukan sebuah template Validasi yang valid.',
+    'ruleNotFound'    => '"{0}" bukan sebuah aturan yang valid.',
+    'groupNotFound'   => '"{0}" bukan sebuah grup aturan validasi.',
+    'groupNotArray'   => '"{0}" grup aturan harus berupa sebuah array.',
+    'invalidTemplate' => '"{0}" bukan sebuah template Validasi yang valid.',
 
     // Rule Messages
     'alpha'                 => 'Bidang {field} hanya boleh mengandung karakter alfabet.',
@@ -59,6 +59,7 @@ return [
     'valid_url'             => 'Bidang {field} harus berisi sebuah URL yang valid.',
     'valid_url_strict'      => 'Bidang {field} harus berisi sebuah URL yang valid.',
     'valid_date'            => 'Bidang {field} harus berisi sebuah tanggal yang valid.',
+    'valid_json'            => 'Bidang {field} harus berisi sebuah json yang valid.',
 
     // Credit Cards
     'valid_cc_num' => '{field} tidak tampak sebagai sebuah nomor kartu kredit yang valid.',
