@@ -51,6 +51,7 @@ return [
     'emptyController'    => 'Ingen Controller angiven.',
     'controllerNotFound' => 'Controller eller metoden kunde inte hittas: {0}::{1}',
     'methodNotFound'     => 'Controller-metoden kunde inte hittas: "{0}"',
+    'localeNotSupported' => 'Denna Locale stödjs inte: {0}',
 
     // CSRF
     'disallowedAction' => 'Den önskade funktionen är inte tillåten.',
