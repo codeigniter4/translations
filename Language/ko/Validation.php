@@ -12,18 +12,18 @@
 // Validation language settings
 return [
     // Core Messages
-    'noRuleSets'      => 'Validation 설정에서 지정된 규칙 집합이 없습니다.', // 'No rulesets specified in Validation configuration.'
-    'ruleNotFound'    => '{0} 경우는 유효한 규칙이 아닙니다.', // '{0} is not a valid rule.'
-    'groupNotFound'   => '{0} 경우는 유효성 규칙 그룹이 아닙니다.', // '{0} is not a validation rules group.'
-    'groupNotArray'   => '{0} 규칙 그룹은 반드시 배열이어야 합니다.', // '{0} rule group must be an array.'
-    'invalidTemplate' => '{0} 경우는 유효한 Validation 템플릿이 아닙니다.', // '{0} is not a valid Validation template.'
+    'noRuleSets'      => 'Validation 설정에서 지정된 규칙 집합이 없습니다.', // 'No rule sets specified in Validation configuration.'
+    'ruleNotFound'    => '"{0}" 경우는 유효한 규칙이 아닙니다.', // '"{0}" is not a valid rule.'
+    'groupNotFound'   => '"{0}" 경우는 유효성 규칙 그룹이 아닙니다.', // '"{0}" is not a validation rules group.'
+    'groupNotArray'   => '"{0}" 규칙 그룹은 반드시 배열이어야 합니다.', // '"{0}" rule group must be an array.'
+    'invalidTemplate' => '"{0}" 경우는 유효한 Validation 템플릿이 아닙니다.', // '"{0}" is not a valid Validation template.'
 
     // Rule Messages
     'alpha'                 => '{field} 필드에는 알파벳 문자만 포함시킬 수 있습니다.', // 'The {field} field may only contain alphabetical characters.'
-    'alpha_dash'            => '{field} 필드에는 알파벳 문자, 밑줄(_) 그리고 붙임표(-)만 포함시킬 수 있습니다.', // The {field} field may only contain alphanumeric, underscore, and dash characters.
+    'alpha_dash'            => '{field} 필드에는 알파벳 문자, 밑줄(_) 그리고 붙임표(-)만 포함시킬 수 있습니다.', // 'The {field} field may only contain alphanumeric, underscore, and dash characters.'
     'alpha_numeric'         => '{field} 필드에는 알파벳, 숫자만 포함시킬 수 있습니다.', // 'The {field} field may only contain alphanumeric characters.'
     'alpha_numeric_punct'   => '{field} 필드에는 알파벳, 공백, ~ ! # $ % & * - _ + = | : . 문자만 포함할 수 있습니다.', // 'The {field} field may contain only alphanumeric characters, spaces, and  ~ ! # $ % & * - _ + = | : . characters.'
-    'alpha_numeric_space'   => '{field} 필드에는 알파벳, 숫자 그리고 공백만 포함시킬 수 있습니다.', // The {field} field may only contain alphanumeric and space characters.
+    'alpha_numeric_space'   => '{field} 필드에는 알파벳, 숫자 그리고 공백만 포함시킬 수 있습니다.', // 'The {field} field may only contain alphanumeric and space characters.'
     'alpha_space'           => '{field} 필드에는 알파벳과 공백만 포함시킬 수 있습니다.', // 'The {field} field may only contain alphabetical characters and spaces.'
     'decimal'               => '{field} 필드에는 소수(decimal number)만 포함시킬 수 있습니다.', // 'The {field} field must contain a decimal number.'
     'differs'               => '{field} 필드는 {param} 필드와 서로 달라야 합니다.', // 'The {field} field must differ from the {param} field.'
@@ -31,7 +31,7 @@ return [
     'exact_length'          => '{field} 필드의 길이는 {param} 이어야 합니다.', // 'The {field} field must be exactly {param} characters in length.'
     'greater_than'          => '{field} 필드 값은 {param}보다 커야 합니다.', // 'The {field} field must contain a number greater than {param}.'
     'greater_than_equal_to' => '{field} 필드 값은 {param} 이상이어야 합니다.', // 'The {field} field must contain a number greater than or equal to {param}.'
-    'hex'                   => '{field} 필드에는 16진수만 포함할 수 있습니다.', // 'The {field} field may only contain hexidecimal characters.'
+    'hex'                   => '{field} 필드에는 16진수만 포함할 수 있습니다.', // 'The {field} field may only contain hexadecimal characters.'
     'in_list'               => '{field} 필드는 반드시 {param} 중에 하나여야 합니다.', // 'The {field} field must be one of: {param}.'
     'integer'               => '{field} 필드는 정수여야 합니다.', // 'The {field} field must contain an integer.'
     'is_natural'            => '{field} 필드는 숫자여야 합니다.', // 'The {field} field must only contain digits.'
@@ -50,7 +50,7 @@ return [
     'required'              => '{field} 필드가 있어야 합니다.', // 'The {field} field is required.'
     'required_with'         => '{field} 필드는 {param} 값이 있을 때, 해당 필드가 있어야 합니다.', // 'The {field} field is required when {param} is present.'
     'required_without'      => '{field} 필드는 {param} 값이 없을 때, 해당 필드가 있어야 합니다.', // 'The {field} field is required when {param} is not present.'
-    'string'                => '{field} 필드는 유효한 문자열이 아닙니다.', // The {field} field must be a valid string.
+    'string'                => '{field} 필드는 유효한 문자열이 아닙니다.', // 'The {field} field must be a valid string.'
     'timezone'              => '{field} 필드는 반드시 유효한 시간대(timezone)이어야 합니다.', // 'The {field} field must be a valid timezone.'
     'valid_base64'          => '{field} 필드는 유효한 base64문자열이어야 합니다.', // 'The {field} field must be a valid base64 string.'
     'valid_email'           => '{field} 필드 값은 유효한 이메일 주소이어야 합니다.', // 'The {field} field must contain a valid email address.'
@@ -59,7 +59,7 @@ return [
     'valid_url'             => '{field} 필드 값은 유효한 URL 주소이어야 합니다.', // 'The {field} field must contain a valid URL.'
     'valid_url_strict'      => '{field} 필드 값은 유효한 URL 주소이어야 합니다.', // 'The {field} field must contain a valid URL.'
     'valid_date'            => '{field} 필드 값은 유효한 날짜여야 합니다.', // 'The {field} field must contain a valid date.'
-    'valid_json'            => '{field} 필드 값은 유효한 json이어야 합니다.', // The {field} field must contain a valid json.
+    'valid_json'            => '{field} 필드 값은 유효한 json이어야 합니다.', // 'The {field} field must contain a valid json.'
 
     // Credit Cards
     'valid_cc_num' => '{field}의 값은 잘못된 신용카드 번호입니다.', // '{field} does not appear to be a valid credit card number.'

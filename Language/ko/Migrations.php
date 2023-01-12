@@ -31,8 +31,8 @@ return [
     'migCreate'       => "\t[name]이라고 명명된 새로운 마이그레이션을 생성합니다.", // "\tCreates a new migration named [name]"
     'nameMigration'   => '마이그레이션 파일 이름 지정', // 'Name the migration file'
     'migNumberError'  => '마이그레이션 숫자 값은 반드시 세 자리 숫자 값이어야 합니다. 그리고 순차적인 마이그레이션 값에 간격이 없어야 합니다.', // 'Migration number must be three digits, and there must not be any gaps in the sequence.'
-    'rollBackConfirm' => '롤백 하시겠습니까?', // Are you sure you want to rollback?
-    'refreshConfirm'  => '새로고침 하시겠습니까?', // Are you sure you want to refresh?
+    'rollBackConfirm' => '롤백 하시겠습니까?', // 'Are you sure you want to rollback?'
+    'refreshConfirm'  => '새로고침 하시겠습니까?', // 'Are you sure you want to refresh?'
 
     'latest'            => '새로운 모든 마이그레이션들을 실행 중...', // 'Running all new migrations...'
     'generalFault'      => '마이그레이션 실패!', // 'Migration failed!'
@@ -44,15 +44,15 @@ return [
     'noneFound'         => '마이그레이션을 찾지 못했습니다.', // 'No migrations were found.'
     'migSeeder'         => 'Seeder 명', // 'Seeder name'
     'migMissingSeeder'  => '반드시 Seeder 명을 지정하여야 합니다.', // 'You must provide a seeder name.'
-    'nameSeeder'        => '파일 seeder 이름', // Name the seeder file
+    'nameSeeder'        => '파일 seeder 이름', // 'Name the seeder file'
     'removed'           => '되돌리기: ', // 'Rolling back: '
     'added'             => '실행 중: ', // 'Running: '
 
     // Migrate Status
-    'namespace' => '네임스페이스', // Namespace
+    'namespace' => '네임스페이스', // 'Namespace'
     'filename'  => '파일명', // 'Filename'
     'version'   => '버전', // 'Version'
-    'group'     => '그룹', // Group
+    'group'     => '그룹', // 'Group'
     'on'        => '마이그레이션 대상: ', // 'Migrated On: '
-    'batch'     => 'Batch', // Batch
+    'batch'     => 'Batch', // 'Batch'
 ];
