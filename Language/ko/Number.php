@@ -11,11 +11,11 @@
 
 // Number language settings
 return [
-    'terabyteAbbr' => 'TB', // TB
-    'gigabyteAbbr' => 'GB', // GB
-    'megabyteAbbr' => 'MB', // MB
-    'kilobyteAbbr' => 'KB', // KB
-    'bytes'        => 'Bytes', // Bytes
+    'terabyteAbbr' => 'TB', // 'TB'
+    'gigabyteAbbr' => 'GB', // 'GB'
+    'megabyteAbbr' => 'MB', // 'MB'
+    'kilobyteAbbr' => 'KB', // 'KB'
+    'bytes'        => 'Bytes', // 'Bytes'
 
     // don't forget the space in front of these!
     'thousand'    => ' 천', // ' thousand'

@@ -18,6 +18,6 @@ return [
     'last'                   => '마지막', // 'Last'
     'older'                  => '과거', // 'Older'
     'newer'                  => '최근', // 'Newer'
-    'invalidTemplate'        => '{0}의 경우는 유효하지 않은 Pager 템플릿입니다.', // '{0} is not a valid Pager template.'
-    'invalidPaginationGroup' => '{0}의 경우는 유효하지 않은 Pagination 그룹입니다.', // '{0} is not a valid Pagination group.'
+    'invalidTemplate'        => '"{0}"의 경우는 유효하지 않은 Pager 템플릿입니다.', // '"{0}" is not a valid Pager template.'
+    'invalidPaginationGroup' => '"{0}"의 경우는 유효하지 않은 Pagination 그룹입니다.', // '"{0}" is not a valid Pagination group.'
 ];
