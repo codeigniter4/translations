@@ -11,6 +11,8 @@
 
 // Router language settings
 return [
-    'invalidParameter'    => 'Parametr nie pasuje do oczekiwanego typu.',
-    'missingDefaultRoute' => 'Nie można określić, co powinno być wyświetlane. Trasa domyślna nie została określona w pliku routingu.',
+    'invalidParameter'         => 'Parametr nie pasuje do oczekiwanego typu.',
+    'missingDefaultRoute'      => 'Nie można określić, co powinno zostać wyświetlone. Trasa domyślna nie została określona w pliku routingu.',
+    'invalidDynamicController' => 'Dynamiczny kontroler nie jest dozwolony ze względów bezpieczeństwa. Obsługa trasy: {0}',
+    'invalidControllerName'    => 'Ogranicznikiem przestrzeni nazw jest backslash (\), a nie slash (/). Obsługa trasy: {0}',
 ];

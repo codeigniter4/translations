@@ -59,6 +59,7 @@ return [
     'valid_url'             => 'O campo {field} deve conter uma URL válida.',
     'valid_url_strict'      => 'O campo {field} deve conter uma URL válida.',
     'valid_date'            => 'O campo {field} deve conter uma data válida.',
+    'valid_json'            => 'O campo {field} deve conter um json válido.',
 
     // Credit Cards
     'valid_cc_num' => '{field} não parece ser um número de cartão de crédito válido.',

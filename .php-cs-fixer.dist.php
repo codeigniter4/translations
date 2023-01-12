@@ -21,6 +21,7 @@ $finder = Finder::create()
     ->append([
         __FILE__,
         '.github/scripts/continuous-integration',
+        '.github/scripts/update-license',
         'bin/test',
     ]);
 

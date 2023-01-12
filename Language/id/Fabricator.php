@@ -13,5 +13,5 @@
 return [
     'invalidModel'      => 'Model tidak valid disediakan untuk fabrikasi.',
     'missingFormatters' => 'Tidak ada pemformat valid yang ditentukan.',
-    'createFailed'      => 'Fabricator gagal dimasukkan ke dalam tabel {0}: {1}.',
+    'createFailed'      => 'Fabricator gagal dimasukkan ke dalam tabel "{0}": "{1}".',
 ];
