@@ -11,9 +11,9 @@
 
 return [
     'mustBeArray'          => 'Valideringsmetoden för epost måste vara en array.',
-    'invalidAddress'       => 'Ogiltig epostadress: {0}',
-    'attachmentMissing'    => 'Kan inte hitta epostbilagan: {0}',
-    'attachmentUnreadable' => 'Kan inte öppna epostbilagan: {0}',
+    'invalidAddress'       => 'Ogiltig epostadress: "{0}"',
+    'attachmentMissing'    => 'Kan inte hitta epostbilagan: "{0}"',
+    'attachmentUnreadable' => 'Kan inte öppna epostbilagan: "{0}"',
     'noFrom'               => 'Kan inte skicka meddelandet utan "From" angivet.',
     'noRecipients'         => 'Mottagare måste anges: To, Cc, or Bcc',
     'sendFailurePHPMail'   => 'Kan inte skicka epost med PHP mail(). Servern verkar inte vara konfigurerad för att skicka epost med denna metod.',
