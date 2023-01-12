@@ -11,5 +11,5 @@
 
 return [
     'disallowedAction' => 'Funktionen du efterfrågade är inte tillåten.',
-    'invalidSameSite'  => 'Inställningen SameSite måste vara None, Lax, Strict, eller en blank sträng. Angivet: {0}',
+    'invalidSameSite'  => 'Inställningen SameSite måste vara None, Lax, Strict, eller en blank sträng. Givet: "{0}"',
 ];

@@ -10,8 +10,8 @@
  */
 
 return [
-    'fileNotFound'      => 'Kunde inte hitta filen: {0}',
-    'cannotMove'        => 'Kunde inte flytta filen {0} till {1} ({2})',
+    'fileNotFound'      => 'Kunde inte hitta filen: "{0}"',
+    'cannotMove'        => 'Kunde inte flytta filen "{0}" till "{1}". Anledning: {2}',
     'expectedDirectory' => '{0} kräver en giltig katalog.',
     'expectedFile'      => '{0} kräver en giltig fil.',
 ];
