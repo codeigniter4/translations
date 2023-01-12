@@ -52,6 +52,7 @@ return [
     'emptyController'    => '컨트롤러가 명시되지 않았습니다.', // 'No Controller specified.'
     'controllerNotFound' => '컨트롤러 또는 해당 메서드를 찾을 수 없습니다: {0}::{1}', // 'Controller or its method is not found: {0}::{1}'
     'methodNotFound'     => '컨트롤러 메서드를 찾을 수 없습니다: {0}', // 'Controller method is not found: {0}'
+    'localeNotSupported' => '지원되지 않는 지역입니다: {0}', // Locale is not supported: {0}
 
     // CSRF
     // @deprecated use `Security.disallowedAction`
