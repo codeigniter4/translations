@@ -11,8 +11,8 @@
 
 // Router language settings
 return [
-    'invalidParameter'         => 'A parameter does not match the expected type.',
-    'missingDefaultRoute'      => 'Unable to determine what should be displayed. A default route has not been specified in the routing file.',
-    'invalidDynamicController' => 'A dynamic controller is not allowed for security reasons. Route handler: {0}',
-    'invalidControllerName'    => 'The namespace delimiter is a backslash (\), not a slash (/). Route handler: {0}',
+    'invalidParameter' => 'একটি প্যারামিটার প্রত্যাশিত প্রকারের সাথে মেলে না।',
+    'missingDefaultRoute' => 'কী প্রদর্শন করা উচিত তা নির্ধারণ করতে অক্ষম। রাউটিং ফাইলে একটি ডিফল্ট রুট নির্দিষ্ট করা হয়নি।',
+    'invalidDynamicController' => 'নিরাপত্তার কারণে একটি গতিশীল নিয়ামক অনুমোদিত নয়। রুট হ্যান্ডলার: {0}',
+    'invalidControllerName' => 'নেমস্পেস ডিলিমিটার একটি ব্যাকস্ল্যাশ (\), স্ল্যাশ (/) নয়। রুট হ্যান্ডলার: {0}',
 ];

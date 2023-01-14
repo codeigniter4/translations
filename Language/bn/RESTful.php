@@ -11,5 +11,5 @@
 
 // RESTful language settings
 return [
-    'notImplemented' => '"{0}" action not implemented.',
+    'notImplemented' => '"{0}" অ্যাকশন বাস্তবায়িত হয়নি।',
 ];
