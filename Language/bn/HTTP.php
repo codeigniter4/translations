@@ -52,6 +52,7 @@ return [
     'emptyController'    => 'কোন কন্ট্রোলার নির্দিষ্ট করা নেই।',
     'controllerNotFound' => 'কন্ট্রোলার বা এর পদ্ধতি খুঁজে পাওয়া যায়নি: {0}::{1}',
     'methodNotFound'     => 'নিয়ন্ত্রক পদ্ধতি পাওয়া যায়নি: {0}',
+    'localeNotSupported' => 'লোকেল সমর্থিত নয়: {0}।',
 
     // CSRF
     // @deprecated use `Security.disallowedAction`
@@ -71,6 +72,7 @@ return [
     'uploadErrNoTmpDir'  => 'ফাইল আপলোড করা যায়নি: অস্থায়ী ডিরেক্টরি অনুপস্থিত।',
     'uploadErrExtension' => 'ফাইল আপলোড একটি PHP এক্সটেনশন দ্বারা বন্ধ করা হয়েছিল।',
     'uploadErrUnknown'   => '"%s" ফাইলটি একটি অজানা ত্রুটির কারণে আপলোড করা হয়নি।',
+
     // SameSite setting
     // @deprecated
     'invalidSameSiteSetting' => 'একইসাইট সেটিংটি অবশ্যই কোনোটি নয়, শৈথিল্য, কঠোর, বা একটি ফাঁকা স্ট্রিং হতে হবে। দেওয়া হয়েছে: {0}',
