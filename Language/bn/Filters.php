@@ -11,6 +11,6 @@
 
 // Filters language settings
 return [
-    'noFilter' => '{0} ফিল্টারে অবশ্যই একটি মিল উপনাম সংজ্ঞায়িত থাকতে হবে।',
+    'noFilter'           => '{0} ফিল্টারে অবশ্যই একটি মিল উপনাম সংজ্ঞায়িত থাকতে হবে।',
     'incorrectInterface' => '{0} অবশ্যই CodeIgniter\Filters\FilterInterface বাস্তবায়ন করতে হবে।',
 ];
