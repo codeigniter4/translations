@@ -12,10 +12,10 @@
 return [
     // Core Messages
     'noRuleSets'      => 'Inga regler angivna i Validation-inställningarna.',
-    'ruleNotFound'    => '{0} är inte en giltig valideringsregel.',
-    'groupNotFound'   => '{0} är inte en valideringsgrupp.',
-    'groupNotArray'   => 'Valideringsgruppen {0} måste vara en array.',
-    'invalidTemplate' => '{0} är inte en giltig valideringsmall.',
+    'ruleNotFound'    => '"{0}" är inte en giltig valideringsregel.',
+    'groupNotFound'   => '"{0}" är inte en valideringsgrupp.',
+    'groupNotArray'   => 'Valideringsgruppen "{0}" måste vara en array.',
+    'invalidTemplate' => '"{0}" är inte en giltig valideringsmall.',
 
     // Rule Messages
     'alpha'                 => 'Fältet {field} får enbart innehålla bokstäver.',
@@ -58,6 +58,7 @@ return [
     'valid_url'             => 'Värdet i fältet {field} måste vara en giltig URL.',
     'valid_url_strict'      => 'Värdet i fältet {field} måste vara en giltig URL.',
     'valid_date'            => 'Värdet i fältet {field} måste vara ett giltigt datum.',
+    'valid_json'            => 'Värdet i fältet {field} måste vara en korrekt JSON.',
 
     // Credit Cards
     'valid_cc_num' => 'Värdet i fältet {field} verkar inte vara ett giltig kontokortsnummer.',

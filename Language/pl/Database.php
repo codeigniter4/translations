@@ -27,4 +27,5 @@ return [
     'fieldNotExists'                   => 'Pole `{0}` nie istnieje.',
     'forEmptyInputGiven'               => 'Przekazano pusta wartość do zapytania `{0}`',
     'forFindColumnHaveMultipleColumns' => 'Można przekazać tylko jedną nazwę kolumny.',
+    'methodNotAvailable'               => 'Nie możesz użyć `{1}` w `{0}`. Jest to metoda klasy `Query Builder`.',
 ];

@@ -10,9 +10,9 @@
  */
 
 return [
-    'invalidEvent'                     => '{0} är inte en giltig callback för ett Model Event.',
-    'invalidArgument'                  => 'Du måste ange en giltig {0}.',
-    'invalidAllowedFields'             => 'Tillåtna fält måste bli angivna för modellen: {0}',
+    'invalidEvent'                     => '"{0}" är inte en giltig callback för ett Model Event.',
+    'invalidArgument'                  => 'Du måste ange en giltig "{0}".',
+    'invalidAllowedFields'             => 'Tillåtna fält måste bli angivna för modellen: "{0}"',
     'emptyDataset'                     => 'Det finns inget data att {0}.',
     'emptyPrimaryKey'                  => 'Det finns inget primärt index definierat för att göra {0}.',
     'failGetFieldData'                 => 'Kunde inte hämta fältdata från databasen.',
@@ -20,11 +20,11 @@ return [
     'failGetForeignKeyData'            => 'Kunde inte hämta foreign key från databasen.',
     'parseStringFail'                  => 'Kunde inte tolka index-strängen.',
     'featureUnavailable'               => 'Denna funktion är inte tillgänglig för den valda databasen.',
-    'tableNotFound'                    => 'Tabellen `{0}` kunde inte hittas i den valda databasen.',
-    'noPrimaryKey'                     => 'Modellen `{0}` har inget primärt index definierat.',
-    'noDateFormat'                     => 'Modellen `{0}` har inget giltigt datumformat.',
-    'fieldNotExists'                   => 'Fältet `{0}` kunde inte hittas.',
-    'forEmptyInputGiven'               => 'Blankt data angivet för fältet `{0}`',
+    'tableNotFound'                    => 'Tabellen "{0}" kunde inte hittas i den valda databasen.',
+    'noPrimaryKey'                     => 'Modellen "{0}" har inget primärt index definierat.',
+    'noDateFormat'                     => 'Modellen "{0}" har inget giltigt datumformat.',
+    'fieldNotExists'                   => 'Fältet "{0}" kunde inte hittas.',
+    'forEmptyInputGiven'               => 'Blankt data angivet för fältet "{0}"',
     'forFindColumnHaveMultipleColumns' => 'Endast en kolumn är tillåten som kolumnnamn.',
-    'methodNotAvailable'               => 'Du kan inte använda `{1}` i `{0}`. Det är en funktion i klassen `Query Builder`.',
+    'methodNotAvailable'               => 'Du kan inte använda "{1}" i "{0}". Det är en funktion i klassen Query Builder.',
 ];

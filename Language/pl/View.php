@@ -17,4 +17,5 @@ return [
     'noCellClass'           => 'Nie podano klasy komórek widoku.',
     'invalidCellClass'      => 'Nie można zlokalizować klasy komórki widoku: {0}.',
     'tagSyntaxError'        => 'Masz błąd składniowy w tagach parsera: {0}',
+    'invalidDecoratorClass' => '{0} nie jest poprawnym dekoratorem widoku.',
 ];
