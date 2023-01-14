@@ -17,6 +17,7 @@ return [
     'generator'          => [
         'cancelOperation' => 'অপারেশন বাতিল করা হয়েছে।',
         'className'       => [
+            'cell'       => 'সেল ক্লাসের নাম',
             'command'    => 'কমান্ড ক্লাসের নাম',
             'config'     => 'কনফিগারেশন ক্লাসের নাম',
             'controller' => 'কন্ট্রোলার ক্লাসের নাম',
@@ -38,6 +39,9 @@ return [
         'returnType'       => 'রিটার্ন টাইপ',
         'tableName'        => 'টেবিলের নাম',
         'usingCINamespace' => 'সতর্কতা: "CodeIgniter" নামস্থান ব্যবহার করে সিস্টেম ডিরেক্টরিতে ফাইলটি তৈরি হবে।',
+        'viewName'         => [
+            'cell' => 'সেল ভিউ নাম',
+        ],
     ],
     'helpArguments'       => 'আর্গুমেন্ট গুলো:',
     'helpDescription'     => 'বর্ণনা:',
