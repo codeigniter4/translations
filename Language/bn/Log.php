@@ -11,6 +11,6 @@
 
 // Log language settings
 return [
-    'invalidLogLevel'    => '{0} is an invalid log level.',
-    'invalidMessageType' => 'The given message type "{0}" is not supported.',
+    'invalidLogLevel' => '{0} একটি অবৈধ লগ লেভেল।',
+    'invalidMessageType' => 'প্রদত্ত বার্তা প্রকার "{0}" সমর্থিত নয়।',
 ];
