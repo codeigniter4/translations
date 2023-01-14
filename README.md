@@ -38,7 +38,7 @@ claims no expertise beyond English.
 |--------|---------------------|---------|-----------------------| --------------------
 | ar     | Arabic              | 4.0.0   | [daif][ar]            | Daif Alotaibi
 | bg     | Bulgarian           | 4.2.2   | [ivcho02][bg]         | Ivaylo Tsvetanov
-| bn     | Bengali             | 4.3.1   | [hafijul233][bn]      | Hafijul Islam
+| bn     | Bengali             | 4.2.11  | [hafijul233][bn]      | Hafijul Islam
 | bs     | Bosnian             | 4.2.0   | [demirkaric][bs]      | Demir Karić
 | cs     | Czech               | 4.0.3   | [PavelTajdus][cs]     | Pavel Tajduš
 | de     | German              | 4.0.0   | [sba][de]             | Stefan Bauer
