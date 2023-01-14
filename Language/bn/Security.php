@@ -11,8 +11,8 @@
 
 // Security language settings
 return [
-    'disallowedAction' => 'The action you requested is not allowed.',
+    'disallowedAction' => 'আপনি যে কর্মের অনুরোধ করেছেন তা অনুমোদিত নয়।',
 
     // @deprecated
-    'invalidSameSite' => 'The SameSite value must be None, Lax, Strict, or a blank string. Given: {0}',
+    'invalidSameSite' => 'SameSite মানটি অবশ্যই None, Lax, Strict, বা একটি ফাঁকা স্ট্রিং হতে হবে। দেওয়া হয়েছে: {0}',
 ];
