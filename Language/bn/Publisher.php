@@ -11,12 +11,12 @@
 
 // Publisher language settings
 return [
-    'collision'             => 'Publisher encountered an unexpected {0} while copying {1} to {2}.',
-    'destinationNotAllowed' => 'Destination is not on the allowed list of Publisher directories: {0}',
-    'fileNotAllowed'        => '{0} fails the following restriction for {1}: {2}',
+    'collision' => '{1} থেকে {2} কপি করার সময় প্রকাশক একটি অপ্রত্যাশিত {0} এর সম্মুখীন হন।',
+     'destinationNotAllowed' => 'গন্তব্য প্রকাশক ডিরেক্টরির অনুমোদিত তালিকায় নেই: {0}',
+     'fileNotAllowed' => '{0} {1} এর জন্য নিম্নলিখিত সীমাবদ্ধতা ব্যর্থ করে: {2}',
 
     // Publish Command
-    'publishMissing' => 'No Publisher classes detected in {0} across all namespaces.',
-    'publishSuccess' => '{0} published {1} file(s) to {2}.',
-    'publishFailure' => '{0} failed to publish to {1}!',
+     'publishMissing' => 'সমস্ত নেমস্পেস জুড়ে {0}-এ কোনো প্রকাশক ক্লাস সনাক্ত করা যায়নি।',
+     'publishSuccess' => '{0} {2}-এ {1} ফাইল(গুলি) প্রকাশ করেছে।',
+     'publishFailure' => '{0} {1}-এ প্রকাশ করতে ব্যর্থ হয়েছে!',
 ];

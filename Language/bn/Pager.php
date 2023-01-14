@@ -11,13 +11,13 @@
 
 // Pager language settings
 return [
-    'pageNavigation'         => 'Page navigation',
-    'first'                  => 'First',
-    'previous'               => 'Previous',
-    'next'                   => 'Next',
-    'last'                   => 'Last',
-    'older'                  => 'Older',
-    'newer'                  => 'Newer',
-    'invalidTemplate'        => '{0} is not a valid Pager template.',
-    'invalidPaginationGroup' => '{0} is not a valid Pagination group.',
+    'pageNavigation' => 'পৃষ্ঠা নেভিগেশন',
+    'first' => 'প্রথম',
+    'previous' => 'আগের',
+    'next' => 'পরবর্তী',
+    'last' => 'শেষ',
+    'older' => 'বয়স্ক',
+    'নতুন' => 'নতুন',
+    'invalidTemplate' => '{0} একটি বৈধ পেজার টেমপ্লেট নয়।',
+    'invalidPaginationGroup' => '{0} একটি বৈধ পেজিনেশন গ্রুপ নয়।',
 ];

@@ -11,16 +11,16 @@
 
 // Number language settings
 return [
-    'terabyteAbbr' => 'TB',
-    'gigabyteAbbr' => 'GB',
-    'megabyteAbbr' => 'MB',
-    'kilobyteAbbr' => 'KB',
-    'bytes'        => 'Bytes',
+    'terabyteAbbr' => 'টেরাবাইট',
+    'gigabyteAbbr' => 'গিগাবাইট',
+    'megabyteAbbr' => 'মেগাবাইট',
+    'kilobyteAbbr' => 'কিলোবাইট',
+    'bytes'        => 'বাইট',
 
     // don't forget the space in front of these!
-    'thousand'    => ' thousand',
-    'million'     => ' million',
-    'billion'     => ' billion',
-    'trillion'    => ' trillion',
+    'thousand'    => ' হাজার',
+    'million'     => ' মিলিয়ন',
+    'billion'     => ' বিলিয়ন',
+    'trillion'    => ' ট্রিলিয়ন',
     'quadrillion' => ' quadrillion',
 ];
