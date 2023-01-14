@@ -21,7 +21,7 @@ return [
     'invalidNegotiationType' => '{0} একটি বৈধ আলোচনার ধরন নয়। এর মধ্যে একটি হতে হবে: মিডিয়া, অক্ষর সেট, এনকোডিং, ভাষা।',
 
     // Message
-    'invalidHTTPPprotocol' => 'অবৈধ HTTP প্রোটোকল সংস্করণ। এর মধ্যে একটি হতে হবে: {0}',
+    'invalidHTTPProtocol' => 'অবৈধ HTTP প্রোটোকল সংস্করণ। এর মধ্যে একটি হতে হবে: {0}',
 
     // Negotiate
     'emptySupportedNegotiations' => 'আপনাকে অবশ্যই সমস্ত আলোচনায় সমর্থিত মানগুলির একটি অ্যারে প্রদান করতে হবে।',
