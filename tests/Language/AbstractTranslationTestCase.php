@@ -12,7 +12,6 @@
 namespace Translations\Tests;
 
 use CodeIgniter\CLI\CLI;
-use Language\BengaliTranslationTest;
 use PHPUnit\Framework\TestCase;
 
 /**
