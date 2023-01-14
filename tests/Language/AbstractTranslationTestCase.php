@@ -12,6 +12,7 @@
 namespace Translations\Tests;
 
 use CodeIgniter\CLI\CLI;
+use Language\BengaliTranslationTest;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -39,6 +40,7 @@ abstract class AbstractTranslationTestCase extends TestCase
      */
     public static array $locales = [
         ArabicTranslationTest::class             => 'ar',
+        BengaliTranslationTest::class            => 'bn',
         BulgarianTranslationTest::class          => 'bg',
         BosnianTranslationTest::class            => 'bs',
         CzechTranslationTest::class              => 'cs',
