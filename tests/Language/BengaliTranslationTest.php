@@ -9,9 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-namespace Language;
-
-use Translations\Tests\AbstractTranslationTestCase;
+namespace Translations\Tests;
 
 /**
  * @internal
