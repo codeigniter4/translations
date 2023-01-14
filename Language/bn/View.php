@@ -11,11 +11,11 @@
 
 // View language settings
 return [
-    'invalidCellMethod'     => '{class}::{method} is not a valid method.',
-    'missingCellParameters' => '{class}::{method} has no params.',
-    'invalidCellParameter'  => '{0} is not a valid param name.',
-    'noCellClass'           => 'No view cell class provided.',
-    'invalidCellClass'      => 'Unable to locate view cell class: {0}.',
-    'tagSyntaxError'        => 'You have a syntax error in your Parser tags: {0}',
-    'invalidDecoratorClass' => '{0} is not a valid View Decorator.',
+    'invalidCellMethod' => '{class}::{method} একটি বৈধ পদ্ধতি নয়।',
+    'missingCellParameters' => '{class}::{method} এর কোনো প্যারাম নেই।',
+    'invalidCellParameter' => '{0} একটি বৈধ প্যারাম নাম নয়।',
+    'noCellClass' => 'কোন ভিউ সেল ক্লাস দেওয়া হয়নি।',
+    'invalidCellClass' => 'ভিউ সেল ক্লাস সনাক্ত করতে অক্ষম: {0}।',
+    'tagSyntaxError' => 'আপনার পার্সার ট্যাগে একটি সিনট্যাক্স ত্রুটি আছে: {0}',
+    'invalidDecoratorClass' => '{0} একটি বৈধ ভিউ ডেকোরেটর নয়।',
 ];
