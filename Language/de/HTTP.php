@@ -52,6 +52,7 @@ return [
     'emptyController'    => 'Kein Controller angegeben.',
     'controllerNotFound' => 'Der Controller oder seine Methode wurde nicht gefunden: {0}::{1}',
     'methodNotFound'     => 'Die Controllermethode wurde nicht gefunden: {0}',
+    'localeNotSupported' => 'Nicht unterstützte Sprache: {0}',
 
     // CSRF
     // @deprecated use `Security.disallowedAction`
