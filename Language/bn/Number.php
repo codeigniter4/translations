@@ -18,9 +18,9 @@ return [
     'bytes'        => 'বাইট',
 
     // don't forget the space in front of these!
-    'thousand'    => ' হাজার',
-    'million'     => ' মিলিয়ন',
-    'billion'     => ' বিলিয়ন',
-    'trillion'    => ' ট্রিলিয়ন',
-    'quadrillion' => ' quadrillion',
+    'thousand'    => 'হাজার',
+    'million'     => 'মিলিয়ন',
+    'billion'     => 'বিলিয়ন',
+    'trillion'    => 'ট্রিলিয়ন',
+    'quadrillion' => 'কুয়াডিলিয়ন',
 ];
