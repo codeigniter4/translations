@@ -38,6 +38,7 @@ claims no expertise beyond English.
 |--------|---------------------|---------|-----------------------| --------------------
 | ar     | Arabic              | 4.0.0   | [daif][ar]            | Daif Alotaibi
 | bg     | Bulgarian           | 4.2.2   | [ivcho02][bg]         | Ivaylo Tsvetanov
+| bn     | Bengali             | 4.3.0   | [hafijul233][bn]      | Mohammad Hafijul Islam
 | bs     | Bosnian             | 4.2.0   | [demirkaric][bs]      | Demir Karić
 | cs     | Czech               | 4.0.3   | [PavelTajdus][cs]     | Pavel Tajduš
 | de     | German              | 4.0.0   | [sba][de]             | Stefan Bauer
@@ -74,6 +75,7 @@ _**Version where the locale was released. 4.x denotes `Unreleased`._
 
 [ar]: https://github.com/daif
 [bg]: https://github.com/ivcho02
+[bn]: https://github.com/hafijul233
 [bs]: https://github.com/demirkaric
 [cs]: https://github.com/PavelTajdus
 [de]: https://github.com/sba
