@@ -381,13 +381,15 @@ abstract class AbstractTranslationTestCase extends TestCase
      */
     final public function loadFile(string $file, ?string $locale = null): array
     {
+        helper('array');
+
         $folder = $locale
             ? getcwd() . "/Language/{$locale}/"
             : getcwd() . self::MAIN_LANGUAGE_REPO;
 
-        $file = $folder . $file;
+        $contents = require $folder . $file;
 
-        return require $file;
+        return array_flatten_with_dots($contents);
     }
 
     /**
