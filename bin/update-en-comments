@@ -80,6 +80,8 @@ foreach ($enFiles as $enFile) {
 
     $newLangFile = '';
 
+    $itemNo = 0;
+
     foreach ($langFileLines as $line) {
         // Remove en value comment.
         if (preg_match('!(.*,)(\s*//.*)$!u', $line, $matches)) {
@@ -94,12 +96,9 @@ foreach ($enFiles as $enFile) {
             $arrow  = $matches[3];
             $value  = $matches[4];
 
-            foreach ($items as $item) {
-                if (array_key_first($item) === $key) {
-                    $newLangFile .= $indent . "'" . $key . "'" . $arrow . $value . ', // ' . $item[$key] . "\n";
-                    unset($item[$key]);
-                }
-            }
+            $newLangFile .= $indent . "'" . $key . "'" . $arrow . $value
+                . ', // ' . $items[$itemNo][array_key_first($items[$itemNo])] . "\n";
+            $itemNo++;
         }
     }
 
