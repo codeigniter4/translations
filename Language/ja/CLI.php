@@ -17,6 +17,7 @@ return [
     'generator'          => [
         'cancelOperation' => '操作はキャンセルされました。', // 'Operation has been cancelled.'
         'className'       => [
+            'cell'       => 'セルのクラス名', // 'Cell class name'
             'command'    => 'コマンドクラス名', // 'Command class name'
             'config'     => '設定クラス名', // 'Config class name'
             'controller' => 'コントローラクラス名', // 'Controller class name'
@@ -38,6 +39,9 @@ return [
         'returnType'       => '戻り値の型', // 'Return type'
         'tableName'        => 'テーブル名', // 'Table name'
         'usingCINamespace' => '警告: 名前空間 "CodeIgniter" を使用するとsystemディレクトリにファイルが生成されます。', // 'Warning: Using the "CodeIgniter" namespace will generate the file in the system directory.'
+        'viewName'         => [
+            'cell' => 'セルのビュー名', // 'Cell view name'
+        ],
     ],
     'helpArguments'       => '引数:', // 'Arguments:'
     'helpDescription'     => '説明:', // 'Description:'
