@@ -18,7 +18,7 @@ use Translations\Tests\AbstractTranslationTestCase;
 $phpCsFixer = 'vendor/bin/php-cs-fixer';
 $phpunit    = 'vendor/bin/phpunit';
 
-if (CLI::isWindows()) {
+if (is_windows()) {
     $phpCsFixer = strtr($phpCsFixer, '/', '\\');
     $phpunit    = strtr($phpunit, '/', '\\');
 }
