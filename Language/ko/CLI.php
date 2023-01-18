@@ -17,6 +17,7 @@ return [
     'generator'          => [
         'cancelOperation' => '작업이 취소되었습니다.', // 'Operation has been cancelled.'
         'className'       => [
+            'cell'       => '셀 클래스 이름', // 'Cell class name'
             'command'    => '커멘드 클래스 이름', // 'Command class name'
             'config'     => '설정 클래스 이름', // 'Config class name'
             'controller' => '컨트롤러 클래스 이름', // 'Controller class name'
@@ -38,6 +39,9 @@ return [
         'returnType'       => '리턴 타입', // 'Return type'
         'tableName'        => '테이블 이름', // 'Table name'
         'usingCINamespace' => '경고 : "CodeIgniter" 네임스페이스를 사용하면 시스템 디렉터리에 파일이 생성됩니다.', // 'Warning: Using the "CodeIgniter" namespace will generate the file in the system directory.'
+        'viewName'         => [
+            'cell' => '셀 뷰 이름', // 'Cell view name'
+        ],
     ],
     'helpArguments'       => '인수:', // 'Arguments:'
     'helpDescription'     => '설명:', // 'Description:'
