@@ -40,7 +40,7 @@ return [
         'tableName'        => '테이블 이름', // 'Table name'
         'usingCINamespace' => '경고 : "CodeIgniter" 네임스페이스를 사용하면 시스템 디렉터리에 파일이 생성됩니다.', // 'Warning: Using the "CodeIgniter" namespace will generate the file in the system directory.'
         'viewName'         => [
-            'cell' => '셀 클래스 이름', // 'Cell view name'
+            'cell' => '셀 뷰 이름', // 'Cell view name'
         ],
     ],
     'helpArguments'       => '인수:', // 'Arguments:'
