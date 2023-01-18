@@ -38,6 +38,9 @@ return [
         'returnType'       => '리턴 타입', // 'Return type'
         'tableName'        => '테이블 이름', // 'Table name'
         'usingCINamespace' => '경고 : "CodeIgniter" 네임스페이스를 사용하면 시스템 디렉터리에 파일이 생성됩니다.', // 'Warning: Using the "CodeIgniter" namespace will generate the file in the system directory.'
+        'viewName'         => [
+            'cell' => 'Cell view 이름', // 'Cell view name'
+        ],
     ],
     'helpArguments'       => '인수:', // 'Arguments:'
     'helpDescription'     => '설명:', // 'Description:'
