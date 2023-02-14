@@ -36,7 +36,7 @@ return [
         'fileExist'        => 'فایل از قبل وجود دارد: {0}',
         'fileOverwrite'    => 'فایل رونویسی شد: {0}',
         'parentClass'      => 'کلاس والد',
-        'returnType'       => 'Return type',
+        'returnType'       => 'نوع بازگشتی',
         'tableName'        => 'نام جدول',
         'usingCINamespace' => 'هشدار: استفاده از فضای نام "CodeIgniter" باعث ایجاد فایل در دایرکتوری system می‌شود .',
         'viewName'         => [
