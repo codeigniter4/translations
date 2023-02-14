@@ -17,6 +17,7 @@ return [
     'generator'          => [
         'cancelOperation' => 'عملیات لغو شد.',
         'className'       => [
+            'cell'       => 'نام کلاس Cell',
             'command'    => 'نام کلاس Command',
             'config'     => 'نام کلاس Config',
             'controller' => 'نام کلاس Controller',
@@ -38,6 +39,9 @@ return [
         'returnType'       => 'Return type',
         'tableName'        => 'نام جدول',
         'usingCINamespace' => 'هشدار: استفاده از فضای نام "CodeIgniter" باعث ایجاد فایل در دایرکتوری system می‌شود .',
+        'viewName'         => [
+            'cell' => 'نام نمای Cell',
+        ],
     ],
     'helpArguments'       => 'پارامتر های ورودی:',
     'helpDescription'     => 'توضیحات:',
