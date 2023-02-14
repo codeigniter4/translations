@@ -52,6 +52,7 @@ return [
     'emptyController'    => 'هیچ کنترلری مشخص نشده.',
     'controllerNotFound' => 'کنترلر یا متد آن پیدا نشد: {0}::{1}',
     'methodNotFound'     => 'متد کنترلر پیدا نشد: {0}',
+    'localeNotSupported' => 'مناطقی که پشتیبانی نمی شوند: {0}',
 
     // CSRF
     'disallowedAction' => 'Action درخواستی شما مجاز نیست.',
