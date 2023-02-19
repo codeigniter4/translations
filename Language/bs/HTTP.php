@@ -52,6 +52,7 @@ return [
     'emptyController'    => 'Nije definisan kontroler.',
     'controllerNotFound' => 'Kontroler ili njegova metoda nisu pronađeni: {0}::{1}',
     'methodNotFound'     => 'Kontroler metoda nije pronađena: {0}',
+    'localeNotSupported' => 'Prevod nije podržan: {0}',
 
     // CSRF
     // @deprecated use `Security.disallowedAction`
