@@ -11,10 +11,10 @@
 
 // Encryption language settings
 return [
-    'noDriverRequested'    => 'Требуется подключить дарйвер шифрования.',
+    'noDriverRequested'    => 'Требуется подключить драйвер шифрования.',
     'noHandlerAvailable'   => 'Не удается найти доступный обработчик шифрования {0}.',
     'unKnownHandler'       => 'Обработчик "{0}" не может быть настроен.',
     'starterKeyNeeded'     => 'Для шифрования требуется указать секретный ключ',
-    'authenticationFailed' => 'Ошбика: Не удалось выполнить проверку подлинности.',
+    'authenticationFailed' => 'Ошибка: Не удалось выполнить проверку подлинности.',
     'encryptionFailed'     => 'Сбой шифрования.',
 ];
