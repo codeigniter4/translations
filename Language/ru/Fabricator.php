@@ -11,6 +11,6 @@
 
 // Fabricator language settings
 return [
-    'invalidModel'      => 'Постовляемая модель недопустима для изготовления.',
+    'invalidModel'      => 'Поставляемая модель недопустима для изготовления.',
     'missingFormatters' => 'Действительные форматеры не определены.',
 ];
