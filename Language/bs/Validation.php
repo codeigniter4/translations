@@ -59,6 +59,7 @@ return [
     'valid_url'             => '{field} polje mora sadržavati validan URL.',
     'valid_url_strict'      => '{field} polje mora sadržavati validan URL.',
     'valid_date'            => '{field} polje mora sadržavati validan datum.',
+    'valid_json'            => '{field} polje mora sadržavati validan JSON format.',
 
     // Credit Cards
     'valid_cc_num' => '{field} izgleda da nije validan broj kreditne kartice.',
