@@ -12,4 +12,5 @@
 // Log language settings
 return [
     'invalidLogLevel' => '{0} - это недопустимый уровень ведения журнала.',
+    'invalidMessageType' => 'Данный тип сообщения "{0}" не поддерживается.',
 ];

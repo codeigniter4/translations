@@ -52,6 +52,7 @@ return [
     'emptyController'    => 'Не указан контроллер.',
     'controllerNotFound' => 'Контроллер или его метод не найден: {0}::{1}',
     'methodNotFound'     => 'Метод контроллера не найден: {0}',
+    'localeNotSupported' => 'Региональные настройки не поддерживаются: {0}',
 
     // CSRF
     'disallowedAction' => 'Действие, которое вы запросили, не разрешено.',
@@ -70,4 +71,9 @@ return [
     'uploadErrNoTmpDir'  => 'Не удалось загрузить файл: Отсутствует временный каталог.',
     'uploadErrExtension' => 'Загрузка файла была остановлена расширением PHP.',
     'uploadErrUnknown'   => 'Файл "%s" не был загружен из-за неизвестной ошибки.',
+
+    // SameSite setting
+    // @deprecated
+    'invalidSameSiteSetting' => 'Значение SameSite должно быть None, Lax, Strict или пустая строка. Дано: {0}',
+
 ];
