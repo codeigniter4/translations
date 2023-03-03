@@ -22,5 +22,5 @@ return [
     'million'     => ' миллион',
     'billion'     => ' миллиард',
     'trillion'    => ' триллион',
-    'quadrillion' => ' квадралион',
+    'quadrillion' => ' квадриллион',
 ];

@@ -9,8 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// Testing language settings
 return [
-    'invalidLogLevel' => '{0} - это недопустимый уровень ведения журнала.',
-    'invalidMessageType' => 'Данный тип сообщения "{0}" не поддерживается.',
+    'invalidMockClass' => '"{0}" неверный Mock класс',
 ];

@@ -36,6 +36,7 @@ return [
 
     'latest'            => 'Запуск всех новых миграций...',
     'generalFault'      => 'Миграция не удалась !',
+    'migrated'          => 'Миграция завершена.',
     'migInvalidVersion' => 'Указан неверный номер версии.',
     'toVersionPH'       => 'Переход к версии %s...',
     'toVersion'         => 'Переход к текущей версии...',
@@ -44,9 +45,13 @@ return [
     'on'                => 'Миграция на: ',
     'migSeeder'         => 'Имя SEEDER`a',
     'migMissingSeeder'  => 'Необходимо указать имя для SEEDER`a.',
+    'nameSeeder'        => 'Имя файла SEEDER`a',
     'removed'           => 'Откат: ',
     'added'             => 'Запуск: ',
 
-    'version'  => 'Версия',
-    'filename' => 'Имя файла',
+    'namespace' => 'Пространство имён',
+    'filename'  => 'Имя файла',
+    'version'   => 'Версия',
+    'group'     => 'Группа',
+    'batch'     => 'Пакет',
 ];

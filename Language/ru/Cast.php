@@ -11,10 +11,13 @@
 
 // Cast language settings
 return [
+    'baseCastMissing'        => 'Класс "{0}" должен наследовать класс "CodeIgniter\Entity\Cast\BaseCast".',
+    'invalidCastMethod'      => 'Метод приведения "{0}" неверен, допустимые методы: ["get", "set"].',
+    'invalidTimestamp'       => 'Приведение типа "timestamp" ожидает корректную метку времени.',
+    'jsonErrorCtrlChar'      => 'Найден неожиданный управляющий символ.',
     'jsonErrorDepth'         => 'Превышена максимальная глубина стека.',
     'jsonErrorStateMismatch' => 'Недостаточный поток или несоответствие режимов.',
-    'jsonErrorCtrlChar'      => 'Найден неожиданный управляющий символ.',
     'jsonErrorSyntax'        => 'В JSON найдена синтаксическая ошибка.',
-    'jsonErrorUtf8'          => 'Возможно ваш JSON закодирован не в UTF-8.',
     'jsonErrorUnknown'       => 'Неизвестная ошибка.',
+    'jsonErrorUtf8'          => 'Возможно ваш JSON закодирован не в UTF-8.',
 ];
