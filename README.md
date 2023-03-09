@@ -63,6 +63,7 @@ claims no expertise beyond English.
 | ru     | Russian             | 4.0.0   | [DigitalWolf98][ru]   | Vladislav Rykhtikov
 | si     | Sinhala             | 4.0.3   | [npwsamarasinghe][si] | Nalaka Prasad
 | sk     | Slovak              | 4.0.0   | [xbotkaj][sk]         | Jozef Botka
+| sr     | Serbian             | 4.2.0   | [nebojsajsimic][sr]   | Nebojša Simić
 | sv-SE  | Swedish - Sweden    | 4.0.3   | [tangix][sv-SE]       | Mattias Sandström
 | th     | Thai                | 4.1.4   | [karidoe][th]         | Anuchit Thiamuan
 | tr     | Turkish             | 4.0.0   | [obozdag][tr]         | obozdag

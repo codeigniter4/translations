@@ -13,7 +13,6 @@ The following languages have translations for CodeIgniter 3, but not yet for Cod
 | hy     | Armenian           | tgrnmrdn          | Tigran Muradyan
 | km     | Khmer              | Chanthoeun        | Chanthoeun Kim
 | sl     | Slovenian          | andrejflorjancic  | Andrej Florjančič
-| sr     | Serbian            | novakurosevic     | Novak Urosevic
 | ta     | Tamil              | karthik-code      | Karthikeyan
 | tl     | Filipino (Tagalog) | dzerium           | Edzer Josh V. Padilla
 | ur     | Urdu               | codeonion         | Muhammad Ali
