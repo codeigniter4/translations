@@ -42,7 +42,6 @@ return [
     'toVersion'         => 'Переход к текущей версии...',
     'rollingBack'       => 'Откат миграции в: ',
     'noneFound'         => 'Миграций не обнаружено.',
-    'on'                => 'Миграция на: ',
     'migSeeder'         => 'Имя SEEDER`a',
     'migMissingSeeder'  => 'Необходимо указать имя для SEEDER`a.',
     'nameSeeder'        => 'Имя файла SEEDER`a',
@@ -53,5 +52,6 @@ return [
     'filename'  => 'Имя файла',
     'version'   => 'Версия',
     'group'     => 'Группа',
+    'on'        => 'Миграция на: ',
     'batch'     => 'Пакет',
 ];
