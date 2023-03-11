@@ -63,7 +63,7 @@ claims no expertise beyond English.
 | ru     | Russian             | 4.0.0   | [DigitalWolf98][ru]   | Vladislav Rykhtikov
 | si     | Sinhala             | 4.0.3   | [npwsamarasinghe][si] | Nalaka Prasad
 | sk     | Slovak              | 4.0.0   | [xbotkaj][sk]         | Jozef Botka
-| sr     | Serbian             | 4.2.0   | [nebojsajsimic][sr]   | Nebojša Simić
+| sr     | Serbian             | 4.3.3   | [nebojsajsimic][sr]   | Nebojša Simić
 | sv-SE  | Swedish - Sweden    | 4.0.3   | [tangix][sv-SE]       | Mattias Sandström
 | th     | Thai                | 4.1.4   | [karidoe][th]         | Anuchit Thiamuan
 | tr     | Turkish             | 4.0.0   | [obozdag][tr]         | obozdag
@@ -100,6 +100,7 @@ _**Version where the locale was released. 4.x denotes `Unreleased`._
 [ru]: https://github.com/DigitalWolf98
 [si]: https://github.com/npwsamarasinghe
 [sk]: https://github.com/xbotkaj
+[sr]: https://github.com/nebojsajsimic
 [sv-SE]: https://github.com/tangix
 [th]: https://github.com/karidoe
 [tr]: https://github.com/obozdag
