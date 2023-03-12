@@ -17,5 +17,5 @@ return [
     'noCellClass'           => 'Не предоставлен класс ячейки представления.',
     'invalidCellClass'      => 'Не удается найти класс {0} ячеек представления.',
     'tagSyntaxError'        => 'У вас есть синтаксическая ошибка в тегах парсера: {0}',
-    'invalidDecoratorClass' => '"{0}" неверный View Decorator.',  //TODO: Декоратор Просмотра ???
+    'invalidDecoratorClass' => '"{0}" неверный View Decorator.',  // TODO: Декоратор Просмотра ???
 ];
