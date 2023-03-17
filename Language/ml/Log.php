@@ -11,6 +11,6 @@
 
 // Log language settings
 return [
-    'invalidLogLevel' => '{0} ഒരു അസാധുവായ ലോഗ് നിലയമാണ്.',
+    'invalidLogLevel'    => '{0} ഒരു അസാധുവായ ലോഗ് നിലയമാണ്',
     'invalidMessageType' => 'നൽകിയ സന്ദേശ തരം "{0}" പിന്തുണയ്ക്കുന്നില്ല.',
 ];
