@@ -9,8 +9,10 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// CLI language settings
+// Files language settings
 return [
-    'fileNotFound' => 'ഫയൽ കാണുന്നില്ല: {0}',
-    'cannotMove'   => '{0} മുതൽ {1} വരെ ഫയൽ നീക്കാൻ കഴിഞ്ഞില്ല({2})',
+    'fileNotFound'      => 'ഫയൽ കണ്ടെത്തിയില്ല: {0} ',
+    'cannotMove'        => '{0} മുതൽ {1} ({2}) വരെ നീങ്ങാൻ കഴിഞ്ഞില്ല. ',
+    'expectedDirectory' => '{0} സാധുവായ ഒരു ഡയറക്ടറി പ്രതീക്ഷിക്കുന്നു. ',
+    'expectedFile'      => '{0} സാധുവായ ഒരു ഫയൽ പ്രതീക്ഷിക്കുന്നു. ',
 ];
