@@ -25,7 +25,7 @@ on:
 jobs:
 
   main:
-    name: Code Style Check [PHP ${{ matrix.php-versions }}]
+    name: Code Style Check [PHP ${{ matrix.php-version }}]
     runs-on: ubuntu-20.04
     if: github.repository == 'codeigniter4/translations'
 
