@@ -13,4 +13,6 @@
 return [
     'invalidParameter'    => 'Un parametro non rientra nella tipologia attesa.',
     'missingDefaultRoute' => 'Impossibile determinare cosa si dovrebbe mostrare. Non è stato specificato un percorso di default nel file percorsi (routing).',
+    'invalidDynamicController' => 'Un controller dinamico non è consentito per motivi di sicurezza. Gestore dei percorsi: "{0}"',
+    'invalidControllerName'    => 'The namespace delimiter is a backslash (\), not a slash (/). Gestore dei percorsi: "{0}"',
 ];
