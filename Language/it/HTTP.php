@@ -52,6 +52,7 @@ return [
     'emptyController'    => 'Nessun Controller specificato.',
     'controllerNotFound' => 'Il Controller o il suo metodo non è stato trovato: {0}::{1}',
     'methodNotFound'     => 'Il metodo del Controller non è stato trovato: {0}',
+    'localeNotSupported' => 'La localizzazione non è supportata: {0}',
 
     // CSRF
     'disallowedAction' => 'L\'azione richiesta non è permessa.',
