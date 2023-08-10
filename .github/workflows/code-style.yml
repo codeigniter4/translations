@@ -22,8 +22,10 @@ on:
       - .github/scripts/continuous-integration
       - .github/workflows/code-style.yml
 
-jobs:
+permissions:
+  contents: read
 
+jobs:
   main:
     name: Code Style Check [PHP ${{ matrix.php-version }}]
     runs-on: ubuntu-20.04
