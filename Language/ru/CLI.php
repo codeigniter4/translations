@@ -11,7 +11,7 @@
 
 // CLI language settings
 return [
-    'altCommandPlural'   => 'Вы подразумевали один иж этих?',
+    'altCommandPlural'   => 'Вы подразумевали один из этих?',
     'altCommandSingular' => 'Вы подразумевали этот?',
     'commandNotFound'    => 'Команда "{0}" не найдена.',
     'generator'          => [
