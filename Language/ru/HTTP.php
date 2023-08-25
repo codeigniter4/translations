@@ -75,5 +75,4 @@ return [
     // SameSite setting
     // @deprecated
     'invalidSameSiteSetting' => 'Значение SameSite должно быть None, Lax, Strict или пустая строка. Дано: {0}',
-
 ];
