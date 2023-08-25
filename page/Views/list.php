@@ -32,7 +32,7 @@
                         <td><code><?= esc($lang['locale']); ?></code></td>
                         <td>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: <?= esc($lang['percent'], 'attr'); ?>%;"><?= esc($lang['percent']); ?>%</div>
+                                <div class="progress-bar progress-bar-striped <?= esc($lang['background']) ?>" role="progressbar" style="width: <?= esc($lang['percent'], 'attr'); ?>%;"><?= esc($lang['percent']); ?>%</div>
                             </div>
                         </td>
                         <td class="text-center">

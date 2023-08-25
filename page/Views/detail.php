@@ -35,7 +35,7 @@
                         <td class="text-end"><?= esc($info['count']); ?> / <?= esc($en[$name]['count'] ?? '?'); ?></td>
                         <td class="">
                             <div class="progress">
-                                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: <?= esc($info['percent'], 'attr'); ?>%;"><?= esc($info['percent']); ?>%</div>
+                                <div class="progress-bar progress-bar-striped <?= esc($info['background']) ?>" role="progressbar" style="width: <?= esc($info['percent'], 'attr'); ?>%;"><?= esc($info['percent']); ?>%</div>
                             </div>
                         </td>
                         <td class="w-50 text-center">
