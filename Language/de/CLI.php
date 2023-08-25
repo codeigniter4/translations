@@ -17,6 +17,7 @@ return [
     'generator'          => [
         'cancelOperation' => 'Der Vorgang wurde abgebrochen.',
         'className'       => [
+            'cell'       => 'Zelle Name der Klasse',
             'command'    => 'Befehl Name der Klasse',
             'config'     => 'Konfiguration Name der Klasse',
             'controller' => 'Controller Name der Klasse',
@@ -32,12 +33,15 @@ return [
         'databaseGroup'    => 'Datenbankgruppe',
         'fileCreate'       => 'Datei erstellt: {0}',
         'fileError'        => 'Fehler bei der Dateierstellung: {0}',
-        'fileExists'       => 'Datei existiert bereits: {0}',
+        'fileExist'        => 'Datei existiert bereits: {0}',
         'fileOverwrite'    => 'Datei überschrieben: {0}',
         'parentClass'      => 'Elternklasse',
         'returnType'       => 'Rückgabetyp',
         'tableName'        => 'Tabellenname',
         'usingCINamespace' => 'Warnung: Wenn der Namespace "CodeIgniter" verwendet wird, wird die Datei im system-Ordner erstellt.',
+        'viewName'         => [
+            'cell' => 'Zelle Ansicht Name',
+        ],
     ],
     'helpArguments'       => 'Argumente:',
     'helpDescription'     => 'Beschreibung:',
