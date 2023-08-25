@@ -21,7 +21,7 @@ return [
     'invalidNegotiationType' => '"{0}" は有効なネゴシエーションタイプではありません。値は次のいずれかでなければなりません: media, charset, encoding, language', // '"{0}" is not a valid negotiation type. Must be one of: media, charset, encoding, language.'
 
     // Message
-    'invalidHTTPProtocol' => 'HTTPプロトコルのバージョンが無効です。値は次のいずれかでなければなりません: {0}', // 'Invalid HTTP Protocol Version. Must be one of: {0}'
+    'invalidHTTPProtocol' => '無効なHTTPプロトコルのバージョンです: {0}', // 'Invalid HTTP Protocol Version: {0}'
 
     // Negotiate
     'emptySupportedNegotiations' => 'すべてのネゴシエーションにサポートされている値の配列を設定する必要があります。', // 'You must provide an array of supported values to all Negotiations.'
