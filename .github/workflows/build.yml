@@ -18,10 +18,12 @@ on:
       - tests/Language/**
       - .github/workflows/build.yml
 
-jobs:
+permissions:
+  contents: read
 
+jobs:
   main:
-    name: Build [PHP ${{ matrix.php-versions }}]
+    name: Build [PHP ${{ matrix.php-version }}]
     runs-on: ubuntu-20.04
     if: github.repository == 'codeigniter4/translations'
 

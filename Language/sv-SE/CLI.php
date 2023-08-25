@@ -16,6 +16,7 @@ return [
     'generator'          => [
         'cancelOperation' => 'Operationen har avbrutits.',
         'className'       => [
+            'cell'       => 'Cell klassnamn',
             'command'    => 'Command klassnamn',
             'config'     => 'Config klassnamn',
             'controller' => 'Controller klassnamn',
@@ -37,6 +38,9 @@ return [
         'returnType'       => 'Returtyp',
         'tableName'        => 'Tabellnamn',
         'usingCINamespace' => 'Varning: Om namespace "CodeIgniter" används kommer filen att skapas i katalogen system.',
+        'viewName'         => [
+            'cell' => 'Cell view namn',
+        ],
     ],
     'helpArguments'       => 'Argument:',
     'helpDescription'     => 'Beskrivning:',

@@ -8,6 +8,7 @@ on:
       - Language/**
       - tests/Language/AbstractTranslationTestCase.php
       - .github/workflows/generate-page.yml
+  workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -15,10 +16,11 @@ permissions:
   pages: write
   id-token: write
 
-# Allow one concurrent deployment
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   # Build job
@@ -40,12 +42,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get composer cache directory
-        run: echo "COMPOSER_CACHE_FILES_DIR=$(composer config cache-files-dir)" >> $GITHUB_ENV
+        id: composer-cache
+        run: echo "COMPOSER_CACHE_FILES_DIR=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
 
       - name: Cache composer dependencies
         uses: actions/cache@v3
         with:
-          path: ${{ env.COMPOSER_CACHE_FILES_DIR }}
+          path: ${{ steps.composer-cache.outputs.COMPOSER_CACHE_FILES_DIR }}
           key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}
           restore-keys: ${{ runner.os }}-composer-
 
@@ -54,13 +57,13 @@ jobs:
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v3
 
       - name: Build
         run: ./bin/generate-page
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v2
         with:
           path: ./page/build
 
@@ -74,4 +77,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v2

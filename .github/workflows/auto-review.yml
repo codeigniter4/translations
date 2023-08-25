@@ -23,7 +23,7 @@ on:
 jobs:
 
   code:
-    name: Automatic Review on Code [PHP ${{ matrix.php-versions }}]
+    name: Automatic Review on Code [PHP ${{ matrix.php-version }}]
     runs-on: ubuntu-22.04
     if: github.repository == 'codeigniter4/translations'
 

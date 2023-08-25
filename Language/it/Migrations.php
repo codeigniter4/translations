@@ -35,6 +35,7 @@ return [
     'refreshConfirm'    => 'Sicuro di voler effettuare il refresh?',
     'latest'            => 'Esecuzione delle nuove migrazioni in corso...',
     'generalFault'      => 'Migrazione fallita!',
+    'migrated'          => 'Migrazione completata.',
     'migInvalidVersion' => 'Fornito un numero di versione non valido.',
     'toVersionPH'       => 'Migrazione verso la versione %s...',
     'toVersion'         => 'Migrazione verso la versione corrente...',
