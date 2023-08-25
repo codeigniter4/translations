@@ -21,7 +21,7 @@ return [
     'invalidNegotiationType' => '{0} ist kein gültiger Inhaltstyp. Gültige Typen: media, charset, encoding, language.',
 
     // Message
-    'invalidHTTPProtocol' => 'Ungültige HTTP Protokoll-Version. Gültige Versionen: {0}',
+    'invalidHTTPProtocol' => 'Ungültige HTTP Protokoll-Version: {0}',
 
     // Negotiate
     'emptySupportedNegotiations' => 'Es muss immer ein Array mit gültigen Inhaltstypen angegeben werden.',
