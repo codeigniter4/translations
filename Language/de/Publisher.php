@@ -12,11 +12,11 @@
 // Publisher language settings
 return [
     'collision'             => 'Publisher hat ein unerwartetes {0} beim Kopieren von {1} nach {2} festgestellt.',
-    'destinationNotAllowed' => 'Das Ziel befindet sich nicht in der Liste der zulässigen Publisher-Verzeichnisse: {0}',
-    'fileNotAllowed'        => '{0} erfüllt die folgende Einschränkung für {1} nicht: {2}',
+    'destinationNotAllowed' => 'Das Ziel befindet sich nicht in der Liste der zulÃ¤ssigen Publisher-Verzeichnisse: {0}',
+    'fileNotAllowed'        => '{0} erfÃ¼llt die folgende EinschrÃ¤nkung fÃ¼r {1} nicht: {2}',
 
     // Publish Command
-    'publishMissing' => 'Es konnten keine Publisher-Klassen in {0} in allen Namensräumen detektiert werden.',
+    'publishMissing' => 'Es konnten keine Publisher-Klassen in {0} in allen NamensrÃ¤umen detektiert werden.',
     'publishSuccess' => '{0} hat {1} Datei(en) nach {2} publiziert.',
     'publishFailure' => '{0} konnte nicht nach {1} publiziert werden!',
 ];
