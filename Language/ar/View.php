@@ -17,4 +17,5 @@ return [
     'noCellClass'           => 'اسم الصنف لعرض جزء الصفحة غير مرسل.',
     'invalidCellClass'      => 'لم يتم ايجاد اسم الصنف هذا لعرض جزء الصفحة: {0}.',
     'tagSyntaxError'        => 'يوجد خطأ في الصيغة عند معالجة الوسم: {0}',
+    'invalidDecoratorClass' => '"{0}" ليس مزين Decorator عرض صالحا.',
 ];
