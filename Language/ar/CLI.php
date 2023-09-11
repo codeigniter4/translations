@@ -15,8 +15,8 @@ return [
     'altCommandSingular' => 'هل كنت تقصد هذا ؟',
     'commandNotFound'    => 'الأمر "{0}" غير موجود.',
     'generator'          => [
-        'cancelOperation'  => 'تم إلغاء العملية.',
-        'className'        => [
+        'cancelOperation' => 'تم إلغاء العملية.',
+        'className'       => [
             'cell'       => 'اسم كلاس الخلية',
             'command'    => 'اسم كلاس Command',
             'config'     => 'اسم كلاس Config',

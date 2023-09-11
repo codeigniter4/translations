@@ -11,8 +11,8 @@
 
 // Files language settings
 return [
-    'fileNotFound' => 'الملف غير موجود: {0}',
-    'cannotMove'   => 'فشل في نقل الملف من {0} إلى {1} ({2})',
+    'fileNotFound'      => 'الملف غير موجود: {0}',
+    'cannotMove'        => 'فشل في نقل الملف من {0} إلى {1} ({2})',
     'expectedDirectory' => '{0} يتوقع وجود مجلد صحيح.',
     'expectedFile'      => '{0} يتوقع وجود ملف صحيح.',
 ];
