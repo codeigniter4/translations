@@ -11,6 +11,8 @@
 
 // Router language settings
 return [
-    'invalidParameter'    => 'المدخلات لا تطابق النوع المتوقع.',
-    'missingDefaultRoute' => 'لا يمكن عرض الصفحة. لم يتم وضع مسار افتراضي للتوجيه له.',
+    'invalidParameter'         => 'المدخلات لا تطابق النوع المتوقع.',
+    'missingDefaultRoute'      => 'لا يمكن عرض الصفحة. لم يتم وضع مسار افتراضي للتوجيه له.',
+    'invalidDynamicController' => 'لا يُسمح بوجود تحكم دينامكي لأسباب أمان. معالج المسار: "{0}"',
+    'invalidControllerName'    => 'فاصل الفضاء الاسمي namespace هو علامة الشرطة العكسية (\)، وليس شرطة (/). معالج المسار: "{0}"',
 ];

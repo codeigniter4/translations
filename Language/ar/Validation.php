@@ -59,6 +59,7 @@ return [
     'valid_url'             => 'الحقل {field} يجب أن يحتوي على رابط.',
     'valid_url_strict'      => 'الحقل {field} يجب أن يحتوي على رابط.',
     'valid_date'            => 'الحقل {field} يجب أن يحتوي على تاريخ صحيح.',
+    'valid_json'            => 'يجب أن يحتوي حقل {field} على تعليمات JSON صالحة.',
 
     // Credit Cards
     'valid_cc_num' => 'الحقل {field} يجب أن يحتوي على رقم بطاقة الائتمان صحيح.',
