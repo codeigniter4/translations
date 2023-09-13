@@ -52,6 +52,7 @@ return [
     'emptyController'    => 'لايوجد متحكم محدد.',
     'controllerNotFound' => 'المتحكم او الخاصة غير موجودة: {0}::{1}',
     'methodNotFound'     => 'الخاصية غير موجودة: {0}',
+    'localeNotSupported' => 'اللغة غير مدعومة: {0}',
 
     // CSRF
     'disallowedAction' => 'غير مسموح تكرار تنفيذ هذا الطلب.',

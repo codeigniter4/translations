@@ -27,4 +27,5 @@ return [
     'fieldNotExists'                   => 'لم يتم العثور على الحقل `{0}`. ',
     'forEmptyInputGiven'               => 'تم إعطاء تعليمة فارغة للحقل `{0}`.',
     'forFindColumnHaveMultipleColumns' => 'يسمح فقط بإستخدام عامود واحد لتحديد اسم العامود.',
+    'methodNotAvailable'               => 'لا يمكنك استخدام {1} في {0}. هذا هو أحد أساليب كلاس مُنشئ الاستعلامات.',
 ];
