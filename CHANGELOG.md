@@ -5,6 +5,27 @@ All notable changes to this library will be documented in this file:
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v4.4.1](https://github.com/codeigniter4/translations/compare/v4.3.8...v4.4.1) - 2023-09-14
+
+### Added
+
+- feat: Support for colored progress bars accdg to percent (#391)
+- chore: add dependabot.yml (#401)
+- chore(deps): bump actions/checkout from 3 to 4 (#403)
+- chore(deps): bump peter-evans/create-pull-request from 4 to 5 (#404)
+
+### Fixed
+
+- \[de\] Convert windows-1252 files to UTF-8 (#399)
+- fix: add env.GITHUB_TOKEN to setup-php (#402)
+
+### Changed
+
+- de (German)
+- fa (Farsi)
+- ja (Japanese)
+- ru (Russian)
+
 ## [v4.3.8](https://github.com/codeigniter4/translations/compare/v4.3.6...v4.3.8) - 2023-08-25
 
 ### Added
