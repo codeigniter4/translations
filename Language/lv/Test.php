@@ -9,9 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Fabricator language settings
+// Testing language settings
 return [
-    'invalidModel'      => 'Ražošanai piegādāts nederīgs modelis.',
-    'missingFormatters' => 'Nav definēti derīgi formatētāji.',
-    'createFailed'      => 'Ražotājam neizdevās ievietot tabulā {0}: {1}.',
+    'invalidMockClass' => '"{0}" nav derīga Mock klase',
 ];

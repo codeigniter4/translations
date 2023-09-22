@@ -11,5 +11,5 @@
 
 // RESTful language settings
 return [
-    'notImplemented' => '`{0}` darbība nav ieviesta.', // '"{0}" action not implemented.'
+    'notImplemented' => 'Darbība "{0}" nav ieviesta.',
 ];

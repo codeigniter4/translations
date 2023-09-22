@@ -11,8 +11,8 @@
 
 // Security language settings
 return [
-    'disallowedAction' => 'Jūsu pieprasītā darbība nav atļauta.', // 'The action you requested is not allowed.'
+    'disallowedAction' => 'Jūsu pieprasītā darbība nav atļauta.',
 
     // @deprecated
-    'invalidSameSite' => 'Vērtībai SameSite ir jābūt: `None`, `Lax`, `Strict` vai tukšai virknei. Norādīts: {0}', // 'The SameSite value must be None, Lax, Strict, or a blank string. Given: {0}'
+    'invalidSameSite' => 'Vērtībai SameSite ir jābūt: None, Lax, Strict vai tukšai virknei. Norādīts: "{0}"',
 ];

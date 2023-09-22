@@ -20,7 +20,7 @@ final class LatvianTranslationTest extends AbstractTranslationTestCase
     {
         // The keys of this locale that do not differ from the english value even if translated.
         $this->excludedLocaleKeyTranslations = [
-            'HTTP.curlError',
+            'HTTP.missingCurl',
             'Number.terabyteAbbr',
             'Number.gigabyteAbbr',
             'Number.megabyteAbbr',

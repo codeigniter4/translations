@@ -11,6 +11,8 @@
 
 // Files language settings
 return [
-    'fileNotFound' => 'Fails nav atrasts: {0}', // 'File not found: {0}'
-    'cannotMove'   => 'Nevarēja pārvietot failu {0} uz {1} ({2})', // 'Could not move file {0} to {1} ({2}).'
+    'fileNotFound'      => 'Fails nav atrasts: "{0}"',
+    'cannotMove'        => 'Nevarēja pārvietot failu "{0}" uz "{1}". Iemesls: {2}',
+    'expectedDirectory' => '{0} sagaida derīgu direktoriju.',
+    'expectedFile'      => '{0} sagaida derīgu failu.',
 ];
