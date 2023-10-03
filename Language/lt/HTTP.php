@@ -52,8 +52,10 @@ return [
     'emptyController'    => 'Nenurodytas kontroleris.',
     'controllerNotFound' => 'Kontroleris arba jo metodas nerastas: {0}::{1}',
     'methodNotFound'     => 'Kontrolerio metodas nerastas: {0}',
+    'localeNotSupported' => 'Ši lokalė nėra palaikoma: {0}',
 
     // CSRF
+    // @deprecated use 'Security.disallowedAction'
     'disallowedAction' => 'Veiksmas, kurio prašote, neleistinas.',
 
     // Uploaded file moving
@@ -70,6 +72,7 @@ return [
     'uploadErrNoTmpDir'  => 'Failo įkelti nepavyko: nėra laikinosios direktorijos.',
     'uploadErrExtension' => 'Failo įkėlimą sustabdė PHP išplėtimas.',
     'uploadErrUnknown'   => 'Failo „%s“ nepavyko įkelti dėl nežinomos klaidos.',
+
     // SameSite setting
     // @deprecated
     'invalidSameSiteSetting' => 'Nustatymas SameSite turi būti None, Lax, Strict arba tuščia eilutė. Pateikta: {0}',

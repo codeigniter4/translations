@@ -11,7 +11,7 @@
 
 // Time language settings
 return [
-    'invalidFormat'  => '"{0}" nėra galiojantis datos ir laiko formatas',
+    'invalidFormat'  => '„{0}“ nėra galiojantis datos ir laiko formatas',
     'invalidMonth'   => 'Menesių reikšmės gali būti nuo 1 iki 12. Įrašyta: {0}',
     'invalidDay'     => 'Dienų reikšmės gali būti nuo 1 iki 31. Įrašyta: {0}',
     'invalidOverDay' => 'Dienų reikšmės gali būti nuo 1 iki {0}. Įrašyta: {1}',

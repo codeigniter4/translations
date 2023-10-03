@@ -11,5 +11,5 @@
 
 // Testing language settings
 return [
-    'invalidMockClass' => '{0} nėra galiojanti Mock klasė',
+    'invalidMockClass' => '„{0}“ nėra galiojanti Mock klasė',
 ];

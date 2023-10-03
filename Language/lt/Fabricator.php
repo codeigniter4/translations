@@ -13,5 +13,5 @@
 return [
     'invalidModel'      => 'Gamybai pateiktas netinkamas modelis.',
     'missingFormatters' => 'Nėra nuistatyta galiojančių formatų.',
-    'createFailed'      => '"Fabricator" nepavyko įterpti į lentelę {0}: {1}',
+    'createFailed'      => '„Fabricator“ nepavyko įterpti į lentelę {0}: {1}',
 ];
