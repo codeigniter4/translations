@@ -11,8 +11,8 @@
 
 // Cast language settings
 return [
-    'baseCastMissing'        => '"{0}" turi paveldėti "CodeIgniter\Entity\Cast\BaseCast" klasę.',
-    'invalidCastMethod'      => '"{0}" yra neteisingas cast metodas, teisingi metodai yra: ["get", "set"].',
+    'baseCastMissing'        => '„{0}“ turi paveldėti „CodeIgniter\Entity\Cast\BaseCast“ klasę.',
+    'invalidCastMethod'      => '„{0}“ yra neteisingas cast metodas, teisingi metodai yra: ["get", "set"].',
     'invalidTimestamp'       => 'Tipas "timestamp" teisingos laiko žymos.',
     'jsonErrorCtrlChar'      => 'Aptiktas nelauktas kontrolės simbolis',
     'jsonErrorDepth'         => 'Viršytas maksimalus dėklo gylis',

@@ -59,6 +59,7 @@ return [
     'valid_url'             => 'Lauke {field} turi būti taisyklingas URL.',
     'valid_url_strict'      => 'Lauke {field} turi būti taisyklingas URL.',
     'valid_date'            => 'Lauke {field} turi būti taisyklinga data.',
+    'valid_json'            => 'Lauke {field} turi būti taisyklingas json.',
 
     // Credit Cards
     'valid_cc_num' => 'Nepanašu, kad lauke {field} būtų įrašytas taisyklingas kredito kortelės numeris.',
