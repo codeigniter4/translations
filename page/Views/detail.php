@@ -35,7 +35,11 @@
                         <td class="text-end"><?= esc($info['count']); ?> / <?= esc($en[$name]['count'] ?? '?'); ?></td>
                         <td class="">
                             <div class="progress">
-                                <div class="progress-bar progress-bar-striped <?= esc($info['background']) ?>" role="progressbar" style="width: <?= esc($info['percent'], 'attr'); ?>%;"><?= esc($info['percent']); ?>%</div>
+                                <?php if ($info['lines'] !== []): ?>
+                                    <div class="progress-bar progress-bar-striped <?= esc($info['background']) ?>" role="progressbar" style="width: <?= esc($info['percent'], 'attr'); ?>%;"><?= esc($info['percent']); ?>%</div>
+                                <?php else: ?>
+                                    <div class="progress-bar progress-bar-striped <?= esc($info['background']) ?>" role="progressbar" style="width: 100%;"><?= esc($info['percent']); ?></div>
+                                <?php endif; ?>
                             </div>
                         </td>
                         <td class="w-50 text-center">
