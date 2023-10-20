@@ -35,9 +35,12 @@ return [
         'fileExist'        => 'Plik istnieje: {0}',
         'fileOverwrite'    => 'Plik został nadpisany: {0}',
         'parentClass'      => 'Klasa rodzica',
-        'returnType'       => 'Zwaracany typ',
+        'returnType'       => 'Zwracany typ',
         'tableName'        => 'Nazwa tabeli',
         'usingCINamespace' => 'Ostrzeżenie: Używanie przestrzeni nazw "CodeIgniter" wygeneruje plik w katalogu systemowym.',
+        'viewName'         => [
+            'cell' => 'Nazwa widoku komórki',
+        ],
     ],
     'helpArguments'       => 'Argumenty:',
     'helpDescription'     => 'Opis:',

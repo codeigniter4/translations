@@ -20,5 +20,5 @@ return [
     'invalidSameSite'       => 'Wartość SameSite może przyjąć wartości "None", "Lax", "Strict" lub pusty ciąg znaków; podano "{0}".',
     'invalidSameSiteNone'   => 'Użycie atrybutu "SameSite=None" wymaga ustawienia atrybutu "Secure".',
     'invalidCookieInstance' => 'Klasa "{0}" oczekuje, że elementy tablicy ciasteczek będą instancjami "{1}", ale przekazano "{2}" na pozycji {3}.',
-    'unknownCookieInstance' => 'Nie znaleziono objektu ciasteczka "{0}" z prefiksem "{1}".',
+    'unknownCookieInstance' => 'Nie znaleziono obiektu ciasteczka "{0}" z prefiksem "{1}".',
 ];
