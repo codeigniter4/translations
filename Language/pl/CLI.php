@@ -17,6 +17,7 @@ return [
     'generator'          => [
         'cancelOperation' => 'Operacja została przerwana.',
         'className'       => [
+            'cell'       => 'Nazwa klasy komórki',
             'command'    => 'Nazwa klasy komendy',
             'config'     => 'Nazwa klasy konfiguracji',
             'controller' => 'Nazwa klasy kontrolera',
