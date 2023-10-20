@@ -17,6 +17,7 @@ return [
     'generator'          => [
         'cancelOperation' => 'Operasi telah dibatalkan.',
         'className'       => [
+            'cell'       => 'Nama kelas Cell',
             'command'    => 'Nama kelas Command',
             'config'     => 'Nama kelas Config',
             'controller' => 'Nama kelas Controller',
@@ -38,6 +39,9 @@ return [
         'returnType'       => 'Jenis Return',
         'tableName'        => 'Nama tabel',
         'usingCINamespace' => 'Peringatan: Menggunakan namespace "CodeIgniter" akan menghasilkan berkas ke direktori sistem.',
+        'viewName'         => [
+            'cell' => 'Nama tampilan Cell',
+        ],
     ],
     'helpArguments'       => 'Argumen:',
     'helpDescription'     => 'Deskripsi:',
