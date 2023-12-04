@@ -42,8 +42,8 @@ claims no expertise beyond English.
 | bs     | Bosnian             | 4.2.0   | [demirkaric][bs]      | Demir Karić
 | cs     | Czech               | 4.0.3   | [PavelTajdus][cs]     | Pavel Tajduš
 | de     | German              | 4.0.0   | [sba][de]             | Stefan Bauer
-| en     | English             | 4.0.0   | **N/A**               | CI team
 | el     | Greek               | 4.0.0   | [sourikata2][el]      | Rania Mag
+| en     | English             | 4.0.0   | **N/A**               | CI team
 | es     | Spanish             | 4.0.0   | [nachoaguirre][es]    | Ignacio Aguirre
 | fa     | Farsi               | 4.0.0   | [msalehi-d][fa]       | Mohammad Salehi
 | fr     | French              | 4.0.0   | [amuratet][fr]        | Amuratet?
