@@ -19,7 +19,7 @@ return [
 
     // don't forget the space in front of these!
     'thousand'    => ' هزار',
-    'million'     => ' ملیون',
+    'million'     => ' میلیون',
     'billion'     => ' میلیارد',
     'trillion'    => ' تریلیون',
     'quadrillion' => ' کوادریلیون',
