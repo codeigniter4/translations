@@ -19,6 +19,8 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '"{0}" は有効なネゴシエーションタイプではありません。値は次のいずれかでなければなりません: media, charset, encoding, language', // '"{0}" is not a valid negotiation type. Must be one of: media, charset, encoding, language.'
+    'invalidJSON'            => 'JSON文字列の解析に失敗しました。エラー: {0}', // 'Failed to parse JSON string. Error: {0}'
+    'unsupportedJSONFormat'  => '提供されたJSONフォーマットはサポートされていません。', // 'The provided JSON format is not supported.'
 
     // Message
     'invalidHTTPProtocol' => '無効なHTTPプロトコルのバージョンです: {0}', // 'Invalid HTTP Protocol Version: {0}'
