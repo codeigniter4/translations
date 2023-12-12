@@ -17,6 +17,7 @@ return [
     'generator'          => [
         'cancelOperation' => 'Operação foi cancelada.',
         'className'       => [
+            'cell'       => 'Nome da classe da célula',
             'command'    => 'Nome da classe de comando',
             'config'     => 'Nome da classe de configuração',
             'controller' => 'Nome da classe de controlador',
@@ -38,6 +39,9 @@ return [
         'returnType'       => 'Tipo de retorno',
         'tableName'        => 'Nome da tabela',
         'usingCINamespace' => 'Atenção: Usar o namespace "CodeIgniter" irá gerar o arquivo no diretório system.',
+        'viewName'         => [
+            'cell' => 'Nome da view da célula',
+        ],
     ],
     'helpArguments'       => 'Argumentos:',
     'helpDescription'     => 'Descrição:',
