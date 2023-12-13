@@ -54,5 +54,5 @@ return [
     'version'   => 'Versija',
     'group'     => 'Grupė',
     'on'        => 'Kur migruota: ',
-    'batch'     => 'Batch tipas',
+    'batch'     => 'Etapo numeris',
 ];
