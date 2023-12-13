@@ -11,6 +11,6 @@
 
 // Log language settings
 return [
-    'invalidLogLevel'    => '{0} yra netinkamas žurnalo įrašo lygmuo.',
+    'invalidLogLevel'    => '„{0}“ yra netinkamas žurnalo įrašo lygmuo.',
     'invalidMessageType' => 'Nurodytas žurnalo įrašo tipas „{0}“ nepalaikomas.',
 ];

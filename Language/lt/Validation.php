@@ -28,7 +28,13 @@ return [
     'decimal'               => 'Lauke „{field}“ turi būti dešimtainis skaičius.',
     'differs'               => 'Laukas „{field}“ turi skirtis nuo „{param}“ lauko.',
     'equals'                => 'Laukas „{field}“ turi tiksliai atitikti: {param}.',
-    'exact_length'          => 'Laukas „{field}“ turi būti tiksliai {param} ženklų ilgio.',
+    'exact_length'          => '{param, plural,
+                                    =0 {Laukas „{field}“ turi būti tiksliai nulio ženklų ilgio.}
+                                    =1 {Laukas „{field}“ turi būti tiksliai vieno ženklo ilgio.}
+                                    one {Laukas „{field}“ turi būti tiksliai # ženklo ilgio.}
+                                    few {Laukas „{field}“ turi būti tiksliai # ženklų ilgio.}
+                                    other {Laukas „{field}“ turi būti tiksliai # ženklų ilgio.}
+                                }',
     'greater_than'          => 'Lauke „{field}“ turi būti skaičius, didesnis nei {param}.',
     'greater_than_equal_to' => 'Lauke „{field}“ turi būti skaičius, didesnis ar lygus {param}.',
     'hex'                   => 'Lauke „{field}“ turi būti šešioliktainiai simboliai.',
@@ -40,16 +46,28 @@ return [
     'is_unique'             => 'Lauke „{field}“ turi būti unikali reikšmė.',
     'less_than'             => 'Lauke „{field}“ turi būti skaičius, mažesnis už {param}.',
     'less_than_equal_to'    => 'Lauke „{field}“ turi būti skaičius, mažesnis ar lygus {param}.',
-    'matches'               => 'Laukas „{field}“ neatitinka „{param}“ lauko.',
-    'max_length'            => 'Laukas „{field}“ negali būti ilgesnis, nei {param} ženklai/-ų.',
-    'min_length'            => 'Lauke „{field}“ negali būti mažiau nei {param} ženklų.',
-    'not_equals'            => 'Lauko „{field}“ reikšmė negali būti „{param}“.',
-    'not_in_list'           => 'Lauko „{field}“ reikšmės neturi būti: „{param}“.',
+    'matches'               => 'Lauko „{field}“ turinys neatitinka „{param}“ lauko turinio.',
+    'max_length'            => '{param, plural,
+                                    =0 {Lauke „{field}“ negali būti daugiau nei nulis ženklų}
+                                    =1 {Lauke „{field}“ negali būti daugiau nei vienas ženklas}
+                                    one {Lauke „{field}“ negali būti daugiau nei # ženklas}
+                                    few {Lauke „{field}“ negali būti daugiau nei # ženklai}
+                                    other {Lauke „{field}“ negali būti daugiau nei # ženklų}
+                                }',
+    'min_length'            => '{param, plural,
+                                    =0 {Lauke „{field}“ negali būti mažiau nei nulis ženklų}
+                                    =1 {Lauke „{field}“ negali būti mažiau nei vienas ženklas}
+                                    one {Lauke „{field}“ negali būti mažiau nei # ženklas}
+                                    few {Lauke „{field}“ negali būti mažiau nei # ženklai}
+                                    other {Lauke „{field}“ negali būti mažiau nei # ženklų}
+                                }',
+    'not_equals'            => 'Lauko „{field}“ reikšmė negali būti lygi „{param}“.',
+    'not_in_list'           => 'Lauko „{field}“ reikšmės negali atitikti vienos iš šio sąrašo: „{param}“.',
     'numeric'               => 'Lauke „{field}“ gali būti tik skaičiai.',
     'regex_match'           => 'Lauke „{field}“ įrašyti neteisingo formato duomenys.',
     'required'              => 'Laukas „{field}“ yra privalomas.',
-    'required_with'         => 'Laukas „{field}“ yra privalomas kai yra nustatytas {param}.',
-    'required_without'      => 'Laukas „{field}“ yra privalomas kai nėra nustatytas {param}.',
+    'required_with'         => 'Laukas „{field}“ yra privalomas kai yra nustatytas „{param}“.',
+    'required_without'      => 'Laukas „{field}“ yra privalomas kai nėra nustatytas „{param}“.',
     'string'                => 'Laukas „{field}“ turi būti eilutės (string) tipo.',
     'timezone'              => 'Laukas „{field}“ turi atitikti egzistuojančią laiko zoną.',
     'valid_base64'          => 'Lauke „{field}“ turi būti validi base64 eilutė.',
