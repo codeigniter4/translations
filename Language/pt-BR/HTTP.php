@@ -54,7 +54,6 @@ return [
     'methodNotFound'     => 'Método do Controller não foi encontrado: {0}',
     'localeNotSupported' => 'Idioma não suportado: {0}',
 
-
     // CSRF
     'disallowedAction' => 'A ação que você solicitou não é permitida.',
 
@@ -62,7 +61,6 @@ return [
     'alreadyMoved' => 'O arquivo enviado já foi movido.',
     'invalidFile'  => 'O arquivo original não é um arquivo válido.',
     'moveFailed'   => 'Não foi possível mover o arquivo {0} para {1} ({2})',
-
     'uploadErrOk'        => 'O upload do arquivo foi realizado com sucesso.',
     'uploadErrIniSize'   => 'O arquivo "%s" excede a diretiva ini upload_max_filesize.',
     'uploadErrFormSize'  => 'O arquivo "%s" excede o limite de upload definido em seu formulário.',
