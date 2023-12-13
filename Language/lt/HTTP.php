@@ -19,6 +19,8 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '„{0}“ nėra taisyklingas derybų tipas. Turi būti vienas iš: media, charset, encoding, language.',
+    'invalidJSON'            => 'Nepavyko JSON eilutės nuskaitymas. Klaida: {0}',
+    'unsupportedJSONFormat'  => 'Pateiktas JSON formatas nėra palaikomas.',
 
     // Message
     'invalidHTTPProtocol' => 'Neteisinga HTTP protokolo versija: {0}',
