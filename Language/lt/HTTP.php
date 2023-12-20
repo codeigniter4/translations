@@ -13,25 +13,27 @@
 return [
     // CurlRequest
     'missingCurl'     => 'Norint naudoti CURLRequest klasę CURL turi būti įgalintas.',
-    'invalidSSLKey'   => 'Nepavyksta nustatyti SSL rakto. {0} nėra taisyklingas failas.',
-    'sslCertNotFound' => 'SSL sertifikatas narastas adresu: {0}',
+    'invalidSSLKey'   => 'Nepavyksta nustatyti SSL rakto. „{0}“ nėra taisyklingas failas.',
+    'sslCertNotFound' => 'SSL sertifikatas narastas adresu: „{0}“',
     'curlError'       => '{0} : {1}',
 
     // IncomingRequest
-    'invalidNegotiationType' => '{0} nėra taisyklingas derybų tipas. Turi būti vienas iš: media, simbolių rinkinys, koduotė, kalba.',
+    'invalidNegotiationType' => '„{0}“ nėra taisyklingas derybų tipas. Turi būti vienas iš: media, charset, encoding, language.',
+    'invalidJSON'            => 'Nepavyko JSON eilutės nuskaitymas. Klaida: {0}',
+    'unsupportedJSONFormat'  => 'Pateiktas JSON formatas nėra palaikomas.',
 
     // Message
-    'invalidHTTPProtocol' => 'Neteisinga HTTP protokolo versija. Turi būti viena iš: {0}',
+    'invalidHTTPProtocol' => 'Neteisinga HTTP protokolo versija: {0}',
 
     // Negotiate
     'emptySupportedNegotiations' => 'Visoms deryboms turite pateikti palaikomas reikšmes.',
 
     // RedirectResponse
-    'invalidRoute' => '{0} maršrutas negali būti nustatytas antvirkštinio maršrutizavimo metu.',
+    'invalidRoute' => 'Nepavyksta rasti „{0}“ atitinkančio maršruto.',
 
     // DownloadResponse
     'cannotSetBinary'        => 'Nustatant failo kelią negali būti naudojama dvejetainė reikšmė.',
-    'cannotSetFilepath'      => 'Nustatant dvejetainę reikšmę negalima nustatyti failo kelio: {0}',
+    'cannotSetFilepath'      => 'Nustatant dvejetainę reikšmę negalima nustatyti failo kelio: „{0}“',
     'notFoundDownloadSource' => 'Nerastas atsiuntimo turinio šaltinis.',
     'cannotSetCache'         => 'Nepalaiko padėjimo (caching) atsiuntimui.',
     'cannotSetStatusCode'    => 'Nepalaiko pakeisto statuso kodo atsiuntimo tvarkymui. Kodas: {0}, priežastis: {1}',
