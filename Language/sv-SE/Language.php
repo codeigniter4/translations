@@ -9,8 +9,6 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
 return [
-    'invalidLogLevel'    => '„{0}“ yra netinkamas žurnalo įrašo lygmuo.',
-    'invalidMessageType' => 'Nurodytas žurnalo įrašo tipas „{0}“ nepalaikomas.',
+    'invalidMessageFormat' => 'Ogiltigt meddelandeformat: "{0}", argument: "{1}"',
 ];

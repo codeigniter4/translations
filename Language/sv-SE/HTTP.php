@@ -18,6 +18,8 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '"{0}" är inte en giltig negotiation typ. Den måste vara en av: media, charset, encoding, language.',
+    'invalidJSON'            => 'Kunde inte tolka JSON strängen. Fel: {0}',
+    'unsupportedJSONFormat'  => 'Det givna JSON formatet stödjs inte.',
 
     // Message
     'invalidHTTPProtocol' => 'Felaktigt HTTP Protocol Version. Måste bli en av: {0}',

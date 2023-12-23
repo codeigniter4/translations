@@ -11,7 +11,7 @@
 
 // Fabricator language settings
 return [
-    'invalidModel'      => 'Gamybai pateiktas netinkamas modelis.',
-    'missingFormatters' => 'Nėra nuistatyta galiojančių formatų.',
-    'createFailed'      => '„Fabricator“ nepavyko įterpti į lentelę {0}: {1}',
+    'invalidModel'      => '„Fabrikavimui“ pateiktas netinkamas modelis.',
+    'missingFormatters' => 'Nėra nustatyta galiojančių formatavimo priemonių.',
+    'createFailed'      => '„Fabricator“ nepavyko įterpti į lentelę „{0}“: {1}',
 ];

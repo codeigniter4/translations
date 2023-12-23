@@ -14,5 +14,5 @@ return [
     'disallowedAction' => 'Jūsų prašomas veiksmas neleidžiamas.',
 
     // @deprecated
-    'invalidSameSite' => 'Reikšmė SameSite turi būti None, Lax, Strict arba tuščia eilutė. Pateikta: {0}',
+    'invalidSameSite' => 'Reikšmė SameSite turi būti None, Lax, Strict arba tuščia eilutė. Pateikta: „{0}“',
 ];

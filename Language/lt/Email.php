@@ -12,9 +12,9 @@
 // Email language settings
 return [
     'mustBeArray'          => 'El. adreso patikrinimo metodui turi būti perduotas masyvas.',
-    'invalidAddress'       => 'Nevalidus el. pašto adresas: {0}',
-    'attachmentMissing'    => 'Nepavyksta rasti šio el. laiško priedo: {0}',
-    'attachmentUnreadable' => 'Nepavyksta atverti šio priedo: {0}',
+    'invalidAddress'       => 'Nevalidus el. pašto adresas: „{0}“',
+    'attachmentMissing'    => 'Nepavyksta rasti šio el. laiško priedo: „{0}“',
+    'attachmentUnreadable' => 'Nepavyksta atverti šio priedo: „{0}“',
     'noFrom'               => 'Negalima siųsti el. laiško be „From“ antraštės.',
     'noRecipients'         => 'Turite įtraukti gavėjus: To, Cc, arba Bcc',
     'sendFailurePHPMail'   => 'Nepavyksta siųsti laiško naudojant PHP mail() funkciją. Jūsų serveris greičiausiai nesukonfigūruotas siųsti laiškus šiuo metodu.',

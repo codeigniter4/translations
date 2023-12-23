@@ -11,12 +11,18 @@
 
 // Publisher language settings
 return [
-    'collision'             => 'Leidėjas susidūrė su netikėtu {0} kopijuojant {1} į {2}.',
-    'destinationNotAllowed' => 'Paskirties vietos nėra leidžiamų "Publisher" katalogų sąraše: {0}',
-    'fileNotAllowed'        => '{0} neatitinka šio apribojimo {1}: {2}',
+    'collision'             => 'Kopijuoklis susidūrė su netikėta „{0}“ kopijuojant „{1}“ į „{2}“.',
+    'destinationNotAllowed' => 'Paskirties vietos nėra leidžiamų Kopijuoklio direktorijų sąraše: {0}',
+    'fileNotAllowed'        => '„{0}“ neatitinka šio „{1}“ apribojimo: {2}',
 
     // Publish Command
-    'publishMissing' => 'Leidėjų klasių neaptikta {0} visose vardų erdvėse(namespaces).',
-    'publishSuccess' => '{0} publpaskelbta {1} file(s) to {2}.',
-    'publishFailure' => '{0} nepavyko paskelbti {1}!',
+    'publishMissing' => 'Kopijuoklio („Publisher“) klasių neaptikta {0} visose vardų erdvėse (namespaces).',
+    'publishSuccess' => '{1, plural,
+                            =0 {„{0}“ nukopijavo nulį failų į „{2}“.}
+                            =1 {„{0}“ nukopijavo vieną failą į „{2}“.}
+                            one {„{0}“ nukopijavo # failą į „{2}“.}
+                            few {„{0}“ nukopijavo # failus į „{2}“.}
+                            other {„{0}“ nukopijavo # failų į „{2}“.}
+                        }',
+    'publishFailure' => '„{0}“ nepavyko paskelbti {1}!',
 ];

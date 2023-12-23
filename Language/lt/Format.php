@@ -11,8 +11,8 @@
 
 // Format language settings
 return [
-    'invalidFormatter' => '„{0}“ nėra galiojanti formato klasė.',
+    'invalidFormatter' => '„{0}“ nėra galiojanti formatatoriaus klasė.',
     'invalidJSON'      => 'Nepavyko nuskaityti json eilutės, klaida: „{0}“.',
-    'invalidMime'      => 'Mime tipui nėra apibrėžto formato: „{0}“.',
-    'missingExtension' => 'XML formatavimui reikalingas SimpleXML praplėtimas.',
+    'invalidMime'      => 'Mime tipui nėra apibrėžto formatatoriaus: „{0}“.',
+    'missingExtension' => 'XML formatavimui reikalingas PHP SimpleXML praplėtimas.',
 ];
