@@ -11,6 +11,6 @@
 
 // Filters language settings
 return [
-    'noFilter'           => '\'{0}\' filtresiyle eşleşen bir takma ad bulunamadı.',
-    'incorrectInterface' => '{0} CodeIgniter\Filters\FilterInterface arayüzünü uygulamalı.',
+    'noFilter'           => '"{0}" filtresi, tanımlanmış eşleşen bir takma ad (alias) içermelidir.',
+    'incorrectInterface' => '"{0}", CodeIgniter\Filters\FilterInterface arayüzünü uygulamalıdır.',
 ];
