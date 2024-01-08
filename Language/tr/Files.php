@@ -11,6 +11,8 @@
 
 // Files language settings
 return [
-    'fileNotFound' => 'Dosya bulunamadı: {0}',
-    'cannotMove'   => '{0} dosyası {1} ({2}) \'ye taşınamadı.',
+    'fileNotFound'      => 'Dosya bulunamadı: "{0}"',
+    'cannotMove'        => '"{0}" dosyası "{1}" konumuna taşınamadı. Sebep: {2}',
+    'expectedDirectory' => '{0}, geçerli bir dizin bekliyor.',
+    'expectedFile'      => '{0}, geçerli bir dosya bekliyor.',
 ];
