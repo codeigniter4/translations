@@ -11,8 +11,11 @@
 
 // Core language settings
 return [
-    'copyError'        => 'Dosyayı değiştirmeye çalışırken bir hata oluştu. Lütfen klasörün yazılabilir olduğundan emin olunuz',
-    'invalidFile'      => 'Geçersiz dosya: {0}',
-    'missingExtension' => '{0} uzantısı yüklenemedi.',
-    'noHandlers'       => '{0} en azından bir işleyici belirtilmeli.',
+    'copyError'                    => 'Dosya "{0}" yerine kopyalanırken bir hata oluştu. Lütfen dosya dizininizin yazılabilir olduğundan emin olun.',
+    'enabledZlibOutputCompression' => 'zlib.output_compression ini yönergeniz açık. Bu, çıktı tamponları ile iyi çalışmayabilir.',
+    'invalidFile'                  => 'Geçersiz dosya: "{0}"',
+    'invalidDirectory'             => 'Dizin mevcut değil: "{0}"',
+    'invalidPhpVersion'            => 'CodeIgniter\'ı çalıştırmak için PHP sürümünüz {0} veya daha yüksek olmalıdır. Mevcut sürüm: {1}',
+    'missingExtension'             => 'Çatı (framework), aşağıdaki eklenti(ler)i yüklü ve etkinleştirilmiş olarak gerektirir: "{0}".',
+    'noHandlers'                   => '"{0}", en az bir Handler sağlamalıdır.',
 ];
