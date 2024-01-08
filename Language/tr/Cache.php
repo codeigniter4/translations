@@ -11,7 +11,8 @@
 
 // Cache language settings
 return [
-    'invalidHandlers' => 'Önbellek ayarlarının bir $validHandlers dizisi içermesi gerekir.',
-    'noBackup'        => 'Önbellek ayarlarının bir işleyicisinin olması ve backupHandler\'inin belirlenmesi gerekir.',
-    'handlerNotFound' => 'Önbellek ayarlarının işleyicisi veya yedek işleyicisi geçersiz.',
+    'unableToWrite'   => 'Önbellek, "{0}" konumuna yazamıyor.',
+    'invalidHandlers' => 'Önbellek yapılandırması, geçerli $validHandlers dizisi içermelidir.',
+    'noBackup'        => 'Önbellek yapılandırması, bir handler ve yedek handler (backupHandler) belirlemelidir.',
+    'handlerNotFound' => 'Önbellek yapılandırmasında geçersiz bir handler veya yedek handler belirtilmiş.',
 ];
