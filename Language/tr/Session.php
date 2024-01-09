@@ -11,9 +11,12 @@
 
 // Session language settings
 return [
-    'missingDatabaseTable'   => 'Veritabanı Oturum Yöneticisinin çalışması için `sessionSavePath` de bir tablo adı belirtilmeli.',
-    'invalidSavePath'        => 'Oturum: Ayarlarda belirtilen kayıt yolu "{0}" bir klasör değil, mevcut değil veya oluşturulamıyor.',
-    'writeProtectedSavePath' => 'Oturum: Ayarlarda belirtilen kayıt yolu "{0}" PHP işlemi tarafından yazılabilir değil.',
-    'emptySavePath'          => 'Oturum: Kayıt yolu belirtilmemiş.',
-    'invalidSavePathFormat'  => 'Oturum: Geçersiz Redis kayıt yolu biçimi: {0}',
+    'missingDatabaseTable'   => '"sessionSavePath" için veritabanı Oturum İşleyicisinin çalışması adına tablo adı olmalıdır.',
+    'invalidSavePath'        => 'Oturum: Yapılandırılan kayıt yolu "{0}" bir dizin değil, mevcut değil veya oluşturulamıyor.',
+    'writeProtectedSavePath' => 'Oturum: Yapılandırılan kayıt yolu "{0}" PHP işlemi tarafından yazılabilir değil.',
+    'emptySavePath'          => 'Oturum: Kayıt yolu yapılandırılmamış.',
+    'invalidSavePathFormat'  => 'Oturum: Geçersiz Redis kayıt yolu formatı: "{0}"',
+
+    // @deprecated
+    'invalidSameSiteSetting' => 'Oturum: SameSite ayarı None, Lax, Strict veya boş bir dizge olmalıdır. Verilen: "{0}"',
 ];
