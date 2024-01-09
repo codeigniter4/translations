@@ -11,5 +11,6 @@
 
 // Log language settings
 return [
-    'invalidLogLevel' => '{0} geçersiz günlük seviyesi.',
+    'invalidLogLevel'    => '"{0}" geçersiz bir günlük seviyesi.',
+    'invalidMessageType' => 'Verilen mesaj türü "{0}" desteklenmiyor.',
 ];
