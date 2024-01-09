@@ -17,4 +17,5 @@ return [
     'noCellClass'           => 'No se ha establecido una clase de vista de celda.',
     'invalidCellClass'      => 'No se ha podido localizar la clase de vista de celda: {0}.',
     'tagSyntaxError'        => 'Tiene un error de sintaxis en su analizador de etiquetas: {0}',
+    'invalidDecoratorClass' => '"{0}" no es un decorador de vistas válido.', // '"{0}" is not a valid View Decorator.',
 ];
