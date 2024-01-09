@@ -48,7 +48,7 @@ return [
     'removed'           => 'Geri alınıyor: ',
     'added'             => 'Çalıştırılıyor: ',
 
-    // Göç Durumu
+    // Migrate Status
     'namespace' => 'Ad Alanı',
     'filename'  => 'Dosya Adı',
     'version'   => 'Sürüm',
