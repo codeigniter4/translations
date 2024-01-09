@@ -11,6 +11,8 @@
 
 // Router language settings
 return [
-    'invalidParameter'    => 'Parametre istenen türle uyumlu değil.',
-    'missingDefaultRoute' => 'Ne görüntüleneceği belirlenemiyor. Rota dosyasında varsayılan rota belirtilmemiş.',
+    'invalidParameter'         => 'Parametre beklenen türle eşleşmiyor.',
+    'missingDefaultRoute'      => 'Görüntülenecek şeyin ne olması gerektiği belirlenemiyor. Yönlendirme dosyasında varsayılan bir rota belirtilmemiş.',
+    'invalidDynamicController' => 'Güvenlik nedenleriyle dinamik bir kontrolcüye izin verilmiyor. Rota işleyici: "{0}"',
+    'invalidControllerName'    => 'Ad alanı ayırıcısı ters eğik çizgi (\), düz eğik çizgi (/) değildir. Rota işleyici: "{0}"',
 ];
