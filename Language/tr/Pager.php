@@ -11,13 +11,13 @@
 
 // Pager language settings
 return [
-    'pageNavigation'         => 'Sayfalama',
+    'pageNavigation'         => 'Sayfa navigasyonu',
     'first'                  => 'İlk',
     'previous'               => 'Önceki',
     'next'                   => 'Sonraki',
     'last'                   => 'Son',
     'older'                  => 'Eski',
     'newer'                  => 'Yeni',
-    'invalidTemplate'        => '{0} geçersiz Sayfalama şablonu.',
-    'invalidPaginationGroup' => '{0} geçersiz Sayfalama grubu.',
+    'invalidTemplate'        => '"{0}" geçerli bir Pager şablonu değil.',
+    'invalidPaginationGroup' => '"{0}" geçerli bir Sayfalama grubu değil.',
 ];
