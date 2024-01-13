@@ -15,7 +15,7 @@ return [
     'missingTable'  => 'Göç tablosu ayarlanmalıdır.',
     'disabled'      => 'Göçler yüklendi ancak devre dışı bırakıldı veya yanlış şekilde kuruldu.',
     'notFound'      => 'Göç dosyası bulunamadı: ',
-    'batchNotFound' => 'Hedef batch bulunamadı: ',
+    'batchNotFound' => 'Hedef göç grubu bulunamadı: ',
     'empty'         => 'Göç dosyası bulunamadı',
     'gap'           => 'Göç sırasında sürüm numarası yakınında bir boşluk var: ',
     'classNotFound' => '"%s" göç sınıfı bulunamadı.',
@@ -54,5 +54,5 @@ return [
     'version'   => 'Sürüm',
     'group'     => 'Grup',
     'on'        => 'Taşındı: ',
-    'batch'     => 'Batch',
+    'batch'     => 'Göç Grubu',
 ];
