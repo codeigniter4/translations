@@ -30,7 +30,7 @@ return [
             'validation' => 'Doğrulama sınıfı adı',
         ],
         'commandType'      => 'Komut tipi',
-        'databaseGroup'    => 'Veritabanı grubu',
+        'databaseGroup'    => 'Veri tabanı grubu',
         'fileCreate'       => 'Oluşturulan dosya: {0}',
         'fileError'        => 'Dosya oluştururken hata: "{0}"',
         'fileExist'        => 'Mevcut dosya: "{0}"',

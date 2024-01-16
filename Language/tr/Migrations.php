@@ -26,7 +26,7 @@ return [
     'migHelpCurrent'  => "\t\tVeri tabanını, yapılandırmada 'güncel' olarak ayarlanan sürüme taşır.",
     'migHelpVersion'  => "\tVeri tabanını {v} sürümüne taşır.",
     'migHelpRollback' => "\tTüm göçleri 'aşağı', sürüm 0'a taşır..",
-    'migHelpRefresh'  => "\t\tTüm göçleri kaldırır ve veritabanını yenilemek için yeniden çalıştırır.",
+    'migHelpRefresh'  => "\t\tTüm göçleri kaldırır ve veri tabanını yenilemek için yeniden çalıştırır.",
     'migHelpSeed'     => "\t[name] adlı tohumlayıcıyı çalıştırır.",
     'migCreate'       => "\t[name] adlı yeni bir göç oluşturur.",
     'nameMigration'   => 'Göç dosyasını adlandırın',

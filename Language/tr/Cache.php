@@ -12,7 +12,7 @@
 // Cache language settings
 return [
     'unableToWrite'   => 'Önbellek, "{0}" konumuna yazamıyor.',
-    'invalidHandlers' => 'Önbellek yapılandırması, geçerli $validHandlers dizgisi içermelidir.',
+    'invalidHandlers' => 'Önbellek yapılandırması, geçerli $validHandlers dizisi içermelidir.',
     'noBackup'        => 'Önbellek yapılandırması, bir işleyici ve yedek işleyici (backupHandler) belirlemelidir.',
     'handlerNotFound' => 'Önbellek yapılandırmasında geçersiz bir işleyici veya yedek işleyici belirtilmiş.',
 ];

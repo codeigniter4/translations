@@ -11,7 +11,7 @@
 
 // Session language settings
 return [
-    'missingDatabaseTable'   => 'Veritabanı Oturum İşleyicisinin (Database Session Handler) çalışması için "sessionSavePath" bir tablo adı içermelidir.',
+    'missingDatabaseTable'   => 'Veri tabanı Oturum İşleyicisinin (Database Session Handler) çalışması için "sessionSavePath" bir tablo adı içermelidir.',
     'invalidSavePath'        => 'Oturum: Yapılandırılan kayıt yolu "{0}" bir dizin değil, mevcut değil veya oluşturulamıyor.',
     'writeProtectedSavePath' => 'Oturum: Yapılandırılan kayıt yolu "{0}" PHP işlemi tarafından yazılabilir değil.',
     'emptySavePath'          => 'Oturum: Kayıt yolu yapılandırılmamış.',
