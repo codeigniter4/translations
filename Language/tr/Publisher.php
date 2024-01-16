@@ -13,10 +13,10 @@
 return [
     'collision'             => 'Yayıncı, "{1}" dosyasını "{2}" konumuna kopyalarken beklenmedik bir "{0}" ile karşılaştı.',
     'destinationNotAllowed' => 'Hedef, Yayıncının izin verilen dizinler listesinde değil: "{0}"',
-    'fileNotAllowed'        => '"{0}", "{1}" için aşağıdaki kısıtlamayı ihlal ediyor: {2}',
+    'fileNotAllowed'        => '"{0}", "{1}" için şu kısıtlamayı ihlal ediyor: {2}',
 
     // Publish Command
-    'publishMissing' => '{0} adresindeki tüm ad alanlarına yayınlanacak Yayıncı sınıfları tespit edilemedi.',
-    'publishSuccess' => '"{0}" {1} dosya(lar)ı "{2}" adresine yayınladı.',
+    'publishMissing' => '{0} adresinde, hiçbir Yayıncı sınıfı tespit edilemedi.',
+    'publishSuccess' => '"{0}" {1} dosyayı "{2}" adresine yayınladı.',
     'publishFailure' => '"{0}" "{1}" adresine yayınlama başarısız oldu.',
 ];

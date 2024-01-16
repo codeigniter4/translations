@@ -19,7 +19,7 @@ return [
     'failGetFieldData'                 => 'Veritabanından alan verileri alınamadı.',
     'failGetIndexData'                 => 'Veritabanından indeks verileri alınamadı.',
     'failGetForeignKeyData'            => 'Veritabanından yabancı anahtar verileri alınamadı.',
-    'parseStringFail'                  => 'Anahtar dizesi ayrıştırması başarısız oldu.',
+    'parseStringFail'                  => 'Anahtar dizgisi ayrıştırması başarısız oldu.',
     'featureUnavailable'               => 'Bu özellik, kullandığınız veritabanı için mevcut değil.',
     'tableNotFound'                    => 'Güncel veritabanında "{0}" tablosu bulunamadı.',
     'noPrimaryKey'                     => '"{0}" model sınıfı bir Birincil Anahtar belirtmiyor.',

@@ -50,7 +50,7 @@ return [
     'required'              => '{field} alanı gerekli.',
     'required_with'         => '{param} olduğunda {field} alanı da olmalı.',
     'required_without'      => '{param} olmadığında {field} alanı gerekli.',
-    'string'                => '{field} alanı geçerli bir dize olmalıdır.',
+    'string'                => '{field} alanı geçerli bir dizgi olmalıdır.',
     'timezone'              => '{field} alanı geçerli bir saat dilimi olmalı.',
     'valid_base64'          => '{field} alanı geçerli bir base64 dizisi olmalı.',
     'valid_email'           => '{field} alanı geçerli bir email adresi içermeli.',

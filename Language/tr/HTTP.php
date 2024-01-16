@@ -13,12 +13,12 @@
 return [
     // CurlRequest
     'missingCurl'     => 'CURLRequest sınıfını kullanmak için CURL etkinleştirilmelidir.',
-    'invalidSSLKey'   => 'SSL Anahtarı ayarlanamıyor. "{0}" geçerli bir dosya değil.',
+    'invalidSSLKey'   => 'SSL Anahtarı kurulamıyor. "{0}" geçerli bir dosya değil.',
     'sslCertNotFound' => 'SSL sertifikası burada bulunamadı: "{0}"',
     'curlError'       => '{0} : {1}',
 
     // IncomingRequest
-    'invalidNegotiationType' => '"{0}" geçerli bir müzakere türü değil. Olması gerekenler: media, charset, encoding, language.',
+    'invalidNegotiationType' => '"{0}" geçerli bir müzakere türü değil. Şunlardan biri olmalı: media, charset, encoding, language.',
     'invalidJSON'            => 'JSON dizgisi ayrıştırılamadı. Hata: {0}',
     'unsupportedJSONFormat'  => 'Sağlanan JSON formatı desteklenmiyor.',
 
@@ -41,11 +41,11 @@ return [
     // Response
     'missingResponseStatus' => 'HTTP Yanıtında bir durum kodu eksik',
     'invalidStatusCode'     => '{0} geçerli bir HTTP dönüş durum kodu değil',
-    'unknownStatusCode'     => 'Mesajı olmayan bilinmeyen bir HTTP durum kodu sağlandı: {0}',
+    'unknownStatusCode'     => 'Mesajı olmayan, bilinmeyen bir HTTP durum kodu sağlandı: {0}',
 
     // URI
     'cannotParseURI'       => 'URI ayrıştırılamıyor: "{0}"',
-    'segmentOutOfRange'    => 'İstek URI segmenti aralık dışında: "{0}"',
+    'segmentOutOfRange'    => 'İstek URI bölümü aralık dışında: "{0}"',
     'invalidPort'          => 'Portlar 0 ile 65535 arasında olmalıdır. Verilen: {0}',
     'malformedQueryString' => 'Sorgu dizgileri URI parçalarını içermemelidir.',
 
@@ -54,11 +54,11 @@ return [
     'emptyController'    => 'Bir Kontrolör belirtilmedi.',
     'controllerNotFound' => 'Kontrolör veya yöntemi bulunamadı: {0}::{1}',
     'methodNotFound'     => 'Kontrolör yöntemi bulunamadı: "{0}"',
-    'localeNotSupported' => 'Dil desteği bulunamadı: {0}',
+    'localeNotSupported' => 'Bu yerel (locale) desteklenmiyor: {0}',
 
     // CSRF
     // @deprecated use 'Security.disallowedAction'
-    'disallowedAction' => 'İstediğiniz işlem izin verilmiyor.',
+    'disallowedAction' => 'İstediğiniz işleme izin verilmiyor.',
 
     // Uploaded file moving
     'alreadyMoved' => 'Yüklenen dosya zaten taşındı.',
@@ -67,16 +67,16 @@ return [
 
     // File upload errors
     'uploadErrOk'        => 'Dosya başarıyla yüklendi.',
-    'uploadErrIniSize'   => 'Dosya "%s" upload_max_filesize ini yönergenizi aşıyor.',
-    'uploadErrFormSize'  => 'Dosya "%s" formunuzda tanımlanan yükleme limitini aşıyor.',
-    'uploadErrPartial'   => 'Dosya "%s" sadece kısmen yüklendi.',
+    'uploadErrIniSize'   => '"%s" dosyası, upload_max_filesize ini yönergenizi aşıyor.',
+    'uploadErrFormSize'  => '"%s" dosyası, formunuzda tanımlanan yükleme limitini aşıyor.',
+    'uploadErrPartial'   => '"%s" dosyası sadece kısmen yüklendi.',
     'uploadErrNoFile'    => 'Dosya yüklenmedi.',
-    'uploadErrCantWrite' => 'Dosya "%s" diske yazılamadı.',
+    'uploadErrCantWrite' => '"%s" dosyası diske yazılamadı.',
     'uploadErrNoTmpDir'  => 'Dosya yüklenemedi: geçici dizin eksik.',
     'uploadErrExtension' => 'Dosya yükleme bir PHP eklentisi tarafından durduruldu.',
-    'uploadErrUnknown'   => 'Dosya "%s" bilinmeyen bir hata nedeniyle yüklenemedi.',
+    'uploadErrUnknown'   => '"%s" dosyası bilinmeyen bir hata nedeniyle yüklenemedi.',
 
     // SameSite setting
     // @deprecated
-    'invalidSameSiteSetting' => 'SameSite ayarı None, Lax, Strict veya boş bir dizge olmalıdır. Verilen: {0}',
+    'invalidSameSiteSetting' => 'SameSite ayarı None, Lax, Strict veya boş bir dizgi olmalıdır. Verilen: {0}',
 ];

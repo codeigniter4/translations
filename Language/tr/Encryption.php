@@ -12,7 +12,7 @@
 // Encryption language settings
 return [
     'noDriverRequested'    => 'Hiçbir sürücü talep edilmedi; Miss Daisy çok üzülecek!',
-    'noHandlerAvailable'   => 'Mevcut "{0}" şifreleme işleyicisi bulunamadı.',
+    'noHandlerAvailable'   => 'Kullanılabilir "{0}" şifreleme işleyicisi bulunamadı.',
     'unKnownHandler'       => '"{0}" yapılandırılamıyor.',
     'starterKeyNeeded'     => 'Şifreleyici başlangıç anahtarı gerektirir.',
     'authenticationFailed' => 'Şifre çözme: kimlik doğrulama başarısız oldu.',

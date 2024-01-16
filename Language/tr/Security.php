@@ -14,5 +14,5 @@ return [
     'disallowedAction' => 'İstediğiniz eyleme izin verilmiyor.',
 
     // @deprecated
-    'invalidSameSite' => 'SameSite değeri None, Lax, Strict veya boş bir dize olmalıdır. Verilen: "{0}"',
+    'invalidSameSite' => 'SameSite değeri None, Lax, Strict veya boş bir dizgi olmalıdır. Verilen: "{0}"',
 ];

@@ -18,6 +18,6 @@ return [
     'last'                   => 'Son',
     'older'                  => 'Eski',
     'newer'                  => 'Yeni',
-    'invalidTemplate'        => '"{0}" geçerli bir Pager şablonu değil.',
+    'invalidTemplate'        => '"{0}" geçerli bir sayfalayıcı (Pager) şablonu değil.',
     'invalidPaginationGroup' => '"{0}" geçerli bir Sayfalama grubu değil.',
 ];

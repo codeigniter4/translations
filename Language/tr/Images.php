@@ -28,7 +28,7 @@ return [
     'invalidPath'            => 'Görüntünün yolu doğru değil.',
     'copyFailed'             => 'Görüntü kopyalama işlemi başarısız oldu.',
     'missingFont'            => 'Kullanılacak bir yazı tipi bulunamadı.',
-    'saveFailed'             => 'Görüntü kaydedilemiyor. Lütfen görüntü ve dosya dizininin yazılabilir olduğundan emin olun.',
+    'saveFailed'             => 'Görüntü kaydedilemedi. Lütfen görüntü ve dosya dizininin yazılabilir olduğundan emin olun.',
     'invalidDirection'       => 'Çevirme yönü yalnızca "dikey" veya "yatay" olabilir. Verilen: "{0}"',
-    'exifNotSupported'       => 'Bu PHP yüklemesinde EXIF verilerini okuma desteklenmiyor.',
+    'exifNotSupported'       => 'Bu PHP kurulumunda EXIF verilerini okuma desteklenmiyor.',
 ];
