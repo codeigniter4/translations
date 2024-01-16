@@ -11,6 +11,8 @@
 
 // Format language settings
 return [
-    'invalidJSON'      => 'json dizisi çözümlenemedi. Hata: "{0}".',
-    'missingExtension' => 'XML oluşturmak için SimpleXML eklentisi gerekli.',
+    'invalidFormatter' => '"{0}" geçerli bir Biçimlendirici (Formatter) sınıfı değil.',
+    'invalidJSON'      => 'JSON dizgisi ayrıştırılamadı. Hata: {0}',
+    'invalidMime'      => '"{0}" MIME türü için tanımlanmış bir Biçimlendirici bulunmamaktadır.',
+    'missingExtension' => 'XML\'i biçimlendirmek için SimpleXML eklentisi gereklidir.',
 ];

@@ -17,4 +17,5 @@ return [
     'noCellClass'           => 'Görüntü hücre sınıfı belirtilmemiş.',
     'invalidCellClass'      => 'Görüntü hücre sınıfı bulunamıyor: {0}.',
     'tagSyntaxError'        => 'Çözümleyici etiketlerinde yazım hatası var: {0}',
+    'invalidDecoratorClass' => '"{0}" geçerli bir Görünüm Dekoratörü değil.',
 ];

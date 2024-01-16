@@ -12,45 +12,71 @@
 // HTTP language settings
 return [
     // CurlRequest
-    'missingCurl'     => 'CURLRequest sınıfını kullanabilmek için CURL etkinleştirilmeli.',
-    'invalidSSLKey'   => 'SSL anahtarı belirlenemiyor. {0} geçersiz bir dosya.',
-    'sslCertNotFound' => 'SSL sertifikası {0} \'da bulunamadı.',
+    'missingCurl'     => 'CURLRequest sınıfını kullanmak için CURL etkinleştirilmelidir.',
+    'invalidSSLKey'   => 'SSL Anahtarı kurulamıyor. "{0}" geçerli bir dosya değil.',
+    'sslCertNotFound' => 'SSL sertifikası burada bulunamadı: "{0}"',
     'curlError'       => '{0} : {1}',
 
     // IncomingRequest
-    'invalidNegotiationType' => '{0} geçersiz bir pazarlık türü. Şunlardan biri olmalı: media, charset, encoding, language.',
+    'invalidNegotiationType' => '"{0}" geçerli bir müzakere türü değil. Şunlardan biri olmalı: media, charset, encoding, language.',
+    'invalidJSON'            => 'JSON dizgisi ayrıştırılamadı. Hata: {0}',
+    'unsupportedJSONFormat'  => 'Sağlanan JSON formatı desteklenmiyor.',
 
     // Message
-    'invalidHTTPProtocol' => 'Geçersiz HTTP protokol sürümü. Şunlardan biri olmalı: {0}',
+    'invalidHTTPProtocol' => 'Geçersiz HTTP Protokol Sürümü: {0}',
 
     // Negotiate
-    'emptySupportedNegotiations' => 'Tüm pazarlıklara (Negotiations) bir desteklenen değerler dizisi belirtmelisiniz.',
+    'emptySupportedNegotiations' => 'Tüm Müzakereler için desteklenen değerlerin bir dizisi sağlanmalıdır.',
 
     // RedirectResponse
-    'invalidRoute' => '{0} geçersiz rota.',
+    'invalidRoute' => '"{0}" için rota bulunamadı.',
+
+    // DownloadResponse
+    'cannotSetBinary'        => 'Dosya yolu ayarlanırken ikili ayarlanamaz.',
+    'cannotSetFilepath'      => 'İkili ayarlanırken dosya yolu ayarlanamaz: "{0}"',
+    'notFoundDownloadSource' => 'İndirme kaynağı bulunamadı.',
+    'cannotSetCache'         => 'İndirme için önbellekleme desteklenmiyor.',
+    'cannotSetStatusCode'    => 'İndirme için durum kodu değiştirme desteklenmiyor. Kod: {0}, sebep: {1}',
 
     // Response
-    'missingResponseStatus' => 'HTTP Response durum kodu eksik.',
-    'invalidStatusCode'     => '{0} geçersiz HTTP cevap durum kodu',
-    'unknownStatusCode'     => 'Bilinmeyen HTTP durum kodu: {0}',
+    'missingResponseStatus' => 'HTTP Yanıtında bir durum kodu eksik',
+    'invalidStatusCode'     => '{0} geçerli bir HTTP dönüş durum kodu değil',
+    'unknownStatusCode'     => 'Mesajı olmayan, bilinmeyen bir HTTP durum kodu sağlandı: {0}',
 
     // URI
-    'cannotParseURI'       => 'URI çözümlenemedi: {0}',
-    'segmentOutOfRange'    => 'İstenen URI bölümü aralık dışında: {0}',
-    'invalidPort'          => 'Portlar 0 ve 65535 arasında olmalı. Verilen: {0}',
-    'malformedQueryString' => 'Sorgu karakter dizileri URI bölümleri içermemeli.',
+    'cannotParseURI'       => 'URI ayrıştırılamıyor: "{0}"',
+    'segmentOutOfRange'    => 'İstek URI bölümü aralık dışında: "{0}"',
+    'invalidPort'          => 'Portlar 0 ile 65535 arasında olmalıdır. Verilen: {0}',
+    'malformedQueryString' => 'Sorgu dizgileri URI parçalarını içermemelidir.',
 
     // Page Not Found
-    'pageNotFound'       => 'Sayfa bulunamadı.',
-    'emptyController'    => 'Controller belirtilmemiş.',
-    'controllerNotFound' => 'Controller veya metod bulunamadı: {0}::{1}',
-    'methodNotFound'     => 'Controller metodu bulunamadı: {0}',
+    'pageNotFound'       => 'Sayfa Bulunamadı',
+    'emptyController'    => 'Bir Kontrolör belirtilmedi.',
+    'controllerNotFound' => 'Kontrolör veya yöntemi bulunamadı: {0}::{1}',
+    'methodNotFound'     => 'Kontrolör yöntemi bulunamadı: "{0}"',
+    'localeNotSupported' => 'Bu yerel (locale) desteklenmiyor: {0}',
 
     // CSRF
-    'disallowedAction' => 'İstenen eyleme izin verilmiyor.',
+    // @deprecated use 'Security.disallowedAction'
+    'disallowedAction' => 'İstediğiniz işleme izin verilmiyor.',
 
     // Uploaded file moving
-    'alreadyMoved' => 'Yüklenen dosya zaten taşınmış.',
-    'invalidFile'  => 'Orijinal dosya geçersiz bir dosya.',
-    'moveFailed'   => '{0} dosyası {1} ({2}) ye taşınamıyor.',
+    'alreadyMoved' => 'Yüklenen dosya zaten taşındı.',
+    'invalidFile'  => 'Orijinal dosya geçerli bir dosya değil.',
+    'moveFailed'   => 'Dosya "{0}" dan "{1}" e taşınamadı. Sebep: {2}',
+
+    // File upload errors
+    'uploadErrOk'        => 'Dosya başarıyla yüklendi.',
+    'uploadErrIniSize'   => '"%s" dosyası, upload_max_filesize ini yönergenizi aşıyor.',
+    'uploadErrFormSize'  => '"%s" dosyası, formunuzda tanımlanan yükleme limitini aşıyor.',
+    'uploadErrPartial'   => '"%s" dosyası sadece kısmen yüklendi.',
+    'uploadErrNoFile'    => 'Dosya yüklenmedi.',
+    'uploadErrCantWrite' => '"%s" dosyası diske yazılamadı.',
+    'uploadErrNoTmpDir'  => 'Dosya yüklenemedi: geçici dizin eksik.',
+    'uploadErrExtension' => 'Dosya yükleme bir PHP eklentisi tarafından durduruldu.',
+    'uploadErrUnknown'   => '"%s" dosyası bilinmeyen bir hata nedeniyle yüklenemedi.',
+
+    // SameSite setting
+    // @deprecated
+    'invalidSameSiteSetting' => 'SameSite ayarı None, Lax, Strict veya boş bir dizgi olmalıdır. Verilen: {0}',
 ];
