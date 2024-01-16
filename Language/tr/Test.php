@@ -9,8 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Filters language settings
+// Testing language settings
 return [
-    'noFilter'           => '"{0}" filtresi, tanımlanmış eşleşen bir takma ad (alias) içermelidir.',
-    'incorrectInterface' => '"{0}", CodeIgniter\Filters\FilterInterface arayüzünü uygulamalıdır.',
+    'invalidMockClass' => '"{0}" geçerli bir Mock sınıfı değil',
 ];
