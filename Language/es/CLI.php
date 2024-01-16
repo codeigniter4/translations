@@ -17,6 +17,7 @@ return [
     'generator'          => [
         'cancelOperation' => 'La operación ha sido cancelada.', // 'Operation has been cancelled.',
         'className'       => [
+            'cell'       => 'Nombre de la clase Cell', // 'Cell class name',
             'command'    => 'Nombre de la clase Command', // 'Command class name',
             'config'     => 'Nombre de la clase Config', // 'Config class name',
             'controller' => 'Nombre de la clase Controller', // 'Controller class name',
@@ -38,6 +39,9 @@ return [
         'returnType'       => 'Tipo de retorno', // 'Return type',
         'tableName'        => 'Nombre de la tabla', // 'Table name',
         'usingCINamespace' => 'Advertencia: El uso del espacio de nombres "CodeIgniter" generará el archivo en el directorio del sistema.', // 'Warning: Using the "CodeIgniter" namespace will generate the file in the system directory.'
+        'viewName'         => [
+            'cell' => 'Nombre de la vista Cell', // 'Cell view name',
+        ],
     ],
     'helpArguments'       => 'Argumentos:', // 'Arguments:',
     'helpDescription'     => 'Descripción:', // 'Description:',
