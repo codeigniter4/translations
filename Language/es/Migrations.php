@@ -36,6 +36,7 @@ return [
 
     'latest'            => 'Migrando a la última versión...',
     'generalFault'      => '¡La migración falló!',
+    'migrated'          => 'Migraciones completadas.', // 'Migrations complete.',
     'migInvalidVersion' => 'Número de versión incorrecta.',
     'toVersionPH'       => 'Migrando a la versión %s...',
     'toVersion'         => 'Migrando a la versión actual...',

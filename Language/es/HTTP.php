@@ -19,6 +19,8 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '{0} no es un tipo de negociación válido. Debe ser uno de: media, charset, encoding, language.', // '{0} is not a valid negotiation type. Must be one of: media, charset, encoding, language.',
+    'invalidJSON'            => 'No se pudo analizar la cadena JSON. Error: {0}', // 'Failed to parse JSON string. Error: {0}',
+    'unsupportedJSONFormat'  => 'El formato JSON proporcionado no es compatible', // 'The provided JSON format is not supported.',,
 
     // Message
     'invalidHTTPProtocol' => 'Versión de protocolo HTTP no válida. Debe ser una de: {0}', // 'Invalid HTTP Protocol Version. Must be one of: {0}',
@@ -52,8 +54,10 @@ return [
     'emptyController'    => 'Ningún controlador especificado.', // 'No Controller specified.',
     'controllerNotFound' => 'Controlador o su método no encontrado: {0}::{1}', // 'Controller or its method is not found: {0}::{1}',
     'methodNotFound'     => 'No se encontró el método del controlador: {0}', // 'Controller method is not found: {0}',
+    'localeNotSupported' => 'La configuración regional no es compatible: {0}', // 'Locale is not supported: {0}',
 
     // CSRF
+    // @deprecated use 'Security.disallowedAction'
     'disallowedAction' => 'La acción que solicitó no está permitida.', // 'The action you requested is not allowed.',
 
     // Uploaded file moving
