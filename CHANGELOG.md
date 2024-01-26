@@ -5,6 +5,28 @@ All notable changes to this library will be documented in this file:
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v4.4.4](https://github.com/codeigniter4/translations/compare/v4.4.3...v4.4.4) - 2024-01-26
+
+### Added
+
+- chore(deps): bump actions/configure-pages from 3 to 4 (#418)
+- chore(deps): bump actions/deploy-pages from 2 to 3 (#419)
+- chore(deps): bump actions/upload-pages-artifact from 2 to 3 (#426)
+- chore(deps): bump actions/deploy-pages from 3 to 4 (#425)
+- chore(deps): bump actions/cache from 3 to 4 (#433)
+
+### Changed
+
+- el (Greek)
+- es (Spanish)
+- fa (Farsi)
+- ja (Japanese)
+- ko (Korean)
+- lt (Lithuanian)
+- pt-BR (Brazilian)
+- sv-SE (Swedish - Sweden)
+- tr (Turkish)
+
 ## [v4.4.3](https://github.com/codeigniter4/translations/compare/v4.4.1...v4.4.3) - 2023-10-27
 
 ### Fixed
