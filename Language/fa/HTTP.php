@@ -19,6 +19,8 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '{0} نوع ورودی معتبری نیست. باید یکی از media, charset, encoding, language باشد.',
+    'invalidJSON'            => 'خطا در تجزیه رشته JSON. خطا: {0}',
+    'unsupportedJSONFormat'  => 'قالب JSON ارائه شده پشتیبانی نمیشود.',
 
     // Message
     'invalidHTTPProtocol' => 'نسخه HTTP Protocol معتبر نیست. گزینه‌های معتبر: {0}',
