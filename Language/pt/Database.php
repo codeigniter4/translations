@@ -15,6 +15,7 @@ return [
     'invalidArgument'                  => 'Você deve fornecer um {0} válido.',
     'invalidAllowedFields'             => 'Os campos permitidos devem ser especificados para o model: {0}',
     'emptyDataset'                     => 'Não há dados para {0}.',
+    'emptyPrimaryKey'                  => 'Não há chave primária defenida ao tentar criar {0}.',
     'failGetFieldData'                 => 'Não foi possível receber informação da base de dados.',
     'failGetIndexData'                 => 'Não foi possível receber o index da base de dados.',
     'failGetForeignKeyData'            => 'Não foi possível receber a Chave Forasteira da base de dados.',
@@ -26,4 +27,5 @@ return [
     'fieldNotExists'                   => 'Campo `{0}` não encontrado.',
     'forEmptyInputGiven'               => 'Declaração vazia passada para o campo `{0}`',
     'forFindColumnHaveMultipleColumns' => 'Apenas uma coluna é permitida no nome da coluna.',
+    'methodNotAvailable'               => 'Não podes usar "{1}" no "{0}". Isto é um metodo da classe do Query Builder.',
 ];
