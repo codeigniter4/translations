@@ -19,6 +19,8 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '{0} não é um tipo de negociação válido. Deve ser um dos seguintes: mídia, charset, codificação, idioma.',
+    'invalidJSON'            => 'Falha ao analisar string JSON. Erro: {0}',
+    'unsupportedJSONFormat'  => 'O formato JSON fornecido não é suportado.',
 
     // Message
     'invalidHTTPProtocol' => 'Versão inválida do protocolo HTTP. Deve ser um dos seguintes: {0}',
