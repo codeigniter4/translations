@@ -9,8 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// "Language" language settings
 return [
-    'invalidLogLevel'    => '{0} é um nível de log inválido.',
-    'invalidMessageType' => 'O tipo de mensagem "{0}" não é suportado.',
+    'invalidMessageFormat' => 'Formato de mensagem Invalido: "{0}", args: "{1}"',
 ];

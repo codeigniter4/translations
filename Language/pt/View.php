@@ -17,4 +17,5 @@ return [
     'noCellClass'           => 'Nenhuma classe view cell fornecida.',
     'invalidCellClass'      => 'Não é possível localizar a classe view cell: {0}.',
     'tagSyntaxError'        => 'Há um erro de sintaxe nas tags de Parser: {0}',
+    'invalidDecoratorClass' => '"{0}" não é um View Decorator valido.',
 ];

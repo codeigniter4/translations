@@ -9,8 +9,9 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// Fabricator language settings
 return [
-    'invalidLogLevel'    => '{0} é um nível de log inválido.',
-    'invalidMessageType' => 'O tipo de mensagem "{0}" não é suportado.',
+    'invalidModel'      => 'Modelo fornecido invalido para fabricação',
+    'missingFormatters' => 'Nenhum formador valido defenido.',
+    'createFailed'      => 'O fabricador falhou a inserir na tabela "{0}": {1}',
 ];

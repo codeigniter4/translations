@@ -19,6 +19,8 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '{0} não é um tipo de negociação válido. Deve ser um dos seguintes: mídia, charset, codificação, idioma.',
+    'invalidJSON'            => 'Falha ao analisar string JSON. Erro: {0}',
+    'unsupportedJSONFormat'  => 'O formato JSON fornecido não é suportado.',
 
     // Message
     'invalidHTTPProtocol' => 'Versão inválida do protocolo HTTP. Deve ser um dos seguintes: {0}',
@@ -28,6 +30,13 @@ return [
 
     // RedirectResponse
     'invalidRoute' => '{0} não é uma rota válida.',
+
+    // DownloadResponse
+    'cannotSetBinary'        => 'Quando a atribuir filepath não é possivel atribuir binary.',
+    'cannotSetFilepath'      => 'Quando a atribuir binary não é possivel atribuir filepath: "{0}"',
+    'notFoundDownloadSource' => 'Não foi encontrado a fonte do corpo de download.',
+    'cannotSetCache'         => 'Não suporta caching para descarregar.',
+    'cannotSetStatusCode'    => 'Não suporta alteração do código de status para descarregar. codigo: {0}, razão: {1}',
 
     // Response
     'missingResponseStatus' => 'Resposta HTTP está sem um código de status',
@@ -45,6 +54,7 @@ return [
     'emptyController'    => 'Nenhum Controller especificado.',
     'controllerNotFound' => 'Controller ou seu método não encontrado: {0}::{1}',
     'methodNotFound'     => 'Método do Controller não encontrado: {0}',
+    'localeNotSupported' => 'Locale não é suportado: {0}',
 
     // CSRF
     'disallowedAction' => 'A ação que você solicitou não é permitida.',
@@ -63,4 +73,8 @@ return [
     'uploadErrNoTmpDir'  => 'O arquivo não pôde ser enviado: falta diretório temporário.',
     'uploadErrExtension' => 'O envio do arquivo foi interrompido por uma extensão PHP.',
     'uploadErrUnknown'   => 'O arquivo "%s" não foi enviado devido a um erro desconhecido.',
+
+    // SameSite setting
+    // @deprecated
+    'invalidSameSiteSetting' => 'O atributo SameSite deve ser None, Lax, Strict, ou uma string vazia. Dado: {0}',
 ];
