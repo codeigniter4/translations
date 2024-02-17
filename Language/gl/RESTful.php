@@ -9,7 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Testing language settings
+// RESTful language settings
 return [
-    'invalidMockClass' => '{0} non è unha classe Mock valida',
+    'notImplemented' => 'Acción "{0}" non implementada.', // '"{0}" action not implemented.',
 ];

@@ -28,7 +28,7 @@ return [
     'migHelpRollback' => "\tEjecuta todas las migraciones 'down' a la versión 0.",
     'migHelpRefresh'  => "\t\tDesinstala y reejecuta todas las migraciones para refrescar la base de datos.",
     'migHelpSeed'     => "\tEjecuta la semilla de nombre [name].",
-    'migCreate'       => "\tCrea una nueva migración llamada [name]",
+    'migCreate'       => "\tCrea unha nueva migración llamada [name]",
     'nameMigration'   => 'Nombre el archivo de migración',
     'migNumberError'  => 'El número de migración debe tener tres dígitos y no debe haber espacios en la secuencia.',
     'rollBackConfirm' => '¿Estás seguro de que quieres retrotraer?', // 'Are you sure you want to rollback?',

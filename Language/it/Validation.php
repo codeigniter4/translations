@@ -13,7 +13,7 @@
 return [
     // Core Messages
     'noRuleSets'      => 'Nessun set di regole è stato specificato nella configurazione della Validazione.',
-    'ruleNotFound'    => '{0} non è una regola valida.',
+    'ruleNotFound'    => '{0} non è unha regola valida.',
     'groupNotFound'   => '{0} non è un gruppo di regole di validazione.',
     'groupNotArray'   => '{0} il gruppo di regole deve essere un array.',
     'invalidTemplate' => '{0} non è un valido template di Validazione.',
@@ -50,15 +50,15 @@ return [
     'required'              => 'Il campo "{field}" è obbligatorio.',
     'required_with'         => 'Il campo "{field}" è obbligatorio quando {param} è presente.',
     'required_without'      => 'Il campo "{field}" è obbligatorio quando {param} non è presente.',
-    'string'                => 'Il campo "{field}" deve essere una stringa valida.',
-    'timezone'              => 'Il campo "{field}" deve essere una timezone valida.',
-    'valid_base64'          => 'Il campo "{field}" deve essere una stringa in base64 valida.',
+    'string'                => 'Il campo "{field}" deve essere unha stringa valida.',
+    'timezone'              => 'Il campo "{field}" deve essere unha timezone valida.',
+    'valid_base64'          => 'Il campo "{field}" deve essere unha stringa in base64 valida.',
     'valid_email'           => 'Il campo "{field}" deve contenere un indirizzo email valido.',
     'valid_emails'          => 'Il campo "{field}" deve contenere tutti indirizzi email validi.',
     'valid_ip'              => 'Il campo "{field}" deve contenere un IP valido.',
     'valid_url'             => 'Il campo "{field}" deve contenere un URL valido.',
     'valid_url_strict'      => 'Il campo "{field}" deve contenere un URL valido.',
-    'valid_date'            => 'Il campo "{field}" deve contenere una data valida.',
+    'valid_date'            => 'Il campo "{field}" deve contenere unha data valida.',
     'valid_json'            => 'Il campo "{field}" deve contenere un json valido.',
 
     // Credit Cards
@@ -69,6 +69,6 @@ return [
     'max_size' => 'Il file "{field}" supera le dimensioni consentite.',
     'is_image' => 'Il file "{field}" non è un\'immagine valida.',
     'mime_in'  => 'Il file "{field}" non ha un MIME consentito.',
-    'ext_in'   => 'Il file "{field}" non ha una estesione valida.',
-    'max_dims' => 'Il file "{field}" o non è una immagine oppure l\'immagine ha dimensioni troppo grandi.',
+    'ext_in'   => 'Il file "{field}" non ha unha estesione valida.',
+    'max_dims' => 'Il file "{field}" o non è unha immagine oppure l\'immagine ha dimensioni troppo grandi.',
 ];
