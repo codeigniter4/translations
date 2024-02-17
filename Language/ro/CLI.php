@@ -11,7 +11,7 @@
 
 // CLI language settings
 return [
-    'altCommandPlural'   => 'Te-ai referit la unha dintre acestea?',
+    'altCommandPlural'   => 'Te-ai referit la una dintre acestea?',
     'altCommandSingular' => 'Ai vrut sa spui asta?',
     'commandNotFound'    => 'Commanda "{0}" nu a fost găsită.',
     'generator'          => [
