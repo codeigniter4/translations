@@ -89,7 +89,7 @@ Migrations.php:
 
 Validation.php:
 -'matches' => 'The {field} field does not match the {param} field.';
-+'string' => 'Il campo {field} deve essere unha stringa valida.';
++'string' => 'Il campo {field} deve essere una stringa valida.';
 Failed asserting that an array is empty.
 ```
 
