@@ -17,7 +17,7 @@ return [
     'notFound'      => 'File di migrazione non trovato: ',
     'batchNotFound' => 'Nessun Target Batch trovato: ',
     'empty'         => 'Nessun file di migrazione è stato trovato',
-    'gap'           => 'Vi è unha lacuna nella sequenza di migrazione vicino al numero di versione: ',
+    'gap'           => 'Vi è una lacuna nella sequenza di migrazione vicino al numero di versione: ',
     'classNotFound' => 'Non è possibile trovare la classe di migrazione "%s" .',
     'missingMethod' => 'Alla classe di migrazione manca un metodo "%s" .',
 
@@ -28,7 +28,7 @@ return [
     'migHelpRollback'   => "\tElabora tutte le migrazioni 'down' alla versione 0.",
     'migHelpRefresh'    => "\t\tDisinstalla e rielabora tutte le migrazioni a un database riavviato.",
     'migHelpSeed'       => "\tAvvia il seminatore denominato [name].",
-    'migCreate'         => "\tCrea unha nuova migrazione denominata [name]",
+    'migCreate'         => "\tCrea una nuova migrazione denominata [name]",
     'nameMigration'     => 'Denomina il file di migrazione',
     'migNumberError'    => 'Il numero della migrazione deve essere di tre cifre e senza spazi',
     'rollBackConfirm'   => 'Sicuro di voler effettuare il rollback?',

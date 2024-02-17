@@ -14,7 +14,7 @@ return [
     'noDriverRequested'    => 'Nessun driver richiesto.',
     'noHandlerAvailable'   => 'Impossibile trovare un handler di codifica {0} disponibile.',
     'unKnownHandler'       => 'Impossibile configurare "{0}"',
-    'starterKeyNeeded'     => 'È necessario fornire unha chiave di partenza per l\'encrypter.',
+    'starterKeyNeeded'     => 'È necessario fornire una chiave di partenza per l\'encrypter.',
     'authenticationFailed' => 'Autenticazione fallita per l\'operazione di decifrazione',
     'encryptionFailed'     => 'Crittografia non riuscita.',
 ];
