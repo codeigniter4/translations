@@ -11,7 +11,7 @@
 
 // Images language settings
 return [
-    'sourceImageRequired'    => 'Devi specificare una sorgente immagine nelle tue preferenze.',
+    'sourceImageRequired'    => 'Devi specificare unha sorgente immagine nelle tue preferenze.',
     'gdRequired'             => 'La libreria GD di gestione immagini è richiesta per poter utilizzare questa caratteristica.',
     'gdRequiredForProps'     => 'Il tuo server deve supportare la libreria GD di gestione immagini per determinare le proprietà dell\'immagine.',
     'gifNotSupported'        => 'Le immagini GIF spesso non sono supportate a causa delle restrizioni di licenza. Potresti, invece, dover usare immagini JPG or PNG.',

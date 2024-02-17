@@ -23,7 +23,7 @@ return [
     'unsupportedJSONFormat'  => 'El formato JSON proporcionado no es compatible', // 'The provided JSON format is not supported.',,
 
     // Message
-    'invalidHTTPProtocol' => 'Versión de protocolo HTTP no válida. Debe ser una de: {0}', // 'Invalid HTTP Protocol Version. Must be one of: {0}',
+    'invalidHTTPProtocol' => 'Versión de protocolo HTTP no válida. Debe ser unha de: {0}', // 'Invalid HTTP Protocol Version. Must be one of: {0}',
 
     // Negotiate
     'emptySupportedNegotiations' => 'Debe proporcionar un array de valores compatibles a todas las negociaciones.', // 'You must provide an array of supported values to all Negotiations.',
@@ -72,10 +72,10 @@ return [
     'uploadErrNoFile'    => 'Ningún archivo fue cargado.', // 'No file was uploaded.',
     'uploadErrCantWrite' => 'El archivo "%s" no se pudo escribir en el disco.', // 'The file "%s" could not be written on disk.',
     'uploadErrNoTmpDir'  => 'El archivo no se pudo cargar: falta el directorio temporal.', // 'File could not be uploaded: missing temporary directory.',
-    'uploadErrExtension' => 'La carga de archivos fue detenida por una extensión PHP.', // 'File upload was stopped by a PHP extension.',
+    'uploadErrExtension' => 'La carga de archivos fue detenida por unha extensión PHP.', // 'File upload was stopped by a PHP extension.',
     'uploadErrUnknown'   => 'El archivo "%s" no se cargó debido a un error desconocido.', // 'The file "%s" was not uploaded due to an unknown error.',
 
     // SameSite setting
     // @deprecated
-    'invalidSameSiteSetting' => 'La configuración de SameSite debe ser None, Lax, Strict o una cadena en blanco. Dado: {0}', // 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
+    'invalidSameSiteSetting' => 'La configuración de SameSite debe ser None, Lax, Strict o unha cadena en blanco. Dado: {0}', // 'The SameSite setting must be None, Lax, Strict, or a blank string. Given: {0}',
 ];

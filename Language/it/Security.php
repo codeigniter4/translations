@@ -12,5 +12,5 @@
 // Security language settings
 return [
     'disallowedAction' => 'L\'azione richiesta non è permessa.',
-    'invalidSameSite'  => 'Il valore della proprietà SameSite deve essere None, Lax, Strict, oppure una stringa vuota. Rilevato: {0}',
+    'invalidSameSite'  => 'Il valore della proprietà SameSite deve essere None, Lax, Strict, oppure unha stringa vuota. Rilevato: {0}',
 ];
