@@ -13,7 +13,7 @@
 return [
     // Core Messages
     'noRuleSets'      => 'No se han establecido reglas en la configuración de validación.',
-    'ruleNotFound'    => '{0} no es unha regla de validación válida.',
+    'ruleNotFound'    => '{0} no es una regla de validación válida.',
     'groupNotFound'   => '{0} no es un grupo de reglas de validación.',
     'groupNotArray'   => '{0} el grupo de validación debe ser un array.',
     'invalidTemplate' => '{0} no es un modelo de validación válido.',
@@ -50,15 +50,15 @@ return [
     'required'              => 'El campo {field} es obligatorio.',
     'required_with'         => 'El campo {field} es obligatorio cuando {param} está presente.',
     'required_without'      => 'El campo {field} es obligatorio cuando {param} no está presente.',
-    'string'                => 'El campo {field} debe ser unha cadena válida.',
-    'timezone'              => 'El campo {field} debe ser unha zona horaria válida.',
-    'valid_base64'          => 'El campo {field} debe ser unha cadena base64 válida.',
-    'valid_email'           => 'El campo {field} debe contener unha dirección de email válida.',
+    'string'                => 'El campo {field} debe ser una cadena válida.',
+    'timezone'              => 'El campo {field} debe ser una zona horaria válida.',
+    'valid_base64'          => 'El campo {field} debe ser una cadena base64 válida.',
+    'valid_email'           => 'El campo {field} debe contener una dirección de email válida.',
     'valid_emails'          => 'El campo {field} debe contener todas las direcciones de email válidas.',
-    'valid_ip'              => 'El campo {field} debe contener unha IP válida.',
-    'valid_url'             => 'El campo {field} debe contener unha URL válida.',
-    'valid_url_strict'      => 'El campo {field} debe contener unha URL válida.',
-    'valid_date'            => 'El campo {field} debe contener unha fecha válida.',
+    'valid_ip'              => 'El campo {field} debe contener una IP válida.',
+    'valid_url'             => 'El campo {field} debe contener una URL válida.',
+    'valid_url_strict'      => 'El campo {field} debe contener una URL válida.',
+    'valid_date'            => 'El campo {field} debe contener una fecha válida.',
     'valid_json'            => 'El campo {field} debe contener un json válido.', // 'The {field} field must contain a valid json.',
 
     // Credit Cards
@@ -69,6 +69,6 @@ return [
     'max_size' => '{field} es demasiado grande para un archivo.',
     'is_image' => '{field} no es válido, subido archivo de imagen.',
     'mime_in'  => '{field} no tiene un tipo válido de mime.',
-    'ext_in'   => '{field} no tiene unha extensión de archivo válida.',
-    'max_dims' => '{field} no es unha imagen o tiene demasiado alto o ancho.',
+    'ext_in'   => '{field} no tiene una extensión de archivo válida.',
+    'max_dims' => '{field} no es una imagen o tiene demasiado alto o ancho.',
 ];
