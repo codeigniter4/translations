@@ -47,6 +47,7 @@ claims no expertise beyond English.
 | es     | Spanish             | 4.0.0   | [nachoaguirre][es]    | Ignacio Aguirre
 | fa     | Farsi               | 4.0.0   | [msalehi-d][fa]       | Mohammad Salehi
 | fr     | French              | 4.0.0   | [amuratet][fr]        | Amuratet?
+| gl     | Galician            | 4.0.0   | [nunhes][gl]          | Nunhes
 | hu     | Hungarian           | 4.2.0   | [kzolee1][hu]         | Zoltan Kovacs
 | id     | Indonesian          | 4.0.0   | [ridho1991][id]       | Mutasim Ridlo
 | it     | Italian             | 4.0.0   | [luk3b8][it]          | Luca Rasia
@@ -84,6 +85,7 @@ _**Version where the locale was released. 4.x denotes `Unreleased`._
 [es]: https://github.com/nachoaguirre
 [fa]: https://github.com/msalehi-d
 [fr]: https://github.com/amuratet
+[gl]: https://github.com/nunhes
 [hu]: https://github.com/kzolee1
 [id]: https://github.com/ridho1991
 [it]: https://github.com/luk3b8
