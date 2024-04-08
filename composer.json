@@ -14,7 +14,7 @@
         "codeigniter4/codeigniter4": "4.x-dev",
         "friendsofphp/php-cs-fixer": "^3.1",
         "nexusphp/cs-config": "^3.3",
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^10.5"
     },
     "config": {
         "optimize-autoloader": true,
