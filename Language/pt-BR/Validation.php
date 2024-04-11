@@ -16,13 +16,13 @@ return [
     'ruleNotFound'    => '{0} não é uma regra válida.',
     'groupNotFound'   => '{0} não é um grupo de regras de validação.',
     'groupNotArray'   => 'O grupo de regras {0} deve ser um array.',
-    'invalidTemplate' => '{0} não é um template de Validation válido.',
+    'invalidTemplate' => '{0} não é um template de Validação válido.',
 
     // Rule Messages
     'alpha'                 => 'O campo {field} pode conter apenas caracteres alfabéticos.',
     'alpha_dash'            => 'O campo {field} pode conter apenas caracteres alfa-numéricos, sublinhados, e traços.',
     'alpha_numeric'         => 'O campo {field} pode conter apenas caracteres alfa-numéricos.',
-    'alpha_numeric_punct'   => 'O campo {field} pode conter apenas caracteres alfa-numéricos, espaços, e  ~ ! # $ % & * - _ + = | : . caracteres.',
+    'alpha_numeric_punct'   => 'O campo {field} pode conter apenas caracteres alfa-numéricos, espaços, e os caracteres ~ ! # $ % & * - _ + = | : . .',
     'alpha_numeric_space'   => 'O campo {field} pode conter apenas caracteres alfa-numéricos e espaços.',
     'alpha_space'           => 'O campo {field} pode conter apenas caracteres alfabéticos e espaços.',
     'decimal'               => 'O campo {field} deve conter um número decimal.',
@@ -67,7 +67,7 @@ return [
     // Files
     'uploaded' => '{field} não é um arquivo de upload válido.',
     'max_size' => '{field} é um arquivo muito grande.',
-    'is_image' => '{field} não é um arquivo de imagem válida do upload.',
+    'is_image' => '{field} não é um arquivo de imagem válido do upload.',
     'mime_in'  => '{field} não tem um tipo mime válido.',
     'ext_in'   => '{field} não tem uma extensão de arquivo válida.',
     'max_dims' => '{field} não é uma imagem, ou ela é muito larga ou muito grande.',
