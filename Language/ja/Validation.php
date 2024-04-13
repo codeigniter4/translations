@@ -29,6 +29,7 @@ return [
     'differs'               => '{field} には {param} と異なる値を入力してください。', // 'The {field} field must differ from the {param} field.'
     'equals'                => '{field} は {param} と同じ値を入力してください。', // 'The {field} field must be exactly: {param}.'
     'exact_length'          => '{field} の文字数は、{param}文字で入力してください。', // 'The {field} field must be exactly {param} characters in length.'
+    'field_exists'          => '{field} が存在しません。', // 'The {field} field must exist.'
     'greater_than'          => '{field} には {param} より大きな半角数値を入力してください。', // 'The {field} field must contain a number greater than {param}.'
     'greater_than_equal_to' => '{field} には {param} 以上の半角数値を入力してください。', // 'The {field} field must contain a number greater than or equal to {param}.'
     'hex'                   => '{field} は16進数で入力してください。', // 'The {field} field may only contain hexadecimal characters.'
