@@ -29,6 +29,7 @@ return [
     'differs'               => 'فیلد {field} باید با فیلد {param} متفاوت باشد.',
     'equals'                => 'فیلد {field} باید دقیقا برابر "{param}" باشد.',
     'exact_length'          => 'طول فیلد {field} باید دقیقا {param} کاراکتر باشد.',
+    'field_exists'          => 'فیلد {field} باید وجود داشته باشد.',
     'greater_than'          => 'فیلد {field} باید عددی بزرگتر از {param} باشد.',
     'greater_than_equal_to' => 'فیلد {field} باید عددی بزرگتر یا مساوی {param} باشد.',
     'hex'                   => 'فیلد {field} فقط می‌تواند شامل کاراکتر های هگزادسیمال باشد.',
