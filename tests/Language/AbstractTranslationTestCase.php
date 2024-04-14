@@ -304,7 +304,7 @@ abstract class AbstractTranslationTestCase extends TestCase
     }
 
     /**
-     * @return string[][]
+     * @return array<string, list<string>>
      */
     final public static function localesProvider(): iterable
     {
@@ -337,7 +337,7 @@ abstract class AbstractTranslationTestCase extends TestCase
     /**
      * Get all the ISO 639-1 and 639-2 locale codes.
      *
-     * @return array<string, array<string>>
+     * @return array<string, list<string>>
      */
     final public function translationKeys(): array
     {
