@@ -27,6 +27,7 @@ return [
             'migration'  => 'نام کلاس Migration',
             'model'      => 'نام کلاس Model',
             'seeder'     => 'نام کلاس Seeder',
+            'test'       => 'نام کلاس Test',
             'validation' => 'نام کلاس Validation',
         ],
         'commandType'      => 'نوع Command',
