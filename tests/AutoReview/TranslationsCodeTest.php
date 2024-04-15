@@ -11,6 +11,8 @@
 
 namespace Translations\Tests\AutoReview;
 
+use PHPUnit\Framework\Attributes\CoversNothing;
+use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\TestCase;
 use Translations\Tests\AbstractTranslationTestCase;
 
@@ -18,11 +20,9 @@ use Translations\Tests\AbstractTranslationTestCase;
  * This test case eases away the boring review of tiny details in one's pull request.
  *
  * @internal
- *
- * @coversNothing
- *
- * @group auto-review
  */
+#[CoversNothing]
+#[Group('auto-review')]
 final class TranslationsCodeTest extends TestCase
 {
     public function testLocalesArrayAreArrangedByLocaleCode(): void
