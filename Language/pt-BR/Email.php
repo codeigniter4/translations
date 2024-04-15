@@ -11,11 +11,11 @@
 
 // Email language settings
 return [
-    'mustBeArray'          => 'O método de validação de email deve receber uma array.',
+    'mustBeArray'          => 'O método de validação de e-mail deve receber uma array.',
     'invalidAddress'       => 'Endereço de e-mail inválido: {0}',
     'attachmentMissing'    => 'Não foi possível localizar o seguinte anexo de e-mail: {0}',
     'attachmentUnreadable' => 'Não foi possível abrir este anexo: {0}',
-    'noFrom'               => 'Não é possível enviar email sem o cabeçalho "From".',
+    'noFrom'               => 'Não é possível enviar e-mail sem o cabeçalho "From".',
     'noRecipients'         => 'Você deve incluir destinatários: To, Cc, ou Bcc',
     'sendFailurePHPMail'   => 'Não foi possível enviar e-mail usando PHP mail(). Seu servidor pode não estar configurado para enviar e-mail usando este método.',
     'sendFailureSendmail'  => 'Não foi possível enviar e-mail usando PHP Sendmail. Seu servidor pode não estar configurado para enviar e-mail usando este método.',
