@@ -18,5 +18,5 @@ return [
     // Publish Command
     'publishMissing' => 'Nenhuma classe Publisher detectada em {0} através de todos os namespaces.',
     'publishSuccess' => '{0} publicou {1} arquivo(s) para {2}.',
-    'publishFailure' => '{0} falhou para publicar para {1}!',
+    'publishFailure' => '{0} falhou ao publicar para {1}!',
 ];
