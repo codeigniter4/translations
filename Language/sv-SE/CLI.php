@@ -26,6 +26,7 @@ return [
             'migration'  => 'Migration klassnamn',
             'model'      => 'Model klassnamn',
             'seeder'     => 'Seeder klassnamn',
+            'test'       => 'Test klassnamn',
             'validation' => 'Validation klassnamn',
         ],
         'commandType'      => 'Typ av kommando',

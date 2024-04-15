@@ -28,6 +28,7 @@ return [
     'differs'               => 'Fältet {field} måste innehålla annan information än fältet {param}.',
     'equals'                => 'Värdet i fältet {field} måste vara exakt lika med: {param}.',
     'exact_length'          => 'Värdet i fältet {field} måste vara exakt {param} tecken lång.',
+    'field_exists'          => 'Fältet {field} måste finnas.',
     'greater_than'          => 'Värdet i fältet {field} måste vara numeriskt och större än {param}.',
     'greater_than_equal_to' => 'Värdet i fältet {field} måste vara numeriskt och större än eller lika med {param}.',
     'hex'                   => 'Fältet {field} får enbart innehålla hexadecimala tecken.',
