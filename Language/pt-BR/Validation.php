@@ -68,7 +68,7 @@ return [
     // Files
     'uploaded' => '{field} não é um arquivo de upload válido.',
     'max_size' => '{field} é um arquivo muito grande.',
-    'is_image' => '{field} não é um arquivo de imagem válido do upload.',
+    'is_image' => '{field} não é um arquivo de imagem válido enviado.',
     'mime_in'  => '{field} não tem um tipo mime válido.',
     'ext_in'   => '{field} não tem uma extensão de arquivo válida.',
     'max_dims' => '{field} não é uma imagem, ou ela é muito larga ou muito grande.',
