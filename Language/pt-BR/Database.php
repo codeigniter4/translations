@@ -22,7 +22,7 @@ return [
     'parseStringFail'                  => 'Análise da chave string falhou.',
     'featureUnavailable'               => 'Este recurso não está disponível para o banco de dados que você está usando.',
     'tableNotFound'                    => 'Tabela `{0}` não foi encontrada no banco de dados atual.',
-    'noPrimaryKey'                     => 'Classe model `{0}` não especifica uma Primary Key.',
+    'noPrimaryKey'                     => 'Classe model `{0}` não especifica uma chave primária.',
     'noDateFormat'                     => 'Classe model `{0}` não tem uma data válida.',
     'fieldNotExists'                   => 'Campo `{0}` não encontrado.',
     'forEmptyInputGiven'               => 'Declaração vazia passada para o campo `{0}`',
