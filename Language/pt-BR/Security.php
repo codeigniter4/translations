@@ -14,5 +14,5 @@ return [
     'disallowedAction' => 'A ação que você requisitou não é permitida.',
 
     // @deprecated
-    'invalidSameSite'  => 'O valor de SameSite deve ser None, Lax, Strict, ou uma string vazia. Dado: {0}',
+    'invalidSameSite' => 'O valor de SameSite deve ser None, Lax, Strict, ou uma string vazia. Dado: {0}',
 ];
