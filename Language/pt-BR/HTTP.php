@@ -32,20 +32,20 @@ return [
     'invalidRoute' => 'Rota {0} não foi encontrada ao fazer o roteamento-reverso.',
 
     // DownloadResponse
-    'cannotSetBinary'        => 'Ao definir o caminho do arquivo não foi possível definir como binário.',
-    'cannotSetFilepath'      => 'Ao definir como binário não é possível definir o caminho do arquivo: {0}',
-    'notFoundDownloadSource' => 'Fonte do corpo do download não encontrado.',
+    'cannotSetBinary'        => 'Ao configurar o caminho do arquivo, não foi possível definir o binário.',
+    'cannotSetFilepath'      => 'Ao configurar o binário, não é possível definir o caminho do arquivo: {0}',
+    'notFoundDownloadSource' => 'Fonte do corpo de download não encontrado.',
     'cannotSetCache'         => 'Não suporta armazenamento em cache para download.',
-    'cannotSetStatusCode'    => 'Não suporta o código de status de alteração para download. Código: {0}, Razão: {1}',
+    'cannotSetStatusCode'    => 'Não suporta alteração de código de status para download. Código: {0}, Razão: {1}',
 
     // Response
-    'missingResponseStatus' => 'Resposta HTTP está faltando um código de status',
+    'missingResponseStatus' => 'A resposta HTTP não possui um código de status',
     'invalidStatusCode'     => '{0} não é um código de status de retorno HTTP válido',
     'unknownStatusCode'     => 'Código de status HTTP desconhecido fornecido sem nenhuma mensagem: {0}',
 
     // URI
     'cannotParseURI'       => 'Não é possível analisar o URI: {0}',
-    'segmentOutOfRange'    => 'Segmento do URI da Requisição está fora do intervalo: {0}',
+    'segmentOutOfRange'    => 'O segmento do URI da requisição está fora do intervalo: {0}',
     'invalidPort'          => 'Portas devem estar entre 0 e 65535. Dado: {0}',
     'malformedQueryString' => 'As strings de consulta não podem incluir fragmentos de URI.',
 
@@ -57,12 +57,14 @@ return [
     'localeNotSupported' => 'Idioma não suportado: {0}',
 
     // CSRF
+    // @deprecated use 'Security.disallowedAction'
     'disallowedAction' => 'A ação que você solicitou não é permitida.',
 
     // Uploaded file moving
     'alreadyMoved'       => 'O arquivo enviado já foi movido.',
     'invalidFile'        => 'O arquivo original não é um arquivo válido.',
-    'moveFailed'         => 'Não foi possível mover o arquivo {0} para {1} ({2})',
+    'moveFailed'         => 'Não foi possível mover o arquivo {0} para {1}. Motivo: {2}',
+
     'uploadErrOk'        => 'O upload do arquivo foi realizado com sucesso.',
     'uploadErrIniSize'   => 'O arquivo "%s" excede a diretiva ini upload_max_filesize.',
     'uploadErrFormSize'  => 'O arquivo "%s" excede o limite de upload definido em seu formulário.',
@@ -74,5 +76,6 @@ return [
     'uploadErrUnknown'   => 'O upload do arquivo "%s" não foi realizado devido a um erro desconhecido.',
 
     // SameSite setting
+    // @deprecated
     'invalidSameSiteSetting' => 'A configuração SameSite deve ser None, Lax, Strict ou uma string vazia. Dado: {0}',
 ];
