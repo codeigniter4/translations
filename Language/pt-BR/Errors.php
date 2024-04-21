@@ -11,8 +11,8 @@
 
 // Errors language settings
 return [
-    'pageNotFound'    => '404 - Página não encontrada',
-    'sorryCannotFind' => 'Desculpe! Infelizmente a página solicitada não pode ser encontrada.',
-    'whoops'          => 'Ooops!',
-    'weHitASnag'      => 'Parece que temos um problema. Por favor, tente novamente mais tarde...',
+    'pageNotFound'    => '404 - Página não encontrada', // '404 - Page Not Found',
+    'sorryCannotFind' => 'Desculpe! Infelizmente a página solicitada não pode ser encontrada.',  // 'Sorry! Cannot seem to find the page you were looking for.',
+    'whoops'          => 'Ooops!', // 'Whoops!',
+    'weHitASnag'      => 'Parece que temos um problema. Por favor, tente novamente mais tarde...', // 'We seem to have hit a snag. Please try again later...',
 ];
