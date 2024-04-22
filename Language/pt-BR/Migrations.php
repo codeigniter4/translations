@@ -45,7 +45,7 @@ return [
     'migSeeder'         => 'Nome do seeder', // 'Seeder name',
     'migMissingSeeder'  => 'Você deve fornecer o nome de um seeder.', // 'You must provide a seeder name.',
     'nameSeeder'        => 'Nomeie o arquivo seeder', // 'Name the seeder file',
-    'removed'           => 'Revertendo: ', 'Rolling back: ',
+    'removed'           => 'Revertendo: ', // 'Rolling back: ',
     'added'             => 'Executando: ', // 'Running: ',
 
     // Migrate Status
