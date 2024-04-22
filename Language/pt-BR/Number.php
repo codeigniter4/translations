@@ -11,14 +11,14 @@
 
 // Number language settings
 return [
-    'terabyteAbbr' => 'TB', 
-    'gigabyteAbbr' => 'GB', 
-    'megabyteAbbr' => 'MB', 
-    'kilobyteAbbr' => 'KB', 
+    'terabyteAbbr' => 'TB',
+    'gigabyteAbbr' => 'GB',
+    'megabyteAbbr' => 'MB',
+    'kilobyteAbbr' => 'KB',
     'bytes'        => 'Bytes',
 
     // don't forget the space in front of these!
-    'thousand'    => ' mil', // ' thousand', 
+    'thousand'    => ' mil', // ' thousand',
     'million'     => ' milhão', // ' million',
     'billion'     => ' bilhão', // ' billion',
     'trillion'    => ' trilhão', // ' trillion',

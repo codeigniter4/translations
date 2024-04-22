@@ -69,7 +69,7 @@ return [
     'uploaded' => '{field} não é um arquivo de upload válido.', // '{field} is not a valid uploaded file.',
     'max_size' => '{field} é um arquivo muito grande.', // '{field} is too large of a file.',
     'is_image' => '{field} não é um arquivo de imagem válida do upload.', // '{field} is not a valid, uploaded image file.'
-    'mime_in'  => '{field} não tem um tipo mime válido.', // '{field} does not have a valid mime type.', 
+    'mime_in'  => '{field} não tem um tipo mime válido.', // '{field} does not have a valid mime type.',
     'ext_in'   => '{field} não tem uma extensão de arquivo válida.', // '{field} does not have a valid file extension.',
     'max_dims' => '{field} não é uma imagem, ou ela é muito larga ou muito grande.', // '{field} is either not an image, or it is too wide or tall.',
 ];

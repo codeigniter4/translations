@@ -61,9 +61,9 @@ return [
     'disallowedAction' => 'A ação que você solicitou não é permitida.', // 'The action you requested is not allowed.',
 
     // Uploaded file moving
-    'alreadyMoved'       => 'O arquivo enviado já foi movido.', // 'The uploaded file has already been moved.',
-    'invalidFile'        => 'O arquivo original não é um arquivo válido.', // 'The original file is not a valid file.',
-    'moveFailed'         => 'Não foi possível mover o arquivo "{0}" para "{1}". Motivo: "{2}"', // 'Could not move file "{0}" to "{1}". Reason: {2}',
+    'alreadyMoved' => 'O arquivo enviado já foi movido.', // 'The uploaded file has already been moved.',
+    'invalidFile'  => 'O arquivo original não é um arquivo válido.', // 'The original file is not a valid file.',
+    'moveFailed'   => 'Não foi possível mover o arquivo "{0}" para "{1}". Motivo: "{2}"', // 'Could not move file "{0}" to "{1}". Reason: {2}',
 
     'uploadErrOk'        => 'O upload do arquivo foi realizado com sucesso.', // 'The file uploaded with success.',
     'uploadErrIniSize'   => 'O arquivo "%s" excede a diretiva ini upload_max_filesize.', // 'The file "%s" exceeds your upload_max_filesize ini directive.',

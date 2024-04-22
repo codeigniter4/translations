@@ -14,7 +14,7 @@ return [
     'mustBeArray'          => 'O método de validação de e-mail deve receber uma array.', // 'The email validation method must be passed an array.',
     'invalidAddress'       => 'Endereço de e-mail inválido: "{0}"', // Invalid email address: "{0}"',
     'attachmentMissing'    => 'Não foi possível localizar o seguinte anexo de e-mail: "{0}"', // 'Unable to locate the following email attachment: "{0}"'
-    'attachmentUnreadable' => 'Não foi possível abrir este anexo: "{0}"', // 'Unable to open this attachment: "{0}"', 
+    'attachmentUnreadable' => 'Não foi possível abrir este anexo: "{0}"', // 'Unable to open this attachment: "{0}"',
     'noFrom'               => 'Não é possível enviar e-mail sem o cabeçalho "From".', // 'Cannot send mail with no "From" header.',
     'noRecipients'         => 'Você deve incluir destinatários: To, Cc, ou Bcc', // 'You must include recipients: To, Cc, or Bcc',
     'sendFailurePHPMail'   => 'Não foi possível enviar e-mail usando PHP mail(). Seu servidor pode não estar configurado para enviar e-mail usando este método.', // 'Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.',
