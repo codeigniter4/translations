@@ -11,6 +11,6 @@
 
 // Filters language settings
 return [
-    'noFilter'           => 'O filtro {0} deve ter um alias correspondente definido.',
-    'incorrectInterface' => '{0} deve implementar CodeIgniter\Filters\FilterInterface.',
+    'noFilter'           => 'O filtro "{0}" deve ter um alias correspondente definido.', // '"{0}" filter must have a matching alias defined.',
+    'incorrectInterface' => '"{0}" deve implementar CodeIgniter\Filters\FilterInterface.', // '"{0}" must implement CodeIgniter\Filters\FilterInterface.',
 ];

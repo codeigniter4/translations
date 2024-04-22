@@ -11,5 +11,5 @@
 
 // "Language" language settings
 return [
-    'invalidMessageFormat' => 'Formato de mensagem inválido: "{0}", Argumente: "{1}"',
+    'invalidMessageFormat' => 'Formato de mensagem inválido: "{0}", argumentos: "{1}"', // 'Invalid message format: "{0}", args: "{1}"',
 ];
