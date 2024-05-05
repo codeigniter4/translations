@@ -5,6 +5,22 @@ All notable changes to this library will be documented in this file:
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v4.5.0](https://github.com/codeigniter4/translations/compare/v4.4.4...v4.5.0) - 2024-05-05
+
+### Added
+
+- chore(deps): bump peter-evans/create-pull-request from 5 to 6 (#434)
+- chore: update PHP versions (#441)
+- chore(deps): bump actions/configure-pages from 4 to 5 (#438)
+- refactor: update to PHP 8.1 and PHPUnit 10.5 || 11.0 (#445)
+
+### Changed
+
+- fa (Farsi)
+- ja (Japanese)
+- pt-BR (Portuguese)
+- sv-SE (Swedish - Sweden)
+
 ## [v4.4.4](https://github.com/codeigniter4/translations/compare/v4.4.3...v4.4.4) - 2024-01-26
 
 ### Added
