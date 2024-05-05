@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/11.1/phpunit.xsd"
          bootstrap="vendor/codeigniter4/codeigniter4/system/Test/bootstrap.php"
-         cacheResultFile=".phpunit.cache/test-results"
          backupGlobals="false"
          colors="true"
          columns="max"
-         convertErrorsToExceptions="true"
-         convertNoticesToExceptions="true"
-         convertWarningsToExceptions="true"
          stopOnError="false"
          stopOnFailure="false"
          stopOnIncomplete="false"
          stopOnSkipped="false"
-         verbose="true">
+         cacheDirectory=".phpunit.cache">
     <testsuites>
         <testsuite name="Automatic Review Test Suite">
             <directory suffix="Test.php">tests/AutoReview</directory>
@@ -23,11 +19,11 @@
         </testsuite>
     </testsuites>
 
-    <coverage cacheDirectory=".phpunit.cache/code-coverage" processUncoveredFiles="true">
+    <source>
         <include>
             <directory suffix=".php">Language</directory>
         </include>
-    </coverage>
+    </source>
 
     <php>
         <env name="app.baseURL" value="http://example.com/"/>
