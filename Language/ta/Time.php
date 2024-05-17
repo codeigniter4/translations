@@ -31,5 +31,5 @@ return [
     'inFuture'       => 'இல் {0}', // 'in {0}',
     'yesterday'      => 'நேற்று', // 'Yesterday',
     'tomorrow'       => 'நாளை', // 'Tomorrow',
-    'now'            => 'இப்போதுதான்', //Just now
+    'now'            => 'இப்போதுதான்', // Just now,
 ];
