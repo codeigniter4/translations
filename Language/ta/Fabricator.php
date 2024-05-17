@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 // Fabricator language settings
 return [
-    'invalidModel'      => 'புனையப்படுவதற்கு தவறான மாதிரி வழங்கப்பட்டது.',
-    'missingFormatters' => 'சரியான வடிவங்கள் எதுவும் வரையறுக்கப்படவில்லை.',
-    'createFailed'      => '"{0}" அட்டவணையில் Fabricator செருக முடியவில்லை: {1}',
+    'invalidModel'      => 'புனையப்படுவதற்கு தவறான மாதிரி வழங்கப்பட்டது.', // 'Invalid model supplied for fabrication.',
+    'missingFormatters' => 'சரியான வடிவங்கள் எதுவும் வரையறுக்கப்படவில்லை.', // 'No valid formatters defined.',
+    'createFailed'      => '"{0}" அட்டவணையில் Fabricator செருக முடியவில்லை: {1}', // 'Fabricator failed to insert on table "{0}": {1}',
 ];

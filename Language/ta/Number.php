@@ -13,16 +13,16 @@ declare(strict_types=1);
 
 // Number language settings
 return [
-    'terabyteAbbr' => 'டிபி',
-    'gigabyteAbbr' => 'ஜிபி',
-    'megabyteAbbr' => 'எம்பி',
-    'kilobyteAbbr' => 'கேபி',
-    'bytes'        => 'பைட்ஸ்',
+    'terabyteAbbr' => 'டிபி', // 'TB',
+    'gigabyteAbbr' => 'ஜிபி', // 'GB'
+    'megabyteAbbr' => 'எம்பி', // 'MB'
+    'kilobyteAbbr' => 'கேபி', // 'KB'
+    'bytes'        => 'பைட்ஸ்', // 'Bytes'
 
     // don't forget the space in front of these!
-    'thousand'    => ' ஆயிரம்',
-    'million'     => ' பத்துலட்சம்',
-    'billion'     => ' நூறு கோடி',
-    'trillion'    => ' லட்சம் கோடி',
-    'quadrillion' => ' ஐமடியாயிரம்',
+    'thousand'    => ' ஆயிரம்', // ' thousand',
+    'million'     => ' பத்துலட்சம்', // ' million',
+    'billion'     => ' நூறு கோடி', // ' billion',
+    'trillion'    => ' லட்சம் கோடி', // ' trillion',
+    'quadrillion' => ' ஐமடியாயிரம்', // ' quadrillion',
 ];

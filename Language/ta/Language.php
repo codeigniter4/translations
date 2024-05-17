@@ -13,5 +13,5 @@ declare(strict_types=1);
 
 // "Language" language settings
 return [
-    'invalidMessageFormat' => 'தவறான செய்தி வடிவம்: "{0}", args: "{1}"',
+    'invalidMessageFormat' => 'தவறான செய்தி வடிவம்: "{0}", args: "{1}"', // 'Invalid message format: "{0}", args: "{1}"',
 ];

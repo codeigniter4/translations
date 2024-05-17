@@ -13,13 +13,13 @@ declare(strict_types=1);
 
 // Pager language settings
 return [
-    'pageNavigation'         => 'பக்க வழிசெலுத்தல்',
-    'first'                  => 'முதலில்',
-    'previous'               => 'முந்தைய',
-    'next'                   => 'அடுத்தது',
-    'last'                   => 'கடைசி',
-    'older'                  => 'பழையது',
-    'newer'                  => 'புதியது',
-    'invalidTemplate'        => '"{0}" சரியான Pager template அல்ல.',
-    'invalidPaginationGroup' => '"{0}" ஒரு சரியான Pagination குழு அல்ல.',
+    'pageNavigation'         => 'பக்க வழிசெலுத்தல்', // 'Page navigation',
+    'first'                  => 'முதலில்', // 'First',
+    'previous'               => 'முந்தைய', // 'Previous',
+    'next'                   => 'அடுத்தது', // 'Next',
+    'last'                   => 'கடைசி', // 'Last',
+    'older'                  => 'பழையது', // 'Older',
+    'newer'                  => 'புதியது', // 'Newer',
+    'invalidTemplate'        => '"{0}" சரியான Pager template அல்ல.', // '"{0}" is not a valid Pager template.',
+    'invalidPaginationGroup' => '"{0}" ஒரு சரியான Pagination குழு அல்ல.', // '"{0}" is not a valid Pagination group.',
 ];

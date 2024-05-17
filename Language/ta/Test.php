@@ -13,5 +13,5 @@ declare(strict_types=1);
 
 // Testing language settings
 return [
-    'invalidMockClass' => '"{0}" என்பது சரியான மாதிரி வகுப்பு அல்ல.',
+    'invalidMockClass' => '"{0}" என்பது சரியான மாதிரி வகுப்பு அல்ல.', // '"{0}" is not a valid Mock class',
 ];

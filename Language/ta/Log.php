@@ -13,6 +13,6 @@ declare(strict_types=1);
 
 // Log language settings
 return [
-    'invalidLogLevel'    => '"{0}" என்பது தவறான பதிவு நிலை.',
-    'invalidMessageType' => 'கொடுக்கப்பட்ட செய்தி வகை "{0}" ஆதரிக்கப்படவில்லை.',
+    'invalidLogLevel'    => '"{0}" என்பது தவறான பதிவு நிலை.', // '"{0}" is an invalid log level.',
+    'invalidMessageType' => 'கொடுக்கப்பட்ட செய்தி வகை "{0}" ஆதரிக்கப்படவில்லை.', // 'The given message type "{0}" is not supported.',
 ];
