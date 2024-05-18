@@ -66,7 +66,7 @@ claims no expertise beyond English.
 | sk     | Slovak              | 4.0.0   | [xbotkaj][sk]         | Jozef Botka
 | sr     | Serbian             | 4.3.1   | [nebojsajsimic][sr]   | Nebojša Simić
 | sv-SE  | Swedish - Sweden    | 4.0.3   | [tangix][sv-SE]       | Mattias Sandström
-| ta     | Tamil               | 4.5.0   | [darthleslin][ta]     | Leslin
+| ta     | Tamil               | 4.5.1   | [darthleslin][ta]     | Leslin
 | th     | Thai                | 4.1.4   | [karidoe][th]         | Anuchit Thiamuan
 | tr     | Turkish             | 4.0.0   | [obozdag][tr]         | obozdag
 | uk     | Ukrainian           | 4.0.3   | [flybot][uk]          | Serhii Kosyi
@@ -103,6 +103,7 @@ _**Version where the locale was released. 4.x denotes `Unreleased`._
 [si]: https://github.com/npwsamarasinghe
 [sk]: https://github.com/xbotkaj
 [sr]: https://github.com/nebojsajsimic
+[sv-SE]: https://github.com/tangix
 [ta]: https://github.com/darthleslin
 [th]: https://github.com/karidoe
 [tr]: https://github.com/obozdag
