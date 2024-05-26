@@ -14,5 +14,5 @@ return [
     'pageNotFound'    => '404 - Página não encontrada',
     'sorryCannotFind' => 'Pedimos Desculpa! Não foi possível encontrar a pagina requisitada.',
     'whoops'          => 'Ooops!',
-    'weHitASnag'      => 'Parece termos encontramos um obstáculo! Por favor tente mais tarde...',
+    'weHitASnag'      => 'Parece que nos deparamos com um obstáculo! Por favor, tente novamente mais tarde...',
 ];
