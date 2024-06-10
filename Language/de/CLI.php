@@ -27,6 +27,7 @@ return [
             'migration'  => 'Migration Name der Klasse',
             'model'      => 'Modell Name der Klasse',
             'seeder'     => 'Seeder Name der Klasse',
+            'test'       => 'Test class name',
             'validation' => 'Validierung Name der Klasse',
         ],
         'commandType'      => 'Befehlstyp',
