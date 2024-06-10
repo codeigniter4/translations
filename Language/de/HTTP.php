@@ -19,6 +19,8 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '{0} ist kein gültiger Inhaltstyp. Gültige Typen: media, charset, encoding, language.',
+    'invalidJSON'            => 'JSON-String konnte nicht geparst werden. Fehler: {0}',
+    'unsupportedJSONFormat'  => 'Das angegebene JSON-Format wird nicht unterstützt.',
 
     // Message
     'invalidHTTPProtocol' => 'Ungültige HTTP Protokoll-Version: {0}',
