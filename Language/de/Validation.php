@@ -29,6 +29,7 @@ return [
     'differs'               => 'Das {field}-Formularfeld muss sich vom Feld {param} unterscheiden.',
     'equals'                => 'Das {field}-Formularfeld muss exakt {param} entsprechen.',
     'exact_length'          => 'Das {field}-Formularfeld muss genau {param} Zeichen lang sein.',
+    'field_exists'          => 'Das {field}-Formularfeld muss vorhanden sein.',
     'greater_than'          => 'Das {field}-Formularfeld muss eine Zahl größer als {param} enthalten.',
     'greater_than_equal_to' => 'Das {field}-Formularfeld muss eine Zahl größer oder gleich {param} enthalten.',
     'hex'                   => 'Das {field}-Formularfeld darf nur hexadezimale Zeichen enthalten.',

@@ -12,6 +12,7 @@
 // Security language settings
 return [
     'disallowedAction' => 'Die von Ihnen gewünschte Aktion ist nicht zulässig.',
+    'insecureCookie'   => 'Es wurde versucht, ein sicheres Cookie über eine unsichere Verbindung zu senden.',
 
     // @deprecated
     'invalidSameSite' => 'Der SameSite-Wert muss None, Lax, Strict, oder ein leerer String sein. Aktueller Wert: {0}',
