@@ -11,5 +11,8 @@
 
 return [
     'disallowedAction' => 'Funktionen du efterfrågade är inte tillåten.',
-    'invalidSameSite'  => 'Inställningen SameSite måste vara None, Lax, Strict, eller en blank sträng. Givet: "{0}"',
+    'insecureCookie'   => 'Försökte att skicka en säker cookie över en icke säker förbindelse.',
+
+    // @deprecated
+    'invalidSameSite' => 'Inställningen SameSite måste vara None, Lax, Strict, eller en blank sträng. Givet: "{0}"',
 ];
