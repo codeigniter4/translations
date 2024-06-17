@@ -48,5 +48,10 @@
         "branch-alias": {
             "dev-develop": "4.x-dev"
         }
+    },
+    "scripts": {
+        "cs": "php-cs-fixer fix --ansi --verbose --dry-run --diff",
+        "cs-fix": "php-cs-fixer fix --ansi --verbose --diff",
+        "style": "@cs-fix"
     }
 }
