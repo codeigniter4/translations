@@ -14,5 +14,5 @@ return [
     'insecureCookie'   => 'Försökte att skicka en säker cookie över en icke säker förbindelse.',
 
     // @deprecated
-    'invalidSameSite'  => 'Inställningen SameSite måste vara None, Lax, Strict, eller en blank sträng. Givet: "{0}"',
+    'invalidSameSite' => 'Inställningen SameSite måste vara None, Lax, Strict, eller en blank sträng. Givet: "{0}"',
 ];
