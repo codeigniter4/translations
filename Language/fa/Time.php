@@ -29,5 +29,5 @@ return [
     'inFuture'       => 'در {0}',
     'yesterday'      => 'دیروز',
     'tomorrow'       => 'فردا',
-    'now'            => 'همین حالا',
+    'now'            => 'اکنون',
 ];
