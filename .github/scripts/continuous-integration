@@ -35,8 +35,8 @@ if ($event === '--pull-request') {
     $files = shell_exec('git diff --name-only --diff-filter=ACMRTUXB HEAD~..HEAD');
 }
 
-$isCIAffected    = strpos((string) $files, '.github/scripts/continuous-integration') !== false;
-$isBuildAffected = strpos((string) $files, '.github/workflows/build.yml') !== false;
+$isCIAffected    = str_contains((string) $files, '.github/scripts/continuous-integration');
+$isBuildAffected = str_contains((string) $files, '.github/workflows/build.yml');
 $isTestAffected  = preg_match('/tests\/Language\/(.+)Test(?:|Case)\.php/', $files) === 1;
 
 $files = str_replace(["\r\n", "\r"], "\n", $files);
