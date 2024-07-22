@@ -22,6 +22,7 @@ $finder = Finder::create()
         __FILE__,
         '.github/scripts/continuous-integration',
         '.github/scripts/update-license',
+        'bin/generate-changelog',
         'bin/generate-page',
         'bin/test',
         'bin/update-en-comments',
