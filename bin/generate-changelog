@@ -1,0 +1,162 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+/**
+ * This file is part of CodeIgniter 4 framework.
+ *
+ * (c) CodeIgniter Foundation <admin@codeigniter.com>
+ *
+ * For the full copyright and license information, please view
+ * the LICENSE file that was distributed with this source code.
+ */
+
+use CodeIgniter\CLI\CLI;
+use Translations\Tests\AbstractTranslationTestCase;
+
+require __DIR__ . '/../vendor/codeigniter4/codeigniter4/system/Test/bootstrap.php';
+
+if (! isset($argv[1]) || ! in_array($argv[1], ['--major', '--minor', '--patch'], true)) {
+    CLI::error(
+        'Please provide the tagging strategy for this release: --major, --minor, --patch.',
+        'light_gray',
+        'red'
+    );
+
+    exit(1);
+}
+
+if (! function_usable('exec')) {
+    CLI::error('The `exec()` function is needed but is disabled.', 'light_gray', 'red');
+
+    exit(1);
+}
+
+$resultCode = 0;
+/** @var list<string> $output */
+$output = [];
+
+exec('git describe --tags --abbrev=0 2>/dev/null', $output, $resultCode);
+
+if ($resultCode !== 0) {
+    CLI::error('Failed getting the latest tag.', 'light_gray', 'red');
+
+    exit($resultCode);
+}
+
+$latestTag = $output[0];
+/** @var list<string> $changelog */
+$changelog = [];
+
+exec(sprintf('git log --format=%%s %s...HEAD --reverse 2>/dev/null', $latestTag), $changelog, $resultCode);
+
+if ($resultCode !== 0) {
+    CLI::error('Failed getting the changelog from git.', 'light_gray', 'red');
+
+    exit($resultCode);
+}
+
+$localeChanges = [];
+$otherChanges  = [];
+
+$nextTag = preg_replace_callback(
+    '/^v(\d+)\.(\d+)\.(\d+)$/',
+    static function (array $matches) use ($argv): string {
+        switch ($argv[1]) {
+            case '--patch':
+                return sprintf('v%d.%d.%d', $matches[1], $matches[2], ++$matches[3]);
+
+            case '--minor':
+                return sprintf('v%d.%d.0', $matches[1], ++$matches[2]);
+
+            case '--major':
+                return sprintf('v%d.0.0', ++$matches[1]);
+        }
+    },
+    $latestTag
+);
+
+CLI::write(sprintf('Generating changelog for %s...', $nextTag), 'green');
+
+sleep(1); // for cinematic effect
+
+foreach ($changelog as $log) {
+    if (preg_match('/^\[([a-zA-Z-]+)\].+/', $log, $match) === 1) {
+        $locale = $match[1];
+
+        if (array_key_exists($locale, $localeChanges)) {
+            continue;
+        }
+
+        if (in_array($locale, AbstractTranslationTestCase::$locales, true)) {
+            $class = array_search($locale, AbstractTranslationTestCase::$locales, true);
+
+            if (! is_string($class)) {
+                continue;
+            }
+
+            $localeChanges[$locale] = preg_replace_callback(
+                '/\ATranslations\\\\Tests\\\\(\S+)TranslationTest\z/',
+                static fn (array $matches): string => preg_replace(
+                    '/(?<!^)((?=[\p{Lu}][^\p{Lu}])|(?<![\p{Lu}])(?=[\p{Lu}]))/u',
+                    ' ',
+                    $matches[1]
+                ),
+                $class
+            );
+
+            continue;
+        }
+    }
+
+    $otherChanges[] = $log;
+}
+
+ksort($localeChanges);
+
+CLI::write('Copy the following to the CHANGELOG.md file and edit the subheadings:', 'yellow');
+CLI::newLine();
+CLI::write(sprintf(
+    <<<'CHANGELOG'
+        ## [%1$s](https://github.com/codeigniter4/translations/compare/%2$s...%1$s) - %3$s
+
+        ### Changed
+
+        %4$s
+
+        ### Others
+
+        - %5$s
+        CHANGELOG,
+    $nextTag,
+    $latestTag,
+    (new DateTimeImmutable('now', new DateTimeZone('UTC')))->format('Y-m-d'),
+    implode("\n", array_map(
+        static fn (string $value, string $key): string => sprintf('- %s (%s)', $key, $value),
+        array_values($localeChanges),
+        array_keys($localeChanges)
+    )) ?: '- <none>',
+    implode("\n- ", $otherChanges) ?: '<none>'
+));
+
+sleep(1); // for cinematic effect
+
+CLI::newLine();
+CLI::write('For reference, here is the complete changelog:', 'yellow');
+CLI::write(sprintf('- %s', implode("\n- ", $changelog) ?: '<none>'));
+
+sleep(1); // for cinematic effect
+
+CLI::newLine();
+CLI::write('After editing the CHANGELOG.md file, execute the following commands.', 'green');
+CLI::write(implode("\n", [
+    'git add CHANGELOG.md',
+    sprintf('git commit -S -m "Prepare changelog for %s"', $nextTag),
+    'git push upstream develop',
+    'git switch master',
+    'git merge --ff develop',
+    'git push upstream master',
+    sprintf('git tag -s %1$s -m "CodeIgniter %1$s Translations"', $nextTag),
+    'git push upstream --tags',
+]));
