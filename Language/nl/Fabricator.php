@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 // Fabricator language settings
 return [
-    'invalidModel'      => 'Onjuist model gegeven for fabricatie.',
-    'missingFormatters' => 'Er zijn geen valide Formatters dedefineerd.',
-    'createFailed'      => 'Fabricator kon niet invoegen in de tabel "{0}": {1}',
+    'invalidModel'      => 'Onjuist model gegeven voor fabricatie.',
+    'missingFormatters' => 'Er zijn geen Geldige Formatters gedefinieerd.',
+    'createFailed'      => 'Fabricator kon geen rij invoegen in de tabel "{0}": {1}',
 ];
