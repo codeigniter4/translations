@@ -111,7 +111,7 @@ jobs:
 
       - name: Create Pull Request for Updated License
         if: failure() && steps.license.outputs.LICENSE_UPDATED == 'true' && github.event_name == 'push'
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: 'chore: update license year'
