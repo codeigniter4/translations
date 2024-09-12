@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -29,6 +31,7 @@ return [
     'differs'               => 'Поле {field} должно отличаться от поля {param}.',
     'equals'                => 'Поле {field} должно совпадать с полем {param}.',
     'exact_length'          => 'Поле {field} должно быть ровно {param} символов в длину.',
+    'field_exists'          => 'Поле {field} должно существовать.',
     'greater_than'          => 'Поле {field} должно содержать число, большее, чем {param}.',
     'greater_than_equal_to' => 'Поле {field} должно содержать число, большее или равное {param}.',
     'hex'                   => 'Поле {field} должно содержать только шестнадцатеричные символы.',
