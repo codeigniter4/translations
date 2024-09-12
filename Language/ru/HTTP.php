@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -19,6 +21,8 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '{0} не является допустимым типом согласования. Должен быть один из: media, charset, encoding, language.',
+    'invalidJSON'            => 'Не удалось разобрать строку JSON. Ошибка: {0}',
+    'unsupportedJSONFormat'  => 'Предоставленный формат JSON не поддерживается.',
 
     // Message
     'invalidHTTPProtocol' => 'Неверная версия протокола HTTP. Должно быть одно из следующих значений: {0}',

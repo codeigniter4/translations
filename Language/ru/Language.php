@@ -11,8 +11,7 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// "Language" language settings
 return [
-    'invalidLogLevel'    => '{0} - это недопустимый уровень ведения журнала.',
-    'invalidMessageType' => 'Данный тип сообщения "{0}" не поддерживается.',
+    'invalidMessageFormat' => 'Недопустимый формат сообщения: "{0}", аргументы: "{1}"',
 ];
