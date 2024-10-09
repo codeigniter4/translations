@@ -11,6 +11,8 @@
 
 // Files language settings
 return [
-    'fileNotFound' => 'Không tìm thấy tệp: {0} ',
-    'cannotMove'   => 'Không thể di chuyển tệp {0} sang {1} ({2})',
+    'fileNotFound'      => 'Không tìm thấy tệp: {0}',
+	'cannotMove'        => 'Không thể di chuyển tệp từ {0} đến {1} ({2}).',
+	'expectedDirectory' => '{0} yêu cầu một thư mục hợp lệ.',
+	'expectedFile'      => '{0} yêu cầu một tệp hợp lệ.',
 ];

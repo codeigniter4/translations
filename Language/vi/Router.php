@@ -11,6 +11,8 @@
 
 // Router language settings
 return [
-    'invalidParameter'    => 'Một tham số không phù hợp với loại dự kiến.',
-    'missingDefaultRoute' => 'Không thể xác định những gì sẽ được hiển thị. Một tuyến mặc định chưa được chỉ định trong tệp định tuyến (route).',
+    'invalidParameter'         => 'Một tham số không khớp với kiểu mong đợi.',
+	'missingDefaultRoute'      => 'Không thể xác định điều gì sẽ được hiển thị. Không có lộ trình mặc định nào được chỉ định trong tệp định tuyến.',
+	'invalidDynamicController' => 'Một bộ điều khiển động không được phép vì lý do bảo mật. Bộ xử lý lộ trình: {0}',
+	'invalidControllerName'    => 'Ký hiệu giới hạn không gian tên là dấu gạch chéo ngược (\), không phải dấu gạch chéo (/). Bộ xử lý lộ trình: {0}',
 ];

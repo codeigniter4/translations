@@ -9,8 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// "Language" language settings
 return [
-    'invalidLogLevel'    => '{0} là mức độ ghi nhật ký không hợp lệ.',
-	'invalidMessageType' => 'Loại ghi nhật ký được chỉ định "{0}" không được hỗ trợ.',
+    'invalidMessageFormat' => 'Định dạng tin nhắn không hợp lệ: "{0}", Tham số: "{1}"',
 ];
