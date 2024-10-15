@@ -12,5 +12,5 @@
 // Filters language settings
 return [
     'noFilter'           => 'Phải định nghĩa một bí danh phù hợp cho bộ lọc {0}.',
-	'incorrectInterface' => '{0} phải triển khai CodeIgniter\Filters\FilterInterface.',
+    'incorrectInterface' => '{0} phải triển khai CodeIgniter\Filters\FilterInterface.',
 ];

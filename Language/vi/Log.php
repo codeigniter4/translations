@@ -12,5 +12,5 @@
 // Log language settings
 return [
     'invalidLogLevel'    => '{0} là mức độ ghi nhật ký không hợp lệ.',
-	'invalidMessageType' => 'Loại ghi nhật ký được chỉ định "{0}" không được hỗ trợ.',
+    'invalidMessageType' => 'Loại ghi nhật ký được chỉ định "{0}" không được hỗ trợ.',
 ];

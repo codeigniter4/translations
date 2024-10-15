@@ -12,6 +12,6 @@
 // Fabricator language strings
 return [
     'invalidModel'      => 'Model không hợp lệ đã được chuyển đến Fabricator.',
-	'missingFormatters' => 'Không có định dạng hợp lệ nào được định nghĩa.',
-	'createFailed'      => 'Fabricator không thể chèn {1} vào bảng {0}.',
+    'missingFormatters' => 'Không có định dạng hợp lệ nào được định nghĩa.',
+    'createFailed'      => 'Fabricator không thể chèn {1} vào bảng {0}.',
 ];

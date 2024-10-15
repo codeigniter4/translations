@@ -12,7 +12,7 @@
 // Errors language settings
 return [
     'pageNotFound'    => '404 - Không tìm thấy trang',
-	'sorryCannotFind' => 'Xin lỗi! Trang yêu cầu không thể tìm thấy.',
-	'whoops'          => 'Ôi!',
-	'weHitASnag'      => 'Chúng tôi gặp phải một vấn đề. Vui lòng thử lại sau...',
+    'sorryCannotFind' => 'Xin lỗi! Trang yêu cầu không thể tìm thấy.',
+    'whoops'          => 'Ôi!',
+    'weHitASnag'      => 'Chúng tôi gặp phải một vấn đề. Vui lòng thử lại sau...',
 ];
