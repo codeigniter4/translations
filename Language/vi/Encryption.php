@@ -11,10 +11,10 @@
 
 // Encryption language settings
 return [
-    'noDriverRequested'    => 'Không tìm thấy ổ đĩa yêu cầu, Mr XuanDung38 rất thất vọng!',
-    'noHandlerAvailable'   => 'Không thể tìm thấy trình xử lý mã hóa {0}.',
-    'unKnownHandler'       => '"{0}" không thể cấu hình.',
-    'starterKeyNeeded'     => 'Trình mã hoá cần một khóa khởi động.',
-    'authenticationFailed' => 'Giải mã: xác thực thất bại.',
+    'noDriverRequested'    => 'Không tìm thấy ổ đĩa yêu cầu.',
+    'noHandlerAvailable'   => 'Không tìm thấy trình xử lý mã hóa {0} nào.',
+    'unKnownHandler'       => 'Không thể cấu hình "{0}".',
+    'starterKeyNeeded'     => 'Bộ mã hóa cần một khóa khởi động.',
+    'authenticationFailed' => 'Giải mã: Xác thực thất bại.',
     'encryptionFailed'     => 'Mã hóa thất bại.',
 ];

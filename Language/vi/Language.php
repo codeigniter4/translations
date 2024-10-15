@@ -9,8 +9,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Filters language settings
+// "Language" language settings
 return [
-    'noFilter'           => 'Phải định nghĩa một bí danh phù hợp cho bộ lọc {0}.',
-    'incorrectInterface' => '{0} phải triển khai CodeIgniter\Filters\FilterInterface.',
+    'invalidMessageFormat' => 'Định dạng tin nhắn không hợp lệ: "{0}", Tham số: "{1}"',
 ];

@@ -11,9 +11,13 @@
 
 // Cast language settings
 return [
-    'jsonErrorDepth'    => 'Vượt quá độ sâu xếp chồng tối đa.',
-    'jsonErrorCtrlChar' => 'Tìm thấy ký tự kiểm soát không mong muốn',
-    'jsonErrorSyntax'   => 'Lỗi cú pháp, lỗi định dạng JSON.',
-    'jsonErrorUtf8'     => 'Các ký tự UTF-8 không đúng định dạng, có thể được mã hóa không chính xác',
-    'jsonErrorUnknown'  => 'Không thể nhận biết lỗi',
+    'baseCastMissing'        => 'Lớp "{0}" phải kế thừa từ lớp "CodeIgniter\Entity\Cast\BaseCast".',
+    'invalidCastMethod'      => '"{0}" là phương thức ép kiểu không hợp lệ, các phương thức hợp lệ là: ["get", "set"].',
+    'invalidTimestamp'       => 'Ép kiểu "timestamp" yêu cầu một dấu thời gian hợp lệ.',
+    'jsonErrorCtrlChar'      => 'Lỗi ký tự điều khiển, có thể mã hóa sai.',
+    'jsonErrorDepth'         => 'Đã vượt quá độ sâu tối đa của ngăn xếp.',
+    'jsonErrorStateMismatch' => 'Tràn bộ đệm hoặc không khớp trạng thái.',
+    'jsonErrorSyntax'        => 'Lỗi cú pháp, JSON không hợp lệ.',
+    'jsonErrorUnknown'       => 'Lỗi không xác định.',
+    'jsonErrorUtf8'          => 'Ký tự UTF-8 không hợp lệ, có thể mã hóa sai.',
 ];

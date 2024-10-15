@@ -11,10 +11,11 @@
 
 // View language settings
 return [
-    'invalidCellMethod'     => '{class}::{method} không phải là một method hợp lệ.',
-    'missingCellParameters' => '{class}::{method} không có thông số.',
-    'invalidCellParameter'  => '{0} không phải là một tên param hợp lệ.',
-    'noCellClass'           => 'Không có loại ô xem được cung cấp.',
-    'invalidCellClass'      => 'Không thể định vị lớp ô xem: {0}.',
-    'tagSyntaxError'        => 'Bạn có một lỗi cú pháp trong các thẻ Parser của bạn: {0}',
+    'invalidCellMethod'     => '{class}::{method} không phải là một phương thức hợp lệ.',
+    'missingCellParameters' => '{class}::{method} không có tham số.',
+    'invalidCellParameter'  => '{0} không phải là một tên tham số hợp lệ.',
+    'noCellClass'           => 'Không có lớp View cell nào được chỉ định.',
+    'invalidCellClass'      => 'Không tìm thấy lớp View cell: {0}.',
+    'tagSyntaxError'        => 'Lỗi cú pháp trong các thẻ Parser: {0}',
+    'invalidDecoratorClass' => '{0} không phải là một View Decorator hợp lệ.',
 ];

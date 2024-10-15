@@ -11,8 +11,8 @@
 
 // Cache language settings
 return [
-    'unableToWrite'   => 'Bộ nhớ cache không thể ghi vào {0}',
-    'invalidHandlers' => 'Cấu hình bộ đệm phải có một mảng $validHandlers.',
-    'noBackup'        => 'Cấu hình bộ đệm phải có bộ xử lý và backupHandler.',
-    'handlerNotFound' => 'Cấu hình bộ đệm có trình xử lý không hợp lệ hoặc trình xử lý sao lưu được chỉ định.',
+    'unableToWrite'   => 'Không thể ghi cache vào {0}',
+    'invalidHandlers' => '$validHandlers phải chứa một mảng cấu hình cache.',
+    'noBackup'        => 'Cấu hình cache phải có một trình xử lý và một trình xử lý dự phòng.',
+    'handlerNotFound' => 'Có một trình xử lý hoặc trình xử lý dự phòng không hợp lệ trong cấu hình cache.',
 ];

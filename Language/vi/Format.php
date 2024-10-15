@@ -11,6 +11,8 @@
 
 // Format language settings
 return [
-    'invalidJSON'      => 'Không thể phân tích chuỗi json, lỗi: "{0}".',
-    'missingExtension' => 'Phần mở rộng SimpleXML là bắt buộc để định dạng XML.',
+    'invalidFormatter' => '"{0}" không phải là một lớp định dạng hợp lệ.',
+    'invalidJSON'      => 'Chuỗi JSON không thể được phân tích. Lỗi: "{0}".',
+    'invalidMime'      => 'Không có định dạng nào được định nghĩa cho loại MIME: "{0}".',
+    'missingExtension' => 'Tiện ích mở rộng SimpleXML cần thiết để định dạng XML.',
 ];
