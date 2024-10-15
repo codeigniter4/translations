@@ -21,7 +21,7 @@ final class VietnameseTranslationTest extends AbstractTranslationTestCase
         // The keys of this locale that do not differ from the english value even if translated.
         $this->excludedLocaleKeyTranslations = [
             'Migrations.batch',
-            'Migrations.version'
+            'Migrations.version',
         ];
     }
 }
