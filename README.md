@@ -66,10 +66,11 @@ claims no expertise beyond English.
 | sk     | Slovak              | 4.0.0   | [xbotkaj][sk]         | Jozef Botka
 | sr     | Serbian             | 4.3.1   | [nebojsajsimic][sr]   | Nebojša Simić
 | sv-SE  | Swedish - Sweden    | 4.0.3   | [tangix][sv-SE]       | Mattias Sandström
+| ta     | Tamil               | 4.5.1   | [darthleslin][ta]     | Leslin
 | th     | Thai                | 4.1.4   | [karidoe][th]         | Anuchit Thiamuan
 | tr     | Turkish             | 4.0.0   | [obozdag][tr]         | obozdag
 | uk     | Ukrainian           | 4.0.3   | [flybot][uk]          | Serhii Kosyi
-| vi     | Vietnamese          | 4.0.3   | [xuandung38][vi]      | XuanDung38
+| vi     | Vietnamese          | 4.5.5   | [tuyenht][vi]      	 | TuyenHT
 | zh-CN  | Simplified Chinese  | 4.0.0   | [bangbangda][zh-CN]   | bangbangda
 | zh-TW  | Traditional Chinese | 4.0.0   | [monkenWu][zh-TW]     | monkenWu
 
@@ -103,10 +104,11 @@ _**Version where the locale was released. 4.x denotes `Unreleased`._
 [sk]: https://github.com/xbotkaj
 [sr]: https://github.com/nebojsajsimic
 [sv-SE]: https://github.com/tangix
+[ta]: https://github.com/darthleslin
 [th]: https://github.com/karidoe
 [tr]: https://github.com/obozdag
 [uk]: https://github.com/flybot
-[vi]: https://github.com/xuandung38
+[vi]: https://github.com/tuyenht
 [zh-CN]: https://github.com/bangbangda
 [zh-TW]: https://github.com/monkenWu
 

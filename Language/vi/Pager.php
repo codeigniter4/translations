@@ -16,8 +16,8 @@ return [
     'previous'               => 'Trước',
     'next'                   => 'Kế tiếp',
     'last'                   => 'Cuối cùng',
-    'older'                  => 'Lớn hơn',
+    'older'                  => 'Cũ hơn',
     'newer'                  => 'Mới hơn',
-    'invalidTemplate'        => '{0} không phải là mẫu Pager hợp lệ.',
+    'invalidTemplate'        => '{0} không phải là một mẫu phân trang hợp lệ.',
     'invalidPaginationGroup' => '{0} không phải là một nhóm phân trang hợp lệ.',
 ];

@@ -22,28 +22,25 @@ $finder = Finder::create()
         __FILE__,
         '.github/scripts/continuous-integration',
         '.github/scripts/update-license',
+        'bin/generate-changelog',
+        'bin/generate-page',
         'bin/test',
+        'bin/update-en-comments',
     ]);
 
 $overrides = [];
 
 $options = [
-    'finder'     => $finder,
-    'usingCache' => true,
+    'finder'       => $finder,
+    'usingCache'   => true,
+    'customFixers' => FixerGenerator::create('vendor/nexusphp/cs-config/src/Fixer', 'Nexus\\CsConfig\\Fixer'),
+    'customRules'  => [
+        NoCodeSeparatorCommentFixer::name() => true,
+    ],
 ];
 
-$config = Factory::create(new CodeIgniter4(), $overrides, $options)->forLibrary(
+return Factory::create(new CodeIgniter4(), $overrides, $options)->forLibrary(
     'CodeIgniter 4 framework',
     'CodeIgniter Foundation',
     'admin@codeigniter.com'
 );
-
-if (PHP_VERSION_ID >= 80000) { // @TODO: remove this check when support for PHP 7.4 is dropped
-    $config
-        ->registerCustomFixers(FixerGenerator::create('vendor/nexusphp/cs-config/src/Fixer', 'Nexus\\CsConfig\\Fixer'))
-        ->setRules(array_merge($config->getRules(), [
-            NoCodeSeparatorCommentFixer::name() => true,
-        ]));
-}
-
-return $config;

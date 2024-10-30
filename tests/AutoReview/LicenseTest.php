@@ -11,15 +11,15 @@
 
 namespace Translations\Tests\AutoReview;
 
+use PHPUnit\Framework\Attributes\CoversNothing;
+use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\TestCase;
 
 /**
  * @internal
- *
- * @coversNothing
- *
- * @group license-review
  */
+#[CoversNothing]
+#[Group('license-review')]
 final class LicenseTest extends TestCase
 {
     public function testLicenseCopyrightYearIsUpdated(): void

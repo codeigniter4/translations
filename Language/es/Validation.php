@@ -29,6 +29,7 @@ return [
     'differs'               => 'El campo {field} debe diferir del campo {param}.',
     'equals'                => 'El campo {field} debe ser exactamente: {param}.',
     'exact_length'          => 'El campo {field} debe tener exactamente {param} caractéres de longitud.',
+    'field_exists'          => 'El campo {field} debe existir.',
     'greater_than'          => 'El campo {field} debe contener un número mayor que {param}.',
     'greater_than_equal_to' => 'El campo {field} debe contener un número mayor o igual a {param}.',
     'hex'                   => 'El campo {field} solo puede contener caracteres hexadecimales.',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -26,8 +28,9 @@ return [
             'filter'     => 'Имя класса фильтра',
             'migration'  => 'Имя класса миграции',
             'model'      => 'Имя класса модели',
-            'seeder'     => 'Имя класса Seeder `а',
-            'validation' => 'Имя класса валидации', // TODO: проверки???
+            'seeder'     => 'Имя класса Seeder`а',
+            'test'       => 'Имя тестового класса',
+            'validation' => 'Имя класса валидации', // TODO: проверки??? - Честно хз, но я оставил перевод оригиналного слова =D
         ],
         'commandType'      => 'Тип команды',
         'databaseGroup'    => 'Группа базы данных',

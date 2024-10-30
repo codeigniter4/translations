@@ -29,6 +29,7 @@ return [
     'differs'               => '{field} 필드는 {param} 필드와 서로 달라야 합니다.', // 'The {field} field must differ from the {param} field.'
     'equals'                => '{field} 필드와 {param} 필드는 서로 같아야 합니다.', // 'The {field} field must be exactly: {param}.'
     'exact_length'          => '{field} 필드의 길이는 {param} 이어야 합니다.', // 'The {field} field must be exactly {param} characters in length.'
+    'field_exists'          => '{field} 필드가 필요합니다.', // 'The {field} field must exist.'
     'greater_than'          => '{field} 필드 값은 {param}보다 커야 합니다.', // 'The {field} field must contain a number greater than {param}.'
     'greater_than_equal_to' => '{field} 필드 값은 {param} 이상이어야 합니다.', // 'The {field} field must contain a number greater than or equal to {param}.'
     'hex'                   => '{field} 필드에는 16진수만 포함할 수 있습니다.', // 'The {field} field may only contain hexadecimal characters.'
