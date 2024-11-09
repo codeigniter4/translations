@@ -21,6 +21,6 @@ return [
     'thousand'    => ' ngàn',
     'million'     => ' triệu',
     'billion'     => ' tỷ',
-    'trillion'    => ' ngìn tỷ',
+    'trillion'    => ' nghìn tỷ',
     'quadrillion' => ' triệu tỷ',
 ];

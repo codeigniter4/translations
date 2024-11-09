@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -11,7 +9,7 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// RESTful language settings
+// "Language" language settings
 return [
-    'notImplemented' => '"{0}" действие не реализовано.',
+    'invalidMessageFormat' => 'Định dạng tin nhắn không hợp lệ: "{0}", Tham số: "{1}"',
 ];
