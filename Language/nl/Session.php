@@ -17,6 +17,6 @@ return [
     'emptySavePath'          => 'Session: Geen "save" pad opgegeven.',
     'invalidSavePathFormat'  => 'Session: Ongeldig Redis pad formaat: {0}',
 
-     // @deprecated
-     'invalidSameSiteSetting' => 'Session: De SameSite setting mag alleen None, Lax, Strict, or a een lege string zijn. Gegeven: "{0}"',
+    // @deprecated
+    'invalidSameSiteSetting' => 'Session: De SameSite setting mag alleen None, Lax, Strict, or a een lege string zijn. Gegeven: "{0}"',
 ];
