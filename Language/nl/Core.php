@@ -12,7 +12,7 @@
 // Core language settings
 return [
     'copyError'                     => 'Er heeft zich een fout voorgedaan bij het vervangen van bestand({0}). Verifieer of de folder schrijfbaar is.',
-    'enabledZlibOutputCompregssion' => 'De instelling zlib.output_compression ini directive is ingeschakeld. Dit werkt niet goed met buffers.',
+    'enabledZlibOutputCompression'  => 'De instelling zlib.output_compression ini directive is ingeschakeld. Dit werkt niet goed met buffers.',
     'invalidFile'                   => 'Ongeldig bestand: {0}',
     'invalidDirectory'              => 'Directory bestaat niet: "{0}"',
     'invalidPhpVersion'             => 'De PHP versie moet {0} of hoger zijn om CodeIgniter te kunnen uitvoeren. Huidige versie: {1}',
