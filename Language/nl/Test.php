@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -9,8 +11,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// Testing language settings
 return [
-    'invalidLogLevel'    => '{0} is een ongeldig log level.',
-    'invalidMessageType' => 'Het type bericht "{0}" is niet ondersteund.',
+    'invalidMockClass' => '"{0}" is geen geldige Mock class.',
 ];
