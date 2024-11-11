@@ -15,6 +15,7 @@ return [
     'invalidArgument'                  => 'U moet een geldige {0} voorzien.',
     'invalidAllowedFields'             => 'Toegelaten velden moeten opgegeven worden voor Model: {0}',
     'emptyDataset'                     => 'Geen data voor {0}.',
+    'emptyPrimaryKey'                  => 'Er is geen primary key gedefinieerd voor het aanmaken van {0}.',
     'failGetFieldData'                 => 'Kon geen veld-data ophalen uit de database.',
     'failGetIndexData'                 => 'Kon geen index-data ophalen uit de database.',
     'failGetForeignKeyData'            => 'Kon geen foreign-key-data ophalen uit de database.',
@@ -26,4 +27,5 @@ return [
     'fieldNotExists'                   => 'Veld `{0}` niet gevonden.',
     'forEmptyInputGiven'               => 'Leeg statement opgegeven voor veld `{0}`',
     'forFindColumnHaveMultipleColumns' => 'Slechts één kolom toegestaan in kolomnaam.',
+    'methodNotAvailable'               => 'Kan functie "{1}" in "{0}" niet gebruiken. Dit is een functie van de builder class.',
 ];
