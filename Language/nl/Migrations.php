@@ -29,10 +29,10 @@ return [
     'migHelpRefresh'  => "\t\tVerwijdert al de migraties en voert ze opnieuw uit, database refresh.",
     'migHelpSeed'     => "\tVoert seeder uit met naam [name].",
     'migCreate'       => "\tMaakt een nieuwe migratie aan met de naam [name]",
-    'nameMigration'     => 'Geeft het migratiebestand een naam',
+    'nameMigration'   => 'Geeft het migratiebestand een naam',
     'migNumberError'  => 'Migratie cijfer moet 3 cijfers bevatten, en er mag geen gat zijn in de sequentie.',
-    'rollBackConfirm'   => 'Weet u zeker dat u de rollback wilt starten?',
-    'refreshConfirm'    => 'Weet u zeker dat u de refresh wilt starten?',
+    'rollBackConfirm' => 'Weet u zeker dat u de rollback wilt starten?',
+    'refreshConfirm'  => 'Weet u zeker dat u de refresh wilt starten?',
 
     'latest'            => 'Al de migraties worden uitgevoerd...',
     'generalFault'      => 'Migratie gefaald!',
@@ -47,12 +47,12 @@ return [
     'nameSeeder'        => 'Geef naam voor het seeder bestand',
     'removed'           => 'Ongedaan maken (rollback): ',
     'added'             => 'Uitvoeren: ',
-    
+
     // Migrate Status
-    'namespace'         => 'Namespace',
-    'filename'          => 'Bestandsnaam',
-    'version'           => 'Versie',
-    'group'             => 'Groep',
-    'on'                => 'Gemigreerd op: ',
-    'batch'             => 'Batch',
+    'namespace' => 'Namespace',
+    'filename'  => 'Bestandsnaam',
+    'version'   => 'Versie',
+    'group'     => 'Groep',
+    'on'        => 'Gemigreerd op: ',
+    'batch'     => 'Batch',
 ];
