@@ -41,7 +41,7 @@ final class TranslationsCodeTest extends TestCase
         foreach ($this->locales() as $locale) {
             $this->assertSame(1, preg_match(sprintf('/\| %s \s+\|/', $locale), $readme), sprintf(
                 'The locale "%s" is not found in the README.md file. Please add it.',
-                $locale
+                $locale,
             ));
         }
     }
@@ -53,7 +53,7 @@ final class TranslationsCodeTest extends TestCase
         foreach ($this->locales() as $locale) {
             $this->assertSame(0, preg_match(sprintf('/\| %s \s+\|/', $locale), $missing), sprintf(
                 'The locale "%s" is already translated and should no longer be found in MISSING.md file.',
-                $locale
+                $locale,
             ));
         }
     }
@@ -79,7 +79,7 @@ final class TranslationsCodeTest extends TestCase
         if ($contents === false) {
             $this->fail(sprintf(
                 'Failed to get the contents of %s. It is either not found or not readable.',
-                basename($filepath)
+                basename($filepath),
             ));
         }
 
