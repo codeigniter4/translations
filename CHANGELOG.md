@@ -5,6 +5,18 @@ All notable changes to this library will be documented in this file:
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v4.5.4](https://github.com/codeigniter4/translations/compare/v4.5.3...v4.5.4) - 2024-11-15
+
+### Changed
+
+- nl (Dutch)
+- ru (Russian)
+- vi (Vietnamese)
+
+### Others
+
+- chore(deps): bump peter-evans/create-pull-request from 6 to 7 (#468)
+
 ## [v4.5.3](https://github.com/codeigniter4/translations/compare/v4.5.2...v4.5.3) - 2024-07-25
 
 ### Added

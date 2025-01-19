@@ -11,6 +11,7 @@
 
 // Time language settings
 return [
+    'invalidFormat'  => '"{0}" is een ongeldig datetime formaat',
     'invalidMonth'   => 'Maand moet vallen tussen 1 en 12. Opgegeven: {0}',
     'invalidDay'     => 'Dag moet vallen tussen 1 end 31. Opgegeven: {0}',
     'invalidOverDay' => 'Dag moet vallen tussen 1 end {0}. Opgegeven: {1}',

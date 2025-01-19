@@ -19,6 +19,8 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '{0} is geen geldig negotiation type. Moet één van de volgende zijn: media, charset, encoding, language.',
+    'invalidJSON'            => 'Kon de JSON string niet verwerken. Fout: {0}',
+    'unsupportedJSONFormat'  => 'Het gegeven JSON formaat wordt niet ondersteund.',
 
     // Message
     'invalidHTTPProtocol' => 'Ongeldige HTTP Protocol Version. Moet één van de volgende zijn: {0}',
@@ -42,19 +44,20 @@ return [
     'unknownStatusCode'     => 'Ongekende HTTP status code opgegeven met geen bericht: {0}',
 
     // URI
-    'cannotParseURI'       => 'URI kan niet worden geparsed: {0}',
+    'cannotParseURI'       => 'URI kan niet worden verwerkt: {0}',
     'segmentOutOfRange'    => 'Request URI segment valt niet in bereik: {0}',
     'invalidPort'          => 'Poort moet tussen 0 en 65535 vallen. Opgegeven: {0}',
     'malformedQueryString' => 'Query strings mogen geen URI fragmenten bevatten.',
 
     // Page Not Found
     'pageNotFound'       => 'Pagina niet gevonden',
-    'emptyController'    => 'Geen Controller gespecifieerd.',
+    'emptyController'    => 'Geen Controller gespecificeerd.',
     'controllerNotFound' => 'Controller of methode niet gevonden: {0}::{1}',
     'methodNotFound'     => 'Controller methode niet gevonden: {0}',
+    'localeNotSupported' => 'Locale word niet ondersteund: {0}',
 
     // CSRF
-    'disallowedAction' => 'De actie die u opvraagt is niet toegalaten.',
+    'disallowedAction' => 'De actie die u opvraagt is niet toegelaten.',
 
     // Uploaded file moving
     'alreadyMoved' => 'Het upload bestand is reeds verplaatst.',
@@ -70,4 +73,8 @@ return [
     'uploadErrNoTmpDir'  => 'Bestand kon niet worden geüpload: ontbrekende tijdelijke folder.',
     'uploadErrExtension' => 'Bestand upload werd gestopt door een PHP extensie.',
     'uploadErrUnknown'   => 'Het bestand "%s" kon niet worden geüpload door een ongekende fout.',
+
+    // SameSite setting
+    // @deprecated
+    'invalidSameSiteSetting' => 'The SameSite instelling moet zijn: None, Lax, Strict, of een lege string. Gegeven: {0}',
 ];
