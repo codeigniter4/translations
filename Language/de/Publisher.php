@@ -16,7 +16,8 @@ return [
     'fileNotAllowed'        => '{0} erfüllt die folgende Einschränkung für {1} nicht: {2}',
 
     // Publish Command
-    'publishMissing' => 'Es konnten keine Publisher-Klassen in {0} in allen Namensräumen detektiert werden.',
-    'publishSuccess' => '{0} hat {1} Datei(en) nach {2} publiziert.',
-    'publishFailure' => '{0} konnte nicht nach {1} publiziert werden!',
+    'publishMissing'          => 'Es konnten keine Publisher-Klassen in {0} in allen Namensräumen gefunden werden.',
+    'publishMissingNamespace' => 'Es konnten keine Publisher-Klassen in {0} im {1} namespace gefunden werden.',
+    'publishSuccess'          => '{0} hat {1} Datei(en) nach {2} publiziert.',
+    'publishFailure'          => '{0} konnte nicht nach {1} publiziert werden!',
 ];
