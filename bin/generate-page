@@ -59,7 +59,7 @@ $enFiles = get_filenames(
     $enDir,
     true,
     false,
-    false
+    false,
 );
 
 $enItems = [];
@@ -112,7 +112,7 @@ foreach ($locales as $localeKey => $locale) {
         $langDir,
         true,
         false,
-        false
+        false,
     );
 
     $items[$locale] = [
@@ -121,9 +121,9 @@ foreach ($locales as $localeKey => $locale) {
             static fn (array $matches): string => preg_replace(
                 '/(?<!^)((?=[\p{Lu}][^\p{Lu}])|(?<![\p{Lu}])(?=[\p{Lu}]))/u',
                 ' ',
-                $matches[1]
+                $matches[1],
             ),
-            $localeKey
+            $localeKey,
         ),
         'locale'     => $locale,
         'percent'    => 0,
