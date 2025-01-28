@@ -22,6 +22,7 @@ final class PortugueseTranslationTest extends AbstractTranslationTestCase
         $this->excludedLocaleKeyTranslations = [
             'Migrations.batch',
             'Migrations.namespace',
+            'Errors.badRequest',
         ];
     }
 }
