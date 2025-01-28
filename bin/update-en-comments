@@ -46,14 +46,14 @@ $files = get_filenames(
     $langDir,
     true,
     false,
-    false
+    false,
 );
 
 $enFiles = get_filenames(
     $enDir,
     true,
     false,
-    false
+    false,
 );
 
 foreach ($enFiles as $enFile) {

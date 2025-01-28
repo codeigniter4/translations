@@ -13,7 +13,7 @@
 return [
     'invalidExpiresTime'    => '"Expires" 属性のタイプ "{0}" が無効です。期待される値は文字列、整数、DateTimeInterface オブジェクトです。', // 'Invalid "{0}" type for "Expires" attribute. Expected: string, integer, DateTimeInterface object.'
     'invalidExpiresValue'   => 'クッキーの有効期限が無効です。', // 'The cookie expiration time is not valid.'
-    'invalidCookieName'     => 'クッキー名 "{0}" が不正な文字が含まれています。', // 'The cookie name "{0}" contains invalid characters.'
+    'invalidCookieName'     => 'クッキー名 "{0}" が不正な文字を含んでいます。', // 'The cookie name "{0}" contains invalid characters.'
     'emptyCookieName'       => 'クッキー名を空にすることはできません。', // 'The cookie name cannot be empty.'
     'invalidSecurePrefix'   => '接頭辞 "__Secure-" を使用するには "Secure" 属性を設定する必要があります。', // 'Using the "__Secure-" prefix requires setting the "Secure" attribute.'
     'invalidHostPrefix'     => '接頭辞 "__Host-" を使用するには "Secure" フラグを設定し、"Domain" 属性を持ち、"Path" を "/" に設定する必要があります。', // 'Using the "__Host-" prefix must be set with the "Secure" flag, must not have a "Domain" attribute, and the "Path" is set to "/".'

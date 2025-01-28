@@ -72,4 +72,5 @@ return [
     'mime_in'  => 'Das {field}-Formularfeld enthält keinen gültigen Mime-Typ.',
     'ext_in'   => 'Das {field}-Formularfeld enthält keine gültige Dateiendung.',
     'max_dims' => 'Das {field}-Formularfeld enthält entweder kein Bild, oder es ist zu breit oder zu hoch.',
+    'min_dims' => 'Das {field}-Formularfeld enthält entweder kein Bild, oder es ist zu wenig breit oder zu wenig hoch.',
 ];

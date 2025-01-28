@@ -21,7 +21,7 @@ if (! isset($argv[1]) || ! in_array($argv[1], ['--major', '--minor', '--patch'],
     CLI::error(
         'Please provide the tagging strategy for this release: --major, --minor, --patch.',
         'light_gray',
-        'red'
+        'red',
     );
 
     exit(1);
@@ -74,7 +74,7 @@ $nextTag = preg_replace_callback(
                 return sprintf('v%d.0.0', ++$matches[1]);
         }
     },
-    $latestTag
+    $latestTag,
 );
 
 CLI::write(sprintf('Generating changelog for %s...', $nextTag), 'green');
@@ -101,9 +101,9 @@ foreach ($changelog as $log) {
                 static fn (array $matches): string => preg_replace(
                     '/(?<!^)((?=[\p{Lu}][^\p{Lu}])|(?<![\p{Lu}])(?=[\p{Lu}]))/u',
                     ' ',
-                    $matches[1]
+                    $matches[1],
                 ),
-                $class
+                $class,
             );
 
             continue;
@@ -135,9 +135,9 @@ CLI::write(sprintf(
     implode("\n", array_map(
         static fn (string $value, string $key): string => sprintf('- %s (%s)', $key, $value),
         array_values($localeChanges),
-        array_keys($localeChanges)
+        array_keys($localeChanges),
     )) ?: '- <none>',
-    implode("\n- ", $otherChanges) ?: '<none>'
+    implode("\n- ", $otherChanges) ?: '<none>',
 ));
 
 sleep(1); // for cinematic effect
