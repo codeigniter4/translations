@@ -16,7 +16,8 @@ return [
     'fileNotAllowed'        => '"{0}" falha as seguintes restrições "{1}": {2}',
 
     // Publish Command
-    'publishMissing' => 'Nenhuma classe Publisher detetada em {0} em todos namespaces.',
-    'publishSuccess' => '"{0}" publicou {1} ficheiro(s) para "{2}".',
-    'publishFailure' => '"{0}" falhou a publicar para "{1}".',
+    'publishMissing'          => 'Nenhuma classe Publisher detetada em {0} em todos namespaces.',
+    'publishMissingNamespace' => 'Nenhuma classe Publisher detetada em {0} no namespace {1}.',
+    'publishSuccess'          => '"{0}" publicou {1} ficheiro(s) para "{2}".',
+    'publishFailure'          => '"{0}" falhou a publicar para "{1}".',
 ];
