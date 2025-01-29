@@ -58,7 +58,7 @@ claims no expertise beyond English.
 | nl     | Dutch               | 4.0.3   | [JohanSmolders][nl]   | JohanSmolders
 | no     | Norwegian           | 4.0.0   | [LA3QMA][no]          | Kai Günter Brandt
 | pl     | Polish              | 4.0.0   | [DEVELPL][pl]         | Maciej Jasiewicz
-| pt     | Portuguese          | 4.0.0   | [Nerexbcd][pt]         | Abílio Páscoa
+| pt     | Portuguese          | 4.0.0   | [Nerexbcd][pt]        | Abílio Páscoa
 | pt-BR  | Brazilian           | 4.0.0   | [natanfelles][pt-BR]  | Natan Felles
 | ro     | Romanian            | 4.2.1   | [ed3][ro]             | Ed
 | ru     | Russian             | 4.0.0   | [DigitalWolf98][ru]   | Vladislav Rykhtikov
