@@ -16,7 +16,8 @@ return [
     'fileNotAllowed'        => '"{0}" no cumple con la siguiente restricción para "{1}": {2}', // '"{0}" fails the following restriction for "{1}": {2}',
 
     // Publish Command
-    'publishMissing' => 'No se detectaron clases de editor en {0} en todos los espacios de nombres.', // 'No Publisher classes detected in {0} across all namespaces.',
-    'publishSuccess' => '"{0}" publicó {1} archivo(s) en "{2}".', // '"{0}" published {1} file(s) to "{2}".',
-    'publishFailure' => '"{0}" no pudo publicar en "{1}".', // '"{0}" failed to publish to "{1}".',
+    'publishMissing'          => 'No se detectaron clases de editor en {0} en todos los espacios de nombres.', // 'No Publisher classes detected in {0} across all namespaces.',
+    'publishMissingNamespace' => 'No se detectaron clases de editor en {0} en el espacio de nombres {1}.', // 'No Publisher classes detected in {0} in the {1} namespace.',
+    'publishSuccess'          => '"{0}" publicó {1} archivo(s) en "{2}".', // '"{0}" published {1} file(s) to "{2}".',
+    'publishFailure'          => '"{0}" no pudo publicar en "{1}".', // '"{0}" failed to publish to "{1}".',
 ];
