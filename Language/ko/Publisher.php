@@ -16,7 +16,8 @@ return [
     'fileNotAllowed'        => '"{0}"은(는) "{1}"제한에 의해 실패했습니다. ("{2}")', // '"{0}" fails the following restriction for "{1}": {2}'
 
     // Publish Command
-    'publishMissing' => '모든 네임스페이스에서 {0} 클래스를 찾지 못했습니다.', // 'No Publisher classes detected in {0} across all namespaces.'
-    'publishSuccess' => '"{0}"가 {1} 파일들을 "{2}"에 게시했습니다.', // '"{0}" published {1} file(s) to "{2}".'
-    'publishFailure' => '"{0}"가 "{1}"에 게시하지 못했습니다!', // '"{0}" failed to publish to "{1}".'
+    'publishMissing'          => '모든 네임스페이스에서 {0} 클래스를 찾지 못했습니다.', // 'No Publisher classes detected in {0} across all namespaces.'
+    'publishMissingNamespace' => '{1} 네임스페이스의 {0}에서 클래스가 감지되지 않았습니다.', // 'No Publisher classes detected in {0} in the {1} namespace.'
+    'publishSuccess'          => '"{0}"가 {1} 파일들을 "{2}"에 게시했습니다.', // '"{0}" published {1} file(s) to "{2}".'
+    'publishFailure'          => '"{0}"가 "{1}"에 게시하지 못했습니다!', // '"{0}" failed to publish to "{1}".'
 ];

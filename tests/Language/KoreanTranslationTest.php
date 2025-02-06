@@ -22,6 +22,7 @@ final class KoreanTranslationTest extends AbstractTranslationTestCase
         $this->excludedLocaleKeyTranslations = [
             'Migrations.batch',
             'Errors.pageNotFound',
+            'Errors.badRequest',
             'Errors.whoops',
         ];
     }

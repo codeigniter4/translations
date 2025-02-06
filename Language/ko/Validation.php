@@ -72,4 +72,5 @@ return [
     'mime_in'  => '{field} 경우, 유효한 MIME 타입을 갖고 있지 않습니다.', // '{field} does not have a valid mime type.'
     'ext_in'   => '{field} 경우, 유효한 파일 확장자를 갖고 있지 않습니다.', // '{field} does not have a valid file extension.'
     'max_dims' => '{field} 경우, 이미지가 아니거나 이미지의 크기가 너무 넓거나 큽니다.', // '{field} is either not an image, or it is too wide or tall.'
+    'min_dims' => '{field} 경우, 이미지가 아니거나 이미지의 크기가 너무 좁거나 작습니다.', // '{field} is either not an image, or it is not wide or tall enough.'
 ];
