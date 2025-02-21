@@ -5,6 +5,24 @@ All notable changes to this library will be documented in this file:
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v4.6.0](https://github.com/codeigniter4/translations/compare/v4.5.4...v4.6.0) - 2025-02-21
+
+### Changed
+
+- de (German)
+- es (Spanish)
+- fa (Farsi)
+- ja (Japanese)
+- ko (Korean)
+- pt (Portuguese)
+- ru (Russian)
+
+### Others
+
+- chore: update license year once (#472)
+- style: fix coding styles (#475)
+- chore: fix badges (#480)
+
 ## [v4.5.4](https://github.com/codeigniter4/translations/compare/v4.5.3...v4.5.4) - 2024-11-15
 
 ### Changed
