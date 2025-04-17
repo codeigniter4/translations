@@ -24,7 +24,7 @@ permissions:
 jobs:
   main:
     name: Build [PHP ${{ matrix.php-version }}]
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     if: github.repository == 'codeigniter4/translations'
 
     strategy:
