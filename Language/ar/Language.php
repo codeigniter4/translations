@@ -11,8 +11,7 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// "Language" language settings
 return [
-    'invalidLogLevel'    => '"{0}" مستوى سجل غير صالح.',
-    'invalidMessageType' => 'نوع الرسالة المحدد "{0}" غير مدعوم.',
+    'invalidMessageFormat' => 'تنسيق رسالة غير صالح: "{0}"، الوسائط: "{1}"',
 ];

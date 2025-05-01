@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -11,7 +13,7 @@
 
 // Fabricator language settings
 return [
-    'invalidModel'      => 'تم تقديم نموذج خاطئ للمزيف.',
-    'missingFormatters' => 'لم يتم تعريف أي تنسيقات صالحة.',
-    'createFailed'      => 'فشل المزيف بالإضافة على الجدول {0} : {1}',
+    'invalidModel'      => 'تم توفير نموذج غير صالح للتصنيع.',
+    'missingFormatters' => 'لم يتم تعريف أدوات تنسيق صالحة.',
+    'createFailed'      => 'فشل المصنّع في الإدراج في الجدول "{0}": {1}',
 ];

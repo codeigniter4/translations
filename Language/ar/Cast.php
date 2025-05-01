@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -11,13 +13,13 @@
 
 // Cast language settings
 return [
-    'baseCastMissing'        => 'يجب على الصنف "{0}" أن يرث من الصنف "CodeIgniter\Entity\Cast\BaseCast".',
-    'invalidCastMethod'      => 'إن الدالة "{0}" هي دالة قسر غير صالحة, الدوال الصالحة هي ["get", "set"].',
-    'invalidTimestamp'       => 'يجب أن يكون هناك طابع زمني صحيح حتى تنجح عملية القسر إلى timestamp.',
-    'jsonErrorCtrlChar'      => 'تم العثور على محرف تحكم غير متوقع.',
-    'jsonErrorDepth'         => 'تم الوصول إلى العمق الأعظمي للمكدس.',
-    'jsonErrorStateMismatch' => 'خطأ في توافق الأساليب.',
-    'jsonErrorSyntax'        => 'خطأ نحوي, نص JSON غير صالح.',
-    'jsonErrorUnknown'       => 'خطأ غير معروف.',
-    'jsonErrorUtf8'          => 'محارف UTF-8 غير صالحة, من المحتمل أنه لم يتم ترميزها بشكل صحيح.',
+    'baseCastMissing'      => 'الصنف "{0}" يجب أن يرث من الصنف "CodeIgniter\Entity\Cast\BaseCast".',
+    'invalidCastMethod'    => 'الطريقة "{0}" هي طريقة تحويل (cast) غير صالحة، الطرق الصالحة هي: ["get", "set"].',
+    'invalidTimestamp'     => 'تحويل النوع "timestamp" يتوقع طابع زمني (timestamp) صحيح.',
+    'jsonErrorCtrlChar'    => 'تم العثور على حرف تحكم غير متوقع.',
+    'jsonErrorDepth'       => 'تم تجاوز الحد الأقصى لعمق المكدس.',
+    'jsonErrorStateMismatch' => 'تدفق سفلي أو عدم تطابق الأوضاع.',
+    'jsonErrorSyntax'      => 'خطأ في بناء الجملة، JSON غير صالح.',
+    'jsonErrorUnknown'     => 'خطأ غير معروف.',
+    'jsonErrorUtf8'        => 'أحرف UTF-8 غير صالحة، ربما تم ترميزها بشكل غير صحيح.',
 ];

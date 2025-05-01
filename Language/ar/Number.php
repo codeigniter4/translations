@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -15,12 +17,12 @@ return [
     'gigabyteAbbr' => 'GB',
     'megabyteAbbr' => 'MB',
     'kilobyteAbbr' => 'KB',
-    'bytes'        => 'Bytes',
+    'bytes'        => 'بايت',
 
     // don't forget the space in front of these!
-    'thousand'    => ' الف',
-    'million'     => ' مليون',
-    'billion'     => ' مليار',
-    'trillion'    => ' تريليون',
-    'quadrillion' => ' كوادريليون',
+    'thousand'     => ' ألف',
+    'million'      => ' مليون',
+    'billion'      => ' مليار',
+    'trillion'     => ' تريليون',
+    'quadrillion'  => ' كوادريليون',
 ];

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -11,11 +13,11 @@
 
 // View language settings
 return [
-    'invalidCellMethod'     => '{class}::{method} ليست دالة صحيحة.',
-    'missingCellParameters' => '{class}::{method} لا يوجد متغيرات.',
-    'invalidCellParameter'  => '{0} اسم متغير غير صحيح.',
-    'noCellClass'           => 'اسم الصنف لعرض جزء الصفحة غير مرسل.',
-    'invalidCellClass'      => 'لم يتم ايجاد اسم الصنف هذا لعرض جزء الصفحة: {0}.',
-    'tagSyntaxError'        => 'يوجد خطأ في الصيغة عند معالجة الوسم: {0}',
-    'invalidDecoratorClass' => '"{0}" ليس مزين Decorator عرض صالحا.',
+    'invalidCellMethod'     => '{class}::{method} ليست دالة صالحة.',
+    'missingCellParameters' => '{class}::{method} لا تحتوي على معاملات (params).',
+    'invalidCellParameter'  => '"{0}" ليس اسم معامل (param) صالحًا.',
+    'noCellClass'           => 'لم يتم توفير فئة View Cell.',
+    'invalidCellClass'      => 'غير قادر على تحديد موقع فئة View Cell: "{0}".',
+    'tagSyntaxError'        => 'لديك خطأ في بناء جملة وسوم (tags) Parser: "{0}"',
+    'invalidDecoratorClass' => '"{0}" ليس View Decorator صالحًا.',
 ];

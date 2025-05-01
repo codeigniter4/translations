@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -11,6 +13,6 @@
 
 // Filters language settings
 return [
-    'noFilter'           => 'الفلتر \'{0}\' يجب أن يكون له إسم مستعار معرف.',
-    'incorrectInterface' => 'يجب على {0} أن ينفذ الواجهة CodeIgniter\Filters\FilterInterface.',
+    'noFilter'             => 'يجب أن يحتوي الفلتر "{0}" على اسم مستعار مطابق محدد.',
+    'incorrectInterface'   => 'يجب أن يقوم "{0}" بتنفيذ CodeIgniter\Filters\FilterInterface.',
 ];
