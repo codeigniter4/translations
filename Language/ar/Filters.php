@@ -13,6 +13,6 @@ declare(strict_types=1);
 
 // Filters language settings
 return [
-    'noFilter'             => 'يجب أن يحتوي الفلتر "{0}" على اسم مستعار مطابق محدد.',
-    'incorrectInterface'   => 'يجب أن يقوم "{0}" بتنفيذ CodeIgniter\Filters\FilterInterface.',
+    'noFilter'           => 'يجب أن يحتوي الفلتر "{0}" على اسم مستعار مطابق محدد.',
+    'incorrectInterface' => 'يجب أن يقوم "{0}" بتنفيذ CodeIgniter\Filters\FilterInterface.',
 ];

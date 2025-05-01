@@ -20,9 +20,9 @@ return [
     'bytes'        => 'بايت',
 
     // don't forget the space in front of these!
-    'thousand'     => ' ألف',
-    'million'      => ' مليون',
-    'billion'      => ' مليار',
-    'trillion'     => ' تريليون',
-    'quadrillion'  => ' كوادريليون',
+    'thousand'    => ' ألف',
+    'million'     => ' مليون',
+    'billion'     => ' مليار',
+    'trillion'    => ' تريليون',
+    'quadrillion' => ' كوادريليون',
 ];
