@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 // Router language settings
 return [
-    'invalidParameter'         => 'معامل (Parameter) لا يطابق النوع المتوقع.',
-    'missingDefaultRoute'      => 'غير قادر على تحديد ما يجب عرضه. لم يتم تحديد مسار افتراضي في ملف التوجيه.',
+    'invalidParameter'       => 'معامل (Parameter) لا يطابق النوع المتوقع.',
+    'missingDefaultRoute'    => 'غير قادر على تحديد ما يجب عرضه. لم يتم تحديد مسار افتراضي في ملف التوجيه.',
     'invalidDynamicController' => 'وحدة التحكم الديناميكية غير مسموح بها لأسباب أمنية. معالج المسار: "{0}"',
-    'invalidControllerName'    => 'محدد مساحة الاسم (namespace delimiter) هو شرطة مائلة عكسية (\)، وليس شرطة مائلة (/). معالج المسار: "{0}"',
+    'invalidControllerName'  => 'محدد مساحة الاسم (namespace delimiter) هو شرطة مائلة عكسية (\)، وليس شرطة مائلة (/). معالج المسار: "{0}"',
 ];

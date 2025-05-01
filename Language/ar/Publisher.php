@@ -13,13 +13,13 @@ declare(strict_types=1);
 
 // Publisher language settings
 return [
-    'collision'             => 'واجه الناشر "{0}" غير متوقع أثناء نسخ "{1}" إلى "{2}".',
+    'collision'           => 'واجه الناشر "{0}" غير متوقع أثناء نسخ "{1}" إلى "{2}".',
     'destinationNotAllowed' => 'الوجهة ليست في القائمة المسموح بها من دلائل الناشر: "{0}"',
-    'fileNotAllowed'        => '"{0}" لا يجتاز التقييد التالي لـ "{1}": {2}',
+    'fileNotAllowed'      => '"{0}" لا يجتاز التقييد التالي لـ "{1}": {2}',
 
     // Publish Command
-    'publishMissing'          => 'لم يتم اكتشاف أي فئات ناشر (Publisher) في {0} عبر جميع مساحات الأسماء (namespaces).',
+    'publishMissing'      => 'لم يتم اكتشاف أي فئات ناشر (Publisher) في {0} عبر جميع مساحات الأسماء (namespaces).',
     'publishMissingNamespace' => 'لم يتم اكتشاف أي فئات ناشر (Publisher) في {0} في مساحة الاسم {1}.',
-    'publishSuccess'          => 'قام "{0}" بنشر {1} ملف (ملفات) إلى "{2}".',
-    'publishFailure'          => 'فشل "{0}" في النشر إلى "{1}".',
+    'publishSuccess'      => 'قام "{0}" بنشر {1} ملف (ملفات) إلى "{2}".',
+    'publishFailure'      => 'فشل "{0}" في النشر إلى "{1}".',
 ];
