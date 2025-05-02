@@ -16,7 +16,8 @@ return [
     'fileNotAllowed'        => '"{0}" gagal dalam pembatasan berikut untuk "{1}": "{2}"',
 
     // Publish Command
-    'publishMissing' => 'Tidak ada kelas Penayang yang terdeteksi di "{0}" di semua ruang nama.',
-    'publishSuccess' => '"{0}" memublikasikan "{1}" berkas ke "{2}".',
-    'publishFailure' => '"{0}" gagal memublikasikan ke "{1}"!',
+    'publishMissing'          => 'Tidak ditemukan kelas Publisher yang terdeteksi di "{0}" di semua ruang nama.',
+    'publishMissingNamespace' => 'Tidak ditemukan kelas Publisher di "{0}" dalam ruang nama "{1}"',
+    'publishSuccess'          => '"{0}" memublikasikan "{1}" berkas ke "{2}".',
+    'publishFailure'          => '"{0}" gagal memublikasikan ke "{1}"!',
 ];
