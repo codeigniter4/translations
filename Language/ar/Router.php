@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -11,8 +13,8 @@
 
 // Router language settings
 return [
-    'invalidParameter'         => 'المدخلات لا تطابق النوع المتوقع.',
-    'missingDefaultRoute'      => 'لا يمكن عرض الصفحة. لم يتم وضع مسار افتراضي للتوجيه له.',
-    'invalidDynamicController' => 'لا يُسمح بوجود تحكم دينامكي لأسباب أمان. معالج المسار: "{0}"',
-    'invalidControllerName'    => 'فاصل الفضاء الاسمي namespace هو علامة الشرطة العكسية (\)، وليس شرطة (/). معالج المسار: "{0}"',
+    'invalidParameter'         => 'معامل (Parameter) لا يطابق النوع المتوقع.',
+    'missingDefaultRoute'      => 'غير قادر على تحديد ما يجب عرضه. لم يتم تحديد مسار افتراضي في ملف التوجيه.',
+    'invalidDynamicController' => 'وحدة التحكم الديناميكية غير مسموح بها لأسباب أمنية. معالج المسار: "{0}"',
+    'invalidControllerName'    => 'محدد مساحة الاسم (namespace delimiter) هو شرطة مائلة عكسية (\)، وليس شرطة مائلة (/). معالج المسار: "{0}"',
 ];

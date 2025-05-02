@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -11,8 +13,8 @@
 
 // Cache language settings
 return [
-    'unableToWrite'   => 'إن الكاش غير قادر على الكتابة في {0}',
-    'invalidHandlers' => 'اعدادات الكاش يجب ان تحتوي على مصفوفة مكونة من $validHandlers.',
-    'noBackup'        => 'اعدادات الكاش يجب ان تحتوي على handler و backupHandler.',
-    'handlerNotFound' => 'اعدادات الكاش تحتوى على handler أو backup handler غير صحيحة.',
+    'unableToWrite'   => 'الكاش غير قادر على الكتابة إلى "{0}".',
+    'invalidHandlers' => 'يجب أن تحتوي إعدادات الكاش على مصفوفة من $validHandlers.',
+    'noBackup'        => 'يجب أن تحتوي إعدادات الكاش على معالج (handler) ومعالج احتياطي (backupHandler) محددين.',
+    'handlerNotFound' => 'تحتوي إعدادات الكاش على معالج (handler) أو معالج احتياطي (backup handler) غير صالح محدد.',
 ];

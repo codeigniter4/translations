@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -11,6 +13,6 @@
 
 // Log language settings
 return [
-    'invalidLogLevel'    => '{0} ليس مستوى تسجيل اخطاء صحيح.',
-    'invalidMessageType' => 'نوع الرسالة المقدم "{0}" ليس مدعوماً.',
+    'invalidLogLevel'    => '"{0}" مستوى سجل غير صالح.',
+    'invalidMessageType' => 'نوع الرسالة المحدد "{0}" غير مدعوم.',
 ];

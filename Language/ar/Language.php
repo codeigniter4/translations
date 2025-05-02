@@ -11,8 +11,7 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Filters language settings
+// "Language" language settings
 return [
-    'noFilter'           => 'يجب أن يحتوي الفلتر "{0}" على اسم مستعار مطابق محدد.',
-    'incorrectInterface' => 'يجب أن يقوم "{0}" بتنفيذ CodeIgniter\Filters\FilterInterface.',
+    'invalidMessageFormat' => 'تنسيق رسالة غير صالح: "{0}"، الوسائط: "{1}"',
 ];

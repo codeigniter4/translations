@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -11,8 +13,8 @@
 
 // Files language settings
 return [
-    'fileNotFound'      => 'الملف غير موجود: {0}',
-    'cannotMove'        => 'فشل في نقل الملف من {0} إلى {1} ({2})',
-    'expectedDirectory' => '{0} يتوقع وجود مجلد صحيح.',
-    'expectedFile'      => '{0} يتوقع وجود ملف صحيح.',
+    'fileNotFound'      => 'الملف غير موجود: "{0}"',
+    'cannotMove'        => 'تعذر نقل الملف "{0}" إلى "{1}". السبب: {2}',
+    'expectedDirectory' => '{0} يتوقع دليلًا صالحًا.',
+    'expectedFile'      => '{0} يتوقع ملفًا صالحًا.',
 ];

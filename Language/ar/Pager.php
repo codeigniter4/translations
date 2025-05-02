@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -11,13 +13,13 @@
 
 // Pager language settings
 return [
-    'pageNavigation'         => 'التنقل بين الصفحات',
-    'first'                  => 'الأولى',
+    'pageNavigation'         => 'تنقل الصفحات',
+    'first'                  => 'الأول',
     'previous'               => 'السابق',
     'next'                   => 'التالي',
-    'last'                   => 'الأخيرة',
-    'older'                  => 'الأقدم',
-    'newer'                  => 'الأحدث',
-    'invalidTemplate'        => '{0} ليس قالب صفحات صحيح.',
-    'invalidPaginationGroup' => '{0} ليست مجموعة صفحات صحيحة.',
+    'last'                   => 'الأخير',
+    'older'                  => 'أقدم',
+    'newer'                  => 'أحدث',
+    'invalidTemplate'        => '"{0}" ليس قالب Pager صالحًا.',
+    'invalidPaginationGroup' => '"{0}" ليست مجموعة ترقيم صفحات صالحة.',
 ];

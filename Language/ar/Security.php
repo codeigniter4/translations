@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -11,8 +13,9 @@
 
 // Security language settings
 return [
-    'disallowedAction' => 'إن الحدث المطلوب غير مسموح به.',
+    'disallowedAction' => 'الإجراء الذي طلبته غير مسموح به.',
+    'insecureCookie'   => 'تمت محاولة إرسال ملف تعريف ارتباط آمن عبر اتصال غير آمن.',
 
     // @deprecated
-    'invalidSameSite' => 'يجب أن يحتوي إعداد SameSite على إحدى القيم التالية: ["None", "Lax", "Strict"] أو نص فارغ. القيمة التي تم وضعها هي {0}.',
+    'invalidSameSite' => 'يجب أن تكون قيمة SameSite إما None أو Lax أو Strict أو سلسلة فارغة. المعطى: "{0}"',
 ];

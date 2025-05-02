@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -11,5 +13,5 @@
 
 // RESTful language settings
 return [
-    'notImplemented' => 'إن الحدث "{0}" غير منفذ بعد.',
+    'notImplemented' => 'الإجراء "{0}" غير مطبق.',
 ];
