@@ -27,6 +27,7 @@ return [
             'migration'  => 'Nama kelas Migration',
             'model'      => 'Nama kelas Model',
             'seeder'     => 'Nama kelas Seeder',
+            'test'       => 'Nama kelas Test',
             'validation' => 'Nama kelas Validation',
         ],
         'commandType'      => 'Jenis Perintah',

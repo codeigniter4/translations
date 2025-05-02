@@ -29,6 +29,7 @@ return [
     'differs'               => 'Bidang {field} harus berbeda dari bidang {param}.',
     'equals'                => 'Bidang {field} harus persis: {param}.',
     'exact_length'          => 'Bidang {field} harus tepat {param} panjang karakter.',
+    'field_exists'          => 'Bidang {field} harus ada.',
     'greater_than'          => 'Bidang {field} harus berisi sebuah angka yang lebih besar dari {param}.',
     'greater_than_equal_to' => 'Bidang {field} harus berisi sebuah angka yang lebih besar atau sama dengan {param}.',
     'hex'                   => 'Bidang {field} hanya boleh berisi karakter heksadesimal.',
@@ -71,4 +72,5 @@ return [
     'mime_in'  => '{field} tidak memiliki sebuah tipe mime yang valid.',
     'ext_in'   => '{field} tidak memiliki sebuah ekstensi berkas yang valid.',
     'max_dims' => '{field} bukan gambar, atau terlalu lebar atau tinggi.',
+    'min_dims' => '{field} bukan gambar, atau tidak cukup lebar atau tinggi.',
 ];
