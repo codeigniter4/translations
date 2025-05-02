@@ -64,3 +64,5 @@ jobs:
 
       - name: Run PHP CS Fixer
         run: vendor/bin/php-cs-fixer fix --verbose --ansi --dry-run --using-cache=no --diff
+        env:
+            PHP_CS_FIXER_IGNORE_ENV: ${{ matrix.php-version == '8.4' }}
