@@ -38,7 +38,7 @@
                                 <?php if ($info['lines'] !== []): ?>
                                     <div class="progress-bar progress-bar-striped <?= esc($info['background']) ?>" role="progressbar" style="width: <?= esc($info['percent'], 'attr'); ?>%;"><?= esc($info['percent']); ?>%</div>
                                 <?php else: ?>
-                                    <div class="progress-bar progress-bar-striped <?= esc($info['background']) ?>" role="progressbar" style="width: 100%;"><?= esc($info['percent']); ?></div>
+                                    <div class="progress-bar progress-bar-striped <?= esc($info['background']) ?>" role="progressbar" style="width: 100%;">Missing file</div>
                                 <?php endif; ?>
                             </div>
                         </td>

@@ -159,7 +159,7 @@ foreach ($locales as $localeKey => $locale) {
                 'lines'      => [],
                 'count'      => 0,
                 'missing'    => array_keys($enItems[$missingName]['lines']),
-                'percent'    => 'Missing file',
+                'percent'    => 0,
                 'background' => $backgroundChoice(0),
             ];
         }
