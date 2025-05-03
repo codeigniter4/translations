@@ -16,7 +16,7 @@
     "require-dev": {
         "ext-tokenizer": "*",
         "codeigniter/coding-standard": "^1.7",
-        "codeigniter4/codeigniter4": "4.x-dev",
+        "codeigniter4/codeigniter4": "dev-develop",
         "friendsofphp/php-cs-fixer": "^3.53",
         "nexusphp/cs-config": "^3.22",
         "phpunit/phpunit": "^10.5 || ^11.0"
