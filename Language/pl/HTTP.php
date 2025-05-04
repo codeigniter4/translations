@@ -19,6 +19,8 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '{0} nie jest prawidłowym typem negocjacji. Musi to być jeden z: mediów, zestawu znaków, kodowania, języka.',
+    'invalidJSON'            => 'Nie udało się przetworzyć ciągu JSON. Błąd: {0}',
+    'unsupportedJSONFormat'  => 'Podany format JSON nie jest obsługiwany.',
 
     // Message
     'invalidHTTPProtocol' => 'Nieprawidłowa wersja protokołu HTTP. Musi być jednym z: {0}',

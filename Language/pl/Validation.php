@@ -29,6 +29,7 @@ return [
     'differs'               => 'Pole {field} musi różnić się od pola {param}.',
     'equals'                => 'Pole {field} musi może mieć tylko wartość: {param}.',
     'exact_length'          => 'Pole {field} musi mieć dokładnie {param} długości.',
+    'field_exists'          => 'Pole {field} musi istnieć.',
     'greater_than'          => 'Pole {field} musi zawierać liczbę większą niż {param}.',
     'greater_than_equal_to' => 'Pole {field} musi zawierać liczbę większą lub równą {param}.',
     'hex'                   => 'Pole {field} może zawierać tylko znaki liczb szestnastkowych.',
@@ -71,4 +72,5 @@ return [
     'mime_in'  => '{field} nie ma prawidłowego typu MIME.',
     'ext_in'   => '{field} nie ma poprawnego rozszerzenia pliku.',
     'max_dims' => '{field} nie jest obrazem lub jest zbyt szeroki lub wysoki.',
+    'min_dims' => '{field} nie jest obrazem lub jego szerokość albo wysokość jest zbyt mała.',
 ];
