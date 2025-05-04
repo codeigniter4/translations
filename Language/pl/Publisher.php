@@ -16,7 +16,8 @@ return [
     'fileNotAllowed'        => '{0} nie spełnia wymagań {1}: {2}',
 
     // Publish Command
-    'publishMissing' => 'Nie znaleziono klasy publikatora w {0}, w całej przestrzeni nazw.',
-    'publishSuccess' => '{0} opublikował {1} plików w {2}.',
-    'publishFailure' => '{0} zawiódł przy publikacji w {1}!',
+    'publishMissing'          => 'Nie znaleziono klasy Publisher w {0}, w całej przestrzeni nazw.',
+    'publishMissingNamespace' => 'Nie znaleziono klasy Publisher w {0} w przestrzeni nazw {1}.',
+    'publishSuccess'          => '{0} opublikował {1} plików w {2}.',
+    'publishFailure'          => '{0} zawiódł przy publikacji w {1}!',
 ];
