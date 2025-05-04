@@ -19,11 +19,11 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '요청된 "{0}" 경우, 유효하지 않은 negotiation type입니다. 다음 중에 하나를 사용하십시오: media, charset, encoding, language.', // '"{0}" is not a valid negotiation type. Must be one of: media, charset, encoding, language.'
-    'invalidJSON'            => 'JSON 구문을 해석하지 못했습니다. 오류: {0}', // Failed to parse JSON string. Error: {0}
-    'unsupportedJSONFormat'  => '제공된 JSON 형식은 지원되지 않습니다.', // The provided JSON format is not supported.
+    'invalidJSON'            => 'JSON 구문을 해석하지 못했습니다. 오류: {0}', // 'Failed to parse JSON string. Error: {0}'
+    'unsupportedJSONFormat'  => '제공된 JSON 형식은 지원되지 않습니다.', // 'The provided JSON format is not supported.'
 
     // Message
-    'invalidHTTPProtocol' => '유효하지 않은 HTTP 프로토콜 버전입니다. 다음 버전 중에 하나를 사용하십시오: {0}', // 'Invalid HTTP Protocol Version. Must be one of: {0}'
+    'invalidHTTPProtocol' => '잘못된 HTTP 프로토콜 버전: {0}', // 'Invalid HTTP Protocol Version: {0}'
 
     // Negotiate
     'emptySupportedNegotiations' => '모든 Negotiations에 지원되는 값의 배열이 반드시 제공되어야 합니다.', // 'You must provide an array of supported values to all Negotiations.'
