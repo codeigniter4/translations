@@ -33,7 +33,7 @@ CLI::write('Fixing coding style...', 'black', 'green');
 passthru("{$phpCsFixer} fix --verbose --diff");
 CLI::write();
 
-$testCase = new class () extends AbstractTranslationTestCase {
+$testCase = new class ('test_helper') extends AbstractTranslationTestCase {
     public function getTestCaseClassname(string $locale): string
     {
         $classname = array_flip(self::$locales)[$locale] ?? null;
