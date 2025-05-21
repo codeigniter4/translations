@@ -12,7 +12,7 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-require __DIR__ . '/../vendor/codeigniter4/codeigniter4/system/Test/bootstrap.php';
+require __DIR__ . '/../vendor/codeigniter4/codeigniter4/system/util_bootstrap.php';
 
 use CodeIgniter\CLI\CLI;
 

@@ -15,7 +15,7 @@ declare(strict_types=1);
 use CodeIgniter\CLI\CLI;
 use Translations\Tests\AbstractTranslationTestCase;
 
-require __DIR__ . '/../vendor/codeigniter4/codeigniter4/system/Test/bootstrap.php';
+require __DIR__ . '/../vendor/codeigniter4/codeigniter4/system/util_bootstrap.php';
 
 if (! isset($argv[1]) || ! in_array($argv[1], ['--major', '--minor', '--patch'], true)) {
     CLI::error(
