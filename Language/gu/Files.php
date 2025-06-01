@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 // Files language settings
 return [
-    'fileNotFound'      => 'ફાઈલ મળી નથી: "{0}"',
-    'cannotMove'        => 'ફાઈલ "{0}" ને "{1}" પર ખસેડી શકાઈ નથી. કારણ: {2}',
-    'expectedDirectory' => '{0} ને માન્ય ડિરેક્ટરીની અપેક્ષા છે.',
-    'expectedFile'      => '{0} ને માન્ય ફાઈલની અપેક્ષા છે.',
+    'fileNotFound'      => 'الملف غير موجود: "{0}"',
+    'cannotMove'        => 'تعذر نقل الملف "{0}" إلى "{1}". السبب: {2}',
+    'expectedDirectory' => '{0} يتوقع دليلًا صالحًا.',
+    'expectedFile'      => '{0} يتوقع ملفًا صالحًا.',
 ];

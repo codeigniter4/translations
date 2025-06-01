@@ -13,5 +13,5 @@ declare(strict_types=1);
 
 // "Language" language settings
 return [
-    'invalidMessageFormat' => 'અમાન્ય સંદેશ ફોર્મેટ: "{0}", આર્ગ્યુમેન્ટ્સ: "{1}"',
+    'invalidMessageFormat' => 'تنسيق رسالة غير صالح: "{0}"، الوسائط: "{1}"',
 ];
