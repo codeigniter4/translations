@@ -13,6 +13,8 @@
 return [
     'pageNotFound'    => '404 - Sidan kunde inte hittas',
     'sorryCannotFind' => 'Ledsen! Verkar inte kunna hitta sidan du söker.',
+    'badRequest'      => '400 - Felaktig förfrågan',
+    'sorryBadRequest' => 'Ledsen! Någonting är fel med din förfrågan.',
     'whoops'          => 'Hoppsan!',
     'weHitASnag'      => 'Ett problem har uppstått. Var god försök igen senare...',
 ];
