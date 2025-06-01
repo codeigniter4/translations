@@ -17,12 +17,12 @@ return [
     'gigabyteAbbr' => 'GB',
     'megabyteAbbr' => 'MB',
     'kilobyteAbbr' => 'KB',
-    'bytes'        => 'بايت',
+    'bytes'        => 'બાઇટ્સ',
 
     // don't forget the space in front of these!
-    'thousand'    => ' ألف',
-    'million'     => ' مليون',
-    'billion'     => ' مليار',
-    'trillion'    => ' تريليون',
-    'quadrillion' => ' كوادريليون',
+    'thousand'    => ' હજાર',
+    'million'     => ' મિલિયન',
+    'billion'     => ' બિલિયન',
+    'trillion'    => ' ટ્રિલિયન',
+    'quadrillion' => ' ક્વાડ્રિલિયન',
 ];

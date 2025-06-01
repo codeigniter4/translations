@@ -14,70 +14,70 @@ declare(strict_types=1);
 // HTTP language settings
 return [
     // CurlRequest
-    'missingCurl'     => 'يجب تمكين CURL لاستخدام فئة CURLRequest.',
-    'invalidSSLKey'   => 'لا يمكن تعيين مفتاح SSL. "{0}" ليس ملفًا صالحًا.',
-    'sslCertNotFound' => 'شهادة SSL غير موجودة في: "{0}"',
+    'missingCurl'     => 'CURLRequest ક્લાસનો ઉપયોગ કરવા માટે CURL સક્ષમ હોવું આવશ્યક છે.',
+    'invalidSSLKey'   => 'SSL કી સેટ કરી શકાતી નથી. "{0}" માન્ય ફાઇલ નથી.',
+    'sslCertNotFound' => 'SSL પ્રમાણપત્ર અહીં મળ્યું નથી: "{0}"',
     'curlError'       => '{0} : {1}',
 
     // IncomingRequest
-    'invalidNegotiationType' => '"{0}" ليس نوع تفاوض صالحًا. يجب أن يكون واحدًا مما يلي: media, charset, encoding, language.',
-    'invalidJSON'            => 'فشل في تحليل سلسلة JSON. الخطأ: {0}',
-    'unsupportedJSONFormat'  => 'تنسيق JSON المقدم غير مدعوم.',
+    'invalidNegotiationType' => '"{0}" માન્ય નેગોશિયેશન પ્રકાર નથી. આમાંથી એક હોવું જોઈએ: media, charset, encoding, language.',
+    'invalidJSON'            => 'JSON સ્ટ્રિંગનું પાર્સિંગ નિષ્ફળ. ભૂલ: {0}',
+    'unsupportedJSONFormat'  => 'પ્રદાન કરેલ JSON ફોર્મેટ સપોર્ટેડ નથી.',
 
     // Message
-    'invalidHTTPProtocol' => 'إصدار بروتوكول HTTP غير صالح: {0}',
+    'invalidHTTPProtocol' => 'અમાન્ય HTTP પ્રોટોકોલ સંસ્કરણ: {0}',
 
     // Negotiate
-    'emptySupportedNegotiations' => 'يجب عليك توفير مصفوفة من القيم المدعومة لجميع عمليات التفاوض.',
+    'emptySupportedNegotiations' => 'તમારે તમામ નેગોશિયેશન્સને સપોર્ટેડ મૂલ્યોનો એરે પ્રદાન કરવો આવશ્યક છે.',
 
     // RedirectResponse
-    'invalidRoute' => 'المسار لـ "{0}" لا يمكن العثور عليه.',
+    'invalidRoute' => '"{0}" માટેનો રૂટ શોધી શકાતો નથી.',
 
     // DownloadResponse
-    'cannotSetBinary'        => 'عند تعيين مسار الملف لا يمكن تعيين ثنائي.',
-    'cannotSetFilepath'      => 'عند تعيين ثنائي لا يمكن تعيين مسار الملف: "{0}"',
-    'notFoundDownloadSource' => 'لم يتم العثور على مصدر جسم التنزيل.',
-    'cannotSetCache'         => 'لا يدعم التخزين المؤقت للتنزيل.',
-    'cannotSetStatusCode'    => 'لا يدعم تغيير رمز الحالة للتنزيل. الرمز: {0}, السبب: {1}',
+    'cannotSetBinary'        => 'ફાઇલપાથ સેટ કરતી વખતે બાઇનરી સેટ કરી શકાતી નથી.',
+    'cannotSetFilepath'      => 'બાઇનરી સેટ કરતી વખતે ફાઇલપાથ સેટ કરી શકાતી નથી: "{0}"',
+    'notFoundDownloadSource' => 'ડાઉનલોડ બોડી સ્રોત મળ્યો નથી.',
+    'cannotSetCache'         => 'તે ડાઉનલોડ કરવા માટે કેશીંગને સપોર્ટ કરતું નથી.',
+    'cannotSetStatusCode'    => 'તે ડાઉનલોડ કરવા માટે સ્ટેટસ કોડ બદલવાને સપોર્ટ કરતું નથી. કોડ: {0}, કારણ: {1}',
 
     // Response
-    'missingResponseStatus' => 'استجابة HTTP تفتقد رمز الحالة',
-    'invalidStatusCode'     => '{0} ليس رمز حالة إرجاع HTTP صالحًا',
-    'unknownStatusCode'     => 'تم توفير رمز حالة HTTP غير معروف بدون رسالة: {0}',
+    'missingResponseStatus' => 'HTTP રિસ્પોન્સમાં સ્ટેટસ કોડ ખૂટે છે.',
+    'invalidStatusCode'     => '{0} માન્ય HTTP રિટર્ન સ્ટેટસ કોડ નથી.',
+    'unknownStatusCode'     => 'કોઈ સંદેશ વિના અજ્ઞાત HTTP સ્ટેટસ કોડ પ્રદાન કર્યો: {0}',
 
     // URI
-    'cannotParseURI'       => 'غير قادر على تحليل URI: "{0}"',
-    'segmentOutOfRange'    => 'شريحة URI الطلب خارج النطاق: "{0}"',
-    'invalidPort'          => 'يجب أن تكون المنافذ بين 0 و 65535. المعطى: {0}',
-    'malformedQueryString' => 'سلاسل الاستعلام قد لا تتضمن أجزاء URI.',
+    'cannotParseURI'       => 'URI પાર્સ કરી શકાતું નથી: "{0}"',
+    'segmentOutOfRange'    => 'રિક્વેસ્ટ URI સેગમેન્ટ રેન્જની બહાર છે: "{0}"',
+    'invalidPort'          => 'પોર્ટ્સ 0 થી 65535 ની વચ્ચે હોવા જોઈએ. આપેલ: {0}',
+    'malformedQueryString' => 'ક્વેરી સ્ટ્રિંગ્સમાં URI ફ્રેગમેન્ટ્સ શામેલ હોઈ શકતા નથી.',
 
     // Page Not Found
-    'pageNotFound'       => 'الصفحة غير موجودة',
-    'emptyController'    => 'لم يتم تحديد وحدة تحكم.',
-    'controllerNotFound' => 'وحدة التحكم أو دالتها غير موجودة: {0}::{1}',
-    'methodNotFound'     => 'دالة وحدة التحكم غير موجودة: "{0}"',
-    'localeNotSupported' => 'اللغة غير مدعومة: {0}',
+    'pageNotFound'       => 'પેજ મળ્યું નથી',
+    'emptyController'    => 'કોઈ કંટ્રોલર સ્પષ્ટ નથી.',
+    'controllerNotFound' => 'કંટ્રોલર અથવા તેની પદ્ધતિ મળી નથી: {0}::{1}',
+    'methodNotFound'     => 'કંટ્રોલર પદ્ધતિ મળી નથી: "{0}"',
+    'localeNotSupported' => 'સ્થાનિક સપોર્ટેડ નથી: {0}',
 
     // CSRF
     // @deprecated use 'Security.disallowedAction'
-    'disallowedAction' => 'الإجراء الذي طلبته غير مسموح به.',
+    'disallowedAction' => 'તમે વિનંતી કરેલી ક્રિયાને મંજૂરી નથી.',
 
     // Uploaded file moving
-    'alreadyMoved' => 'تم نقل الملف المحمل بالفعل.',
-    'invalidFile'  => 'الملف الأصلي ليس ملفًا صالحًا.',
-    'moveFailed'   => 'تعذر نقل الملف "{0}" إلى "{1}". السبب: {2}',
+    'alreadyMoved' => 'અપલોડ કરેલી ફાઇલ પહેલેથી જ ખસેડવામાં આવી છે.',
+    'invalidFile'  => 'મૂળ ફાઇલ માન્ય ફાઇલ નથી.',
+    'moveFailed'   => 'ફાઇલ "{0}" ને "{1}" પર ખસેડી શકાઈ નથી. કારણ: {2}',
 
-    'uploadErrOk'        => 'تم تحميل الملف بنجاح.',
-    'uploadErrIniSize'   => 'الملف "%s" يتجاوز توجيه ini upload_max_filesize لديك.',
-    'uploadErrFormSize'  => 'الملف "%s" يتجاوز حد التحميل المحدد في النموذج الخاص بك.',
-    'uploadErrPartial'   => 'تم تحميل الملف "%s" جزئيًا فقط.',
-    'uploadErrNoFile'    => 'لم يتم تحميل أي ملف.',
-    'uploadErrCantWrite' => 'لا يمكن كتابة الملف "%s" على القرص.',
-    'uploadErrNoTmpDir'  => 'لا يمكن تحميل الملف: دليل مؤقت مفقود.',
-    'uploadErrExtension' => 'تم إيقاف تحميل الملف بواسطة امتداد PHP.',
-    'uploadErrUnknown'   => 'لم يتم تحميل الملف "%s" بسبب خطأ غير معروف.',
+    'uploadErrOk'        => 'ફાઇલ સફળતાપૂર્વક અપલોડ થઈ ગઈ છે.',
+    'uploadErrIniSize'   => 'ફાઇલ "%s" તમારી upload_max_filesize ini ડિરેક્ટિવ કરતાં વધી ગઈ છે.',
+    'uploadErrFormSize'  => 'ફાઇલ "%s" તમારા ફોર્મમાં વ્યાખ્યાયિત અપલોડ મર્યાદા કરતાં વધી ગઈ છે.',
+    'uploadErrPartial'   => 'ફાઇલ "%s" ફક્ત આંશિક રીતે અપલોડ થઈ હતી.',
+    'uploadErrNoFile'    => 'કોઈ ફાઇલ અપલોડ થઈ નથી.',
+    'uploadErrCantWrite' => 'ફાઇલ "%s" ડિસ્ક પર લખી શકાઈ નથી.',
+    'uploadErrNoTmpDir'  => 'ફાઇલ અપલોડ કરી શકાઈ નથી: અસ્થાયી ડિરેક્ટરી ખૂટે છે.',
+    'uploadErrExtension' => 'ફાઇલ અપલોડ PHP એક્સ્ટેંશન દ્વારા રોકવામાં આવ્યું હતું.',
+    'uploadErrUnknown'   => 'ફાઇલ "%s" અજ્ઞાત ભૂલને કારણે અપલોડ થઈ નથી.',
 
     // SameSite setting
     // @deprecated
-    'invalidSameSiteSetting' => 'يجب أن يكون إعداد SameSite إما None أو Lax أو Strict أو سلسلة فارغة. المعطى: {0}',
+    'invalidSameSiteSetting' => 'SameSite સેટિંગ None, Lax, Strict, અથવા ખાલી સ્ટ્રિંગ હોવું જોઈએ. આપેલ: {0}',
 ];

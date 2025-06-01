@@ -1,7 +1,5 @@
 <?php
 
-declare(strict_types=1);
-
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -11,7 +9,11 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Testing language settings
-return [
-    'invalidMockClass' => '"{0}" એક માન્ય મોક ક્લાસ નથી',
-];
+namespace Translations\Tests;
+
+/**
+ * @internal
+ */
+final class GujaratiTranslationTest extends AbstractTranslationTestCase
+{
+}

@@ -13,11 +13,11 @@ declare(strict_types=1);
 
 // View language settings
 return [
-    'invalidCellMethod'     => '{class}::{method} ليست دالة صالحة.',
-    'missingCellParameters' => '{class}::{method} لا تحتوي على معاملات (params).',
-    'invalidCellParameter'  => '"{0}" ليس اسم معامل (param) صالحًا.',
-    'noCellClass'           => 'لم يتم توفير فئة View Cell.',
-    'invalidCellClass'      => 'غير قادر على تحديد موقع فئة View Cell: "{0}".',
-    'tagSyntaxError'        => 'لديك خطأ في بناء جملة وسوم (tags) Parser: "{0}"',
-    'invalidDecoratorClass' => '"{0}" ليس View Decorator صالحًا.',
+    'invalidCellMethod'     => '{class}::{method} માન્ય મેથડ નથી.',
+    'missingCellParameters' => '{class}::{method} માં કોઈ પેરામ્સ નથી.',
+    'invalidCellParameter'  => '"{0}" માન્ય પેરામ નામ નથી.',
+    'noCellClass'           => 'કોઈ વ્યુ સેલ ક્લાસ પ્રદાન કરેલ નથી.',
+    'invalidCellClass'      => 'વ્યુ સેલ ક્લાસ શોધી શકાતો નથી: "{0}".',
+    'tagSyntaxError'        => 'તમારા પાર્સર ટૅગ્સમાં સિન્ટેક્સ ભૂલ છે: "{0}"',
+    'invalidDecoratorClass' => '"{0}" માન્ય વ્યુ ડેકોરેટર નથી.',
 ];
