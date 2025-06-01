@@ -13,13 +13,13 @@ declare(strict_types=1);
 
 // Pager language settings
 return [
-    'pageNavigation'         => 'تنقل الصفحات',
-    'first'                  => 'الأول',
-    'previous'               => 'السابق',
-    'next'                   => 'التالي',
-    'last'                   => 'الأخير',
-    'older'                  => 'أقدم',
-    'newer'                  => 'أحدث',
-    'invalidTemplate'        => '"{0}" ليس قالب Pager صالحًا.',
-    'invalidPaginationGroup' => '"{0}" ليست مجموعة ترقيم صفحات صالحة.',
+    'pageNavigation'     => 'પાનાનું નેવિગેશન',
+    'first'              => 'પ્રથમ',
+    'previous'           => 'પાછળ',
+    'next'               => 'આગળ',
+    'last'               => 'છેલ્લું',
+    'older'              => 'જૂનું',
+    'newer'              => 'નવું',
+    'invalidTemplate'    => '"{0}" માન્ય પેજર ટેમ્પલેટ નથી.',
+    'invalidPaginationGroup' => '"{0}" માન્ય પેજીનેશન ગ્રુપ નથી.',
 ];

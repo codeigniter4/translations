@@ -13,9 +13,9 @@ declare(strict_types=1);
 
 // Security language settings
 return [
-    'disallowedAction' => 'الإجراء الذي طلبته غير مسموح به.',
-    'insecureCookie'   => 'تمت محاولة إرسال ملف تعريف ارتباط آمن عبر اتصال غير آمن.',
+    'disallowedAction' => 'તમે વિનંતી કરેલી ક્રિયાને મંજૂરી નથી.',
+    'insecureCookie'   => 'અસુરક્ષિત કનેક્શન પર સુરક્ષિત કૂકી મોકલવાનો પ્રયાસ કર્યો.',
 
     // @deprecated
-    'invalidSameSite' => 'يجب أن تكون قيمة SameSite إما None أو Lax أو Strict أو سلسلة فارغة. المعطى: "{0}"',
+    'invalidSameSite' => 'SameSite મૂલ્ય None, Lax, Strict, અથવા ખાલી સ્ટ્રિંગ હોવું જોઈએ. આપેલ: "{0}"',
 ];

@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 // Cache language settings
 return [
-    'unableToWrite'   => 'الكاش غير قادر على الكتابة إلى "{0}".',
-    'invalidHandlers' => 'يجب أن تحتوي إعدادات الكاش على مصفوفة من $validHandlers.',
-    'noBackup'        => 'يجب أن تحتوي إعدادات الكاش على معالج (handler) ومعالج احتياطي (backupHandler) محددين.',
-    'handlerNotFound' => 'تحتوي إعدادات الكاش على معالج (handler) أو معالج احتياطي (backup handler) غير صالح محدد.',
+    'unableToWrite'   => 'કેશ "{0}" પર લખી શકતી નથી.',
+    'invalidHandlers' => 'કેશ કન્ફિગમાં $validHandlers નો એરે હોવો આવશ્યક છે.',
+    'noBackup'        => 'કેશ કન્ફિગમાં હેન્ડલર અને બેકઅપહેન્ડલર સેટ હોવા આવશ્યક છે.',
+    'handlerNotFound' => 'કેશ કન્ફિગમાં અમાન્ય હેન્ડલર અથવા બેકઅપ હેન્ડલર નિર્દિષ્ટ/ઉલ્લેખિત છે.',
 ];

@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 // Format language settings
 return [
-    'invalidFormatter' => '"{0}" ليس فئة منسق (Formatter) صالحة.',
-    'invalidJSON'      => 'فشل في تحليل سلسلة JSON. الخطأ: {0}',
-    'invalidMime'      => 'لم يتم تعريف منسق (Formatter) لنوع mime: "{0}".',
-    'missingExtension' => 'مكتبة SimpleXML مطلوبة لتنسيق XML.',
+    'invalidFormatter' => '"{0}" એક માન્ય ફોર્મેટર ક્લાસ નથી.',
+    'invalidJSON'      => 'JSON સ્ટ્રિંગનું પાર્સિંગ નિષ્ફળ. ભૂલ: {0}',
+    'invalidMime'      => 'માઇમ પ્રકાર "{0}" માટે કોઈ ફોર્મેટર વ્યાખ્યાયિત નથી.',
+    'missingExtension' => 'XML ને ફોર્મેટ કરવા માટે SimpleXML એક્સ્ટેંશન જરૂરી છે.',
 ];

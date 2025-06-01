@@ -13,6 +13,6 @@ declare(strict_types=1);
 
 // Log language settings
 return [
-    'invalidLogLevel'    => '"{0}" مستوى سجل غير صالح.',
-    'invalidMessageType' => 'نوع الرسالة المحدد "{0}" غير مدعوم.',
+    'invalidLogLevel'     => '"{0}" એ અમાન્ય લોગ લેવલ છે.',
+    'invalidMessageType' => 'આપેલ સંદેશ પ્રકાર "{0}" સપોર્ટેડ નથી.',
 ];

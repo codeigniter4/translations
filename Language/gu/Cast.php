@@ -13,13 +13,13 @@ declare(strict_types=1);
 
 // Cast language settings
 return [
-    'baseCastMissing'        => 'الصنف "{0}" يجب أن يرث من الصنف "CodeIgniter\Entity\Cast\BaseCast".',
-    'invalidCastMethod'      => 'الطريقة "{0}" هي طريقة تحويل (cast) غير صالحة، الطرق الصالحة هي: ["get", "set"].',
-    'invalidTimestamp'       => 'تحويل النوع "timestamp" يتوقع طابع زمني (timestamp) صحيح.',
-    'jsonErrorCtrlChar'      => 'تم العثور على حرف تحكم غير متوقع.',
-    'jsonErrorDepth'         => 'تم تجاوز الحد الأقصى لعمق المكدس.',
-    'jsonErrorStateMismatch' => 'تدفق سفلي أو عدم تطابق الأوضاع.',
-    'jsonErrorSyntax'        => 'خطأ في بناء الجملة، JSON غير صالح.',
-    'jsonErrorUnknown'       => 'خطأ غير معروف.',
-    'jsonErrorUtf8'          => 'أحرف UTF-8 غير صالحة، ربما تم ترميزها بشكل غير صحيح.',
+    'baseCastMissing'        => '"{0}" વર્ગે "CodeIgniter\Entity\Cast\BaseCast" વર્ગને વારસામાં લેવો જરૂરી છે.',
+    'invalidCastMethod'      => '"{0}" અવૈધ કાસ્ટ પદ્ધતિ છે, માન્ય પદ્ધતિઓ છે: ["get", "set"].',
+    'invalidTimestamp'       => '"timestamp" પ્રકારનું કાસ્ટિંગ યોગ્ય ટાઈમસ્ટેમ્પ હોવો જોઈએ.',
+    'jsonErrorCtrlChar'      => 'અનપેક્ષિત નિયંત્રણ અક્ષર મળ્યું.',
+    'jsonErrorDepth'         => 'મહત્તમ સ્ટેક ઊંડાઈ પાર થઈ.',
+    'jsonErrorStateMismatch' => 'અંડરફ્લો અથવા સ્થિતિ બેદરકાર છે.',
+    'jsonErrorSyntax'        => 'સિન્ટેક્સ ભૂલ, ખોટી બંધારણવાળી JSON.',
+    'jsonErrorUnknown'       => 'અજ્ઞાત ભૂલ.',
+    'jsonErrorUtf8'          => 'ખરાબ UTF-8 અક્ષરો, શક્યતઃ ખોટી રીતે એન્કોડ કરવામાં આવ્યા છે.',
 ];
