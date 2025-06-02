@@ -13,6 +13,6 @@ declare(strict_types=1);
 
 // Log language settings
 return [
-    'invalidLogLevel'    => '"{0}" એ અમાન્ય લોગ લેવલ છે.',
-    'invalidMessageType' => 'આપેલ સંદેશ પ્રકાર "{0}" સપોર્ટેડ નથી.',
+    'invalidLogLevel'    => '"{0}" એ અમાન્ય લોગ લેવલ છે.', // '"{0}" is an invalid log level.'
+    'invalidMessageType' => 'આપેલ સંદેશ પ્રકાર "{0}" સપોર્ટેડ નથી.', // 'The given message type "{0}" is not supported.'
 ];

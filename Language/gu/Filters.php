@@ -13,6 +13,6 @@ declare(strict_types=1);
 
 // Filters language settings
 return [
-    'noFilter'           => '"{0}" ફિલ્ટરનો મેળ ખાતો ઉપનામ (alias) વ્યાખ્યાયિત હોવો આવશ્યક છે.',
-    'incorrectInterface' => '"{0}" એ CodeIgniter\Filters\FilterInterface અમલમાં મૂકવો આવશ્યક છે.',
+    'noFilter'           => '"{0}" ફિલ્ટરનો મેળ ખાતો ઉપનામ (alias) વ્યાખ્યાયિત હોવો આવશ્યક છે.', // '"{0}" filter must have a matching alias defined.'
+    'incorrectInterface' => '"{0}" એ CodeIgniter\Filters\FilterInterface અમલમાં મૂકવો આવશ્યક છે.', // '"{0}" must implement CodeIgniter\Filters\FilterInterface.'
 ];

@@ -13,13 +13,13 @@ declare(strict_types=1);
 
 // Pager language settings
 return [
-    'pageNavigation'         => 'પાનાનું નેવિગેશન',
-    'first'                  => 'પ્રથમ',
-    'previous'               => 'પાછળ',
-    'next'                   => 'આગળ',
-    'last'                   => 'છેલ્લું',
-    'older'                  => 'જૂનું',
-    'newer'                  => 'નવું',
-    'invalidTemplate'        => '"{0}" માન્ય પેજર ટેમ્પલેટ નથી.',
-    'invalidPaginationGroup' => '"{0}" માન્ય પેજીનેશન ગ્રુપ નથી.',
+    'pageNavigation'         => 'પાનાનું નેવિગેશન', // 'Page navigation'
+    'first'                  => 'પ્રથમ', // 'First'
+    'previous'               => 'પાછળ', // 'Previous'
+    'next'                   => 'આગળ', // 'Next'
+    'last'                   => 'છેલ્લું', // 'Last'
+    'older'                  => 'જૂનું', // 'Older'
+    'newer'                  => 'નવું', // 'Newer'
+    'invalidTemplate'        => '"{0}" માન્ય પેજર ટેમ્પલેટ નથી.', // '"{0}" is not a valid Pager template.'
+    'invalidPaginationGroup' => '"{0}" માન્ય પેજીનેશન ગ્રુપ નથી.', // '"{0}" is not a valid Pagination group.'
 ];
