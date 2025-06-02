@@ -71,4 +71,5 @@ return [
     'mime_in'  => '{field} har inte en giltig mime-typ.',
     'ext_in'   => '{field} har inte en giltig filändelse.',
     'max_dims' => '{field} är antingen inte en bild eller har för stora dimensioner.',
+    'min_dims' => '{field} är antingen inte en bild eller är inte tillräckligt hög eller bred.',
 ];
