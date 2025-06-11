@@ -48,6 +48,7 @@ claims no expertise beyond English.
 | fa     | Farsi               | 4.0.0   | [msalehi-d][fa]       | Mohammad Salehi
 | fr     | French              | 4.0.0   | [amuratet][fr]        | Amuratet?
 | gu     | Gujarati            | 4.x     | [patel-vansh][gu]     | Vansh Patel
+| hi     | Hindi               | 4.x     | [patel-vansh][gu]     | Vansh Patel
 | hu     | Hungarian           | 4.2.0   | [kzolee1][hu]         | Zoltan Kovacs
 | id     | Indonesian          | 4.0.0   | [ridho1991][id]       | Mutasim Ridlo
 | it     | Italian             | 4.0.0   | [luk3b8][it]          | Luca Rasia

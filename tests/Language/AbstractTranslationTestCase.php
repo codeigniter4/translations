@@ -50,6 +50,7 @@ abstract class AbstractTranslationTestCase extends TestCase
         FarsiTranslationTest::class              => 'fa',
         FrenchTranslationTest::class             => 'fr',
         GujaratiTranslationTest::class           => 'gu',
+        HindiTranslationTest::class              => 'hi',
         HungarianTranslationTest::class          => 'hu',
         IndonesianTranslationTest::class         => 'id',
         ItalianTranslationTest::class            => 'it',
