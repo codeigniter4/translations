@@ -13,16 +13,16 @@ declare(strict_types=1);
 
 // Number language settings
 return [
-    'terabyteAbbr' => 'TB',
-    'gigabyteAbbr' => 'GB',
-    'megabyteAbbr' => 'MB',
-    'kilobyteAbbr' => 'KB',
-    'bytes'        => 'बाइट्स',
+    'terabyteAbbr' => 'TB', // 'TB'
+    'gigabyteAbbr' => 'GB', // 'GB'
+    'megabyteAbbr' => 'MB', // 'MB'
+    'kilobyteAbbr' => 'KB', // 'KB'
+    'bytes'        => 'बाइट्स', // 'Bytes'
 
     // don't forget the space in front of these!
-    'thousand'    => ' हज़ार',
-    'million'     => ' मिलियन',
-    'billion'     => ' बिलियन',
-    'trillion'    => ' ट्रिलियन',
-    'quadrillion' => ' क्वाड्रिलियन',
+    'thousand'    => ' हज़ार', // ' thousand'
+    'million'     => ' मिलियन', // ' million'
+    'billion'     => ' बिलियन', // ' billion'
+    'trillion'    => ' ट्रिलियन', // ' trillion'
+    'quadrillion' => ' क्वाड्रिलियन', // ' quadrillion'
 ];

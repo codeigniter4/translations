@@ -13,6 +13,6 @@ declare(strict_types=1);
 
 // Filters language settings
 return [
-    'noFilter'           => '"{0}" फ़िल्टर में एक समान उपनाम (alias) परिभाषित होना चाहिए।',
-    'incorrectInterface' => '"{0}" को CodeIgniter\Filters\FilterInterface लागू (implement) करना होगा।',
+    'noFilter'           => '"{0}" फ़िल्टर में एक समान उपनाम (alias) परिभाषित होना चाहिए।', // '"{0}" filter must have a matching alias defined.'
+    'incorrectInterface' => '"{0}" को CodeIgniter\Filters\FilterInterface लागू (implement) करना होगा।', // '"{0}" must implement CodeIgniter\Filters\FilterInterface.'
 ];

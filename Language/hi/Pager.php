@@ -13,13 +13,13 @@ declare(strict_types=1);
 
 // Pager language settings
 return [
-    'pageNavigation'         => 'पेज नेविगेशन',
-    'first'                  => 'पहला',
-    'previous'               => 'पिछला',
-    'next'                   => 'अगला',
-    'last'                   => 'अंतिम',
-    'older'                  => 'पुराना',
-    'newer'                  => 'नया',
-    'invalidTemplate'        => '"{0}" एक मान्य पेजर टेम्पलेट नहीं है।',
-    'invalidPaginationGroup' => '"{0}" एक मान्य पेजिंग समूह नहीं है।',
+    'pageNavigation'         => 'पेज नेविगेशन', // 'Page navigation'
+    'first'                  => 'पहला', // 'First'
+    'previous'               => 'पिछला', // 'Previous'
+    'next'                   => 'अगला', // 'Next'
+    'last'                   => 'अंतिम', // 'Last'
+    'older'                  => 'पुराना', // 'Older'
+    'newer'                  => 'नया', // 'Newer'
+    'invalidTemplate'        => '"{0}" एक मान्य पेजर टेम्पलेट नहीं है।', // '"{0}" is not a valid Pager template.'
+    'invalidPaginationGroup' => '"{0}" एक मान्य पेजिंग समूह नहीं है।', // '"{0}" is not a valid Pagination group.'
 ];

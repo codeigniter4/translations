@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 // Fabricator language settings
 return [
-    'invalidModel'      => 'निर्माण (fabrication) के लिए अमान्य मॉडल प्रदान किया गया।',
-    'missingFormatters' => 'कोई वैध फ़ॉर्मेटर परिभाषित नहीं हैं।',
-    'createFailed'      => 'फैब्रिकेटर तालिका "{0}" में डालने में विफल रहा: {1}',
+    'invalidModel'      => 'निर्माण (fabrication) के लिए अमान्य मॉडल प्रदान किया गया।', // 'Invalid model supplied for fabrication.'
+    'missingFormatters' => 'कोई वैध फ़ॉर्मेटर परिभाषित नहीं हैं।', // 'No valid formatters defined.'
+    'createFailed'      => 'फैब्रिकेटर तालिका "{0}" में डालने में विफल रहा: {1}', // 'Fabricator failed to insert on table "{0}": {1}'
 ];

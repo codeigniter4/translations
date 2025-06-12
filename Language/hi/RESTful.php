@@ -13,5 +13,5 @@ declare(strict_types=1);
 
 // RESTful language settings
 return [
-    'notImplemented' => '"{0}" क्रिया लागू नहीं की गई है।',
+    'notImplemented' => '"{0}" क्रिया लागू नहीं की गई है।', // '"{0}" action not implemented.'
 ];

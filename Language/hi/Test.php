@@ -13,5 +13,5 @@ declare(strict_types=1);
 
 // Testing language settings
 return [
-    'invalidMockClass' => '"{0}" एक मान्य मॉक क्लास नहीं है।',
+    'invalidMockClass' => '"{0}" एक मान्य मॉक क्लास नहीं है।', // '"{0}" is not a valid Mock class'
 ];

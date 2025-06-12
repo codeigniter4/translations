@@ -13,5 +13,5 @@ declare(strict_types=1);
 
 // "Language" language settings
 return [
-    'invalidMessageFormat' => 'अमान्य संदेश प्रारूप: "{0}", आर्ग्यूमेंट्स: "{1}"',
+    'invalidMessageFormat' => 'अमान्य संदेश प्रारूप: "{0}", आर्ग्यूमेंट्स: "{1}"', // 'Invalid message format: "{0}", args: "{1}"'
 ];
