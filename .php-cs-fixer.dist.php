@@ -11,8 +11,6 @@
 
 use CodeIgniter\CodingStandard\CodeIgniter4;
 use Nexus\CsConfig\Factory;
-use Nexus\CsConfig\Fixer\Comment\NoCodeSeparatorCommentFixer;
-use Nexus\CsConfig\FixerGenerator;
 use PhpCsFixer\Finder;
 
 $finder = Finder::create()
@@ -31,12 +29,8 @@ $finder = Finder::create()
 $overrides = [];
 
 $options = [
-    'finder'       => $finder,
-    'usingCache'   => true,
-    'customFixers' => FixerGenerator::create('vendor/nexusphp/cs-config/src/Fixer', 'Nexus\\CsConfig\\Fixer'),
-    'customRules'  => [
-        NoCodeSeparatorCommentFixer::name() => true,
-    ],
+    'finder'     => $finder,
+    'usingCache' => true,
 ];
 
 return Factory::create(new CodeIgniter4(), $overrides, $options)->forLibrary(
