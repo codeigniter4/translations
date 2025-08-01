@@ -19,6 +19,8 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '{0} একটি বৈধ আলোচনার ধরন নয়। এর মধ্যে একটি হতে হবে: মিডিয়া, অক্ষর সেট, এনকোডিং, ভাষা।',
+    'invalidJSON'            => 'JSON স্ট্রিং পার্স করতে ব্যর্থ হয়েছে। ত্রুটি: {0}', // 'Failed to parse JSON string. Error: {0}'
+    'unsupportedJSONFormat'  => 'প্রদত্ত JSON ফরমেট সমর্থিত নয়।', // 'The provided JSON format is not supported.'
 
     // Message
     'invalidHTTPProtocol' => 'অবৈধ HTTP প্রোটোকল সংস্করণ। এর মধ্যে একটি হতে হবে: {0}',
