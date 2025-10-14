@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 // Honeypot language settings
 return [
-    'noTemplate'      => 'Templat HTML untuk Honeypot belum disetel.',
+    'noTemplate'      => 'Templat HTML untuk Honeypot belum dikonfigurasi.',
     'noNameField'     => 'Nama bidang Honeypot belum ditentukan.',
     'theClientIsABot' => 'Klien Honeypot kemungkinan adalah bot.',
 ];
