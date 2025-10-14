@@ -20,7 +20,7 @@ return [
     'invalidSeconds' => 'Detik harus antara 0 dan 59. Diberikan: "{0}"',
     'years'          => '{0, plural, =1{# tahun} other{# tahun}}',
     'months'         => '{0, plural, =1{# bulan} other{# bulan}}',
-    'weeks'          => '{0, plural, =1{# pekan} other{# pekan}}',
+    'weeks'          => '{0, plural, =1{# minggu} other{# minggu}}',
     'days'           => '{0, plural, =1{# hari} other{# hari}}',
     'hours'          => '{0, plural, =1{# jam} other{# jam}}',
     'minutes'        => '{0, plural, =1{# menit} other{# menit}}',
