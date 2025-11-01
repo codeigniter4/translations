@@ -13,14 +13,14 @@ declare(strict_types=1);
 
 // Cookie language settings
 return [
-    'invalidExpiresTime'    => 'Неверный тип данных "{0}" для атрибута "Expires". Ожидается: строковый тип данных (String), целочисленный (Integer), или объект интерфейса DateTimeInterface.',
-    'invalidExpiresValue'   => 'Неверное время срока действия куки.',
-    'invalidCookieName'     => 'Имя куки "{0}" содержит неверные символы.',
-    'emptyCookieName'       => 'Имя куки не может быть пустым.',
-    'invalidSecurePrefix'   => 'Префикс "__Secure-" требует атрибут "Secure".',
-    'invalidHostPrefix'     => 'Префикс "__Host-" должен использоваться с флагом "Secure", без атрибута "Domain", и с установкой "Path" как "/".',
-    'invalidSameSite'       => 'Значение SameSite должно быть None, Lax, Strict или пустая строка. Дано: {0}.',
-    'invalidSameSiteNone'   => 'Использование атрибута "SameSite=None" требует настройку атрибута "Secure".',
-    'invalidCookieInstance' => 'Класс "{0}" ожидал массив куки инстансов от "{1}", но получил "{2}" с индексом {3}.',
-    'unknownCookieInstance' => 'Объект Cookie с именем "{0}" и префиксом "{1}" не был найден в коллекции.',
+    'invalidExpiresTime'    => 'Недопустимый тип "{0}" для атрибута "Expires". Ожидается: string, integer или объект DateTimeInterface.',
+    'invalidExpiresValue'   => 'Время истечения срока действия cookie недействительно.',
+    'invalidCookieName'     => 'Имя cookie "{0}" содержит недопустимые символы.',
+    'emptyCookieName'       => 'Имя cookie не может быть пустым.',
+    'invalidSecurePrefix'   => 'Использование префикса "__Secure-" требует установки атрибута "Secure".',
+    'invalidHostPrefix'     => 'Использование префикса "__Host-" требует установки флага "Secure", отсутствия атрибута "Domain" и установки "Path" на "/".',
+    'invalidSameSite'       => 'Значение SameSite должно быть None, Lax, Strict или пустой строкой, указано: {0}.',
+    'invalidSameSiteNone'   => 'Использование атрибута "SameSite=None" требует установки атрибута "Secure".',
+    'invalidCookieInstance' => 'Класс "{0}" ожидал, что массив cookies будет содержать экземпляры "{1}", но получил "{2}" на индексе {3}.',
+    'unknownCookieInstance' => 'Объект cookie с именем "{0}" и префиксом "{1}" не найден в коллекции.',
 ];

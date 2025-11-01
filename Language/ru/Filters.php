@@ -13,6 +13,6 @@ declare(strict_types=1);
 
 // Filters language settings
 return [
-    'noFilter'           => '{0} фильтр должен иметь соответствующий алиас.',
-    'incorrectInterface' => '{0} необходимо реализовать CodeIgniter\Filters\FilterInterface.',
+    'noFilter'           => 'Для фильтра "{0}" должен быть определён соответствующий псевдоним.',
+    'incorrectInterface' => '"{0}" должен реализовывать интерфейс CodeIgniter\Filters\FilterInterface.',
 ];

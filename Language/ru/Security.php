@@ -13,9 +13,9 @@ declare(strict_types=1);
 
 // Security language settings
 return [
-    'disallowedAction' => 'Запрошенное вами действие не разрешено.',
-    'insecureCookie'   => 'Попытка отправить защищенный файл cookie через незащищенное соединение.',
+    'disallowedAction' => 'Запрошенное действие не разрешено.',
+    'insecureCookie'   => 'Попытка отправки безопасного cookie по небезопасному соединению.',
 
     // @deprecated
-    'invalidSameSite' => 'Значение SameSite должно быть None, Lax, Strict или пустая строка. Дано: "{0}"',
+    'invalidSameSite' => 'Значение SameSite должно быть None, Lax, Strict или пустой строкой. Указано: "{0}"',
 ];

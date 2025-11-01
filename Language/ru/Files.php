@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 // Files language settings
 return [
-    'fileNotFound'      => 'Файл {0} не найден.',
-    'cannotMove'        => 'Не удалось переместить файл из {0} в {1}. ({2})',
-    'expectedDirectory' => '{0} ожидает допустимый каталог.',
-    'expectedFile'      => '{0} ожидает допустимый файл.',
+    'fileNotFound'      => 'Файл не найден: "{0}"',
+    'cannotMove'        => 'Не удалось переместить файл "{0}" в "{1}". Причина: {2}',
+    'expectedDirectory' => '{0} ожидает корректный каталог.',
+    'expectedFile'      => '{0} ожидает корректный файл.',
 ];

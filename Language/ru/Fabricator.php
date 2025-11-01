@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 // Fabricator language settings
 return [
-    'invalidModel'      => 'Поставляемая модель недопустима для изготовления.',
-    'missingFormatters' => 'Действительные форматеры не определены.',
-    'createFailed'      => 'Не удалось создать вставку таблицы "{0}": {1}',
+    'invalidModel'      => 'Указана недопустимая модель для создания.',
+    'missingFormatters' => 'Не определены допустимые форматтеры.',
+    'createFailed'      => 'Не удалось вставить данные в таблицу "{0}": {1}',
 ];
