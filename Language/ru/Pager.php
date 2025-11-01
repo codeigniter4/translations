@@ -13,13 +13,13 @@ declare(strict_types=1);
 
 // Pager language settings
 return [
-    'pageNavigation'         => 'Пагинация',
+    'pageNavigation'         => 'Навигация по страницам',
     'first'                  => 'Первая',
     'previous'               => 'Предыдущая',
     'next'                   => 'Следующая',
     'last'                   => 'Последняя',
-    'older'                  => 'Старая',
-    'newer'                  => 'Новая',
-    'invalidTemplate'        => '{0} не является допустимым шаблоном.',
-    'invalidPaginationGroup' => '{0} не является группой пагинации.',
+    'older'                  => 'Ранее',
+    'newer'                  => 'Новее',
+    'invalidTemplate'        => '"{0}" не является допустимым шаблоном Pager.',
+    'invalidPaginationGroup' => '"{0}" не является допустимой группой Pagination.',
 ];

@@ -13,12 +13,12 @@ declare(strict_types=1);
 
 // Session language settings
 return [
-    'missingDatabaseTable'   => '$sessionSavePath должен содержать имя таблицы для работы сессий с базой данных.',
-    'invalidSavePath'        => 'Ошибка: Настроенный путь сохранения "{0}" не является каталогом, не существует или не может быть создан.',
-    'writeProtectedSavePath' => 'Ошибка: Настроенный путь сохранения "{0}" не доступен для записи процессом PHP.',
-    'emptySavePath'          => 'Ошибка: Не настроен путь сохранения сессий.',
-    'invalidSavePathFormat'  => 'Ошибка: Недопустимый формат пути сохранения для Redis: {0}.',
+    'missingDatabaseTable'   => '"sessionSavePath" должен содержать имя таблицы для работы Database Session Handler.',
+    'invalidSavePath'        => 'Сессия: указанный путь для сохранения "{0}" не является каталогом, не существует или не может быть создан.',
+    'writeProtectedSavePath' => 'Сессия: указанный путь для сохранения "{0}" недоступен для записи процессом PHP.',
+    'emptySavePath'          => 'Сессия: путь для сохранения не настроен.',
+    'invalidSavePathFormat'  => 'Сессия: недопустимый формат пути Redis: "{0}"',
 
     // @deprecated
-    'invalidSameSiteSetting' => 'Сессия: Значение SameSite должно быть None, Lax, Strict или пустая строка. Дано: "{0}"',
+    'invalidSameSiteSetting' => 'Сессия: настройка SameSite должна быть None, Lax, Strict или пустой строкой. Указано: "{0}"',
 ];

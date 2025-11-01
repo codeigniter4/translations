@@ -13,6 +13,6 @@ declare(strict_types=1);
 
 // Log language settings
 return [
-    'invalidLogLevel'    => '{0} - это недопустимый уровень ведения журнала.',
-    'invalidMessageType' => 'Данный тип сообщения "{0}" не поддерживается.',
+    'invalidLogLevel'    => '"{0}" недопустимый уровень логирования.',
+    'invalidMessageType' => 'Указанный тип сообщения "{0}" не поддерживается.',
 ];

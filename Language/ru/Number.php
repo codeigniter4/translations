@@ -17,7 +17,7 @@ return [
     'gigabyteAbbr' => 'ГБ',
     'megabyteAbbr' => 'МБ',
     'kilobyteAbbr' => 'КБ',
-    'bytes'        => 'Байтов',
+    'bytes'        => 'Байты',
 
     // don't forget the space in front of these!
     'thousand'    => ' тысяча',

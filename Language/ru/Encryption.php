@@ -13,10 +13,10 @@ declare(strict_types=1);
 
 // Encryption language settings
 return [
-    'noDriverRequested'    => 'Требуется подключить драйвер шифрования.',
-    'noHandlerAvailable'   => 'Не удается найти доступный обработчик шифрования {0}.',
-    'unKnownHandler'       => 'Обработчик "{0}" не может быть настроен.',
-    'starterKeyNeeded'     => 'Для шифрования требуется указать секретный ключ',
-    'authenticationFailed' => 'Ошибка: Не удалось выполнить проверку подлинности.',
-    'encryptionFailed'     => 'Сбой шифрования.',
+    'noDriverRequested'    => 'Драйвер не указан; Мисс Дейзи будет очень расстроена!',
+    'noHandlerAvailable'   => 'Не удалось найти доступный обработчик шифрования "{0}".',
+    'unKnownHandler'       => '"{0}" не может быть настроен.',
+    'starterKeyNeeded'     => 'Шифратору необходим начальный ключ.',
+    'authenticationFailed' => 'Расшифровка не удалась: ошибка аутентификации.',
+    'encryptionFailed'     => 'Шифрование не удалось.',
 ];
