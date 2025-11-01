@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 // Format language settings
 return [
-    'invalidFormatter' => '"{0}" неверный Formatter класс.',
-    'invalidJSON'      => 'Не удалось разобрать строку в JSON, Ошибка: "{0}".',
-    'invalidMime'      => 'Нет определён MIME-тип: "{0}".',
-    'missingExtension' => 'Расширение SimpleXML требуется для форматирования XML.',
+    'invalidFormatter' => '"{0}" не является допустимым классом Formatter.',
+    'invalidJSON'      => 'Не удалось разобрать JSON-строку. Ошибка: {0}',
+    'invalidMime'      => 'Для MIME-типа "{0}" не определён Formatter.',
+    'missingExtension' => 'Для форматирования XML требуется расширение SimpleXML.',
 ];

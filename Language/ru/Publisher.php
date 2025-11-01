@@ -13,13 +13,13 @@ declare(strict_types=1);
 
 // Publisher language settings
 return [
-    'collision'             => 'Publisher обнаружил непредвиденное "{0}" при копировании "{1}" в "{2}".',
-    'destinationNotAllowed' => 'Место назначения не входит в разрешенный список директорий Publisher: "{0}"',
-    'fileNotAllowed'        => '"{0}" не соответствует следующему ограничению для "{1}": {2}',
+    'collision'             => 'Publisher столкнулся с неожиданным "{0}" при копировании "{1}" в "{2}".',
+    'destinationNotAllowed' => 'Папка назначения не входит в разрешённый список каталогов Publisher: "{0}"',
+    'fileNotAllowed'        => '"{0}" не соответствует следующим ограничениям для "{1}": {2}',
 
     // Publish Command
-    'publishMissing'          => 'Классы Publisher не найдены в {0} во всех пространствах имен.',
-    'publishMissingNamespace' => 'Классы Publisher не найдены в {0} в пространстве имен {1}.',
+    'publishMissing'          => 'Классы Publisher не обнаружены в {0} во всех пространствах имён.',
+    'publishMissingNamespace' => 'Классы Publisher не обнаружены в {0} в пространстве имён {1}.',
     'publishSuccess'          => '"{0}" опубликовал {1} файл(ов) в "{2}".',
     'publishFailure'          => '"{0}" не удалось опубликовать в "{1}".',
 ];

@@ -13,5 +13,5 @@ declare(strict_types=1);
 
 // RESTful language settings
 return [
-    'notImplemented' => '"{0}" действие не реализовано.',
+    'notImplemented' => 'Действие "{0}" не реализовано.',
 ];

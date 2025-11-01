@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 // CLI language settings
 return [
-    'altCommandPlural'   => 'Вы подразумевали один из этих?',
-    'altCommandSingular' => 'Вы подразумевали этот?',
+    'altCommandPlural'   => 'Вы имели в виду один из этих вариантов?',
+    'altCommandSingular' => 'Вы имели в виду это?',
     'commandNotFound'    => 'Команда "{0}" не найдена.',
     'generator'          => [
         'cancelOperation' => 'Операция была отменена.',
@@ -28,20 +28,20 @@ return [
             'filter'     => 'Имя класса фильтра',
             'migration'  => 'Имя класса миграции',
             'model'      => 'Имя класса модели',
-            'seeder'     => 'Имя класса Seeder`а',
-            'test'       => 'Имя тестового класса',
+            'seeder'     => 'Имя класса сидера',
+            'test'       => 'Имя класса теста',
             'validation' => 'Имя класса валидации',
         ],
         'commandType'      => 'Тип команды',
         'databaseGroup'    => 'Группа базы данных',
-        'fileCreate'       => 'Создан файл: {0}',
+        'fileCreate'       => 'Файл создан: {0}',
         'fileError'        => 'Ошибка при создании файла: "{0}"',
         'fileExist'        => 'Файл существует: "{0}"',
         'fileOverwrite'    => 'Файл перезаписан: "{0}"',
         'parentClass'      => 'Родительский класс',
-        'returnType'       => 'Возвращаемый тип',
+        'returnType'       => 'Тип возвращаемого значения',
         'tableName'        => 'Имя таблицы',
-        'usingCINamespace' => 'Предупреждение: Использование пространства имён "CodeIgniter" создаст файл в системной директории.',
+        'usingCINamespace' => 'Внимание: использование пространства имен "CodeIgniter" создаст файл в системной директории.',
         'viewName'         => [
             'cell' => 'Имя представления ячейки',
         ],
@@ -50,6 +50,6 @@ return [
     'helpDescription'     => 'Описание:',
     'helpOptions'         => 'Опции:',
     'helpUsage'           => 'Использование:',
-    'invalidColor'        => 'Недопустимый "{0}" цвет: "{1}".',
-    'namespaceNotDefined' => 'Пространство имён "{0}" не определено.',
+    'invalidColor'        => 'Недопустимый цвет "{0}": "{1}".',
+    'namespaceNotDefined' => 'Пространство имен "{0}" не определено.',
 ];
