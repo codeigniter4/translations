@@ -68,6 +68,7 @@ claims no expertise beyond English.
 | sk     | Slovak              | 4.0.0   | [xbotkaj][sk]         | Jozef Botka
 | sr     | Serbian             | 4.3.1   | [nebojsajsimic][sr]   | Nebojša Simić
 | sv-SE  | Swedish - Sweden    | 4.0.3   | [tangix][sv-SE]       | Mattias Sandström
+| sw     | Swahili             | 4.6.2   | [emleonstz][sw]       | Emanuel Leonard
 | ta     | Tamil               | 4.5.1   | [darthleslin][ta]     | Leslin
 | th     | Thai                | 4.1.4   | [karidoe][th]         | Anuchit Thiamuan
 | tr     | Turkish             | 4.0.0   | [obozdag][tr]         | obozdag
