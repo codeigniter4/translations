@@ -108,6 +108,7 @@ _**Version where the locale was released. 4.x denotes `Unreleased`._
 [sk]: https://github.com/xbotkaj
 [sr]: https://github.com/nebojsajsimic
 [sv-SE]: https://github.com/tangix
+[sw]: https://github.com/emleonstz
 [ta]: https://github.com/darthleslin
 [th]: https://github.com/karidoe
 [tr]: https://github.com/obozdag
