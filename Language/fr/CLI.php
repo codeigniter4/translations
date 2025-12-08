@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -17,6 +19,7 @@ return [
     'generator'          => [
         'cancelOperation' => 'L\'opération a été annulée.',
         'className'       => [
+            'cell'       => 'Nom de la classe de cellule',
             'command'    => 'Nom de la classe de commande',
             'config'     => 'Nom de la classe de configuration',
             'controller' => 'Nom de la classe du contrôleur',
@@ -26,6 +29,7 @@ return [
             'migration'  => 'Nom de la classe de migration',
             'model'      => 'Nom de la classe du modèle',
             'seeder'     => 'Nom de la classe du Seeder',
+            'test'       => 'Nom de la classe de test',
             'validation' => 'Nom de la classe de validation',
         ],
         'commandType'      => 'Type de commande',
@@ -38,6 +42,9 @@ return [
         'returnType'       => 'Type de retour',
         'tableName'        => 'Nom de la table',
         'usingCINamespace' => 'Avertissement : L\'utilisation du namespace "CodeIgniter" va générer le fichier dans le répertoire système.',
+        'viewName'         => [
+            'cell' => 'Nom de la vue de cellule',
+        ],
     ],
     'helpArguments'       => 'Arguments :',
     'helpDescription'     => 'Description :',

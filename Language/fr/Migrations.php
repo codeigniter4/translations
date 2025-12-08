@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -36,6 +38,7 @@ return [
 
     'latest'            => 'Exécution de toutes les nouvelles migrations...',
     'generalFault'      => 'La migration a échoué !',
+    'migrated'          => 'Migrations terminées.',
     'migInvalidVersion' => 'Numéro de version fourni invalide.',
     'toVersionPH'       => 'Migration vers la version %s en cours...',
     'toVersion'         => 'Migration vers la version actuelle en cours...',
