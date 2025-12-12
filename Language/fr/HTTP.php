@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -19,6 +21,8 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '{0} n\'est pas un type de négociation valide. Doit être l\'un des éléments suivants : media, charset, encoding, language.',
+    'invalidJSON'            => 'Analyse de la chaîne JSON échouée. Erreur : {0}',
+    'unsupportedJSONFormat'  => 'Le format JSON fourni n\'est pas pris en charge.',
 
     // Message
     'invalidHTTPProtocol' => 'Version du protocole HTTP non valide. Doit être l\'un de : {0}',
@@ -52,6 +56,7 @@ return [
     'emptyController'    => 'Pas de contrôleur spécifié.',
     'controllerNotFound' => 'Le contrôleur ou sa méthode sont introuvables : {0}::{1}',
     'methodNotFound'     => 'La méthode du contrôleur est introuvable : {0}',
+    'localeNotSupported' => 'La langue n\'est pas prise en charge : {0}',
 
     // CSRF
     // @deprecated use `Security.disallowedAction`

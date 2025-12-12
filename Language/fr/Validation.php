@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -29,6 +31,7 @@ return [
     'differs'               => 'Le champ {field} doit être différent du champ {param}.',
     'equals'                => 'Le champ {field} doit être exactement : {param}.',
     'exact_length'          => 'Le champ {field} doit avoir précisément {param} caractères de long.',
+    'field_exists'          => 'Le champ {field} doit exister.',
     'greater_than'          => 'Le champ {field} doit contenir un nombre plus grand que {param}.',
     'greater_than_equal_to' => 'Le champ {field} doit être supérieur ou égal à {param}.',
     'hex'                   => 'Le champ {field} ne peut contenir que des caractères hexadécimaux.',
@@ -59,6 +62,7 @@ return [
     'valid_url'             => 'Le champ {field} doit contenir une URL valide.',
     'valid_url_strict'      => 'Le champ {field} doit contenir une URL valide.',
     'valid_date'            => 'Le champ {field} doit contenir une date valide.',
+    'valid_json'            => 'Le champ {field} doit contenir un json valide.',
 
     // Credit Cards
     'valid_cc_num' => '{field} ne semble pas être un numéro de carte de crédit valide.',
@@ -70,4 +74,5 @@ return [
     'mime_in'  => '{field} n\'a pas un type MIME valide.',
     'ext_in'   => 'L\'extension du fichier {field}  n\'est pas valide.',
     'max_dims' => 'Soit {field} n\'est pas une image, soit elle est trop haute ou trop large.',
+    'min_dims' => 'Soit {field} n\'est pas une image, soit elle n\'est pas assez haute ou assez large.',
 ];

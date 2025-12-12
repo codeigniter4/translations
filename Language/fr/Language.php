@@ -11,7 +11,8 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Testing language settings
+// "Language" language settings
 return [
-    'invalidMockClass' => '{0} n\'est pas une class Mock valide',
+    // @deprecated v4.6.3 - never used
+    'invalidMessageFormat' => 'Format de message non valide: "{0}", args: "{1}"',
 ];

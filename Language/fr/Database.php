@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -27,4 +29,5 @@ return [
     'fieldNotExists'                   => 'Champ `{0}` non trouvé.',
     'forEmptyInputGiven'               => 'Un énoncé vide est donné pour le champ `{0}`.',
     'forFindColumnHaveMultipleColumns' => 'Une seule colonne est autorisée dans Nom de la colonne.',
+    'methodNotAvailable'               => 'Vous ne pouvez pas utiliser "{1}" dans "{0}". C\'est une méthode de la classe Query Builder.',
 ];

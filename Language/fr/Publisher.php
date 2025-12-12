@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -16,7 +18,8 @@ return [
     'fileNotAllowed'        => '{0} ne répond pas à la restriction suivante pour {1} : {2}',
 
     // Publish Command
-    'publishMissing' => 'Aucune classe Publisher détectée dans {0} dans tous les namespaces.',
-    'publishSuccess' => '{0} a publié {1} fichier(s) vers {2}.',
-    'publishFailure' => '{0} n\'a pas réussi à publier vers {1} !',
+    'publishMissing'          => 'Aucune classe Publisher détectée dans {0} dans tous les espaces de noms.',
+    'publishMissingNamespace' => 'Aucune classe Publisher détectée dans {0} dans l\'espace de nom {1}.',
+    'publishSuccess'          => '{0} a publié {1} fichier(s) vers {2}.',
+    'publishFailure'          => '{0} n\'a pas réussi à publier vers {1} !',
 ];
