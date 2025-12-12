@@ -19,6 +19,7 @@ return [
     'generator'          => [
         'cancelOperation' => 'A művelet megszakítva.',
         'className'       => [
+            'cell'       => 'Cell osztály neve',
             'command'    => 'Parancsosztály neve',
             'config'     => 'Konfigurációs osztály neve',
             'controller' => 'Vezérlő osztály neve',
