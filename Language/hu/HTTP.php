@@ -21,7 +21,7 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '{0} nem megfelelő kapcsolattípus. A következők egyike kell legyen: media, charset, encoding, language.',
-	'invalidJSON'            => 'A JSON karakterlánc elemzése sikertelen. Hiba: {0}',
+    'invalidJSON'            => 'A JSON karakterlánc elemzése sikertelen. Hiba: {0}',
     'unsupportedJSONFormat'  => 'A megadott JSON formátum nem támogatott.',
 
     // Message
@@ -56,7 +56,7 @@ return [
     'emptyController'    => 'Nincs Vezérlő (Controller) meghatározva.',
     'controllerNotFound' => 'A következő Vezérlő (Controller) vagy metódusa nem található: {0}::{1}',
     'methodNotFound'     => 'A következő Vezérlő (Controller) metódus nem található: {0}',
-	'localeNotSupported' => 'A helyi beállítások nem támogatottak: {0}',
+    'localeNotSupported' => 'A helyi beállítások nem támogatottak: {0}',
 
     // CSRF
     // @deprecated use `Security.disallowedAction`

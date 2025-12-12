@@ -17,7 +17,7 @@ return [
     'enabledZlibOutputCompression' => 'A zlib.output_compression ini direktíva be van kapcsolva. Ez nem működik jól kimeneti pufferekkel.',
     'invalidFile'                  => 'Érvénytelen fájl: {0}',
     'invalidDirectory'             => 'A könyvtár nem létezik: "{0}"',
-	'invalidPhpVersion'            => 'A CodeIgniter futtatásához PHP-verziójának legalább {0}-nek kell lennie. Jelenlegi verzió: {1}',
+    'invalidPhpVersion'            => 'A CodeIgniter futtatásához PHP-verziójának legalább {0}-nek kell lennie. Jelenlegi verzió: {1}',
     'missingExtension'             => 'A keretrendszerhez a következő bővítményeket kell telepíteni és betölteni: {0}.',
     'noHandlers'                   => 'A(z) {0} szolgáltatásnak legalább egy kezelőt kell biztosítania.',
 ];
