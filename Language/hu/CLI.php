@@ -29,6 +29,7 @@ return [
             'migration'  => 'Migrációs osztály neve',
             'model'      => 'Modellosztály neve',
             'seeder'     => 'Seeder osztály neve',
+            'test'       => 'Teszt osztály neve',
             'validation' => 'Érvényesítési osztály neve',
         ],
         'commandType'      => 'Parancs típusa',
