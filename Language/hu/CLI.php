@@ -40,6 +40,9 @@ return [
         'returnType'       => 'Visszaérkezés típusa',
         'tableName'        => 'Tábla név',
         'usingCINamespace' => 'Figyelmeztetés: A "CodeIgniter" névtér használatával a fájl a rendszerkönyvtárban jön létre.',
+        'viewName'         => [
+            'cell' => 'Cell név',
+        ],
     ],
     'helpArguments'       => 'Argumentumok:',
     'helpDescription'     => 'Leírás:',
