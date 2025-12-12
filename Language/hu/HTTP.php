@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -19,6 +21,8 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '{0} nem megfelelő kapcsolattípus. A következők egyike kell legyen: media, charset, encoding, language.',
+    'invalidJSON'            => 'A JSON karakterlánc elemzése sikertelen. Hiba: {0}',
+    'unsupportedJSONFormat'  => 'A megadott JSON formátum nem támogatott.',
 
     // Message
     'invalidHTTPProtocol' => 'Érvénytelen HTTP protokoll verzió. A következők egyike kell legyen: {0}',
@@ -52,6 +56,7 @@ return [
     'emptyController'    => 'Nincs Vezérlő (Controller) meghatározva.',
     'controllerNotFound' => 'A következő Vezérlő (Controller) vagy metódusa nem található: {0}::{1}',
     'methodNotFound'     => 'A következő Vezérlő (Controller) metódus nem található: {0}',
+    'localeNotSupported' => 'A helyi beállítások nem támogatottak: {0}',
 
     // CSRF
     // @deprecated use `Security.disallowedAction`
