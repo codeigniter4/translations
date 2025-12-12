@@ -11,7 +11,9 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Testing language settings
+// Honeypot language settings
 return [
-    'invalidMockClass' => '{0} nem érvényes Mock osztály',
+    'noTemplate'      => 'A Honeypot HTML-sablonja nincs konfigurálva.',
+    'noNameField'     => 'A Honeypot mező neve nincs beállítva.',
+    'theClientIsABot' => 'A Honeypot kliens lehet egy bot.',
 ];
