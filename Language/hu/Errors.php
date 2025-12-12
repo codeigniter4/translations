@@ -13,10 +13,10 @@ declare(strict_types=1);
 
 // Errors language settings
 return [
-    'pageNotFound'    => '404 - Page Not Found',
-    'sorryCannotFind' => 'Sorry! Cannot seem to find the page you were looking for.',
-    'badRequest'      => '400 - Bad Request',
-    'sorryBadRequest' => 'Sorry! Something is wrong with your request.',
-    'whoops'          => 'Whoops!',
-    'weHitASnag'      => 'We seem to have hit a snag. Please try again later...',
+    'pageNotFound'    => '404 - Oldal nem található',
+    'sorryCannotFind' => 'Sajnáljuk! Úgy tűnik, nem találjuk az Ön által keresett oldalt.',
+    'badRequest'      => '400 - Helytelen kérés',
+    'sorryBadRequest' => 'Sajnáljuk! Valami probléma történt a kérésével.',
+    'whoops'          => 'Hoppá!',
+    'weHitASnag'      => 'Úgy tűnik, valami probléma adódott. Kérjük, próbálkozzon újra később...',
 ];
