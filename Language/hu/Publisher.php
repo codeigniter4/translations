@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -16,7 +18,8 @@ return [
     'fileNotAllowed'        => 'A(z) {0} nem teljesíti a következő korlátozást a(z) {1} számára: {2}',
 
     // Publish Command
-    'publishMissing' => 'Nem találhatók Publisher osztályok a(z) {0} domain egyik bejegyzésében sem.',
-    'publishSuccess' => '{0} megosztott {1} fájlt itt: {2}.',
-    'publishFailure' => 'A(z) {0} megosztása nem sikerült a(z) {1} számára!',
+    'publishMissing'          => 'Nem találhatók Publisher osztályok a(z) {0} domain egyik bejegyzésében sem.',
+    'publishMissingNamespace' => 'Nincs Publisher osztály észlelve a {0} -ban a {1} névtérben.',
+    'publishSuccess'          => '{0} megosztott {1} fájlt itt: {2}.',
+    'publishFailure'          => 'A(z) {0} megosztása nem sikerült a(z) {1} számára!',
 ];

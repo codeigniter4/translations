@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -17,6 +19,7 @@ return [
     'generator'          => [
         'cancelOperation' => 'A művelet megszakítva.',
         'className'       => [
+            'cell'       => 'Cell osztály neve',
             'command'    => 'Parancsosztály neve',
             'config'     => 'Konfigurációs osztály neve',
             'controller' => 'Vezérlő osztály neve',
@@ -26,6 +29,7 @@ return [
             'migration'  => 'Migrációs osztály neve',
             'model'      => 'Modellosztály neve',
             'seeder'     => 'Seeder osztály neve',
+            'test'       => 'Teszt osztály neve',
             'validation' => 'Érvényesítési osztály neve',
         ],
         'commandType'      => 'Parancs típusa',
@@ -38,6 +42,9 @@ return [
         'returnType'       => 'Visszaérkezés típusa',
         'tableName'        => 'Tábla név',
         'usingCINamespace' => 'Figyelmeztetés: A "CodeIgniter" névtér használatával a fájl a rendszerkönyvtárban jön létre.',
+        'viewName'         => [
+            'cell' => 'Cell név',
+        ],
     ],
     'helpArguments'       => 'Argumentumok:',
     'helpDescription'     => 'Leírás:',

@@ -11,7 +11,8 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Testing language settings
+// "Language" language settings
 return [
-    'invalidMockClass' => '{0} nem érvényes Mock osztály',
+    // @deprecated v4.6.3 - never used
+    'invalidMessageFormat' => 'Érvénytelen üzenetformátum: "{0}", args: "{1}"',
 ];
