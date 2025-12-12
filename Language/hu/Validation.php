@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -29,6 +31,7 @@ return [
     'differs'               => 'A(z) {field} mezőnek különböznie kell a(z) {param} mezőtől.',
     'equals'                => 'A(z) {field} mező értékének pontosan ennyinek kell lennie: {param}.',
     'exact_length'          => 'A(z) {field} mezőnek pontosan {param} karakter hosszúságúnak kelllennie.',
+	'field_exists'          => 'A {field} mezőnek léteznie kell.',
     'greater_than'          => 'A(z) {field} mező értékének nagyobbnak kell lennie, mint {param}.',
     'greater_than_equal_to' => 'A(z) {field} mező értékének nagyobbnak vagy egyenlőnek kell lennie, mint {param}.',
     'hex'                   => 'A(z) {field} mező csak hexadecimális karaktereket tartalmazhat.',
@@ -59,6 +62,7 @@ return [
     'valid_url'             => 'A(z) {field} mezőnek érvényes URL címet kell tartalmaznia.',
     'valid_url_strict'      => 'A(z) {field} mezőnek érvényes URL címet kell tartalmaznia.',
     'valid_date'            => 'A(z) {field} mezőnek érvényes dátumot kell tartalmaznia.',
+	'valid_json'            => 'A {field} mezőnek érvényes json-t kell tartalmaznia.',
 
     // Credit Cards
     'valid_cc_num' => '{field} nem tűnik érvényes hitelkártya számnak.',
@@ -70,4 +74,5 @@ return [
     'mime_in'  => '{field} nem tartalmaz érvényes MIME típust.',
     'ext_in'   => '{field} nem tartalmaz érvényes kiterjesztést.',
     'max_dims' => '{field} vagy nem kép vagy túl széles vagy magas.',
+	'min_dims' => 'A {field} vagy nem kép, vagy nem elég széles vagy magas.',
 ];
