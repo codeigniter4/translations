@@ -17,18 +17,19 @@ return [
     'generator'          => [
         'cancelOperation' => 'La operación ha sido cancelada.', // 'Operation has been cancelled.',
         'className'       => [
-            'cell'       => 'Nombre de la clase Cell', // 'Cell class name',
-            'command'    => 'Nombre de la clase Command', // 'Command class name',
-            'config'     => 'Nombre de la clase Config', // 'Config class name',
-            'controller' => 'Nombre de la clase Controller', // 'Controller class name',
-            'default'    => 'Nombre de la clase', // 'Class name',
-            'entity'     => 'Nombre de la clase Entity', // 'Entity class name',
-            'filter'     => 'Nombre de la clase Filter', // 'Filter class name',
-            'migration'  => 'Nombre de la clase Migration', // 'Migration class name',
-            'model'      => 'Nombre de la clase Model', // 'Model class name',
-            'seeder'     => 'Nombre de la clase Seeder', // 'Seeder class name',
-            'test'       => 'Nombre de la clase Test', // Test class name
-            'validation' => 'Nombre de la clase Validation', // 'Validation class name',
+            'cell'        => 'Nombre de la clase Cell', // 'Cell class name',
+            'command'     => 'Nombre de la clase Command', // 'Command class name',
+            'config'      => 'Nombre de la clase Config', // 'Config class name',
+            'controller'  => 'Nombre de la clase Controller', // 'Controller class name',
+            'default'     => 'Nombre de la clase', // 'Class name',
+            'entity'      => 'Nombre de la clase Entity', // 'Entity class name',
+            'filter'      => 'Nombre de la clase Filter', // 'Filter class name',
+            'migration'   => 'Nombre de la clase Migration', // 'Migration class name',
+            'model'       => 'Nombre de la clase Model', // 'Model class name',
+            'seeder'      => 'Nombre de la clase Seeder', // 'Seeder class name',
+            'test'        => 'Nombre de la clase Test', // Test class name
+            'transformer' => 'Nombre de la clase Transformer', // Transformer class name
+            'validation'  => 'Nombre de la clase Validation', // 'Validation class name',
         ],
         'commandType'      => 'Tipo de comando', // 'Command type',
         'databaseGroup'    => 'Grupo de base de datos', // 'Database group',
@@ -50,4 +51,9 @@ return [
     'helpUsage'           => 'Uso:', // 'Usage:',
     'invalidColor'        => 'Inválido {0} color: {1}.', // 'Invalid {0} color: {1}.',
     'namespaceNotDefined' => 'El espacio de nombres "{0}" no está definido', // 'Namespace "{0}" is not defined.',
+    'signals'             => [
+        'noPcntlExtension' => 'Extensión PCNTL no disponible. Manejo de señales deshabilitado.', // 'PCNTL extension not available. Signal handling disabled.',0
+        'noPosixExtension' => 'El manejo de SIGTSTP/SIGCONT requiere la extensión POSIX. Estas señales se eliminarán del registro.', // 'SIGTSTP/SIGCONT handling requires POSIX extension. These signals will be removed from registration.',
+        'failedSignal'     => 'No se pudo registrar el manejador para la señal: "{0}".', // 'Failed to register handler for signal: "{0}".',
+    ],
 ];
