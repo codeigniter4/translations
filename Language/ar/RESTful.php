@@ -14,4 +14,6 @@ declare(strict_types=1);
 // RESTful language settings
 return [
     'notImplemented' => 'الإجراء "{0}" غير مطبق.',
+    'cannotPaginate' => 'تعذر استرجاع البيانات المقسمة إلى صفحات.',
+    'paginateError'  => 'حدث خطأ أثناء تقسيم النتائج إلى صفحات.',
 ];
