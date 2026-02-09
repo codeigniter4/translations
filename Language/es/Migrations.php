@@ -20,6 +20,7 @@ return [
     'gap'           => 'Hay un hueco en la secuencia de migración cerca del número de versión: ',
     'classNotFound' => 'La clase de migración "%s" no se ha encontrado.',
     'missingMethod' => 'La clase de migración no ha encontrado el método "%s".',
+    'locked'        => 'Migraciones que ya se están ejecutando en otro proceso. Omitidas.',
 
     // Migration Command
     'migHelpLatest'   => "\t\tMigra la base de datos a la última versión disponible.",
