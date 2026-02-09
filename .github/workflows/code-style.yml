@@ -34,7 +34,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        php-version: ['8.1', '8.4']
+        php-version: ['8.2', '8.5']
 
     steps:
       - name: Checkout repository
@@ -50,19 +50,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get composer cache directory
-        run: echo "COMPOSER_CACHE_FILES_DIR=$(composer config cache-files-dir)" >> $GITHUB_ENV
+        id: composer-cache
+        run: echo "COMPOSER_CACHE_FILES_DIR=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
 
       - name: Cache composer dependencies
         uses: actions/cache@v5
         with:
-          path: ${{ env.COMPOSER_CACHE_FILES_DIR }}
-          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.json') }}
-          restore-keys: ${{ runner.os }}-composer-
+          path: ${{ steps.composer-cache.outputs.COMPOSER_CACHE_FILES_DIR }}
+          key: composer-PHP_${{ matrix.php-version }}-${{ hashFiles('**/composer.json') }}
+          restore-keys: composer-PHP_${{ matrix.php-version }}-
 
       - name: Install dependencies on tools
         run: composer update --ansi
 
       - name: Run PHP CS Fixer
-        run: vendor/bin/php-cs-fixer fix --verbose --ansi --dry-run --using-cache=no --diff
-        env:
-            PHP_CS_FIXER_IGNORE_ENV: ${{ matrix.php-version == '8.4' }}
+        run: composer cs
