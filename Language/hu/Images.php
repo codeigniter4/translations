@@ -32,7 +32,7 @@ return [
     'saveFailed'             => 'Nem lehet lementeni a képet. Kérjük, ellenőrizze, hogy a fájl és a könyvtár írható.',
     'invalidDirection'       => 'A megfordítás iránya csak vízszintes vagy függőleges lehet. Megadva: {0}',
     'exifNotSupported'       => 'Az EXIF adat olvasása nem támogatott a jelenlegi PHP telepítés szerint.',
-    
+
     // @deprecated
     'libPathInvalid' => 'A képkönyvtárhoz tartozó elérési út hibás. Kérjük állítsa be a helyes elérési utat a beállításainál. {0}',
 ];
