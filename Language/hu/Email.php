@@ -27,9 +27,13 @@ return [
     'noHostname'           => 'Nem adott meg SMTP szervernevet.',
     'SMTPError'            => 'A következő SMTP hiba történt: {0}',
     'noSMTPAuth'           => 'Hiba: SMTP felhasználót és jelszót kell hozzárendelnie.',
-    'failedSMTPLogin'      => 'Nem sikerült elküldeni az AUTH LOGIN parancsot. Hiba: {0}',
+    'invalidSMTPAuthMethod' => 'Hiba: A(z) „{0}” SMTP hitelesítési módszer nem támogatott a Codeigniterben, állítsa be a „login” vagy a „plain” hitelesítési módszert',
+    'failureSMTPAuthMethod' => 'Nem sikerült elindítani az AUTH parancsot. Lehetséges, hogy a szerver nincs konfigurálva az AUTH {0} hitelesítési módszer használatára.',
+    'SMTPAuthCredentials'   => 'Nem sikerült hitelesíteni a felhasználói adatokat. Hiba: {0}',
     'SMTPAuthUsername'     => 'Nem sikerült hitelesíteni a felhasználónevet. Hiba: {0}',
     'SMTPAuthPassword'     => 'Nem sikerült hitelesíteni a jelszót. Hiba: {0}',
     'SMTPDataFailure'      => 'Nem lehet adatokat küldeni: {0}',
     'exitStatus'           => 'Kilépési állapotkód: {0}',
+    // @deprecated
+    'failedSMTPLogin' => 'Nem sikerült elküldeni az AUTH LOGIN parancsot. Hiba: {0}',
 ];
