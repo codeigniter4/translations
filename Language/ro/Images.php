@@ -34,5 +34,5 @@ return [
     'exifNotSupported'       => 'Citirea datelor EXIF nu este acceptată de această instalare PHP.',
 
     // @deprecated
-    'libPathInvalid'         => 'Calea către biblioteca de imagini nu este corectă. Vă rugăm să setați calea corectă în preferințele dvs. de imagine. "{0}"',
+    'libPathInvalid' => 'Calea către biblioteca de imagini nu este corectă. Vă rugăm să setați calea corectă în preferințele dvs. de imagine. "{0}"',
 ];
