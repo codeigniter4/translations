@@ -22,7 +22,6 @@ return [
     'unsupportedImageCreate' => 'Twój serwer nie obsługuje funkcji GD wymaganej do przetwarzania tego typu obrazu.',
     'jpgOrPngRequired'       => 'Protokół zmiany rozmiaru obrazu określony w preferencjach działa tylko z obrazami JPEG lub PNG.',
     'rotateUnsupported'      => 'Obracanie obrazu nie jest obsługiwane przez Twój serwer.',
-    'libPathInvalid'         => 'Ścieżka do biblioteki obrazów jest niepoprawna. Ustaw prawidłową ścieżkę w preferencjach obrazu. {0, string)',
     'imageProcessFailed'     => 'Przetwarzanie obrazu się nie udało. Sprawdź, czy twój serwer obsługuje wybrany protokół i czy ścieżka do biblioteki obrazów jest prawidłowa.',
     'rotationAngleRequired'  => 'Aby obrócić obraz, wymagany jest kąt obrotu.',
     'invalidPath'            => 'Ścieżka do obrazu jest nieprawidłowa.',
@@ -31,4 +30,7 @@ return [
     'saveFailed'             => 'Nie można zapisać obrazu. Upewnij się, że obraz i katalog plików posiadają prawa do zapisu.',
     'invalidDirection'       => 'Kierunek odwrócenia może być tylko "pionowy" lub "poziomy". Podano: {0}',
     'exifNotSupported'       => 'Odczytywanie danych EXIF nie jest obsługiwane przez tę instalację PHP.',
+
+    // @deprecated
+    'libPathInvalid' => 'Ścieżka do biblioteki obrazów jest niepoprawna. Ustaw prawidłową ścieżkę w preferencjach obrazu. {0, string)',
 ];
