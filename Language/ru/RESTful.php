@@ -14,4 +14,6 @@ declare(strict_types=1);
 // RESTful language settings
 return [
     'notImplemented' => '"{0}" действие не реализовано.',
+    'cannotPaginate' => 'Не удается получить данные для разделения на страницы.',
+    'paginateError'  => 'Произошла ошибка при разделении результатов на страницы.',
 ];
