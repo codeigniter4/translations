@@ -13,13 +13,18 @@ declare(strict_types=1);
 
 // Cast language settings
 return [
-    'baseCastMissing'        => 'الصنف "{0}" يجب أن يرث من الصنف "CodeIgniter\Entity\Cast\BaseCast".',
-    'invalidCastMethod'      => 'الطريقة "{0}" هي طريقة تحويل (cast) غير صالحة، الطرق الصالحة هي: ["get", "set"].',
-    'invalidTimestamp'       => 'تحويل النوع "timestamp" يتوقع طابع زمني (timestamp) صحيح.',
-    'jsonErrorCtrlChar'      => 'تم العثور على حرف تحكم غير متوقع.',
-    'jsonErrorDepth'         => 'تم تجاوز الحد الأقصى لعمق المكدس.',
-    'jsonErrorStateMismatch' => 'تدفق سفلي أو عدم تطابق الأوضاع.',
-    'jsonErrorSyntax'        => 'خطأ في بناء الجملة، JSON غير صالح.',
+    'baseCastMissing'        => 'يجب أن ترث الفئة "{0}" فئة "CodeIgniter\Entity\Cast\BaseCast".',
+    'enumInvalidCaseName'    => 'اسم الحالة "{0}" غير صالح للتعداد (Enum) "{1}".',
+    'enumInvalidType'        => 'المتوقع تعداد (Enum) من النوع "{1}"، لكن تم استلام "{0}".',
+    'enumInvalidValue'       => 'القيمة "{1}" غير صالحة للتعداد (Enum) "{0}".',
+    'enumMissingClass'       => 'يجب تحديد فئة التعداد (Enum class) لعملية تحويل التعداد.',
+    'enumNotEnum'            => '"{0}" ليست فئة تعداد (Enum class) صالحة.',
+    'invalidCastMethod'      => '"{0}" طريقة تحويل غير صالحة، الطرق الصالحة هي: ["get", "set"].',
+    'invalidTimestamp'       => 'تحويل النوع "timestamp" يتطلب طابعاً زمنياً صحيحاً.',
+    'jsonErrorCtrlChar'      => 'تم العثور على حرف تحكم (Control character) غير متوقع.',
+    'jsonErrorDepth'         => 'تم تجاوز الحد الأقصى لعمق المكدس (Stack depth).',
+    'jsonErrorStateMismatch' => 'تجاوز الحد الأدنى (Underflow) أو عدم تطابق الأوضاع.',
+    'jsonErrorSyntax'        => 'خطأ في بناء الجملة، تنسيق JSON مشوه.',
     'jsonErrorUnknown'       => 'خطأ غير معروف.',
-    'jsonErrorUtf8'          => 'أحرف UTF-8 غير صالحة، ربما تم ترميزها بشكل غير صحيح.',
+    'jsonErrorUtf8'          => 'حروف UTF-8 مشوهة، ربما تم ترميزها بشكل غير صحيح.',
 ];
