@@ -11,9 +11,8 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// RESTful language settings
+// "Language" language settings
 return [
-    'notImplemented' => '"{0}" művelet nincs megvalósítva.',
-    'cannotPaginate' => 'Nem sikerült lapozott adatokat lekérni.',
-    'paginateError'  => 'Hiba történt az eredmények oldalszámozása közben.',
+    // @deprecated v4.6.3 - never used
+    'invalidMessageFormat' => 'Érvénytelen üzenetformátum: "{0}", args: "{1}"',
 ];

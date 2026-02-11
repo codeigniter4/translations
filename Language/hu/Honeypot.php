@@ -11,9 +11,9 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// RESTful language settings
+// Honeypot language settings
 return [
-    'notImplemented' => '"{0}" művelet nincs megvalósítva.',
-    'cannotPaginate' => 'Nem sikerült lapozott adatokat lekérni.',
-    'paginateError'  => 'Hiba történt az eredmények oldalszámozása közben.',
+    'noTemplate'      => 'A Honeypot HTML-sablonja nincs konfigurálva.',
+    'noNameField'     => 'A Honeypot mező neve nincs beállítva.',
+    'theClientIsABot' => 'A Honeypot kliens lehet egy bot.',
 ];

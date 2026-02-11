@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -17,16 +19,19 @@ return [
     'generator'          => [
         'cancelOperation' => 'A művelet megszakítva.',
         'className'       => [
-            'command'    => 'Parancsosztály neve',
-            'config'     => 'Konfigurációs osztály neve',
-            'controller' => 'Vezérlő osztály neve',
-            'default'    => 'Osztály név',
-            'entity'     => 'Entitásosztály neve',
-            'filter'     => 'Szűrőosztály neve',
-            'migration'  => 'Migrációs osztály neve',
-            'model'      => 'Modellosztály neve',
-            'seeder'     => 'Seeder osztály neve',
-            'validation' => 'Érvényesítési osztály neve',
+            'cell'        => 'Cell osztály neve',
+            'command'     => 'Parancsosztály neve',
+            'config'      => 'Konfigurációs osztály neve',
+            'controller'  => 'Vezérlő osztály neve',
+            'default'     => 'Osztály név',
+            'entity'      => 'Entitásosztály neve',
+            'filter'      => 'Szűrőosztály neve',
+            'migration'   => 'Migrációs osztály neve',
+            'model'       => 'Modellosztály neve',
+            'seeder'      => 'Seeder osztály neve',
+            'test'        => 'Teszt osztály neve',
+            'transformer' => 'Transformer osztály neve',
+            'validation'  => 'Érvényesítési osztály neve',
         ],
         'commandType'      => 'Parancs típusa',
         'databaseGroup'    => 'Adatbázis csoport',
@@ -38,6 +43,9 @@ return [
         'returnType'       => 'Visszaérkezés típusa',
         'tableName'        => 'Tábla név',
         'usingCINamespace' => 'Figyelmeztetés: A "CodeIgniter" névtér használatával a fájl a rendszerkönyvtárban jön létre.',
+        'viewName'         => [
+            'cell' => 'Cell név',
+        ],
     ],
     'helpArguments'       => 'Argumentumok:',
     'helpDescription'     => 'Leírás:',
@@ -45,4 +53,9 @@ return [
     'helpUsage'           => 'Használat:',
     'invalidColor'        => 'Érvénytelen {0} szín: {1}.',
     'namespaceNotDefined' => 'A(z) "{0}" névtér nincs megadva.',
+    'signals'             => [
+        'noPcntlExtension' => 'PCNTL kiterjesztés nem érhető el. Jelkezelés letiltva.',
+        'noPosixExtension' => 'A SIGTSTP/SIGCONT kezeléséhez POSIX kiterjesztés szükséges. Ezek a jelek eltávolításra kerülnek a regisztrációból.',
+        'failedSignal'     => 'Nem sikerült regisztrálni a kezelőt a következő jelhez: "{0}".',
+    ],
 ];

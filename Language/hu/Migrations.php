@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -20,6 +22,7 @@ return [
     'gap'           => 'Hiány van az migrációs sorrendben a verziószám közelében: ',
     'classNotFound' => 'A(z) "%s" migrációs osztály nem található.',
     'missingMethod' => 'Az migrációs osztályból hiányzik a(z) "%s" metódus.',
+    'locked'        => 'A migrációk már futnak egy másik folyamatban. Kihagyva.',
 
     // Migration Command
     'migHelpLatest'   => "\t\tMigrálja az adatbázist a legutolsó elérhető állapotra.",
