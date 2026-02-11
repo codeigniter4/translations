@@ -11,4 +11,6 @@
 
 return [
     'notImplemented' => 'Funktionen "{0}" är inte implementerad.',
+    'cannotPaginate' => 'Kan inte hämta paginerat data.',
+    'paginateError'  => 'Ett fel inträffade då resultatet skulle pagineras.',
 ];
