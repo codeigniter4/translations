@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -20,6 +22,7 @@ return [
     'gap'           => '순차적인 마이그레이션 sequence 값 부근의 버전 번호 값에 차이가 있습니다.', // 'There is a gap in the migration sequence near version number: '
     'classNotFound' => '해당 마이그레이션 클래스 "%s" 찾기 실패', // 'The migration class "%s" could not be found.'
     'missingMethod' => '해당 마이그레이션 클래스의 "%s" 메서드를 찾을 수 없습니다.', // 'The migration class is missing an "%s" method.'
+    'locked'        => '이미 다른 프로세스에서 마이그레이션이 실행중입니다. 건너뜁니다.', // 'Migrations already running in another process. Skipping.'
 
     // Migration Command
     'migHelpLatest'   => "\t\t데이터베이스를 사용이 가능한 최신 마이그레이션으로 마이그레이트합니다.", // "\t\tMigrates database to latest available migration."

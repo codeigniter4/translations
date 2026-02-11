@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -17,18 +19,19 @@ return [
     'generator'          => [
         'cancelOperation' => '작업이 취소되었습니다.', // 'Operation has been cancelled.'
         'className'       => [
-            'cell'       => '셀 클래스 이름', // 'Cell class name'
-            'command'    => '커멘드 클래스 이름', // 'Command class name'
-            'config'     => '설정 클래스 이름', // 'Config class name'
-            'controller' => '컨트롤러 클래스 이름', // 'Controller class name'
-            'default'    => '클래스 이름', // 'Class name'
-            'entity'     => '엔티티 클래스 이름', // 'Entity class name'
-            'filter'     => '필터 클래스 이름', // 'Filter class name'
-            'migration'  => '마이그레이션 클래스 이름', // 'Migration class name'
-            'model'      => '모델 클래스 이름', // 'Model class name'
-            'seeder'     => '시더 클래스 이름', // 'Seeder class name'
-            'test'       => '테스트 클래스 이름', // 'Test class name'
-            'validation' => '벨리데이션 클래스 이름', // 'Validation class name'
+            'cell'        => '셀 클래스 이름', // 'Cell class name'
+            'command'     => '커멘드 클래스 이름', // 'Command class name'
+            'config'      => '설정 클래스 이름', // 'Config class name'
+            'controller'  => '컨트롤러 클래스 이름', // 'Controller class name'
+            'default'     => '클래스 이름', // 'Class name'
+            'entity'      => '엔티티 클래스 이름', // 'Entity class name'
+            'filter'      => '필터 클래스 이름', // 'Filter class name'
+            'migration'   => '마이그레이션 클래스 이름', // 'Migration class name'
+            'model'       => '모델 클래스 이름', // 'Model class name'
+            'seeder'      => '시더 클래스 이름', // 'Seeder class name'
+            'test'        => '테스트 클래스 이름', // 'Test class name'
+            'transformer' => 'Transformer 클래스 이름', // 'Transformer class name'
+            'validation'  => '벨리데이션 클래스 이름', // 'Validation class name'
         ],
         'commandType'      => '커멘드 타입', // 'Command type'
         'databaseGroup'    => '데이터베이스 그룹', // 'Database group'
@@ -50,4 +53,9 @@ return [
     'helpUsage'           => '사용:', // 'Usage:'
     'invalidColor'        => '유효하지 않은 "{0}" 색상: "{1}".', // 'Invalid "{0}" color: "{1}".'
     'namespaceNotDefined' => '네임 스페이스 "{0}"이(가) 정의되지 않았습니다.', // 'Namespace "{0}" is not defined.'
+    'signals'             => [
+        'noPcntlExtension' => 'PCNTL 확장을 사용할 수 없습니다. 시그널 핸들링 비활성화.', // 'PCNTL extension not available. Signal handling disabled.'
+        'noPosixExtension' => 'SIGTSTP/SIGCONT 처리를 위해서는 POSIX 확장이 필요합니다. 이 시그널들은 등록에서 제외됩니다.', // 'SIGTSTP/SIGCONT handling requires POSIX extension. These signals will be removed from registration.'
+        'failedSignal'     => '시그널 등록 실패: "{0}".', // 'Failed to register handler for signal: "{0}".'
+    ],
 ];
