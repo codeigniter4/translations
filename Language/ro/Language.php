@@ -11,8 +11,7 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// "Language" language settings
 return [
-    'invalidLogLevel'    => '"{0}" este un nivel de log invalid.',
-    'invalidMessageType' => 'Tipul de mesaj dat "{0}" nu este suportat.',
+    'invalidMessageFormat' => 'Format mesaj invalid: "{0}", argumente: "{1}"',
 ];

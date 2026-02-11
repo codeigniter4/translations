@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -20,6 +22,7 @@ return [
     'gap'           => 'Există un decalaj în secvența de migrare lângă numărul versiunii: ',
     'classNotFound' => 'Clasa de migrare "%s" nu a putut fi găsită.',
     'missingMethod' => 'Clasei de migrare îi lipsește metoda "%s".',
+    'locked'        => 'Migrările rulează deja într-un alt proces. Se omit.',
 
     // Migration Command
     'migHelpLatest'   => "\t\tMigrează baza de date la cea mai recentă migrare disponibilă.",

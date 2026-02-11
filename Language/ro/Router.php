@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -13,6 +15,6 @@
 return [
     'invalidParameter'         => 'Un parametru nu corespunde tipului așteptat.',
     'missingDefaultRoute'      => 'Nu se poate determina ce ar trebui să fie afișat. Nu a fost specificată ruta implicită în fișierul de rutare.',
-    'invalidDynamicController' => 'Un controler dinamic nu este permis din motive de securitate. Gestionar de rute: {0}',
-    'invalidControllerName'    => 'Delimitatorul spațiului de nume este o bară oblică inversă (\), nu o bară oblică (/). Gestionar de rute: {0}',
+    'invalidDynamicController' => 'Un controler dinamic nu este permis din motive de securitate. Gestionar de rute: "{0}"',
+    'invalidControllerName'    => 'Delimitatorul spațiului de nume este o bară oblică inversă (\), nu o bară oblică (/). Gestionar de rute: "{0}"',
 ];
