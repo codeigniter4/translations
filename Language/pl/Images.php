@@ -19,7 +19,7 @@ return [
     'pngNotSupported'        => 'Obrazy PNG nie są obsługiwane.',
     'webpNotSupported'       => 'Obrazy WEBP nie są obsługiwane.',
     'fileNotSupported'       => 'Przekazany format pliku nie jest obsługiwany.',
-    'unsupportedImageCreate' => 'Twój serwer nie obsługuje funkcji GD wymaganej do przetwarzania tego typu obrazu.',
+    'unsupportedImageCreate' => 'Twój serwer nie obsługuje funkcji wymaganej do przetwarzania tego typu obrazu.',
     'jpgOrPngRequired'       => 'Protokół zmiany rozmiaru obrazu określony w preferencjach działa tylko z obrazami JPEG lub PNG.',
     'rotateUnsupported'      => 'Obracanie obrazu nie jest obsługiwane przez Twój serwer.',
     'imageProcessFailed'     => 'Przetwarzanie obrazu się nie udało. Sprawdź, czy twój serwer obsługuje wybrany protokół i czy ścieżka do biblioteki obrazów jest prawidłowa.',
@@ -32,5 +32,5 @@ return [
     'exifNotSupported'       => 'Odczytywanie danych EXIF nie jest obsługiwane przez tę instalację PHP.',
 
     // @deprecated
-    'libPathInvalid' => 'Ścieżka do biblioteki obrazów jest niepoprawna. Ustaw prawidłową ścieżkę w preferencjach obrazu. {0, string)',
+    'libPathInvalid' => 'Ścieżka do biblioteki obrazów jest niepoprawna. Ustaw prawidłową ścieżkę w preferencjach obrazu. "{0}"',
 ];
