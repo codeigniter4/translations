@@ -2,7 +2,7 @@ name: code style
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 2 * * *'
   push:
     branches:
       - develop
@@ -24,6 +24,10 @@ on:
 
 permissions:
   contents: read
+
+concurrency:
+  group: code-style-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   main:
@@ -62,6 +66,8 @@ jobs:
 
       - name: Install dependencies on tools
         run: composer update --ansi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run PHP CS Fixer
         run: composer cs

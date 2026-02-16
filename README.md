@@ -63,7 +63,7 @@ claims no expertise beyond English.
 | pt     | Portuguese          | 4.0.0   | [Nerexbcd][pt]        | Abílio Páscoa
 | pt-BR  | Brazilian           | 4.0.0   | [natanfelles][pt-BR]  | Natan Felles
 | ro     | Romanian            | 4.2.1   | [ed3][ro]             | Ed
-| ru     | Russian             | 4.0.0   | [DigitalWolf98][ru]   | Vladislav Rykhtikov
+| ru     | Russian             | 4.0.0   | [neznaika0][ru]       | neznaika0
 | si     | Sinhala             | 4.0.3   | [npwsamarasinghe][si] | Nalaka Prasad
 | sk     | Slovak              | 4.0.0   | [xbotkaj][sk]         | Jozef Botka
 | sr     | Serbian             | 4.3.1   | [nebojsajsimic][sr]   | Nebojša Simić
@@ -103,7 +103,7 @@ _**Version where the locale was released. 4.x denotes `Unreleased`._
 [pt]: https://github.com/Nerexbcd
 [pt-BR]: https://github.com/natanfelles
 [ro]: https://github.com/ed3
-[ru]: https://github.com/DigitalWolf98
+[ru]: https://github.com/neznaika0
 [si]: https://github.com/npwsamarasinghe
 [sk]: https://github.com/xbotkaj
 [sr]: https://github.com/nebojsajsimic
