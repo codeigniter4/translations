@@ -12,4 +12,6 @@
 // RESTful language settings
 return [
     'notImplemented' => 'Akcja "{0}" nie jest zaimplementowana.',
+    'cannotPaginate' => 'Nie można pobrać danych podzielonych na strony.',
+    'paginateError'  => 'Wystąpił błąd podczas podziału wyników na strony.',
 ];

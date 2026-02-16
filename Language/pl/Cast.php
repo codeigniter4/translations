@@ -12,6 +12,11 @@
 // Cast language settings
 return [
     'baseCastMissing'        => 'Klasa "{0}" musi rozbudowywać klasę "CodeIgniter\Entity\Cast\BaseCast".',
+    'enumInvalidCaseName'    => 'Nieprawidłowa nazwa przypadku "{0}" dla enum "{1}".',
+    'enumInvalidType'        => 'Oczekiwano enum typu "{1}", ale otrzymano "{0}".',
+    'enumInvalidValue'       => 'Nieprawidłowa wartość "{1}" dla enum "{0}".',
+    'enumMissingClass'       => 'Klasa enum musi być określona dla rzutowania enum.',
+    'enumNotEnum'            => '"{0}" nie jest prawidłową klasą enum.',
     'invalidCastMethod'      => 'Metoda rzutowania "{0}" jest nieprawidłowa. Dozwolone metody: ["get", "set"].',
     'invalidTimestamp'       => 'Typ rzutowania "timestamp" oczekuje prawidłowego timestamp.',
     'jsonErrorCtrlChar'      => 'Znaleziono nieoczekiwany znak kontrolny',
