@@ -21,6 +21,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   main:
     name: Build [PHP ${{ matrix.php-version }}]
@@ -64,6 +68,8 @@ jobs:
 
       - name: Install dependencies
         run: composer update --ansi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run Translations Test Suite
         run: |
