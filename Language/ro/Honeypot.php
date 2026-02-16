@@ -11,8 +11,9 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// Honeypot language settings
 return [
-    'invalidLogLevel'    => '"{0}" este un nivel de log invalid.',
-    'invalidMessageType' => 'Tipul de mesaj dat "{0}" nu este suportat.',
+    'noTemplate'      => 'Șablonul HTML pentru Honeypot nu este configurat.',
+    'noNameField'     => 'Numele câmpului Honeypot nu este setat.',
+    'theClientIsABot' => 'Clientul Honeypot poate fi un bot.',
 ];

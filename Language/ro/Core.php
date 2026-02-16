@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -11,10 +13,11 @@
 
 // Core language settings
 return [
-    'copyError'                    => 'A fost întâlnită o eroare la încercarea de a înlocui fișierul ({0}). Vă rugăm să vă asigurați că directorul de fișiere poate fi scris.',
+    'copyError'                    => 'A fost întâlnită o eroare la încercarea de a înlocui fișierul "{0}". Vă rugăm să vă asigurați că directorul de fișiere poate fi scris.',
     'enabledZlibOutputCompression' => 'Directiva dvs. zlib.output_compression ini este activată. Acest lucru nu va funcționa bine cu tampoanele de ieșire.',
-    'invalidFile'                  => 'Fișier invalid: {0}',
+    'invalidFile'                  => 'Fișier invalid: "{0}"',
+    'invalidDirectory'             => 'Directorul nu există: "{0}"',
     'invalidPhpVersion'            => 'Versiunea dvs. PHP trebuie să fie {0} sau mai mare pentru a rula CodeIgniter. Versiune curentă: {1}',
-    'missingExtension'             => 'Framework-ul are nevoie de următoarea extensie instalată și încărcată: {0}.',
-    'noHandlers'                   => '{0} trebuie să furnizeze cel puțin un Handler.',
+    'missingExtension'             => 'Framework-ul are nevoie de următoarea extensie instalată și încărcată: "{0}".',
+    'noHandlers'                   => '"{0}" trebuie să furnizeze cel puțin un Handler.',
 ];

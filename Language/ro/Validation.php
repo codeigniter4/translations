@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -29,6 +31,7 @@ return [
     'differs'               => 'Câmpul {field} trebuie să difere de câmpul {param}.',
     'equals'                => 'Câmpul {field} trebuie să fie exact: {param}.',
     'exact_length'          => 'Câmpul {field} trebuie să aibă exact {param} caractere lungime.',
+    'field_exists'          => 'Câmpul {field} trebuie să existe.',
     'greater_than'          => 'Câmpul {field} trebuie să conțină un număr mai mare decât {param}.',
     'greater_than_equal_to' => 'Câmpul {field} trebuie să conțină un număr mai mare sau egal cu {param}.',
     'hex'                   => 'Câmpul {field} poate conține doar caractere hexazecimale.',
@@ -59,6 +62,7 @@ return [
     'valid_url'             => 'Câmpul {field} trebuie să conțină un URL valid.',
     'valid_url_strict'      => 'Câmpul {field} trebuie să conțină un URL valid.',
     'valid_date'            => 'Câmpul {field} trebuie să conțină o dată validă.',
+    'valid_json'            => 'Câmpul {field} trebuie să conțină un json valid.',
 
     // Credit Cards
     'valid_cc_num' => '{field} nu pare a fi un număr valid de card de credit.',
@@ -70,4 +74,5 @@ return [
     'mime_in'  => '{field} nu are un tip mime valid.',
     'ext_in'   => '{field} nu are o extensie de fișier validă.',
     'max_dims' => '{field} fie nu este o imagine, fie este prea lată sau prea înaltă.',
+    'min_dims' => '{field} fie nu este o imagine, sau nu este suficient de lat sau de înalt.',
 ];

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -19,6 +21,8 @@ return [
 
     // IncomingRequest
     'invalidNegotiationType' => '{0} nu este un tip de negociere valid. Trebuie să fie unul dintre: media, set de caractere, codificare, limbă.',
+    'invalidJSON'            => 'Eroare la analizarea șirului JSON. Eroare: {0}',
+    'unsupportedJSONFormat'  => 'Formatul JSON furnizat nu este acceptat.',
 
     // Message
     'invalidHTTPProtocol' => 'Versiunea protocolului HTTP invalidă. Trebuie să fie unul dintre: {0}',
@@ -42,7 +46,7 @@ return [
     'unknownStatusCode'     => 'Cod de stare HTTP necunoscut furnizat fără mesaj: {0}',
 
     // URI
-    'cannotParseURI'       => 'Nu se poate analiza URI: {0}',
+    'cannotParseURI'       => 'Nu se poate analiza URI: "{0}"',
     'segmentOutOfRange'    => 'Segmentul URI al solicitării este în afara intervalului: {0}',
     'invalidPort'          => 'Porturile trebuie să fie între 0 și 65535. Dat: {0}',
     'malformedQueryString' => 'Este posibil ca șirurile de interogare să nu includă fragmente URI.',
@@ -51,7 +55,8 @@ return [
     'pageNotFound'       => 'Pagina nu a fost gasită',
     'emptyController'    => 'Fără Controller specificat.',
     'controllerNotFound' => 'Controller-ul sau metoda acestuia nu a fost găsită: {0}::{1}',
-    'methodNotFound'     => 'Metoda controller-ului nu a fost găsită: {0}',
+    'methodNotFound'     => 'Metoda controller-ului nu a fost găsită: "{0}"',
+    'localeNotSupported' => 'Localizarea nu este suportată: {0}',
 
     // CSRF
     // @deprecated use `Security.disallowedAction`

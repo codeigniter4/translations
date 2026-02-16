@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -18,6 +20,6 @@ return [
     'last'                   => 'Ultimul',
     'older'                  => 'Mai vechi',
     'newer'                  => 'Mai nou',
-    'invalidTemplate'        => '{0} nu este un șablon de paginator valid.',
-    'invalidPaginationGroup' => '{0} nu este un grup de paginare valid.',
+    'invalidTemplate'        => '"{0}" nu este un șablon de paginator valid.',
+    'invalidPaginationGroup' => '"{0}" nu este un grup de paginare valid.',
 ];
