@@ -12,4 +12,6 @@
 // RESTful language settings
 return [
     'notImplemented' => 'عملیات "{0}" پیاده‌سازی نشده است.',
+    'cannotPaginate' => 'امکان دریافت داده‌های صفحه‌بندی‌ شده وجود ندارد.',
+    'paginateError'  => 'هنگام صفحه‌بندی نتایج خطایی رخ داد.',
 ];
