@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 // Session language settings
 return [
-    'missingDatabaseTable'   => '$sessionSavePath должен содержать имя таблицы для работы сессий с базой данных.',
+    'missingDatabaseTable'   => 'Сессия: "savePath" должен содержать имя таблицы для работы сессий с базой данных.',
     'invalidSavePath'        => 'Ошибка: Настроенный путь сохранения "{0}" не является каталогом, не существует или не может быть создан.',
     'writeProtectedSavePath' => 'Ошибка: Настроенный путь сохранения "{0}" не доступен для записи процессом PHP.',
     'emptySavePath'          => 'Ошибка: Не настроен путь сохранения сессий.',
