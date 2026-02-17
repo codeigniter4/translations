@@ -6,7 +6,7 @@
 
 # test files
 tests/ export-ignore
-phpunit.xml.dist export-ignore
+phpunit.dist.xml export-ignore
 .php-cs-fixer.dist.php export-ignore
 
 # development tools

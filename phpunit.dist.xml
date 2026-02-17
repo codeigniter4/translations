@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/11.1/phpunit.xsd"
+         xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
          bootstrap="vendor/codeigniter4/codeigniter4/system/Test/bootstrap.php"
-         backupGlobals="false"
+         cacheDirectory=".phpunit.cache"
+         beStrictAboutOutputDuringTests="true"
          colors="true"
          columns="max"
-         stopOnError="false"
-         stopOnFailure="false"
-         stopOnIncomplete="false"
-         stopOnSkipped="false"
-         cacheDirectory=".phpunit.cache">
+         displayDetailsOnAllIssues="true"
+         failOnPhpunitDeprecation="true"
+         failOnRisky="true"
+         failOnWarning="true"
+>
     <testsuites>
         <testsuite name="Automatic Review Test Suite">
             <directory suffix="Test.php">tests/AutoReview</directory>
@@ -19,7 +20,7 @@
         </testsuite>
     </testsuites>
 
-    <source>
+    <source ignoreIndirectDeprecations="true" restrictNotices="true" restrictWarnings="true">
         <include>
             <directory suffix=".php">Language</directory>
         </include>

@@ -19,7 +19,7 @@
         "codeigniter4/codeigniter4": "dev-develop",
         "friendsofphp/php-cs-fixer": "^3.53",
         "nexusphp/cs-config": "^3.22",
-        "phpunit/phpunit": "^10.5 || ^11.0"
+        "phpunit/phpunit": "^11.5 || ^12.5"
     },
     "repositories": [
         {
