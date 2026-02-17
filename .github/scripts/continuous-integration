@@ -10,18 +10,18 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-require __DIR__ . '/../../vendor/codeigniter4/codeigniter4/system/Test/bootstrap.php';
+require __DIR__ . '/../../vendor/codeigniter4/codeigniter4/system/util_bootstrap.php';
 
 use CodeIgniter\CLI\CLI;
 use Translations\Tests\AbstractTranslationTestCase;
 
-if (! isset($argv[1])) {
+if (! isset($argv[1]) || ! is_string($argv[1])) {
     CLI::error('No GitHub Event provided.', 'light_gray', 'red');
 
     exit(1);
 }
 
-$event = (string) $argv[1];
+$event = $argv[1];
 
 if (! in_array($event, ['--pull-request', '--push'], true)) {
     CLI::error('Invalid GitHub Event provided.', 'light_gray', 'red');
@@ -35,8 +35,14 @@ if ($event === '--pull-request') {
     $files = shell_exec('git diff --name-only --diff-filter=ACMRTUXB HEAD~..HEAD');
 }
 
-$isCIAffected    = str_contains((string) $files, '.github/scripts/continuous-integration');
-$isBuildAffected = str_contains((string) $files, '.github/workflows/build.yml');
+if (! is_string($files)) {
+    CLI::error('Unable to retrieve the list of changed files.', 'light_gray', 'red');
+
+    exit(1);
+}
+
+$isCIAffected    = str_contains($files, '.github/scripts/continuous-integration');
+$isBuildAffected = str_contains($files, '.github/workflows/build.yml');
 $isTestAffected  = preg_match('/tests\/Language\/(.+)Test(?:|Case)\.php/', $files) === 1;
 
 $files = str_replace(["\r\n", "\r"], "\n", $files);
@@ -66,7 +72,7 @@ $failed = [];
 
 $phpunit = 'vendor/bin/phpunit';
 
-if (CLI::isWindows()) {
+if (is_windows()) {
     $phpunit = strtr($phpunit, '/', '\\');
 }
 
@@ -87,14 +93,14 @@ if ($count > 0 && $count < count(AbstractTranslationTestCase::$locales)) {
     foreach ($locales as $locale) {
         $class = array_search($locale, AbstractTranslationTestCase::$locales, true);
 
-        if ($class === false) {
+        if (! is_string($class)) {
             CLI::error(sprintf('The locale "%s" has no corresponding test case yet.', $locale), 'light_gray', 'red');
             CLI::error('You can read on the Contributing Guide for details on adding test cases.', 'light_gray', 'red');
 
             exit(1);
         }
 
-        $class = preg_replace('/^Translations\\\\Tests\\\\(.+)$/u', '$1', (string) $class);
+        $class = preg_replace('/^Translations\\\\Tests\\\\(.+)$/u', '$1', $class);
 
         CLI::write("Executing vendor/bin/phpunit --color=always --filter {$class}\n", 'black', 'yellow');
         passthru("{$phpunit} --color=always --filter {$class}", $return);
@@ -137,7 +143,7 @@ if ($count > 0 && $count < count(AbstractTranslationTestCase::$locales)) {
 
     foreach ($reasons as [$reason, $explanation]) {
         if ($reason) {
-            CLI::write('Reason: ' . $explanation . "\n", 'black', 'yellow');
+            CLI::write("Reason: {$explanation}\n", 'black', 'yellow');
             break;
         }
     }
