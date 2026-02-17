@@ -85,6 +85,7 @@ _**Version where the locale was released. 4.x denotes `Unreleased`._
 [bs]: https://github.com/demirkaric
 [cs]: https://github.com/PavelTajdus
 [de]: https://github.com/sba
+[el]: https://github.com/sourikata2
 [es]: https://github.com/nachoaguirre
 [fa]: https://github.com/msalehi-d
 [fr]: https://github.com/amuratet
