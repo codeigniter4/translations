@@ -12,4 +12,6 @@
 // RESTful language settings
 return [
     'notImplemented' => 'Tindakan "{0}" tidak dilaksanakan.',
+    'cannotPaginate' => 'Tidak dapat melakukan paginasi pada hasil.',
+    'paginateError'  => 'Terjadi kesalahan saat melakukan paginasi.',
 ];

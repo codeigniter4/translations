@@ -22,7 +22,6 @@ return [
     'unsupportedImageCreate' => 'Server Anda tidak mendukung fungsi GD yang diperlukan untuk memproses jenis gambar ini.',
     'jpgOrPngRequired'       => 'Protokol pengubahan ukuran gambar yang ditentukan dalam preferensi Anda hanya berfungsi dengan jenis gambar JPEG atau PNG.',
     'rotateUnsupported'      => 'Rotasi gambar sepertinya tidak didukung oleh server Anda.',
-    'libPathInvalid'         => 'Jalur ke pustaka gambar Anda tidak benar. Silakan mengatur jalur yang benar dalam preferensi gambar Anda. "{0}", string)',
     'imageProcessFailed'     => 'Pemrosesan gambar gagal. Harap verifikasi bahwa server Anda mendukung protokol yang dipilih dan jalur ke pustaka gambar Anda sudah benar.',
     'rotationAngleRequired'  => 'Sudut rotasi diperlukan untuk memutar gambar.',
     'invalidPath'            => 'Jalur menuju gambar tidak benar.',
@@ -31,4 +30,5 @@ return [
     'saveFailed'             => 'Tidak dapat menyimpan gambar. Pastikan gambar dan direktori berkas dapat ditulis.',
     'invalidDirection'       => 'Arah balik hanya bisa `vertical` atau `horizontal`. Diberikan: "{0}"',
     'exifNotSupported'       => 'Membaca data EXIF tidak didukung oleh instalasi PHP ini.',
+    'libPathInvalid'         => 'Jalur ke pustaka gambar Anda tidak benar. Silakan mengatur jalur yang benar dalam preferensi gambar Anda. "{0}", string)',
 ];

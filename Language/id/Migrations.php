@@ -20,6 +20,7 @@ return [
     'gap'           => 'Ada sebuah celah dalam urutan migrasi dekat nomor versi: ',
     'classNotFound' => 'Kelas migrasi "%s" tidak dapat ditemukan.',
     'missingMethod' => 'Kelas migrasi kehilangan metode "%s".',
+    'locked'        => 'Migrasi sedang dikunci.',
 
     // Migration Command
     'migHelpLatest'   => "\t\tMigrasi basis data ke migrasi terbaru yang tersedia.",
