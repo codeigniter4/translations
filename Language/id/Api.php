@@ -15,5 +15,5 @@ return [
     'invalidIncludes'     => 'Parameter include tidak valid: {0}',
     'missingInclude'      => 'Metode include tidak ditemukan untuk: {0}',
     'transformerNotFound' => 'Transformer \'{0}\' tidak ditemukan',
-    'invalidTransformer'  => 'Transformer \'{0}\' tidak valid',
+    'invalidTransformer'  => 'Transformer \'{0}\' harus mengimplementasikan TransformerInterface',
 ];

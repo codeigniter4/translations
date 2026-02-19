@@ -30,5 +30,7 @@ return [
     'saveFailed'             => 'Tidak dapat menyimpan gambar. Pastikan gambar dan direktori berkas dapat ditulis.',
     'invalidDirection'       => 'Arah balik hanya bisa `vertical` atau `horizontal`. Diberikan: "{0}"',
     'exifNotSupported'       => 'Membaca data EXIF tidak didukung oleh instalasi PHP ini.',
-    'libPathInvalid'         => 'Jalur ke pustaka gambar Anda tidak benar. Silakan mengatur jalur yang benar dalam preferensi gambar Anda. "{0}", string)',
+
+    // @deprecated
+    'libPathInvalid' => 'Jalur ke pustaka gambar Anda tidak benar. Silakan mengatur jalur yang benar dalam preferensi gambar Anda. "{0}"',
 ];
