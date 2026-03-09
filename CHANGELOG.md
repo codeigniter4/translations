@@ -5,6 +5,29 @@ All notable changes to this library will be documented in this file:
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v4.7.0](https://github.com/codeigniter4/translations/compare/v4.6.4...v4.7.0) - 2026-03-09
+
+### Changed
+
+- ar (Arabic)
+- es (Spanish)
+- fa (Farsi)
+- hu (Hungarian)
+- ko (Korean)
+- pl (Polish)
+- ro (Romanian)
+- ru (Russian)
+- sv-SE (Swedish)
+
+### Others
+
+- chore: update to PHP 8.2, PHP 8.5, and cleanup workflow scripts (#519)
+- chore: reduce GitHub API rate limit hits (#527)
+- chore: fix README link
+- chore: use min supported phpunit version for PHP 8.2
+- refactor: cleanup CI script
+- chore: optimise scripts
+
 ## [v4.6.4](https://github.com/codeigniter4/translations/compare/v4.6.3...v4.6.4) - 2025-12-12
 
 ### Changed
