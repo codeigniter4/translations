@@ -29,7 +29,7 @@ $locale = $argv[1];
 $langDir = __DIR__ . '/../Language/' . $locale;
 
 if (! is_dir($langDir)) {
-    CLI::error('No such directory: "' . $langDir . '"');
+    CLI::error(sprintf('No such directory: "%s"', $langDir));
 
     exit(1);
 }
@@ -61,7 +61,7 @@ foreach ($enFiles as $enFile) {
     $langFile = realpath($temp) ?: $temp;
 
     if (! is_file($langFile)) {
-        CLI::error('No such file: "' . $langFile . '"');
+        CLI::error(sprintf('No such file: "%s"', $langFile));
 
         continue;
     }
@@ -74,15 +74,13 @@ foreach ($enFiles as $enFile) {
 
     foreach ($enFileLines as $line) {
         if (preg_match($pattern, $line, $matches)) {
-            $items[] = [$matches[2] => $matches[4]];
+            $items[$matches[2]] = $matches[4];
         }
     }
 
     $langFileLines = file($langFile);
 
     $newLangFile = '';
-
-    $itemNo = 0;
 
     foreach ($langFileLines as $line) {
         // Remove en value comment.
@@ -98,12 +96,10 @@ foreach ($enFiles as $enFile) {
             $arrow  = $matches[3];
             $value  = $matches[4];
 
-            $newLangFile .= $indent . "'" . $key . "'" . $arrow . $value
-                . ', // ' . $items[$itemNo][array_key_first($items[$itemNo])] . "\n";
-            $itemNo++;
+            $newLangFile .= sprintf("%s'%s'%s%s, // %s\n", $indent, $key, $arrow, $value, $items[$key] ?? '');
         }
     }
 
     file_put_contents($langFile, $newLangFile);
-    CLI::write('Updated: ' . $langFile);
+    CLI::write(sprintf('Updated: %s', $langFile));
 }

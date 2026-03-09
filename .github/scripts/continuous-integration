@@ -10,7 +10,7 @@
  * the LICENSE file that was distributed with this source code.
  */
 
-require __DIR__ . '/../../vendor/codeigniter4/codeigniter4/system/util_bootstrap.php';
+require __DIR__ . '/../../vendor/codeigniter4/codeigniter4/system/Test/bootstrap.php';
 
 use CodeIgniter\CLI\CLI;
 use Translations\Tests\AbstractTranslationTestCase;
@@ -29,11 +29,9 @@ if (! in_array($event, ['--pull-request', '--push'], true)) {
     exit(1);
 }
 
-if ($event === '--pull-request') {
-    $files = shell_exec('git diff --name-only --diff-filter=ACMRTUXB origin/develop..HEAD');
-} else {
-    $files = shell_exec('git diff --name-only --diff-filter=ACMRTUXB HEAD~..HEAD');
-}
+$files = shell_exec($event === '--pull-request'
+    ? 'git diff --name-only --diff-filter=ACMRTUXB origin/develop..HEAD'
+    : 'git diff --name-only --diff-filter=ACMRTUXB HEAD~..HEAD');
 
 if (! is_string($files)) {
     CLI::error('Unable to retrieve the list of changed files.', 'light_gray', 'red');
@@ -48,23 +46,16 @@ $isTestAffected  = preg_match('/tests\/Language\/(.+)Test(?:|Case)\.php/', $file
 $files = str_replace(["\r\n", "\r"], "\n", $files);
 $files = explode("\n", trim($files));
 
-$stagedPhpFiles = [];
-
-foreach ($files as $file) {
-    if (substr($file, -4) === '.php') {
-        $stagedPhpFiles[] = $file;
-    }
-}
+$stagedPhpFiles = array_filter($files, static fn (string $file): bool => str_ends_with($file, '.php'));
 
 $locales = [];
 
 foreach ($stagedPhpFiles as $file) {
-    if (preg_match('/^Language\/(.+)\/.+\.php$/', $file, $matches) === 1) {
-        $locales[] = $matches[1];
+    if (preg_match('/^Language\/(.+)\/..+\.php$/', $file, $matches) === 1) {
+        $locales[$matches[1]] = true;
     }
 }
-
-$locales = array_unique($locales);
+$locales = array_keys($locales);
 $count   = count($locales);
 
 $passed = [];
@@ -102,8 +93,8 @@ if ($count > 0 && $count < count(AbstractTranslationTestCase::$locales)) {
 
         $class = preg_replace('/^Translations\\\\Tests\\\\(.+)$/u', '$1', $class);
 
-        CLI::write("Executing vendor/bin/phpunit --color=always --filter {$class}\n", 'black', 'yellow');
-        passthru("{$phpunit} --color=always --filter {$class}", $return);
+        CLI::write(sprintf("Executing vendor/bin/phpunit --color=always --filter %s\n", $class), 'black', 'yellow');
+        passthru(sprintf('%s --color=always --filter %s', $phpunit, $class), $return);
 
         if ($return !== 0) {
             $failed[] = $locale;
@@ -114,38 +105,21 @@ if ($count > 0 && $count < count(AbstractTranslationTestCase::$locales)) {
         $returns += $return;
     }
 } elseif ($count === count(AbstractTranslationTestCase::$locales) || $isCIAffected || $isBuildAffected || $isTestAffected) {
-    $reasons = [
-        [
-            $count === count(AbstractTranslationTestCase::$locales),
-            'All ICU locales have been modified.',
-        ],
-        [
-            $isCIAffected,
-            'The continuous integration script has been modified.',
-        ],
-        [
-            $isBuildAffected,
-            'The build action workflow has been modified.',
-        ],
-        [
-            $isTestAffected,
-            'A test suite file has been modified.',
-        ],
-    ];
-
-    // Assign the locale count in case the first reason is false
     $count = count(AbstractTranslationTestCase::$locales);
-
     ob_start();
-
     $returns = 0;
+
     CLI::write('Testing all language files in all locales.', 'black', 'yellow');
 
-    foreach ($reasons as [$reason, $explanation]) {
-        if ($reason) {
-            CLI::write("Reason: {$explanation}\n", 'black', 'yellow');
-            break;
-        }
+    $reasonMessage = match (true) {
+        $isCIAffected    => 'The continuous integration script has been modified.',
+        $isBuildAffected => 'The build action workflow has been modified.',
+        $isTestAffected  => 'A test suite file has been modified.',
+        default          => 'All ICU locales have been modified.',
+    };
+
+    if ($reasonMessage) {
+        CLI::write(sprintf("Reason: %s\n", $reasonMessage), 'black', 'yellow');
     }
 
     passthru("{$phpunit} --color=always --exclude-group=auto-review", $returns);

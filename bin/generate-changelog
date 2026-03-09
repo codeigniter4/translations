@@ -63,16 +63,11 @@ $otherChanges  = [];
 $nextTag = preg_replace_callback(
     '/^v(\d+)\.(\d+)\.(\d+)$/',
     static function (array $matches) use ($argv): string {
-        switch ($argv[1]) {
-            case '--patch':
-                return sprintf('v%d.%d.%d', $matches[1], $matches[2], ++$matches[3]);
-
-            case '--minor':
-                return sprintf('v%d.%d.0', $matches[1], ++$matches[2]);
-
-            case '--major':
-                return sprintf('v%d.0.0', ++$matches[1]);
-        }
+        return match ($argv[1]) {
+            '--patch' => sprintf('v%d.%d.%d', $matches[1], $matches[2], ++$matches[3]),
+            '--minor' => sprintf('v%d.%d.0', $matches[1], ++$matches[2]),
+            '--major' => sprintf('v%d.0.0', ++$matches[1]),
+        };
     },
     $latestTag,
 );
@@ -85,28 +80,22 @@ foreach ($changelog as $log) {
     if (preg_match('/^\[([a-zA-Z-]+)\].+/', $log, $match) === 1) {
         $locale = $match[1];
 
-        if (array_key_exists($locale, $localeChanges)) {
-            continue;
-        }
-
-        if (in_array($locale, AbstractTranslationTestCase::$locales, true)) {
+        if (! isset($localeChanges[$locale]) && in_array($locale, AbstractTranslationTestCase::$locales, true)) {
             $class = array_search($locale, AbstractTranslationTestCase::$locales, true);
 
-            if (! is_string($class)) {
+            if (is_string($class)) {
+                $localeChanges[$locale] = preg_replace_callback(
+                    '/\ATranslations\\\\Tests\\\\(\S+)TranslationTest\z/',
+                    static fn (array $matches): string => preg_replace(
+                        '/(?<!^)((?=[\p{Lu}][^\p{Lu}])|(?<![\p{Lu}])(?=[\p{Lu}]))/u',
+                        ' ',
+                        $matches[1],
+                    ),
+                    $class,
+                );
+
                 continue;
             }
-
-            $localeChanges[$locale] = preg_replace_callback(
-                '/\ATranslations\\\\Tests\\\\(\S+)TranslationTest\z/',
-                static fn (array $matches): string => preg_replace(
-                    '/(?<!^)((?=[\p{Lu}][^\p{Lu}])|(?<![\p{Lu}])(?=[\p{Lu}]))/u',
-                    ' ',
-                    $matches[1],
-                ),
-                $class,
-            );
-
-            continue;
         }
     }
 

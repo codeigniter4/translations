@@ -35,7 +35,7 @@ if (! is_dir($enDir)) {
     exit(1);
 }
 
-function flatterArray(array $inputArray): array
+function flattenArray(array $inputArray): array
 {
     $iterator = new RecursiveIteratorIterator(new RecursiveArrayIterator($inputArray), RecursiveIteratorIterator::SELF_FIRST);
     $newArray = [];
@@ -66,7 +66,7 @@ $enItems = [];
 
 foreach ($enFiles as $enFile) {
     $enFileLines = include $enFile;
-    $enFileLines = flatterArray($enFileLines);
+    $enFileLines = flattenArray($enFileLines);
     $enName      = basename($enFile);
 
     $enItems[$enName] = ['lines' => $enFileLines, 'count' => count($enFileLines)];
@@ -76,7 +76,7 @@ foreach ($enFiles as $enFile) {
 $buildDir = __DIR__ . '/../page/build';
 
 if (! is_dir($buildDir) && ! mkdir($buildDir)) {
-    CLI::error('Can\'t create build directory: "' . $buildDir . '"');
+    CLI::error(sprintf('Can\'t create build directory: "%s"', $buildDir));
 
     exit(1);
 }
@@ -84,26 +84,15 @@ if (! is_dir($buildDir) && ! mkdir($buildDir)) {
 // gather all other languages
 $items = [];
 
-$backgroundChoice = static function (float $percent): string {
-    switch (true) {
-        case $percent <= 33.33:
-            return 'bg-danger';
-
-        case $percent > 33.33 && $percent <= 66.67:
-            return 'bg-warning';
-
-        default:
-            return 'bg-success';
-    }
-};
+$backgroundChoice = static fn (float $percent): string => $percent <= 33.33 ? 'bg-danger' : ($percent <= 66.67 ? 'bg-warning' : 'bg-success');
 
 foreach ($locales as $localeKey => $locale) {
-    CLI::write('Generating details for: ' . CLI::color($locale, 'green'));
+    CLI::write(sprintf('Generating details for: %s', CLI::color($locale, 'green')));
 
     $langDir = __DIR__ . '/../Language/' . $locale;
 
     if (! is_dir($langDir)) {
-        CLI::error('No such directory: "' . $langDir . '"');
+        CLI::error(sprintf('No such directory: "%s"', $langDir));
 
         exit(1);
     }
@@ -133,7 +122,7 @@ foreach ($locales as $localeKey => $locale) {
 
     foreach ($files as $file) {
         $fileLines = include $file;
-        $fileLines = flatterArray($fileLines);
+        $fileLines = flattenArray($fileLines);
         $name      = basename($file);
 
         $validLines = array_keys($enItems[$name]['lines']);
@@ -171,7 +160,7 @@ foreach ($locales as $localeKey => $locale) {
     $items[$locale]['background'] = $backgroundChoice($items[$locale]['percent']);
 
     // save detailed info about language
-    $fileName    = sprintf('%s/../page/build/%s.html', __DIR__, $locale);
+    $fileName    = __DIR__ . '/../page/build/' . $locale . '.html';
     $fileContent = view('Translations\page\Views\detail', ['current' => $items[$locale], 'en' => $enItems]);
     file_put_contents($fileName, $fileContent);
 }
@@ -179,6 +168,6 @@ foreach ($locales as $localeKey => $locale) {
 CLI::write('Generating index file.');
 
 // save general info about all languages
-$fileName    = sprintf('%s/../page/build/index.html', __DIR__);
+$fileName    = __DIR__ . '/../page/build/index.html';
 $fileContent = view('Translations\page\Views\list', ['languages' => $items]);
 file_put_contents($fileName, $fileContent);

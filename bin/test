@@ -27,16 +27,20 @@ if (is_windows()) {
 
 CLI::write('Running `composer update`...', 'black', 'green');
 passthru('composer update --ansi');
-CLI::write();
 
 CLI::write('Fixing coding style...', 'black', 'green');
 passthru("{$phpCsFixer} fix --verbose --diff");
-CLI::write();
 
 $testCase = new class ('test_helper') extends AbstractTranslationTestCase {
+    private static ?array $localeMap = null;
+
     public function getTestCaseClassname(string $locale): string
     {
-        $classname = array_flip(self::$locales)[$locale] ?? null;
+        if (self::$localeMap === null) {
+            self::$localeMap = array_flip(self::$locales);
+        }
+
+        $classname = self::$localeMap[$locale] ?? null;
 
         if ($classname === null) {
             CLI::write('Locale "' . $locale . '" not found.', 'light_gray', 'red');
@@ -46,7 +50,7 @@ $testCase = new class ('test_helper') extends AbstractTranslationTestCase {
 
         $namespaces = explode('\\', $classname);
 
-        return end($namespaces);
+        return $namespaces[count($namespaces) - 1];
     }
 };
 
@@ -75,14 +79,13 @@ $untranslatedLocales = [];
 foreach ($output as $line) {
     $pattern = '/\A\d+\) Translations\\\\(.*)"(.+?)"/';
     if (preg_match($pattern, $line, $matches) === 1) {
-        $locale                       = $matches[2];
-        $untranslatedLocales[$locale] = $locale;
+        $untranslatedLocales[$matches[2]] = true;
     }
 }
 
 ksort($untranslatedLocales);
 
-foreach ($untranslatedLocales as $locale) {
+foreach (array_keys($untranslatedLocales) as $locale) {
     CLI::write($locale);
 }
 
