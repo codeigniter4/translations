@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -25,9 +27,13 @@ return [
     'noHostname'           => 'Jūs nenurodėte SMTP mazgo pavadinimo.',
     'SMTPError'            => 'Buvo susidurta su šia SMTP klaida: {0}',
     'noSMTPAuth'           => 'Klaida: turite nurodyti SMTP vartotojo vardą ir slaptažodį.',
-    'failedSMTPLogin'      => 'Nepavyko išsiųsti AUTH LOGIN komandos. Klaida: {0}',
+    'invalidSMTPAuthMethod' => 'Klaida: SMTP autentifikacijos metodas „{0}“ nepalaikomas, nustatykite „login“ arba „plain".',
+    'failureSMTPAuthMethod' => 'Nepavyko pradėti AUTH komandos. Jūsų serveris gali nebūti sukonfigūruotas naudoti AUTH {0} metodą.',
+    'SMTPAuthCredentials'   => 'Nepavyko autentifikuoti naudotojo duomenų. Klaida: {0}',
     'SMTPAuthUsername'     => 'Nepavyko autentifikuotis šiuo vardu. Klaida: {0}',
     'SMTPAuthPassword'     => 'Nepavyko autentifikuotis šiuo slaptažodžiu. Klaida: {0}',
     'SMTPDataFailure'      => 'Nepavyko išsiųsti duomenų: {0}',
     'exitStatus'           => 'Išėjimo būklės kodas: {0}',
+    // @deprecated
+    'failedSMTPLogin'      => 'Nepavyko išsiųsti AUTH LOGIN komandos. Klaida: {0}',
 ];

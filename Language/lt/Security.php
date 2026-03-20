@@ -12,6 +12,7 @@
 // Security language settings
 return [
     'disallowedAction' => 'Jūsų prašomas veiksmas neleidžiamas.',
+    'insecureCookie'   => 'Bandyta siųsti saugų slapuką per nesaugų ryšį.',
 
     // @deprecated
     'invalidSameSite' => 'Reikšmė SameSite turi būti None, Lax, Strict arba tuščia eilutė. Pateikta: „{0}“',

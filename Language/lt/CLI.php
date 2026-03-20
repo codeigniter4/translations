@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -17,17 +19,19 @@ return [
     'generator'          => [
         'cancelOperation' => 'Operacija atšaukta.',
         'className'       => [
-            'cell'       => 'Lastelės klasės pavadinimas',
-            'command'    => 'Komandos klasės pavadinimas',
-            'config'     => 'Konfigūracijos klasės pavadinimas',
-            'controller' => 'Kontrolerio klasės pavadinimas',
-            'default'    => 'Klasės pavadinimas',
-            'entity'     => 'Entity klasės pavadinimas',
-            'filter'     => 'Filtro klasės pavadinimas',
-            'migration'  => 'Migracijos klasės pavadinimas',
-            'model'      => 'Modelio klasės pavadinimas',
-            'seeder'     => 'Sėjiklio klasės pavadinimas',
-            'validation' => 'Validavimo klasės pavadinimas',
+            'cell'        => 'Lastelės klasės pavadinimas',
+            'command'     => 'Komandos klasės pavadinimas',
+            'config'      => 'Konfigūracijos klasės pavadinimas',
+            'controller'  => 'Kontrolerio klasės pavadinimas',
+            'default'     => 'Klasės pavadinimas',
+            'entity'      => 'Entity klasės pavadinimas',
+            'filter'      => 'Filtro klasės pavadinimas',
+            'migration'   => 'Migracijos klasės pavadinimas',
+            'model'       => 'Modelio klasės pavadinimas',
+            'seeder'      => 'Sėjiklio klasės pavadinimas',
+            'test'        => 'Testo klasės pavadinimas',
+            'transformer' => 'Transformerio klasės pavadinimas',
+            'validation'  => 'Validavimo klasės pavadinimas',
         ],
         'commandType'      => 'Komandos tipas',
         'databaseGroup'    => 'Duomenų bazės grupė',
@@ -49,4 +53,9 @@ return [
     'helpUsage'           => 'Naudojimas:',
     'invalidColor'        => 'Neteisinga {0} spalva: {1}.',
     'namespaceNotDefined' => 'Vardų sritis „{0}“ neapibrėžta.',
+    'signals'             => [
+        'noPcntlExtension' => 'PCNTL plėtinys nepasiekiamas. Signalų apdorojimas išjungtas.',
+        'noPosixExtension' => 'SIGTSTP/SIGCONT apdorojimui reikalingas POSIX plėtinys. Šie signalai bus pašalinti iš registracijos.',
+        'failedSignal'     => 'Nepavyko užregistruoti signalų apdoroklio: „{0}“.',
+    ],
 ];
