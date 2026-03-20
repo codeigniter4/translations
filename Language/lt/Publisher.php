@@ -18,9 +18,9 @@ return [
     'fileNotAllowed'        => '„{0}“ neatitinka šio „{1}“ apribojimo: {2}',
 
     // Publish Command
-    'publishMissing' => 'Kopijuoklio („Publisher“) klasių neaptikta {0} visose vardų erdvėse (namespaces).',
+    'publishMissing'          => 'Kopijuoklio („Publisher“) klasių neaptikta {0} visose vardų erdvėse (namespaces).',
     'publishMissingNamespace' => 'Kopijuoklio („Publisher“) klasių neaptikta {0} vardų erdvėje (namespaces) {1}.',
-    'publishSuccess' => '{1, plural,
+    'publishSuccess'          => '{1, plural,
                             =0 {„{0}“ nukopijavo nulį failų į „{2}“.}
                             =1 {„{0}“ nukopijavo vieną failą į „{2}“.}
                             one {„{0}“ nukopijavo # failą į „{2}“.}

@@ -34,5 +34,5 @@ return [
     'exifNotSupported'       => 'Serverio PHP nepalaiko EXIF duomenų skaitymo.',
 
     // @deprecated
-    'libPathInvalid'         => 'Paveikslėlių apdorojimo bibliotekos kelias neteisingas. Prašome paveikslėlių nustatymuose nurodyti teisingą kelią. „{0}“',
+    'libPathInvalid' => 'Paveikslėlių apdorojimo bibliotekos kelias neteisingas. Prašome paveikslėlių nustatymuose nurodyti teisingą kelią. „{0}“',
 ];

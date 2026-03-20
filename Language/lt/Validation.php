@@ -89,6 +89,6 @@ return [
     'is_image' => '„{field}“ nėra taisyklingas įkeltas paveikslėlis.',
     'mime_in'  => '„{field}“ nėra taisyklingo mime tipo.',
     'ext_in'   => '„{field}“ neturi taisyklingo failo praplėtimo.',
-    'max_dims'   => '„{field}“ nėra paveikslėlis, arba paveikslėlis yra per platus ar per aukštas.',
-    'min_dims'     => '„{field}“ nepasiekia minimalaus dydžio {param}x{param}.',
+    'max_dims' => '„{field}“ nėra paveikslėlis, arba paveikslėlis yra per platus ar per aukštas.',
+    'min_dims' => '„{field}“ nepasiekia minimalaus dydžio {param}x{param}.',
 ];
