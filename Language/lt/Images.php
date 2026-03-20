@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -22,7 +24,6 @@ return [
     'unsupportedImageCreate' => 'Serveris nepalaiko GD funkcijos, kurios reikia šio paveikslėlio apdorojimui.',
     'jpgOrPngRequired'       => 'Paveikslėlių dydžio keitimo protokolas, nurodytas Jūsų nustatymuose, veikia tik su JPG arba PNG paveikslėlių tipais.',
     'rotateUnsupported'      => 'Paveikslėlių sukimas atrodo nėra palaikomas serverio.',
-    'libPathInvalid'         => 'Paveikslėlių apdorojimo bibliotekos kelias neteisingas. Prašome paveikslėlių nustatymuose nurodyti teisingą kelią. „{0}“',
     'imageProcessFailed'     => 'Paveikslėlio apdorojimas nepavyko. Prašome įsitikinti, kad serveris palaiko pasirinktą protokolą, ir kad kelias iki paveikslėlių bibliotekos nurodytas teisingai.',
     'rotationAngleRequired'  => 'Paveikslėlio pasukimui reikia nurodyti sukimo kampą.',
     'invalidPath'            => 'Paveikslėlio kelias nurodytas neteisingai.',
@@ -31,4 +32,7 @@ return [
     'saveFailed'             => 'Nepavyko išsaugoti paveikslėlio. Prašome įsitikinti, kad į paveikslėlio vardą ir direktoriją galima rašyti.',
     'invalidDirection'       => 'Apvertimo kryptis gali būti arba „vertical“, arba „horizontal“. Nurodyta: „{0}“',
     'exifNotSupported'       => 'Serverio PHP nepalaiko EXIF duomenų skaitymo.',
+
+    // @deprecated
+    'libPathInvalid' => 'Paveikslėlių apdorojimo bibliotekos kelias neteisingas. Prašome paveikslėlių nustatymuose nurodyti teisingą kelią. „{0}“',
 ];

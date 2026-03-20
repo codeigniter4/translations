@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -20,6 +22,7 @@ return [
     'gap'           => 'Migracijų sekoje yra tarpas netoli versijos numerio: ',
     'classNotFound' => 'Migracijos klasė „%s“ nerasta.',
     'missingMethod' => 'Migracijos klasei trūksta „%s“ metodo.',
+    'locked'        => 'Migracijos jau paleistos kitame procese. Praleidžiama.',
 
     // Migration Command
     'migHelpLatest'   => "\t\tMigruoja duomenų bazes naudojant vėliausią prieinamą migraciją.",

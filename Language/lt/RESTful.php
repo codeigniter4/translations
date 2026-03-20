@@ -12,4 +12,6 @@
 // RESTful language settings
 return [
     'notImplemented' => '„{0}“ veiksmas neįgyvendintas.',
+    'cannotPaginate' => 'Nepavyko atsisiųsti puslapiuotų duomenų.',
+    'paginateError'  => 'Puslapiuojant rezultatus įvyko klaida.',
 ];
