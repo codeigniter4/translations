@@ -65,7 +65,7 @@ return [
     'valid_json'            => '{field} 필드 값은 유효한 json이어야 합니다.', // 'The {field} field must contain a valid json.'
 
     // Credit Cards
-    'valid_cc_num' => '{field}의 값은 잘못된 신용카드 번호입니다.', // '{field} does not appear to be a valid credit card number.'
+    'valid_cc_number' => '{field}의 값은 잘못된 신용카드 번호입니다.', // '{field} does not appear to be a valid credit card number.'
 
     // Files
     'uploaded' => '{field} 업로드 파일이 올바르지 않습니다.', // '{field} is not a valid uploaded file.'
