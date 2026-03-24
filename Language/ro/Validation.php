@@ -65,7 +65,7 @@ return [
     'valid_json'            => 'Câmpul {field} trebuie să conțină un json valid.',
 
     // Credit Cards
-    'valid_cc_num' => '{field} nu pare a fi un număr valid de card de credit.',
+    'valid_cc_number' => '{field} nu pare a fi un număr valid de card de credit.',
 
     // Files
     'uploaded' => '{field} nu este un fișier încărcat valid.',
