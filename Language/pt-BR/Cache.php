@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -11,8 +13,8 @@
 
 // Cache language settings
 return [
-    'unableToWrite'   => 'O cache está incapaz de escrever em "{0}"', // 'Cache unable to write to "{0}".',
-    'invalidHandlers' => 'A configuração de cache deve ter uma array de $validHandlers.', // 'Cache config must have an array of $validHandlers.',
-    'noBackup'        => 'A configuração de cache deve ter um handler e um backupHandler definido.', // 'Cache config must have a handler and backupHandler set.',
-    'handlerNotFound' => 'A configuração de cache possui um handler ou backup handler inválido na definição.', // 'Cache config has an invalid handler or backup handler specified.',
+    'unableToWrite'   => 'Não foi possível gravar no cache "{0}"', // 'Cache unable to write to "{0}".',
+    'invalidHandlers' => 'A configuração do cache deve ter um array de $validHandlers.', // 'Cache config must have an array of $validHandlers.',
+    'noBackup'        => 'A configuração do cache deve ter um manipulador (handler) e um manipulador de backup (backupHandler) definidos.', // 'Cache config must have a handler and backupHandler set.',
+    'handlerNotFound' => 'A configuração do cache tem um manipulador (handler) inválido ou um manipulador de backup (backupHandler) especificado.', // 'Cache config has an invalid handler or backup handler specified.',
 ];

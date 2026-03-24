@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -14,8 +16,8 @@ return [
     'invalidCellMethod'     => '{class}::{method} não é um método válido.', // '{class}::{method} is not a valid method.',
     'missingCellParameters' => '{class}::{method} não possui parâmetros.', // '{class}::{method} has no params.',
     'invalidCellParameter'  => '{0} não é um nome de parâmetro válido.', // '"{0}" is not a valid param name.',
-    'noCellClass'           => 'Nenhuma classe de view cell fornecida.', // 'No view cell class provided.',
+    'noCellClass'           => 'Nenhuma classe view cell fornecida.', // 'No view cell class provided.',
     'invalidCellClass'      => 'Não é possível localizar a classe view cell: {0}.', // 'Unable to locate view cell class: "{0}".',
-    'tagSyntaxError'        => 'Você tem um erro de sintaxe nas tags do Parser: {0}', // 'You have a syntax error in your Parser tags: "{0}"',
-    'invalidDecoratorClass' => '{0} não é um decorador de visualização válido.', // '"{0}" is not a valid View Decorator.',
+    'tagSyntaxError'        => 'Você tem um erro de sintaxe em suas tags do Parser: {0}', // 'You have a syntax error in your Parser tags: "{0}"',
+    'invalidDecoratorClass' => '{0} não é um View Decorator válido.', // '"{0}" is not a valid View Decorator.',
 ];

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -22,5 +24,5 @@ return [
     'million'     => ' milhão', // ' million',
     'billion'     => ' bilhão', // ' billion',
     'trillion'    => ' trilhão', // ' trillion',
-    'quadrillion' => ' quatrilhão', // ' quadrillion',
+    'quadrillion' => ' quadrilhão', // ' quadrillion',
 ];

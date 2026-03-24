@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -11,35 +13,36 @@
 
 // CLI language settings
 return [
-    'altCommandPlural'   => 'Você quis dizer um desses?', // 'Did you mean one of these?',
+    'altCommandPlural'   => 'Você quis dizer um destes?', // 'Did you mean one of these?',
     'altCommandSingular' => 'Você quis dizer isso?', // 'Did you mean this?',
-    'commandNotFound'    => 'Comando "{0}" não foi encontrado.', // 'Command "{0}" not found.',
+    'commandNotFound'    => 'Comando "{0}" não encontrado.', // 'Command "{0}" not found.',
     'generator'          => [
-        'cancelOperation' => 'Operação foi cancelada.', // 'Operation has been cancelled.',
+        'cancelOperation' => 'A operação foi cancelada.', // 'Operation has been cancelled.',
         'className'       => [
-            'cell'       => 'Nome da classe Cell', // 'Cell class name',
-            'command'    => 'Nome da classe Command', // 'Command class name',
-            'config'     => 'Nome da classe Config', // 'Config class name',
-            'controller' => 'Nome da classe Controller', // 'Controller class name',
-            'default'    => 'Nome da classe', // 'Class name',
-            'entity'     => 'Nome da classe Entity', // 'Entity class name',
-            'filter'     => 'Nome da classe Filter', // 'Filter class name',
-            'migration'  => 'Nome da classe Migration', // 'Migration class name',
-            'model'      => 'Nome da classe Model', // 'Model class name',
-            'seeder'     => 'Nome da classe Seeder', // 'Seeder class name',
-            'test'       => 'Nome da classe Test', // 'Test class name',
-            'validation' => 'Nome da classe Validation',  // 'Validation class name',
+            'cell'        => 'Nome da classe Cell', // 'Cell class name',
+            'command'     => 'Nome da classe Command', // 'Command class name',
+            'config'      => 'Nome da classe Config', // 'Config class name',
+            'controller'  => 'Nome da classe Controller', // 'Controller class name',
+            'default'     => 'Nome da classe', // 'Class name',
+            'entity'      => 'Nome da classe Entity', // 'Entity class name',
+            'filter'      => 'Nome da classe Filter', // 'Filter class name',
+            'migration'   => 'Nome da classe Migration', // 'Migration class name',
+            'model'       => 'Nome da classe Model', // 'Model class name',
+            'seeder'      => 'Nome da classe Seeder', // 'Seeder class name',
+            'test'        => 'Nome da classe Test', // 'Test class name',
+            'transformer' => 'Nome da classe Transformer', // 'Transformer class name',
+            'validation'  => 'Nome da classe Validation',  // 'Validation class name',
         ],
         'commandType'      => 'Tipo de comando', // 'Command type',
         'databaseGroup'    => 'Grupo do banco de dados', // 'Database group',
         'fileCreate'       => 'Arquivo criado: "{0}"', // 'File created: {0}',
-        'fileError'        => 'Erro ao criar arquivo: "{0}"', // 'Error while creating file: "{0}"',
-        'fileExist'        => 'Arquivo existe: "{0}"', // 'File exists: "{0}"',
+        'fileError'        => 'Erro ao criar o arquivo: "{0}"', // 'Error while creating file: "{0}"',
+        'fileExist'        => 'O arquivo existe: "{0}"', // 'File exists: "{0}"',
         'fileOverwrite'    => 'Arquivo sobrescrito: "{0}"', // 'File overwritten: "{0}"',
         'parentClass'      => 'Classe pai', // 'Parent class',
         'returnType'       => 'Tipo de retorno', // 'Return type',
         'tableName'        => 'Nome da tabela', // 'Table name',
-        'usingCINamespace' => 'Atenção: Usar o namespace "CodeIgniter" irá gerar o arquivo no diretório system.', // 'Warning: Using the "CodeIgniter" namespace will generate the file in the system directory.',
+        'usingCINamespace' => 'Aviso: Usar o namespace "CodeIgniter" irá gerar o arquivo no diretório system.', // 'Warning: Using the "CodeIgniter" namespace will generate the file in the system directory.',
         'viewName'         => [
             'cell' => 'Nome da view cell', // 'Cell view name',
         ],
@@ -48,6 +51,11 @@ return [
     'helpDescription'     => 'Descrição:', // 'Description:',
     'helpOptions'         => 'Opções:', // 'Options:',
     'helpUsage'           => 'Uso:', // 'Usage:',
-    'invalidColor'        => 'Cor inválida "{0}": "{1}".', // Invalid "{0}" color: "{1}".',
-    'namespaceNotDefined' => 'Namespace "{0}" não está definido.', // 'Namespace "{0}" is not defined.',
+    'invalidColor'        => 'Cor "{0}" inválida: "{1}".', // Invalid "{0}" color: "{1}".',
+    'namespaceNotDefined' => 'O namespace "{0}" não está definido.', // 'Namespace "{0}" is not defined.',
+    'signals'             => [
+        'noPcntlExtension' => 'Extensão PCNTL não disponível. Tratamento de sinais desativado.', // 'PCNTL extension not available. Signal handling disabled.',
+        'noPosixExtension' => 'O processamento dos sinais SIGTSTP/SIGCONT requer extensão POSIX. Esses sinais serão removidos do registro.', // 'SIGTSTP/SIGCONT handling requires POSIX extension. These signals will be removed from registration.',
+        'failedSignal'     => 'Falha ao registrar o manipulador para o sinal: "{0}".', //'Failed to register handler for signal: "{0}".',
+    ],
 ];
