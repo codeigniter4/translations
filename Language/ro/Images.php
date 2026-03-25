@@ -21,7 +21,7 @@ return [
     'pngNotSupported'        => 'Imaginile PNG nu sunt acceptate.',
     'webpNotSupported'       => 'Imaginile WEBP nu sunt acceptate.',
     'fileNotSupported'       => 'Fișierul furnizat nu este un tip de imagine acceptat.',
-    'unsupportedImageCreate' => 'Serverul dumneavoastră nu acceptă funcția GD necesară procesării acestui tip de imagine.',
+    'unsupportedImageCreate' => 'Serverul dumneavoastră nu oferă suport pentru funcționalitatea necesară pentru procesarea acestui tip de imagine.',
     'jpgOrPngRequired'       => 'Protocolul de redimensionare a imaginii specificat în preferințele dvs. funcționează numai cu tipuri de imagini JPEG sau PNG.',
     'rotateUnsupported'      => 'Rotirea imaginii nu pare să fie acceptată de serverul dvs.',
     'imageProcessFailed'     => 'Procesarea imaginii a eșuat. Verificați dacă serverul dvs. acceptă protocolul ales și calea către biblioteca dvs. de imagini este corectă.',
