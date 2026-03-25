@@ -62,7 +62,7 @@ return [
     'valid_json'            => 'Värdet i fältet {field} måste vara en korrekt JSON.',
 
     // Credit Cards
-    'valid_cc_num' => 'Värdet i fältet {field} verkar inte vara ett giltig kontokortsnummer.',
+    'valid_cc_number' => 'Värdet i fältet {field} verkar inte vara ett giltig kontokortsnummer.',
 
     // Files
     'uploaded' => '{field} är inte en giltig uppladdad fil.',
