@@ -19,7 +19,7 @@ return [
     'generator'          => [
         'cancelOperation' => '작업이 취소되었습니다.', // 'Operation has been cancelled.'
         'className'       => [
-            'cell'        => '셀 클래스 이름', // 'Cell class name'
+            'cell'        => '셀 뷰 이름', // 'Cell view name'
             'command'     => '커멘드 클래스 이름', // 'Command class name'
             'config'      => '설정 클래스 이름', // 'Config class name'
             'controller'  => '컨트롤러 클래스 이름', // 'Controller class name'
