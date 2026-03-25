@@ -21,7 +21,7 @@ return [
     'pngNotSupported'        => 'A PNG képek nem támogatottak.',
     'webpNotSupported'       => 'A WEBP képek nem támogatottak.',
     'fileNotSupported'       => 'A feltöltött kép formátuma nem támogatott.',
-    'unsupportedImageCreate' => 'Az ön szervere nem támogatja a GD funkciót, ami ennek a képtípusnak a feldolgozásához szükséges.',
+    'unsupportedImageCreate' => 'A szervered nem támogatja az ilyen típusú kép feldolgozásához szükséges funkciókat.',
     'jpgOrPngRequired'       => 'A beállításokban megadott képméretezési funkció csak JPEG és PNG típusú képekkel működik.',
     'rotateUnsupported'      => 'A képforgatást nem támogatja az ön szervere.',
     'imageProcessFailed'     => 'A kép feldolgozása sikertelen. Kérjük ellenőrizze, hogy az ön szervere támogatja-e a választott protokollt és hogy a képkönyvtárhoz tartozó elérési út helyes-e.',
