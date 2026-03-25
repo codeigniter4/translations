@@ -11,8 +11,8 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Log language settings
+// Configurações de linguagem de Log
 return [
-    'invalidLogLevel'    => '"{0}" é um log de nível inválido.', // '"{0}" is an invalid log level.',
-    'invalidMessageType' => 'O tipo de mensagem "{0}" fornecido não é suportado.', // 'The given message type "{0}" is not supported.'
+    'invalidLogLevel'    => '"{0}" é um nível de log inválido.',
+    'invalidMessageType' => 'O tipo de mensagem fornecido "{0}" não é suportado.',
 ];

@@ -11,9 +11,9 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// RESTful language settings
+// Configurações de linguagem RESTful
 return [
-    'notImplemented' => 'Ação "{0}" não implementada.', // '"{0}" action not implemented.',
-    'cannotPaginate' => 'Não foi possível recuperar os dados paginados.', // 'Unable to retrieve paginated data.',
-    'paginateError' => 'Ocorreu um erro ao paginar os resultados.', // 'An error occurred while paginating results.'
+    'notImplemented' => 'Ação "{0}" não implementada.',
+    'cannotPaginate' => 'Não foi possível recuperar dados paginados.',
+    'paginateError'  => 'Ocorreu um erro ao paginar os resultados.',
 ];

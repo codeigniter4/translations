@@ -11,10 +11,10 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Files language settings
+// Configurações de linguagem de Arquivos (Files)
 return [
-    'fileNotFound'      => 'Arquivo não encontrado: "{0}"', // 'File not found: "{0}"',
-    'cannotMove'        => 'Não foi possível mover o arquivo "{0}" para "{1}". Motivo: {2}', // 'Could not move file "{0}" to "{1}". Reason: {2}',
-    'expectedDirectory' => '"{0}" espera um diretório válido.', // '{0} expects a valid directory.',
-    'expectedFile'      => '"{0}" espera um arquivo válido.', // '{0} expects a valid file.',
+    'fileNotFound'      => 'Arquivo não encontrado: "{0}"',
+    'cannotMove'        => 'Não foi possível mover o arquivo "{0}" para "{1}". Motivo: {2}',
+    'expectedDirectory' => '{0} espera um diretório válido.',
+    'expectedFile'      => '{0} espera um arquivo válido.',
 ];

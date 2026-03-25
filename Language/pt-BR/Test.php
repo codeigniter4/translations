@@ -11,7 +11,7 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Testing language settings
+// Configurações de linguagem de Testes (Testing)
 return [
-    'invalidMockClass' => '"{0}" não é uma classe Mock válida', // '"{0}" is not a valid Mock class',
+    'invalidMockClass' => '"{0}" não é uma classe Mock válida.',
 ];

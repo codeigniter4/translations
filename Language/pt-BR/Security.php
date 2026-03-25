@@ -11,11 +11,11 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Security language settings
+// Configurações de linguagem de Segurança (Security)
 return [
-    'disallowedAction' => 'A ação solicitada não é permitida.', // 'The action you requested is not allowed.',
-    'insecureCookie'   => 'Tentativa de enviar um cookie seguro por meio de uma conexão insegura.', // 'Attempted to send a secure cookie over a non-secure connection.',
+    'disallowedAction' => 'A ação solicitada não é permitida.',
+    'insecureCookie'   => 'Tentativa de enviar um cookie seguro através de uma conexão não segura.',
 
     // @deprecated
-    'invalidSameSite' => 'O valor de SameSite deve ser None, Lax, Strict, ou uma string vazia. Fornecido: "{0}"', // 'The SameSite value must be None, Lax, Strict, or a blank string. Given: "{0}"',
+    'invalidSameSite' => 'O valor SameSite deve ser None, Lax, Strict ou uma string vazia. Fornecido: "{0}"',
 ];

@@ -11,11 +11,11 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// API language settings
+// Configurações de linguagem da API
 return [
-    'invalidFields'       => 'Campo inválido solicitado: {0}', // 'Invalid field requested: {0}',
-    'invalidIncludes'     => 'Solicitação de inclusão inválida: {0}', // 'Invalid include requested: {0}',
-    'missingInclude'      => 'Método include ausente para: {0}', // 'Missing include method for: {0}',
-    'transformerNotFound' => 'Classe transformadora \'{0}\' não encontrada.', // 'Transformer class \'{0}\' not found.',
-    'invalidTransformer'  => 'A classe transformadora \'{0}\' deve implementar a interface TransformerInterface.', // 'Transformer class \'{0}\' must implement TransformerInterface.',
+    'invalidFields'       => 'Campo solicitado inválido: {0}',
+    'invalidIncludes'     => 'Inclusão solicitada inválida: {0}',
+    'missingInclude'      => 'Método de inclusão ausente para: {0}',
+    'transformerNotFound' => 'Classe Transformer \'{0}\' não encontrada.',
+    'invalidTransformer'  => 'A classe Transformer \'{0}\' deve implementar a TransformerInterface.',
 ];

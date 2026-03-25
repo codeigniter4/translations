@@ -11,9 +11,9 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Fabricator language strings
+// Configurações de linguagem do Fabricator
 return [
-    'invalidModel'      => 'O model fornecido para fabricação não é válido.', // 'Invalid model supplied for fabrication.',
-    'missingFormatters' => 'Nenhum formatador válido definido.', // 'No valid formatters defined.',
-    'createFailed'      => 'O fabricator não conseguiu inserir na tabela "{0}": "{1}".', // 'Fabricator failed to insert on table "{0}": {1}',
+    'invalidModel'      => 'Model inválido fornecido para a fabricação.',
+    'missingFormatters' => 'Nenhum formatador (formatter) válido definido.',
+    'createFailed'      => 'O Fabricator falhou ao inserir na tabela "{0}": {1}',
 ];

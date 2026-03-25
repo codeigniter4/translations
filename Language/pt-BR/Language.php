@@ -11,7 +11,8 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// "Language" language settings
+// Configurações de linguagem de "Language"
 return [
-    'invalidMessageFormat' => 'Formato de mensagem inválido: "{0}", argumentos: "{1}"', // 'Invalid message format: "{0}", args: "{1}"',
+    // @deprecated v4.6.3 - nunca usado
+    'invalidMessageFormat' => 'Formato de mensagem inválido: "{0}", argumentos: "{1}"',
 ];

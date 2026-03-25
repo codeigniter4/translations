@@ -11,13 +11,13 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// View language settings
+// Configurações de linguagem de View (Visão)
 return [
-    'invalidCellMethod'     => '{class}::{method} não é um método válido.', // '{class}::{method} is not a valid method.',
-    'missingCellParameters' => '{class}::{method} não possui parâmetros.', // '{class}::{method} has no params.',
-    'invalidCellParameter'  => '{0} não é um nome de parâmetro válido.', // '"{0}" is not a valid param name.',
-    'noCellClass'           => 'Nenhuma classe view cell fornecida.', // 'No view cell class provided.',
-    'invalidCellClass'      => 'Não é possível localizar a classe view cell: {0}.', // 'Unable to locate view cell class: "{0}".',
-    'tagSyntaxError'        => 'Você tem um erro de sintaxe em suas tags do Parser: {0}', // 'You have a syntax error in your Parser tags: "{0}"',
-    'invalidDecoratorClass' => '{0} não é um View Decorator válido.', // '"{0}" is not a valid View Decorator.',
+    'invalidCellMethod'     => '{class}::{method} não é um método válido.',
+    'missingCellParameters' => '{class}::{method} não possui parâmetros.',
+    'invalidCellParameter'  => '"{0}" não é um nome de parâmetro válido.',
+    'noCellClass'           => 'Nenhuma classe de View Cell fornecida.',
+    'invalidCellClass'      => 'Não foi possível localizar a classe de View Cell: "{0}".',
+    'tagSyntaxError'        => 'Você tem um erro de sintaxe em suas tags do Parser: "{0}"',
+    'invalidDecoratorClass' => '"{0}" não é um View Decorator válido.',
 ];

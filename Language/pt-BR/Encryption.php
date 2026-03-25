@@ -11,12 +11,12 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Encryption language settings
+// Configurações de linguagem de Criptografia
 return [
-    'noDriverRequested'    => 'Nenhum driver solicitado; A senhorita Daisy vai ficar tão chateada!', // 'No driver requested; Miss Daisy will be so upset!',
-    'noHandlerAvailable'   => 'Não foi possível encontrar um manipulador de criptografia "{0}" disponível.', // 'Unable to find an available "{0}" encryption handler.',
-    'unKnownHandler'       => '"{0}" não pode ser configurado.', // '"{0}" cannot be configured.',
-    'starterKeyNeeded'     => 'O criptografador precisa de uma chave inicial.', // 'Encrypter needs a starter key.',
-    'authenticationFailed' => 'Decriptação: falha na autenticação.', // 'Decrypting: authentication failed.',
-    'encryptionFailed'     => 'A criptografia falhou.', // 'Encryption failed.',
+    'noDriverRequested'    => 'Nenhum driver solicitado; Miss Daisy ficará tão chateada!',
+    'noHandlerAvailable'   => 'Não foi possível encontrar um handler de criptografia "{0}" disponível.',
+    'unKnownHandler'       => '"{0}" não pode ser configurado.',
+    'starterKeyNeeded'     => 'O Encrypter precisa de uma chave inicial (starter key).',
+    'authenticationFailed' => 'Descriptografia: falha na autenticação.',
+    'encryptionFailed'     => 'A criptografia falhou.',
 ];

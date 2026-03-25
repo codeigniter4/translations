@@ -11,15 +11,16 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
+// Configurações de linguagem do Pager (Paginação)
 // Pager language settings
 return [
-    'pageNavigation'         => 'Navegação de páginas', // 'Page navigation',
-    'first'                  => 'Primeira', // 'First',
-    'previous'               => 'Anterior', // 'Previous',
-    'next'                   => 'Próxima', // 'Next',
-    'last'                   => 'Última', // 'Last',
-    'older'                  => 'Mais antiga', // 'Older',
-    'newer'                  => 'Mais recente', // 'Newer',
-    'invalidTemplate'        => '{0} não é um template de Pager válido.', // '"{0}" is not a valid Pager template.',
-    'invalidPaginationGroup' => '{0} não é um grupo de Paginação válido.', // '"{0}" is not a valid Pagination group.',
+    'pageNavigation'         => 'Navegação de página',
+    'first'                  => 'Primeira',
+    'previous'               => 'Anterior',
+    'next'                   => 'Próxima',
+    'last'                   => 'Última',
+    'older'                  => 'Mais antiga',
+    'newer'                  => 'Mais recente',
+    'invalidTemplate'        => '"{0}" não é um template de Pager válido.',
+    'invalidPaginationGroup' => '"{0}" não é um grupo de Paginação válido.',
 ];

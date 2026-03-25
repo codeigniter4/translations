@@ -11,13 +11,13 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Core language settings
+// Configurações de linguagem do Core (Núcleo)
 return [
-    'copyError'                    => 'Ocorreu um erro ao tentar substituir o arquivo "{0}". Certifique-se de que seu diretório de arquivos tenha permissão de gravação.', // 'An error was encountered while attempting to replace the file "{0}". Please make sure your file directory is writable.',
-    'enabledZlibOutputCompression' => 'A diretiva zlib.output_compression no seu arquivo .ini está ativada. Isso não funcionará bem com buffers de saída.', // 'Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.',
-    'invalidFile'                  => 'Arquivo inválido: "{0}"', // 'Invalid file: "{0}"',
-    'invalidDirectory'             => 'O diretório não existe: "{0}"', // 'Directory does not exist: "{0}"',
-    'invalidPhpVersion'            => 'Sua versão do PHP deve ser "{0}" ou superior para executar o CodeIgniter. Versão atual: "{1}"', // 'Your PHP version must be {0} or higher to run CodeIgniter. Current version: {1}',
-    'missingExtension'             => 'O framework precisa que a(s) seguinte(s) extensão(ões) esteja(m) instalada(s) e carregada(s): "{0}".', // 'The framework needs the following extension(s) installed and loaded: "{0}".',
-    'noHandlers'                   => '"{0}" deve fornecer pelo menos um manipulador (Handler).', // '"{0}" must provide at least one Handler.',
+    'copyError'                    => 'Um erro foi encontrado ao tentar substituir o arquivo "{0}". Certifique-se de que seu diretório de arquivos tenha permissão de escrita.',
+    'enabledZlibOutputCompression' => 'Sua diretiva ini zlib.output_compression está ativada. Isso não funcionará bem com buffers de saída.',
+    'invalidFile'                  => 'Arquivo inválido: "{0}"',
+    'invalidDirectory'             => 'O diretório não existe: "{0}"',
+    'invalidPhpVersion'            => 'Sua versão do PHP deve ser {0} ou superior para rodar o CodeIgniter. Versão atual: {1}',
+    'missingExtension'             => 'O framework precisa da(s) seguinte(s) extensão(ões) instalada(s) e carregada(s): "{0}".',
+    'noHandlers'                   => '"{0}" deve fornecer pelo menos um Handler.',
 ];

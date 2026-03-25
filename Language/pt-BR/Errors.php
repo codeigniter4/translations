@@ -11,12 +11,12 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Errors language settings
+// Configurações de linguagem de Erros
 return [
-    'pageNotFound'    => '404 - Página não encontrada', // '404 - Page Not Found',
-    'sorryCannotFind' => 'Desculpe! Não foi possível encontrar a página que você estava procurando.',  // 'Sorry! Cannot seem to find the page you were looking for.',
-    'badRequest'      => '400 - Solicitação inválida', // '400 - Bad Request',
-    'sorryBadRequest' => 'Desculpe! Algo está errado com sua solicitação.', // 'Sorry! Something is wrong with your request.',
-    'whoops'          => 'Ops!', // 'Whoops!',
-    'weHitASnag'      => 'Parece que ocorreu um problema. Tente novamente mais tarde', // 'We seem to have hit a snag. Please try again later...',
+    'pageNotFound'    => '404 - Página Não Encontrada',
+    'sorryCannotFind' => 'Desculpe! Não conseguimos encontrar a página que você estava procurando.',
+    'badRequest'      => '400 - Requisição Inválida',
+    'sorryBadRequest' => 'Desculpe! Há algo errado com a sua requisição.',
+    'whoops'          => 'Ops!',
+    'weHitASnag'      => 'Parece que encontramos um problema. Tente novamente mais tarde...',
 ];

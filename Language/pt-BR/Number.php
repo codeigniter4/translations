@@ -11,7 +11,7 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Number language settings
+// Configurações de linguagem de Números
 return [
     'terabyteAbbr' => 'TB',
     'gigabyteAbbr' => 'GB',
@@ -19,10 +19,10 @@ return [
     'kilobyteAbbr' => 'KB',
     'bytes'        => 'Bytes',
 
-    // don't forget the space in front of these!
-    'thousand'    => ' mil', // ' thousand',
-    'million'     => ' milhão', // ' million',
-    'billion'     => ' bilhão', // ' billion',
-    'trillion'    => ' trilhão', // ' trillion',
-    'quadrillion' => ' quadrilhão', // ' quadrillion',
+    // não esqueça o espaço na frente destes!
+    'thousand'    => ' mil',
+    'million'     => ' milhão',
+    'billion'     => ' bilhão',
+    'trillion'    => ' trilhão',
+    'quadrillion' => ' quatrilhão',
 ];

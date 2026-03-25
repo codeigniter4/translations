@@ -11,8 +11,8 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Filters language settings
+// Configurações de linguagem de Filtros (Filters)
 return [
-    'noFilter'           => 'O filtro "{0}" deve ter um alias correspondente definido.', // '"{0}" filter must have a matching alias defined.',
-    'incorrectInterface' => '"{0}" deve implementar CodeIgniter\Filters\FilterInterface.', // '"{0}" must implement CodeIgniter\Filters\FilterInterface.',
+    'noFilter'           => 'O filtro "{0}" deve ter um alias correspondente definido.',
+    'incorrectInterface' => '"{0}" deve implementar CodeIgniter\Filters\FilterInterface.',
 ];

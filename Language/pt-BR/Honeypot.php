@@ -11,9 +11,9 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Honeypot language settings
+// Configurações de linguagem do Honeypot
 return [
-    'noTemplate'      => 'O template HTML para o Honeypot não está configurado.', // 'The HTML template for the Honeypot is not configured.',
-    'noNameField'     => 'O nome do campo Honeypot não foi definido.', // 'The name of the Honeypot field is not set.',
-    'theClientIsABot' => 'O cliente Honeypot pode ser um bot.', // 'The Honeypot client may be a bot.',
+    'noTemplate'      => 'O template HTML para o Honeypot não está configurado.',
+    'noNameField'     => 'O nome do campo Honeypot não está definido.',
+    'theClientIsABot' => 'O cliente Honeypot pode ser um bot.',
 ];

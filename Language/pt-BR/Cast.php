@@ -11,20 +11,20 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Cast language settings
+// Configurações de linguagem de Cast
 return [
-    'baseCastMissing'        => 'A classe "{0}" deve herdar da classe "CodeIgniter\Entity\Cast\BaseCast".', // 'The "{0}" class must inherit the "CodeIgniter\Entity\Cast\BaseCast" class.',
-    'enumInvalidCaseName'    => 'Nome de caso inválido "{0}" para enum "{1}"', // 'Invalid case name "{0}" for enum "{1}".',
-    'enumInvalidType'        => 'Esperado enum do tipo "{1}", mas recebeu "{0}".', // 'Expected enum of type "{1}", but received "{0}".',
-    'enumInvalidValue'       => 'Valor inválido "{1}" para o enum "{0}".', // 'Invalid value "{1}" for enum "{0}".',
-    'enumMissingClass'       => 'A classe Enum deve ser especificada para a conversão de enum.', // 'Enum class must be specified for enum casting.',
-    'enumNotEnum'            => 'A "{0}" não é uma classe enum válida.', // 'The "{0}" is not a valid enum class.',
-    'invalidCastMethod'      => 'O método de conversão "{0}" não é válido; os métodos válidos são: ["get", "set"].', // 'The "{0}" is invalid cast method, valid methods are: ["get", "set"].',
-    'invalidTimestamp'       => 'A conversão de tipo "timestamp" espera um timestamp correto.', // 'Type casting "timestamp" expects a correct timestamp.',
-    'jsonErrorCtrlChar'      => 'Caractere de controle inesperado encontrado.', // 'Unexpected control character found.',
-    'jsonErrorDepth'         => 'A Profundidade máxima da pilha foi excedida.', // 'Maximum stack depth exceeded.',
-    'jsonErrorStateMismatch' => 'Underflow ou incompatibilidade de modos.', // 'Underflow or the modes mismatch.',
-    'jsonErrorSyntax'        => 'Erro de sintaxe, JSON malformado.', // 'Syntax error, malformed JSON.',
-    'jsonErrorUnknown'       => 'Erro desconhecido.', // 'Unknown error.',
-    'jsonErrorUtf8'          => 'Caracteres UTF-8 malformados, possivelmente codificados incorretamente.', // 'Malformed UTF-8 characters, possibly incorrectly encoded.',
+    'baseCastMissing'        => 'A classe "{0}" deve herdar da classe "CodeIgniter\Entity\Cast\BaseCast".',
+    'enumInvalidCaseName'    => 'Nome de case inválido "{0}" para o enum "{1}".',
+    'enumInvalidType'        => 'Esperado enum do tipo "{1}", mas recebido "{0}".',
+    'enumInvalidValue'       => 'Valor inválido "{1}" para o enum "{0}".',
+    'enumMissingClass'       => 'A classe Enum deve ser especificada para o casting de enum.',
+    'enumNotEnum'            => '"{0}" não é uma classe enum válida.',
+    'invalidCastMethod'      => '"{0}" é um método de cast inválido, os métodos válidos são: ["get", "set"].',
+    'invalidTimestamp'       => 'O casting do tipo "timestamp" espera um timestamp correto.',
+    'jsonErrorCtrlChar'      => 'Caractere de controle inesperado encontrado.',
+    'jsonErrorDepth'         => 'Profundidade máxima da pilha excedida.',
+    'jsonErrorStateMismatch' => 'Underflow ou erro de correspondência de modos.',
+    'jsonErrorSyntax'        => 'Erro de sintaxe, JSON malformado.',
+    'jsonErrorUnknown'       => 'Erro desconhecido.',
+    'jsonErrorUtf8'          => 'Caracteres UTF-8 malformados, possivelmente codificados incorretamente.',
 ];
