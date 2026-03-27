@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -12,6 +14,11 @@
 // Cast language settings
 return [
     'baseCastMissing'        => 'Die Klasse "{0}" muss von der Klasse "CodeIgniter\Entity\Cast\BaseCast" erben.',
+    'enumInvalidCaseName'    => 'Ungültiger Fallname "{0}" für die Aufzählung "{1}".',
+    'enumInvalidType'        => 'Es wurde ein Enum-Wert vom Typ "{1}" erwartet, aber "{0}" empfangen.',
+    'enumInvalidValue'       => 'Ungültiger Wert "{1}" für Enum "{0}".',
+    'enumMissingClass'       => 'Für die Umwandlung von Enum-Werten muss eine Enum-Klasse angegeben werden.',
+    'enumNotEnum'            => '"{0}" ist keine gültige Enum-Klasse.',
     'invalidCastMethod'      => '"{0}" ist ungültige Cast-Methode, gültige Methoden sind: ["get", "set"].',
     'invalidTimestamp'       => 'Type-Casting "timestamp" erwartet einen gültigen Timestamp.',
     'jsonErrorCtrlChar'      => 'Steuerzeichenfehler, möglicherweise falsch kodiert',

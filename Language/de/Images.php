@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -22,7 +24,6 @@ return [
     'unsupportedImageCreate' => 'Der Server unterstützt die GD-Funktion, die für die Verarbeitung dieser Art von Bildern erforderlich ist, nicht.',
     'jpgOrPngRequired'       => 'Das in den Einstellungen angegebene Protokoll zur Änderung der Bildgröße funktioniert nur mit den Bildtypen JPEG oder PNG.',
     'rotateUnsupported'      => 'Die Bildrotation scheint vom Server nicht unterstützt zu werden.',
-    'libPathInvalid'         => 'Der Pfad zu Ihrer Bildbibliothek ist nicht korrekt. Bitte in den Bildeinstellungen den richtigen Pfad einstellen. {0}',
     'imageProcessFailed'     => 'Die Bildverarbeitung ist fehlgeschlagen. Bitte überprüfen, ob der Server das gewählte Protokoll unterstützt und ob der Pfad zur Bildbibliothek korrekt ist.',
     'rotationAngleRequired'  => 'Für die Drehung des Bildes ist ein Drehwinkel erforderlich.',
     'invalidPath'            => 'Der Pfad zum Bild ist nicht korrekt.',
@@ -31,4 +32,7 @@ return [
     'saveFailed'             => 'Das Bild kann nicht gespeichert werden. Bitte sicherstellen, dass das Bild- und Dateiverzeichnis beschreibbar ist.',
     'invalidDirection'       => 'Die Umkehrrichtung kann nur `vertical` oder `horizontal` sein. Gegeben: {0}',
     'exifNotSupported'       => 'Das Lesen von EXIF-Daten wird von dieser PHP-Installation nicht unterstützt.',
+
+    // @deprecated
+    'libPathInvalid' => 'Der Pfad zu Ihrer Bildbibliothek ist nicht korrekt. Bitte in den Bildeinstellungen den richtigen Pfad einstellen. {0}',
 ];

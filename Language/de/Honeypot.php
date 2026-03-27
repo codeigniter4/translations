@@ -11,7 +11,9 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// Testing language settings
+// Honeypot language settings
 return [
-    'invalidMockClass' => '{0} ist keine gültige Mock-Klasse',
+    'noTemplate'      => 'Das HTML-Template für den Honeypot ist nicht gesetzt.',
+    'noNameField'     => 'Der Name des Honeypot-Feldes ist nicht gesetzt.',
+    'theClientIsABot' => 'Der Honeypot-Client könnte ein Bot sein.',
 ];
