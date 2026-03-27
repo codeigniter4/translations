@@ -30,7 +30,7 @@ return [
             'model'       => 'Klassenname des Models',
             'seeder'      => 'Klassenname des Seeder',
             'test'        => 'Klassenname des Tests',
-            'transformer' => 'Transformer class name',
+            'transformer' => 'Klassenname des Transfoermers',
             'validation'  => 'Klassenname der Validierung',
         ],
         'commandType'      => 'Befehlstyp',
@@ -54,7 +54,7 @@ return [
     'invalidColor'        => 'Ungültige {0} Farbe: {1}.',
     'namespaceNotDefined' => 'Der Namespace "{0}" ist nicht definiert.',
     'signals'             => [
-        'noPcntlExtension' => 'PCNTL extension not available. Signal handling disabled.',
+        'noPcntlExtension' => 'Die PCNTL-Erweiterung ist nicht verfügbar. Die Signalverarbeitung wurde deaktiviert.',
         'noPosixExtension' => 'Die Verarbeitung von SIGTSTP/SIGCONT erfordert eine POSIX-Erweiterung. Diese Signale werden aus der Registrierung entfernt.',
         'failedSignal'     => 'Die Registrierung des Handlers für das Signal "{0}" ist fehlgeschlagen.',
     ],
