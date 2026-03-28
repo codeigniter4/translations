@@ -65,7 +65,7 @@ return [
     'valid_json'            => 'A {field} mezőnek érvényes json-t kell tartalmaznia.',
 
     // Credit Cards
-    'valid_cc_num' => '{field} nem tűnik érvényes hitelkártya számnak.',
+    'valid_cc_number' => '{field} nem tűnik érvényes hitelkártya számnak.',
 
     // Files
     'uploaded' => '{field} nem egy érvényes feltöltött állomány.',
