@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -63,7 +65,7 @@ return [
     'valid_json'            => 'Das {field}-Formularfeld muss einen gültigen json-String enthalten.',
 
     // Credit Cards
-    'valid_cc_num' => 'Das {field}-Formularfeld scheint keine gültige Kreditkartennummer zu enthalten.',
+    'valid_cc_number' => 'Das {field}-Formularfeld scheint keine gültige Kreditkartennummer zu enthalten.',
 
     // Files
     'uploaded' => 'Das {field}-Formularfeld enthält keine gültige hochgeladene Datei.',

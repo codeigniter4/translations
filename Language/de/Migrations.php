@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -20,6 +22,7 @@ return [
     'gap'           => 'Es gibt eine Lücke in der Migrationsfolge nahe der Versionsnummer: ',
     'classNotFound' => 'Die Migrationsklasse "%s" konnte nicht gefunden werden.',
     'missingMethod' => 'Der Migrationsklasse fehlt eine "%s"-Methode.',
+    'locked'        => 'Die Migrationen laufen bereits in einem anderen Prozess. Wurde übersprungen.',
 
     // Migration Command
     'migHelpLatest'   => "\t\tMigriert die Datenbank auf die neueste verfügbare Migration.",
