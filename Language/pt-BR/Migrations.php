@@ -20,6 +20,7 @@ return [
     'gap'           => 'Há uma diferença na sequência de migration perto do número de versão: ', // 'There is a gap in the migration sequence near version number: ',
     'classNotFound' => 'A classe migration "%s" não foi encontrada.', // 'The migration class "%s" could not be found.',
     'missingMethod' => 'A classe migration está sem um método "%s".', // 'The migration class is missing an "%s" method.',
+    'locked'        => 'Migrations já estão em execução em outro processo. Ignorando.', // Migrations already running in another process. Skipping.
 
     // Migration Command
     'migHelpLatest'   => "\t\tMigra o banco de dados para a última migration disponível.", // "\t\tMigrates database to latest available migration.",

@@ -22,7 +22,6 @@ return [
     'unsupportedImageCreate' => 'Seu servidor não suporta a função GD necessária para processar este tipo de imagem.', // 'Your server does not support the GD function required to process this type of image.',
     'jpgOrPngRequired'       => 'O protocolo de redimensionamento de imagem especificado nas suas preferências só funciona com os tipos de imagem JPEG ou PNG.', // 'The image resize protocol specified in your preferences only works with JPEG or PNG image types.',
     'rotateUnsupported'      => 'A rotação de imagem não parece ser suportada pelo seu servidor.', // 'Image rotation does not appear to be supported by your server.',
-    'libPathInvalid'         => 'O caminho para a sua biblioteca de imagens não está correto. Por favor, defina o caminho correto nas suas preferências de imagem. "{0}"', // 'The path to your image library is not correct. Please set the correct path in your image preferences. "{0}"',
     'imageProcessFailed'     => 'O processamento de imagem falhou. Por favor, verifique se o seu servidor suporta o protocolo escolhido e se o caminho para a sua biblioteca de imagens está correto.', // 'Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.',
     'rotationAngleRequired'  => 'Um ângulo de rotação é necessário para girar a imagem.', // 'An angle of rotation is required to rotate the image.',
     'invalidPath'            => 'O caminho para a imagem não está correto.', // 'The path to the image is not correct.',
@@ -31,4 +30,5 @@ return [
     'saveFailed'             => 'Não é possível salvar a imagem. Por favor, certifique-se de que a imagem e o diretório de arquivos são graváveis.', // 'Unable to save the image. Please make sure the image and file directory are writable.',
     'invalidDirection'       => 'A direção da giro pode ser somente "vertical" ou "horizontal". Dado: "{0}"', // 'Flip direction can be only "vertical" or "horizontal". Given: "{0}"',
     'exifNotSupported'       => 'A leitura de dados EXIF não é suportada por esta instalação do PHP.', // 'Reading EXIF data is not supported by this PHP installation.',
+    'libPathInvalid'         => 'O caminho para a sua biblioteca de imagens não está correto. Por favor, defina o caminho correto nas suas preferências de imagem. "{0}"', // 'The path to your image library is not correct. Please set the correct path in your image preferences. "{0}"',
 ];
