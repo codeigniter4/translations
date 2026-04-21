@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /**
  * This file is part of CodeIgniter 4 framework.
  *
@@ -26,7 +28,9 @@ $finder = Finder::create()
         'bin/update-en-comments',
     ]);
 
-$overrides = [];
+$overrides = [
+    'declare_strict_types' => ['preserve_existing_declaration' => false],
+];
 
 $options = [
     'finder'     => $finder,
