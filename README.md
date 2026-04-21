@@ -57,7 +57,7 @@ claims no expertise beyond English.
 | lt     | Lithuanian          | 4.0.2   | [dgvirtual][lt]       | Donatas Glodenis
 | lv     | Latvian             | 4.0.3   | [davislasis][lv]      | Dāvis Lasis
 | ml     | Malayalam           | 4.0.3   | [rakheshthayyur][ml]  | Rakhesh Thayyur
-| mr     | Marathi             | 4.x     | [atharvagitaye][mr]   | Atharva Gitaye
+| mr     | Marathi             | 4.7.2   | [atharvagitaye][mr]   | Atharva Gitaye
 | nl     | Dutch               | 4.0.3   | [JohanSmolders][nl]   | JohanSmolders
 | no     | Norwegian           | 4.0.0   | [LA3QMA][no]          | Kai Günter Brandt
 | pl     | Polish              | 4.0.0   | [DEVELPL][pl]         | Maciej Jasiewicz

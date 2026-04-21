@@ -5,6 +5,30 @@ All notable changes to this library will be documented in this file:
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v4.7.2](https://github.com/codeigniter4/translations/compare/v4.7.0...v4.7.2) - 2026-04-21
+
+### Added
+
+- mr (Marathi)
+
+### Changed
+
+- de (German)
+- hu (Hungarian)
+- ko (Korean)
+- lt (Lithuanian)
+- pt-BR (Brazilian)
+- ro (Romanian)
+- sv-SE (Swedish)
+
+### Others
+
+- chore(deps): bump actions/deploy-pages from 4 to 5 (#537)
+- chore(deps): bump actions/configure-pages from 5 to 6 (#539)
+- Adds `declare(strict_types=1)` to all PHP files (#542)
+- chore(deps): bump actions/upload-pages-artifact from 4 to 5 (#543)
+- Security harden the workflows
+
 ## [v4.7.0](https://github.com/codeigniter4/translations/compare/v4.6.4...v4.7.0) - 2026-03-09
 
 ### Changed
