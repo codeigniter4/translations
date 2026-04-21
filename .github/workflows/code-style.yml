@@ -34,6 +34,7 @@ jobs:
     name: Code Style Check [PHP ${{ matrix.php-version }}]
     runs-on: ubuntu-24.04
     if: github.repository == 'codeigniter4/translations'
+    timeout-minutes: 10
 
     strategy:
       fail-fast: false
@@ -42,10 +43,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+        with:
+          persist-credentials: false
 
       - name: Setup PHP
-        uses: shivammathur/setup-php@v2
+        uses: shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f # 2.37.0
         with:
           php-version: ${{ matrix.php-version }}
           extensions: tokenizer
@@ -58,7 +61,7 @@ jobs:
         run: echo "COMPOSER_CACHE_FILES_DIR=$(composer config cache-files-dir)" >> $GITHUB_OUTPUT
 
       - name: Cache composer dependencies
-        uses: actions/cache@v5
+        uses: actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae # v5.0.5
         with:
           path: ${{ steps.composer-cache.outputs.COMPOSER_CACHE_FILES_DIR }}
           key: composer-PHP_${{ matrix.php-version }}-${{ hashFiles('**/composer.json') }}
