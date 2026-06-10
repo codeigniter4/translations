@@ -15,6 +15,8 @@ declare(strict_types=1);
 return [
     'pageNotFound'    => '404 - Pagina niet gevonden',
     'sorryCannotFind' => 'Sorry! De pagina die u zoekt kon niet gevonden worden.',
+    'badRequest'      => '400 - Ongeldige request',
+    'sorryBadRequest' => 'Sorry! Er is iets mis met uw request.',
     'whoops'          => 'Oeps!',
     'weHitASnag'      => 'Er gaat iets fout. Probeer het later nog eens...',
 ];

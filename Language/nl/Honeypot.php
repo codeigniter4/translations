@@ -11,9 +11,9 @@ declare(strict_types=1);
  * the LICENSE file that was distributed with this source code.
  */
 
-// RESTful language settings
+// Honeypot language settings
 return [
-    'notImplemented' => '"{0}"-actie niet geïmplementeerd.',
-    'cannotPaginate' => 'Kan geen gepagineerde data ophalen.',
-    'paginateError'  => 'Er is een fout opgetreden tijdens het pagineren van de resultaten.',
+    'noTemplate'      => 'De HTML template voor de Honeypot is niet geconfigureerd.',
+    'noNameField'     => 'De naam van het Honeypot veld is niet ingesteld.',
+    'theClientIsABot' => 'De Honeypot client is misschien een bot.',
 ];

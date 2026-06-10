@@ -18,7 +18,8 @@ return [
     'fileNotAllowed'        => '"{0}" heeft geen toegang voor "{1}": {2}',
 
     // Publish Command
-    'publishMissing' => 'Er is geen Publisher classes gevonden in {0} alle namespaces.',
-    'publishSuccess' => '"{0}" heeft {1} bestand(en) gepubliceerd naar "{2}".',
-    'publishFailure' => '"{0}" kon niet publiceren naar "{1}".',
+    'publishMissing'          => 'Er zijn geen Publisher classes gevonden in {0} alle namespaces.',
+    'publishMissingNamespace' => 'Er zijn geen Publisher classes gevonden in {0} in namespace {1}.',
+    'publishSuccess'          => '"{0}" heeft {1} bestand(en) gepubliceerd naar "{2}".',
+    'publishFailure'          => '"{0}" kon niet publiceren naar "{1}".',
 ];

@@ -58,7 +58,7 @@ claims no expertise beyond English.
 | lv     | Latvian             | 4.0.3   | [davislasis][lv]      | Dāvis Lasis
 | ml     | Malayalam           | 4.0.3   | [rakheshthayyur][ml]  | Rakhesh Thayyur
 | mr     | Marathi             | 4.7.2   | [atharvagitaye][mr]   | Atharva Gitaye
-| nl     | Dutch               | 4.0.3   | [JohanSmolders][nl]   | JohanSmolders
+| nl     | Dutch               | 4.7.1   | [JohanSmolders][nl]   | JohanSmolders
 | no     | Norwegian           | 4.0.0   | [LA3QMA][no]          | Kai Günter Brandt
 | pl     | Polish              | 4.0.0   | [DEVELPL][pl]         | Maciej Jasiewicz
 | pt     | Portuguese          | 4.0.0   | [Nerexbcd][pt]        | Abílio Páscoa

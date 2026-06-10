@@ -22,6 +22,7 @@ return [
     'gap'           => 'Er is een gat in de migratie sequentie rond het versienummer: ',
     'classNotFound' => 'De migratie class "%s" werd niet gevonden.',
     'missingMethod' => 'De migratie class heeft geen methode: "%s".',
+    'locked'        => 'Er lopen reeds migraties in een ander process. Overlaan.',
 
     // Migration Command
     'migHelpLatest'   => "\t\tMigreert de database naar de laatste beschikbare migratie.",

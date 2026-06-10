@@ -14,6 +14,11 @@ declare(strict_types=1);
 // Cast language settings
 return [
     'baseCastMissing'        => 'De "{0}" class moet de "CodeIgniter\Entity\Cast\BaseCast" class erven.',
+    'enumInvalidCaseName'    => 'Ongeldige case name "{0}" voor enum "{1}".',
+    'enumInvalidType'        => 'Enum verwacht van type "{1}", maar vond type "{0}".',
+    'enumInvalidValue'       => 'Ongeldige waarde "{1}" voor enum "{0}".',
+    'enumMissingClass'       => 'Enum class moet gespecificeerd zijn voor enum casting.',
+    'enumNotEnum'            => '"{0}" is geen geldige enum class.',
     'invalidCastMethod'      => 'De "{0}" is een ongeldige cast methode, geldige methodes zijn: ["get", "set"].',
     'invalidTimestamp'       => 'Type casting "timestamp" expects a correct timestamp.',
     'jsonErrorCtrlChar'      => 'Onverwacht controle karakter gevonden',

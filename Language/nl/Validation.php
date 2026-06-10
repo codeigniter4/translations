@@ -65,7 +65,7 @@ return [
     'valid_json'            => 'Het veld {field} moet geldige json informatie bevatten.',
 
     // Credit Cards
-    'valid_cc_num' => '{field} lijkt geen geldige credit card nummer te bevatten.',
+    'valid_cc_number' => '{field} lijkt geen geldige credit card nummer te bevatten.',
 
     // Files
     'uploaded' => '{field} bevat geen geldig upload bestand.',
@@ -73,5 +73,6 @@ return [
     'is_image' => '{field} bevat geen geldige afbeelding.',
     'mime_in'  => '{field} heeft geen geldig mime type.',
     'ext_in'   => '{field} heeft geen geldige file extensie.',
-    'max_dims' => '{field} is geen afbeelding, is te breed of te hoog',
+    'max_dims' => '{field} is geen afbeelding, of is te breed of te hoog',
+    'min_dims' => '{field} is geen afbeelding, of is niet breed of hoog genoeg.',
 ];

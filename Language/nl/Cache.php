@@ -14,6 +14,7 @@ declare(strict_types=1);
 // Cache language settings
 return [
     'unableToWrite'   => 'Cache kan niet schrijven naar {0}',
+    'invalidHandler'  => 'Cache driver "{0}" is geen geldige cache handler.',
     'invalidHandlers' => 'Cache config moet een Array bevatten met $validHandlers.',
     'noBackup'        => 'Cache config vereist een Handler en BackupHandler.',
     'handlerNotFound' => 'Cache config bevat een ongeldige Handler of BackupHandler.',
