@@ -28,7 +28,7 @@ return [
     'minutes'        => '{0, plural, =1{# minuut} other{# minuten}}',
     'seconds'        => '{0, plural, =1{# seconde} other{# seconden}}',
     'ago'            => '{0} geleden',
-    'inFuture'       => 'minder dan {0}',
+    'inFuture'       => 'binnen {0}',
     'yesterday'      => 'Gisteren',
     'tomorrow'       => 'Morgen',
     'now'            => 'Zojuist',
