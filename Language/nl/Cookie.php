@@ -16,6 +16,7 @@ return [
     'invalidExpiresTime'    => 'Onjuist "{0}" type voor het attribuut "Expires". Verwacht: string, integer, DateTimeInterface object.',
     'invalidExpiresValue'   => 'De cookie-vervaldatum is onjuist.',
     'invalidCookieName'     => 'De cookie-naam "{0}" bevat tekens die niet zijn toegestaan.',
+    'invalidCookieValue'    => 'De cookie-waarde bevat ongeldide karakters.',
     'emptyCookieName'       => 'De cookie-naam mag niet leeg zijn.',
     'invalidSecurePrefix'   => 'Om de prefix "__Secure-" te gebruiken moet het "Secure" attribuut ingesteld zijn.',
     'invalidHostPrefix'     => 'De "__Host-" prefix gebruikt worden met de "Secure" optie, mag geen "Domain" optie hebben, en "Path" moet "/" zijn.',
