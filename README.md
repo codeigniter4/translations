@@ -67,7 +67,7 @@ claims no expertise beyond English.
 | ro     | Romanian            | 4.2.1   | [ed3][ro]             | Ed
 | ru     | Russian             | 4.0.0   | [neznaika0][ru]       | neznaika0
 | si     | Sinhala             | 4.0.3   | [npwsamarasinghe][si] | Nalaka Prasad
-| sk     | Slovak              | 4.0.0   | [xbotkaj][sk]         | Jozef Botka
+| sk     | Slovak              | 4.7.5   | [xbotkaj][sk]         | Jozef Botka
 | sr     | Serbian             | 4.3.1   | [nebojsajsimic][sr]   | Nebojša Simić
 | sv-SE  | Swedish - Sweden    | 4.0.3   | [tangix][sv-SE]       | Mattias Sandström
 | sw     | Swahili             | 4.6.4   | [emleonstz][sw]       | Emanuel Leonard
