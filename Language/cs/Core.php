@@ -13,9 +13,11 @@ declare(strict_types=1);
 
 // Core language settings
 return [
-    'copyError'                    => 'Vyskytla se chyba při pokusu nahradit soubor ({0}). Prosím ujistěte se, že do složky se soubory lze zapisovat.',
+    'copyError'                    => 'Při pokusu o nahrazení souboru "{0}" došlo k chybě. Ujistěte se, že do adresáře se soubory lze zapisovat.',
     'enabledZlibOutputCompression' => 'Vaše zlib.output_compression ini direktiva je zapnutá. S výstupními vyrovnávacími paměťmi to nebude fungovat dobře.',
-    'invalidFile'                  => 'Neplatný soubor: {0}',
-    'missingExtension'             => 'Tato rozšíření musí být nainstalovány a načteny: {0}',
-    'noHandlers'                   => '{0} musí poskytnout alespoň jeden Handler.',
+    'invalidFile'                  => 'Neplatný soubor: "{0}"',
+    'invalidDirectory'             => 'Adresář neexistuje: "{0}"',
+    'invalidPhpVersion'            => 'Pro spuštění CodeIgniter musí být vaše verze PHP {0} nebo vyšší. Aktuální verze: {1}',
+    'missingExtension'             => 'Framework vyžaduje nainstalovaná a načtená následující rozšíření: "{0}".',
+    'noHandlers'                   => '"{0}" musí poskytnout alespoň jeden Handler.',
 ];

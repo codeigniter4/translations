@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 // Format language settings
 return [
-    'invalidFormatter' => '"{0} "není platná Formatter třída.',
-    'invalidJSON'      => 'Parsování JSON řetězce selhalo, chyba: "{0}".',
-    'invalidMime'      => 'Není definován žádný Formatter pro mime type: "{0}".',
-    'missingExtension' => 'Rozšíření SimpleXML je nezbytné pro XML formát.',
+    'invalidFormatter' => '"{0}" není platná Formatter třída.',
+    'invalidJSON'      => 'Parsování JSON řetězce selhalo. Chyba: {0}',
+    'invalidMime'      => 'Není definován žádný Formatter pro mime typ: "{0}".',
+    'missingExtension' => 'Pro formátování XML je nezbytné rozšíření SimpleXML.',
 ];

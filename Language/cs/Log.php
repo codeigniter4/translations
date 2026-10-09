@@ -13,5 +13,6 @@ declare(strict_types=1);
 
 // Log language settings
 return [
-    'invalidLogLevel' => '{0} je neplatná úroveň logu.',
+    'invalidLogLevel'    => '"{0}" je neplatná úroveň logu.',
+    'invalidMessageType' => 'Zadaný typ zprávy "{0}" není podporován.',
 ];

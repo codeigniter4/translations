@@ -13,6 +13,8 @@ declare(strict_types=1);
 
 // Files language settings
 return [
-    'fileNotFound' => 'Soubor nebyl nalezen: {0}',
-    'cannotMove'   => 'Soubor {0} nebylo možné přesunout do {1} ({2})',
+    'fileNotFound'      => 'Soubor nebyl nalezen: "{0}"',
+    'cannotMove'        => 'Soubor "{0}" nebylo možné přesunout do "{1}". Důvod: {2}',
+    'expectedDirectory' => '{0} očekává platný adresář.',
+    'expectedFile'      => '{0} očekává platný soubor.',
 ];

@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 // Fabricator language settings
 return [
-    'invalidModel'      => 'Na výrobu byl dodán neplatný model.',
+    'invalidModel'      => 'Pro generování byl zadán neplatný model.',
     'missingFormatters' => 'Nejsou definovány žádné platné formátovače.',
-    'createFailed'      => 'Výrobce se nepodařilo vložit do tabulky {0}: {1}',
+    'createFailed'      => 'Fabricatoru se nepodařilo vložit záznam do tabulky "{0}": {1}',
 ];
