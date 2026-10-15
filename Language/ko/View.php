@@ -20,4 +20,5 @@ return [
     'invalidCellClass'      => '뷰 셀 클래스의 위치를 찾을 수 없습니다: "{0}"', // 'Unable to locate view cell class: "{0}".'
     'tagSyntaxError'        => 'Parse 태그에 구문 오류가 있습니다: "{0}"', // 'You have a syntax error in your Parser tags: "{0}"'
     'invalidDecoratorClass' => '"{0}"은(는) 유효한 view 데코레이터가 아닙니다.', // '"{0}" is not a valid View Decorator.'
+    'restrictedConditional' => '제한 모드에서는 파서 조건문이 허용되지 않습니다: "{0}"', // 'The Parser conditional is not allowed in restricted mode: "{0}"'
 ];
