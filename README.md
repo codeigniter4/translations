@@ -41,7 +41,7 @@ claims no expertise beyond English.
 | bg     | Bulgarian           | 4.2.2   | [ivcho02][bg]         | Ivaylo Tsvetanov
 | bn     | Bengali             | 4.3.0   | [hafijul233][bn]      | Mohammad Hafijul Islam
 | bs     | Bosnian             | 4.2.0   | [demirkaric][bs]      | Demir Karić
-| cs     | Czech               | 4.7.5   | [PavelTajdus][cs]     | Pavel Tajduš
+| cs     | Czech               | 4.0.3   | [PavelTajdus][cs]     | Pavel Tajduš
 | de     | German              | 4.0.0   | [sba][de]             | Stefan Bauer
 | el     | Greek               | 4.0.0   | [sourikata2][el]      | Rania Mag
 | en     | English             | 4.0.0   | **N/A**               | CI team
