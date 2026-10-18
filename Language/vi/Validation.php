@@ -65,7 +65,7 @@ return [
     'valid_json'            => 'Trường {field} phải chứa một chuỗi json hợp lệ.',
 
     // Credit Cards
-    'valid_cc_num' => 'Trường {field} dường như không chứa một số thẻ tín dụng hợp lệ.',
+    'valid_cc_number' => 'Trường {field} dường như không chứa một số thẻ tín dụng hợp lệ.',
 
     // Files
     'uploaded' => 'Trường {field} không chứa một tệp tin đã tải lên hợp lệ.',

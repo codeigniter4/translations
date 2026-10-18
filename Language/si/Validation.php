@@ -63,7 +63,7 @@ return [
     'valid_date'            => '{field} field එකෙහි වලංගු දිනයක් අඩංගු විය යුතුය.', // The {field} field must contain a valid date.
 
     // Credit Cards
-    'valid_cc_num' => '{field} වලංගු ක්‍රෙඩිට් කාඩ් අංකයක් ලෙස නොපෙනේ.', // {field} does not appear to be a valid credit card number.
+    'valid_cc_number' => '{field} වලංගු ක්‍රෙඩිට් කාඩ් අංකයක් ලෙස නොපෙනේ.', // {field} does not appear to be a valid credit card number.
 
     // Files
     'uploaded' => '{field} වලංගු uploaded ගොනුවක් නොවේ.', // {field} is not a valid uploaded file.

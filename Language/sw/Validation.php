@@ -65,7 +65,7 @@ return [
     'valid_json'            => 'Sehemu ya {field} lazima iwe json halali.',
 
     // Credit Cards
-    'valid_cc_num' => 'Sehemu ya {field} haionekani kuwa nambari halali ya kadi ya mkopo.',
+    'valid_cc_number' => 'Sehemu ya {field} haionekani kuwa nambari halali ya kadi ya mkopo.',
 
     // Files
     'uploaded' => '{field} sio faili halali iliyopakiwa.',

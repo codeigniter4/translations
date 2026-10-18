@@ -65,7 +65,7 @@ return [
     'valid_json'            => '{field} ફીલ્ડમાં માન્ય JSON હોવું આવશ્યક છે.', // 'The {field} field must contain a valid json.'
 
     // Credit Cards
-    'valid_cc_num' => '{field} માન્ય ક્રેડિટ કાર્ડ નંબર લાગતો નથી.', // '{field} does not appear to be a valid credit card number.'
+    'valid_cc_number' => '{field} માન્ય ક્રેડિટ કાર્ડ નંબર લાગતો નથી.', // '{field} does not appear to be a valid credit card number.'
 
     // Files
     'uploaded' => '{field} માન્ય અપલોડ કરેલી ફાઇલ નથી.', // '{field} is not a valid uploaded file.'

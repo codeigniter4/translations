@@ -65,7 +65,7 @@ return [
     'valid_json'            => 'فیلد {field} باید یک json معتبر باشد.',
 
     // Credit Cards
-    'valid_cc_num' => 'فیلد {field} به نظر یک شماره کارت اعتباری معتبر نیست.',
+    'valid_cc_number' => 'فیلد {field} به نظر یک شماره کارت اعتباری معتبر نیست.',
 
     // Files
     'uploaded' => '{field} یک فایل آپلود شده‌ی معتبر نیست.',

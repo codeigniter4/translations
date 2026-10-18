@@ -63,7 +63,7 @@ return [
     'valid_date'            => 'Lauka {field} vērtībai ir jābūt datumam.', // 'The {field} field must contain a valid date.'
 
     // Credit Cards
-    'valid_cc_num' => 'Lauka {field} vērtība nav derīgs bankas kartes numurs.', // '{field} does not appear to be a valid credit card number.'
+    'valid_cc_number' => 'Lauka {field} vērtība nav derīgs bankas kartes numurs.', // '{field} does not appear to be a valid credit card number.'
 
     // Files
     'uploaded' => 'Lauka {field} vērtība nav augšupielādēts fails.', // '{field} is not a valid uploaded file.'
