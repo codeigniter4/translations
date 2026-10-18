@@ -451,5 +451,6 @@ return [
         'invalidCellClass',
         'tagSyntaxError',
         'invalidDecoratorClass',
+        'restrictedConditional',
     ],
 ];
