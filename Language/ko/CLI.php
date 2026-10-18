@@ -33,17 +33,19 @@ return [
             'transformer' => 'Transformer 클래스 이름', // 'Transformer class name'
             'validation'  => '벨리데이션 클래스 이름', // 'Validation class name'
         ],
-        'commandType'      => '커멘드 타입', // 'Command type'
-        'databaseGroup'    => '데이터베이스 그룹', // 'Database group'
-        'fileCreate'       => '생성 된 파일 : {0}', // 'File created: {0}'
-        'fileError'        => '파일 생성 중 오류 : "{0}"', // 'Error while creating file: "{0}"'
-        'fileExist'        => '이미 파일이 있습니다 : "{0}"', // 'File exists: "{0}"'
-        'fileOverwrite'    => '덮어 쓴 파일 : "{0}"', // 'File overwritten: "{0}"'
-        'parentClass'      => '부모 클래스', // 'Parent class'
-        'returnType'       => '리턴 타입', // 'Return type'
-        'tableName'        => '테이블 이름', // 'Table name'
-        'usingCINamespace' => '경고 : "CodeIgniter" 네임스페이스를 사용하면 시스템 디렉터리에 파일이 생성됩니다.', // 'Warning: Using the "CodeIgniter" namespace will generate the file in the system directory.'
-        'viewName'         => [
+        'commandType'              => '커멘드 타입', // 'Command type'
+        'databaseGroup'            => '데이터베이스 그룹', // 'Database group'
+        'fileCreate'               => '생성 된 파일 : {0}', // 'File created: {0}'
+        'fileError'                => '파일 생성 중 오류 : "{0}"', // 'Error while creating file: "{0}"'
+        'fileExist'                => '이미 파일이 있습니다 : "{0}"', // 'File exists: "{0}"'
+        'fileOverwrite'            => '덮어 쓴 파일 : "{0}"', // 'File overwritten: "{0}"'
+        'parentClass'              => '부모 클래스', // 'Parent class'
+        'returnType'               => '리턴 타입', // 'Return type'
+        'tableName'                => '테이블 이름', // 'Table name'
+        'undefinedDatabaseGroup'   => '정의되지 않은 데이터베이스 그룹 "{0}".', // 'The "{0}" database group is not defined.'
+        'unsupportedSessionDriver' => '데이터베이스 세션은 MySQLi 및 Postgre에서만 지원됩니다. "{0}" 데이터베이스 그룹은 "{1}" 드라이버를 사용합니다.', // 'Database sessions are only supported on MySQLi and Postgre. The "{0}" database group uses the "{1}" driver.'
+        'usingCINamespace'         => '경고 : "CodeIgniter" 네임스페이스를 사용하면 시스템 디렉터리에 파일이 생성됩니다.', // 'Warning: Using the "CodeIgniter" namespace will generate the file in the system directory.'
+        'viewName'                 => [
             'cell' => '셀 뷰 이름', // 'Cell view name'
         ],
     ],
