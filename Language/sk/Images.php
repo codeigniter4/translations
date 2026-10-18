@@ -24,7 +24,6 @@ return [
     'unsupportedImageCreate' => 'Váš server nepodporuje funkciu GD potrebnú na spracovanie tohto typu obrázka.',
     'jpgOrPngRequired'       => 'Protokol o zmene veľkosti obrázka špecifikovaný vo vašich preferenciách funguje iba pre typy obrázkov JPEG alebo PNG.',
     'rotateUnsupported'      => 'Zdá sa, že váš server nepodporuje rotáciu obrázkov.',
-    'libPathInvalid'         => 'Cesta k vašej knižnici obrázkov nie je správna. Nastavte správnu cestu v preferenciách obrázkov. {0}',
     'imageProcessFailed'     => 'Spracovanie obrázku zlyhalo. Skontrolujte, či váš server podporuje zvolený protokol a či je cesta k vašej knižnici obrázkov správna.',
     'rotationAngleRequired'  => 'Na otočenie obrázku je potrebný uhol rotácie.',
     'invalidPath'            => 'Cesta k obrázku nie je správna.',
@@ -33,4 +32,7 @@ return [
     'saveFailed'             => 'Obrázok sa nepodarilo uložiť. Uistite sa, že adresár obrázkov a súborov je zapisovateľný.',
     'invalidDirection'       => 'Smer preklopenia môže byť iba `vertical` alebo `horizontal`. Zadané: {0}',
     'exifNotSupported'       => 'Táto inštalácia PHP nepodporuje čítanie EXIF dát.',
+
+    // @deprecated
+    'libPathInvalid' => 'Cesta k vašej knižnici obrázkov nie je správna. Nastavte správnu cestu v preferenciách obrázkov. {0}',
 ];

@@ -24,7 +24,6 @@ return [
     'unsupportedImageCreate' => 'તમારું સર્વર આ પ્રકારની છબી પર પ્રક્રિયા કરવા માટે જરૂરી GD ફંક્શનને સપોર્ટ કરતું નથી.', // 'Your server does not support the GD function required to process this type of image.'
     'jpgOrPngRequired'       => 'તમારી પસંદગીઓમાં ઉલ્લેખિત છબીનું કદ બદલવાનું પ્રોટોકોલ ફક્ત JPEG અથવા PNG છબી પ્રકારો સાથે કામ કરે છે.', // 'The image resize protocol specified in your preferences only works with JPEG or PNG image types.'
     'rotateUnsupported'      => 'છબીનું રોટેશન તમારા સર્વર દ્વારા સપોર્ટેડ જણાતું નથી.', // 'Image rotation does not appear to be supported by your server.'
-    'libPathInvalid'         => 'તમારી છબી લાઇબ્રેરીનો પાથ સાચો નથી. કૃપા કરીને તમારી છબી પસંદગીઓમાં સાચો પાથ સેટ કરો. "{0}"', // 'The path to your image library is not correct. Please set the correct path in your image preferences. "{0}"'
     'imageProcessFailed'     => 'છબીની પ્રક્રિયા નિષ્ફળ ગઈ. કૃપા કરીને ચકાસો કે તમારું સર્વર પસંદ કરેલા પ્રોટોકોલને સપોર્ટ કરે છે અને તમારી છબી લાઇબ્રેરીનો પાથ સાચો છે.', // 'Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.'
     'rotationAngleRequired'  => 'છબીને ફેરવવા માટે રોટેશન એંગલ જરૂરી છે.', // 'An angle of rotation is required to rotate the image.'
     'invalidPath'            => 'છબીનો પાથ સાચો નથી.', // 'The path to the image is not correct.'
@@ -33,4 +32,7 @@ return [
     'saveFailed'             => 'છબી સાચવી શકાતી નથી. કૃપા કરીને ખાતરી કરો કે છબી અને ફાઇલ ડિરેક્ટરી લખી શકાય તેવી છે.', // 'Unable to save the image. Please make sure the image and file directory are writable.'
     'invalidDirection'       => 'ફ્લિપ દિશા ફક્ત "vertical" અથવા "horizontal" હોઈ શકે છે. આપેલ: "{0}"', // 'Flip direction can be only "vertical" or "horizontal". Given: "{0}"'
     'exifNotSupported'       => 'આ PHP ઇન્સ્ટોલેશન દ્વારા EXIF ડેટા વાંચવા માટે સપોર્ટ નથી.', // 'Reading EXIF data is not supported by this PHP installation.'
+
+    // @deprecated
+    'libPathInvalid' => 'તમારી છબી લાઇબ્રેરીનો પાથ સાચો નથી. કૃપા કરીને તમારી છબી પસંદગીઓમાં સાચો પાથ સેટ કરો. "{0}"', // 'The path to your image library is not correct. Please set the correct path in your image preferences. "{0}"'
 ];

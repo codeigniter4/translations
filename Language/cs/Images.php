@@ -24,7 +24,6 @@ return [
     'unsupportedImageCreate' => 'Váš server nepodporuje funkci GD potřebnou pro zpracování tohoto typu obrázku.',
     'jpgOrPngRequired'       => 'Protokol pro změnu velikost obrázku specifikovaný ve vašem nastavení funguje pouze pro typy obrázků JPEG nebo PNG.',
     'rotateUnsupported'      => 'Zdá se, že váš server nepodporuje otáčení obrázků.',
-    'libPathInvalid'         => 'Cesta k vaší knihovně obrázků není správná. Nastavte správnou cestu v nastavení obrázků. {0, string)',
     'imageProcessFailed'     => 'Zpracování obrázku selhalo. Zkontrolujte, zda váš server podporuje zvolený protokol a zda je cesta k vaší knihovně obrázkov správna.',
     'rotationAngleRequired'  => 'Na otočení obrázku je potřeba úhel rotace.',
     'invalidPath'            => 'Cesta k obrázku není správná.',
@@ -33,4 +32,7 @@ return [
     'saveFailed'             => 'Obrázek se nepodařilo uložit. Ujistěte se, že adresář obrázků a souborů je zapisovatelný.',
     'invalidDirection'       => 'Směr překlopení může být pouze "vertikální" nebo "horizontální". Zadáno: {0}',
     'exifNotSupported'       => 'Tato instalace PHP nepodporuje čtení EXIF dat.',
+
+    // @deprecated
+    'libPathInvalid' => 'Cesta k vaší knihovně obrázků není správná. Nastavte správnou cestu v nastavení obrázků. {0, string)',
 ];
