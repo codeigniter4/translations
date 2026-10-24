@@ -14,29 +14,31 @@ declare(strict_types=1);
 // HTTP language settings
 return [
     // CurlRequest
-    'missingCurl'     => 'Pro použití třídy CURLRequest, musí byť povolená funkce CURL.',
-    'invalidSSLKey'   => 'Není možné nastavit klíč SSL. {0} není platný soubor.',
-    'sslCertNotFound' => 'SSL certifikát nebyl nalezen na: {0}',
+    'missingCurl'     => 'Pro použití třídy CURLRequest musí být povoleno CURL.',
+    'invalidSSLKey'   => 'Nelze nastavit klíč SSL. "{0}" není platný soubor.',
+    'sslCertNotFound' => 'SSL certifikát nebyl nalezen v: "{0}"',
     'curlError'       => '{0} : {1}',
 
     // IncomingRequest
-    'invalidNegotiationType' => '{0} není platný typ vyjednávání. Musí to být: media, charset, encoding nebo language.',
+    'invalidNegotiationType' => '"{0}" není platný typ vyjednávání. Musí být jedním z: media, charset, encoding, language.',
+    'invalidJSON'            => 'Parsování JSON řetězce selhalo. Chyba: {0}',
+    'unsupportedJSONFormat'  => 'Zadaný formát JSON není podporován.',
 
     // Message
-    'invalidHTTPProtocol' => 'Neplatná verze protokolu HTTP. Musí to být jedno z: {0}',
+    'invalidHTTPProtocol' => 'Neplatná verze protokolu HTTP: {0}',
 
     // Negotiate
-    'emptySupportedNegotiations' => 'Musíte poskytnout pole podporovaných hodnot pro všechny Negotiations.',
+    'emptySupportedNegotiations' => 'Pro všechna vyjednávání (Negotiations) musíte poskytnout pole podporovaných hodnot.',
 
     // RedirectResponse
-    'invalidRoute' => '{0} trasu není možné najít při zpětném směrování.',
+    'invalidRoute' => 'Trasu pro "{0}" nelze najít.',
 
     // DownloadResponse
-    'cannotSetBinary'        => 'Při nastavování filepath není možné nastavit binary.',
-    'cannotSetFilepath'      => 'Při nastavování binary není možné nastavit filepath: {0}',
+    'cannotSetBinary'        => 'Při nastavování filepath nelze nastavit binary.',
+    'cannotSetFilepath'      => 'Při nastavování binary nelze nastavit filepath: "{0}"',
     'notFoundDownloadSource' => 'Nebyl nalezen zdroj těla (body) ke stažení.',
-    'cannotSetCache'         => 'Nepodporuje ukladání do vyrovnávací paměti pro stahování.',
-    'cannotSetStatusCode'    => 'Nepodporuje stavový kód change pro stažení. kód: {0}, důvod: {1}',
+    'cannotSetCache'         => 'Ukládání do vyrovnávací paměti při stahování není podporováno.',
+    'cannotSetStatusCode'    => 'Změna stavového kódu při stahování není podporována. Kód: {0}, důvod: {1}',
 
     // Response
     'missingResponseStatus' => 'V odpovědi HTTP chybí stavový kód',
@@ -44,35 +46,38 @@ return [
     'unknownStatusCode'     => 'Neznámý stavový kód HTTP poskytnutý bez zprávy: {0}',
 
     // URI
-    'cannotParseURI'       => 'Není možné analyzovat URI: {0}',
-    'segmentOutOfRange'    => 'Segment URI žádosti je mimo rozsah: {0}',
+    'cannotParseURI'       => 'Nelze zpracovat URI: "{0}"',
+    'segmentOutOfRange'    => 'Segment URI požadavku je mimo rozsah: "{0}"',
     'invalidPort'          => 'Porty musí být mezi 0 a 65535. Zadáno: {0}',
-    'malformedQueryString' => 'Řetězce dotazů nemusí obsahovat fragmenty URI.',
+    'malformedQueryString' => 'Řetězce dotazu nesmí obsahovat fragmenty URI.',
 
     // Page Not Found
     'pageNotFound'       => 'Stránka nebyla nalezena',
-    'emptyController'    => 'Není zadán žádný Controller.',
+    'emptyController'    => 'Není zadán žádný controller.',
     'controllerNotFound' => 'Controller nebo jeho metoda nebyla nalezena: {0}::{1}',
-    'methodNotFound'     => 'Metoda Controlleru nebyla nalezena: {0}',
+    'methodNotFound'     => 'Metoda controlleru nebyla nalezena: "{0}"',
+    'localeNotSupported' => 'Lokalizace není podporována: {0}',
 
     // CSRF
+    // @deprecated use 'Security.disallowedAction'
     'disallowedAction' => 'Požadovaná akce není povolena.',
 
     // Uploaded file moving
-    'alreadyMoved' => 'Nahraný soubor už byl presunutý.',
-    'invalidFile'  => 'Pôvodný soubor není platný.',
-    'moveFailed'   => 'Nepodařilo se přesunout soubor z {0} do {1} ({2})',
+    'alreadyMoved' => 'Nahraný soubor již byl přesunut.',
+    'invalidFile'  => 'Původní soubor není platný soubor.',
+    'moveFailed'   => 'Soubor "{0}" nebylo možné přesunout do "{1}". Důvod: {2}',
 
     'uploadErrOk'        => 'Soubor byl úspěšně nahrán.',
-    'uploadErrIniSize'   => 'Soubor "%s" překračuje vaše nastavení upload_max_filesize.',
-    'uploadErrFormSize'  => 'Soubor "%s" překračuje limit pro upload nastavený ve vašem formuláři.',
+    'uploadErrIniSize'   => 'Soubor "%s" překračuje vaši ini direktivu upload_max_filesize.',
+    'uploadErrFormSize'  => 'Soubor "%s" překračuje limit pro nahrávání nastavený ve vašem formuláři.',
     'uploadErrPartial'   => 'Soubor "%s" byl nahrán pouze částečně.',
     'uploadErrNoFile'    => 'Nebyl nahrán žádný soubor.',
     'uploadErrCantWrite' => 'Soubor "%s" se nepodařilo zapsat na disk.',
     'uploadErrNoTmpDir'  => 'Soubor se nepodařilo nahrát: chybí dočasný adresář.',
-    'uploadErrExtension' => 'Nahrávání souborů bylo zastaveno rozšířením PHP.',
+    'uploadErrExtension' => 'Nahrávání souboru bylo zastaveno rozšířením PHP.',
     'uploadErrUnknown'   => 'Soubor "%s" nebyl nahrán z důvodu neznámé chyby.',
 
     // SameSite setting
-    'invalidSameSiteSetting' => 'SameSite nastavení musí být None, Lax, Strict nebo prázdný řetězec. Zadané: {0}',
+    // @deprecated
+    'invalidSameSiteSetting' => 'Nastavení SameSite musí být None, Lax, Strict nebo prázdný řetězec. Zadáno: {0}',
 ];

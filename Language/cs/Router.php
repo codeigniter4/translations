@@ -13,6 +13,8 @@ declare(strict_types=1);
 
 // Router language settings
 return [
-    'invalidParameter'    => 'Parameter se neshoduje s očekávaným typem.',
-    'missingDefaultRoute' => 'Není možné určit co má být zobrazeno. Zvolená cesta nebyla specifikována v routing souboru.',
+    'invalidParameter'         => 'Parametr neodpovídá očekávanému typu.',
+    'missingDefaultRoute'      => 'Nelze určit, co se má zobrazit. V souboru směrování nebyla zadána výchozí trasa.',
+    'invalidDynamicController' => 'Dynamický controller není z bezpečnostních důvodů povolen. Route handler: "{0}"',
+    'invalidControllerName'    => 'Oddělovačem namespace je zpětné lomítko (\), nikoli lomítko (/). Route handler: "{0}"',
 ];

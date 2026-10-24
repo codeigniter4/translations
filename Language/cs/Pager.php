@@ -13,13 +13,13 @@ declare(strict_types=1);
 
 // Pager language settings
 return [
-    'pageNavigation'         => 'Navigace stránky',
+    'pageNavigation'         => 'Navigace stránek',
     'first'                  => 'První',
     'previous'               => 'Předchozí',
     'next'                   => 'Další',
     'last'                   => 'Poslední',
     'older'                  => 'Starší',
     'newer'                  => 'Novější',
-    'invalidTemplate'        => '{0} je neplatná šablona pro Pager.',
-    'invalidPaginationGroup' => '{0} je neplatná skupina pro stránkování (Pagination).',
+    'invalidTemplate'        => '"{0}" není platná šablona Pager.',
+    'invalidPaginationGroup' => '"{0}" není platná skupina stránkování (Pagination).',
 ];

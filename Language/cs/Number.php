@@ -23,6 +23,6 @@ return [
     'thousand'    => ' tisíc',
     'million'     => ' milion',
     'billion'     => ' miliarda',
-    'trillion'    => ' trilion',
-    'quadrillion' => ' kvadrilion',
+    'trillion'    => ' bilion',
+    'quadrillion' => ' biliarda',
 ];
