@@ -186,6 +186,7 @@ return [
         'invalidFormatter',
         'invalidJSON',
         'invalidMime',
+        'invalidXMLValue',
         'missingExtension',
     ],
     'HTTP.php' => [
