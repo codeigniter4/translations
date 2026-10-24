@@ -65,7 +65,7 @@ return [
     'valid_json'            => 'Pole {field} musi zawierać poprawny json.',
 
     // Credit Cards
-    'valid_cc_num' => '{field} nie wydaje się być prawidłowym numerem karty kredytowej.',
+    'valid_cc_number' => '{field} nie wydaje się być prawidłowym numerem karty kredytowej.',
 
     // Files
     'uploaded' => '{field} nie jest prawidłowym przesłanym plikiem.',

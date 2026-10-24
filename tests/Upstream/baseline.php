@@ -186,6 +186,7 @@ return [
         'invalidFormatter',
         'invalidJSON',
         'invalidMime',
+        'invalidXMLValue',
         'missingExtension',
     ],
     'HTTP.php' => [
@@ -451,5 +452,6 @@ return [
         'invalidCellClass',
         'tagSyntaxError',
         'invalidDecoratorClass',
+        'restrictedConditional',
     ],
 ];

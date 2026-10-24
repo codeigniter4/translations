@@ -64,7 +64,7 @@ return [
     'valid_json'            => '{field} alanı geçerli bir json içermelidir.',
 
     // Credit Cards
-    'valid_cc_num' => '{field} geçerli bir kredi kartı numarası değil.',
+    'valid_cc_number' => '{field} geçerli bir kredi kartı numarası değil.',
 
     // Files
     'uploaded' => '{field} geçerli bir yüklenen dosya değil.',

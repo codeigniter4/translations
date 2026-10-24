@@ -24,7 +24,6 @@ return [
     'unsupportedImageCreate' => 'Seva yako haisai dii chaguo la GD linalohitajika kutayarisha aina hii ya picha.',
     'jpgOrPngRequired'       => 'Itifaki ya kubadilisha ukubwa wa picha iliyobainishwa katika mapendekezo yako inafanya kazi tu na picha za aina ya JPEG au PNG.',
     'rotateUnsupported'      => 'Kuzungusha picha haionekani kusaidiwa na seva yako.',
-    'libPathInvalid'         => 'Njia ya Extension yako ya picha sio sahihi. Tafadhali weka njia sahihi katika mapendekezo yako ya picha. {0}',
     'imageProcessFailed'     => 'Imeshindwa kutayarisha picha. Tafadhali hakikisha kuwa seva yako inasaidia itifaki iliyochaguliwa na kwamba njia ya Extension yako ya picha ni sahihi.',
     'rotationAngleRequired'  => 'Pembe ya kuzungusha inahitajika kufanya uzungushaji wa picha.',
     'invalidPath'            => 'Njia ya picha sio sahihi.',
@@ -33,4 +32,7 @@ return [
     'saveFailed'             => 'Haikuweza kuokoa picha. Tafadhali hakikisha kuwa picha na saraka la faili lina vibali vya kuandika.',
     'invalidDirection'       => 'Kugeuza `wima` au `mlalo` tu ndio kunaweza kufanyika. Iliyotolewa: {0}',
     'exifNotSupported'       => 'Kusoma data ya EXIF haisaidii katika usakinishaji huu wa PHP.',
+
+    // @deprecated
+    'libPathInvalid' => 'Njia ya Extension yako ya picha sio sahihi. Tafadhali weka njia sahihi katika mapendekezo yako ya picha. {0}',
 ];

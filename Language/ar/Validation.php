@@ -65,7 +65,7 @@ return [
     'valid_json'            => 'حقل {field} يجب أن يحتوي على json صالح.',
 
     // Credit Cards
-    'valid_cc_num' => '{field} لا يبدو أنه رقم بطاقة ائتمان صالح.',
+    'valid_cc_number' => '{field} لا يبدو أنه رقم بطاقة ائتمان صالح.',
 
     // Files
     'uploaded' => '{field} ليس ملفاً محملاً صالحاً.',

@@ -30,7 +30,7 @@ $finder = Finder::create()
     ]);
 
 $overrides = [
-    'declare_strict_types' => ['preserve_existing_declaration' => false],
+    'declare_strict_types' => ['strategy' => 'enforce'],
 ];
 
 $options = [

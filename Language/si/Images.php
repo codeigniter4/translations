@@ -24,7 +24,6 @@ return [
     'unsupportedImageCreate' => 'මෙම වර්ගයේ රූප සැකසීමට අවශ්‍ය GD function එක සඳහා ඔබගේ server එක සහය නොදක්වයි.', // Your server does not support the GD function required to process this type of image.
     'jpgOrPngRequired'       => 'ඔබගේ preferences දක්වා ඇති image resize ප්‍රොටෝකෝලය ක්‍රියාත්මක වන්නේ JPEG හෝ PNG රූප වර්ග සමඟ පමණි.', // The image resize protocol specified in your preferences only works with JPEG or PNG image types.
     'rotateUnsupported'      => 'Image rotation සඳහා ඔබගේ server එක සහාය දක්වන බවක් නොපෙනේ.', // Image rotation does not appear to be supported by your server.
-    'libPathInvalid'         => 'ඔබගේ image library එක සඳහා වන path එක නිවැරදි නොවේ. කරුණාකර ඔබගේ image preferences හි නිවැරදි path එක සකසන්න. {0}', // The path to your image library is not correct. Please set the correct path in your image preferences. {0}
     'imageProcessFailed'     => 'Image processing අසාර්ථක විය. කරුණාකර ඔබේ server එක තෝරාගත් ප්‍රොටෝකෝලය සඳහා සහය දක්වන බවත් ඔබේ image library එක සඳහා වන path එක නිවැරදි බවත් තහවුරු කරන්න.', // Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.
     'rotationAngleRequired'  => 'රූපය භ්‍රමණය කිරීම සඳහා භ්‍රමණ කෝණයක් අවශ්‍ය වේ.', // An angle of rotation is required to rotate the image.
     'invalidPath'            => 'රූපයට අදාල වන path එක නිවැරදි නොවේ.', // The path to the image is not correct.
@@ -33,4 +32,7 @@ return [
     'saveFailed'             => 'රූපය save කිරීමට නොහැක. කරුණාකර රූපය සහ ගොනු ඩිරෙක්ටරිය ලිවිය හැකි බවට වග බලා ගන්න.', // Unable to save the image. Please make sure the image and file directory are writable.
     'invalidDirection'       => 'පෙරළීමේ දිශාව විය හැක්කේ `සිරස්` හෝ `තිරස්` පමණි. ලබා දී ඇත්තේ: {0}', // Flip direction can be only `vertical` or `horizontal`. Given: {0}
     'exifNotSupported'       => 'EXIF දත්ත කියවීමට මෙම PHP ස්ථාපනය සහාය නොදක්වයි.', // Reading EXIF data is not supported by this PHP installation.
+
+    // @deprecated
+    'libPathInvalid' => 'ඔබගේ image library එක සඳහා වන path එක නිවැරදි නොවේ. කරුණාකර ඔබගේ image preferences හි නිවැරදි path එක සකසන්න. {0}', // The path to your image library is not correct. Please set the correct path in your image preferences. {0}
 ];

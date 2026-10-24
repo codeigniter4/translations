@@ -13,7 +13,8 @@ declare(strict_types=1);
 
 // Cache language settings
 return [
-    'unableToWrite'   => 'Не удается записать кэш в {0}',
+    'unableToWrite'   => 'Не удается записать кэш в {0}.',
+    'invalidHandler'  => 'Обработчик "{0}" для драйвера кэша является недопустимым.',
     'invalidHandlers' => 'Переменная $validHandlers в конфигурации кэша должна содержать массив.',
     'noBackup'        => 'В конфигурации кэширования не указан обработчик $backupHandler.',
     'handlerNotFound' => 'В конфигурации кэширования указан недопустимый обработчик.',

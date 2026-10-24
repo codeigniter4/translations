@@ -32,5 +32,7 @@ return [
     'saveFailed'             => 'Não é possível salvar a imagem. Por favor, certifique-se de que a imagem e o diretório de arquivos são graváveis.', // 'Unable to save the image. Please make sure the image and file directory are writable.',
     'invalidDirection'       => 'A direção da giro pode ser somente "vertical" ou "horizontal". Dado: "{0}"', // 'Flip direction can be only "vertical" or "horizontal". Given: "{0}"',
     'exifNotSupported'       => 'A leitura de dados EXIF não é suportada por esta instalação do PHP.', // 'Reading EXIF data is not supported by this PHP installation.',
-    'libPathInvalid'         => 'O caminho para a sua biblioteca de imagens não está correto. Por favor, defina o caminho correto nas suas preferências de imagem. "{0}"', // 'The path to your image library is not correct. Please set the correct path in your image preferences. "{0}"',
+
+    // @deprecated
+    'libPathInvalid' => 'O caminho para a sua biblioteca de imagens não está correto. Por favor, defina o caminho correto nas suas preferências de imagem. "{0}"', // 'The path to your image library is not correct. Please set the correct path in your image preferences. "{0}"',
 ];
