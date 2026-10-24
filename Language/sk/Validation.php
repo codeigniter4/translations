@@ -63,7 +63,7 @@ return [
     'valid_date'            => 'Pole {field} musí obsahovať platný dátum.',
 
     // Credit Cards
-    'valid_cc_num' => '{field} sa nezdá byť platné číslo kreditnej/debetnej karty.',
+    'valid_cc_number' => '{field} sa nezdá byť platné číslo kreditnej/debetnej karty.',
 
     // Files
     'uploaded' => '{field} je neplatný nahraný súbor.',

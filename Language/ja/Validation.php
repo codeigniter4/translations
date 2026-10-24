@@ -65,7 +65,7 @@ return [
     'valid_json'            => '{field} には有効なJSONを入力してください。', // 'The {field} field must contain a valid json.'
 
     // Credit Cards
-    'valid_cc_num' => '{field} は有効なクレジットカード番号ではないようです。', // '{field} does not appear to be a valid credit card number.'
+    'valid_cc_number' => '{field} は有効なクレジットカード番号ではないようです。', // '{field} does not appear to be a valid credit card number.'
 
     // Files
     'uploaded' => '{field} は有効なファイルではありません。', // '{field} is not a valid uploaded file.'

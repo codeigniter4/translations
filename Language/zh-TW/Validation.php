@@ -63,7 +63,7 @@ return [
     'valid_date'            => '欄位 {field} 必須是有效的日期格式',
 
     // Credit Cards
-    'valid_cc_num' => '欄位 {field} 並不是一組有效的信用卡號碼。',
+    'valid_cc_number' => '欄位 {field} 並不是一組有效的信用卡號碼。',
 
     // Files
     'uploaded' => '欄位 {field} 並非上傳檔案的格式。',

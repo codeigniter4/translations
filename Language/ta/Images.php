@@ -24,7 +24,6 @@ return [
     'unsupportedImageCreate' => 'இந்த வகையான படத்தைச் செயலாக்குவதற்குத் தேவையான GD செயல்பாட்டை உங்கள் சேவையகம் ஆதரிக்கவில்லை.', // 'Your server does not support the GD function required to process this type of image.',
     'jpgOrPngRequired'       => 'உங்கள் விருப்பத்தேர்வுகளில் குறிப்பிடப்பட்டுள்ள படத்தின் மறுஅளவிடல் நெறிமுறை JPEG அல்லது PNG பட வகைகளுடன் மட்டுமே செயல்படும்.', // 'The image resize protocol specified in your preferences only works with JPEG or PNG image types.',
     'rotateUnsupported'      => 'பட சுழற்சியை உங்கள் சேவையகம் ஆதரிக்கவில்லை.', // 'Image rotation does not appear to be supported by your server.',
-    'libPathInvalid'         => 'உங்கள் பட நூலகத்திற்கான பாதை சரியாக இல்லை. உங்கள் பட விருப்பங்களில் சரியான பாதையை அமைக்கவும். "{0}"', // 'The path to your image library is not correct. Please set the correct path in your image preferences. "{0}"',
     'imageProcessFailed'     => 'பட செயலாக்கம் தோல்வியடைந்தது. உங்கள் சேவையகம் தேர்ந்தெடுக்கப்பட்ட நெறிமுறையை ஆதரிக்கிறது என்பதையும், உங்கள் பட நூலகத்திற்கான பாதை சரியானது என்பதையும் சரிபார்க்கவும்.', // 'Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.',
     'rotationAngleRequired'  => 'படத்தை சுழற்ற ஒரு கோணம் தேவைப்படுகிறது.', // 'An angle of rotation is required to rotate the image.',
     'invalidPath'            => 'படத்திற்கான பாதை சரியாக இல்லை.', // 'The path to the image is not correct.',
@@ -33,4 +32,7 @@ return [
     'saveFailed'             => 'படத்தைச் சேமிக்க முடியவில்லை. படமும் கோப்பு கோப்பகமும் எழுதக்கூடியவை என்பதை உறுதிப்படுத்தவும்.', // 'Unable to save the image. Please make sure the image and file directory are writable.',
     'invalidDirection'       => 'புரட்டு (flip) திசையானது "செங்குத்து" அல்லது "கிடைமட்டமாக" மட்டுமே இருக்க முடியும். கொடுக்கப்பட்டது: "{0}"', // 'Flip direction can be only "vertical" or "horizontal". Given: "{0}"',
     'exifNotSupported'       => 'EXIF தரவைப் படிப்பது இந்த PHP நிறுவலால் ஆதரிக்கப்படவில்லை.', // 'Reading EXIF data is not supported by this PHP installation.',
+
+    // @deprecated
+    'libPathInvalid' => 'உங்கள் பட நூலகத்திற்கான பாதை சரியாக இல்லை. உங்கள் பட விருப்பங்களில் சரியான பாதையை அமைக்கவும். "{0}"', // 'The path to your image library is not correct. Please set the correct path in your image preferences. "{0}"',
 ];

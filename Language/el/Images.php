@@ -24,7 +24,6 @@ return [
     'unsupportedImageCreate' => 'Ο διακομιστής σας δεν υποστηρίζει τη λειτουργία GD που απαιτείται για την επεξεργασία αυτού του τύπου εικόνας.', // 'Your server does not support the GD function required to process this type of image.',
     'jpgOrPngRequired'       => 'Το πρωτόκολλο αλλαγής μεγέθους εικόνας που καθορίζεται στις προτιμήσεις σας λειτουργεί μόνο με τύπους εικόνων JPEG ή PNG.', // 'The image resize protocol specified in your preferences only works with JPEG or PNG image types.',
     'rotateUnsupported'      => 'Η εναλλαγή εικόνας δεν φαίνεται να υποστηρίζεται από τον διακομιστή σας.', // 'Image rotation does not appear to be supported by your server.',
-    'libPathInvalid'         => 'Η διαδρομή προς τη βιβλιοθήκη εικόνων σας δεν είναι σωστή. Παρακαλούμε ορίστε τη σωστή διαδρομή στις προτιμήσεις εικόνας σας. "{0}"', // 'The path to your image library is not correct. Please set the correct path in your image preferences. "{0}"',
     'imageProcessFailed'     => 'Η επεξεργασία της εικόνας απέτυχε. Βεβαιωθείτε ότι ο διακομιστής σας υποστηρίζει το επιλεγμένο πρωτόκολλο και ότι η διαδρομή προς τη βιβλιοθήκη εικόνων σας είναι σωστή.', // 'Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.',
     'rotationAngleRequired'  => 'Για την περιστροφή της εικόνας απαιτείται γωνία περιστροφής.', // 'An angle of rotation is required to rotate the image.',
     'invalidPath'            => 'Η διαδρομή προς την εικόνα δεν είναι σωστή', // 'The path to the image is not correct.',
@@ -33,4 +32,7 @@ return [
     'saveFailed'             => 'Δεν είναι δυνατή η αποθήκευση της εικόνας. Βεβαιωθείτε ότι η εικόνα και ο κατάλογος αρχείων είναι εγγράψιμα.', // 'Unable to save the image. Please make sure the image and file directory are writable.',
     'invalidDirection'       => 'Η κατεύθυνση αναστροφής μπορεί να είναι μόνο "κάθετη" ή "οριζόντια". Δόθηκε: "{0}"', // 'Flip direction can be only "vertical" or "horizontal". Given: "{0}"',
     'exifNotSupported'       => 'Η ανάγνωση δεδομένων EXIF δεν υποστηρίζεται από αυτήν την εγκατάσταση PHP.', // 'Reading EXIF data is not supported by this PHP installation.',
+
+    // @deprecated
+    'libPathInvalid' => 'Η διαδρομή προς τη βιβλιοθήκη εικόνων σας δεν είναι σωστή. Παρακαλούμε ορίστε τη σωστή διαδρομή στις προτιμήσεις εικόνας σας. "{0}"', // 'The path to your image library is not correct. Please set the correct path in your image preferences. "{0}"',
 ];

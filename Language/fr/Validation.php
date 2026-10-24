@@ -65,7 +65,7 @@ return [
     'valid_json'            => 'Le champ {field} doit contenir un json valide.',
 
     // Credit Cards
-    'valid_cc_num' => '{field} ne semble pas être un numéro de carte de crédit valide.',
+    'valid_cc_number' => '{field} ne semble pas être un numéro de carte de crédit valide.',
 
     // Files
     'uploaded' => 'Le fichier envoyé {field} n\'est pas valide.',
