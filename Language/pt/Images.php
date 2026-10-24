@@ -24,7 +24,6 @@ return [
     'unsupportedImageCreate' => 'O servidor não suporta a função GD necessária para processar este tipo de imagem.',
     'jpgOrPngRequired'       => 'O protocolo de redimensionamento de imagem especificado nas suas preferências só funciona com os tipos de imagem JPEG ou PNG.',
     'rotateUnsupported'      => 'A rotação de imagem não parece ser suportada pelo seu servidor.',
-    'libPathInvalid'         => 'O caminho para a sua biblioteca de imagens não está correto. Por favor, defina o caminho correto nas suas preferências de imagem. {0, string)',
     'imageProcessFailed'     => 'O processamento de imagem falhou. Por favor, verifique se o seu servidor suporta o protocolo escolhido e se o caminho para a sua biblioteca de imagens está correto.',
     'rotationAngleRequired'  => 'Um ângulo de rotação é necessário para girar a imagem.',
     'invalidPath'            => 'O caminho para a imagem não está correto.',
@@ -33,4 +32,7 @@ return [
     'saveFailed'             => 'Não é possível salvar a imagem. Por favor, certifique-se de que a imagem e o diretório de arquivos são graváveis.',
     'invalidDirection'       => 'A direção de inversão pode ser apenas `vertical` ou `horizontal`. Fornecido: {0}',
     'exifNotSupported'       => 'A leitura de dados EXIF não é suportada por esta instalação do PHP.',
+
+    // @deprecated
+    'libPathInvalid' => 'O caminho para a sua biblioteca de imagens não está correto. Por favor, defina o caminho correto nas suas preferências de imagem. {0, string)',
 ];

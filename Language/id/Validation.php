@@ -65,7 +65,7 @@ return [
     'valid_json'            => 'Bidang {field} harus berisi sebuah json yang valid.',
 
     // Credit Cards
-    'valid_cc_num' => '{field} tidak tampak sebagai sebuah nomor kartu kredit yang valid.',
+    'valid_cc_number' => '{field} tidak tampak sebagai sebuah nomor kartu kredit yang valid.',
 
     // Files
     'uploaded' => '{field} bukan sebuah berkas diunggah yang valid.',

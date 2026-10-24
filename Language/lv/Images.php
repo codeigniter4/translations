@@ -24,7 +24,6 @@ return [
     'unsupportedImageCreate' => 'Jūsu serveris neatbalsta GD funkciju, kas nepieciešama šāda veida attēlu apstrādei.', // 'Your server does not support the GD function required to process this type of image.'
     'jpgOrPngRequired'       => 'Jūsu iestatījumos norādītais attēla lieluma maiņas protokols darbojas tikai ar JPEG vai PNG attēlu tipiem.', // 'The image resize protocol specified in your preferences only works with JPEG or PNG image types.'
     'rotateUnsupported'      => 'Jūsu serveris neatbalsta attēlu pagriešanu un rotācijas funkcijas.', // 'Image rotation does not appear to be supported by your server.'
-    'libPathInvalid'         => 'Ceļš uz attēlu bibliotēku nav pareizs. Lūdzu, attēla iestatījumos iestatiet pareizo ceļu. {0}', // 'The path to your image library is not correct. Please set the correct path in your image preferences. {0}'
     'imageProcessFailed'     => 'Attēlu apstrāde neizdevās. Lūdzu, pārbaudiet, vai jūsu serveris atbalsta izvēlēto protokolu un vai ceļš uz attēlu bibliotēku ir pareizs.', // 'Image processing failed. Please verify that your server supports the chosen protocol and that the path to your image library is correct.'
     'rotationAngleRequired'  => 'Attēla pagriešanai ir nepieciešams rotācijas leņķis.', // 'An angle of rotation is required to rotate the image.'
     'invalidPath'            => 'Ceļš uz attēlu nav pareizs.', // 'The path to the image is not correct.'
@@ -33,4 +32,7 @@ return [
     'saveFailed'             => 'Nevar saglabāt attēlu. Lūdzu, pārliecinieties vai attēls un failu direktorija ir rakstāma.', // 'Unable to save the image. Please make sure the image and file directory are writable.'
     'invalidDirection'       => 'Pagriešanas virzienam ir jābūt: `vertical` vai `horizontal`. Norādīts: {0}', // 'Flip direction can be only `vertical` or `horizontal`. Given: {0}'
     'exifNotSupported'       => 'Šī PHP instalācija neatbalsta EXIF datu lasīšanu.', // 'Reading EXIF data is not supported by this PHP installation.'
+
+    // @deprecated
+    'libPathInvalid' => 'Ceļš uz attēlu bibliotēku nav pareizs. Lūdzu, attēla iestatījumos iestatiet pareizo ceļu. {0}', // 'The path to your image library is not correct. Please set the correct path in your image preferences. {0}'
 ];

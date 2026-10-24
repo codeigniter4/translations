@@ -20,4 +20,5 @@ return [
     'invalidCellClass'      => 'Не удается найти класс {0} ячеек представления.',
     'tagSyntaxError'        => 'У вас есть синтаксическая ошибка в тегах парсера: {0}',
     'invalidDecoratorClass' => '"{0}" неверный View Decorator.',
+    'restrictedConditional' => 'Условный оператор парсера не разрешен в ограниченном режиме: "{0}"',
 ];

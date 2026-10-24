@@ -64,7 +64,7 @@ return [
     'valid_json'            => '{field} polje mora sadržati validan JSON format.',
 
     // Credit Cards
-    'valid_cc_num' => '{field} izgleda da nije validan broj kreditne kartice.',
+    'valid_cc_number' => '{field} izgleda da nije validan broj kreditne kartice.',
 
     // Files
     'uploaded' => '{field} nije validna uploadovana datoteka.',

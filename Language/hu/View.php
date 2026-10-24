@@ -20,4 +20,5 @@ return [
     'invalidCellClass'      => 'Nem található a cellaosztály megjelenítő: {0}.',
     'tagSyntaxError'        => 'Szintaktikai hiba van az értelmező címkéiben: {0}',
     'invalidDecoratorClass' => 'A(z) {0} nem érvényes View Decorator.',
+    'restrictedConditional' => 'A Parser feltételes utasítás nem engedélyezett korlátozott módban: „{0}”',
 ];

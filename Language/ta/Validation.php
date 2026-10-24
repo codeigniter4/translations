@@ -65,7 +65,7 @@ return [
     'valid_json'            => '{field} புலத்தில் சரியான json இருக்க வேண்டும்.', // 'The {field} field must contain a valid json.',
 
     // Credit Cards
-    'valid_cc_num' => '{field} என்பது சரியான கிரெடிட் கார்டு எண்ணாகத் தெரியவில்லை.', // '{field} does not appear to be a valid credit card number.',
+    'valid_cc_number' => '{field} என்பது சரியான கிரெடிட் கார்டு எண்ணாகத் தெரியவில்லை.', // '{field} does not appear to be a valid credit card number.',
 
     // Files
     'uploaded' => '{field} சரியான பதிவேற்றிய கோப்பு அல்ல.', // '{field} is not a valid uploaded file.',

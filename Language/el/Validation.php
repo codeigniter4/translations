@@ -64,7 +64,7 @@ return [
     'valid_json'            => 'Το πεδίο {field} πρέπει να περιέχει έγκυρο json.', // 'The {field} field must contain a valid json.',
 
     // Credit Cards
-    'valid_cc_num' => '{field} δεν φαίνεται να είναι έγκυρος αριθμός πιστωτικής κάρτας.', // '{field} does not appear to be a valid credit card number.',
+    'valid_cc_number' => '{field} δεν φαίνεται να είναι έγκυρος αριθμός πιστωτικής κάρτας.', // '{field} does not appear to be a valid credit card number.',
 
     // Files
     'uploaded' => '{field} δεν είναι έγκυρο μεταφορτωμένο αρχείο.', // '{field} is not a valid uploaded file.',

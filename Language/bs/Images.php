@@ -24,7 +24,6 @@ return [
     'unsupportedImageCreate' => 'Vaš server ne podržava GD funkciju zahtjevanu da se obradi ovaj tip slike.',
     'jpgOrPngRequired'       => 'Protokol za promjenu veličine slike podešen u vašim perferensama radi sa JPEG ili PNG tipovima slika.',
     'rotateUnsupported'      => 'Izgleda da rotacija slike nije podržana na vašem serveru.',
-    'libPathInvalid'         => 'Putanja do biblioteke za slike nije ispravna. Molimo postavite tačnu putanju u vašim perferensama. {0}',
     'imageProcessFailed'     => 'Obrada slike neuspješna. Molimo provjerite da li vaš server podržaje izabran protokol i da je putanja do biblioteke za slike tačna.',
     'rotationAngleRequired'  => 'Ugao rotacije je zahtjevan da bi se rotirala slika.',
     'invalidPath'            => 'Putanja do slike nije validna.',
@@ -33,4 +32,7 @@ return [
     'saveFailed'             => 'Nije moguće spremiti sliku. Molimo provjerite da li se može vršiti zapis u navedeni direktorij.',
     'invalidDirection'       => 'Smjer okretanja može biti samo `vertical` ili `horizontal`. Dato: {0}',
     'exifNotSupported'       => 'Čitanje EXIF podataka nije podržano na ovoj PHP instalaciji.',
+
+    // @deprecated
+    'libPathInvalid' => 'Putanja do biblioteke za slike nije ispravna. Molimo postavite tačnu putanju u vašim perferensama. {0}',
 ];

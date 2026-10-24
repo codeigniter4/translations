@@ -24,7 +24,6 @@ return [
     'unsupportedImageCreate' => '你的伺服器不支援處理此類圖像所需的 GD 功能。',
     'jpgOrPngRequired'       => '在偏好設定中（preferences）調整圖像大小的功能僅適用於 JPEG 與 PNG 圖像。',
     'rotateUnsupported'      => '伺服器似乎不支援圖像旋轉。',
-    'libPathInvalid'         => 'image 程式庫的路徑不正確，請在圖像的偏好設定中（preferences）設定正確的路徑。 {0, string)',
     'imageProcessFailed'     => '圖像處理失敗，請確定您的伺服器支援您所選擇的協議，並且 image 程式庫所設定的路徑正確。',
     'rotationAngleRequired'  => '您必須設定旋轉角度才能執行旋轉圖像功能。',
     'invalidPath'            => '圖像的路徑不正確。',
@@ -33,4 +32,7 @@ return [
     'saveFailed'             => '儲存圖像失敗，請確定圖像和檔案目錄允許寫入。',
     'invalidDirection'       => '圖像翻轉方向只能是 `vertical` 或 `horizontal` 。 目前的值為： {0}',
     'exifNotSupported'       => 'PHP 環境不支援讀取EXIF資料。',
+
+    // @deprecated
+    'libPathInvalid' => 'image 程式庫的路徑不正確，請在圖像的偏好設定中（preferences）設定正確的路徑。 {0, string)',
 ];
