@@ -16,5 +16,6 @@ return [
     'invalidFormatter' => '"{0}" není platná Formatter třída.',
     'invalidJSON'      => 'Parsování JSON řetězce selhalo. Chyba: {0}',
     'invalidMime'      => 'Není definován žádný Formatter pro mime typ: "{0}".',
+    'invalidXMLValue'  => 'Hodnotu typu „{0}“ nelze převést na řetězec pro výstup ve formátu XML.',
     'missingExtension' => 'Pro formátování XML je nezbytné rozšíření SimpleXML.',
 ];
