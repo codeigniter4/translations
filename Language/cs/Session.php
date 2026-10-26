@@ -13,10 +13,12 @@ declare(strict_types=1);
 
 // Session language settings
 return [
-    'missingDatabaseTable'   => '`sessionSavePath` musí mít tabulku aby pracoval Database Session Handler.',
-    'invalidSavePath'        => 'Session: Nastavená cesta uložení "{0}" není složka, neexistuje, nebo nemůže být vytvořena.',
-    'writeProtectedSavePath' => 'Session: Nastavená cesta uložení "{0}" není zapisovatelná skrze PHP proces.',
-    'emptySavePath'          => 'Session: Není nastavená cesta pro uložení.',
-    'invalidSavePathFormat'  => 'Session: Neplatný formát Redis cesty: {0}',
-    'invalidSameSiteSetting' => 'Session: SameSite nastavenie musí byť None, Lax, Strict, alebo prázdny reťazec. Zadané: {0}',
+    'missingDatabaseTable'   => 'Session: "savePath" musí obsahovat název tabulky, aby Database Session Handler fungoval.',
+    'invalidSavePath'        => 'Session: Nastavená cesta uložení "{0}" není adresář, neexistuje nebo nemůže být vytvořena.',
+    'writeProtectedSavePath' => 'Session: Do nastavené cesty uložení "{0}" nemůže PHP proces zapisovat.',
+    'emptySavePath'          => 'Session: Není nastavena cesta uložení.',
+    'invalidSavePathFormat'  => 'Session: Neplatný formát cesty uložení Redis: "{0}"',
+
+    // @deprecated
+    'invalidSameSiteSetting' => 'Session: Nastavení SameSite musí být None, Lax, Strict nebo prázdný řetězec. Zadáno: "{0}"',
 ];

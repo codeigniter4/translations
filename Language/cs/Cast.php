@@ -13,10 +13,18 @@ declare(strict_types=1);
 
 // Cast language settings
 return [
-    'jsonErrorDepth'         => 'Byla prekročena maximální velikost zásobníku',
-    'jsonErrorStateMismatch' => 'Neplatný nebo poškozený JSON',
-    'jsonErrorCtrlChar'      => 'Nalezen neočekávaný kontrolní znak',
-    'jsonErrorSyntax'        => 'Chyba syntaxe, poškozený JSON',
-    'jsonErrorUtf8'          => 'Poškozené UTF-8 znaky, možná nesprávné kódování',
-    'jsonErrorUnknown'       => 'Neznáma chyba',
+    'baseCastMissing'        => 'Třída "{0}" musí dědit od třídy "CodeIgniter\Entity\Cast\BaseCast".',
+    'enumInvalidCaseName'    => 'Neplatný název případu (case) "{0}" pro enum "{1}".',
+    'enumInvalidType'        => 'Očekáván enum typu "{1}", ale přijat "{0}".',
+    'enumInvalidValue'       => 'Neplatná hodnota "{1}" pro enum "{0}".',
+    'enumMissingClass'       => 'Pro přetypování na enum musí být zadána třída enumu.',
+    'enumNotEnum'            => '"{0}" není platná třída enumu.',
+    'invalidCastMethod'      => '"{0}" je neplatná metoda přetypování, platné metody jsou: ["get", "set"].',
+    'invalidTimestamp'       => 'Přetypování "timestamp" očekává platné časové razítko.',
+    'jsonErrorCtrlChar'      => 'Nalezen neočekávaný řídicí znak.',
+    'jsonErrorDepth'         => 'Byla překročena maximální hloubka zásobníku.',
+    'jsonErrorStateMismatch' => 'Podtečení nebo neshoda režimů.',
+    'jsonErrorSyntax'        => 'Chyba syntaxe, poškozený JSON.',
+    'jsonErrorUnknown'       => 'Neznámá chyba.',
+    'jsonErrorUtf8'          => 'Poškozené UTF-8 znaky, pravděpodobně nesprávně zakódované.',
 ];
