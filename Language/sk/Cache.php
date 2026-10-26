@@ -13,8 +13,9 @@ declare(strict_types=1);
 
 // Cache language settings
 return [
-    'unableToWrite'   => 'Cache nie je možné uložiť do {0}',
-    'invalidHandlers' => 'Cache config musí mať pole z $validHandlers.',
-    'noBackup'        => 'Cache config musí mať nastavený handler a backupHandler.',
-    'handlerNotFound' => 'Cache config má neplatný špecifikovaný handler alebo záložný handler.',
+    'unableToWrite'   => 'Cache nie je možné zapísať do "{0}".',
+    'invalidHandler'  => 'Cache ovládač "{0}" nie je platný cache handler.',
+    'invalidHandlers' => 'Konfigurácia cache musí obsahovať pole $validHandlers.',
+    'noBackup'        => 'Konfigurácia cache musí mať nastavený handler a backupHandler.',
+    'handlerNotFound' => 'Konfigurácia cache má zadaný neplatný handler alebo záložný handler.',
 ];
