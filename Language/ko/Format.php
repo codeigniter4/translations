@@ -16,5 +16,6 @@ return [
     'invalidFormatter' => '"{0}"은(는) 유효한 포맷터 클래스가 아닙니다.', // '"{0}" is not a valid Formatter class.'
     'invalidJSON'      => 'JSON 문자열 파싱 실패, 에러: {0}.', // 'Failed to parse JSON string. Error: {0}'
     'invalidMime'      => 'MIME 유형에 대해 정의 된 포맷터 없음 : "{0}".', // 'No Formatter defined for mime type: "{0}".'
+    'invalidXMLValue'  => 'XML 출력을 위해 “{0}” 유형의 값을 문자열로 변환할 수 없습니다.', // 'Cannot convert the value of type "{0}" to a string for XML output.'
     'missingExtension' => 'XML 형식을 지정하려면 SimpleXML 확장이 필요합니다.', // 'The SimpleXML extension is required to format XML.'
 ];
