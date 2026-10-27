@@ -55,6 +55,7 @@ return [
         'helpDescription',
         'helpOptions',
         'helpUsage',
+        'inputEnded',
         'invalidColor',
         'namespaceNotDefined',
         'signals.noPcntlExtension',
