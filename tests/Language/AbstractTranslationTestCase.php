@@ -13,7 +13,6 @@ declare(strict_types=1);
 
 namespace Translations\Tests;
 
-use CodeIgniter\CLI\CLI;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 
@@ -288,8 +287,8 @@ abstract class AbstractTranslationTestCase extends TestCase
                         $diffs[] = sprintf(
                             "\n%s:\n%s\n%s",
                             $file,
-                            CLI::color("-'{$expectedKey}' => '{$original[$expectedKey]}';", 'red'),
-                            CLI::color("+'{$actualKey}' => '{$translated[$actualKey]}';", 'green'),
+                            "-'{$expectedKey}' => '{$original[$expectedKey]}';",
+                            "+'{$actualKey}' => '{$translated[$actualKey]}';",
                         );
                         break;
                     }
@@ -300,7 +299,7 @@ abstract class AbstractTranslationTestCase extends TestCase
         $this->assertEmpty($diffs, sprintf(
             "Failed asserting that the translated language keys in \"%s\" locale are ordered correctly.\n%s\n%s",
             $locale,
-            CLI::color('--- Original', 'red') . "\n" . CLI::color('+++ Translated', 'green'),
+            "--- Original\n+++ Translated",
             implode("\n", $diffs),
         ));
     }

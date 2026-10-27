@@ -13,7 +13,6 @@ declare(strict_types=1);
 
 namespace Translations\Tests\Upstream;
 
-use CodeIgniter\CLI\CLI;
 use PHPUnit\Framework\Attributes\CoversNothing;
 use PHPUnit\Framework\Attributes\Group;
 use PHPUnit\Framework\TestCase;
@@ -101,11 +100,11 @@ final class LanguageBaselineTest extends TestCase
         $changes = [];
 
         foreach ($added as $entry) {
-            $changes[] = CLI::color(sprintf('+ %s', $entry), 'green');
+            $changes[] = sprintf('+ %s', $entry);
         }
 
         foreach ($removed as $entry) {
-            $changes[] = CLI::color(sprintf('- %s', $entry), 'red');
+            $changes[] = sprintf('- %s', $entry);
         }
 
         return $changes;
