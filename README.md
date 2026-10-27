@@ -1,6 +1,6 @@
 # Translations for CodeIgniter 4 System Messages
 
-[![build](https://github.com/codeigniter4/translations/actions/workflows/build.yml/badge.svg)](https://github.com/codeigniter4/translations/actions/workflows/build.yml)
+[![tests](https://github.com/codeigniter4/translations/actions/workflows/tests.yml/badge.svg)](https://github.com/codeigniter4/translations/actions/workflows/tests.yml)
 [![code style](https://github.com/codeigniter4/translations/actions/workflows/code-style.yml/badge.svg)](https://github.com/codeigniter4/translations/actions/workflows/code-style.yml)
 [![upstream](https://github.com/codeigniter4/translations/actions/workflows/upstream.yml/badge.svg)](https://github.com/codeigniter4/translations/actions/workflows/upstream.yml)
 [![Latest Stable Version](https://poser.pugx.org/codeigniter4/translations/v)](//packagist.org/packages/codeigniter4/translations)

@@ -1,4 +1,4 @@
-name: build
+name: Tests
 
 on:
   push:
@@ -22,13 +22,13 @@ permissions:
   contents: read
 
 concurrency:
-  group: build-${{ github.ref }}
+  group: tests-${{ github.event_name == 'pull_request' && github.ref || github.run_id }}
   cancel-in-progress: true
 
 jobs:
   main:
     name: Build [PHP ${{ matrix.php-version }}]
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     if: github.repository == 'codeigniter4/translations'
     timeout-minutes: 20
 

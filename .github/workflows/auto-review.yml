@@ -1,4 +1,4 @@
-name: automatic review
+name: Automatic Review
 
 on:
   schedule:
@@ -22,13 +22,13 @@ permissions:
   contents: read
 
 concurrency:
-  group: auto-review-${{ github.ref }}
+  group: auto-review-${{ github.event_name == 'pull_request' && github.ref || github.run_id }}
   cancel-in-progress: true
 
 jobs:
   code:
     name: Automatic Review on Code [PHP ${{ matrix.php-version }}]
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     if: github.repository == 'codeigniter4/translations'
     timeout-minutes: 15
 

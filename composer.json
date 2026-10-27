@@ -25,7 +25,8 @@
         {
             "type": "vcs",
             "url": "https://github.com/codeigniter4/CodeIgniter4",
-            "canonical": true
+            "canonical": true,
+            "no-api": true
         }
     ],
     "autoload": {
