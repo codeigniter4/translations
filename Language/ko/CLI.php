@@ -53,6 +53,7 @@ return [
     'helpDescription'     => '설명:', // 'Description:'
     'helpOptions'         => '옵션:', // 'Options:'
     'helpUsage'           => '사용:', // 'Usage:'
+    'inputEnded'          => '유효한 답변이 나오기 전에 입력이 종료되었습니다.', // 'The input ended before a valid answer was given.'
     'invalidColor'        => '유효하지 않은 "{0}" 색상: "{1}".', // 'Invalid "{0}" color: "{1}".'
     'namespaceNotDefined' => '네임 스페이스 "{0}"이(가) 정의되지 않았습니다.', // 'Namespace "{0}" is not defined.'
     'signals'             => [
