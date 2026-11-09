@@ -26,7 +26,7 @@ return [
     'noSocket'              => 'Nepavyksta atverti lizdo į Sendmail. Prašome patikrinti nustatymus.',
     'noHostname'            => 'Jūs nenurodėte SMTP mazgo pavadinimo.',
     'SMTPError'             => 'Buvo susidurta su šia SMTP klaida: {0}',
-    'noSMTPAuth'            => 'Klaida: turite nurodyti SMTP vartotojo vardą ir slaptažodį.',
+    'noSMTPAuth'            => 'Klaida: turite nurodyti SMTP naudotojo vardą ir slaptažodį.',
     'invalidSMTPAuthMethod' => 'Klaida: SMTP autentifikacijos metodas „{0}“ nepalaikomas, nustatykite „login“ arba „plain".',
     'failureSMTPAuthMethod' => 'Nepavyko pradėti AUTH komandos. Jūsų serveris gali nebūti sukonfigūruotas naudoti AUTH {0} metodą.',
     'SMTPAuthCredentials'   => 'Nepavyko autentifikuoti naudotojo duomenų. Klaida: {0}',
