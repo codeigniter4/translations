@@ -53,6 +53,7 @@ return [
     'helpDescription'     => 'Aprašymas:',
     'helpOptions'         => 'Parinktys:',
     'helpUsage'           => 'Naudojimas:',
+    'inputEnded'          => 'Įvestis baigėsi prieš pateikiant tinkamą atsakymą.',
     'invalidColor'        => 'Neteisinga {0} spalva: {1}.',
     'namespaceNotDefined' => 'Vardų sritis „{0}“ neapibrėžta.',
     'signals'             => [

@@ -16,5 +16,6 @@ return [
     'invalidFormatter' => '„{0}“ nėra galiojanti formatatoriaus klasė.',
     'invalidJSON'      => 'Nepavyko nuskaityti json eilutės, klaida: „{0}“.',
     'invalidMime'      => 'Mime tipui nėra apibrėžto formatatoriaus: „{0}“.',
+    'invalidXMLValue'  => 'Negalima konvertuoti „{0}“ tipo reikšmės į eilutę XML išvesčiai.',
     'missingExtension' => 'XML formatavimui reikalingas PHP SimpleXML praplėtimas.',
 ];
