@@ -13,8 +13,9 @@ declare(strict_types=1);
 
 // Cache language settings
 return [
-    'unableToWrite'   => 'Laikinąjai atmintinei nepavyko rašyti į {0}',
+    'unableToWrite'   => 'Laikinąjai atmintinei nepavyko rašyti į „{0}“.',
+    'invalidHandler'  => 'Laikinosios atmintinės variklis „{0}“ nėra tinkama laikinosios atmintinės tvarkyklė.',
     'invalidHandlers' => 'Laikinosios atmintinės konfigūracijos faile turi būti $validHandlers masyvas.',
-    'noBackup'        => 'Laikinosios atmintinės konfigūracijos faile turi būti nustatytas įvykių doroklio ir atsarginio įvykių doroklio parametras.',
-    'handlerNotFound' => 'Laikinosios atmintinės knfigūracijos faile nurodytas neteisingas įvykių doroklio ar atsarginio įvykių doroklio parametras.',
+    'noBackup'        => 'Laikinosios atmintinės konfigūracijos faile turi būti nustatyta tvarkyklė ir atsarginė tvarkyklė.',
+    'handlerNotFound' => 'Laikinosios atmintinės konfigūracijos faile nurodyta netinkama tvarkyklė arba atsarginė tvarkyklė.',
 ];
