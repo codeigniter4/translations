@@ -97,6 +97,8 @@ foreach ($changelog as $log) {
                 continue;
             }
         }
+
+        continue;
     }
 
     $otherChanges[] = $log;

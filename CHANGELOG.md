@@ -5,6 +5,31 @@ All notable changes to this library will be documented in this file:
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v4.7.6](https://github.com/codeigniter4/translations/compare/v4.7.4...v4.7.6) - 2026-11-18
+
+### Changed
+
+- cs (Czech)
+- hu (Hungarian)
+- ko (Korean)
+- lt (Lithuanian)
+- nl (Dutch)
+- pt-BR (Brazilian)
+- ro (Romanian)
+- sk (Slovak)
+- sv-SE (Swedish)
+
+### Others
+
+- chore(deps): bump actions/deploy-pages in the actions group (#558)
+- chore: revise locale maintainer details in README (#559)
+- fix: update translations and order in the tests (#566)
+- chore(deps): bump shivammathur/setup-php (#565)
+- chore: remove the ANSI colors since escaped by phpunit 12.5
+- chore: update workflows and add `no-api:true` to composer.json
+- chore(deps-dev): update phpunit/phpunit requirement (#572)
+- chore: update the baseline language keys
+
 ## [v4.7.4](https://github.com/codeigniter4/translations/compare/v4.7.2...v4.7.4) - 2026-08-05
 
 ### Changed
