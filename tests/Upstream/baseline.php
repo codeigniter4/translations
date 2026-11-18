@@ -221,6 +221,7 @@ return [
         'disallowedAction',
         'alreadyMoved',
         'invalidFile',
+        'invalidFileName',
         'moveFailed',
         'uploadErrOk',
         'uploadErrIniSize',
