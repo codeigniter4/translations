@@ -63,9 +63,10 @@ return [
     'disallowedAction' => '해당 요청은 허용되지 않습니다.', // 'The action you requested is not allowed.'
 
     // Uploaded file moving
-    'alreadyMoved' => '업로드된 파일은 이미 옮겨졌습니다.', // 'The uploaded file has already been moved.'
-    'invalidFile'  => '원본 파일은 유효한 파일이 아닙니다.', // 'The original file is not a valid file.'
-    'moveFailed'   => '파일 "{0}" 경우에 "{1}" ({2}) 쪽으로 이동할 수 없습니다.', // 'Could not move file "{0}" to "{1}". Reason: {2}'
+    'alreadyMoved'    => '업로드된 파일은 이미 옮겨졌습니다.', // 'The uploaded file has already been moved.'
+    'invalidFile'     => '원본 파일은 유효한 파일이 아닙니다.', // 'The original file is not a valid file.'
+    'invalidFileName' => '업로드된 파일 이름이 유효하지 않습니다.', // 'The uploaded filename is invalid.'
+    'moveFailed'      => '파일 "{0}" 경우에 "{1}" ({2}) 쪽으로 이동할 수 없습니다.', // 'Could not move file "{0}" to "{1}". Reason: {2}'
 
     'uploadErrOk'        => '파일이 성공적으로 업로드가 되었습니다.', // 'The file uploaded with success.'
     'uploadErrIniSize'   => '업로드 에러: 해당 파일 "%s"의 경우, 용량이 ini 파일의 upload_max_filesize 설정값을 초과하였습니다.', // 'The file "%s" exceeds your upload_max_filesize ini directive.'
